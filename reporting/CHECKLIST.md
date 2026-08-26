@@ -25,13 +25,18 @@
 - [x] Google Drive root folder created
 - [x] Google Drive top-level structure created
 - [x] GitHub repository created on remote
-- [x] Bootstrap package pushed/materialized on GitHub
+- [x] Bootstrap package pushed to GitHub
+- [x] GitHub security workflow passed
+- [x] OSF registration template selected: Generalized Systematic Review
+- [x] OSF Protocol v1.0 registration package prepared
+- [x] OSF metadata and copy/paste registration answers prepared
 - [ ] OSF project created
-- [ ] Protocol registered on OSF
+- [ ] Protocol v1.0 registered on OSF
+- [ ] OSF registration DOI/URL recorded in GitHub/workbook
 - [ ] Zotero root collection created
 - [ ] Zotero subcollections/tags created
 
-## Definitive search
+## Definitive search — LOCKED until OSF + Zotero release gate passes
 - [ ] PubMed A/B/C
 - [ ] Scopus A/B/C
 - [ ] Web of Science A/B/C
