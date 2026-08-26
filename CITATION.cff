@@ -1,19 +1,31 @@
 cff-version: 1.2.0
-message: "If you use this protocol, search strategy, data structure, or code, please cite this project."
+message: "If you use this conceptual protocol, evidence-identification architecture, framework materials, or related research outputs, please cite this project."
 title: "From Tactical Athlete to Operational Readiness: An Applied Human Performance Framework for Brazilian Public Safety"
-type: dataset
 authors:
   - family-names: "Florindo de Deus"
     given-names: "Matheus"
 version: 1.0.0
-date-released: 2026-08-25
-license: MIT
+date-released: 2026-08-26
+license: CC-BY-4.0
 repository-code: "https://github.com/matheusflorindo32/operational-readiness-brazil"
+repository-artifact: "https://osf.io/djgax"
 keywords:
   - tactical athlete
+  - atleta tático
   - operational readiness
+  - prontidão operacional
+  - tactical human performance
   - human performance
   - public safety
   - law enforcement
   - tactical medicine
   - implementation science
+  - conceptual essay
+  - evidence-informed framework
+  - Brazil
+abstract: >-
+  Conceptual and applied scientific essay protocol examining the tactical athlete
+  construct as a starting point for a broader, multidimensional model of operational
+  readiness in Brazilian public safety. The project is informed by structured and
+  reproducible evidence identification, critical synthesis, Brazilian contextual
+  analysis, transferability assessment, and implementation-science concepts.
