@@ -1,0 +1,48 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python/R caches
+__pycache__/
+*.py[cod]
+.Rhistory
+.RData
+.Rproj.user/
+
+# Large / restricted research files
+02_LITERATURA/
+*.pdf
+*.docx
+*.pptx
+*.xlsx
+*.xls
+*.sav
+*.dta
+*.rds
+*.parquet
+*.zip
+
+# Data handling
+/data/raw/*
+!/data/raw/.gitkeep
+/data/restricted/
+
+# Temporary/export files
+~$*
+*.tmp
+*.bak
+output/
+build/

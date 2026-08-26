@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this protocol, search strategy, data structure, or code, please cite this project."
+title: "From Tactical Athlete to Operational Readiness: An Applied Human Performance Framework for Brazilian Public Safety"
+type: dataset
+authors:
+  - family-names: "Florindo de Deus"
+    given-names: "Matheus"
+version: 1.0.0
+date-released: 2026-08-25
+license: MIT
+repository-code: "https://github.com/matheusflorindo32/operational-readiness-brazil"
+keywords:
+  - tactical athlete
+  - operational readiness
+  - human performance
+  - public safety
+  - law enforcement
+  - tactical medicine
+  - implementation science

@@ -1,0 +1,38 @@
+name: Security baseline
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  secret-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Scan repository for secrets with Gitleaks
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  file-policy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Reject obvious secret files and large PDFs
+        shell: bash
+        run: |
+          set -euo pipefail
+          if find . -type f \( -name '.env' -o -name '*.pem' -o -name '*.p12' -o -name '*.pfx' -o -name 'credentials*.json' \) | grep -q .; then
+            echo 'Forbidden secret-bearing file detected.' >&2
+            exit 1
+          fi
+          if find . -type f -name '*.pdf' -size +2M | grep -q .; then
+            echo 'Large PDF detected. Keep full-text articles in Zotero/Drive, not public GitHub.' >&2
+            exit 1
+          fi
