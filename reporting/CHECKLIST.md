@@ -24,8 +24,8 @@
 - [x] SECURITY.md prepared
 - [x] Google Drive root folder created
 - [x] Google Drive top-level structure created
-- [ ] GitHub repository created on remote
-- [ ] Bootstrap package pushed to GitHub
+- [x] GitHub repository created on remote
+- [x] Bootstrap package pushed/materialized on GitHub
 - [ ] OSF project created
 - [ ] Protocol registered on OSF
 - [ ] Zotero root collection created
