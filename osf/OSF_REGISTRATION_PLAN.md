@@ -1,69 +1,58 @@
-# OSF Registration Plan — Protocol v1.0 FROZEN
+# OSF Registration Record — Conceptual Essay Protocol v1.0
 
-## Registration target
-Create an OSF project named:
-**Operational Readiness Brazil — From Tactical Athlete to Operational Readiness**
-
-## Registration template
-Use **Generalized Systematic Review**. The current OSF documentation explicitly describes this template as intended for systematic reviews, scoping reviews, and meta-analyses.
-
-## Registration timing
-Register **before definitive database searching, production screening, final extraction, and evidence synthesis**.
-
-The project is currently at:
-- Protocol v1.0 FROZEN
-- Search Strategy Pilot complete
-- Seed sensitivity 15/15
-- Definitive searches NOT started
-
-## Recommended visibility
-**Public immediately**, with DOI enabled/accepted for the public registration. No embargo is recommended for this protocol snapshot unless contributors have a specific blinded-review reason.
+## Status
+**REGISTERED — 2026-08-26**
 
 ## Registration title
-**From Tactical Athlete to Operational Readiness: An Applied Human Performance Framework for Brazilian Public Safety — Protocol v1.0**
+**From Tactical Athlete to Operational Readiness: An Applied Human Performance Framework for Brazilian Public Safety — Conceptual Essay Protocol v1.0**
 
-## Portuguese title
-**Do Atleta Tático à Prontidão Operacional: um framework aplicado de desempenho humano para a segurança pública brasileira — Protocolo v1.0**
+## Study design
+Conceptual and applied scientific essay informed by structured and reproducible evidence identification, critical synthesis, Brazilian contextual analysis, transferability assessment, and implementation-science concepts.
 
-## Frozen registration package
-Upload a clean, versioned snapshot only:
-1. `01_PROJECT_CHARTER_v1.0.md`
-2. `02_PROTOCOL_v1.0_FROZEN.md`
-3. `03_EVIDENCE_COMMAND_CENTER_PROTOCOL_v1.0.xlsx`
-4. `04_SEARCH_STRATEGY_PILOT_v1.0.md`
-5. `05_SEED_SENSITIVITY_v1.0.md`
-6. `06_TRANSFERABILITY_SPEC_v1.0.md`
-7. `07_AMENDMENTS_v1.0.md`
-8. `08_CHANGELOG_v1.0.md`
-9. `09_OSF_REGISTRATION_METADATA.md`
-10. `10_GENERALIZED_SYSTEMATIC_REVIEW_ANSWERS.md`
-11. `11_MANIFEST_SHA256.txt`
+This is not a systematic review, scoping review, meta-analysis, or experimental study.
 
-## Do not freeze in the registration
-- copyrighted article PDFs
-- `.env`, API keys, tokens, credentials or private keys
-- sensitive personal data
-- restricted operational documents
-- Zotero database/profile files
-- manuscript drafts that will change continuously
+## OSF associated project
+https://osf.io/djgax
 
-## Metadata
-### Description
-This project develops an evidence-informed applied human performance framework for operational readiness in Brazilian public safety. The study is designed as a JBI-guided scoping review reported according to PRISMA-ScR, with PRISMA-S for search reporting. It maps evidence-supported components, indicators, assessment approaches and implementation strategies relevant to operational readiness, integrating international tactical human performance evidence with Brazilian public-safety evidence and contextual constraints. Military and other tactical evidence are not assumed to be directly equivalent to Brazilian public safety and are assessed through an explicit transferability framework. Implementation determinants and outcomes are mapped using CFIR and Proctor implementation outcomes, with ERIC used only as a subsidiary strategy taxonomy. APHT/TEMS/TCCC/TECC evidence is included only when directly related to medical readiness or operational performance. The protocol was frozen before the definitive searches.
+## Author shown in registration
+Matheus Florindo de Deus
 
-### Tags
-`tactical athlete`; `operational readiness`; `human performance`; `public safety`; `law enforcement`; `police`; `firefighter`; `first responder`; `tactical medicine`; `APHT`; `TEMS`; `TCCC`; `TECC`; `implementation science`; `CFIR`; `scoping review`; `PRISMA-ScR`; `PRISMA-S`; `Brazil`
+## Registration date
+2026-08-26
 
-## Governance after registration
-- Record the OSF project URL and registration DOI/URL in `README.md`, `CITATION.cff`, the workbook, and `CHANGELOG.md`.
-- Every post-registration protocol change must be documented prospectively in `AMENDMENTS.md` and `CHANGELOG.md`.
-- Never overwrite the historical meaning of Protocol v1.0.
-- The OSF registration is the immutable time-stamped snapshot; GitHub remains the canonical evolving version-controlled scientific core.
+## Registration type
+Open-ended registration / **Inscrição aberta**.
+
+## License
+CC BY 4.0 International.
+
+## Registered files
+1. `01_CONCEPTUAL_ESSAY_PROTOCOL_v1.0.txt`
+2. `02_EVIDENCE_IDENTIFICATION_PLAN_v1.0.txt`
+3. `03_FRAMEWORK_DEVELOPMENT_PRINCIPLES_v1.0.txt`
+4. `04_GOVERNANCE_AND_TRANSPARENCY_v1.0.txt`
+5. `05_REGISTRATION_METADATA_v1.0.txt`
+
+## Core registered proposition
+The tactical athlete construct is the conceptual starting point, not the endpoint. The essay advances toward a multidimensional model of operational readiness integrating health, physical capability, occupational performance, cognition, sleep/recovery, occupational load, injury prevention, medical readiness, monitoring, implementation conditions, and occupational longevity.
+
+## Paradigm-shift rationale
+The project addresses an emerging need for a paradigm shift in attention to Brazilian public-safety professionals, moving from fragmented, episodic, and predominantly physical approaches toward an integrated, longitudinal, multidimensional, and implementation-oriented model.
+
+## Evidence-identification status at registration
+The conceptual protocol and evidence-identification architecture had been developed before definitive evidence gathering. A 15-study seed-set exercise had been used only to test conceptual coverage of the architecture. No claim of absolute systematic-review sensitivity is made.
+
+## DOI status
+**Not yet independently verified in the project record.**
+
+The DOI must not be added to README, CITATION.cff, manuscript, or spreadsheet until it is explicitly visible and verified on the public OSF registration page.
+
+## Governance
+- GitHub remains the canonical version-controlled scientific core.
+- Zotero remains the bibliographic source of truth.
+- Google Drive remains the collaborative/admin and licensed full-text workspace.
+- OSF preserves the registered public methodological baseline.
+- Any post-registration substantive change must be documented prospectively in `AMENDMENTS.md` and `CHANGELOG.md`.
 
 ## Release gate
-The definitive search remains blocked until:
-- [ ] OSF project created
-- [ ] Protocol v1.0 registration submitted/approved or publicly archived
-- [ ] OSF registration DOI/URL recorded
-- [ ] Zotero root collection created
-- [ ] Zotero subcollections/tags created
+OSF is complete. Definitive structured evidence identification remains locked until Zotero is materialized and its import/deduplication workflow is verified.
