@@ -1,10 +1,13 @@
-# Zotero Collection Plan
+# Zotero Collection Plan — Conceptual Essay Workflow
+
+## Release-gate role
+Zotero is the **bibliographic single source of truth** and the final infrastructure gate before definitive structured evidence identification begins.
 
 ## Root collection
 **Tactical Athlete → Operational Readiness Brazil**
 
 ## Subcollections
-1. Definitions
+1. Definitions / Concepts
 2. Tactical Athlete
 3. Human Performance
 4. Operational Readiness
@@ -20,33 +23,78 @@
 14. Cardiovascular / Cardiometabolic
 15. External Load / Equipment
 16. Wearables / Monitoring
-17. Brazil
-18. Implementation Science
-19. Frameworks / Guidelines
-20. Key Papers / Seed Studies
-21. Included — Full Text
-22. Excluded — Full Text
+17. Occupational Health / Longevity
+18. Brazil
+19. Implementation Science — CFIR / Proctor / ERIC
+20. Frameworks / Guidelines / Consensus
+21. Key Papers / Seed Studies
+22. Official / Grey Literature
+23. Core Evidence — Essay
+24. Contextual / Supporting Evidence
+25. Not Used / Out of Scope
 
 ## Required tags
+### Status
 - `status:seed`
-- `status:included`
-- `status:excluded`
-- `status:maybe`
+- `status:core-evidence`
+- `status:contextual`
+- `status:not-used`
+- `status:metadata-verified`
+- `status:retraction-checked`
+
+### Domain
 - `domain:physical`
+- `domain:occupational-performance`
 - `domain:cognitive`
 - `domain:recovery`
 - `domain:health`
 - `domain:load`
+- `domain:injury`
+- `domain:nutrition`
 - `domain:apht`
+- `domain:monitoring`
 - `domain:implementation`
+- `domain:longevity`
+
+### Population / context
 - `population:police`
 - `population:firefighter`
+- `population:first-responder`
 - `population:military`
 - `country:brazil`
-- `transferability:high|conditional|low`
+
+### Transferability
+- `transferability:high`
+- `transferability:conditional`
+- `transferability:low`
+
+### Evidence role
+- `role:definition`
+- `role:framework`
+- `role:indicator`
+- `role:implementation`
+- `role:brazil-context`
+- `role:paradigm-shift`
 
 ## Rules
 - Zotero is the bibliographic single source of truth.
-- Verify DOI/PMID/metadata before tagging an item as included.
-- Store lawful personal-use PDFs in Zotero, not GitHub.
-- Use notes for extraction pointers; the XLSX remains the structured master evidence database.
+- The workflow is for a **conceptual and applied scientific essay**, not systematic-review screening.
+- Do not use `included/excluded` terminology as if a PRISMA screening process were being conducted.
+- Verify DOI/PMID/metadata before an item receives `status:core-evidence`.
+- Check corrections/retractions for core evidence before manuscript claims depend on the source.
+- Store lawful personal-use full-text PDFs in Zotero/Drive, not GitHub.
+- Use Zotero notes for brief claim/extraction pointers; the XLSX remains the structured evidence command center.
+- Military evidence must receive an explicit transferability assessment before supporting Brazilian institutional recommendations.
+
+## Import / deduplication release test
+Before definitive evidence identification is released:
+1. Create the root collection and all subcollections.
+2. Confirm the collection inventory from Zotero Desktop/Codex.
+3. Import a small test RIS/BibTeX set.
+4. Verify DOI normalization and duplicate detection.
+5. Confirm that duplicate merging preserves tags, notes, and attachments.
+6. Confirm export to BibTeX/RIS for reproducibility.
+7. Record the Zotero version and test date in the project checklist.
+
+## Release condition
+**Definitive structured evidence identification may begin only after the Zotero structure and import/deduplication test are verified.**
