@@ -2,6 +2,18 @@
 
 All notable project changes are documented here.
 
+## [1.1.2] — 2026-08-27
+### Verified
+- Passed the Zotero Desktop release gate on the computer exposing the real local API and Connector on `localhost:23119`.
+- Materialized and verified the exact root collection, 25 subcollections, and 32 required tags.
+- Verified controlled RIS import, DOI normalization, duplicate detection, user-confirmed duplicate merge, and preservation of tags, notes, and attachments.
+- Verified one-record BibTeX and RIS exports for reproducibility.
+- Recorded Zotero Desktop `10.0.1` and the successful test timestamp in `reporting/CHECKLIST.md`.
+
+### Release gate
+- Zotero: **PASS**.
+- Definitive structured evidence identification: **RELEASED**.
+
 ## [1.1.1] — 2026-08-27
 ### Added
 - Materialized the Premium Elite Diamante Evidence Command Center as a 14-sheet XLSX with a canonical 144-field `Master Evidence` table, 500 reserved evidence rows, dashboard, release-gate checklist, Zotero control, claim links, search provenance, quality/integrity, transferability, implementation-science, full-text, domain-coverage, and future-gap controls.

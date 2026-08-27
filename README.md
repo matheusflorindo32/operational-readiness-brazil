@@ -75,10 +75,14 @@ Never commit credentials, API keys, `.env` files, private keys, sensitive person
 - [x] Google Drive structure created
 - [x] Conceptual Essay Protocol v1.0 registered on OSF
 - [x] Premium Elite Diamante Evidence Command Center materialized and audited
-- [ ] Zotero root collection and subcollections materialized
-- [ ] Definitive structured evidence identification released
+- [x] Zotero root collection and 25 subcollections materialized
+- [x] Zotero import/deduplication/export release test passed on 2026-08-27
+- [x] Definitive structured evidence identification released
 
-Definitive evidence identification must not begin until the Zotero release gate is complete.
+The Zotero release gate passed with real local Desktop/API, import, deduplication,
+merge-preservation, and BibTeX/RIS export tests. Definitive structured evidence
+identification is now released, while all database-specific execution remains to
+be documented prospectively.
 
 ## Citation
 

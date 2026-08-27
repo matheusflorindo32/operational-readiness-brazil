@@ -101,5 +101,20 @@ A Zotero Release Gate execution was requested from a ChatGPT session. The Zotero
 
 The required next execution environment is **Codex on the computer running Zotero Desktop**, beginning with the skill's required `status --json` probe.
 
+## Execution record — 2026-08-27
+The Zotero Release Gate was executed successfully from Codex on the same
+computer running Zotero Desktop. Zotero `10.0.1`, API v3/schema 44, and the
+Connector responded on `localhost:23119`. The root collection and all 25 exact
+subcollections were created and verified; all 32 planned tags were materialized.
+A controlled two-record RIS test verified DOI normalization, Zotero duplicate
+detection, and a user-confirmed duplicate merge. The merged master preserved all
+32 tags, two notes, and two stored attachments. Real one-record BibTeX and RIS
+exports were generated and validated. The test record's metadata matched PubMed
+PMID 37415704 and DOI `10.3389/fpubh.2023.1217187`; PubMed/NLM, Crossref, and the
+publisher page exposed no correction/retraction signal at the recorded check
+time. Detailed evidence is recorded in `reporting/CHECKLIST.md`.
+
 ## Release condition
 **Definitive structured evidence identification may begin only after the Zotero structure and import/deduplication test are verified.**
+
+**Release condition satisfied on 2026-08-27: `ZOTERO — PASS`.**
