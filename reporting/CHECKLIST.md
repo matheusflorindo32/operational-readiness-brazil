@@ -30,7 +30,7 @@
 - [x] OSF associated project recorded: https://osf.io/djgax
 - [x] OSF registration materials: CC BY 4.0 International
 - [x] Premium Elite Diamante evidence-workbook specification versioned in `docs/PREMIUM_ELITE_DIAMANTE_EVIDENCE_WORKBOOK_SPEC.md`
-- [ ] Premium Elite Diamante workbook implementation/export verified
+- [x] Premium Elite Diamante workbook implementation/export verified
 - [ ] OSF public registration URL independently recorded in GitHub/workbook
 - [ ] OSF DOI explicitly verified and recorded, if assigned
 
@@ -60,6 +60,9 @@
 ### Zotero execution attempt — 2026-08-26
 **Status: BLOCKED in ChatGPT session.** The installed Zotero skill operates the user's local Zotero Desktop library through its localhost API (port 23119) from Codex. This ChatGPT session does not expose the user's local Zotero Desktop/localhost, so no real `status`, inventory, write, import, deduplication, merge, attachment-preservation, or export test was executed here. No result was fabricated. The Release Gate remains closed until the same test is executed in Codex on the computer running Zotero Desktop.
 
+### Zotero execution attempt — 2026-08-27
+**Status: BLOCKED after real command execution in the current Work Mode environment.** The required Zotero skill command `status --json` was executed. It returned `profile: null`, `prefs_file: null`, `local_api_enabled_pref: null`, `api_running: false`, `zotero_version: null`, `connector_running: false`, and connection refusal at `http://127.0.0.1:23119`. A controlled `enable --restart` attempt returned: `Could not find Zotero prefs.js. Start Zotero once, then retry.` Read-only `inventory --json`, `collections --json`, and `tags --json` each failed with connection refusal. No collection, tag, import, merge, attachment, or export result was fabricated. See `docs/EVIDENCE_COMMAND_CENTER_AUDIT_2026-08-27.md`.
+
 ## Definitive structured evidence identification — LOCKED until Zotero release gate passes
 - [ ] PubMed A/B/C
 - [ ] Scopus A/B/C
@@ -88,4 +91,4 @@
 - [ ] Potential digital operational-readiness tool treated as a separate future validation phase
 
 ## Current release status
-**OSF: COMPLETE | Zotero: BLOCKED — local Desktop/API execution required in Codex | DEFINITIVE EVIDENCE IDENTIFICATION: LOCKED**
+**OSF: COMPLETE | EVIDENCE COMMAND CENTER: MATERIALIZED AND AUDITED | Zotero: BLOCKED — local Desktop profile/API execution required | DEFINITIVE EVIDENCE IDENTIFICATION: LOCKED**

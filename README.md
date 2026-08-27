@@ -52,6 +52,7 @@ This repository is the **canonical versioned scientific core** of the project. I
 - **Zotero:** bibliographic single source of truth.
 - **Google Drive:** collaboration, administrative documents, licensed PDFs, and large files.
 - **OSF:** public preservation of the registered Conceptual Essay Protocol v1.0.
+- **Evidence Command Center:** [`outputs/8a39e3c813da/PREMIUM_ELITE_DIAMANTE_Evidence_Command_Center.xlsx`](outputs/8a39e3c813da/PREMIUM_ELITE_DIAMANTE_Evidence_Command_Center.xlsx), formula-driven and audited before definitive evidence identification.
 
 ## Evidence governance
 
@@ -73,6 +74,7 @@ Never commit credentials, API keys, `.env` files, private keys, sensitive person
 - [x] Security CI active
 - [x] Google Drive structure created
 - [x] Conceptual Essay Protocol v1.0 registered on OSF
+- [x] Premium Elite Diamante Evidence Command Center materialized and audited
 - [ ] Zotero root collection and subcollections materialized
 - [ ] Definitive structured evidence identification released
 

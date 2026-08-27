@@ -2,6 +2,23 @@
 
 All notable project changes are documented here.
 
+## [1.1.1] — 2026-08-27
+### Added
+- Materialized the Premium Elite Diamante Evidence Command Center as a 14-sheet XLSX with a canonical 144-field `Master Evidence` table, 500 reserved evidence rows, dashboard, release-gate checklist, Zotero control, claim links, search provenance, quality/integrity, transferability, implementation-science, full-text, domain-coverage, and future-gap controls.
+- Added formula-driven scientific traffic lights, DOI normalization, Brazil flag, transferability scoring/classification, claim-readiness control, record-completeness control, 43 data-validation rules, 18 conditional-formatting blocks, 10 structured tables, and 2 native charts.
+- Added an independent workbook audit record in `docs/EVIDENCE_COMMAND_CENTER_AUDIT_2026-08-27.md`.
+
+### Verified
+- Formula-error scan returned no `#REF!`, `#DIV/0!`, `#VALUE!`, `#NAME?`, or `#N/A` errors.
+- A disposable in-memory formula test passed all expected outputs and was not saved to the workbook.
+- Visual render review covered every worksheet; ZIP package integrity and LibreOffice open/re-save compatibility passed.
+- The final workbook contains zero released definitive evidence records, as required while the Zotero gate is closed.
+
+### Release gate
+- Evidence Command Center: materialized and audited.
+- Zotero: **BLOCKED** because the current environment cannot find `prefs.js` or a local Zotero profile and port 23119 refuses connection.
+- Definitive structured evidence identification: **LOCKED**.
+
 ## [1.1.0] — 2026-08-26
 ### Changed
 - Corrected the study design from a pre-registration JBI scoping-review framing to a **conceptual and applied scientific essay**.
