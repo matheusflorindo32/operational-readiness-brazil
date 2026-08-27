@@ -96,5 +96,10 @@ Before definitive evidence identification is released:
 6. Confirm export to BibTeX/RIS for reproducibility.
 7. Record the Zotero version and test date in the project checklist.
 
+## Execution record — 2026-08-26
+A Zotero Release Gate execution was requested from a ChatGPT session. The Zotero skill was reviewed, but the user's local Zotero Desktop API (`localhost:23119`) is not exposed to this session. Therefore no real Zotero status, inventory, collection/tag write, import, duplicate merge, attachment-preservation check, or export test was executed. The gate remains **BLOCKED** rather than being simulated.
+
+The required next execution environment is **Codex on the computer running Zotero Desktop**, beginning with the skill's required `status --json` probe.
+
 ## Release condition
 **Definitive structured evidence identification may begin only after the Zotero structure and import/deduplication test are verified.**
