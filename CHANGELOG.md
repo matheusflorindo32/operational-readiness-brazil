@@ -2,6 +2,25 @@
 
 All notable project changes are documented here.
 
+## [1.1.3] — 2026-08-27
+### Audited and synchronized
+- Independently audited commit `41ee5ac` against its parent `4f3e56b` and confirmed that the Zotero release-gate record is the only intervening commit.
+- Reconciled the previously stale Evidence Command Center and audit report with the accepted `ZOTERO — PASS` execution record.
+- Updated the workbook to 49/74 completed release items (66.2%), Zotero 21/21 (100%), definitive evidence identification 0/14 (released but not started), and decision `GO`.
+- Preserved zero definitive evidence rows; controlled test item `FXC7ZY9R` remains explicitly excluded from scientific synthesis.
+- Independently reconfirmed the test article's DOI, PMID, title, authorship, journal, year, and continued publisher/PubMed availability.
+
+### Verified
+- All 14 worksheets received a post-edit visual pass.
+- Formula-error scans returned zero `#REF!`, `#DIV/0!`, `#VALUE!`, `#NAME?`, or `#N/A` errors before and after export.
+- XLSX ZIP-package integrity passed; LibreOffice Calc opened and re-saved the workbook successfully; both files re-imported with 14 sheets and the expected dashboard state.
+- Final synchronized workbook SHA-256: `7e2a89c286ecfbb13d07ad68ac0f8a9675c35ff04eb9f20f0e8fcfd355bdfe64`.
+
+### Release gate
+- Zotero: **PASS**.
+- Definitive structured evidence identification: **RELEASED**.
+- Next-phase decision: **GO**.
+
 ## [1.1.2] — 2026-08-27
 ### Verified
 - Passed the Zotero Desktop release gate on the computer exposing the real local API and Connector on `localhost:23119`.
