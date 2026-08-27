@@ -31,9 +31,32 @@
 - [x] OSF registration materials: CC BY 4.0 International
 - [ ] OSF public registration URL independently recorded in GitHub/workbook
 - [ ] OSF DOI explicitly verified and recorded, if assigned
-- [ ] Zotero root collection created
-- [ ] Zotero subcollections/tags created
-- [ ] Zotero import/deduplication workflow verified
+
+## Zotero Release Gate
+- [x] Zotero skill instructions reviewed
+- [x] `zotero/ZOTERO_COLLECTION_PLAN.md` verified as source of truth
+- [x] Root collection name fixed: `Tactical Athlete → Operational Readiness Brazil`
+- [x] Exactly 25 planned subcollections verified in the plan
+- [x] Required tag taxonomy verified in the plan
+- [x] Import/deduplication release-test protocol verified in the plan
+- [ ] Zotero Desktop local status executed with `status --json`
+- [ ] Local API on port 23119 verified
+- [ ] Initial inventory/collections/tags captured
+- [ ] Root collection created in Zotero Desktop
+- [ ] 25 subcollections materialized
+- [ ] Required tags materialized
+- [ ] Controlled RIS/BibTeX test set imported
+- [ ] DOI normalization verified
+- [ ] Duplicate detection verified
+- [ ] Controlled duplicate merge executed
+- [ ] Preservation of tags, notes and attachments verified
+- [ ] BibTeX export verified
+- [ ] RIS export verified
+- [ ] Zotero Desktop version and test timestamp recorded
+- [ ] `ZOTERO — PASS`
+
+### Zotero execution attempt — 2026-08-26
+**Status: BLOCKED in ChatGPT session.** The installed Zotero skill operates the user's local Zotero Desktop library through its localhost API (port 23119) from Codex. This ChatGPT session does not expose the user's local Zotero Desktop/localhost, so no real `status`, inventory, write, import, deduplication, merge, attachment-preservation, or export test was executed here. No result was fabricated. The Release Gate remains closed until the same test is executed in Codex on the computer running Zotero Desktop.
 
 ## Definitive structured evidence identification — LOCKED until Zotero release gate passes
 - [ ] PubMed A/B/C
@@ -63,4 +86,4 @@
 - [ ] Potential digital operational-readiness tool treated as a separate future validation phase
 
 ## Current release status
-**OSF: COMPLETE | Zotero: PENDING | DEFINITIVE EVIDENCE IDENTIFICATION: LOCKED**
+**OSF: COMPLETE | Zotero: BLOCKED — local Desktop/API execution required in Codex | DEFINITIVE EVIDENCE IDENTIFICATION: LOCKED**
