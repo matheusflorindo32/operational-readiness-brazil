@@ -29,6 +29,8 @@
 - [x] OSF registration submitted/completed on 2026-08-26
 - [x] OSF associated project recorded: https://osf.io/djgax
 - [x] OSF registration materials: CC BY 4.0 International
+- [x] Premium Elite Diamante evidence-workbook specification versioned in `docs/PREMIUM_ELITE_DIAMANTE_EVIDENCE_WORKBOOK_SPEC.md`
+- [ ] Premium Elite Diamante workbook implementation/export verified
 - [ ] OSF public registration URL independently recorded in GitHub/workbook
 - [ ] OSF DOI explicitly verified and recorded, if assigned
 
