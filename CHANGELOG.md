@@ -2,6 +2,35 @@
 
 All notable project changes are documented here.
 
+## [1.2.0] — 2026-08-28
+### Executed
+- Audited the registered protocol and the existing search infrastructure before production execution.
+- Identified and documented that the workbook provenance table contained no exact A/B/C strings despite the earlier README statement.
+- Prospectively froze PubMed A/B/C v1.0 without date, language, species, article-type, or access-status filters.
+- Executed real NCBI Entrez searches: A=880, B=391, C=194.
+- Saved exact queries, raw ESearch JSON, NBIB exports, PubMed URLs, query translations, execution intervals, and SHA-256 checksums.
+
+### Materialized
+- Deterministically staged 1,456 unique PMIDs after removing nine cross-family PMID overlaps.
+- Normalized 1,300 DOIs and generated a combined 1,456-record RIS for the required local Zotero import.
+- Expanded `Master Evidence` from 500 to 1,456 records and retained one article/source per row (`EV-0001` through `EV-1456`).
+- Classified every production row as `Identified`, caution/context, transferability pending, and not claim-ready.
+- Preserved the controlled Zotero test item `FXC7ZY9R` solely as infrastructure evidence and excluded it from `Master Evidence`.
+
+### Verified
+- All family counts reconcile across manifests, ESearch JSON, and NBIB exports.
+- All 14 workbook sheets passed visual inspection; validation and conditional-formatting ranges extend through row 1459.
+- Formula-error scans returned zero `#REF!`, `#DIV/0!`, `#VALUE!`, `#NAME?`, or `#N/A` errors.
+- XLSX ZIP integrity passed; LibreOffice Calc opened and re-saved the workbook; both primary and re-saved copies re-imported with 14 sheets and 1,456 records.
+- Final workbook SHA-256: `4734622037ad0ec66ee47d9c3a80a22bcf7ded6819c5a51ee91b7829f2b4fb13`.
+
+### Release gate
+- Overall checklist: 50/74 (67.6%).
+- Definitive evidence-identification stage: 1/14 (7.1%).
+- PubMed searches and workbook entry: complete.
+- Production Zotero import/deduplication: **BLOCKED** because this environment cannot reach `localhost:23119`.
+- Decision: **PUBMED BLOCKED**.
+
 ## [1.1.3] — 2026-08-27
 ### Audited and synchronized
 - Independently audited commit `41ee5ac` against its parent `4f3e56b` and confirmed that the Zotero release-gate record is the only intervening commit.

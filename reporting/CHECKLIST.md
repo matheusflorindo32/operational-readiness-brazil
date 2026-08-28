@@ -86,7 +86,7 @@ BibTeX export produced one entry, and RIS export produced one record with the
 canonical DOI, 32 tags, and both notes.
 
 ## Definitive structured evidence identification — RELEASED after Zotero gate PASS
-- [ ] PubMed A/B/C
+- [x] PubMed A/B/C
 - [ ] Scopus A/B/C
 - [ ] Web of Science A/B/C
 - [ ] SPORTDiscus A/B/C
@@ -101,6 +101,24 @@ canonical DOI, 32 tags, and both notes.
 - [ ] Export and bibliographic normalization
 - [ ] Zotero deduplication
 
+### PubMed A/B/C production execution — 2026-08-28
+**Status: BLOCKED before PUBMED PASS.** The three final v1.0 queries were frozen
+prospectively and executed through NCBI Entrez without date, language, species,
+article-type, or access-status filters. Counts were A=880, B=391, and C=194.
+NBIB and raw ESearch JSON exports reconcile exactly with those counts and their
+recorded SHA-256 hashes. Deterministic staging normalization produced 1,456 unique
+PMIDs after removal of nine cross-family overlaps; 1,300 records have normalized
+DOIs. All 1,456 records were entered individually in `Master Evidence` as
+`Identified`, with zero metadata-verified, integrity-checked, appraised, or
+claim-ready records. Controlled test item `FXC7ZY9R` was not converted into an
+evidence row.
+
+The required production Zotero step could not be completed in this environment:
+`status --json` returned no profile/prefs and `api_running=false`; `selected-target`
+and the explicitly authorized `import-ris --yes` attempt both failed with connection
+refusal at `127.0.0.1:23119`. The combined RIS is ready for the local Zotero run.
+See `docs/PUBMED_ABC_AUDIT_2026-08-28.md`.
+
 ## Evidence synthesis and framework development
 - [ ] Evidence map by operational-readiness domain
 - [ ] Brazil × international evidence matrix
@@ -113,4 +131,4 @@ canonical DOI, 32 tags, and both notes.
 - [ ] Potential digital operational-readiness tool treated as a separate future validation phase
 
 ## Current release status
-**OSF: COMPLETE | EVIDENCE COMMAND CENTER: MATERIALIZED AND AUDITED | ZOTERO: PASS | DEFINITIVE EVIDENCE IDENTIFICATION: RELEASED**
+**OSF: COMPLETE | ZOTERO RELEASE BASELINE: PASS | PUBMED A/B/C: EXECUTED | MASTER EVIDENCE: 1,456 IDENTIFIED | PRODUCTION ZOTERO IMPORT/DEDUP: BLOCKED | PUBMED GATE: BLOCKED**

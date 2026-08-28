@@ -1,0 +1,29 @@
+{
+  "strategy_id": "PUBMED-A-v1.0-2026-08-28",
+  "evidence_family": "A",
+  "database": "PubMed/MEDLINE",
+  "interface": "NCBI Entrez E-utilities",
+  "strategy_version": "1.0",
+  "query_file": "search/strategies/2026-08-28_pubmed_A_core.query.txt",
+  "exact_query": "(\n  (\n    \"tactical athlete\"[tiab] OR \"tactical athletes\"[tiab] OR\n    \"operational readiness\"[tiab] OR \"physical readiness\"[tiab] OR\n    \"mission readiness\"[tiab] OR \"combat readiness\"[tiab] OR\n    \"tactical readiness\"[tiab]\n  )\n  AND\n  (\n    \"Police\"[Mesh] OR \"Firefighters\"[Mesh] OR \"Emergency Medical Technicians\"[Mesh] OR\n    \"Military Personnel\"[Mesh] OR police[tiab] OR \"law enforcement\"[tiab] OR\n    firefighter*[tiab] OR \"first responder\"[tiab] OR \"first responders\"[tiab] OR\n    soldier*[tiab] OR military[tiab]\n  )\n)\nOR \"tactical athlete\"[tiab] OR \"tactical athletes\"[tiab]\n",
+  "filters_limits": "None; no date, language, species, article-type, or access-status filter",
+  "sort": "Publication date",
+  "started_at_utc": "2026-08-28T00:43:50Z",
+  "finished_at_utc": "2026-08-28T00:44:13Z",
+  "result_count": 880,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/?term=%28%0A++%28%0A++++%22tactical+athlete%22%5Btiab%5D+OR+%22tactical+athletes%22%5Btiab%5D+OR%0A++++%22operational+readiness%22%5Btiab%5D+OR+%22physical+readiness%22%5Btiab%5D+OR%0A++++%22mission+readiness%22%5Btiab%5D+OR+%22combat+readiness%22%5Btiab%5D+OR%0A++++%22tactical+readiness%22%5Btiab%5D%0A++%29%0A++AND%0A++%28%0A++++%22Police%22%5BMesh%5D+OR+%22Firefighters%22%5BMesh%5D+OR+%22Emergency+Medical+Technicians%22%5BMesh%5D+OR%0A++++%22Military+Personnel%22%5BMesh%5D+OR+police%5Btiab%5D+OR+%22law+enforcement%22%5Btiab%5D+OR%0A++++firefighter%2A%5Btiab%5D+OR+%22first+responder%22%5Btiab%5D+OR+%22first+responders%22%5Btiab%5D+OR%0A++++soldier%2A%5Btiab%5D+OR+military%5Btiab%5D%0A++%29%0A%29%0AOR+%22tactical+athlete%22%5Btiab%5D+OR+%22tactical+athletes%22%5Btiab%5D&sort=pubdate",
+  "pubmed_query_translation": "((\"tactical athlete\"[Title/Abstract] OR \"tactical athletes\"[Title/Abstract] OR \"operational readiness\"[Title/Abstract] OR \"physical readiness\"[Title/Abstract] OR \"mission readiness\"[Title/Abstract] OR \"combat readiness\"[Title/Abstract] OR \"tactical readiness\"[Title/Abstract]) AND (\"Police\"[MeSH Terms] OR \"Firefighters\"[MeSH Terms] OR \"Emergency Medical Technicians\"[MeSH Terms] OR \"Military Personnel\"[MeSH Terms] OR \"Police\"[Title/Abstract] OR \"law enforcement\"[Title/Abstract] OR \"firefighter*\"[Title/Abstract] OR \"first responder\"[Title/Abstract] OR \"first responders\"[Title/Abstract] OR \"soldier*\"[Title/Abstract] OR \"military\"[Title/Abstract])) OR \"tactical athlete\"[Title/Abstract] OR \"tactical athletes\"[Title/Abstract]",
+  "exports": {
+    "esearch_json": {
+      "file": "search/exports/2026-08-28/2026-08-28_pubmed_A_core_esearch.json",
+      "sha256": "4684ded811044414ed2f002572a0c711193f8ea8934d02ea672bbc26eef24494"
+    },
+    "nbib": {
+      "file": "search/exports/2026-08-28/2026-08-28_pubmed_A_core.nbib",
+      "sha256": "6328a6c405122c2b6ae62dd2b21473828ff85fca0a4120b3e0925e9b503d2166"
+    }
+  },
+  "production_vs_pilot": "Production",
+  "press_status": "Not formally PRESS peer reviewed; internal syntax and relevance-sample audit completed before freeze",
+  "notes": "Initial prospective freeze. The previously claimed full strings were absent from the workbook."
+}

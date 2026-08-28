@@ -1,0 +1,16 @@
+(
+  (
+    "tactical athlete"[tiab] OR "tactical athletes"[tiab] OR
+    "operational readiness"[tiab] OR "physical readiness"[tiab] OR
+    "mission readiness"[tiab] OR "combat readiness"[tiab] OR
+    "tactical readiness"[tiab]
+  )
+  AND
+  (
+    "Police"[Mesh] OR "Firefighters"[Mesh] OR "Emergency Medical Technicians"[Mesh] OR
+    "Military Personnel"[Mesh] OR police[tiab] OR "law enforcement"[tiab] OR
+    firefighter*[tiab] OR "first responder"[tiab] OR "first responders"[tiab] OR
+    soldier*[tiab] OR military[tiab]
+  )
+)
+OR "tactical athlete"[tiab] OR "tactical athletes"[tiab]

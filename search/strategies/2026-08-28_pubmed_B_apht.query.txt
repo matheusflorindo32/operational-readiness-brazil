@@ -1,0 +1,13 @@
+(
+  "tactical combat casualty care"[tiab] OR TCCC[tiab] OR
+  "tactical emergency casualty care"[tiab] OR TECC[tiab] OR
+  "tactical emergency medical support"[tiab] OR TEMS[tiab] OR
+  "tactical medicine"[tiab] OR "tactical medical"[tiab]
+)
+AND
+(
+  readiness[tiab] OR competence[tiab] OR competency[tiab] OR training[tiab] OR
+  performance[tiab] OR simulation[tiab] OR "skill retention"[tiab] OR
+  "self aid"[tiab] OR "buddy aid"[tiab] OR hemorrhage[tiab] OR
+  "casualty movement"[tiab] OR extraction[tiab]
+)

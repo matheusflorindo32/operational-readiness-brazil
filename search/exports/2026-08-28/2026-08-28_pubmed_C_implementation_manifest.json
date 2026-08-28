@@ -1,0 +1,29 @@
+{
+  "strategy_id": "PUBMED-C-v1.0-2026-08-28",
+  "evidence_family": "C",
+  "database": "PubMed/MEDLINE",
+  "interface": "NCBI Entrez E-utilities",
+  "strategy_version": "1.0",
+  "query_file": "search/strategies/2026-08-28_pubmed_C_implementation.query.txt",
+  "exact_query": "(\n  \"Consolidated Framework for Implementation Research\"[tiab] OR CFIR[tiab] OR\n  \"implementation science\"[tiab] OR \"implementation framework\"[tiab] OR\n  \"implementation frameworks\"[tiab] OR \"implementation outcome\"[tiab] OR\n  \"implementation outcomes\"[tiab] OR \"implementation strategy\"[tiab] OR\n  \"implementation strategies\"[tiab]\n)\nAND\n(\n  \"Police\"[Mesh] OR \"Firefighters\"[Mesh] OR \"Emergency Medical Technicians\"[Mesh] OR\n  \"Military Personnel\"[Mesh] OR police[tiab] OR \"law enforcement\"[tiab] OR\n  firefighter*[tiab] OR \"first responder\"[tiab] OR \"first responders\"[tiab] OR\n  soldier*[tiab] OR military[tiab] OR \"public safety\"[tiab]\n)\n",
+  "filters_limits": "None; no date, language, species, article-type, or access-status filter",
+  "sort": "Publication date",
+  "started_at_utc": "2026-08-28T00:44:28Z",
+  "finished_at_utc": "2026-08-28T00:44:43Z",
+  "result_count": 194,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/?term=%28%0A++%22Consolidated+Framework+for+Implementation+Research%22%5Btiab%5D+OR+CFIR%5Btiab%5D+OR%0A++%22implementation+science%22%5Btiab%5D+OR+%22implementation+framework%22%5Btiab%5D+OR%0A++%22implementation+frameworks%22%5Btiab%5D+OR+%22implementation+outcome%22%5Btiab%5D+OR%0A++%22implementation+outcomes%22%5Btiab%5D+OR+%22implementation+strategy%22%5Btiab%5D+OR%0A++%22implementation+strategies%22%5Btiab%5D%0A%29%0AAND%0A%28%0A++%22Police%22%5BMesh%5D+OR+%22Firefighters%22%5BMesh%5D+OR+%22Emergency+Medical+Technicians%22%5BMesh%5D+OR%0A++%22Military+Personnel%22%5BMesh%5D+OR+police%5Btiab%5D+OR+%22law+enforcement%22%5Btiab%5D+OR%0A++firefighter%2A%5Btiab%5D+OR+%22first+responder%22%5Btiab%5D+OR+%22first+responders%22%5Btiab%5D+OR%0A++soldier%2A%5Btiab%5D+OR+military%5Btiab%5D+OR+%22public+safety%22%5Btiab%5D%0A%29&sort=pubdate",
+  "pubmed_query_translation": "(\"Consolidated Framework for Implementation Research\"[Title/Abstract] OR \"CFIR\"[Title/Abstract] OR \"implementation science\"[Title/Abstract] OR \"implementation framework\"[Title/Abstract] OR \"implementation frameworks\"[Title/Abstract] OR \"implementation outcome\"[Title/Abstract] OR \"implementation outcomes\"[Title/Abstract] OR \"implementation strategy\"[Title/Abstract] OR \"implementation strategies\"[Title/Abstract]) AND (\"Police\"[MeSH Terms] OR \"Firefighters\"[MeSH Terms] OR \"Emergency Medical Technicians\"[MeSH Terms] OR \"Military Personnel\"[MeSH Terms] OR \"Police\"[Title/Abstract] OR \"law enforcement\"[Title/Abstract] OR \"firefighter*\"[Title/Abstract] OR \"first responder\"[Title/Abstract] OR \"first responders\"[Title/Abstract] OR \"soldier*\"[Title/Abstract] OR \"military\"[Title/Abstract] OR \"public safety\"[Title/Abstract])",
+  "exports": {
+    "esearch_json": {
+      "file": "search/exports/2026-08-28/2026-08-28_pubmed_C_implementation_esearch.json",
+      "sha256": "a77fb67362d12d51974e35776fc83f6add72bdd7dde4ec3f47e137b778bb2b7b"
+    },
+    "nbib": {
+      "file": "search/exports/2026-08-28/2026-08-28_pubmed_C_implementation.nbib",
+      "sha256": "c1d81f1db84c573b330058f2a8b04682a113824c582e684688a61b4e87a96987"
+    }
+  },
+  "production_vs_pilot": "Production",
+  "press_status": "Not formally PRESS peer reviewed; internal syntax and relevance-sample audit completed before freeze",
+  "notes": "Initial prospective freeze. The previously claimed full strings were absent from the workbook."
+}

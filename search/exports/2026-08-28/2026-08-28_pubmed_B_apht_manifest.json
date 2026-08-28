@@ -1,0 +1,29 @@
+{
+  "strategy_id": "PUBMED-B-v1.0-2026-08-28",
+  "evidence_family": "B",
+  "database": "PubMed/MEDLINE",
+  "interface": "NCBI Entrez E-utilities",
+  "strategy_version": "1.0",
+  "query_file": "search/strategies/2026-08-28_pubmed_B_apht.query.txt",
+  "exact_query": "(\n  \"tactical combat casualty care\"[tiab] OR TCCC[tiab] OR\n  \"tactical emergency casualty care\"[tiab] OR TECC[tiab] OR\n  \"tactical emergency medical support\"[tiab] OR TEMS[tiab] OR\n  \"tactical medicine\"[tiab] OR \"tactical medical\"[tiab]\n)\nAND\n(\n  readiness[tiab] OR competence[tiab] OR competency[tiab] OR training[tiab] OR\n  performance[tiab] OR simulation[tiab] OR \"skill retention\"[tiab] OR\n  \"self aid\"[tiab] OR \"buddy aid\"[tiab] OR hemorrhage[tiab] OR\n  \"casualty movement\"[tiab] OR extraction[tiab]\n)\n",
+  "filters_limits": "None; no date, language, species, article-type, or access-status filter",
+  "sort": "Publication date",
+  "started_at_utc": "2026-08-28T00:44:13Z",
+  "finished_at_utc": "2026-08-28T00:44:28Z",
+  "result_count": 391,
+  "url": "https://pubmed.ncbi.nlm.nih.gov/?term=%28%0A++%22tactical+combat+casualty+care%22%5Btiab%5D+OR+TCCC%5Btiab%5D+OR%0A++%22tactical+emergency+casualty+care%22%5Btiab%5D+OR+TECC%5Btiab%5D+OR%0A++%22tactical+emergency+medical+support%22%5Btiab%5D+OR+TEMS%5Btiab%5D+OR%0A++%22tactical+medicine%22%5Btiab%5D+OR+%22tactical+medical%22%5Btiab%5D%0A%29%0AAND%0A%28%0A++readiness%5Btiab%5D+OR+competence%5Btiab%5D+OR+competency%5Btiab%5D+OR+training%5Btiab%5D+OR%0A++performance%5Btiab%5D+OR+simulation%5Btiab%5D+OR+%22skill+retention%22%5Btiab%5D+OR%0A++%22self+aid%22%5Btiab%5D+OR+%22buddy+aid%22%5Btiab%5D+OR+hemorrhage%5Btiab%5D+OR%0A++%22casualty+movement%22%5Btiab%5D+OR+extraction%5Btiab%5D%0A%29&sort=pubdate",
+  "pubmed_query_translation": "(\"tactical combat casualty care\"[Title/Abstract] OR \"TCCC\"[Title/Abstract] OR \"tactical emergency casualty care\"[Title/Abstract] OR \"TECC\"[Title/Abstract] OR \"tactical emergency medical support\"[Title/Abstract] OR \"TEMS\"[Title/Abstract] OR \"tactical medicine\"[Title/Abstract] OR \"tactical medical\"[Title/Abstract]) AND (\"readiness\"[Title/Abstract] OR \"competence\"[Title/Abstract] OR \"competency\"[Title/Abstract] OR \"training\"[Title/Abstract] OR \"performance\"[Title/Abstract] OR \"simulation\"[Title/Abstract] OR \"skill retention\"[Title/Abstract] OR \"self aid\"[Title/Abstract] OR \"buddy aid\"[Title/Abstract] OR \"hemorrhage\"[Title/Abstract] OR \"casualty movement\"[Title/Abstract] OR \"extraction\"[Title/Abstract])",
+  "exports": {
+    "esearch_json": {
+      "file": "search/exports/2026-08-28/2026-08-28_pubmed_B_apht_esearch.json",
+      "sha256": "0f25eeead09c9d3f448357d9971bb3adec92e72ccfa5feb92431be22f3051c33"
+    },
+    "nbib": {
+      "file": "search/exports/2026-08-28/2026-08-28_pubmed_B_apht.nbib",
+      "sha256": "867f905577863314794f4c5289e7d3056693c29d022a17646d4e4ee60d243600"
+    }
+  },
+  "production_vs_pilot": "Production",
+  "press_status": "Not formally PRESS peer reviewed; internal syntax and relevance-sample audit completed before freeze",
+  "notes": "Initial prospective freeze. The previously claimed full strings were absent from the workbook."
+}

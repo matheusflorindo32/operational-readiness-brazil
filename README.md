@@ -52,7 +52,7 @@ This repository is the **canonical versioned scientific core** of the project. I
 - **Zotero:** bibliographic single source of truth.
 - **Google Drive:** collaboration, administrative documents, licensed PDFs, and large files.
 - **OSF:** public preservation of the registered Conceptual Essay Protocol v1.0.
-- **Evidence Command Center:** [`outputs/8a39e3c813da/PREMIUM_ELITE_DIAMANTE_Evidence_Command_Center.xlsx`](outputs/8a39e3c813da/PREMIUM_ELITE_DIAMANTE_Evidence_Command_Center.xlsx), formula-driven and audited before definitive evidence identification.
+- **Evidence Command Center:** [`outputs/8a39e3c813da/PREMIUM_ELITE_DIAMANTE_Evidence_Command_Center.xlsx`](outputs/8a39e3c813da/PREMIUM_ELITE_DIAMANTE_Evidence_Command_Center.xlsx), formula-driven, audited, and populated with the production PubMed identification set.
 
 ## Evidence governance
 
@@ -78,11 +78,17 @@ Never commit credentials, API keys, `.env` files, private keys, sensitive person
 - [x] Zotero root collection and 25 subcollections materialized
 - [x] Zotero import/deduplication/export release test passed on 2026-08-27
 - [x] Definitive structured evidence identification released
+- [x] PubMed A/B/C production searches executed on 2026-08-28
+- [x] 1,456 unique PubMed records entered individually in `Master Evidence`
+- [ ] Production RIS imported and deduplicated in Zotero Desktop
 
 The Zotero release gate passed with real local Desktop/API, import, deduplication,
 merge-preservation, and BibTeX/RIS export tests. Definitive structured evidence
-identification is now released, while all database-specific execution remains to
-be documented prospectively.
+identification is now released. PubMed A/B/C were executed prospectively with
+complete query, timestamp, count, URL, export, and checksum provenance. The
+current environment cannot reach the user's Zotero Desktop on `localhost:23119`,
+so production import and Zotero-native deduplication remain blocked. All 1,456
+PubMed records remain at the `Identified` stage; none is claim-ready.
 
 ## Citation
 

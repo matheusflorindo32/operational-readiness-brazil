@@ -1,0 +1,14 @@
+(
+  "Consolidated Framework for Implementation Research"[tiab] OR CFIR[tiab] OR
+  "implementation science"[tiab] OR "implementation framework"[tiab] OR
+  "implementation frameworks"[tiab] OR "implementation outcome"[tiab] OR
+  "implementation outcomes"[tiab] OR "implementation strategy"[tiab] OR
+  "implementation strategies"[tiab]
+)
+AND
+(
+  "Police"[Mesh] OR "Firefighters"[Mesh] OR "Emergency Medical Technicians"[Mesh] OR
+  "Military Personnel"[Mesh] OR police[tiab] OR "law enforcement"[tiab] OR
+  firefighter*[tiab] OR "first responder"[tiab] OR "first responders"[tiab] OR
+  soldier*[tiab] OR military[tiab] OR "public safety"[tiab]
+)
