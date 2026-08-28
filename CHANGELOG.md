@@ -2,6 +2,17 @@
 
 All notable project changes are documented here.
 
+## [1.2.1] — 2026-08-28
+### Revalidated
+- Re-ran the mandatory Zotero `status --json` pre-gate at `2026-08-28T17:10:33Z` from the session requested for production import.
+- Confirmed `profile=null`, `prefs_file=null`, `api_running=false`, `connector_running=false`, and connection refusal at `127.0.0.1:23119`.
+- Confirmed `selected-target`, inventory, collection, and tag routes were unavailable; no Zotero write was attempted after the failed pre-gate.
+- Reconfirmed the combined RIS SHA-256 and exact 1,456-record count; `FXC7ZY9R` remains excluded from the production evidence set.
+- Recorded the retry in the Evidence Command Center and revalidated all 14 sheets; updated workbook SHA-256: `67e5314e958de5a494ec1cd5cf7df09b58efa12d399038e463152b358da3f724`.
+- Revalidated XLSX ZIP integrity and LibreOffice Calc open/re-save compatibility; the re-saved copy retained 14 sheets, `Master Evidence!A1:EN1459`, the retry audit block, and zero formula errors.
+- Preserved all scientific counts and checklist percentages because the production Zotero gate did not advance.
+- Decision remains **PUBMED BLOCKED**.
+
 ## [1.2.0] — 2026-08-28
 ### Executed
 - Audited the registered protocol and the existing search infrastructure before production execution.

@@ -111,6 +111,28 @@ Observed in this environment:
 No production Zotero item key, collection assignment, tag assignment, duplicate
 candidate, or merge result was invented.
 
+### Production pre-gate retry — 2026-08-28T17:10:33Z
+
+The mandatory Zotero pre-gate was executed again from the session explicitly
+requested for production import. Results remained `profile=null`,
+`prefs_file=null`, `local_api_enabled_pref=null`, `api_running=false`, and
+`connector_running=false`. Direct Connector ping returned HTTP `000`; `probe`
+returned no status for any local API route; and `selected-target`, `inventory`,
+`collections`, and `tags` each failed with connection refusal. Because no library
+destination could be confirmed, the authorized write was not attempted.
+
+The staged input was independently revalidated before stopping: SHA-256
+`f952ff56fa28bd67d36167aef334414f2687b8811277c3e4cb168f5825cf1dca` and 1,456
+RIS records. The GitHub baseline was confirmed at
+`818cbb886add2eb1cd7e46f58d2b4ff02c4bbb9d`; the local tree had no content diff
+against that commit. `FXC7ZY9R` remains excluded. Decision: `PUBMED BLOCKED`.
+The retry record was added to `Zotero Control`; all 14 sheets passed the visual
+recheck and the updated workbook SHA-256 is
+`67e5314e958de5a494ec1cd5cf7df09b58efa12d399038e463152b358da3f724`.
+XLSX ZIP integrity and LibreOffice Calc open/re-save compatibility both passed;
+the re-saved workbook retained all 14 sheets, `Master Evidence!A1:EN1459`, the
+retry audit block, and zero formula errors.
+
 ## Risks and required next action
 
 1. A and C intentionally favor sensitivity and include visible topical noise;

@@ -90,6 +90,13 @@ current environment cannot reach the user's Zotero Desktop on `localhost:23119`,
 so production import and Zotero-native deduplication remain blocked. All 1,456
 PubMed records remain at the `Identified` stage; none is claim-ready.
 
+The production pre-gate was revalidated at `2026-08-28T17:10:33Z` from the
+requested execution session. It again returned no visible profile or preferences,
+`api_running=false`, `connector_running=false`, and connection refusal at
+`127.0.0.1:23119`. The input RIS was independently reconfirmed as 1,456 records
+with SHA-256 `f952ff56fa28bd67d36167aef334414f2687b8811277c3e4cb168f5825cf1dca`.
+No import was attempted after the failed pre-gate.
+
 ## Citation
 
 Citation metadata is maintained in [`CITATION.cff`](CITATION.cff). The OSF DOI will be added only after it is explicitly verified.

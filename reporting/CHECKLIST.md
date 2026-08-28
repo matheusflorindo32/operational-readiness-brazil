@@ -119,6 +119,12 @@ and the explicitly authorized `import-ris --yes` attempt both failed with connec
 refusal at `127.0.0.1:23119`. The combined RIS is ready for the local Zotero run.
 See `docs/PUBMED_ABC_AUDIT_2026-08-28.md`.
 
+Retry audit at `2026-08-28T17:10:33Z`: `status --json`, `probe`, `selected-target`,
+`inventory`, `collections`, `tags`, and direct Connector ping were executed again.
+No profile/library context or API route was available, so no write was attempted.
+The 1,456-record RIS and its expected SHA-256 were reconfirmed. Percentages remain
+unchanged and the gate remains `PUBMED BLOCKED`.
+
 ## Evidence synthesis and framework development
 - [ ] Evidence map by operational-readiness domain
 - [ ] Brazil × international evidence matrix
