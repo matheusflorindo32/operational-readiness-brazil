@@ -1,0 +1,12 @@
+{
+  "workbook": "outputs/8a39e3c813da/PREMIUM_ELITE_DIAMANTE_Evidence_Command_Center.xlsx",
+  "worksheet": "Master Evidence",
+  "rows": 1456,
+  "matched_zotero_rows": 1456,
+  "unique_production_item_keys": 1456,
+  "missing_rows": 0,
+  "production_duplicate_pmids": 0,
+  "contains_controlled_key": false,
+  "pmid_37415704_production_key": "8XVBQIYE",
+  "reconciled": true
+}

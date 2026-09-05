@@ -1,0 +1,15 @@
+{
+  "profile": "C:\\Users\\mathe\\AppData\\Roaming\\Zotero\\Zotero\\Profiles\\hixtxxgq.default",
+  "prefs_file": "C:\\Users\\mathe\\AppData\\Roaming\\Zotero\\Zotero\\Profiles\\hixtxxgq.default\\prefs.js",
+  "local_api_enabled_pref": true,
+  "api_running": true,
+  "api_status": 200,
+  "api_error": null,
+  "zotero_version": "10.0.1",
+  "api_version": "3",
+  "schema_version": "44",
+  "connector_running": true,
+  "connector_status": 200,
+  "connector_error": null,
+  "base_url": "http://127.0.0.1:23119"
+}

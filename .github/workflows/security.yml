@@ -9,6 +9,13 @@ permissions:
   contents: read
 
 jobs:
+  audit-parser-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Test structural audit parsers without accessing Zotero
+        run: python3 -m unittest discover -s analysis -p 'test_*.py'
+
   secret-scan:
     runs-on: ubuntu-latest
     steps:

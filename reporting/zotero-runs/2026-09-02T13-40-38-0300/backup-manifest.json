@@ -1,0 +1,87 @@
+{
+  "created_at": "2026-09-02T13:47:24.6229347-03:00",
+  "source_database": "C:\\Users\\mathe\\Zotero\\zotero.sqlite",
+  "backup_directory": "C:\\Users\\mathe\\Documents\\Codex\\2026-08-26\\zotero-plugin-zotero-openai-curated-remote\\outputs\\zotero-backups\\2026-09-02T13-40-38-0300",
+  "zotero_item_key": "FXC7ZY9R",
+  "expected_tags": 32,
+  "expected_notes": 2,
+  "expected_attachments": 2,
+  "sqlite_integrity_check": "ok",
+  "files": [
+    {
+      "relative_path": "2JGU6PBB.item.json",
+      "bytes": 1467,
+      "sha256": "ca99a7583f975e7b87b444ea8b1d23b04050fc656303d15cd0f8a3666059ba2a"
+    },
+    {
+      "relative_path": "attachments\\2JGU6PBB-merge-test-attachment-a.txt",
+      "bytes": 102,
+      "sha256": "eb038fc607750d9dd0b3dfba33211efa3a5a8bea076fafc59a82cdeb34d6481a"
+    },
+    {
+      "relative_path": "attachments\\merge-test-attachment-a.txt",
+      "bytes": 102,
+      "sha256": "eb038fc607750d9dd0b3dfba33211efa3a5a8bea076fafc59a82cdeb34d6481a"
+    },
+    {
+      "relative_path": "attachments\\merge-test-attachment-b.txt",
+      "bytes": 102,
+      "sha256": "154867a4029cb6fa5721b932663a6cd541f6a379c09dd771e967ea4695531aa2"
+    },
+    {
+      "relative_path": "attachments\\MSG5UCIN-merge-test-attachment-b.txt",
+      "bytes": 102,
+      "sha256": "154867a4029cb6fa5721b932663a6cd541f6a379c09dd771e967ea4695531aa2"
+    },
+    {
+      "relative_path": "collections.json",
+      "bytes": 3450,
+      "sha256": "f1ffff7f1903cd85716939200141c796d20eee715186f329b1053c35731358e3"
+    },
+    {
+      "relative_path": "E4BKNKQ6.item.json",
+      "bytes": 1050,
+      "sha256": "27b2d1f915d1b9d6e27ca6a16ff2c297bf3c920f4560ab009f3501923f7b0d6b"
+    },
+    {
+      "relative_path": "FXC7ZY9R.bib",
+      "bytes": 1585,
+      "sha256": "b795272d5240b036bb74b80ebac14a8b42a6955258f263e8f6f9d5a4a61a9e0b"
+    },
+    {
+      "relative_path": "FXC7ZY9R.children.json",
+      "bytes": 535,
+      "sha256": "fe96818434cde7282dbc0b4d2432828f124ea79ab7aa3b30e939c565ff019d3b"
+    },
+    {
+      "relative_path": "FXC7ZY9R.item.json",
+      "bytes": 5758,
+      "sha256": "fb12de5bf6d29833e0d0bc7c0e0b051465f30e027118811841427f16f94618a0"
+    },
+    {
+      "relative_path": "inventory.json",
+      "bytes": 420,
+      "sha256": "345fa65c196df699cb2dc84337954d6f7bb5db449bff695901bd6ef368ba4c9a"
+    },
+    {
+      "relative_path": "MSG5UCIN.item.json",
+      "bytes": 1467,
+      "sha256": "6ac5fd1d55777e4f374e5d16901b3ff624b136bd8133cdb8bbb5fbd56eeae7c4"
+    },
+    {
+      "relative_path": "SZNLEXCS.item.json",
+      "bytes": 1055,
+      "sha256": "970a828bcfccc86222ac9de50912a265a297e8ddfbe35c4841b0ca8832911daa"
+    },
+    {
+      "relative_path": "tags.json",
+      "bytes": 2048,
+      "sha256": "870877e54f836a4f79308f8f8218b0de6ce6267da858471e183e1f49f0e95c6d"
+    },
+    {
+      "relative_path": "zotero-before.sqlite",
+      "bytes": 5013504,
+      "sha256": "e4243178e4c7d50a35aaae24d7b0ad2fd148e67189adf4764ea4e5da08ce02b4"
+    }
+  ]
+}

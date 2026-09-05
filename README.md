@@ -80,22 +80,49 @@ Never commit credentials, API keys, `.env` files, private keys, sensitive person
 - [x] Definitive structured evidence identification released
 - [x] PubMed A/B/C production searches executed on 2026-08-28
 - [x] 1,456 unique PubMed records entered individually in `Master Evidence`
-- [ ] Production RIS imported and deduplicated in Zotero Desktop
+- [x] Production RIS imported and audited natively for duplicates in Zotero Desktop
 
-The Zotero release gate passed with real local Desktop/API, import, deduplication,
-merge-preservation, and BibTeX/RIS export tests. Definitive structured evidence
-identification is now released. PubMed A/B/C were executed prospectively with
-complete query, timestamp, count, URL, export, and checksum provenance. The
-current environment cannot reach the user's Zotero Desktop on `localhost:23119`,
-so production import and Zotero-native deduplication remain blocked. All 1,456
-PubMed records remain at the `Identified` stage; none is claim-ready.
+The production Zotero phase was completed on the computer exposing the real
+Desktop API and Connector. The root collection `PE9UF4YN` contains 1,456 unique
+production items, all mapped one-to-one to the 1,456 `Master Evidence` rows.
+The native duplicate view contains one intentional controlled pair:
+`FXC7ZY9R` versus production key `8XVBQIYE` for PMID `37415704`. No merge was
+performed. `FXC7ZY9R` remains exclusively in the separate top-level collection
+`EMHHKNTM` and is not evidence; the recovered PubMed article remains legitimate
+Family A evidence under its production key. Scientific screening has not started,
+and no production item is claim-ready solely because it was imported.
 
-The production pre-gate was revalidated at `2026-08-28T17:10:33Z` from the
-requested execution session. It again returned no visible profile or preferences,
-`api_running=false`, `connector_running=false`, and connection refusal at
-`127.0.0.1:23119`. The input RIS was independently reconfirmed as 1,456 records
-with SHA-256 `f952ff56fa28bd67d36167aef334414f2687b8811277c3e4cb168f5825cf1dca`.
-No import was attempted after the failed pre-gate.
+Raw diagnostics, backup evidence, the 1,456-key rollback manifest, and the native
+duplicate audit are recorded under
+[`reporting/zotero-runs/2026-09-02T13-40-38-0300`](reporting/zotero-runs/2026-09-02T13-40-38-0300).
+The full execution report is
+[`docs/ZOTERO_PUBMED_IMPORT_AUDIT_2026-09-03.md`](docs/ZOTERO_PUBMED_IMPORT_AUDIT_2026-09-03.md).
+
+## PubMed structural publication audit — 2026-09-05
+
+The post-import audit reconciles source RIS, production Zotero, rollback keys,
+production RIS/BibTeX and Master Evidence at **1,456/1,456**. It checks PMID,
+DOI, normalized title, year, document-type representation and duplicate candidates.
+There are 156 missing DOIs already absent from the source and two same-title
+pairs with distinct PMIDs and years. No merge or scientific screening occurred.
+Individual metadata and source-integrity verification remain pending.
+
+The workbook now states the pre-execution baseline
+`912db0a4d3d6b9551fba228cd94d797b46370c50` and that PubMed A/B/C was executed,
+imported and reconciled, with screening not started. Only those two cells changed.
+See [the structural audit](docs/PUBMED_STRUCTURAL_AUDIT_2026-09-05.md) for
+controls, backup validation, preserved limitations and publication criteria.
+
+Reproduce the live, read-only structural checks with Python 3:
+
+```text
+python analysis/audit_pubmed_structure.py --helper "<installed Zotero skill>/scripts/zotero.py"
+python -m unittest discover -s analysis -p "test_*.py"
+```
+
+The helper must run on the computer exposing Zotero API/Connector at
+`127.0.0.1:23119`. No credentials, new dependencies or database migrations are
+required. Local audit success alone does not attest a remote commit or CI result.
 
 ## Citation
 

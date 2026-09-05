@@ -1,0 +1,19 @@
+{
+  "validated_at": "2026-09-03",
+  "path": "outputs/8a39e3c813da/PREMIUM_ELITE_DIAMANTE_Evidence_Command_Center.xlsx",
+  "sha256": "dcebe8daf1e9038948e8a77bebe29b28b989e3a53f9c36b84f6cb7dca7d1d1a3",
+  "bytes": 1355107,
+  "worksheets": 14,
+  "master_evidence_rows": 1456,
+  "formula_error_matches": 0,
+  "valid_zip_package": true,
+  "visual_reviewed_worksheets": 14,
+  "checklist_completed": 52,
+  "checklist_total": 74,
+  "checklist_percent": 70.3,
+  "definitive_identification_completed": 3,
+  "definitive_identification_total": 14,
+  "definitive_identification_percent": 21.4,
+  "scientific_screening_completed": 0,
+  "scientific_screening_total": 1456
+}

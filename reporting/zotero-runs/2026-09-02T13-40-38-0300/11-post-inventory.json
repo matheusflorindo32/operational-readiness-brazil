@@ -1,0 +1,18 @@
+{
+  "recorded_at": "2026-09-03T08:28:04-03:00",
+  "library_top_level_items": 1457,
+  "production_root": {
+    "name": "Tactical Athlete → Operational Readiness Brazil",
+    "key": "PE9UF4YN",
+    "unique_items": 1456,
+    "contains_controlled_key": false
+  },
+  "controlled_collection": {
+    "name": "Zotero Release Gate — Controlled Test — DO NOT USE",
+    "key": "EMHHKNTM",
+    "top_level": true,
+    "items": ["FXC7ZY9R"]
+  },
+  "expected_library_top_level_items": 1457,
+  "reconciled": true
+}

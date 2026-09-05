@@ -1,0 +1,43 @@
+{
+  "baseline": "912db0a4d3d6b9551fba228cd94d797b46370c50",
+  "staged_file_count_before_this_report": 42,
+  "forbidden_files": [],
+  "secret_signature_matches": 0,
+  "diff_check": "passed; exact Zotero RIS export preserves blank ER values via path-specific whitespace attribute",
+  "artifact_blob_checks": [
+    {
+      "path": "search/exports/2026-08-28/2026-08-28_pubmed_ABC_deduplicated.ris",
+      "git_blob_sha256": "f952ff56fa28bd67d36167aef334414f2687b8811277c3e4cb168f5825cf1dca",
+      "matches_audited_bytes_or_canonical_lf": true
+    },
+    {
+      "path": "search/exports/2026-09-02/2026-09-02_pubmed_ABC_zotero_production.ris",
+      "git_blob_sha256": "b197becb4ddee2686b7f91d228439d411acb36429c8804e1486653cf59468dcb",
+      "matches_audited_bytes_or_canonical_lf": true
+    },
+    {
+      "path": "search/exports/2026-09-02/2026-09-02_pubmed_ABC_zotero_production.bib",
+      "git_blob_sha256": "a4aec5f8dad0486f0d58106cd89e386b130463e23e19bd5f3a8c4f40a7d337a0",
+      "matches_audited_bytes_or_canonical_lf": true
+    },
+    {
+      "path": "outputs/8a39e3c813da/PREMIUM_ELITE_DIAMANTE_Evidence_Command_Center.xlsx",
+      "git_blob_sha256": "7d0548f5e53b7448c567a83dff38103fb75cefb82c3fc8918d66aad974fe7f2c",
+      "matches_audited_bytes_or_canonical_lf": true
+    },
+    {
+      "path": "reporting/zotero-runs/2026-09-02T13-40-38-0300/rollback-manifest.json",
+      "git_blob_sha256": "69202dc9ac7af87e390a1a318205d7346be21b394f6f0b64b427944ed526484f",
+      "matches_audited_bytes_or_canonical_lf": true
+    },
+    {
+      "path": "reporting/zotero-runs/2026-09-02T13-40-38-0300/backup-manifest.json",
+      "git_blob_sha256": "b407b702d06e4fd4300c4b2bfcd3ea0fbcb78dc46805d44b3c8c06a2e9036502",
+      "matches_audited_bytes_or_canonical_lf": true
+    }
+  ],
+  "lint": "ruff passed",
+  "parser_tests": "6 passed",
+  "pre_commit": "all applicable hooks passed",
+  "publication": "pending; this is a pre-commit check, not remote/CI evidence"
+}

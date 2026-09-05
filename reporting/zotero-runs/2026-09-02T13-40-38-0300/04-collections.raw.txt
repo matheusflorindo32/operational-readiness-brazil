@@ -1,0 +1,26 @@
+PE9UF4YN   Tactical Athlete → Operational Readiness Brazil
+SILA9MF9   APHT / TEMS / TCCC / TECC parent=PE9UF4YN
+APDEBY6D   Brazil parent=PE9UF4YN
+2H8JENSF   Cardiovascular / Cardiometabolic parent=PE9UF4YN
+RVQZW54A   Cognition / Psychology parent=PE9UF4YN
+HARBESK5   Contextual / Supporting Evidence parent=PE9UF4YN
+5JTSWNGD   Core Evidence — Essay parent=PE9UF4YN
+4I2MCB69   Definitions / Concepts parent=PE9UF4YN
+WQSEM33P   EMS / First Responders parent=PE9UF4YN
+G7YKY3QR   External Load / Equipment parent=PE9UF4YN
+AU9SKSIX   Firefighters parent=PE9UF4YN
+8X2JLTSS   Frameworks / Guidelines / Consensus parent=PE9UF4YN
+PUE446XU   Human Performance parent=PE9UF4YN
+5Q3RAKEZ   Implementation Science — CFIR / Proctor / ERIC parent=PE9UF4YN
+L2CIQEAJ   Injuries / Musculoskeletal parent=PE9UF4YN
+4BMXCPJ3   Key Papers / Seed Studies parent=PE9UF4YN
+PGFLVA6F   Law Enforcement parent=PE9UF4YN
+RY3I5TA7   Military — Transferable Evidence parent=PE9UF4YN
+XWPW8669   Not Used / Out of Scope parent=PE9UF4YN
+V2JA652J   Nutrition / Hydration parent=PE9UF4YN
+FMMCJLIU   Occupational Health / Longevity parent=PE9UF4YN
+HN3KFDPR   Official / Grey Literature parent=PE9UF4YN
+LHFVFRGB   Operational Readiness parent=PE9UF4YN
+M6ZGEASQ   Sleep / Fatigue / Recovery parent=PE9UF4YN
+9ZT7Z2Z5   Tactical Athlete parent=PE9UF4YN
+GFXHAYY5   Wearables / Monitoring parent=PE9UF4YN

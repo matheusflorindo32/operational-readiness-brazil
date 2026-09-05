@@ -1,0 +1,15 @@
+{
+  "profile": "C:\\Users\\mathe\\AppData\\Roaming\\Zotero\\Zotero\\Profiles\\hixtxxgq.default",
+  "prefs_file": "C:\\Users\\mathe\\AppData\\Roaming\\Zotero\\Zotero\\Profiles\\hixtxxgq.default\\prefs.js",
+  "local_api_enabled_pref": true,
+  "api_running": false,
+  "api_status": null,
+  "api_error": "<urlopen error timed out>",
+  "zotero_version": null,
+  "api_version": null,
+  "schema_version": null,
+  "connector_running": false,
+  "connector_status": null,
+  "connector_error": "<urlopen error timed out>",
+  "base_url": "http://127.0.0.1:23119"
+}

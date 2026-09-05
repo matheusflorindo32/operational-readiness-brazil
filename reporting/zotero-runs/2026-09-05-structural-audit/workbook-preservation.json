@@ -1,0 +1,21 @@
+{
+  "changed_cells": [
+    [
+      "README",
+      "B11"
+    ],
+    [
+      "Search Provenance",
+      "A2"
+    ]
+  ],
+  "changed_package_parts": [
+    "xl/worksheets/sheet1.xml",
+    "xl/worksheets/sheet9.xml"
+  ],
+  "all_other_package_bytes_preserved": true,
+  "styles_formulas_validations_and_objects_preserved": true,
+  "artifact_tool_formula_error_matches": 0,
+  "sha256_before": "dcebe8daf1e9038948e8a77bebe29b28b989e3a53f9c36b84f6cb7dca7d1d1a3",
+  "sha256_after": "7d0548f5e53b7448c567a83dff38103fb75cefb82c3fc8918d66aad974fe7f2c"
+}

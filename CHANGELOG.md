@@ -2,6 +2,35 @@
 
 All notable project changes are documented here.
 
+## [1.3.1] — 2026-09-05
+### Audited and corrected
+- Re-executed the Zotero skill's JSON status, inventory, collections and tags commands and reconciled the 1,456 production records against source RIS, rollback manifest, exports and Master Evidence.
+- Corrected `README!B11` to the pre-execution baseline `912db0a4d3d6b9551fba228cd94d797b46370c50` and `Search Provenance!A2` to executed/imported/reconciled, screening not started. Preserved all other workbook content and native features.
+- Recorded 156 source-missing DOIs, two title-only candidate pairs with distinct PMIDs/years, and the generic RIS/Zotero/BibTeX document-type mapping. Individual scientific metadata/integrity verification remains pending.
+- Retained `DO NOT MERGE` for `FXC7ZY9R` / `8XVBQIYE`; rechecked live identity and membership against the preserved native audit.
+- Verified the external SQLite backup by hash, integrity and populated schema. Excluded databases and private pre-import snapshots from version control.
+- Added a reproducible read-only structural auditor and parser tests. Allowed only the two named production bibliographic exports through the 2 MB pre-commit size check.
+- Full evidence and publication criteria: `docs/PUBMED_STRUCTURAL_AUDIT_2026-09-05.md`. No scientific screening started.
+
+## [1.3.0] — 2026-09-03
+### Executed
+- Confirmed Zotero Desktop `10.0.1`, local API v3/schema 44, and API/Connector HTTP 200 through the installed Zotero skill.
+- Preserved `FXC7ZY9R` with 32 tags, two notes, two attachments, and the same item key; associated it exclusively with top-level controlled collection `EMHHKNTM`.
+- Imported the authorized 1,456-record PubMed A/B/C RIS into production root `PE9UF4YN` through Connector session `codex-operational-readiness-brazil-20260902T1515`.
+- Executed Zotero's native duplicate view and found one candidate group: `FXC7ZY9R` versus production key `8XVBQIYE`. No merge was performed; permanent decision is `DO NOT MERGE — controlled infrastructure test versus production evidence`.
+
+### Reconciled
+- Reconciled 1,456 RIS records, 1,456 unique production Zotero items, 1,456 unique rollback-manifest keys, 1,456 BibTeX entries, 1,456 RIS-export records, and 1,456 `Master Evidence` rows.
+- Mapped all `Master Evidence` rows to their real Zotero item keys with no missing rows, collisions, or use of `FXC7ZY9R`.
+- Confirmed PMID `37415704` as production key `8XVBQIYE`, distinct from the controlled infrastructure key.
+- Recorded both source hashes: Windows CRLF `991c82352a8e94dbad7280aa98087dc928b30e356f5f5a436e7f61645d8c00b6` and canonical LF `f952ff56fa28bd67d36167aef334414f2687b8811277c3e4cb168f5825cf1dca`.
+
+### Verified
+- Generated production-only BibTeX and RIS exports; each contains 1,456 records and excludes `FXC7ZY9R`.
+- Updated the 14-sheet Evidence Command Center, scanned zero formula errors, validated the XLSX ZIP package, and visually reviewed every worksheet.
+- Checklist advanced to 52/74 (70.3%); definitive evidence identification advanced to 3/14 (21.4%). Scientific screening remains 0/1,456.
+- Decision for this infrastructure phase: **GO**. `PUBMED PASS` is not declared in this release.
+
 ## [1.2.1] — 2026-08-28
 ### Revalidated
 - Re-ran the mandatory Zotero `status --json` pre-gate at `2026-08-28T17:10:33Z` from the session requested for production import.

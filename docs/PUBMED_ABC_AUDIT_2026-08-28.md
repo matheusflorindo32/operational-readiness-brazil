@@ -151,3 +151,25 @@ records in the planned project collections, run Zotero duplicate detection,
 record candidate and merge counts, export the resulting library subset, and
 map Zotero item keys back to the 1,456 Master Evidence rows. Only then may the
 decision change from `PUBMED BLOCKED` to `PUBMED PASS`.
+
+## Production Zotero completion update — 2026-09-03
+
+The historical blocker above was resolved on the computer running Zotero
+Desktop. The production root now contains 1,456 unique items, all reconciled to
+the source RIS, rollback manifest, production exports, and `Master Evidence`.
+PMID `37415704` received production key `8XVBQIYE`; controlled infrastructure
+item `FXC7ZY9R` remains preserved and isolated in collection `EMHHKNTM`.
+Zotero's native duplicate view found that single intentional pair, and no merge
+was performed. The phase decision is `GO`, while `PUBMED PASS` remains undeclared
+pending the broader audit workflow. See
+`docs/ZOTERO_PUBMED_IMPORT_AUDIT_2026-09-03.md` for the complete execution
+evidence and observability limitation on the original Connector POST response.
+
+## Structural publication audit — 2026-09-05
+
+All 44 local structural controls passed, including exact 1,456-record/key
+reconciliation and the two workbook corrections. The 156 missing source DOIs,
+two title-only candidate pairs and generic document-type mapping are documented
+in `docs/PUBMED_STRUCTURAL_AUDIT_2026-09-05.md`. Scientific screening and
+individual metadata/integrity verification remain pending. Final `PUBMED PASS`
+also requires the published commit and successful CI for that exact commit.

@@ -1,0 +1,4 @@
+*.ris text eol=lf
+*.bib text eol=lf
+# Preserve the Zotero export's empty RIS terminator values (ER  - ).
+search/exports/2026-09-02/2026-09-02_pubmed_ABC_zotero_production.ris whitespace=-blank-at-eol

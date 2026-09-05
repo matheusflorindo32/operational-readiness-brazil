@@ -1,0 +1,23 @@
+{
+  "verified_at": "2026-09-02T13:42:35.746096-03:00",
+  "path": "C:\\Users\\mathe\\Documents\\Codex\\2026-08-26\\zotero-plugin-zotero-openai-curated-remote\\work\\operational-readiness-brazil\\search\\exports\\2026-08-28\\2026-08-28_pubmed_ABC_deduplicated.ris",
+  "records_ty": 1456,
+  "records_er": 1456,
+  "crlf_sequences": 28020,
+  "lone_cr_bytes": 0,
+  "windows_crlf": {
+    "bytes": 3244379,
+    "sha256": "991c82352a8e94dbad7280aa98087dc928b30e356f5f5a436e7f61645d8c00b6"
+  },
+  "normalized_lf": {
+    "bytes": 3216359,
+    "sha256": "f952ff56fa28bd67d36167aef334414f2687b8811277c3e4cb168f5825cf1dca"
+  },
+  "canonical_git_blob": {
+    "bytes": 3216359,
+    "sha256": "f952ff56fa28bd67d36167aef334414f2687b8811277c3e4cb168f5825cf1dca"
+  },
+  "normalized_equals_canonical_bytes": true,
+  "expected_canonical_sha256": "f952ff56fa28bd67d36167aef334414f2687b8811277c3e4cb168f5825cf1dca",
+  "expected_windows_sha256": "991c82352a8e94dbad7280aa98087dc928b30e356f5f5a436e7f61645d8c00b6"
+}

@@ -1,0 +1,164 @@
+[
+  {
+    "key": "PE9UF4YN",
+    "name": "Tactical Athlete → Operational Readiness Brazil",
+    "parentCollection": false,
+    "version": 1
+  },
+  {
+    "key": "SILA9MF9",
+    "name": "APHT / TEMS / TCCC / TECC",
+    "parentCollection": "PE9UF4YN",
+    "version": 1
+  },
+  {
+    "key": "APDEBY6D",
+    "name": "Brazil",
+    "parentCollection": "PE9UF4YN",
+    "version": 1
+  },
+  {
+    "key": "2H8JENSF",
+    "name": "Cardiovascular / Cardiometabolic",
+    "parentCollection": "PE9UF4YN",
+    "version": 1
+  },
+  {
+    "key": "RVQZW54A",
+    "name": "Cognition / Psychology",
+    "parentCollection": "PE9UF4YN",
+    "version": 1
+  },
+  {
+    "key": "HARBESK5",
+    "name": "Contextual / Supporting Evidence",
+    "parentCollection": "PE9UF4YN",
+    "version": 1
+  },
+  {
+    "key": "5JTSWNGD",
+    "name": "Core Evidence — Essay",
+    "parentCollection": "PE9UF4YN",
+    "version": 1
+  },
+  {
+    "key": "4I2MCB69",
+    "name": "Definitions / Concepts",
+    "parentCollection": "PE9UF4YN",
+    "version": 1
+  },
+  {
+    "key": "WQSEM33P",
+    "name": "EMS / First Responders",
+    "parentCollection": "PE9UF4YN",
+    "version": 1
+  },
+  {
+    "key": "G7YKY3QR",
+    "name": "External Load / Equipment",
+    "parentCollection": "PE9UF4YN",
+    "version": 1
+  },
+  {
+    "key": "AU9SKSIX",
+    "name": "Firefighters",
+    "parentCollection": "PE9UF4YN",
+    "version": 1
+  },
+  {
+    "key": "8X2JLTSS",
+    "name": "Frameworks / Guidelines / Consensus",
+    "parentCollection": "PE9UF4YN",
+    "version": 1
+  },
+  {
+    "key": "PUE446XU",
+    "name": "Human Performance",
+    "parentCollection": "PE9UF4YN",
+    "version": 1
+  },
+  {
+    "key": "5Q3RAKEZ",
+    "name": "Implementation Science — CFIR / Proctor / ERIC",
+    "parentCollection": "PE9UF4YN",
+    "version": 1
+  },
+  {
+    "key": "L2CIQEAJ",
+    "name": "Injuries / Musculoskeletal",
+    "parentCollection": "PE9UF4YN",
+    "version": 1
+  },
+  {
+    "key": "4BMXCPJ3",
+    "name": "Key Papers / Seed Studies",
+    "parentCollection": "PE9UF4YN",
+    "version": 1
+  },
+  {
+    "key": "PGFLVA6F",
+    "name": "Law Enforcement",
+    "parentCollection": "PE9UF4YN",
+    "version": 1
+  },
+  {
+    "key": "RY3I5TA7",
+    "name": "Military — Transferable Evidence",
+    "parentCollection": "PE9UF4YN",
+    "version": 1
+  },
+  {
+    "key": "XWPW8669",
+    "name": "Not Used / Out of Scope",
+    "parentCollection": "PE9UF4YN",
+    "version": 1
+  },
+  {
+    "key": "V2JA652J",
+    "name": "Nutrition / Hydration",
+    "parentCollection": "PE9UF4YN",
+    "version": 1
+  },
+  {
+    "key": "FMMCJLIU",
+    "name": "Occupational Health / Longevity",
+    "parentCollection": "PE9UF4YN",
+    "version": 1
+  },
+  {
+    "key": "HN3KFDPR",
+    "name": "Official / Grey Literature",
+    "parentCollection": "PE9UF4YN",
+    "version": 1
+  },
+  {
+    "key": "LHFVFRGB",
+    "name": "Operational Readiness",
+    "parentCollection": "PE9UF4YN",
+    "version": 1
+  },
+  {
+    "key": "M6ZGEASQ",
+    "name": "Sleep / Fatigue / Recovery",
+    "parentCollection": "PE9UF4YN",
+    "version": 1
+  },
+  {
+    "key": "9ZT7Z2Z5",
+    "name": "Tactical Athlete",
+    "parentCollection": "PE9UF4YN",
+    "version": 1
+  },
+  {
+    "key": "GFXHAYY5",
+    "name": "Wearables / Monitoring",
+    "parentCollection": "PE9UF4YN",
+    "version": 1
+  },
+  {
+    "key": "EMHHKNTM",
+    "name": "Zotero Release Gate — Controlled Test — DO NOT USE",
+    "parentCollection": false,
+    "version": 9
+  }
+]

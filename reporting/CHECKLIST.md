@@ -98,10 +98,11 @@ canonical DOI, 32 tags, and both notes.
 - [ ] LILACS A/B/C
 - [ ] Brazilian official/grey literature
 - [ ] Citation chasing
-- [ ] Export and bibliographic normalization
-- [ ] Zotero deduplication
+- [x] Export and bibliographic normalization
+- [x] Zotero duplicate audit completed; controlled pair retained, no production merge
 
 ### PubMed A/B/C production execution — 2026-08-28
+Historical status; see the 2026-09-05 structural audit below for current local controls.
 **Status: BLOCKED before PUBMED PASS.** The three final v1.0 queries were frozen
 prospectively and executed through NCBI Entrez without date, language, species,
 article-type, or access-status filters. Counts were A=880, B=391, and C=194.
@@ -118,6 +119,26 @@ The required production Zotero step could not be completed in this environment:
 and the explicitly authorized `import-ris --yes` attempt both failed with connection
 refusal at `127.0.0.1:23119`. The combined RIS is ready for the local Zotero run.
 See `docs/PUBMED_ABC_AUDIT_2026-08-28.md`.
+
+### PubMed A/B/C production Zotero completion — 2026-09-03
+**Status: GO for the completed infrastructure phase; `PUBMED PASS` is not
+declared.** The literal 1,456-record Windows RIS was revalidated at SHA-256
+`991c82352a8e94dbad7280aa98087dc928b30e356f5f5a436e7f61645d8c00b6`;
+CRLF→LF normalization reproduced the canonical SHA-256
+`f952ff56fa28bd67d36167aef334414f2687b8811277c3e4cb168f5825cf1dca`.
+The production root `PE9UF4YN` now contains exactly 1,456 unique items, all
+mapped one-to-one to `Master Evidence` and to the rollback manifest. Production
+BibTeX and RIS exports each contain 1,456 records and exclude the controlled
+item.
+
+`FXC7ZY9R` retained its key, 32 tags, two notes, and two attachments and is
+associated only with the separate top-level collection `EMHHKNTM`. The valid
+Family A article PMID `37415704` was imported under production key `8XVBQIYE`.
+Zotero's native duplicate view found exactly this intentional two-item group;
+no merge was performed. Permanent decision: `DO NOT MERGE — controlled
+infrastructure test versus production evidence`. Scientific screening remains
+0/1,456. Overall checklist: 52/74 (70.3%); definitive evidence identification:
+3/14 (21.4%). See `docs/ZOTERO_PUBMED_IMPORT_AUDIT_2026-09-03.md`.
 
 Retry audit at `2026-08-28T17:10:33Z`: `status --json`, `probe`, `selected-target`,
 `inventory`, `collections`, `tags`, and direct Connector ping were executed again.
@@ -138,3 +159,18 @@ unchanged and the gate remains `PUBMED BLOCKED`.
 
 ## Current release status
 **OSF: COMPLETE | ZOTERO RELEASE BASELINE: PASS | PUBMED A/B/C: EXECUTED | MASTER EVIDENCE: 1,456 IDENTIFIED | PRODUCTION ZOTERO IMPORT/DEDUP: BLOCKED | PUBMED GATE: BLOCKED**
+
+### PubMed structural publication audit — 2026-09-05
+All 44 local controls passed: API/Connector HTTP 200; production 1,456;
+controlled collection only FXC7ZY9R; library 1,457. Source RIS, manifest,
+production RIS/BibTeX and Master Evidence reconcile one-to-one at 1,456/1,456.
+Workbook baseline and Search Provenance corrections are complete; all other
+workbook content and native features were preserved. No merges occurred.
+The external backup passed hash, populated-schema and integrity checks.
+
+The 156 source-missing DOIs, two same-title pairs with distinct PMIDs/years,
+and generic Zotero document types are documented structural limitations.
+Metadata verification is not individually complete. Scientific screening
+remains 0/1,456. Checklist totals remain 52/74 (70.3%), identification 3/14.
+`PUBMED PASS` additionally requires publication and successful CI for the exact
+commit. See `docs/PUBMED_STRUCTURAL_AUDIT_2026-09-05.md`.

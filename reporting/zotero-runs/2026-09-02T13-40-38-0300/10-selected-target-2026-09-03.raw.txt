@@ -1,0 +1,325 @@
+{
+  "libraryID": 1,
+  "libraryName": "Minha biblioteca",
+  "libraryEditable": true,
+  "filesEditable": true,
+  "editable": true,
+  "id": 1,
+  "name": "Tactical Athlete \u2192 Operational Readiness Brazil",
+  "targets": [
+    {
+      "id": "L1",
+      "name": "Minha biblioteca",
+      "filesEditable": true,
+      "level": 0,
+      "recent": true
+    },
+    {
+      "id": "C1",
+      "name": "Tactical Athlete \u2192 Operational Readiness Brazil",
+      "filesEditable": true,
+      "level": 1,
+      "recent": true
+    },
+    {
+      "id": "C10",
+      "name": "APHT / TEMS / TCCC / TECC",
+      "filesEditable": true,
+      "level": 2
+    },
+    {
+      "id": "C19",
+      "name": "Brazil",
+      "filesEditable": true,
+      "level": 2
+    },
+    {
+      "id": "C15",
+      "name": "Cardiovascular / Cardiometabolic",
+      "filesEditable": true,
+      "level": 2
+    },
+    {
+      "id": "C13",
+      "name": "Cognition / Psychology",
+      "filesEditable": true,
+      "level": 2
+    },
+    {
+      "id": "C25",
+      "name": "Contextual / Supporting Evidence",
+      "filesEditable": true,
+      "level": 2
+    },
+    {
+      "id": "C24",
+      "name": "Core Evidence \u2014 Essay",
+      "filesEditable": true,
+      "level": 2
+    },
+    {
+      "id": "C2",
+      "name": "Definitions / Concepts",
+      "filesEditable": true,
+      "level": 2
+    },
+    {
+      "id": "C9",
+      "name": "EMS / First Responders",
+      "filesEditable": true,
+      "level": 2
+    },
+    {
+      "id": "C16",
+      "name": "External Load / Equipment",
+      "filesEditable": true,
+      "level": 2
+    },
+    {
+      "id": "C8",
+      "name": "Firefighters",
+      "filesEditable": true,
+      "level": 2
+    },
+    {
+      "id": "C21",
+      "name": "Frameworks / Guidelines / Consensus",
+      "filesEditable": true,
+      "level": 2
+    },
+    {
+      "id": "C4",
+      "name": "Human Performance",
+      "filesEditable": true,
+      "level": 2
+    },
+    {
+      "id": "C20",
+      "name": "Implementation Science \u2014 CFIR / Proctor / ERIC",
+      "filesEditable": true,
+      "level": 2
+    },
+    {
+      "id": "C14",
+      "name": "Injuries / Musculoskeletal",
+      "filesEditable": true,
+      "level": 2
+    },
+    {
+      "id": "C22",
+      "name": "Key Papers / Seed Studies",
+      "filesEditable": true,
+      "level": 2
+    },
+    {
+      "id": "C6",
+      "name": "Law Enforcement",
+      "filesEditable": true,
+      "level": 2
+    },
+    {
+      "id": "C7",
+      "name": "Military \u2014 Transferable Evidence",
+      "filesEditable": true,
+      "level": 2
+    },
+    {
+      "id": "C26",
+      "name": "Not Used / Out of Scope",
+      "filesEditable": true,
+      "level": 2
+    },
+    {
+      "id": "C12",
+      "name": "Nutrition / Hydration",
+      "filesEditable": true,
+      "level": 2
+    },
+    {
+      "id": "C18",
+      "name": "Occupational Health / Longevity",
+      "filesEditable": true,
+      "level": 2
+    },
+    {
+      "id": "C23",
+      "name": "Official / Grey Literature",
+      "filesEditable": true,
+      "level": 2
+    },
+    {
+      "id": "C5",
+      "name": "Operational Readiness",
+      "filesEditable": true,
+      "level": 2
+    },
+    {
+      "id": "C11",
+      "name": "Sleep / Fatigue / Recovery",
+      "filesEditable": true,
+      "level": 2
+    },
+    {
+      "id": "C3",
+      "name": "Tactical Athlete",
+      "filesEditable": true,
+      "level": 2
+    },
+    {
+      "id": "C17",
+      "name": "Wearables / Monitoring",
+      "filesEditable": true,
+      "level": 2
+    },
+    {
+      "id": "C27",
+      "name": "Zotero Release Gate \u2014 Controlled Test \u2014 DO NOT USE",
+      "filesEditable": true,
+      "level": 1
+    }
+  ],
+  "tags": {
+    "L1": [
+      {
+        "tag": "country:brazil",
+        "type": 1
+      },
+      {
+        "tag": "domain:apht",
+        "type": 1
+      },
+      {
+        "tag": "domain:cognitive",
+        "type": 1
+      },
+      {
+        "tag": "domain:health",
+        "type": 1
+      },
+      {
+        "tag": "domain:implementation",
+        "type": 1
+      },
+      {
+        "tag": "domain:injury",
+        "type": 1
+      },
+      {
+        "tag": "domain:load",
+        "type": 1
+      },
+      {
+        "tag": "domain:longevity",
+        "type": 1
+      },
+      {
+        "tag": "domain:monitoring",
+        "type": 1
+      },
+      {
+        "tag": "domain:nutrition",
+        "type": 1
+      },
+      {
+        "tag": "domain:occupational-performance",
+        "type": 1
+      },
+      {
+        "tag": "domain:physical",
+        "type": 1
+      },
+      {
+        "tag": "domain:recovery",
+        "type": 1
+      },
+      {
+        "tag": "evidence-family:A",
+        "type": 1
+      },
+      {
+        "tag": "evidence-family:B",
+        "type": 1
+      },
+      {
+        "tag": "evidence-family:C",
+        "type": 1
+      },
+      {
+        "tag": "population:firefighter",
+        "type": 1
+      },
+      {
+        "tag": "population:first-responder",
+        "type": 1
+      },
+      {
+        "tag": "population:military",
+        "type": 1
+      },
+      {
+        "tag": "population:police",
+        "type": 1
+      },
+      {
+        "tag": "role:brazil-context",
+        "type": 1
+      },
+      {
+        "tag": "role:definition",
+        "type": 1
+      },
+      {
+        "tag": "role:framework",
+        "type": 1
+      },
+      {
+        "tag": "role:implementation",
+        "type": 1
+      },
+      {
+        "tag": "role:indicator",
+        "type": 1
+      },
+      {
+        "tag": "role:paradigm-shift",
+        "type": 1
+      },
+      {
+        "tag": "status:contextual",
+        "type": 1
+      },
+      {
+        "tag": "status:core-evidence",
+        "type": 1
+      },
+      {
+        "tag": "status:metadata-verified",
+        "type": 1
+      },
+      {
+        "tag": "status:not-used",
+        "type": 1
+      },
+      {
+        "tag": "status:retraction-checked",
+        "type": 1
+      },
+      {
+        "tag": "status:seed",
+        "type": 1
+      },
+      {
+        "tag": "transferability:conditional",
+        "type": 1
+      },
+      {
+        "tag": "transferability:high",
+        "type": 1
+      },
+      {
+        "tag": "transferability:low",
+        "type": 1
+      }
+    ]
+  }
+}

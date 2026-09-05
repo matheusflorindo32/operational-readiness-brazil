@@ -44,5 +44,15 @@ __pycache__/
 ~$*
 *.tmp
 *.bak
+# Zotero databases, private pre-import snapshots and local backup files
+*.sqlite
+*.sqlite-*
+*.sqlite.*
+*.db
+*.db-*
+*.db.*
+/reporting/zotero-runs/**/before/
+**/zotero-backups/
+**/attachments/
 output/
 build/

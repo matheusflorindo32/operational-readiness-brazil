@@ -1,0 +1,21 @@
+{
+  "source_ris": {
+    "path": "search/exports/2026-08-28/2026-08-28_pubmed_ABC_deduplicated.ris",
+    "records": 1456,
+    "sha256_windows_crlf": "991c82352a8e94dbad7280aa98087dc928b30e356f5f5a436e7f61645d8c00b6",
+    "sha256_canonical_lf": "f952ff56fa28bd67d36167aef334414f2687b8811277c3e4cb168f5825cf1dca"
+  },
+  "production_bibtex": {
+    "path": "search/exports/2026-09-02/2026-09-02_pubmed_ABC_zotero_production.bib",
+    "entries": 1456,
+    "sha256": "a4aec5f8dad0486f0d58106cd89e386b130463e23e19bd5f3a8c4f40a7d337a0",
+    "contains_controlled_key": false
+  },
+  "production_ris": {
+    "path": "search/exports/2026-09-02/2026-09-02_pubmed_ABC_zotero_production.ris",
+    "records": 1456,
+    "sha256": "57ad371bacd59a2df714afff635b11b55af20cef6225fcadabda503b7136e151",
+    "contains_controlled_key": false
+  },
+  "reconciled": true
+}

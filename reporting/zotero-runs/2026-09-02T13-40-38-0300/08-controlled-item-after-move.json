@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-09-02T15:11:57.0187407-03:00",
+  "item_key": "FXC7ZY9R",
+  "version": 10,
+  "collections": [
+    "EMHHKNTM"
+  ],
+  "tag_count": 32,
+  "note_count": 2,
+  "attachment_count": 2,
+  "child_keys": [
+    "SZNLEXCS",
+    "MSG5UCIN",
+    "2JGU6PBB",
+    "E4BKNKQ6"
+  ],
+  "controlled_collection_key": "EMHHKNTM",
+  "controlled_top_count": 1,
+  "controlled_top_item_keys": [
+    "FXC7ZY9R"
+  ],
+  "exclusively_controlled": true,
+  "production_root_key": "PE9UF4YN",
+  "in_production_set": false
+}

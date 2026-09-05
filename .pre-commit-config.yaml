@@ -7,7 +7,10 @@ repos:
       - id: check-toml
       - id: end-of-file-fixer
       - id: trailing-whitespace
+        args: ['--markdown-linebreak-ext=md']
+        exclude: (^search/exports/2026-09-02/2026-09-02_pubmed_ABC_zotero_production\.(ris|bib)$|\.raw\.txt$)
       - id: check-added-large-files
         args: ['--maxkb=2000']
+        exclude: ^search/exports/2026-09-02/2026-09-02_pubmed_ABC_zotero_production\.(ris|bib)$
       - id: detect-private-key
       - id: check-merge-conflict

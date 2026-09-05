@@ -1,0 +1,20 @@
+{
+  "audit_date": "2026-09-03",
+  "native_view": "Itens duplicados",
+  "candidate_groups": 1,
+  "merges_performed": 0,
+  "candidates": [
+    {
+      "doi": "10.3389/fpubh.2023.1217187",
+      "pmid": "37415704",
+      "item_keys": ["FXC7ZY9R", "8XVBQIYE"],
+      "controlled_key": "FXC7ZY9R",
+      "production_key": "8XVBQIYE",
+      "differences": {
+        "controlled": "collection EMHHKNTM; 32 tags; 2 notes; 2 attachments; DOI-resolver URL; title without terminal period",
+        "production": "collection PE9UF4YN; evidence-family:A tag; 0 child objects; PubMed URL; title with terminal period"
+      },
+      "decision": "DO NOT MERGE — controlled infrastructure test versus production evidence"
+    }
+  ]
+}

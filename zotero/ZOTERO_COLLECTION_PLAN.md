@@ -85,6 +85,15 @@ Zotero is the **bibliographic single source of truth** and the final infrastruct
 - Store lawful personal-use full-text PDFs in Zotero/Drive, not GitHub.
 - Use Zotero notes for brief claim/extraction pointers; the XLSX remains the structured evidence command center.
 - Military evidence must receive an explicit transferability assessment before supporting Brazilian institutional recommendations.
+- The controlled infrastructure item key `FXC7ZY9R` is excluded from production;
+  the underlying PubMed article is not excluded and remains legitimate Family A
+  evidence under its separate production item key.
+- `FXC7ZY9R` must remain exclusively in the top-level collection `Zotero Release
+  Gate — Controlled Test — DO NOT USE` (`EMHHKNTM`), must never be associated
+  with the production root/subcollections, and must never populate `Master
+  Evidence`.
+- The intentional duplicate pair `FXC7ZY9R` / `8XVBQIYE` is permanently marked
+  `DO NOT MERGE — controlled infrastructure test versus production evidence`.
 
 ## Import / deduplication release test
 Before definitive evidence identification is released:
@@ -118,3 +127,22 @@ time. Detailed evidence is recorded in `reporting/CHECKLIST.md`.
 **Definitive structured evidence identification may begin only after the Zotero structure and import/deduplication test are verified.**
 
 **Release condition satisfied on 2026-08-27: `ZOTERO — PASS`.**
+
+## Production import record — 2026-09-03
+The controlled collection was reused rather than recreated. `FXC7ZY9R` retained
+32 tags, two notes, two attachments, and its original item key, and is associated
+only with controlled collection `EMHHKNTM`. The production root `PE9UF4YN`
+contains exactly 1,456 unique imported items. PMID `37415704` is represented in
+production by the distinct key `8XVBQIYE`.
+
+The native Zotero duplicate view reported one candidate group consisting of
+those two items. No merge was performed. RIS, Zotero, rollback manifest,
+production-only BibTeX/RIS exports, and the 1,456-row `Master Evidence` table
+reconcile exactly. This infrastructure phase is `GO`; scientific screening has
+not started and `PUBMED PASS` is not declared.
+
+The 2026-09-05 audit rechecked the live collection sets and all 1,456 production
+identities. The controlled pair remains `DO NOT MERGE`. Two additional
+same-title candidate pairs have distinct PMIDs and years and were preserved.
+See `docs/PUBMED_STRUCTURAL_AUDIT_2026-09-05.md`; native-view history and
+current API verification are distinguished there.

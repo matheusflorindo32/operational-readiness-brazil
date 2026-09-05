@@ -1,0 +1,717 @@
+{
+  "audited_at": "2026-09-05T17:27:32.914479+00:00",
+  "baseline_pre_execution": "912db0a4d3d6b9551fba228cd94d797b46370c50",
+  "scope": "Structural reconciliation only; scientific screening and individual source verification pending; no Zotero writes or merges.",
+  "checks": {
+    "api_connector_http_200": {
+      "pass": true,
+      "detail": {
+        "local_api_enabled_pref": true,
+        "api_running": true,
+        "api_status": 200,
+        "api_error": null,
+        "zotero_version": "10.0.1",
+        "api_version": "3",
+        "schema_version": "44",
+        "connector_running": true,
+        "connector_status": 200,
+        "connector_error": null,
+        "base_url": "http://127.0.0.1:23119"
+      }
+    },
+    "production_1456": {
+      "pass": true,
+      "detail": 1456
+    },
+    "library_1457": {
+      "pass": true,
+      "detail": 1457
+    },
+    "controlled_collection_only_FXC7ZY9R": {
+      "pass": true,
+      "detail": null
+    },
+    "controlled_excluded_from_production": {
+      "pass": true,
+      "detail": null
+    },
+    "library_set_equals_production_plus_control": {
+      "pass": true,
+      "detail": null
+    },
+    "controlled_membership": {
+      "pass": true,
+      "detail": null
+    },
+    "controlled_tags_32_children_4": {
+      "pass": true,
+      "detail": null
+    },
+    "manifest_1456_unique_exact_production": {
+      "pass": true,
+      "detail": null
+    },
+    "master_1456_keys_unique_nonempty_exact_production": {
+      "pass": true,
+      "detail": null
+    },
+    "master_contiguous_1456_rows": {
+      "pass": true,
+      "detail": null
+    },
+    "master_screening_not_started": {
+      "pass": true,
+      "detail": {
+        "IDENTIFIED": 1456
+      }
+    },
+    "individual_metadata_verification_pending": {
+      "pass": true,
+      "detail": null
+    },
+    "master_each_pmid_maps_to_exact_zotero_key": {
+      "pass": true,
+      "detail": null
+    },
+    "bibtex_citation_keys_unique": {
+      "pass": true,
+      "detail": null
+    },
+    "metadata_1456_unique_pmids": {
+      "pass": true,
+      "detail": null
+    },
+    "metadata_structural_fields": {
+      "pass": true,
+      "detail": []
+    },
+    "metadata_no_duplicate_pmids_or_dois": {
+      "pass": true,
+      "detail": null
+    },
+    "zotero_1456_unique_pmids": {
+      "pass": true,
+      "detail": null
+    },
+    "zotero_structural_fields": {
+      "pass": true,
+      "detail": []
+    },
+    "zotero_no_duplicate_pmids_or_dois": {
+      "pass": true,
+      "detail": null
+    },
+    "bibtex_1456_unique_pmids": {
+      "pass": true,
+      "detail": null
+    },
+    "bibtex_structural_fields": {
+      "pass": true,
+      "detail": []
+    },
+    "bibtex_no_duplicate_pmids_or_dois": {
+      "pass": true,
+      "detail": null
+    },
+    "master_1456_unique_pmids": {
+      "pass": true,
+      "detail": null
+    },
+    "master_structural_fields": {
+      "pass": true,
+      "detail": []
+    },
+    "master_no_duplicate_pmids_or_dois": {
+      "pass": true,
+      "detail": null
+    },
+    "source_ris_1456_unique_pmids": {
+      "pass": true,
+      "detail": null
+    },
+    "source_ris_structural_fields": {
+      "pass": true,
+      "detail": []
+    },
+    "source_ris_no_duplicate_pmids_or_dois": {
+      "pass": true,
+      "detail": null
+    },
+    "ris_export_1456_unique_pmids": {
+      "pass": true,
+      "detail": null
+    },
+    "ris_export_structural_fields": {
+      "pass": true,
+      "detail": []
+    },
+    "ris_export_no_duplicate_pmids_or_dois": {
+      "pass": true,
+      "detail": null
+    },
+    "document_type_mapping": {
+      "pass": true,
+      "detail": null
+    },
+    "master_retains_pubmed_publication_types": {
+      "pass": true,
+      "detail": null
+    },
+    "pmid_37415704_production_8XVBQIYE": {
+      "pass": true,
+      "detail": null
+    },
+    "native_audit_DO_NOT_MERGE": {
+      "pass": true,
+      "detail": null
+    },
+    "live_controlled_pair_identity": {
+      "pass": true,
+      "detail": {
+        "stored_pmid": null,
+        "pmid_mapping_basis": "Matching DOI and normalized title against production record 8XVBQIYE; controlled record does not store a PMID."
+      }
+    },
+    "exports_exclude_controlled_key": {
+      "pass": true,
+      "detail": null
+    },
+    "workbook_baseline_corrected": {
+      "pass": true,
+      "detail": "baseline pré-execução 912db0a4d3d6b9551fba228cd94d797b46370c50"
+    },
+    "workbook_provenance_corrected": {
+      "pass": true,
+      "detail": "PubMed A/B/C foi executado, importado e reconciliado; triagem científica ainda não iniciada."
+    },
+    "backup_manifest_files_match": {
+      "pass": true,
+      "detail": null
+    },
+    "backup_sqlite_valid_nonempty": {
+      "pass": true,
+      "detail": {
+        "integrity": "ok",
+        "tables": 59,
+        "items": 6
+      }
+    },
+    "source_canonical_hash": {
+      "pass": true,
+      "detail": null
+    }
+  },
+  "structural": {
+    "metadata": {
+      "count": 1456,
+      "missing": {
+        "pmid": 0,
+        "doi": 156,
+        "title": 0,
+        "year": 0,
+        "type": 0
+      },
+      "malformed": {
+        "doi": [],
+        "year": []
+      },
+      "types": {
+        "Journal Article": 813,
+        "Case Reports; Journal Article": 30,
+        "Journal Article; Review": 120,
+        "Journal Article; Scoping Review": 5,
+        "Journal Article; Observational Study": 15,
+        "Journal Article; Randomized Controlled Trial": 23,
+        "Comparative Study; Journal Article": 19,
+        "Historical Article; Journal Article": 8,
+        "Published Erratum": 3,
+        "Journal Article; Preprint": 3,
+        "Editorial": 9,
+        "Journal Article; Research Support, Non-U.S. Gov't": 82,
+        "Journal Article; Validation Study": 3,
+        "Historical Article; Journal Article; Review": 2,
+        "Journal Article; Research Support, U.S. Gov't, P.H.S.": 6,
+        "Clinical Trial Protocol; Journal Article": 7,
+        "Journal Article; Research Support, N.I.H., Extramural": 8,
+        "Comparative Study; Journal Article; Multicenter Study": 1,
+        "Journal Article; Systematic Review": 26,
+        "Journal Article; Meta-Analysis; Systematic Review": 6,
+        "Journal Article; Research Support, U.S. Gov't, Non-P.H.S.; Review": 5,
+        "Journal Article; Multicenter Study": 5,
+        "Introductory Journal Article; Research Support, U.S. Gov't, Non-P.H.S.": 1,
+        "Case Reports; Journal Article; Review": 2,
+        "Dataset; Journal Article": 1,
+        "Journal Article; Research Support, U.S. Gov't, Non-P.H.S.": 94,
+        "English Abstract; Journal Article; Review": 3,
+        "Journal Article; Research Support, Non-U.S. Gov't; Scoping Review": 2,
+        "Letter": 6,
+        "Journal Article; Research Support, Non-U.S. Gov't; Research Support, U.S. Gov't, Non-P.H.S.": 11,
+        "Clinical Trial Protocol; Journal Article; Research Support, N.I.H., Extramural": 1,
+        "Case Reports; Journal Article; Research Support, U.S. Gov't, Non-P.H.S.": 2,
+        "Journal Article; Research Support, N.I.H., Extramural; Research Support, Non-U.S. Gov't": 9,
+        "Journal Article; Research Support, N.I.H., Extramural; Research Support, U.S. Gov't, Non-P.H.S.": 5,
+        "Study Guide; Book Chapter": 6,
+        "Journal Article; Observational Study; Research Support, U.S. Gov't, Non-P.H.S.": 1,
+        "Comment; Journal Article": 1,
+        "Clinical Trial Protocol; Journal Article; Research Support, Non-U.S. Gov't": 1,
+        "Journal Article; Randomized Controlled Trial; Research Support, Non-U.S. Gov't": 6,
+        "Comparative Study; Journal Article; Observational Study": 1,
+        "Journal Article; Research Support, Non-U.S. Gov't; Research Support, U.S. Gov't, Non-P.H.S.; Research Support, U.S. Gov't, P.H.S.": 3,
+        "Journal Article; Video-Audio Media": 1,
+        "Journal Article; Randomized Controlled Trial; Research Support, N.I.H., Extramural; Research Support, Non-U.S. Gov't; Research Support, U.S. Gov't, Non-P.H.S.": 1,
+        "Clinical Trial Protocol; Journal Article; Research Support, U.S. Gov't, Non-P.H.S.": 3,
+        "Journal Article; Research Support, U.S. Gov't, Non-P.H.S.; Systematic Review": 2,
+        "Journal Article; Randomized Controlled Trial; Research Support, U.S. Gov't, Non-P.H.S.": 5,
+        "Journal Article; Research Support, U.S. Gov't, Non-P.H.S.; Scoping Review": 1,
+        "Journal Article; Research Support, Non-U.S. Gov't; Systematic Review": 2,
+        "Journal Article; Multicenter Study; Research Support, N.I.H., Extramural": 1,
+        "Journal Article; Practice Guideline; Systematic Review": 1,
+        "Journal Article; Randomized Controlled Trial; Research Support, N.I.H., Extramural; Research Support, U.S. Gov't, Non-P.H.S.": 1,
+        "Journal Article; Research Support, Non-U.S. Gov't; Research Support, U.S. Gov't, Non-P.H.S.; Scoping Review": 1,
+        "Comparative Study; Journal Article; Randomized Controlled Trial; Research Support, U.S. Gov't, Non-P.H.S.": 1,
+        "Case Reports; Journal Article; Systematic Review": 1,
+        "Comparative Study; Journal Article; Research Support, Non-U.S. Gov't": 5,
+        "Journal Article; Randomized Controlled Trial; Research Support, N.I.H., Extramural": 1,
+        "Journal Article; Randomized Controlled Trial; Research Support, N.I.H., Extramural; Research Support, Non-U.S. Gov't": 1,
+        "Editorial; Research Support, N.I.H., Extramural; Research Support, U.S. Gov't, Non-P.H.S.": 1,
+        "Consensus Statement; Journal Article; Research Support, U.S. Gov't, Non-P.H.S.": 1,
+        "Evaluation Study; Journal Article; Research Support, N.I.H., Extramural; Research Support, U.S. Gov't, Non-P.H.S.; Research Support, U.S. Gov't, P.H.S.": 1,
+        "Comparative Study; Journal Article; Research Support, Non-U.S. Gov't; Research Support, U.S. Gov't, Non-P.H.S.": 2,
+        "Journal Article; Observational Study; Research Support, Non-U.S. Gov't": 1,
+        "Comparative Study; Journal Article; Research Support, U.S. Gov't, Non-P.H.S.": 3,
+        "Comparative Study; Journal Article; Randomized Controlled Trial": 2,
+        "Journal Article; Meta-Analysis": 1,
+        "Journal Article; Research Support, N.I.H., Extramural; Research Support, Non-U.S. Gov't; Research Support, U.S. Gov't, P.H.S.": 1,
+        "Evaluation Study; Journal Article; Research Support, N.I.H., Extramural": 1,
+        "Consensus Statement; Journal Article; Review": 1,
+        "Journal Article; Research Support, Non-U.S. Gov't; Review": 1,
+        "Introductory Journal Article": 2,
+        "Clinical Trial; Journal Article": 2,
+        "Comparative Study; Evaluation Study; Journal Article": 1,
+        "Consensus Statement; Journal Article": 6,
+        "Editorial; Introductory Journal Article": 1,
+        "Comparative Study; Journal Article; Research Support, U.S. Gov't, Non-P.H.S.; Retracted Publication": 1,
+        "Editorial; English Abstract": 1,
+        "Clinical Trial; Comparative Study; Journal Article": 1,
+        "Review; Book": 3,
+        "English Abstract; Journal Article": 7,
+        "Clinical Trial; Journal Article; Research Support, U.S. Gov't, Non-P.H.S.": 1,
+        "Evaluation Study; Journal Article; Research Support, Non-U.S. Gov't; Research Support, U.S. Gov't, Non-P.H.S.": 1,
+        "Evaluation Study; Journal Article": 5,
+        "Journal Article; Multicenter Study; Randomized Controlled Trial": 1,
+        "Comparative Study; Evaluation Study; Journal Article; Research Support, U.S. Gov't, Non-P.H.S.": 1,
+        "Clinical Trial; Journal Article; Research Support, Non-U.S. Gov't": 1,
+        "Journal Article; Research Support, Non-U.S. Gov't; Research Support, U.S. Gov't, P.H.S.; Review": 1,
+        "Journal Article; Research Support, N.I.H., Extramural; Review": 1,
+        "Journal Article; Research Support, Non-U.S. Gov't; Research Support, U.S. Gov't, P.H.S.": 2,
+        "Journal Article; Multicenter Study; Research Support, N.I.H., Extramural; Research Support, N.I.H., Intramural; Research Support, Non-U.S. Gov't": 1,
+        "Journal Article; Randomized Controlled Trial; Research Support, Non-U.S. Gov't; Research Support, U.S. Gov't, Non-P.H.S.": 1,
+        "Journal Article; Research Support, Non-U.S. Gov't; Validation Study": 1,
+        "English Abstract; Journal Article; Research Support, Non-U.S. Gov't": 1,
+        "Evaluation Study; Journal Article; Research Support, U.S. Gov't, Non-P.H.S.": 1,
+        "Journal Article; Practice Guideline": 1,
+        "Journal Article; Research Support, N.I.H., Extramural; Research Support, Non-U.S. Gov't; Research Support, U.S. Gov't, Non-P.H.S.; Review": 1,
+        "Comparative Study; Editorial; English Abstract": 1,
+        "Clinical Trial; Controlled Clinical Trial; Journal Article": 1,
+        "Clinical Trial; Comparative Study; Journal Article; Randomized Controlled Trial": 2,
+        "Comparative Study; English Abstract; Journal Article": 2,
+        "Journal Article; Research Support, U.S. Gov't, Non-P.H.S.; Research Support, U.S. Gov't, P.H.S.; Review": 1,
+        "Clinical Trial; Journal Article; Randomized Controlled Trial; Research Support, U.S. Gov't, Non-P.H.S.": 1,
+        "Comment; Letter": 1,
+        "English Abstract; Historical Article; Journal Article": 1,
+        "Comparative Study; English Abstract; Historical Article; Journal Article": 1
+      },
+      "duplicates": {
+        "pmid": {},
+        "doi": {},
+        "title": {
+          "the tactical athlete: definitions, cardiovascular assessment, and management, and \"fit for duty\" standards": [
+            "38280817",
+            "36368814"
+          ],
+          "tactical medicine training for seal mission commanders": [
+            "33721322",
+            "11469036"
+          ]
+        }
+      },
+      "metadata_mismatches": []
+    },
+    "zotero": {
+      "count": 1456,
+      "missing": {
+        "pmid": 0,
+        "doi": 156,
+        "title": 0,
+        "year": 0,
+        "type": 0
+      },
+      "malformed": {
+        "doi": [],
+        "year": []
+      },
+      "types": {
+        "journalArticle": 1456
+      },
+      "duplicates": {
+        "pmid": {},
+        "doi": {},
+        "title": {
+          "tactical medicine training for seal mission commanders": [
+            "11469036",
+            "33721322"
+          ],
+          "the tactical athlete: definitions, cardiovascular assessment, and management, and \"fit for duty\" standards": [
+            "36368814",
+            "38280817"
+          ]
+        }
+      },
+      "metadata_mismatches": []
+    },
+    "bibtex": {
+      "count": 1456,
+      "missing": {
+        "pmid": 0,
+        "doi": 156,
+        "title": 0,
+        "year": 0,
+        "type": 0
+      },
+      "malformed": {
+        "doi": [],
+        "year": []
+      },
+      "types": {
+        "article": 1456
+      },
+      "duplicates": {
+        "pmid": {},
+        "doi": {},
+        "title": {
+          "tactical medicine training for seal mission commanders": [
+            "11469036",
+            "33721322"
+          ],
+          "the tactical athlete: definitions, cardiovascular assessment, and management, and \"fit for duty\" standards": [
+            "36368814",
+            "38280817"
+          ]
+        }
+      },
+      "metadata_mismatches": []
+    },
+    "master": {
+      "count": 1456,
+      "missing": {
+        "pmid": 0,
+        "doi": 156,
+        "title": 0,
+        "year": 0,
+        "type": 0
+      },
+      "malformed": {
+        "doi": [],
+        "year": []
+      },
+      "types": {
+        "Journal Article": 813,
+        "Case Reports; Journal Article": 30,
+        "Journal Article; Review": 120,
+        "Journal Article; Scoping Review": 5,
+        "Journal Article; Observational Study": 15,
+        "Journal Article; Randomized Controlled Trial": 23,
+        "Comparative Study; Journal Article": 19,
+        "Historical Article; Journal Article": 8,
+        "Published Erratum": 3,
+        "Journal Article; Preprint": 3,
+        "Editorial": 9,
+        "Journal Article; Research Support, Non-U.S. Gov't": 82,
+        "Journal Article; Validation Study": 3,
+        "Historical Article; Journal Article; Review": 2,
+        "Journal Article; Research Support, U.S. Gov't, P.H.S.": 6,
+        "Clinical Trial Protocol; Journal Article": 7,
+        "Journal Article; Research Support, N.I.H., Extramural": 8,
+        "Comparative Study; Journal Article; Multicenter Study": 1,
+        "Journal Article; Systematic Review": 26,
+        "Journal Article; Meta-Analysis; Systematic Review": 6,
+        "Journal Article; Research Support, U.S. Gov't, Non-P.H.S.; Review": 5,
+        "Journal Article; Multicenter Study": 5,
+        "Introductory Journal Article; Research Support, U.S. Gov't, Non-P.H.S.": 1,
+        "Case Reports; Journal Article; Review": 2,
+        "Dataset; Journal Article": 1,
+        "Journal Article; Research Support, U.S. Gov't, Non-P.H.S.": 94,
+        "English Abstract; Journal Article; Review": 3,
+        "Journal Article; Research Support, Non-U.S. Gov't; Scoping Review": 2,
+        "Letter": 6,
+        "Journal Article; Research Support, Non-U.S. Gov't; Research Support, U.S. Gov't, Non-P.H.S.": 11,
+        "Clinical Trial Protocol; Journal Article; Research Support, N.I.H., Extramural": 1,
+        "Case Reports; Journal Article; Research Support, U.S. Gov't, Non-P.H.S.": 2,
+        "Journal Article; Research Support, N.I.H., Extramural; Research Support, Non-U.S. Gov't": 9,
+        "Journal Article; Research Support, N.I.H., Extramural; Research Support, U.S. Gov't, Non-P.H.S.": 5,
+        "Study Guide; Book Chapter": 6,
+        "Journal Article; Observational Study; Research Support, U.S. Gov't, Non-P.H.S.": 1,
+        "Comment; Journal Article": 1,
+        "Clinical Trial Protocol; Journal Article; Research Support, Non-U.S. Gov't": 1,
+        "Journal Article; Randomized Controlled Trial; Research Support, Non-U.S. Gov't": 6,
+        "Comparative Study; Journal Article; Observational Study": 1,
+        "Journal Article; Research Support, Non-U.S. Gov't; Research Support, U.S. Gov't, Non-P.H.S.; Research Support, U.S. Gov't, P.H.S.": 3,
+        "Journal Article; Video-Audio Media": 1,
+        "Journal Article; Randomized Controlled Trial; Research Support, N.I.H., Extramural; Research Support, Non-U.S. Gov't; Research Support, U.S. Gov't, Non-P.H.S.": 1,
+        "Clinical Trial Protocol; Journal Article; Research Support, U.S. Gov't, Non-P.H.S.": 3,
+        "Journal Article; Research Support, U.S. Gov't, Non-P.H.S.; Systematic Review": 2,
+        "Journal Article; Randomized Controlled Trial; Research Support, U.S. Gov't, Non-P.H.S.": 5,
+        "Journal Article; Research Support, U.S. Gov't, Non-P.H.S.; Scoping Review": 1,
+        "Journal Article; Research Support, Non-U.S. Gov't; Systematic Review": 2,
+        "Journal Article; Multicenter Study; Research Support, N.I.H., Extramural": 1,
+        "Journal Article; Practice Guideline; Systematic Review": 1,
+        "Journal Article; Randomized Controlled Trial; Research Support, N.I.H., Extramural; Research Support, U.S. Gov't, Non-P.H.S.": 1,
+        "Journal Article; Research Support, Non-U.S. Gov't; Research Support, U.S. Gov't, Non-P.H.S.; Scoping Review": 1,
+        "Comparative Study; Journal Article; Randomized Controlled Trial; Research Support, U.S. Gov't, Non-P.H.S.": 1,
+        "Case Reports; Journal Article; Systematic Review": 1,
+        "Comparative Study; Journal Article; Research Support, Non-U.S. Gov't": 5,
+        "Journal Article; Randomized Controlled Trial; Research Support, N.I.H., Extramural": 1,
+        "Journal Article; Randomized Controlled Trial; Research Support, N.I.H., Extramural; Research Support, Non-U.S. Gov't": 1,
+        "Editorial; Research Support, N.I.H., Extramural; Research Support, U.S. Gov't, Non-P.H.S.": 1,
+        "Consensus Statement; Journal Article; Research Support, U.S. Gov't, Non-P.H.S.": 1,
+        "Evaluation Study; Journal Article; Research Support, N.I.H., Extramural; Research Support, U.S. Gov't, Non-P.H.S.; Research Support, U.S. Gov't, P.H.S.": 1,
+        "Comparative Study; Journal Article; Research Support, Non-U.S. Gov't; Research Support, U.S. Gov't, Non-P.H.S.": 2,
+        "Journal Article; Observational Study; Research Support, Non-U.S. Gov't": 1,
+        "Comparative Study; Journal Article; Research Support, U.S. Gov't, Non-P.H.S.": 3,
+        "Comparative Study; Journal Article; Randomized Controlled Trial": 2,
+        "Journal Article; Meta-Analysis": 1,
+        "Journal Article; Research Support, N.I.H., Extramural; Research Support, Non-U.S. Gov't; Research Support, U.S. Gov't, P.H.S.": 1,
+        "Evaluation Study; Journal Article; Research Support, N.I.H., Extramural": 1,
+        "Consensus Statement; Journal Article; Review": 1,
+        "Journal Article; Research Support, Non-U.S. Gov't; Review": 1,
+        "Introductory Journal Article": 2,
+        "Clinical Trial; Journal Article": 2,
+        "Comparative Study; Evaluation Study; Journal Article": 1,
+        "Consensus Statement; Journal Article": 6,
+        "Editorial; Introductory Journal Article": 1,
+        "Comparative Study; Journal Article; Research Support, U.S. Gov't, Non-P.H.S.; Retracted Publication": 1,
+        "Editorial; English Abstract": 1,
+        "Clinical Trial; Comparative Study; Journal Article": 1,
+        "Review; Book": 3,
+        "English Abstract; Journal Article": 7,
+        "Clinical Trial; Journal Article; Research Support, U.S. Gov't, Non-P.H.S.": 1,
+        "Evaluation Study; Journal Article; Research Support, Non-U.S. Gov't; Research Support, U.S. Gov't, Non-P.H.S.": 1,
+        "Evaluation Study; Journal Article": 5,
+        "Journal Article; Multicenter Study; Randomized Controlled Trial": 1,
+        "Comparative Study; Evaluation Study; Journal Article; Research Support, U.S. Gov't, Non-P.H.S.": 1,
+        "Clinical Trial; Journal Article; Research Support, Non-U.S. Gov't": 1,
+        "Journal Article; Research Support, Non-U.S. Gov't; Research Support, U.S. Gov't, P.H.S.; Review": 1,
+        "Journal Article; Research Support, N.I.H., Extramural; Review": 1,
+        "Journal Article; Research Support, Non-U.S. Gov't; Research Support, U.S. Gov't, P.H.S.": 2,
+        "Journal Article; Multicenter Study; Research Support, N.I.H., Extramural; Research Support, N.I.H., Intramural; Research Support, Non-U.S. Gov't": 1,
+        "Journal Article; Randomized Controlled Trial; Research Support, Non-U.S. Gov't; Research Support, U.S. Gov't, Non-P.H.S.": 1,
+        "Journal Article; Research Support, Non-U.S. Gov't; Validation Study": 1,
+        "English Abstract; Journal Article; Research Support, Non-U.S. Gov't": 1,
+        "Evaluation Study; Journal Article; Research Support, U.S. Gov't, Non-P.H.S.": 1,
+        "Journal Article; Practice Guideline": 1,
+        "Journal Article; Research Support, N.I.H., Extramural; Research Support, Non-U.S. Gov't; Research Support, U.S. Gov't, Non-P.H.S.; Review": 1,
+        "Comparative Study; Editorial; English Abstract": 1,
+        "Clinical Trial; Controlled Clinical Trial; Journal Article": 1,
+        "Clinical Trial; Comparative Study; Journal Article; Randomized Controlled Trial": 2,
+        "Comparative Study; English Abstract; Journal Article": 2,
+        "Journal Article; Research Support, U.S. Gov't, Non-P.H.S.; Research Support, U.S. Gov't, P.H.S.; Review": 1,
+        "Clinical Trial; Journal Article; Randomized Controlled Trial; Research Support, U.S. Gov't, Non-P.H.S.": 1,
+        "Comment; Letter": 1,
+        "English Abstract; Historical Article; Journal Article": 1,
+        "Comparative Study; English Abstract; Historical Article; Journal Article": 1
+      },
+      "duplicates": {
+        "pmid": {},
+        "doi": {},
+        "title": {
+          "the tactical athlete: definitions, cardiovascular assessment, and management, and \"fit for duty\" standards": [
+            "38280817",
+            "36368814"
+          ],
+          "tactical medicine training for seal mission commanders": [
+            "33721322",
+            "11469036"
+          ]
+        }
+      },
+      "metadata_mismatches": []
+    },
+    "source_ris": {
+      "count": 1456,
+      "missing": {
+        "pmid": 0,
+        "doi": 156,
+        "title": 0,
+        "year": 0,
+        "type": 0
+      },
+      "malformed": {
+        "doi": [],
+        "year": []
+      },
+      "types": {
+        "JOUR": 1456
+      },
+      "duplicates": {
+        "pmid": {},
+        "doi": {},
+        "title": {
+          "the tactical athlete: definitions, cardiovascular assessment, and management, and \"fit for duty\" standards": [
+            "38280817",
+            "36368814"
+          ],
+          "tactical medicine training for seal mission commanders": [
+            "33721322",
+            "11469036"
+          ]
+        }
+      },
+      "metadata_mismatches": []
+    },
+    "ris_export": {
+      "count": 1456,
+      "missing": {
+        "pmid": 0,
+        "doi": 156,
+        "title": 0,
+        "year": 0,
+        "type": 0
+      },
+      "malformed": {
+        "doi": [],
+        "year": []
+      },
+      "types": {
+        "JOUR": 1456
+      },
+      "duplicates": {
+        "pmid": {},
+        "doi": {},
+        "title": {
+          "tactical medicine training for seal mission commanders": [
+            "11469036",
+            "33721322"
+          ],
+          "the tactical athlete: definitions, cardiovascular assessment, and management, and \"fit for duty\" standards": [
+            "36368814",
+            "38280817"
+          ]
+        }
+      },
+      "metadata_mismatches": []
+    }
+  },
+  "backup": [
+    {
+      "file": "2JGU6PBB.item.json",
+      "bytes": 1467,
+      "hash_matches": true
+    },
+    {
+      "file": "attachments\\2JGU6PBB-merge-test-attachment-a.txt",
+      "bytes": 102,
+      "hash_matches": true
+    },
+    {
+      "file": "attachments\\merge-test-attachment-a.txt",
+      "bytes": 102,
+      "hash_matches": true
+    },
+    {
+      "file": "attachments\\merge-test-attachment-b.txt",
+      "bytes": 102,
+      "hash_matches": true
+    },
+    {
+      "file": "attachments\\MSG5UCIN-merge-test-attachment-b.txt",
+      "bytes": 102,
+      "hash_matches": true
+    },
+    {
+      "file": "collections.json",
+      "bytes": 3450,
+      "hash_matches": true
+    },
+    {
+      "file": "E4BKNKQ6.item.json",
+      "bytes": 1050,
+      "hash_matches": true
+    },
+    {
+      "file": "FXC7ZY9R.bib",
+      "bytes": 1585,
+      "hash_matches": true
+    },
+    {
+      "file": "FXC7ZY9R.children.json",
+      "bytes": 535,
+      "hash_matches": true
+    },
+    {
+      "file": "FXC7ZY9R.item.json",
+      "bytes": 5758,
+      "hash_matches": true
+    },
+    {
+      "file": "inventory.json",
+      "bytes": 420,
+      "hash_matches": true
+    },
+    {
+      "file": "MSG5UCIN.item.json",
+      "bytes": 1467,
+      "hash_matches": true
+    },
+    {
+      "file": "SZNLEXCS.item.json",
+      "bytes": 1055,
+      "hash_matches": true
+    },
+    {
+      "file": "tags.json",
+      "bytes": 2048,
+      "hash_matches": true
+    },
+    {
+      "file": "zotero-before.sqlite",
+      "bytes": 5013504,
+      "hash_matches": true
+    }
+  ],
+  "artifacts": {
+    "search/exports/2026-08-28/2026-08-28_pubmed_ABC_deduplicated.ris": {
+      "sha256": "991c82352a8e94dbad7280aa98087dc928b30e356f5f5a436e7f61645d8c00b6",
+      "bytes": 3244379,
+      "sha256_lf": "f952ff56fa28bd67d36167aef334414f2687b8811277c3e4cb168f5825cf1dca"
+    },
+    "search/exports/2026-09-02/2026-09-02_pubmed_ABC_zotero_production.ris": {
+      "sha256": "57ad371bacd59a2df714afff635b11b55af20cef6225fcadabda503b7136e151",
+      "bytes": 3337134,
+      "sha256_lf": "b197becb4ddee2686b7f91d228439d411acb36429c8804e1486653cf59468dcb"
+    },
+    "search/exports/2026-09-02/2026-09-02_pubmed_ABC_zotero_production.bib": {
+      "sha256": "a4aec5f8dad0486f0d58106cd89e386b130463e23e19bd5f3a8c4f40a7d337a0",
+      "bytes": 3329834,
+      "sha256_lf": "a4aec5f8dad0486f0d58106cd89e386b130463e23e19bd5f3a8c4f40a7d337a0"
+    },
+    "outputs/8a39e3c813da/PREMIUM_ELITE_DIAMANTE_Evidence_Command_Center.xlsx": {
+      "sha256": "7d0548f5e53b7448c567a83dff38103fb75cefb82c3fc8918d66aad974fe7f2c",
+      "bytes": 1364167,
+      "sha256_lf": null
+    },
+    "reporting/zotero-runs/2026-09-02T13-40-38-0300/rollback-manifest.json": {
+      "sha256": "69202dc9ac7af87e390a1a318205d7346be21b394f6f0b64b427944ed526484f",
+      "bytes": 24335,
+      "sha256_lf": "69202dc9ac7af87e390a1a318205d7346be21b394f6f0b64b427944ed526484f"
+    },
+    "reporting/zotero-runs/2026-09-02T13-40-38-0300/backup-manifest.json": {
+      "sha256": "f8e134e3125391707b20199960490a5b9bf7d3e5f0e0e4cd70950ae2343f7013",
+      "bytes": 3051,
+      "sha256_lf": "b407b702d06e4fd4300c4b2bfcd3ea0fbcb78dc46805d44b3c8c06a2e9036502"
+    }
+  },
+  "native_audit_basis": "Direct inspection of preserved native-view audit dated 2026-09-03, with live pair identity and membership checked. Native UI not reopened in this audit.",
+  "failed_controls": [],
+  "local_controls_pass": true,
+  "publication": "Not established by this local audit. Verify remote commit and CI separately."
+}

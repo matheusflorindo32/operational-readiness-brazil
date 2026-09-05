@@ -1,0 +1,43 @@
+{
+  "run_started_at": "2026-09-02T13:40:38.4001327-03:00",
+  "timezone": "E. South America Standard Time",
+  "workspace": "C:\\Users\\mathe\\Documents\\Codex\\2026-08-26\\zotero-plugin-zotero-openai-curated-remote\\work\\operational-readiness-brazil",
+  "git_head": "912db0a4d3d6b9551fba228cd94d797b46370c50",
+  "commands": [
+    {
+      "command": "python3 \"C:\\Users\\mathe\\.codex\\plugins\\cache\\openai-curated-remote\\zotero\\0.1.2\\skills\\zotero\\scripts\\zotero.py\" status --json",
+      "started_at": "2026-09-02T13:40:38.4511684-03:00",
+      "finished_at": "2026-09-02T13:40:39.2786909-03:00",
+      "exit_code": 0,
+      "raw_output": "C:\\Users\\mathe\\Documents\\Codex\\2026-08-26\\zotero-plugin-zotero-openai-curated-remote\\work\\operational-readiness-brazil\\reporting\\zotero-runs\\2026-09-02T13-40-38-0300\\01-status-json.raw.txt"
+    },
+    {
+      "command": "python3 \"C:\\Users\\mathe\\.codex\\plugins\\cache\\openai-curated-remote\\zotero\\0.1.2\\skills\\zotero\\scripts\\zotero.py\" selected-target --json",
+      "started_at": "2026-09-02T13:40:39.2855718-03:00",
+      "finished_at": "2026-09-02T13:40:39.7231635-03:00",
+      "exit_code": 0,
+      "raw_output": "C:\\Users\\mathe\\Documents\\Codex\\2026-08-26\\zotero-plugin-zotero-openai-curated-remote\\work\\operational-readiness-brazil\\reporting\\zotero-runs\\2026-09-02T13-40-38-0300\\02-selected-target-json.raw.txt"
+    },
+    {
+      "command": "python3 \"C:\\Users\\mathe\\.codex\\plugins\\cache\\openai-curated-remote\\zotero\\0.1.2\\skills\\zotero\\scripts\\zotero.py\" inventory",
+      "started_at": "2026-09-02T13:40:39.7256318-03:00",
+      "finished_at": "2026-09-02T13:40:40.0622007-03:00",
+      "exit_code": 0,
+      "raw_output": "C:\\Users\\mathe\\Documents\\Codex\\2026-08-26\\zotero-plugin-zotero-openai-curated-remote\\work\\operational-readiness-brazil\\reporting\\zotero-runs\\2026-09-02T13-40-38-0300\\03-inventory.raw.txt"
+    },
+    {
+      "command": "python3 \"C:\\Users\\mathe\\.codex\\plugins\\cache\\openai-curated-remote\\zotero\\0.1.2\\skills\\zotero\\scripts\\zotero.py\" collections",
+      "started_at": "2026-09-02T13:40:40.0626198-03:00",
+      "finished_at": "2026-09-02T13:40:40.3404206-03:00",
+      "exit_code": 0,
+      "raw_output": "C:\\Users\\mathe\\Documents\\Codex\\2026-08-26\\zotero-plugin-zotero-openai-curated-remote\\work\\operational-readiness-brazil\\reporting\\zotero-runs\\2026-09-02T13-40-38-0300\\04-collections.raw.txt"
+    },
+    {
+      "command": "python3 \"C:\\Users\\mathe\\.codex\\plugins\\cache\\openai-curated-remote\\zotero\\0.1.2\\skills\\zotero\\scripts\\zotero.py\" tags",
+      "started_at": "2026-09-02T13:40:40.3409359-03:00",
+      "finished_at": "2026-09-02T13:40:40.6181593-03:00",
+      "exit_code": 0,
+      "raw_output": "C:\\Users\\mathe\\Documents\\Codex\\2026-08-26\\zotero-plugin-zotero-openai-curated-remote\\work\\operational-readiness-brazil\\reporting\\zotero-runs\\2026-09-02T13-40-38-0300\\05-tags.raw.txt"
+    }
+  ]
+}
