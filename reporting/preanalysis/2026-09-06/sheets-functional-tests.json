@@ -1,0 +1,202 @@
+{
+  "engine": "Native Google Sheets",
+  "disposable_sheet_id": "12r0Uq1YHh70IHkIlG7Di60xIp5Q3CGuUB4ZCBQKQG1E",
+  "cases": [
+    {
+      "name": "positive_complete",
+      "expected_ready": true,
+      "ready": "Yes",
+      "reason": "READY",
+      "light": "🟢 Claim-ready",
+      "pass": true
+    },
+    {
+      "name": "manual_ready_without_traceability",
+      "expected_ready": false,
+      "ready": "No / Pending",
+      "reason": "PENDING — claim, result and source location",
+      "light": "🟡 Caution / context",
+      "pass": true
+    },
+    {
+      "name": "retracted",
+      "expected_ready": false,
+      "ready": "No / Pending",
+      "reason": "BLOCKED — integrity or use restriction",
+      "light": "🔴 Do not use for conclusion",
+      "pass": true
+    },
+    {
+      "name": "expression_of_concern",
+      "expected_ready": false,
+      "ready": "No / Pending",
+      "reason": "BLOCKED — integrity or use restriction",
+      "light": "🔴 Do not use for conclusion",
+      "pass": true
+    },
+    {
+      "name": "imported_retraction_signal",
+      "expected_ready": false,
+      "ready": "No / Pending",
+      "reason": "BLOCKED — integrity or use restriction",
+      "light": "🔴 Do not use for conclusion",
+      "pass": true
+    },
+    {
+      "name": "integrity_pending",
+      "expected_ready": false,
+      "ready": "No / Pending",
+      "reason": "PENDING — integrity resolution",
+      "light": "🟡 Caution / context",
+      "pass": true
+    },
+    {
+      "name": "correction_without_specific_resolution",
+      "expected_ready": false,
+      "ready": "No / Pending",
+      "reason": "PENDING — integrity resolution",
+      "light": "🟡 Caution / context",
+      "pass": true
+    },
+    {
+      "name": "identifiers_unverified",
+      "expected_ready": false,
+      "ready": "No / Pending",
+      "reason": "PENDING — verification",
+      "light": "🟡 Caution / context",
+      "pass": true
+    },
+    {
+      "name": "missing_result",
+      "expected_ready": false,
+      "ready": "No / Pending",
+      "reason": "PENDING — claim, result and source location",
+      "light": "🟡 Caution / context",
+      "pass": true
+    },
+    {
+      "name": "missing_source_location",
+      "expected_ready": false,
+      "ready": "No / Pending",
+      "reason": "PENDING — claim, result and source location",
+      "light": "🟡 Caution / context",
+      "pass": true
+    },
+    {
+      "name": "missing_reviewer",
+      "expected_ready": false,
+      "ready": "No / Pending",
+      "reason": "PENDING — specific limitation and human review",
+      "light": "🟡 Caution / context",
+      "pass": true
+    },
+    {
+      "name": "whitespace_reviewer",
+      "expected_ready": false,
+      "ready": "No / Pending",
+      "reason": "PENDING — specific limitation and human review",
+      "light": "🟡 Caution / context",
+      "pass": true
+    },
+    {
+      "name": "pending_reviewer",
+      "expected_ready": false,
+      "ready": "No / Pending",
+      "reason": "PENDING — specific limitation and human review",
+      "light": "🟡 Caution / context",
+      "pass": true
+    },
+    {
+      "name": "missing_analysis_date",
+      "expected_ready": false,
+      "ready": "No / Pending",
+      "reason": "PENDING — specific limitation and human review",
+      "light": "🟡 Caution / context",
+      "pass": true
+    },
+    {
+      "name": "missing_instrument",
+      "expected_ready": false,
+      "ready": "No / Pending",
+      "reason": "PENDING — appropriate appraisal",
+      "light": "🟡 Caution / context",
+      "pass": true
+    },
+    {
+      "name": "pending_risk_of_bias",
+      "expected_ready": false,
+      "ready": "No / Pending",
+      "reason": "PENDING — appropriate appraisal",
+      "light": "🟡 Caution / context",
+      "pass": true
+    },
+    {
+      "name": "generic_limitation",
+      "expected_ready": false,
+      "ready": "No / Pending",
+      "reason": "PENDING — specific limitation and human review",
+      "light": "🟡 Caution / context",
+      "pass": true
+    },
+    {
+      "name": "safety_override",
+      "expected_ready": false,
+      "ready": "No / Pending",
+      "reason": "PENDING — transferability and safety",
+      "light": "🟡 Caution / context",
+      "pass": true
+    },
+    {
+      "name": "decimal_scale",
+      "expected_ready": false,
+      "ready": "No / Pending",
+      "reason": "PENDING — transferability and safety",
+      "light": "🟡 Caution / context",
+      "pass": true
+    },
+    {
+      "name": "negative_scale",
+      "expected_ready": false,
+      "ready": "No / Pending",
+      "reason": "PENDING — transferability and safety",
+      "light": "🟡 Caution / context",
+      "pass": true
+    },
+    {
+      "name": "above_scale",
+      "expected_ready": false,
+      "ready": "No / Pending",
+      "reason": "PENDING — transferability and safety",
+      "light": "🟡 Caution / context",
+      "pass": true
+    },
+    {
+      "name": "blank_scale",
+      "expected_ready": false,
+      "ready": "No / Pending",
+      "reason": "PENDING — transferability and safety",
+      "light": "🟡 Caution / context",
+      "pass": true
+    },
+    {
+      "name": "zero_scale_valid",
+      "expected_ready": true,
+      "ready": "Yes",
+      "reason": "READY",
+      "light": "🟢 Claim-ready",
+      "pass": true
+    },
+    {
+      "name": "one_scale_valid",
+      "expected_ready": true,
+      "ready": "Yes",
+      "reason": "READY",
+      "light": "🟢 Claim-ready",
+      "pass": true
+    }
+  ],
+  "dashboard_claims": 3,
+  "expected_dashboard_claims": 3,
+  "analysis_pending": 1433,
+  "expected_analysis_pending": 1433
+}

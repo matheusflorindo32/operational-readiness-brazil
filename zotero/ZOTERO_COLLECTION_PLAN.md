@@ -146,3 +146,10 @@ identities. The controlled pair remains `DO NOT MERGE`. Two additional
 same-title candidate pairs have distinct PMIDs and years and were preserved.
 See `docs/PUBMED_STRUCTURAL_AUDIT_2026-09-05.md`; native-view history and
 current API verification are distinguished there.
+
+## Current read-only reconfirmation — 2026-09-06
+
+API/Connector HTTP 200; 1,456 production items in PE9UF4YN, only FXC7ZY9R in
+EMHHKNTM, 1,457 top-level library items. PMID 37415704 production key remains
+8XVBQIYE. DO NOT MERGE. No Zotero writes or scientific screening in this phase.
+See `docs/PUBMED_PREANALYSIS_GATE_2026-09-06.md` and its diagnostic evidence.

@@ -2,6 +2,15 @@
 
 All notable project changes are documented here.
 
+## [1.4.0] — 2026-09-06
+### Pre-analysis corrections
+- Coupled Claim-Ready, traffic light and Dashboard to conservative integrity, traceability, transfer-safety and human-review requirements.
+- Flagged the imported retraction signal for PMID 26159007 without deleting the row or claiming individual scientific verification.
+- Preserved 1,456 identity triplets as stable values; enforced integer 0/1/2 transfer scores, froze operational headers and corrected Analysis pending to 1,456.
+- Passed 24 functional scenarios in both XLSX and native Google Sheets; reconciled all 1,456 records with 44 structural controls.
+- Preserved verified external backups and the pre-edit Google Sheets copy; synchronized the same canonical Sheets ID and a dated XLSX snapshot in 04_EXTRACAO with unchanged permissions.
+- Added the pre-analysis gate report, shared formula rules and regression contract. No reimport, merge or scientific screening. Operational gate publication requires remote commit and successful CI.
+
 ## [1.3.1] — 2026-09-05
 ### Audited and corrected
 - Re-executed the Zotero skill's JSON status, inventory, collections and tags commands and reconciled the 1,456 production records against source RIS, rollback manifest, exports and Master Evidence.

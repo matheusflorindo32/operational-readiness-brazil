@@ -68,7 +68,20 @@ APHT is treated as a **readiness domain**, not as a disconnected general TCCC/TE
 
 Never commit credentials, API keys, `.env` files, private keys, sensitive personal data, restricted operational data, or copyrighted article PDFs. See [`SECURITY.md`](SECURITY.md).
 
-## Current release gate
+## Current pre-analysis gate — 2026-09-06
+
+PubMed identification/import reconciles **1,456/1,456** across RIS, Zotero,
+rollback manifest, exports and Master Evidence. The pre-analysis corrections pass
+24/24 functional scenarios in each of XLSX and native Google Sheets. Scientific
+screening and claim approval remain **0/1,456**. The imported retraction signal for
+PMID 26159007 is visibly blocked, without claiming individual verification.
+
+See the [gate report](docs/PUBMED_PREANALYSIS_GATE_2026-09-06.md),
+[decision rules](docs/PREANALYSIS_RULES.md) and [canonical Drive index](drive/CANONICAL_VERSION_INDEX.md).
+Operational PUBMED PASS requires this version's remote commit and successful CI;
+it does not approve the scientific content of the articles.
+
+## Historical release milestones
 
 - [x] GitHub repository materialized
 - [x] Security CI active
@@ -98,7 +111,7 @@ duplicate audit are recorded under
 The full execution report is
 [`docs/ZOTERO_PUBMED_IMPORT_AUDIT_2026-09-03.md`](docs/ZOTERO_PUBMED_IMPORT_AUDIT_2026-09-03.md).
 
-## PubMed structural publication audit — 2026-09-05
+## Historical PubMed structural publication audit — 2026-09-05
 
 The post-import audit reconciles source RIS, production Zotero, rollback keys,
 production RIS/BibTeX and Master Evidence at **1,456/1,456**. It checks PMID,
@@ -109,7 +122,7 @@ Individual metadata and source-integrity verification remain pending.
 
 The workbook now states the pre-execution baseline
 `912db0a4d3d6b9551fba228cd94d797b46370c50` and that PubMed A/B/C was executed,
-imported and reconciled, with screening not started. Only those two cells changed.
+imported and reconciled, with screening not started. Only those two cells changed in that historical release.
 See [the structural audit](docs/PUBMED_STRUCTURAL_AUDIT_2026-09-05.md) for
 controls, backup validation, preserved limitations and publication criteria.
 

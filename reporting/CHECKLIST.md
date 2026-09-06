@@ -157,8 +157,27 @@ unchanged and the gate remains `PUBMED BLOCKED`.
 - [ ] Future empirical validation agenda defined
 - [ ] Potential digital operational-readiness tool treated as a separate future validation phase
 
-## Current release status
-**OSF: COMPLETE | ZOTERO RELEASE BASELINE: PASS | PUBMED A/B/C: EXECUTED | MASTER EVIDENCE: 1,456 IDENTIFIED | PRODUCTION ZOTERO IMPORT/DEDUP: BLOCKED | PUBMED GATE: BLOCKED**
+## Current release status — 2026-09-06
+**ZOTERO: 1,456 production + 1 controlled | PUBMED A/B/C: EXECUTED, IMPORTED AND RECONCILED | PRE-ANALYSIS CONTROLS: PASS | SCIENTIFIC SCREENING: NOT STARTED**
+
+The earlier import BLOCKED status is superseded by the reconciled production
+execution and current 44/44 structural controls. Operational PUBMED PASS becomes
+effective only after the containing commit is confirmed remotely with successful
+CI. See `docs/PUBMED_PREANALYSIS_GATE_2026-09-06.md` for evidence and limits.
+OSF registration history is retained; independent public registration URL/DOI
+verification remains pending. Overall administrative totals remain 52/74 (70.27%).
+
+| Pre-analysis control (separate from the 74-item project checklist) | Evidence |
+|---|---|
+| Verified backup and stable identity map | 1,456/1,456; SQLite integrity ok |
+| Coupled Claim-Ready, traffic light and Dashboard | 0/1,456 approvals |
+| Imported retraction alert | PMID 26159007 retained and blocked |
+| Stable IDs, integer scale, frozen headers, Analysis pending | Implemented in XLSX and Sheets |
+| Functional tests | 24/24 per engine |
+| Reconciliation and functional parity | 1,456/1,456 |
+| Coherent documentation | README, checklist, changelog, report, rules and Drive index |
+| Canonical Drive synchronization | Same ID, permissions preserved, backup retained |
+| Remote publication and CI | Mandatory final gate; verify containing commit and CI run |
 
 ### PubMed structural publication audit — 2026-09-05
 All 44 local controls passed: API/Connector HTTP 200; production 1,456;

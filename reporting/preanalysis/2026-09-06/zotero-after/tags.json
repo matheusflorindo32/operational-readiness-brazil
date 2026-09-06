@@ -1,0 +1,142 @@
+[
+  {
+    "tag": "country:brazil",
+    "numItems": 2
+  },
+  {
+    "tag": "domain:apht",
+    "numItems": 1
+  },
+  {
+    "tag": "domain:cognitive",
+    "numItems": 1
+  },
+  {
+    "tag": "domain:health",
+    "numItems": 1
+  },
+  {
+    "tag": "domain:implementation",
+    "numItems": 2
+  },
+  {
+    "tag": "domain:injury",
+    "numItems": 1
+  },
+  {
+    "tag": "domain:load",
+    "numItems": 1
+  },
+  {
+    "tag": "domain:longevity",
+    "numItems": 2
+  },
+  {
+    "tag": "domain:monitoring",
+    "numItems": 1
+  },
+  {
+    "tag": "domain:nutrition",
+    "numItems": 1
+  },
+  {
+    "tag": "domain:occupational-performance",
+    "numItems": 1
+  },
+  {
+    "tag": "domain:physical",
+    "numItems": 1
+  },
+  {
+    "tag": "domain:recovery",
+    "numItems": 1
+  },
+  {
+    "tag": "evidence-family:A",
+    "numItems": 880
+  },
+  {
+    "tag": "evidence-family:B",
+    "numItems": 391
+  },
+  {
+    "tag": "evidence-family:C",
+    "numItems": 194
+  },
+  {
+    "tag": "population:firefighter",
+    "numItems": 2
+  },
+  {
+    "tag": "population:first-responder",
+    "numItems": 2
+  },
+  {
+    "tag": "population:military",
+    "numItems": 2
+  },
+  {
+    "tag": "population:police",
+    "numItems": 2
+  },
+  {
+    "tag": "role:brazil-context",
+    "numItems": 2
+  },
+  {
+    "tag": "role:definition",
+    "numItems": 2
+  },
+  {
+    "tag": "role:framework",
+    "numItems": 2
+  },
+  {
+    "tag": "role:implementation",
+    "numItems": 2
+  },
+  {
+    "tag": "role:indicator",
+    "numItems": 2
+  },
+  {
+    "tag": "role:paradigm-shift",
+    "numItems": 2
+  },
+  {
+    "tag": "status:contextual",
+    "numItems": 1
+  },
+  {
+    "tag": "status:core-evidence",
+    "numItems": 1
+  },
+  {
+    "tag": "status:metadata-verified",
+    "numItems": 1
+  },
+  {
+    "tag": "status:not-used",
+    "numItems": 1
+  },
+  {
+    "tag": "status:retraction-checked",
+    "numItems": 1
+  },
+  {
+    "tag": "status:seed",
+    "numItems": 1
+  },
+  {
+    "tag": "transferability:conditional",
+    "numItems": 2
+  },
+  {
+    "tag": "transferability:high",
+    "numItems": 2
+  },
+  {
+    "tag": "transferability:low",
+    "numItems": 2
+  }
+]

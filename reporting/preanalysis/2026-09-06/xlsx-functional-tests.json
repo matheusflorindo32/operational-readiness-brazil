@@ -1,0 +1,242 @@
+[
+  {
+    "name": "positive_complete",
+    "expected_ready": true,
+    "reason": "READY",
+    "ready": "Yes",
+    "light": "🟢 Claim-ready",
+    "score": 14,
+    "dashboard": 1,
+    "pass": true
+  },
+  {
+    "name": "manual_ready_without_traceability",
+    "expected_ready": false,
+    "reason": "PENDING — claim, result and source location",
+    "ready": "No / Pending",
+    "light": "🟡 Caution / context",
+    "score": 14,
+    "dashboard": 0,
+    "pass": true
+  },
+  {
+    "name": "retracted",
+    "expected_ready": false,
+    "reason": "BLOCKED — integrity or use restriction",
+    "ready": "No / Pending",
+    "light": "🔴 Do not use for conclusion",
+    "score": 14,
+    "dashboard": 0,
+    "pass": true
+  },
+  {
+    "name": "expression_of_concern",
+    "expected_ready": false,
+    "reason": "BLOCKED — integrity or use restriction",
+    "ready": "No / Pending",
+    "light": "🔴 Do not use for conclusion",
+    "score": 14,
+    "dashboard": 0,
+    "pass": true
+  },
+  {
+    "name": "imported_retraction_signal",
+    "expected_ready": false,
+    "reason": "BLOCKED — integrity or use restriction",
+    "ready": "No / Pending",
+    "light": "🔴 Do not use for conclusion",
+    "score": 14,
+    "dashboard": 0,
+    "pass": true
+  },
+  {
+    "name": "integrity_pending",
+    "expected_ready": false,
+    "reason": "PENDING — integrity resolution",
+    "ready": "No / Pending",
+    "light": "🟡 Caution / context",
+    "score": 14,
+    "dashboard": 0,
+    "pass": true
+  },
+  {
+    "name": "correction_without_specific_resolution",
+    "expected_ready": false,
+    "reason": "PENDING — integrity resolution",
+    "ready": "No / Pending",
+    "light": "🟡 Caution / context",
+    "score": 14,
+    "dashboard": 0,
+    "pass": true
+  },
+  {
+    "name": "identifiers_unverified",
+    "expected_ready": false,
+    "reason": "PENDING — verification",
+    "ready": "No / Pending",
+    "light": "🟡 Caution / context",
+    "score": 14,
+    "dashboard": 0,
+    "pass": true
+  },
+  {
+    "name": "missing_result",
+    "expected_ready": false,
+    "reason": "PENDING — claim, result and source location",
+    "ready": "No / Pending",
+    "light": "🟡 Caution / context",
+    "score": 14,
+    "dashboard": 0,
+    "pass": true
+  },
+  {
+    "name": "missing_source_location",
+    "expected_ready": false,
+    "reason": "PENDING — claim, result and source location",
+    "ready": "No / Pending",
+    "light": "🟡 Caution / context",
+    "score": 14,
+    "dashboard": 0,
+    "pass": true
+  },
+  {
+    "name": "missing_reviewer",
+    "expected_ready": false,
+    "reason": "PENDING — specific limitation and human review",
+    "ready": "No / Pending",
+    "light": "🟡 Caution / context",
+    "score": 14,
+    "dashboard": 0,
+    "pass": true
+  },
+  {
+    "name": "whitespace_reviewer",
+    "expected_ready": false,
+    "reason": "PENDING — specific limitation and human review",
+    "ready": "No / Pending",
+    "light": "🟡 Caution / context",
+    "score": 14,
+    "dashboard": 0,
+    "pass": true
+  },
+  {
+    "name": "pending_reviewer",
+    "expected_ready": false,
+    "reason": "PENDING — specific limitation and human review",
+    "ready": "No / Pending",
+    "light": "🟡 Caution / context",
+    "score": 14,
+    "dashboard": 0,
+    "pass": true
+  },
+  {
+    "name": "missing_analysis_date",
+    "expected_ready": false,
+    "reason": "PENDING — specific limitation and human review",
+    "ready": "No / Pending",
+    "light": "🟡 Caution / context",
+    "score": 14,
+    "dashboard": 0,
+    "pass": true
+  },
+  {
+    "name": "missing_instrument",
+    "expected_ready": false,
+    "reason": "PENDING — appropriate appraisal",
+    "ready": "No / Pending",
+    "light": "🟡 Caution / context",
+    "score": 14,
+    "dashboard": 0,
+    "pass": true
+  },
+  {
+    "name": "pending_risk_of_bias",
+    "expected_ready": false,
+    "reason": "PENDING — appropriate appraisal",
+    "ready": "No / Pending",
+    "light": "🟡 Caution / context",
+    "score": 14,
+    "dashboard": 0,
+    "pass": true
+  },
+  {
+    "name": "generic_limitation",
+    "expected_ready": false,
+    "reason": "PENDING — specific limitation and human review",
+    "ready": "No / Pending",
+    "light": "🟡 Caution / context",
+    "score": 14,
+    "dashboard": 0,
+    "pass": true
+  },
+  {
+    "name": "safety_override",
+    "expected_ready": false,
+    "reason": "PENDING — transferability and safety",
+    "ready": "No / Pending",
+    "light": "🟡 Caution / context",
+    "score": 14,
+    "dashboard": 0,
+    "pass": true
+  },
+  {
+    "name": "decimal_scale",
+    "expected_ready": false,
+    "reason": "PENDING — transferability and safety",
+    "ready": "No / Pending",
+    "light": "🟡 Caution / context",
+    "score": "",
+    "dashboard": 0,
+    "pass": true
+  },
+  {
+    "name": "negative_scale",
+    "expected_ready": false,
+    "reason": "PENDING — transferability and safety",
+    "ready": "No / Pending",
+    "light": "🟡 Caution / context",
+    "score": "",
+    "dashboard": 0,
+    "pass": true
+  },
+  {
+    "name": "above_scale",
+    "expected_ready": false,
+    "reason": "PENDING — transferability and safety",
+    "ready": "No / Pending",
+    "light": "🟡 Caution / context",
+    "score": "",
+    "dashboard": 0,
+    "pass": true
+  },
+  {
+    "name": "blank_scale",
+    "expected_ready": false,
+    "reason": "PENDING — transferability and safety",
+    "ready": "No / Pending",
+    "light": "🟡 Caution / context",
+    "score": "",
+    "dashboard": 0,
+    "pass": true
+  },
+  {
+    "name": "zero_scale_valid",
+    "expected_ready": true,
+    "reason": "READY",
+    "ready": "Yes",
+    "light": "🟢 Claim-ready",
+    "score": 12,
+    "dashboard": 1,
+    "pass": true
+  },
+  {
+    "name": "one_scale_valid",
+    "expected_ready": true,
+    "reason": "READY",
+    "ready": "Yes",
+    "light": "🟢 Claim-ready",
+    "score": 13,
+    "dashboard": 1,
+    "pass": true
+  }
+]

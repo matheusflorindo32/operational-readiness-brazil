@@ -1,0 +1,27 @@
+{
+  "unexpected_content_changes": [],
+  "sheets": 14,
+  "tables": 10,
+  "charts": 2,
+  "xlsx_bytes": 1662714,
+  "xlsx_sha256": "e8a751ba0f455a8453a27c11b8fc1d3aeb003adad942e063d1eb4422b1d130d8",
+  "dashboard_traffic_counts": [
+    0,
+    1455,
+    1,
+    0,
+    0,
+    1456
+  ],
+  "regression_tests_passed": 11,
+  "frozen_rows": {
+    "Master Evidence": 3,
+    "Claim Links": 3,
+    "Search Provenance": 3,
+    "Full Text Control": 3,
+    "Gaps Future": 3
+  },
+  "drive_snapshot_id": "1igS_nn-bUFP2WTUdgaHdIMbMH3xIPVFV",
+  "drive_report_id": "1iCZycog5Ipmbqd4s3JTLEzIk971uuhJK",
+  "drive_index_id": "1p6lUxeiamSZiVjzul0kfCOexg0syokrH"
+}

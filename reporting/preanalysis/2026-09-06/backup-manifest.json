@@ -1,0 +1,55 @@
+{
+  "backup_location": "External project outputs/zotero-backups/2026-09-06-preanalysis",
+  "files": [
+    {
+      "file": "evidence-identity-map.csv",
+      "bytes": 37842,
+      "sha256": "7091d80c7795f7a9c172639bd1af297439a96ddfaf1b8c6295af4c947c905bdc",
+      "valid_backup": true
+    },
+    {
+      "file": "PREMIUM_ELITE_DIAMANTE_Evidence_Command_Center.xlsx",
+      "bytes": 1364167,
+      "sha256": "7d0548f5e53b7448c567a83dff38103fb75cefb82c3fc8918d66aad974fe7f2c",
+      "valid_backup": true
+    },
+    {
+      "file": "zotero-consistent-snapshot.sqlite",
+      "bytes": 13205504,
+      "sha256": "8e055621ba43ead0b2e961c80e1fbc102214e7129667b808378dffa5638e4bb1",
+      "valid_backup": true
+    },
+    {
+      "file": "zotero-consistent-snapshot.sqlite-shm",
+      "bytes": 32768,
+      "sha256": "fd4c9fda9cd3f9ae7c962b0ddf37232294d55580e1aa165aa06129b8549389eb",
+      "valid_backup": false,
+      "role": "Transient SQLite sidecar observed during recovery; not a standalone backup."
+    },
+    {
+      "file": "zotero-consistent-snapshot.sqlite-wal",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "valid_backup": false,
+      "role": "Transient SQLite sidecar observed during recovery; not a standalone backup."
+    },
+    {
+      "file": "zotero-preanalysis.sqlite",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "valid_backup": false
+    }
+  ],
+  "sqlite_integrity": "ok",
+  "top_level_items": 1457,
+  "identity_rows": 1456,
+  "source_read_only": true,
+  "zotero_writes": 0,
+  "method": "Database/WAL bytes stable before, during and after copy; recovery and integrity check in backup only.",
+  "initial_online_backup": "Interrupted while blocked; zero-byte zotero-preanalysis.sqlite is invalid and excluded from valid backup and Git.",
+  "standalone_immutable_reopen": {
+    "integrity": "ok",
+    "top_level_items": 1457,
+    "valid_durable_backups": 3
+  }
+}
