@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "screened": 1456,
+  "decision_counts": {
+    "BLOCKED_INTEGRITY": 1,
+    "EXCLUDE_TITLE_ABSTRACT": 9,
+    "INCLUDE_FULL_TEXT": 1206,
+    "PENDING_ADJUDICATION": 240
+  },
+  "identity_reconciled": 1456,
+  "metadata_verified": 1366,
+  "identifiers_verified": 1454,
+  "integrity_checked": 1456,
+  "claim_ready": 0,
+  "analysis_pending": 1456,
+  "worksheets": 14,
+  "tables": 10,
+  "charts": 2,
+  "unexpected_cell_changes": 0,
+  "negative_scenarios": [
+    "retraction blocks use",
+    "correction requires review",
+    "ambiguous title-only record remains pending",
+    "same-title records remain separate",
+    "Claim-Ready remains zero",
+    "human reviewer/date fields remain empty"
+  ]
+}

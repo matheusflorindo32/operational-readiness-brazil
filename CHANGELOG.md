@@ -2,6 +2,17 @@
 
 All notable project changes are documented here.
 
+## [1.5.0] — 2026-09-07
+### Controlled title/abstract screening
+- Added a prospective four-state, AI-assisted title/abstract rubric and classified 1,456/1,456 PubMed records: 1,206 retained for full text, 9 proposed exclusions, 240 pending adjudication and 1 blocked by integrity.
+- Requeried every PMID through NCBI Entrez EFetch and compared title, authors, journal/source, year, DOI/PMID, document types and correction/retraction links without filling unsupported metadata.
+- Reconfirmed all 156 source-missing DOI absences; resolved 0/156. Recorded 90 metadata discrepancies, two DOI representation discrepancies and 17 correction/update records for human review.
+- Blocked the retracted PMID 26159007 from use and linked its retraction notice while preserving the row and bibliographic identity.
+- Preserved both same-title candidate groups as four separate records and performed no merge or Zotero write.
+- Added a per-record screening ledger with decision, rationale, AI reviewer disclosure, date, source and negative claim boundary. Claim-Ready and human reviewer/date fields remain zero/blank.
+- Passed rubric unit tests, XLSX structural/function checks, formula scan, visual review and an equivalent disposable Google Sheets test before synchronizing the private canonical Sheet and a dated XLSX snapshot.
+- Reconfirmed the unchanged Zotero state with 44/44 controls before and after the run. Decision: GO only to human adjudication and lawful full-text review; no global scientific approval.
+
 ## [1.4.0] — 2026-09-06
 ### Pre-analysis corrections
 - Coupled Claim-Ready, traffic light and Dashboard to conservative integrity, traceability, transfer-safety and human-review requirements.

@@ -157,7 +157,7 @@ unchanged and the gate remains `PUBMED BLOCKED`.
 - [ ] Future empirical validation agenda defined
 - [ ] Potential digital operational-readiness tool treated as a separate future validation phase
 
-## Current release status — 2026-09-06
+## Historical pre-analysis release status — 2026-09-06
 **ZOTERO: 1,456 production + 1 controlled | PUBMED A/B/C: EXECUTED, IMPORTED AND RECONCILED | PRE-ANALYSIS CONTROLS: PASS | SCIENTIFIC SCREENING: NOT STARTED**
 
 The earlier import BLOCKED status is superseded by the reconciled production
@@ -193,3 +193,40 @@ Metadata verification is not individually complete. Scientific screening
 remains 0/1,456. Checklist totals remain 52/74 (70.3%), identification 3/14.
 `PUBMED PASS` additionally requires publication and successful CI for the exact
 commit. See `docs/PUBMED_STRUCTURAL_AUDIT_2026-09-05.md`.
+
+## Current controlled-screening status — 2026-09-07
+
+**ZOTERO: UNCHANGED, 1,456 PRODUCTION + 1 CONTROLLED | PRIMARY TITLE/ABSTRACT SCREEN: 1,456/1,456 | HUMAN CONFIRMATION: 0/1,456 | CLAIM-READY: 0/1,456**
+
+| Controlled-screening control | Result |
+|---|---:|
+| AI-assisted title/abstract classifications | 1,456/1,456 (100.00%) |
+| Retained for full text | 1,206/1,456 (82.83%) |
+| Proposed title/abstract exclusions | 9/1,456 (0.62%) |
+| Pending human adjudication | 240/1,456 (16.48%) |
+| Blocked by integrity | 1/1,456 (0.07%) |
+| Priority union reviewed | 159/159 (100.00%) |
+| Source-missing DOI absence reconfirmed | 156/156 (100.00%) |
+| Missing DOI resolved | 0/156 (0.00%) |
+| Metadata comparison without discrepancy | 1,366/1,456 (93.82%) |
+| Identifier comparison without discrepancy | 1,454/1,456 (99.86%) |
+| PubMed integrity fields checked | 1,456/1,456 (100.00%) |
+| Human confirmations | 0/1,456 (0.00%) |
+| Claim-Ready approvals | 0/1,456 (0.00%) |
+
+The current PubMed EFetch record for PMID 26159007 identifies it as a retracted
+publication and links retraction notice PMID 26357708. The row is retained,
+marked `Not used`, and blocked from claims. Seventeen correction/update records
+remain pending specific human review. Ninety metadata comparisons have an
+explicit discrepancy (88 author-list representations, one journal/source and one
+publication year); two source DOI values are absent from the current book-record
+EFetch representation and remain pending. The two same-title groups remain four
+separate records with `DO NOT MERGE`.
+
+The local XLSX passed five rubric tests, structural parity, formula-error scan and
+six negative workbook scenarios. A disposable native Google Sheets copy passed
+the same row/count/identity/Claim-Ready checks and was deleted; the canonical
+Sheet then reconciled to the XLSX at 1,456/1,456 with the same private owner-only
+permission. Overall administrative progress remains 52/74 (70.27%); definitive
+evidence identification remains 3/14 (21.43%). See
+`docs/PUBMED_TITLE_ABSTRACT_SCREENING_2026-09-07.md`.

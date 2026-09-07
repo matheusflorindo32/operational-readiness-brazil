@@ -1,0 +1,19 @@
+{
+  "screened": 1456,
+  "decision_counts": {
+    "BLOCKED_INTEGRITY": 1,
+    "EXCLUDE_TITLE_ABSTRACT": 9,
+    "INCLUDE_FULL_TEXT": 1206,
+    "PENDING_ADJUDICATION": 240
+  },
+  "priority_screened": 159,
+  "source_doi_absent": 156,
+  "source_doi_absence_confirmed": 156,
+  "metadata_verified": 1366,
+  "identifiers_verified": 1454,
+  "correction_review_pending": 17,
+  "integrity_blocked": 1,
+  "claim_ready": 0,
+  "input_sha256": "d1884491415e3f8b157b9fc020a358883cac1997a3563313716c24f01f3ba971",
+  "rubric": "docs/TITLE_ABSTRACT_SCREENING_RUBRIC_2026-09-07.md"
+}

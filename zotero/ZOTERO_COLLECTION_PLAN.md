@@ -153,3 +153,13 @@ API/Connector HTTP 200; 1,456 production items in PE9UF4YN, only FXC7ZY9R in
 EMHHKNTM, 1,457 top-level library items. PMID 37415704 production key remains
 8XVBQIYE. DO NOT MERGE. No Zotero writes or scientific screening in this phase.
 See `docs/PUBMED_PREANALYSIS_GATE_2026-09-06.md` and its diagnostic evidence.
+
+## Controlled-screening reconfirmation — 2026-09-07
+
+The installed Zotero workflow was executed read-only before and after the
+AI-assisted title/abstract screen. Both inventories are byte-identical:
+API/Connector HTTP 200, 1,456 items in `PE9UF4YN`, only `FXC7ZY9R` in
+`EMHHKNTM`, and 1,457 top-level library items. Production PMID `37415704`
+remains key `8XVBQIYE`; the controlled/production pair remains `DO NOT MERGE`.
+No import, tag change, collection mutation, attachment operation or merge was
+performed. See `docs/PUBMED_TITLE_ABSTRACT_SCREENING_2026-09-07.md`.

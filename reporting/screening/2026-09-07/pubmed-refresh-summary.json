@@ -1,0 +1,89 @@
+{
+  "retrieved_at": "2026-09-07T11:02:12.242575+00:00",
+  "source": "NCBI Entrez EFetch via installed ncbi-entrez skill",
+  "records": 1456,
+  "title_matches": 1456,
+  "doi_matches": 1454,
+  "year_matches": 1455,
+  "authors_matches": 1368,
+  "journal_matches": 1455,
+  "doi_newly_available": 0,
+  "integrity_signals": 61,
+  "raw_files_external": [
+    {
+      "file": "pubmed-01.xml",
+      "bytes": 1488496,
+      "sha256": "6402c9ed8355e0e562e9a7e1edb15fc1fe5163d278684ffe35f4732af393bf1b"
+    },
+    {
+      "file": "pubmed-02.xml",
+      "bytes": 1941841,
+      "sha256": "c3757f0f37aa129244ed5bd77314092c5a72cf657e16b7c72378af76319c07ea"
+    },
+    {
+      "file": "pubmed-03.xml",
+      "bytes": 1724272,
+      "sha256": "83c2bbb09996ce9c764fbdf7b3c1f23b987dcc7974fc445407e64ce2817cf64e"
+    },
+    {
+      "file": "pubmed-04.xml",
+      "bytes": 2052751,
+      "sha256": "b61e0aff940e5bf7077b8f1d374bd20c97617a77c2edd180bf43ca77c1fa517f"
+    },
+    {
+      "file": "pubmed-05.xml",
+      "bytes": 1776258,
+      "sha256": "169b01fbffdc61d1460f8c63de9630a2e6aa3db6cae3b22e0e7fb73f8b6b680d"
+    },
+    {
+      "file": "pubmed-06.xml",
+      "bytes": 1660541,
+      "sha256": "8dd6f4cbe2ea6e2337bf85569bec9ab949e52141f882b60427dbb6acee45ed74"
+    },
+    {
+      "file": "pubmed-07.xml",
+      "bytes": 1690448,
+      "sha256": "407c28e968e2c35890a269b55ca0d66b89f1e0935ca44b7c08dcfa0c97d3b584"
+    },
+    {
+      "file": "pubmed-08.xml",
+      "bytes": 1424810,
+      "sha256": "5f812ade45f5accc15508d07f6fe9ea61de31d720c54ec8945498503ccd7b861"
+    },
+    {
+      "file": "pubmed-09.xml",
+      "bytes": 1461704,
+      "sha256": "cf9b23aff75082328b09a73f044402e96014dff9d289c82321fa17cc4cd30e56"
+    },
+    {
+      "file": "pubmed-10.xml",
+      "bytes": 1183642,
+      "sha256": "0647a75d8c3dd30f57fa5590a366b7914a335919694900704993ba1499992792"
+    },
+    {
+      "file": "pubmed-11.xml",
+      "bytes": 902502,
+      "sha256": "61a0a3c05816ac2615949ebbfa7fbf7782ba5a10aa38a997e9673d655877cce8"
+    },
+    {
+      "file": "pubmed-12.xml",
+      "bytes": 1386650,
+      "sha256": "3c53d1b122ae11d052672cf433f61d18e6d62a8f3bd00f03a8700978980a00ea"
+    },
+    {
+      "file": "pubmed-13.xml",
+      "bytes": 705106,
+      "sha256": "f553893e586e802b6f0beffb0315e5c541e741fe4221385179b13d5e4b084f57"
+    },
+    {
+      "file": "pubmed-14.xml",
+      "bytes": 623019,
+      "sha256": "eed0e9afde408a77881643902a37b56ffc5b6774aa3958db135eba84d9c53a37"
+    },
+    {
+      "file": "pubmed-15.xml",
+      "bytes": 265914,
+      "sha256": "aedb7526469515c839c7e77f1b8d086fb6c94000d164896bfdc7d0c83ccb9f6c"
+    }
+  ]
+}

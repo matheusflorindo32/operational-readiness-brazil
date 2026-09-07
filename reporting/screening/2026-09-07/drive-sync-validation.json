@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "canonical_google_sheet_id": "1X6MerTU2oZYup6LMI0SVBxFg3FcH_smstrBOf_wSRDM",
+  "canonical_parent_id": "1zSfxpTs_hQyrp_D5b64IIfiszsGS3O2a",
+  "canonical_shared": false,
+  "canonical_permissions": "owner only",
+  "rows": 1456,
+  "unique_pmids": 1456,
+  "unique_zotero_keys": 1456,
+  "controlled_key_present": false,
+  "decision_counts": {
+    "INCLUDE_FULL_TEXT": 1206,
+    "EXCLUDE_TITLE_ABSTRACT": 9,
+    "PENDING_ADJUDICATION": 240,
+    "BLOCKED_INTEGRITY": 1
+  },
+  "metadata_verified": 1366,
+  "identifiers_verified": 1454,
+  "integrity_checked": 1456,
+  "not_used": 10,
+  "claim_ready": 0,
+  "human_fields_populated": 0,
+  "negative_claim_boundaries": 1456,
+  "disposable_copy_tested_and_deleted": true,
+  "pre_screening_backup_id": "1LREN6gUfMgllEd7g0IKWKQmZrAe2wMmIfivCG4o5teg",
+  "screened_xlsx_snapshot_id": "1MnfmkDR8cuQGKz3nvT5i9O7rcyXyJdlS"
+}

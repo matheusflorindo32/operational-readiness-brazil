@@ -275,16 +275,17 @@ def main():
     )
     check("master_contiguous_1456_rows", row_numbers == list(range(4, 1460)))
     check(
-        "master_screening_not_started",
+        "master_identification_status_preserved",
         all(master.get(f"K{r}") == "IDENTIFIED" for r in row_numbers),
         dict(Counter(master.get(f"K{r}") for r in row_numbers)),
     )
+    metadata_states = Counter(master.get(f"CJ{r}") for r in row_numbers)
+    identifier_states = Counter(master.get(f"CK{r}") for r in row_numbers)
     check(
-        "individual_metadata_verification_pending",
-        all(
-            master.get(f"CJ{r}") != "Yes" and master.get(f"CK{r}") != "Yes"
-            for r in row_numbers
-        ),
+        "individual_metadata_verification_reconciled",
+        metadata_states == {"Yes": 1366, "Pending": 90}
+        and identifier_states == {"Yes": 1454, "Pending": 2},
+        {"metadata": dict(metadata_states), "identifiers": dict(identifier_states)},
     )
     datasets = {
         "metadata": [
@@ -461,7 +462,7 @@ def main():
     check(
         "workbook_provenance_corrected",
         sheets["Search Provenance"]["A2"]
-        == "PubMed A/B/C foi executado, importado e reconciliado; triagem científica ainda não iniciada.",
+        == "PubMed A/B/C was executed, imported and reconciled at 1,456/1,456. An AI-assisted title/abstract primary screen classified 1,456/1,456 records on 2026-09-07; human confirmation, full-text review, quality/risk-of-bias appraisal and scientific synthesis remain pending.",
         sheets["Search Provenance"]["A2"],
     )
     backup = read_json(RUN / "backup-manifest.json")

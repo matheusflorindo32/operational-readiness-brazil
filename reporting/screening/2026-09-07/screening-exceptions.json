@@ -1,0 +1,756 @@
+{
+  "metadata_conflicts": [
+    {
+      "pmid": "42560220",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "42560215",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "42514456",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "42472470",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "42422937",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "42124344",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "42075499",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "42040064",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "41997270",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "41863396",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "41845870",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "41790570",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "41714953",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "41703548",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "41651286",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "41424497",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "41346760",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "41209751",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "41202565",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "40813778",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "40198226",
+      "fields": [
+        "year"
+      ]
+    },
+    {
+      "pmid": "40142938",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "39985005",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "39942299",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "39537367",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "39449488",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "39425094",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "39119394",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "38997903",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "38509815",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "37463381",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "37036887",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "36958117",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "36764722",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "35639888",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "35278327",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "35076700",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "34969144",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "34969143",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "34895347",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "34471570",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "33829468",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "33721322",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "32969001",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "32956724",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "32573747",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "32573744",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "32330670",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "32191195",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "31910470",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "31539432",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "31201768",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "30789582",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "30566723",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "29889952",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "29547968",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "29267184",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "29256190",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "28759539",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "28599052",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "28390649",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "28318990",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "28284483",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "25771513",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "25610940",
+      "fields": [
+        "journal"
+      ]
+    },
+    {
+      "pmid": "25344707",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "25121201",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "24996853",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "24851287",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "24460509",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "24227566",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "23877773",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "23820356",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "23817878",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "23427965",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "23198505",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "21844425",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "21483422",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "21284095",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "20858134",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "20389198",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "18154234",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "17901393",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "17517914",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "17196987",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "12502180",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "11469036",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "9430530",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "8355968",
+      "fields": [
+        "authors"
+      ]
+    },
+    {
+      "pmid": "1790036",
+      "fields": [
+        "authors"
+      ]
+    }
+  ],
+  "identifier_conflicts": [
+    {
+      "pmid": "25121201",
+      "status": "DOI mismatch; human source review required"
+    },
+    {
+      "pmid": "24851287",
+      "status": "DOI mismatch; human source review required"
+    }
+  ],
+  "correction_review_pending": [
+    {
+      "pmid": "42412865",
+      "links": [
+        {
+          "ref_type": "ErratumFor",
+          "pmid": "40299918",
+          "source": "PLoS One. 2025 Apr 29;20(4):e0321223. doi: 10.1371/journal.pone.0321223."
+        }
+      ],
+      "source": "https://pubmed.ncbi.nlm.nih.gov/40299918/"
+    },
+    {
+      "pmid": "42400068",
+      "links": [
+        {
+          "ref_type": "UpdateOf",
+          "pmid": "41646313",
+          "source": "Res Sq. 2026 Jan 25:rs.3.rs-6059606. doi: 10.21203/rs.3.rs-6059606/v1."
+        }
+      ],
+      "source": "https://pubmed.ncbi.nlm.nih.gov/41646313/"
+    },
+    {
+      "pmid": "42088002",
+      "links": [
+        {
+          "ref_type": "ErratumFor",
+          "pmid": "41908109",
+          "source": "Front Psychiatry. 2026 Mar 13;17:1757232. doi: 10.3389/fpsyt.2026.1757232."
+        }
+      ],
+      "source": "https://pubmed.ncbi.nlm.nih.gov/41908109/"
+    },
+    {
+      "pmid": "41908109",
+      "links": [
+        {
+          "ref_type": "ErratumIn",
+          "pmid": "42088002",
+          "source": "Front Psychiatry. 2026 Apr 20;17:1837016. doi: 10.3389/fpsyt.2026.1837016."
+        }
+      ],
+      "source": "https://pubmed.ncbi.nlm.nih.gov/42088002/"
+    },
+    {
+      "pmid": "41317041",
+      "links": [
+        {
+          "ref_type": "ErratumIn",
+          "pmid": "41693123",
+          "source": "Mil Med. 2026 Jul 1;191(7-8):e1775. doi: 10.1093/milmed/usag033."
+        }
+      ],
+      "source": "https://pubmed.ncbi.nlm.nih.gov/41693123/"
+    },
+    {
+      "pmid": "41220806",
+      "links": [
+        {
+          "ref_type": "ErratumFor",
+          "pmid": "41040412",
+          "source": "Front Bioeng Biotechnol. 2025 Sep 17;13:1642787. doi: 10.3389/fbioe.2025.1642787."
+        }
+      ],
+      "source": "https://pubmed.ncbi.nlm.nih.gov/41040412/"
+    },
+    {
+      "pmid": "41208212",
+      "links": [
+        {
+          "ref_type": "UpdateOf",
+          "pmid": "40894045",
+          "source": "Res Sq. 2025 Aug 21:rs.3.rs-7313339. doi: 10.21203/rs.3.rs-7313339/v1."
+        }
+      ],
+      "source": "https://pubmed.ncbi.nlm.nih.gov/40894045/"
+    },
+    {
+      "pmid": "41040412",
+      "links": [
+        {
+          "ref_type": "ErratumIn",
+          "pmid": "41220806",
+          "source": "Front Bioeng Biotechnol. 2025 Oct 27;13:1709142. doi: 10.3389/fbioe.2025.1709142."
+        }
+      ],
+      "source": "https://pubmed.ncbi.nlm.nih.gov/41220806/"
+    },
+    {
+      "pmid": "40299918",
+      "links": [
+        {
+          "ref_type": "ErratumIn",
+          "pmid": "42412865",
+          "source": "PLoS One. 2026 Jul 7;21(7):e0353341. doi: 10.1371/journal.pone.0353341."
+        }
+      ],
+      "source": "https://pubmed.ncbi.nlm.nih.gov/42412865/"
+    },
+    {
+      "pmid": "37952191",
+      "links": [
+        {
+          "ref_type": "ErratumIn",
+          "pmid": "39846215",
+          "source": "Mil Med. 2025 Apr 23;190(5-6):e1334. doi: 10.1093/milmed/usaf019."
+        }
+      ],
+      "source": "https://pubmed.ncbi.nlm.nih.gov/39846215/"
+    },
+    {
+      "pmid": "37046894",
+      "links": [
+        {
+          "ref_type": "ErratumIn",
+          "pmid": "37761801",
+          "source": "Healthcare (Basel). 2023 Sep 05;11(18):2470. doi: 10.3390/healthcare11182470."
+        }
+      ],
+      "source": "https://pubmed.ncbi.nlm.nih.gov/37761801/"
+    },
+    {
+      "pmid": "33313735",
+      "links": [
+        {
+          "ref_type": "ErratumIn",
+          "pmid": "33611567",
+          "source": "Pain Med. 2021 Aug 6;22(8):1887. doi: 10.1093/pm/pnab052."
+        }
+      ],
+      "source": "https://pubmed.ncbi.nlm.nih.gov/33611567/"
+    },
+    {
+      "pmid": "32908996",
+      "links": [
+        {
+          "ref_type": "UpdateIn",
+          "pmid": "33332151",
+          "source": "Circulation. 2021 Feb 9;143(6):609-612. doi: 10.1161/CIRCULATIONAHA.120.052573."
+        }
+      ],
+      "source": "https://pubmed.ncbi.nlm.nih.gov/33332151/"
+    },
+    {
+      "pmid": "30393251",
+      "links": [
+        {
+          "ref_type": "ErratumIn",
+          "pmid": "31554759",
+          "source": "Ind Health. 2019;57(5):C1. doi: 10.2486/indhealth.57_c1."
+        }
+      ],
+      "source": "https://pubmed.ncbi.nlm.nih.gov/31554759/"
+    },
+    {
+      "pmid": "27825363",
+      "links": [
+        {
+          "ref_type": "ErratumIn",
+          "pmid": "28403866",
+          "source": "Crit Care. 2017 Apr 13;21(1):94. doi: 10.1186/s13054-017-1663-8."
+        }
+      ],
+      "source": "https://pubmed.ncbi.nlm.nih.gov/28403866/"
+    },
+    {
+      "pmid": "23192066",
+      "links": [
+        {
+          "ref_type": "ErratumIn",
+          "pmid": "",
+          "source": "J Trauma Acute Care Surg. 2013 Feb;74(2):706"
+        }
+      ],
+      "source": "https://pubmed.ncbi.nlm.nih.gov/23192066/"
+    },
+    {
+      "pmid": "15460628",
+      "links": [
+        {
+          "ref_type": "ErratumIn",
+          "pmid": "",
+          "source": "Aviat Space Environ Med. 2005 Jan;76(1):74"
+        }
+      ],
+      "source": "https://pubmed.ncbi.nlm.nih.gov/15460628/"
+    }
+  ],
+  "integrity_blocked": [
+    {
+      "pmid": "26159007",
+      "links": [
+        {
+          "ref_type": "RetractionIn",
+          "pmid": "26357708",
+          "source": "US Army Med Dep J. 2015 Jul-Sep:32."
+        }
+      ],
+      "source": "https://pubmed.ncbi.nlm.nih.gov/26357708/"
+    }
+  ]
+}

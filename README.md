@@ -68,18 +68,21 @@ APHT is treated as a **readiness domain**, not as a disconnected general TCCC/TE
 
 Never commit credentials, API keys, `.env` files, private keys, sensitive personal data, restricted operational data, or copyrighted article PDFs. See [`SECURITY.md`](SECURITY.md).
 
-## Current pre-analysis gate — 2026-09-06
+## Current controlled-screening status — 2026-09-07
 
-PubMed identification/import reconciles **1,456/1,456** across RIS, Zotero,
-rollback manifest, exports and Master Evidence. The pre-analysis corrections pass
-24/24 functional scenarios in each of XLSX and native Google Sheets. Scientific
-screening and claim approval remain **0/1,456**. The imported retraction signal for
-PMID 26159007 is visibly blocked, without claiming individual verification.
+PubMed identification/import remains reconciled at **1,456/1,456**. A
+reproducible, AI-assisted primary title/abstract screen classified all 1,456
+records: 1,206 retained for full text, 9 proposed exclusions, 240 pending human
+adjudication and 1 blocked by an explicit retraction signal. Human confirmation,
+full-text review, quality/risk-of-bias appraisal and scientific synthesis remain
+pending; Claim-Ready remains **0/1,456**.
 
-See the [gate report](docs/PUBMED_PREANALYSIS_GATE_2026-09-06.md),
-[decision rules](docs/PREANALYSIS_RULES.md) and [canonical Drive index](drive/CANONICAL_VERSION_INDEX.md).
-Operational PUBMED PASS requires this version's remote commit and successful CI;
-it does not approve the scientific content of the articles.
+See the [screening report](docs/PUBMED_TITLE_ABSTRACT_SCREENING_2026-09-07.md),
+[screening rubric](docs/TITLE_ABSTRACT_SCREENING_RUBRIC_2026-09-07.md),
+[pre-analysis gate](docs/PUBMED_PREANALYSIS_GATE_2026-09-06.md) and
+[canonical Drive index](drive/CANONICAL_VERSION_INDEX.md). The screening decision
+is a gate to human adjudication and lawful full-text review; it is not global
+scientific approval of the articles.
 
 ## Historical release milestones
 
@@ -102,8 +105,9 @@ The native duplicate view contains one intentional controlled pair:
 `FXC7ZY9R` versus production key `8XVBQIYE` for PMID `37415704`. No merge was
 performed. `FXC7ZY9R` remains exclusively in the separate top-level collection
 `EMHHKNTM` and is not evidence; the recovered PubMed article remains legitimate
-Family A evidence under its production key. Scientific screening has not started,
-and no production item is claim-ready solely because it was imported.
+Family A evidence under its production key. The 2026-09-07 AI-assisted primary
+screen did not alter Zotero; no production item is claim-ready solely because it
+was imported or retained for full text.
 
 Raw diagnostics, backup evidence, the 1,456-key rollback manifest, and the native
 duplicate audit are recorded under

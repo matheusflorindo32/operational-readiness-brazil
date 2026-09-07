@@ -1,0 +1,168 @@
+{
+  "run_date": "2026-09-07",
+  "reference_commit": "ae25ad9054193f8ac3be82061f6fe7906d989ec9",
+  "backup_root": "C:\\Users\\mathe\\Documents\\Codex\\2026-08-26\\zotero-plugin-zotero-openai-curated-remote\\outputs\\zotero-backups\\2026-09-07-screening",
+  "external_files": [
+    {
+      "path": "audit-full/postcheck-inventory.json",
+      "bytes": 566518,
+      "sha256": "2b606a612b2d6daa080c4029bdcdab6b0b2650a5640b432084fe8654eb4f3bfb"
+    },
+    {
+      "path": "audit-full/postcheck-production-identifiers.json",
+      "bytes": 397656,
+      "sha256": "581dd6481422f7e90f91a49e497bcc53adc5282a52c911a52ba8fbd4c36ee8c6"
+    },
+    {
+      "path": "audit-full/precheck-inventory.json",
+      "bytes": 566518,
+      "sha256": "2b606a612b2d6daa080c4029bdcdab6b0b2650a5640b432084fe8654eb4f3bfb"
+    },
+    {
+      "path": "audit-full/precheck-production-identifiers.json",
+      "bytes": 397656,
+      "sha256": "581dd6481422f7e90f91a49e497bcc53adc5282a52c911a52ba8fbd4c36ee8c6"
+    },
+    {
+      "path": "audit-full/pubmed-current-records.json",
+      "bytes": 4065555,
+      "sha256": "d1884491415e3f8b157b9fc020a358883cac1997a3563313716c24f01f3ba971"
+    },
+    {
+      "path": "audit-full/screening-decisions.json",
+      "bytes": 2099606,
+      "sha256": "d02e4e0154ea192ed2c12fe6619cd4cd5cb2532ba9eb78d8cb1e2ceccddf2668"
+    },
+    {
+      "path": "google-screening-values.json",
+      "bytes": 1436038,
+      "sha256": "7ed2d50fa060df8123f256730c96a3193c1d02096b8168752bb0a7cf67bb7ad0"
+    },
+    {
+      "path": "ncbi-raw/pubmed-01.xml",
+      "bytes": 1488496,
+      "sha256": "6402c9ed8355e0e562e9a7e1edb15fc1fe5163d278684ffe35f4732af393bf1b"
+    },
+    {
+      "path": "ncbi-raw/pubmed-02.xml",
+      "bytes": 1941841,
+      "sha256": "c3757f0f37aa129244ed5bd77314092c5a72cf657e16b7c72378af76319c07ea"
+    },
+    {
+      "path": "ncbi-raw/pubmed-03.xml",
+      "bytes": 1724272,
+      "sha256": "83c2bbb09996ce9c764fbdf7b3c1f23b987dcc7974fc445407e64ce2817cf64e"
+    },
+    {
+      "path": "ncbi-raw/pubmed-04.xml",
+      "bytes": 2052751,
+      "sha256": "b61e0aff940e5bf7077b8f1d374bd20c97617a77c2edd180bf43ca77c1fa517f"
+    },
+    {
+      "path": "ncbi-raw/pubmed-05.xml",
+      "bytes": 1776258,
+      "sha256": "169b01fbffdc61d1460f8c63de9630a2e6aa3db6cae3b22e0e7fb73f8b6b680d"
+    },
+    {
+      "path": "ncbi-raw/pubmed-06.xml",
+      "bytes": 1660541,
+      "sha256": "8dd6f4cbe2ea6e2337bf85569bec9ab949e52141f882b60427dbb6acee45ed74"
+    },
+    {
+      "path": "ncbi-raw/pubmed-07.xml",
+      "bytes": 1690448,
+      "sha256": "407c28e968e2c35890a269b55ca0d66b89f1e0935ca44b7c08dcfa0c97d3b584"
+    },
+    {
+      "path": "ncbi-raw/pubmed-08.xml",
+      "bytes": 1424810,
+      "sha256": "5f812ade45f5accc15508d07f6fe9ea61de31d720c54ec8945498503ccd7b861"
+    },
+    {
+      "path": "ncbi-raw/pubmed-09.xml",
+      "bytes": 1461704,
+      "sha256": "cf9b23aff75082328b09a73f044402e96014dff9d289c82321fa17cc4cd30e56"
+    },
+    {
+      "path": "ncbi-raw/pubmed-10.xml",
+      "bytes": 1183642,
+      "sha256": "0647a75d8c3dd30f57fa5590a366b7914a335919694900704993ba1499992792"
+    },
+    {
+      "path": "ncbi-raw/pubmed-11.xml",
+      "bytes": 902502,
+      "sha256": "61a0a3c05816ac2615949ebbfa7fbf7782ba5a10aa38a997e9673d655877cce8"
+    },
+    {
+      "path": "ncbi-raw/pubmed-12.xml",
+      "bytes": 1386650,
+      "sha256": "3c53d1b122ae11d052672cf433f61d18e6d62a8f3bd00f03a8700978980a00ea"
+    },
+    {
+      "path": "ncbi-raw/pubmed-13.xml",
+      "bytes": 705106,
+      "sha256": "f553893e586e802b6f0beffb0315e5c541e741fe4221385179b13d5e4b084f57"
+    },
+    {
+      "path": "ncbi-raw/pubmed-14.xml",
+      "bytes": 623019,
+      "sha256": "eed0e9afde408a77881643902a37b56ffc5b6774aa3958db135eba84d9c53a37"
+    },
+    {
+      "path": "ncbi-raw/pubmed-15.xml",
+      "bytes": 265914,
+      "sha256": "aedb7526469515c839c7e77f1b8d086fb6c94000d164896bfdc7d0c83ccb9f6c"
+    },
+    {
+      "path": "PREMIUM_ELITE_DIAMANTE_Evidence_Command_Center_pre-screening.xlsx",
+      "bytes": 1662714,
+      "sha256": "e8a751ba0f455a8453a27c11b8fc1d3aeb003adad942e063d1eb4422b1d130d8"
+    }
+  ],
+  "repository_files": [
+    {
+      "path": "outputs/8a39e3c813da/PREMIUM_ELITE_DIAMANTE_Evidence_Command_Center.xlsx",
+      "bytes": 1711995,
+      "sha256": "2177618b04536e5a9c7b0feffe601b9847826b8fbb283715e2c071a1f604427b"
+    },
+    {
+      "path": "reporting/screening/2026-09-07/screening-decision-ledger.csv",
+      "bytes": 802122,
+      "sha256": "94040e5f4cfd74aba85a4ea74845c00a3d4fab872b55271596dffb8c259dac0d"
+    },
+    {
+      "path": "reporting/screening/2026-09-07/screening-summary.json",
+      "bytes": 583,
+      "sha256": "c9179dfb65ac4a58cfb41f2cafe4d0461e3233f23abd47daa6876736b94f140d"
+    },
+    {
+      "path": "reporting/screening/2026-09-07/screening-exceptions.json",
+      "bytes": 13908,
+      "sha256": "261cf93ed1ccfe8b1ad017e5162f9649f5832db53e823b0279535d93fdbf5291"
+    },
+    {
+      "path": "reporting/screening/2026-09-07/workbook-functional-tests.json",
+      "bytes": 740,
+      "sha256": "de645f89955b67a1f57021a9eebfd8cb5b61688e8a9f1181293d7a5d3c38f038"
+    },
+    {
+      "path": "reporting/screening/2026-09-07/precheck/audit.json",
+      "bytes": 29900,
+      "sha256": "1664dd9e7cee16f241aa8ac908968b6c998ed0ac7744625b0c95ca6e6dbc3193"
+    },
+    {
+      "path": "reporting/screening/2026-09-07/postcheck/audit.json",
+      "bytes": 30261,
+      "sha256": "cea019b6f0e10c11506820cbccd7350520700faf5ae9f7af6e67d1e299ddb6e6"
+    }
+  ],
+  "drive": {
+    "canonical_google_sheet_id": "1X6MerTU2oZYup6LMI0SVBxFg3FcH_smstrBOf_wSRDM",
+    "pre_screening_backup_id": "1LREN6gUfMgllEd7g0IKWKQmZrAe2wMmIfivCG4o5teg",
+    "screened_xlsx_snapshot_id": "1MnfmkDR8cuQGKz3nvT5i9O7rcyXyJdlS",
+    "canonical_parent_id": "1zSfxpTs_hQyrp_D5b64IIfiszsGS3O2a",
+    "canonical_shared": false,
+    "canonical_permission": "owner only",
+    "disposable_test_copy_deleted": true
+  }
+}
