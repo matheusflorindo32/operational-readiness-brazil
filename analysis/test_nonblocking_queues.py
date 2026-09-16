@@ -4,20 +4,14 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from analysis.build_nonblocking_queues import build
+from analysis.build_nonblocking_queues import ROOT, build
 
 
 class NonBlockingQueuesTest(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        external = Path(r"C:\Users\mathe\Documents\Codex\2026-08-26\zotero-plugin-zotero-openai-curated-remote\outputs\zotero-backups\2026-09-16-nonblocking\audit-full")
-        cls.temp = tempfile.TemporaryDirectory()
-        cls.output = Path(cls.temp.name)
-        cls.summary = build(external / "pubmed-current-records.json", external / "screening-decisions.json", cls.output)
-
-    @classmethod
-    def tearDownClass(cls):
-        cls.temp.cleanup()
+        cls.output = ROOT / "reporting/nonblocking/2026-09-16"
+        cls.summary = json.loads((cls.output / "run-summary.json").read_text(encoding="utf-8"))
 
     def rows(self, name):
         with (self.output / name).open(encoding="utf-8-sig", newline="") as handle:
@@ -48,6 +42,14 @@ class NonBlockingQueuesTest(unittest.TestCase):
         manifest = json.loads((self.output / "manifest.json").read_text(encoding="utf-8"))
         self.assertNotIn("manifest.json", manifest)
         self.assertEqual(set(manifest), {p.name for p in self.output.iterdir() if p.is_file() and p.name != "manifest.json"})
+
+    def test_generator_reproduces_committed_summary_when_audited_raw_data_exist(self):
+        external = Path(r"C:\Users\mathe\Documents\Codex\2026-08-26\zotero-plugin-zotero-openai-curated-remote\outputs\zotero-backups\2026-09-16-nonblocking\audit-full")
+        if not external.exists():
+            self.skipTest("Audited raw PubMed backup is intentionally external to Git")
+        with tempfile.TemporaryDirectory() as temp:
+            rebuilt = build(external / "pubmed-current-records.json", external / "screening-decisions.json", Path(temp))
+        self.assertEqual(rebuilt, self.summary)
 
 
 if __name__ == "__main__":
