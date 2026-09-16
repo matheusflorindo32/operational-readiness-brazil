@@ -1,0 +1,20 @@
+{
+  "algorithm": "sorted reverse ZIP member order; timestamp 2000-01-01T00:00:00; DEFLATE level 9; fixed permissions",
+  "binary_stable_for_same_input": true,
+  "environment": {
+    "locale": [
+      "pt_BR",
+      "cp1252"
+    ],
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.11.15",
+    "timezone": "Hora oficial do Brasil"
+  },
+  "normalized_binary_sha256": "e2ec8fc04fabce0e59a18e114beafac5c04373361fa51378c17011962bbac6f0",
+  "normalized_semantic_sha256": "803e007a00129ee9ab5b361bc9a2c1ade1dc917554d2e9186d75f3f223953dc2",
+  "repeat_binary_sha256": "e2ec8fc04fabce0e59a18e114beafac5c04373361fa51378c17011962bbac6f0",
+  "semantic_preserved": true,
+  "source_binary_sha256": "808985682db5bb553fd4709795e1066f9b62fdd8a8fd608e1ba2e004565ca082",
+  "source_semantic_sha256": "803e007a00129ee9ab5b361bc9a2c1ade1dc917554d2e9186d75f3f223953dc2",
+  "zip_integrity": true
+}

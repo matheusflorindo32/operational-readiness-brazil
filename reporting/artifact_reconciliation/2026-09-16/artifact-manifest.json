@@ -1,0 +1,60 @@
+{
+  "artifacts": [
+    {
+      "commit": "763ca9f7336fef343cc05cce0d43564653528fea",
+      "filename": "Operational_Readiness_Nonblocking_Queues.xlsx",
+      "generated_at": "2026-09-16T11:38:59.904796+00:00",
+      "git_blob_sha": "017d01379e44d17eee02565360e8aa6f9e7be685",
+      "last_modified_utc": "2026-09-16T11:06:45.853090+00:00",
+      "origin": "Git canonical artifact at outputs/triage/2026-09-16",
+      "path": "outputs/triage/2026-09-16/Operational_Readiness_Nonblocking_Queues.xlsx",
+      "sha256": "808985682db5bb553fd4709795e1066f9b62fdd8a8fd608e1ba2e004565ca082",
+      "size_bytes": 279049,
+      "status": "CANONICAL_PRESERVED",
+      "toolchain": {
+        "platform": "Windows-10-10.0.26200-SP0",
+        "python": "3.11.15",
+        "xml": "xml.etree.ElementTree",
+        "zipfile": "stdlib"
+      }
+    },
+    {
+      "commit": "763ca9f7336fef343cc05cce0d43564653528fea",
+      "filename": "Operational_Readiness_Nonblocking_Queues.xlsx",
+      "generated_at": "2026-09-16T11:38:59.958843+00:00",
+      "git_blob_sha": null,
+      "last_modified_utc": "2026-09-16T11:17:44.071496+00:00",
+      "origin": "User Downloads copy inspected after publication",
+      "path": "Downloads/Operational_Readiness_Nonblocking_Queues.xlsx",
+      "sha256": "8a7879cb6b9be661894b475874f03ac8f04907112e221b66a3d73e10c1e60434",
+      "size_bytes": 280343,
+      "status": "DIVERGENT_BINARY_PRESERVED",
+      "toolchain": {
+        "platform": "Windows-10-10.0.26200-SP0",
+        "python": "3.11.15",
+        "xml": "xml.etree.ElementTree",
+        "zipfile": "stdlib"
+      }
+    },
+    {
+      "commit": "763ca9f7336fef343cc05cce0d43564653528fea",
+      "filename": "PREMIUM_ELITE_DIAMANTE_Evidence_Command_Center.xlsx",
+      "generated_at": "2026-09-16T11:38:59.961417+00:00",
+      "git_blob_sha": null,
+      "last_modified_utc": "2026-09-07T11:19:58.044889+00:00",
+      "origin": "Canonical Master Evidence control",
+      "path": "outputs/8a39e3c813da/PREMIUM_ELITE_DIAMANTE_Evidence_Command_Center.xlsx",
+      "sha256": "2177618b04536e5a9c7b0feffe601b9847826b8fbb283715e2c071a1f604427b",
+      "size_bytes": 1711995,
+      "status": "UNCHANGED_CONTROL",
+      "toolchain": {
+        "platform": "Windows-10-10.0.26200-SP0",
+        "python": "3.11.15",
+        "xml": "xml.etree.ElementTree",
+        "zipfile": "stdlib"
+      }
+    }
+  ],
+  "incident": "ARTIFACT_IDENTITY_RECONCILIATION_REQUIRED",
+  "resolution_status": "RECONCILED_SEMANTICALLY_IDENTICAL"
+}

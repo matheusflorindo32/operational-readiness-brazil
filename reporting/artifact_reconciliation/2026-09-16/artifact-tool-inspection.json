@@ -1,0 +1,312 @@
+{
+  "A": {
+    "sheets": [
+      {
+        "index": 0,
+        "name": "Resumo",
+        "range": "A1:F22"
+      },
+      {
+        "index": 1,
+        "name": "Quarentena",
+        "range": "A1:O2"
+      },
+      {
+        "index": 2,
+        "name": "Revisão editorial",
+        "range": "A1:Q19"
+      },
+      {
+        "index": 3,
+        "name": "Fila texto completo",
+        "range": "A1:V1207"
+      },
+      {
+        "index": 4,
+        "name": "Pendentes",
+        "range": "A1:R241"
+      },
+      {
+        "index": 5,
+        "name": "Metadados",
+        "range": "A1:K91"
+      },
+      {
+        "index": 6,
+        "name": "DOI resolvidos",
+        "range": "A1:K3"
+      }
+    ],
+    "summary_regions": [
+      {
+        "address": "A3:B16",
+        "cols": 2,
+        "kind": "region",
+        "maxTextLength": 36,
+        "nonEmpty": 28,
+        "preview": [
+          [
+            "Indicador",
+            "Valor"
+          ],
+          [
+            "Registros reconciliados",
+            "1456"
+          ],
+          [
+            "Retração em quarentena",
+            "1"
+          ],
+          [
+            "Relações editoriais em revisão",
+            "18"
+          ],
+          [
+            "Baseline editorial auditado",
+            "17"
+          ]
+        ],
+        "previewAddress": "A3:B7",
+        "previewCols": 2,
+        "previewRows": 5,
+        "rows": 14,
+        "sheet": "Resumo",
+        "text": 28
+      },
+      {
+        "address": "D3:F16",
+        "blank": 21,
+        "cols": 3,
+        "kind": "region",
+        "maxTextLength": 48,
+        "nonEmpty": 21,
+        "preview": [
+          [
+            "Controle",
+            "Estado",
+            "Interpretação"
+          ],
+          [
+            "Política",
+            "NON_BLOCKING_CONTROLLED_SCREENING_V1",
+            "Registros isolados não interrompem filas claras"
+          ],
+          [
+            "Revisão humana",
+            "PENDENTE",
+            "Nenhum campo humano foi preenchido"
+          ],
+          [
+            "Zotero",
+            "NÃO MODIFICADO",
+            "Sem importação, merge ou edição"
+          ],
+          [
+            "Master Evidence",
+            "NÃO MODIFICADA",
+            "Saídas derivadas e reversíveis"
+          ]
+        ],
+        "previewAddress": "D3:F7",
+        "previewCols": 3,
+        "previewRows": 5,
+        "rows": 14,
+        "sheet": "Resumo",
+        "text": 21
+      },
+      {
+        "address": "A18:B22",
+        "blank": 5,
+        "cols": 2,
+        "kind": "region",
+        "maxTextLength": 132,
+        "nonEmpty": 5,
+        "preview": [
+          [
+            "Notas metodológicas",
+            null
+          ],
+          [
+            "Pontuações medem somente prioridade potencial; não constituem avaliação de qu...",
+            null
+          ],
+          [
+            "Relações de correção/atualização permanecem REVIEW_REQUIRED e fora de uso até...",
+            null
+          ],
+          [
+            "A retração permanece apenas para auditoria como BLOCKED_INTEGRITY / NOT USED.",
+            null
+          ],
+          [
+            "Todos os campos de decisão, revisor e data humanos estão vazios.",
+            null
+          ]
+        ],
+        "previewAddress": "A18:B22",
+        "previewCols": 2,
+        "previewRows": 5,
+        "rows": 5,
+        "sheet": "Resumo",
+        "text": 5
+      }
+    ]
+  },
+  "B": {
+    "sheets": [
+      {
+        "index": 0,
+        "name": "Resumo",
+        "range": "A1:F22"
+      },
+      {
+        "index": 1,
+        "name": "Quarentena",
+        "range": "A1:O2"
+      },
+      {
+        "index": 2,
+        "name": "Revisão editorial",
+        "range": "A1:Q19"
+      },
+      {
+        "index": 3,
+        "name": "Fila texto completo",
+        "range": "A1:V1207"
+      },
+      {
+        "index": 4,
+        "name": "Pendentes",
+        "range": "A1:R241"
+      },
+      {
+        "index": 5,
+        "name": "Metadados",
+        "range": "A1:K91"
+      },
+      {
+        "index": 6,
+        "name": "DOI resolvidos",
+        "range": "A1:K3"
+      }
+    ],
+    "summary_regions": [
+      {
+        "address": "A3:B16",
+        "cols": 2,
+        "kind": "region",
+        "maxTextLength": 36,
+        "nonEmpty": 28,
+        "preview": [
+          [
+            "Indicador",
+            "Valor"
+          ],
+          [
+            "Registros reconciliados",
+            "1456.0"
+          ],
+          [
+            "Retração em quarentena",
+            "1.0"
+          ],
+          [
+            "Relações editoriais em revisão",
+            "18.0"
+          ],
+          [
+            "Baseline editorial auditado",
+            "17.0"
+          ]
+        ],
+        "previewAddress": "A3:B7",
+        "previewCols": 2,
+        "previewRows": 5,
+        "rows": 14,
+        "sheet": "Resumo",
+        "text": 28
+      },
+      {
+        "address": "D3:F16",
+        "blank": 21,
+        "cols": 3,
+        "kind": "region",
+        "maxTextLength": 48,
+        "nonEmpty": 21,
+        "preview": [
+          [
+            "Controle",
+            "Estado",
+            "Interpretação"
+          ],
+          [
+            "Política",
+            "NON_BLOCKING_CONTROLLED_SCREENING_V1",
+            "Registros isolados não interrompem filas claras"
+          ],
+          [
+            "Revisão humana",
+            "PENDENTE",
+            "Nenhum campo humano foi preenchido"
+          ],
+          [
+            "Zotero",
+            "NÃO MODIFICADO",
+            "Sem importação, merge ou edição"
+          ],
+          [
+            "Master Evidence",
+            "NÃO MODIFICADA",
+            "Saídas derivadas e reversíveis"
+          ]
+        ],
+        "previewAddress": "D3:F7",
+        "previewCols": 3,
+        "previewRows": 5,
+        "rows": 14,
+        "sheet": "Resumo",
+        "text": 21
+      },
+      {
+        "address": "A18:B22",
+        "blank": 5,
+        "cols": 2,
+        "kind": "region",
+        "maxTextLength": 132,
+        "nonEmpty": 5,
+        "preview": [
+          [
+            "Notas metodológicas",
+            null
+          ],
+          [
+            "Pontuações medem somente prioridade potencial; não constituem avaliação de qu...",
+            null
+          ],
+          [
+            "Relações de correção/atualização permanecem REVIEW_REQUIRED e fora de uso até...",
+            null
+          ],
+          [
+            "A retração permanece apenas para auditoria como BLOCKED_INTEGRITY / NOT USED.",
+            null
+          ],
+          [
+            "Todos os campos de decisão, revisor e data humanos estão vazios.",
+            null
+          ]
+        ],
+        "previewAddress": "A18:B22",
+        "previewCols": 2,
+        "previewRows": 5,
+        "rows": 5,
+        "sheet": "Resumo",
+        "text": 5
+      }
+    ]
+  },
+  "comparison": {
+    "note": "Artifact-tool imports both workbooks; summary numeric display differs only as integer versus decimal text after reserialization.",
+    "sheet_names_and_ranges_equal": true
+  }
+}

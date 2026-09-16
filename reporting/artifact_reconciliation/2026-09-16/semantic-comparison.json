@@ -1,0 +1,342 @@
+{
+  "artifact_a_invariants": {
+    "all_pass": true,
+    "checks": {
+      "active_candidates": true,
+      "claim_ready_count": true,
+      "claim_ready_no_yes": true,
+      "controlled_key_absent": true,
+      "doi_resolution_count": true,
+      "editorial_hold": true,
+      "editorial_review_count": true,
+      "full_text_candidates": true,
+      "full_text_review_not_simulated": true,
+      "human_fields_empty": true,
+      "master_evidence_unchanged": true,
+      "metadata_resolution_count": true,
+      "pending_count": true,
+      "reconciled_identity_count": true,
+      "retracted_pmid_blocked": true,
+      "risk_appraisal_not_simulated": true,
+      "sheet_names_exact": true
+    },
+    "claim_values": [
+      "NO"
+    ],
+    "human_values_found": [],
+    "master_sha256": "2177618b04536e5a9c7b0feffe601b9847826b8fbb283715e2c071a1f604427b"
+  },
+  "artifact_a_semantic_sha256": "803e007a00129ee9ab5b361bc9a2c1ade1dc917554d2e9186d75f3f223953dc2",
+  "artifact_b_invariants": {
+    "all_pass": true,
+    "checks": {
+      "active_candidates": true,
+      "claim_ready_count": true,
+      "claim_ready_no_yes": true,
+      "controlled_key_absent": true,
+      "doi_resolution_count": true,
+      "editorial_hold": true,
+      "editorial_review_count": true,
+      "full_text_candidates": true,
+      "full_text_review_not_simulated": true,
+      "human_fields_empty": true,
+      "master_evidence_unchanged": true,
+      "metadata_resolution_count": true,
+      "pending_count": true,
+      "reconciled_identity_count": true,
+      "retracted_pmid_blocked": true,
+      "risk_appraisal_not_simulated": true,
+      "sheet_names_exact": true
+    },
+    "claim_values": [
+      "NO"
+    ],
+    "human_values_found": [],
+    "master_sha256": "2177618b04536e5a9c7b0feffe601b9847826b8fbb283715e2c071a1f604427b"
+  },
+  "artifact_b_semantic_sha256": "803e007a00129ee9ab5b361bc9a2c1ade1dc917554d2e9186d75f3f223953dc2",
+  "conclusion": "SEMANTICALLY_IDENTICAL",
+  "feature_comparison": {
+    "auto_filter": {
+      "artifact_a": {
+        "DOI resolvidos": "",
+        "Fila texto completo": "",
+        "Metadados": "",
+        "Pendentes": "",
+        "Quarentena": "",
+        "Resumo": "",
+        "Revisão editorial": ""
+      },
+      "artifact_b": {
+        "DOI resolvidos": "",
+        "Fila texto completo": "",
+        "Metadados": "",
+        "Pendentes": "",
+        "Quarentena": "",
+        "Resumo": "",
+        "Revisão editorial": ""
+      },
+      "equal": true
+    },
+    "data_validations": {
+      "artifact_a": {
+        "DOI resolvidos": [],
+        "Fila texto completo": [],
+        "Metadados": [],
+        "Pendentes": [
+          {
+            "attrs": {
+              "sqref": "O2:O241",
+              "type": "list"
+            },
+            "formulas": [
+              "\"Confirmar bloqueio,Confirmar exclusão,Manter candidato,Solicitar texto completo,Investigar relação editorial\""
+            ]
+          }
+        ],
+        "Quarentena": [
+          {
+            "attrs": {
+              "sqref": "K2",
+              "type": "list"
+            },
+            "formulas": [
+              "\"Confirmar bloqueio,Confirmar exclusão,Manter candidato,Solicitar texto completo,Investigar relação editorial\""
+            ]
+          }
+        ],
+        "Resumo": [],
+        "Revisão editorial": [
+          {
+            "attrs": {
+              "sqref": "N2:N19",
+              "type": "list"
+            },
+            "formulas": [
+              "\"Confirmar bloqueio,Confirmar exclusão,Manter candidato,Solicitar texto completo,Investigar relação editorial\""
+            ]
+          }
+        ]
+      },
+      "artifact_b": {
+        "DOI resolvidos": [],
+        "Fila texto completo": [],
+        "Metadados": [],
+        "Pendentes": [
+          {
+            "attrs": {
+              "allowBlank": "1",
+              "sqref": "O2:O241",
+              "type": "list"
+            },
+            "formulas": [
+              "\"Confirmar bloqueio,Confirmar exclusão,Manter candidato,Solicitar texto completo,Investigar relação editorial\""
+            ]
+          }
+        ],
+        "Quarentena": [
+          {
+            "attrs": {
+              "allowBlank": "1",
+              "sqref": "K2",
+              "type": "list"
+            },
+            "formulas": [
+              "\"Confirmar bloqueio,Confirmar exclusão,Manter candidato,Solicitar texto completo,Investigar relação editorial\""
+            ]
+          }
+        ],
+        "Resumo": [],
+        "Revisão editorial": [
+          {
+            "attrs": {
+              "allowBlank": "1",
+              "sqref": "N2:N19",
+              "type": "list"
+            },
+            "formulas": [
+              "\"Confirmar bloqueio,Confirmar exclusão,Manter candidato,Solicitar texto completo,Investigar relação editorial\""
+            ]
+          }
+        ]
+      },
+      "equal": false
+    },
+    "formulas": {
+      "artifact_a_count": 0,
+      "artifact_b_count": 0,
+      "equal": true
+    },
+    "freeze_pane": {
+      "artifact_a": {
+        "DOI resolvidos": {
+          "activePane": "bottomRight",
+          "state": "frozen",
+          "topLeftCell": "D2",
+          "xSplit": 3,
+          "ySplit": 1
+        },
+        "Fila texto completo": {
+          "activePane": "bottomRight",
+          "state": "frozen",
+          "topLeftCell": "D2",
+          "xSplit": 3,
+          "ySplit": 1
+        },
+        "Metadados": {
+          "activePane": "bottomRight",
+          "state": "frozen",
+          "topLeftCell": "D2",
+          "xSplit": 3,
+          "ySplit": 1
+        },
+        "Pendentes": {
+          "activePane": "bottomRight",
+          "state": "frozen",
+          "topLeftCell": "D2",
+          "xSplit": 3,
+          "ySplit": 1
+        },
+        "Quarentena": {
+          "activePane": "bottomRight",
+          "state": "frozen",
+          "topLeftCell": "D2",
+          "xSplit": 3,
+          "ySplit": 1
+        },
+        "Resumo": {
+          "activePane": "bottomLeft",
+          "state": "frozen",
+          "topLeftCell": "A4",
+          "ySplit": 3
+        },
+        "Revisão editorial": {
+          "activePane": "bottomRight",
+          "state": "frozen",
+          "topLeftCell": "D2",
+          "xSplit": 3,
+          "ySplit": 1
+        }
+      },
+      "artifact_b": {
+        "DOI resolvidos": {
+          "activePane": "bottomRight",
+          "state": "frozen",
+          "topLeftCell": "D2",
+          "xSplit": 3,
+          "ySplit": 1
+        },
+        "Fila texto completo": {
+          "activePane": "bottomRight",
+          "state": "frozen",
+          "topLeftCell": "D2",
+          "xSplit": 3,
+          "ySplit": 1
+        },
+        "Metadados": {
+          "activePane": "bottomRight",
+          "state": "frozen",
+          "topLeftCell": "D2",
+          "xSplit": 3,
+          "ySplit": 1
+        },
+        "Pendentes": {
+          "activePane": "bottomRight",
+          "state": "frozen",
+          "topLeftCell": "D2",
+          "xSplit": 3,
+          "ySplit": 1
+        },
+        "Quarentena": {
+          "activePane": "bottomRight",
+          "state": "frozen",
+          "topLeftCell": "D2",
+          "xSplit": 3,
+          "ySplit": 1
+        },
+        "Resumo": {
+          "activePane": "bottomLeft",
+          "state": "frozen",
+          "topLeftCell": "A4",
+          "ySplit": 3
+        },
+        "Revisão editorial": {
+          "activePane": "bottomRight",
+          "state": "frozen",
+          "topLeftCell": "D2",
+          "xSplit": 3,
+          "ySplit": 1
+        }
+      },
+      "equal": true
+    },
+    "hyperlinks": {
+      "artifact_a_count": 0,
+      "artifact_b_count": 0,
+      "equal": true
+    },
+    "merged_cells": {
+      "artifact_a": {
+        "DOI resolvidos": [],
+        "Fila texto completo": [],
+        "Metadados": [],
+        "Pendentes": [],
+        "Quarentena": [],
+        "Resumo": [
+          "A18:F18",
+          "A19:F19",
+          "A1:F1",
+          "A20:F20",
+          "A21:F21",
+          "A22:F22"
+        ],
+        "Revisão editorial": []
+      },
+      "artifact_b": {
+        "DOI resolvidos": [],
+        "Fila texto completo": [],
+        "Metadados": [],
+        "Pendentes": [],
+        "Quarentena": [],
+        "Resumo": [
+          "A18:F18",
+          "A19:F19",
+          "A1:F1",
+          "A20:F20",
+          "A21:F21",
+          "A22:F22"
+        ],
+        "Revisão editorial": []
+      },
+      "equal": true
+    },
+    "populated_cells": {
+      "artifact_a_count": 29936,
+      "artifact_b_count": 29936,
+      "equal": true
+    },
+    "tables": {
+      "artifact_a": {
+        "DOI resolvidos": [],
+        "Fila texto completo": [],
+        "Metadados": [],
+        "Pendentes": [],
+        "Quarentena": [],
+        "Resumo": [],
+        "Revisão editorial": []
+      },
+      "artifact_b": {
+        "DOI resolvidos": [],
+        "Fila texto completo": [],
+        "Metadados": [],
+        "Pendentes": [],
+        "Quarentena": [],
+        "Resumo": [],
+        "Revisão editorial": []
+      },
+      "equal": true
+    }
+  },
+  "schema": "orb-xlsx-semantic-v1",
+  "semantic_equal": true
+}

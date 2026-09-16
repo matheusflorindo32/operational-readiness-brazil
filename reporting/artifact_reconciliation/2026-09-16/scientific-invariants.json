@@ -1,0 +1,56 @@
+{
+  "artifact_a": {
+    "all_pass": true,
+    "checks": {
+      "active_candidates": true,
+      "claim_ready_count": true,
+      "claim_ready_no_yes": true,
+      "controlled_key_absent": true,
+      "doi_resolution_count": true,
+      "editorial_hold": true,
+      "editorial_review_count": true,
+      "full_text_candidates": true,
+      "full_text_review_not_simulated": true,
+      "human_fields_empty": true,
+      "master_evidence_unchanged": true,
+      "metadata_resolution_count": true,
+      "pending_count": true,
+      "reconciled_identity_count": true,
+      "retracted_pmid_blocked": true,
+      "risk_appraisal_not_simulated": true,
+      "sheet_names_exact": true
+    },
+    "claim_values": [
+      "NO"
+    ],
+    "human_values_found": [],
+    "master_sha256": "2177618b04536e5a9c7b0feffe601b9847826b8fbb283715e2c071a1f604427b"
+  },
+  "artifact_b": {
+    "all_pass": true,
+    "checks": {
+      "active_candidates": true,
+      "claim_ready_count": true,
+      "claim_ready_no_yes": true,
+      "controlled_key_absent": true,
+      "doi_resolution_count": true,
+      "editorial_hold": true,
+      "editorial_review_count": true,
+      "full_text_candidates": true,
+      "full_text_review_not_simulated": true,
+      "human_fields_empty": true,
+      "master_evidence_unchanged": true,
+      "metadata_resolution_count": true,
+      "pending_count": true,
+      "reconciled_identity_count": true,
+      "retracted_pmid_blocked": true,
+      "risk_appraisal_not_simulated": true,
+      "sheet_names_exact": true
+    },
+    "claim_values": [
+      "NO"
+    ],
+    "human_values_found": [],
+    "master_sha256": "2177618b04536e5a9c7b0feffe601b9847826b8fbb283715e2c071a1f604427b"
+  }
+}

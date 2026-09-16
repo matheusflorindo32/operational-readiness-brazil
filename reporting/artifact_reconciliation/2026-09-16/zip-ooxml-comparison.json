@@ -1,0 +1,931 @@
+{
+  "artifact_a_member_count": 14,
+  "artifact_a_member_order": [
+    "xl/workbook.xml",
+    "xl/styles.xml",
+    "xl/theme/theme1.xml",
+    "xl/sharedStrings.xml",
+    "xl/worksheets/sheet1.xml",
+    "xl/worksheets/sheet2.xml",
+    "xl/worksheets/sheet3.xml",
+    "xl/worksheets/sheet4.xml",
+    "xl/worksheets/sheet5.xml",
+    "xl/worksheets/sheet6.xml",
+    "xl/worksheets/sheet7.xml",
+    "_rels/.rels",
+    "xl/_rels/workbook.xml.rels",
+    "[Content_Types].xml"
+  ],
+  "artifact_b_member_count": 29,
+  "artifact_b_member_order": [
+    "xl/drawings/drawing1.xml",
+    "xl/drawings/drawing2.xml",
+    "xl/drawings/drawing3.xml",
+    "xl/drawings/drawing4.xml",
+    "xl/drawings/drawing5.xml",
+    "xl/drawings/drawing6.xml",
+    "xl/drawings/drawing7.xml",
+    "xl/worksheets/sheet1.xml",
+    "xl/worksheets/_rels/sheet1.xml.rels",
+    "xl/worksheets/sheet2.xml",
+    "xl/worksheets/_rels/sheet2.xml.rels",
+    "xl/worksheets/sheet3.xml",
+    "xl/worksheets/_rels/sheet3.xml.rels",
+    "xl/worksheets/sheet4.xml",
+    "xl/worksheets/_rels/sheet4.xml.rels",
+    "xl/worksheets/sheet5.xml",
+    "xl/worksheets/_rels/sheet5.xml.rels",
+    "xl/worksheets/sheet6.xml",
+    "xl/worksheets/_rels/sheet6.xml.rels",
+    "xl/worksheets/sheet7.xml",
+    "xl/worksheets/_rels/sheet7.xml.rels",
+    "xl/theme/theme1.xml",
+    "xl/sharedStrings.xml",
+    "xl/styles.xml",
+    "xl/persons/person.xml",
+    "xl/workbook.xml",
+    "xl/_rels/workbook.xml.rels",
+    "_rels/.rels",
+    "[Content_Types].xml"
+  ],
+  "differences": [
+    {
+      "artifact_a": {
+        "compressed_size": 301,
+        "compression_method": 8,
+        "crc32": "6bc096ae",
+        "member": "[Content_Types].xml",
+        "payload_sha256": "acbe64ec7a360e3a20392584f6d4b323267eacf744cfa70817e8510a4c15aae3",
+        "uncompressed_size": 1673,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          8,
+          6,
+          44
+        ]
+      },
+      "artifact_b": {
+        "compressed_size": 406,
+        "compression_method": 8,
+        "crc32": "6ee2db51",
+        "member": "[Content_Types].xml",
+        "payload_sha256": "2abb1915c88b75091d09b2182093dc968cffc7f7db23ae65484e619066d41104",
+        "uncompressed_size": 2783,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          4,
+          17,
+          32
+        ]
+      },
+      "classification": "ZIP_PACKAGING_ONLY",
+      "member": "[Content_Types].xml",
+      "payload_equal": false,
+      "presence": "both"
+    },
+    {
+      "artifact_a": {
+        "compressed_size": 296,
+        "compression_method": 0,
+        "crc32": "99dc69d7",
+        "member": "_rels/.rels",
+        "payload_sha256": "89819cc233a60766d4e642d78af99aaef2114be8d4f366ec4f691e5f53f60d4e",
+        "uncompressed_size": 296,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          8,
+          6,
+          44
+        ]
+      },
+      "artifact_b": {
+        "compressed_size": 178,
+        "compression_method": 8,
+        "crc32": "20a16fa4",
+        "member": "_rels/.rels",
+        "payload_sha256": "8cbbdc48821190ccc33949fb8f8d021399ddbd526f770a8e86afae1c19e8d3e5",
+        "uncompressed_size": 296,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          4,
+          17,
+          32
+        ]
+      },
+      "classification": "ZIP_PACKAGING_ONLY",
+      "member": "_rels/.rels",
+      "payload_equal": false,
+      "presence": "both"
+    },
+    {
+      "artifact_a": {
+        "compressed_size": 366,
+        "compression_method": 8,
+        "crc32": "e9c84365",
+        "member": "xl/_rels/workbook.xml.rels",
+        "payload_sha256": "552b7b5c49ca0294d9e0fd4e142d0ad9689bd16a645d38732bb80043fe0762f8",
+        "uncompressed_size": 1708,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          8,
+          6,
+          44
+        ]
+      },
+      "artifact_b": {
+        "compressed_size": 307,
+        "compression_method": 8,
+        "crc32": "9058796f",
+        "member": "xl/_rels/workbook.xml.rels",
+        "payload_sha256": "dfb84c2cd94cf834465bcfc8842b2f541a7cbd0de181c0c9560f155bcc890b32",
+        "uncompressed_size": 1670,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          4,
+          17,
+          32
+        ]
+      },
+      "classification": "ZIP_PACKAGING_ONLY",
+      "member": "xl/_rels/workbook.xml.rels",
+      "payload_equal": false,
+      "presence": "both"
+    },
+    {
+      "artifact_a": null,
+      "artifact_b": {
+        "compressed_size": 261,
+        "compression_method": 8,
+        "crc32": "83696207",
+        "member": "xl/drawings/drawing1.xml",
+        "payload_sha256": "394373ea7e1b1dfd8633980cf12b48a29def82f40be77ecb084131e50739dc4b",
+        "uncompressed_size": 775,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          4,
+          17,
+          32
+        ]
+      },
+      "classification": "PRESENTATION_ONLY",
+      "member": "xl/drawings/drawing1.xml",
+      "payload_equal": false,
+      "presence": "artifact_b_only"
+    },
+    {
+      "artifact_a": null,
+      "artifact_b": {
+        "compressed_size": 261,
+        "compression_method": 8,
+        "crc32": "83696207",
+        "member": "xl/drawings/drawing2.xml",
+        "payload_sha256": "394373ea7e1b1dfd8633980cf12b48a29def82f40be77ecb084131e50739dc4b",
+        "uncompressed_size": 775,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          4,
+          17,
+          32
+        ]
+      },
+      "classification": "PRESENTATION_ONLY",
+      "member": "xl/drawings/drawing2.xml",
+      "payload_equal": false,
+      "presence": "artifact_b_only"
+    },
+    {
+      "artifact_a": null,
+      "artifact_b": {
+        "compressed_size": 261,
+        "compression_method": 8,
+        "crc32": "83696207",
+        "member": "xl/drawings/drawing3.xml",
+        "payload_sha256": "394373ea7e1b1dfd8633980cf12b48a29def82f40be77ecb084131e50739dc4b",
+        "uncompressed_size": 775,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          4,
+          17,
+          32
+        ]
+      },
+      "classification": "PRESENTATION_ONLY",
+      "member": "xl/drawings/drawing3.xml",
+      "payload_equal": false,
+      "presence": "artifact_b_only"
+    },
+    {
+      "artifact_a": null,
+      "artifact_b": {
+        "compressed_size": 261,
+        "compression_method": 8,
+        "crc32": "83696207",
+        "member": "xl/drawings/drawing4.xml",
+        "payload_sha256": "394373ea7e1b1dfd8633980cf12b48a29def82f40be77ecb084131e50739dc4b",
+        "uncompressed_size": 775,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          4,
+          17,
+          32
+        ]
+      },
+      "classification": "PRESENTATION_ONLY",
+      "member": "xl/drawings/drawing4.xml",
+      "payload_equal": false,
+      "presence": "artifact_b_only"
+    },
+    {
+      "artifact_a": null,
+      "artifact_b": {
+        "compressed_size": 261,
+        "compression_method": 8,
+        "crc32": "83696207",
+        "member": "xl/drawings/drawing5.xml",
+        "payload_sha256": "394373ea7e1b1dfd8633980cf12b48a29def82f40be77ecb084131e50739dc4b",
+        "uncompressed_size": 775,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          4,
+          17,
+          32
+        ]
+      },
+      "classification": "PRESENTATION_ONLY",
+      "member": "xl/drawings/drawing5.xml",
+      "payload_equal": false,
+      "presence": "artifact_b_only"
+    },
+    {
+      "artifact_a": null,
+      "artifact_b": {
+        "compressed_size": 261,
+        "compression_method": 8,
+        "crc32": "83696207",
+        "member": "xl/drawings/drawing6.xml",
+        "payload_sha256": "394373ea7e1b1dfd8633980cf12b48a29def82f40be77ecb084131e50739dc4b",
+        "uncompressed_size": 775,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          4,
+          17,
+          32
+        ]
+      },
+      "classification": "PRESENTATION_ONLY",
+      "member": "xl/drawings/drawing6.xml",
+      "payload_equal": false,
+      "presence": "artifact_b_only"
+    },
+    {
+      "artifact_a": null,
+      "artifact_b": {
+        "compressed_size": 261,
+        "compression_method": 8,
+        "crc32": "83696207",
+        "member": "xl/drawings/drawing7.xml",
+        "payload_sha256": "394373ea7e1b1dfd8633980cf12b48a29def82f40be77ecb084131e50739dc4b",
+        "uncompressed_size": 775,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          4,
+          17,
+          32
+        ]
+      },
+      "classification": "PRESENTATION_ONLY",
+      "member": "xl/drawings/drawing7.xml",
+      "payload_equal": false,
+      "presence": "artifact_b_only"
+    },
+    {
+      "artifact_a": null,
+      "artifact_b": {
+        "compressed_size": 135,
+        "compression_method": 8,
+        "crc32": "9c036834",
+        "member": "xl/persons/person.xml",
+        "payload_sha256": "4ebd5532d853723b706f7de3d7ec4f8824ff5885c1b2fad14760298a574b608c",
+        "uncompressed_size": 161,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          4,
+          17,
+          32
+        ]
+      },
+      "classification": "METADATA_ONLY",
+      "member": "xl/persons/person.xml",
+      "payload_equal": false,
+      "presence": "artifact_b_only"
+    },
+    {
+      "artifact_a": {
+        "compressed_size": 101,
+        "compression_method": 8,
+        "crc32": "e8b91e0d",
+        "member": "xl/sharedStrings.xml",
+        "payload_sha256": "188ef751ff00440752511a2b19781b8f4c4f53a52560765fc3c0cbef1fb25e4f",
+        "uncompressed_size": 115,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          8,
+          6,
+          44
+        ]
+      },
+      "artifact_b": {
+        "compressed_size": 127456,
+        "compression_method": 8,
+        "crc32": "f6ae3006",
+        "member": "xl/sharedStrings.xml",
+        "payload_sha256": "59ba85e0f8b8f9580407cf38e1fe43b336899c8459dcf06094c04fd573866b6c",
+        "uncompressed_size": 469470,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          4,
+          17,
+          32
+        ]
+      },
+      "classification": "ZIP_PACKAGING_ONLY",
+      "member": "xl/sharedStrings.xml",
+      "payload_equal": false,
+      "presence": "both"
+    },
+    {
+      "artifact_a": {
+        "compressed_size": 634,
+        "compression_method": 8,
+        "crc32": "1b871f4c",
+        "member": "xl/styles.xml",
+        "payload_sha256": "39f54dbe1b48404e00139b511deef61181976dc0e166c2741919fbfb6ddb890d",
+        "uncompressed_size": 5625,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          8,
+          6,
+          44
+        ]
+      },
+      "artifact_b": {
+        "compressed_size": 742,
+        "compression_method": 8,
+        "crc32": "19ea2151",
+        "member": "xl/styles.xml",
+        "payload_sha256": "a55956b8afc855ee93b62afd5afa5da1f980c6dac4e4b99ad08f5b0d190d5baa",
+        "uncompressed_size": 3770,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          4,
+          17,
+          32
+        ]
+      },
+      "classification": "PRESENTATION_ONLY",
+      "member": "xl/styles.xml",
+      "payload_equal": false,
+      "presence": "both"
+    },
+    {
+      "artifact_a": {
+        "compressed_size": 771,
+        "compression_method": 8,
+        "crc32": "59015cfa",
+        "member": "xl/theme/theme1.xml",
+        "payload_sha256": "9e968b92413c2476890e4b0bd8d26b65f2062b211bde8ebb628ffdaafc6607b9",
+        "uncompressed_size": 3546,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          8,
+          6,
+          44
+        ]
+      },
+      "artifact_b": {
+        "compressed_size": 811,
+        "compression_method": 8,
+        "crc32": "0252e195",
+        "member": "xl/theme/theme1.xml",
+        "payload_sha256": "c5609604eff1ff33fc987fd83df288038c33d95b6e04a3c5a3b510c36f77bbae",
+        "uncompressed_size": 3769,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          4,
+          17,
+          32
+        ]
+      },
+      "classification": "PRESENTATION_ONLY",
+      "member": "xl/theme/theme1.xml",
+      "payload_equal": false,
+      "presence": "both"
+    },
+    {
+      "artifact_a": {
+        "compressed_size": 360,
+        "compression_method": 8,
+        "crc32": "27e25c6f",
+        "member": "xl/workbook.xml",
+        "payload_sha256": "cc123282066b28e7159782aee187a80e22473ce853d644f33d53dec9b6e442d8",
+        "uncompressed_size": 1175,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          8,
+          6,
+          44
+        ]
+      },
+      "artifact_b": {
+        "compressed_size": 433,
+        "compression_method": 8,
+        "crc32": "d6e6fe93",
+        "member": "xl/workbook.xml",
+        "payload_sha256": "1b468579e734d7d4fb7f95664da5a2e7ea27cf8e36e76a7ebb28bec8cd56b671",
+        "uncompressed_size": 1223,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          4,
+          17,
+          32
+        ]
+      },
+      "classification": "METADATA_ONLY",
+      "member": "xl/workbook.xml",
+      "payload_equal": false,
+      "presence": "both"
+    },
+    {
+      "artifact_a": null,
+      "artifact_b": {
+        "compressed_size": 179,
+        "compression_method": 8,
+        "crc32": "4deba8ad",
+        "member": "xl/worksheets/_rels/sheet1.xml.rels",
+        "payload_sha256": "0a056b3b33d7a1d07a12e730a39d3f201d59d096421e6d0ddef881c2371a25e3",
+        "uncompressed_size": 298,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          4,
+          17,
+          32
+        ]
+      },
+      "classification": "PRESENTATION_ONLY",
+      "member": "xl/worksheets/_rels/sheet1.xml.rels",
+      "payload_equal": false,
+      "presence": "artifact_b_only"
+    },
+    {
+      "artifact_a": null,
+      "artifact_b": {
+        "compressed_size": 180,
+        "compression_method": 8,
+        "crc32": "15f50185",
+        "member": "xl/worksheets/_rels/sheet2.xml.rels",
+        "payload_sha256": "eace0cae9b4278f2954e555cfc3944b18802739a2d6d5930bb473590e18ed4fd",
+        "uncompressed_size": 298,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          4,
+          17,
+          32
+        ]
+      },
+      "classification": "PRESENTATION_ONLY",
+      "member": "xl/worksheets/_rels/sheet2.xml.rels",
+      "payload_equal": false,
+      "presence": "artifact_b_only"
+    },
+    {
+      "artifact_a": null,
+      "artifact_b": {
+        "compressed_size": 180,
+        "compression_method": 8,
+        "crc32": "94d064a2",
+        "member": "xl/worksheets/_rels/sheet3.xml.rels",
+        "payload_sha256": "415576c07ecf629b3f0143ac8b1480862eab992262dc68cc9ed91f9632ee7524",
+        "uncompressed_size": 298,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          4,
+          17,
+          32
+        ]
+      },
+      "classification": "PRESENTATION_ONLY",
+      "member": "xl/worksheets/_rels/sheet3.xml.rels",
+      "payload_equal": false,
+      "presence": "artifact_b_only"
+    },
+    {
+      "artifact_a": null,
+      "artifact_b": {
+        "compressed_size": 180,
+        "compression_method": 8,
+        "crc32": "a5c853d5",
+        "member": "xl/worksheets/_rels/sheet4.xml.rels",
+        "payload_sha256": "1e6da2012b4300f7e65f86dcce2d30a258a6df6444a065fa464d97a8a8ca82ca",
+        "uncompressed_size": 298,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          4,
+          17,
+          32
+        ]
+      },
+      "classification": "PRESENTATION_ONLY",
+      "member": "xl/worksheets/_rels/sheet4.xml.rels",
+      "payload_equal": false,
+      "presence": "artifact_b_only"
+    },
+    {
+      "artifact_a": null,
+      "artifact_b": {
+        "compressed_size": 180,
+        "compression_method": 8,
+        "crc32": "24ed36f2",
+        "member": "xl/worksheets/_rels/sheet5.xml.rels",
+        "payload_sha256": "4f7aefe2ca16e6be537157c55112d03434865c97d679f669015971a281609b84",
+        "uncompressed_size": 298,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          4,
+          17,
+          32
+        ]
+      },
+      "classification": "PRESENTATION_ONLY",
+      "member": "xl/worksheets/_rels/sheet5.xml.rels",
+      "payload_equal": false,
+      "presence": "artifact_b_only"
+    },
+    {
+      "artifact_a": null,
+      "artifact_b": {
+        "compressed_size": 180,
+        "compression_method": 8,
+        "crc32": "7cf39fda",
+        "member": "xl/worksheets/_rels/sheet6.xml.rels",
+        "payload_sha256": "80e227f486e2d10d014a6f48bb5e3a7c6ed30688a8204591df56a43bc76b0a85",
+        "uncompressed_size": 298,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          4,
+          17,
+          32
+        ]
+      },
+      "classification": "PRESENTATION_ONLY",
+      "member": "xl/worksheets/_rels/sheet6.xml.rels",
+      "payload_equal": false,
+      "presence": "artifact_b_only"
+    },
+    {
+      "artifact_a": null,
+      "artifact_b": {
+        "compressed_size": 180,
+        "compression_method": 8,
+        "crc32": "fdd6fafd",
+        "member": "xl/worksheets/_rels/sheet7.xml.rels",
+        "payload_sha256": "da13361ee47dec424543bf3217c76a1244a6fc282403455816c2887fa8fa6651",
+        "uncompressed_size": 298,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          4,
+          17,
+          32
+        ]
+      },
+      "classification": "PRESENTATION_ONLY",
+      "member": "xl/worksheets/_rels/sheet7.xml.rels",
+      "payload_equal": false,
+      "presence": "artifact_b_only"
+    },
+    {
+      "artifact_a": {
+        "compressed_size": 1792,
+        "compression_method": 8,
+        "crc32": "225f35a9",
+        "member": "xl/worksheets/sheet1.xml",
+        "payload_sha256": "fbce655d78a0b9a7e0a34b9e6b9115467fc08f4761e2813ce6e81ab84550069b",
+        "uncompressed_size": 7141,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          8,
+          6,
+          44
+        ]
+      },
+      "artifact_b": {
+        "compressed_size": 4079,
+        "compression_method": 8,
+        "crc32": "e70f6bd0",
+        "member": "xl/worksheets/sheet1.xml",
+        "payload_sha256": "728adacdde8857a3e438ff53e708aade7265d7757d6889222d6b21e09650b278",
+        "uncompressed_size": 46049,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          4,
+          17,
+          32
+        ]
+      },
+      "classification": "PRESENTATION_ONLY",
+      "member": "xl/worksheets/sheet1.xml",
+      "payload_equal": false,
+      "presence": "both"
+    },
+    {
+      "artifact_a": {
+        "compressed_size": 1134,
+        "compression_method": 8,
+        "crc32": "19ef5fe8",
+        "member": "xl/worksheets/sheet2.xml",
+        "payload_sha256": "7d9b4830448344207e3844dbd8a105934bf64af4c5e8b8b206f72003a495d43b",
+        "uncompressed_size": 3611,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          8,
+          6,
+          44
+        ]
+      },
+      "artifact_b": {
+        "compressed_size": 3890,
+        "compression_method": 8,
+        "crc32": "538d2ad9",
+        "member": "xl/worksheets/sheet2.xml",
+        "payload_sha256": "544d5dc96c0f84c10e4306055abc9c8f18f2164401bac2f892f011acdce6ffe0",
+        "uncompressed_size": 44468,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          4,
+          17,
+          32
+        ]
+      },
+      "classification": "PRESENTATION_ONLY",
+      "member": "xl/worksheets/sheet2.xml",
+      "payload_equal": false,
+      "presence": "both"
+    },
+    {
+      "artifact_a": {
+        "compressed_size": 4110,
+        "compression_method": 8,
+        "crc32": "73d196cb",
+        "member": "xl/worksheets/sheet3.xml",
+        "payload_sha256": "b159255dc91d173dc0d4b60b60651b206e291e1d0b93df399fe78d706eac5cb1",
+        "uncompressed_size": 25848,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          8,
+          6,
+          44
+        ]
+      },
+      "artifact_b": {
+        "compressed_size": 5157,
+        "compression_method": 8,
+        "crc32": "b34abba3",
+        "member": "xl/worksheets/sheet3.xml",
+        "payload_sha256": "ec2ea8d50746acb139aa7d21908a18dea69ae89a1ec0f61ceb8ffa4906a33c17",
+        "uncompressed_size": 54087,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          4,
+          17,
+          32
+        ]
+      },
+      "classification": "PRESENTATION_ONLY",
+      "member": "xl/worksheets/sheet3.xml",
+      "payload_equal": false,
+      "presence": "both"
+    },
+    {
+      "artifact_a": {
+        "compressed_size": 211831,
+        "compression_method": 8,
+        "crc32": "038971ae",
+        "member": "xl/worksheets/sheet4.xml",
+        "payload_sha256": "c605f923b8d7b626e5eb4e1ef03d4cb5b63a3f07be7108376f96f91840659058",
+        "uncompressed_size": 1781131,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          8,
+          6,
+          44
+        ]
+      },
+      "artifact_b": {
+        "compressed_size": 98922,
+        "compression_method": 8,
+        "crc32": "188cde65",
+        "member": "xl/worksheets/sheet4.xml",
+        "payload_sha256": "bf9f9cd7a7759e27411e40360833235e8416135544694ee6d8eeb0fcfab6a767",
+        "uncompressed_size": 1009544,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          4,
+          17,
+          32
+        ]
+      },
+      "classification": "PRESENTATION_ONLY",
+      "member": "xl/worksheets/sheet4.xml",
+      "payload_equal": false,
+      "presence": "both"
+    },
+    {
+      "artifact_a": {
+        "compressed_size": 39824,
+        "compression_method": 8,
+        "crc32": "fdebad85",
+        "member": "xl/worksheets/sheet5.xml",
+        "payload_sha256": "7429b9c542fce9bbd7bc8cea03362fe1f228f2feac534febc0a4e415492cea74",
+        "uncompressed_size": 309889,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          8,
+          6,
+          44
+        ]
+      },
+      "artifact_b": {
+        "compressed_size": 19102,
+        "compression_method": 8,
+        "crc32": "310cd670",
+        "member": "xl/worksheets/sheet5.xml",
+        "payload_sha256": "2bd0dc08c9533aad819005a673e1c014325270fa1362d328dc998e5f95852203",
+        "uncompressed_size": 190640,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          4,
+          17,
+          32
+        ]
+      },
+      "classification": "PRESENTATION_ONLY",
+      "member": "xl/worksheets/sheet5.xml",
+      "payload_equal": false,
+      "presence": "both"
+    },
+    {
+      "artifact_a": {
+        "compressed_size": 15002,
+        "compression_method": 8,
+        "crc32": "34ccc60d",
+        "member": "xl/worksheets/sheet6.xml",
+        "payload_sha256": "f60093023709537d7a18ddbec193727775c1dad8514a4ced4f696acb4b744bae",
+        "uncompressed_size": 98331,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          8,
+          6,
+          44
+        ]
+      },
+      "artifact_b": {
+        "compressed_size": 7809,
+        "compression_method": 8,
+        "crc32": "47850aef",
+        "member": "xl/worksheets/sheet6.xml",
+        "payload_sha256": "6cf1dbaaaed12fb304b649fedbd60a7e9c6c5c57ca3979923cd7760c72b3d5c0",
+        "uncompressed_size": 80779,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          4,
+          17,
+          32
+        ]
+      },
+      "classification": "PRESENTATION_ONLY",
+      "member": "xl/worksheets/sheet6.xml",
+      "payload_equal": false,
+      "presence": "both"
+    },
+    {
+      "artifact_a": {
+        "compressed_size": 859,
+        "compression_method": 8,
+        "crc32": "5b207e66",
+        "member": "xl/worksheets/sheet7.xml",
+        "payload_sha256": "50153ae45353bfdb4a71a35134ce258e7a713177c1f852d94909bf3ccd8a1d6a",
+        "uncompressed_size": 3282,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          8,
+          6,
+          44
+        ]
+      },
+      "artifact_b": {
+        "compressed_size": 3690,
+        "compression_method": 8,
+        "crc32": "9388f0a7",
+        "member": "xl/worksheets/sheet7.xml",
+        "payload_sha256": "06be1d2e855a1983459a42ee981676ca9554328035cdd211bf26670ee0220860",
+        "uncompressed_size": 44231,
+        "zip_timestamp": [
+          2026,
+          9,
+          16,
+          4,
+          17,
+          32
+        ]
+      },
+      "classification": "PRESENTATION_ONLY",
+      "member": "xl/worksheets/sheet7.xml",
+      "payload_equal": false,
+      "presence": "both"
+    }
+  ],
+  "member_order_equal": false
+}

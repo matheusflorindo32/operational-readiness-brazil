@@ -321,3 +321,23 @@ Operational controls are 13/13 complete (100.00%). The active full-text queue is
 1,191/1,206 (98.76%); editorial hold is 15/1,206 (1.24%); pending adjudication
 is 240/1,456 (16.48%); integrity quarantine is 1/1,456 (0.07%). This is a GO
 for controlled progression, not scientific approval or PASS.
+
+## XLSX artifact identity reconciliation — 2026-09-16
+
+**Decision: GO_WITH_DOCUMENTED_NONSEMANTIC_VARIANCE | SCIENTIFIC PASS: PROHIBITED**
+
+- [x] Both XLSX copies preserved read-only outside Git.
+- [x] Binary hashes, sizes, origins, timestamps and Git blob recorded.
+- [x] ZIP central directories and all OOXML member payloads compared.
+- [x] Seven exact sheets, dimensions, values, types, formulas, hyperlinks, panes, tables, filters and validations compared.
+- [x] Both copies received the same scientific semantic SHA-256.
+- [x] All mandatory scientific invariants passed for both artifacts.
+- [x] Human fields remain empty and Claim-Ready remains zero.
+- [x] Root cause established as `ZIP_SERIALIZATION_DIFFERENCE`.
+- [x] Deterministic semantic hash and fixed-input ZIP normalization implemented.
+- [x] Save/reopen tests passed without Master Evidence change.
+- [x] Formal incident report and machine-readable forensic evidence produced.
+
+Artifact controls are 11/11 complete (100.00%). The canonical binary was not
+replaced, Zotero was not modified and independent evidence work remains
+`GO_NONBLOCKING`.

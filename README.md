@@ -185,3 +185,13 @@ Claim-Ready remains **0/1,456**, and no human-review field was populated.
 See the [non-blocking execution report](docs/NONBLOCKING_EVIDENCE_FLOW_2026-09-16.md),
 the [control workbook](outputs/triage/2026-09-16/Operational_Readiness_Nonblocking_Queues.xlsx)
 and the [machine-readable queues](reporting/nonblocking/2026-09-16/).
+
+### XLSX chain of custody
+
+A binary-hash divergence between the Git workbook and a later downloaded copy
+was reconciled as an OOXML/ZIP reserialization difference. Both copies have the
+same normalized scientific semantic SHA-256
+`803e007a00129ee9ab5b361bc9a2c1ade1dc917554d2e9186d75f3f223953dc2`
+and pass all scientific invariants. The Git binary remains canonical; future
+exports must record both binary and semantic hashes. See the
+[artifact identity report](docs/ARTIFACT_IDENTITY_RECONCILIATION_2026-09-16.md).

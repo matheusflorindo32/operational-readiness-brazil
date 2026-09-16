@@ -2,6 +2,15 @@
 
 All notable project changes are documented here.
 
+## [1.7.1] — 2026-09-16
+### XLSX artifact identity reconciliation
+- Preserved and compared the Git-canonical non-blocking workbook against the divergent Downloads copy at binary, ZIP/OOXML and normalized semantic levels.
+- Determined `ROOT_CAUSE = ZIP_SERIALIZATION_DIFFERENCE`: the copy was rewritten with shared strings, empty drawing/person parts, different ZIP metadata and an empty calculation property.
+- Confirmed identical scientific content across 29,936 populated cells and the same semantic SHA-256, with all mandatory scientific invariants passing in both files.
+- Recorded the sole interface-behavior difference: `allowBlank="1"` was added to the same three human-decision validations without populating any field.
+- Added a deterministic semantic hasher, ZIP normalizer, forensic manifest, per-member OOXML comparison and regression tests. The canonical XLSX and Master Evidence remain unchanged.
+- Release decision: `GO_WITH_DOCUMENTED_NONSEMANTIC_VARIANCE`; scientific PASS remains prohibited.
+
 ## [1.7.0] — 2026-09-16
 ### Non-blocking evidence progression
 - Added a versioned operational amendment that quarantines formal retractions, routes correction/update and unresolved metadata cases to `REVIEW_REQUIRED`, and allows unrelated clear candidates to progress.

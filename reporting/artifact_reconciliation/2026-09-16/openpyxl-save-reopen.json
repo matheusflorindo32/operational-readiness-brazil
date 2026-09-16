@@ -1,0 +1,46 @@
+{
+  "python": "3.12.14",
+  "openpyxl": "3.1.5",
+  "source_binary_sha256": "808985682db5bb553fd4709795e1066f9b62fdd8a8fd608e1ba2e004565ca082",
+  "resaved_binary_sha256": "cdc6eb7b40232ab179560b9003c1f25081358cf5af45eee10cdf191298817398",
+  "source_semantic_sha256": "803e007a00129ee9ab5b361bc9a2c1ade1dc917554d2e9186d75f3f223953dc2",
+  "resaved_semantic_sha256": "803e007a00129ee9ab5b361bc9a2c1ade1dc917554d2e9186d75f3f223953dc2",
+  "semantic_equal": true,
+  "reopened_sheet_names": [
+    "Resumo",
+    "Quarentena",
+    "Revisão editorial",
+    "Fila texto completo",
+    "Pendentes",
+    "Metadados",
+    "DOI resolvidos"
+  ],
+  "zip_integrity": true,
+  "scientific_invariants": {
+    "checks": {
+      "sheet_names_exact": true,
+      "reconciled_identity_count": true,
+      "claim_ready_count": true,
+      "editorial_review_count": true,
+      "full_text_candidates": true,
+      "active_candidates": true,
+      "editorial_hold": true,
+      "pending_count": true,
+      "metadata_resolution_count": true,
+      "doi_resolution_count": true,
+      "human_fields_empty": true,
+      "claim_ready_no_yes": true,
+      "risk_appraisal_not_simulated": true,
+      "full_text_review_not_simulated": true,
+      "controlled_key_absent": true,
+      "retracted_pmid_blocked": true,
+      "master_evidence_unchanged": true
+    },
+    "all_pass": true,
+    "master_sha256": "2177618b04536e5a9c7b0feffe601b9847826b8fbb283715e2c071a1f604427b",
+    "human_values_found": [],
+    "claim_values": [
+      "NO"
+    ]
+  }
+}

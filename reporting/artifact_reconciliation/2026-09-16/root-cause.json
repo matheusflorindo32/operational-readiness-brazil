@@ -1,0 +1,15 @@
+{
+  "attribution_limit": "The producer that reserialized artifact B is not encoded in docProps; the OOXML changes prove reserialization but do not identify the application with certainty.",
+  "evidence": {
+    "artifact_a_members": 14,
+    "artifact_b_added_empty_drawings": 7,
+    "artifact_b_added_empty_person_list": 1,
+    "artifact_b_added_empty_sheet_relationships": 7,
+    "artifact_b_members": 29,
+    "scientific_semantics_equal": true,
+    "shared_string_storage_changed": true,
+    "zip_member_order_changed": true
+  },
+  "release_decision": "GO_WITH_DOCUMENTED_NONSEMANTIC_VARIANCE",
+  "root_cause": "ZIP_SERIALIZATION_DIFFERENCE"
+}
