@@ -2,6 +2,14 @@
 
 All notable project changes are documented here.
 
+## [1.6.0] — 2026-09-15
+### Gate 2 human-adjudication preparation
+- Revalidated Gate 1 at commit `cbd1643308f35f03ce5bff80beb755cb927ca46c`, including green CI and the canonical 10 red, 1,446 yellow and zero green traffic light in XLSX and Google Sheets.
+- Requeried PubMed/NCBI for the 18 priority records and their linked notices or updated versions: one retraction and 17 correction/update relations.
+- Created an individual dossier and decision queue with PMID, DOI, Zotero key, title, editorial relation, primary URLs, AI-assisted recommendation, risk, rationale and next action.
+- Left human reviewer, human date, human decision and human justification blank for every record; Claim-Ready remains blocked for 18/18.
+- Published a separate native Google Sheet with owner-only permission, frozen headers, native tables and the five allowed human-decision options. The canonical Master Evidence and Zotero were not modified.
+
 ## [1.5.1] — 2026-09-15
 ### Gate 1 documentary consistency
 - Reconciled the current traffic-light statement across README, checklist, audit reports, local XLSX and canonical Google Sheets at 10 red, 1,446 yellow and zero green.

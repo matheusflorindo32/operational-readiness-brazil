@@ -90,6 +90,13 @@ and zero green**. The stale count in the pre-analysis narrative was corrected;
 the workbook, canonical Sheet, Zotero library and screening decisions were not
 changed. See the [Gate 1 report](docs/GATE_1_DOCUMENTARY_CONSISTENCY_2026-09-15.md).
 
+Gate 2 preparation on 2026-09-15 created an independent human-adjudication
+workbook and native Google Sheet for the 18 priority editorial-relation records:
+one retraction and 17 correction/update relations. Every human reviewer, date,
+decision and justification field remains blank; all 18 records remain blocked
+from Claim-Ready. Zotero and the canonical Master Evidence were not modified.
+See the [Gate 2 preparation report](docs/GATE_2_HUMAN_ADJUDICATION_PREPARATION_2026-09-15.md).
+
 ## Historical release milestones
 
 - [x] GitHub repository materialized

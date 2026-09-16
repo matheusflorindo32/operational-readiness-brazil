@@ -1,0 +1,58 @@
+{
+  "gate": 2,
+  "phase": "PREPARAÇÃO PARA ADJUDICAÇÃO HUMANA",
+  "date": "2026-09-15",
+  "reference_commit": "cbd1643308f35f03ce5bff80beb755cb927ca46c",
+  "reference_ci": {
+    "run_id": 35043070339,
+    "status": "completed",
+    "conclusion": "success"
+  },
+  "gate_1_revalidation": {
+    "local_commit_matches_remote": true,
+    "traffic_light_green": 0,
+    "traffic_light_yellow": 1446,
+    "traffic_light_red": 10,
+    "regression_tests_passed": 19
+  },
+  "queue": {
+    "records": 18,
+    "unique_pmids": 18,
+    "unique_zotero_keys": 18,
+    "retraction_records": 1,
+    "correction_update_records": 17,
+    "records_without_doi": 2,
+    "relations_without_related_pmid": 2,
+    "human_reviewer_populated": 0,
+    "human_date_populated": 0,
+    "human_decision_populated": 0,
+    "human_justification_populated": 0,
+    "claim_ready_released": 0,
+    "controlled_key_present": false
+  },
+  "google_sheet": {
+    "id": "1pP_1ZpLvsfuX3vZUyFydgrr3JGxmVDGWt4PqGtyyAQs",
+    "url": "https://docs.google.com/spreadsheets/d/1pP_1ZpLvsfuX3vZUyFydgrr3JGxmVDGWt4PqGtyyAQs/edit",
+    "parent_id": "1zSfxpTs_hQyrp_D5b64IIfiszsGS3O2a",
+    "shared": false,
+    "permission": "owner only",
+    "native_tables": ["FilaAdjudicacao", "DossiesPrioritarios"],
+    "decision_column_type": "DROPDOWN"
+  },
+  "files": [
+    {"path": ".gitignore", "sha256": "75e635f1f44053ccdce6e282d7a418dcc44e5c7d20a93dc45c8cbd361a9dcd9e", "bytes": 798},
+    {"path": "README.md", "sha256": "caa0c2f71d1a0f7eb2c4d87fd37f29107aad0571b366002e26089659f5a75f2c", "bytes": 10142},
+    {"path": "CHANGELOG.md", "sha256": "958f8925bfec9eb050303486951a556a52ef1bc70e9abfaccdff18c681bc2d54", "bytes": 16275},
+    {"path": "reporting/CHECKLIST.md", "sha256": "58495c6c4267b5b1fb7b13f17aaeb082613ba315ef3631cc2911fd3cac246bb5", "bytes": 17149},
+    {"path": "docs/GATE_2_HUMAN_ADJUDICATION_PREPARATION_2026-09-15.md", "sha256": "5e517a05131e9d65cf2601e30fafe4701a39fc847c6758d5f24dd35220d93b79", "bytes": 3441},
+    {"path": "analysis/test_gate2_adjudication_preparation.py", "sha256": "97dde1b59e422494e8b4e100c87cdf5fb172d23c249642e7d5b44ae2c1ba9f38", "bytes": 3439},
+    {"path": "outputs/adjudication/2026-09-15/GATE_2_Fila_Adjudicacao_Humana_18_Registros.xlsx", "sha256": "83601c6d1322dc9ef3830b2a1833d043e70382a06669c27ec97589672d6936ef", "bytes": 21652},
+    {"path": "reporting/adjudication/2026-09-15/priority-adjudication-source.json", "sha256": "84f633afb38a2f48651ab7d4a8ad03fd6987a967903f66d029676b73a0f6b34f", "bytes": 33766},
+    {"path": "reporting/adjudication/2026-09-15/priority-adjudication-queue.csv", "sha256": "1c67c887a6eb22e6662e074837127ab3b33834d887698a07e2c13dc400f9bb21", "bytes": 20103},
+    {"path": "reporting/adjudication/2026-09-15/drive-validation.json", "sha256": "8b0924323115cb719472bc8fa55224c5f127f2efa5f11bcf3a193e52ef39dd73", "bytes": 1210}
+  ],
+  "zotero_modified": false,
+  "canonical_master_modified": false,
+  "gate_3_started": false,
+  "decision": "AGUARDANDO ADJUDICAÇÃO HUMANA"
+}

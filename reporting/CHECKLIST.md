@@ -254,3 +254,25 @@ pending adjudication (16.48%) and 1/1,456 blocked by integrity (0.07%). Overall
 administrative progress remains 52/74 (70.27%); definitive evidence
 identification remains 3/14 (21.43%). See
 `docs/GATE_1_DOCUMENTARY_CONSISTENCY_2026-09-15.md`.
+
+## Gate 2 — preparation for human adjudication — 2026-09-15
+
+**Decision: AGUARDANDO ADJUDICAÇÃO HUMANA | HUMAN DECISIONS: 0/18 | CLAIM-READY RELEASES: 0/18**
+
+- [x] Gate 1 revalidated at the published commit and green CI.
+- [x] Canonical XLSX and Google Sheets traffic light reconfirmed at 10 red, 1,446 yellow and zero green.
+- [x] Priority queue reconciled at 18/18 unique PMIDs and 18/18 unique Zotero keys.
+- [x] PMID 26159007 retained as the single retraction-priority record.
+- [x] Seventeen correction/update relations rechecked through PubMed/NCBI EFetch.
+- [x] Individual dossiers contain DOI, title, relation, primary URLs, AI-assisted decision, risk, rationale, claim limit and next action.
+- [x] Human reviewer, date, decision and justification remain blank in 18/18 rows.
+- [x] All 18 rows remain blocked from Claim-Ready; `FXC7ZY9R` is absent.
+- [x] Local XLSX and separate native Google Sheet created with a controlled five-option decision field.
+- [x] Zotero and canonical Master Evidence left unchanged; no import, merge or deletion occurred.
+- [ ] Human adjudication completed — 0/18 (0.00%).
+
+Gate 2 preparation controls: 10/10 complete (100.00%). Human adjudication is
+0/18 (0.00%): one retraction record and 17 correction/update records await an
+identified reviewer. Overall administrative progress remains 52/74 (70.27%);
+definitive evidence identification remains 3/14 (21.43%). See
+`docs/GATE_2_HUMAN_ADJUDICATION_PREPARATION_2026-09-15.md`.

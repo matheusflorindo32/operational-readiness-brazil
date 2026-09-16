@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "verified_at": "2026-09-15",
+  "spreadsheet_id": "1pP_1ZpLvsfuX3vZUyFydgrr3JGxmVDGWt4PqGtyyAQs",
+  "spreadsheet_url": "https://docs.google.com/spreadsheets/d/1pP_1ZpLvsfuX3vZUyFydgrr3JGxmVDGWt4PqGtyyAQs/edit",
+  "parent_id": "1zSfxpTs_hQyrp_D5b64IIfiszsGS3O2a",
+  "shared": false,
+  "permissions": "owner only",
+  "native_google_sheet": true,
+  "sheets": ["Painel", "Fila", "Dossiês", "Fontes e controles"],
+  "queue_rows": 18,
+  "unique_pmids": 18,
+  "unique_zotero_keys": 18,
+  "retraction_records": 1,
+  "correction_update_records": 17,
+  "human_reviewer_populated": 0,
+  "human_date_populated": 0,
+  "human_decision_populated": 0,
+  "human_justification_populated": 0,
+  "claim_ready_released": 0,
+  "controlled_key_present": false,
+  "native_queue_table": "FilaAdjudicacao",
+  "native_dossier_table": "DossiesPrioritarios",
+  "human_decision_column_type": "DROPDOWN",
+  "human_decision_options": [
+    "Confirmar bloqueio",
+    "Confirmar exclusão",
+    "Manter candidato",
+    "Solicitar texto completo",
+    "Investigar relação editorial"
+  ],
+  "canonical_master_sheet_modified": false,
+  "canonical_traffic_light": {
+    "green": 0,
+    "yellow": 1446,
+    "red": 10
+  }
+}

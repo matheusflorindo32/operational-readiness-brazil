@@ -28,6 +28,7 @@ __pycache__/
 *.docx
 *.pptx
 *.xlsx
+!outputs/adjudication/2026-09-15/GATE_2_Fila_Adjudicacao_Humana_18_Registros.xlsx
 *.xls
 *.sav
 *.dta
