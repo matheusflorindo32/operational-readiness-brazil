@@ -2,6 +2,16 @@
 
 All notable project changes are documented here.
 
+## [1.7.0] — 2026-09-16
+### Non-blocking evidence progression
+- Added a versioned operational amendment that quarantines formal retractions, routes correction/update and unresolved metadata cases to `REVIEW_REQUIRED`, and allows unrelated clear candidates to progress.
+- Refreshed all 1,456 PubMed records and preserved the unchanged screening partition: 1,206 full-text candidates, 240 pending adjudication, nine proposed exclusions and one integrity block.
+- Detected one new PubMed correction relation after the 17-record audited baseline; the current correction/update queue therefore contains 18 records, separate from the retraction quarantine.
+- Documented source-preserving technical resolutions for 90/90 historical metadata differences and 2/2 DOI representation conflicts without overwriting Zotero or the canonical Master Evidence.
+- Created a prioritized 1,206-record full-text queue: 1,191 active and 15 on editorial hold; 393 have an identified PMC route and 813 require lawful-access discovery.
+- Created 24 reversible batches for the 240 pending records, kept every human field blank and held Claim-Ready at 0/1,456.
+- Added a seven-sheet XLSX control workbook, machine-readable ledgers, reproducible generation code and regression tests.
+
 ## [1.6.1] — 2026-09-15
 ### Gate 2 high-rigor first cycle
 - Revalidated the published Gate 1 and Gate 2 preparation state before any new artifact was created.

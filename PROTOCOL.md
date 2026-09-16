@@ -90,3 +90,25 @@ The intended product is a **proposed evidence-informed Brazilian Operational Rea
 ## Transparency and amendments
 
 Any substantive post-registration change must be prospectively documented in `AMENDMENTS.md` and `CHANGELOG.md`, including date, rationale, scope, and expected impact. The OSF-registered Conceptual Essay Protocol v1.0 remains the historical public baseline.
+
+## Operational addendum — non-blocking exception handling (A-003)
+
+From 2026-09-16, record-level exceptions are handled without suspending
+independent evidence work. A formally retracted record is retained only for
+audit, marked `BLOCKED_INTEGRITY / NOT USED`, and excluded from claims,
+synthesis and conclusions. A correction, erratum, DOI conflict or ambiguous
+metadata state is marked `REVIEW_REQUIRED`, with the previous value, current
+source, date and rationale preserved; it remains outside use until clarified.
+
+An otherwise eligible record may proceed to lawful full-text discovery and
+extraction preparation. This progression is provisional and does not establish
+scientific inclusion, quality, risk of bias, transferability or Claim-Ready
+status. Human reviewer, date and decision fields remain empty until supplied by
+an identifiable person. Human confirmations may be grouped into reversible
+batches.
+
+Only a systemic failure suspends the whole workflow: disagreement in count or
+identity, workbook/formula corruption, contamination between the controlled
+Zotero item and production evidence, unauthorized protocol mutation, or loss of
+traceability, backup or data integrity. The registered scientific design,
+eligibility scope and title/abstract decisions are unchanged.

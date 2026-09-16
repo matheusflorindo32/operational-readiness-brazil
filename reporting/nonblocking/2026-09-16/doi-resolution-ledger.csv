@@ -1,0 +1,3 @@
+﻿evidence_id,pmid,zotero_key,previous_doi,current_pubmed_doi,resolution_status,downstream_doi,pubmed_url,doi_url,verification_date,canonical_master_changed
+EV-1200,25121201,MJ6LTKKU,10.17226/5257,10.17226/5257,RESOLVED_PRIMARY_SOURCE_CONFIRMED,10.17226/5257,https://pubmed.ncbi.nlm.nih.gov/25121201/,https://doi.org/10.17226/5257,2026-09-16,NO
+EV-1211,24851287,VEEU78I3,10.17226/13380,10.17226/13380,RESOLVED_PRIMARY_SOURCE_CONFIRMED,10.17226/13380,https://pubmed.ncbi.nlm.nih.gov/24851287/,https://doi.org/10.17226/13380,2026-09-16,NO

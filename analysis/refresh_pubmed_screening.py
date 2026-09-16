@@ -120,12 +120,17 @@ def parse_book(article):
     types = [text(node) for node in document.findall("PublicationType")]
     abstracts = [text(node) for node in document.findall("Abstract/AbstractText")]
     year = text(document.find("Book/PubDate/Year"))
-    identifiers = article.findall("PubmedBookData/ArticleIdList/ArticleId")
+    identifiers = (
+        document.findall("ArticleIdList/ArticleId")
+        + document.findall("Book/ELocationID")
+        + article.findall("PubmedBookData/ArticleIdList/ArticleId")
+    )
     doi = next(
         (
-            text(node).lower()
+            text(node).lower().removeprefix("https://doi.org/")
             for node in identifiers
-            if node.attrib.get("IdType") == "doi"
+            if node.attrib.get("IdType", node.attrib.get("EIdType", "")).lower()
+            == "doi"
         ),
         "",
     )
@@ -136,8 +141,10 @@ def parse_book(article):
         "abstract": " ".join(x for x in abstracts if x),
         "year": year,
         "doi": doi,
-        "authors": authors(document, "AuthorList/Author"),
-        "journal": text(document.find("Book/Publisher/PublisherName"))
+        "authors": authors(document, "AuthorList/Author")
+        or authors(document, "Book/AuthorList/Author"),
+        "journal": text(document.find("Book/CollectionTitle"))
+        or text(document.find("Book/Publisher/PublisherName"))
         or text(document.find("Book/BookTitle")),
         "publication_types": types,
         "corrections": [],

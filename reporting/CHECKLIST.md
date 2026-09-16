@@ -298,3 +298,26 @@ Preparation for this cycle is 6/6 (100.00%). Human adjudication is 0/18
 (0.00%); pilot adjudication is 0/6 (0.00%); import is 0/18 (0.00%); and
 Claim-Ready is 0/1,456 (0.00%). See
 `docs/GATE_2_FIRST_CYCLE_HIGH_RIGOR_2026-09-15.md`.
+
+## Non-blocking controlled progression — 2026-09-16
+
+**Decision: GO | CLAIM-READY: 0/1,456 | HUMAN DECISIONS ADDED: 0**
+
+- [x] All 1,456 PubMed identities refreshed and reconciled without reimport.
+- [x] Formal retraction retained for audit as `BLOCKED_INTEGRITY / NOT USED`.
+- [x] Current correction/update queue built with 18 records: 17 audited baseline records plus one current delta.
+- [x] All human reviewer, date, decision and justification fields left blank.
+- [x] Historical metadata differences documented at 90/90 with previous and current primary values preserved.
+- [x] Historical DOI representation conflicts resolved at 2/2 from PubMed/NCBI and DOI primary routes.
+- [x] Full-text queue built for 1,206/1,206 candidates: 1,191 active and 15 on editorial hold.
+- [x] Lawful-access route identified directly through PMC for 393/1,206 candidates; 813/1,206 remain discovery-required.
+- [x] All 240 pending records retained in 24 reversible batches; three also carry `REVIEW_REQUIRED`.
+- [x] Claim-Ready remains 0/1,456 and no quality/risk-of-bias appraisal is represented as complete.
+- [x] Zotero postcheck passed: API/Connector HTTP 200, 1,457 main items, production root 1,456, controlled collection only `FXC7ZY9R`.
+- [x] Zotero semantic inventory and canonical Master Evidence hash remained unchanged.
+- [x] Reproducible CSV/JSON ledgers, XLSX control workbook and regression tests generated.
+
+Operational controls are 13/13 complete (100.00%). The active full-text queue is
+1,191/1,206 (98.76%); editorial hold is 15/1,206 (1.24%); pending adjudication
+is 240/1,456 (16.48%); integrity quarantine is 1/1,456 (0.07%). This is a GO
+for controlled progression, not scientific approval or PASS.

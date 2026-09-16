@@ -1,0 +1,30 @@
+{
+  "doi-resolution-ledger.csv": {
+    "sha256": "a29827fb60b0b187fee1524375b7669638227e92914bbaf727f059fee848dfa9",
+    "bytes": 541
+  },
+  "editorial-review-queue.csv": {
+    "sha256": "69dbc108e892d16fc572383ec7b200e164390b365ca543be5e0a052fa58d4ad8",
+    "bytes": 10571
+  },
+  "full-text-priority-queue.csv": {
+    "sha256": "2e69f4cecee819eab5083e22fabcd7a42223a8c45e3aa996c3a23bb1d905b7b6",
+    "bytes": 590827
+  },
+  "integrity-quarantine.csv": {
+    "sha256": "72d93c7e383a2fd6fdca6ca04f0e8cc95a50e89256bef0d5e3a30abc19bd29cd",
+    "bytes": 572
+  },
+  "metadata-resolution-ledger.csv": {
+    "sha256": "4e430723d51d8ccd4abc4ac3f8677e8604c54b9b2cf7b55ae355dbb199e78359",
+    "bytes": 51738
+  },
+  "pending-adjudication-queue.csv": {
+    "sha256": "6dd202e31a16653c8c2069e6e81ff5d8c55a35457713d94fdd088653c6e76879",
+    "bytes": 125080
+  },
+  "run-summary.json": {
+    "sha256": "946846c4a00fb69041b9cb8398e4b578606c91ba9ad54ebd745cfc238feae1be",
+    "bytes": 612
+  }
+}

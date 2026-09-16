@@ -1,7 +1,9 @@
 """Focused negative and boundary tests for the controlled screening rubric."""
 
 import unittest
+import xml.etree.ElementTree as ET
 
+from refresh_pubmed_screening import parse_book
 from screen_pubmed_titles import classify, integrity
 
 
@@ -18,6 +20,32 @@ def record(**overrides):
 
 
 class ScreeningRulesTest(unittest.TestCase):
+    def test_pubmed_book_parser_preserves_collective_authors_collection_and_doi(self):
+        article = ET.fromstring(
+            """
+            <PubmedBookArticle>
+              <BookDocument>
+                <PMID>25121201</PMID>
+                <ArticleIdList><ArticleId IdType="bookaccession">NBK232892</ArticleId><ArticleId IdType="doi">10.17226/5257</ArticleId></ArticleIdList>
+                <Book>
+                  <Publisher><PublisherName>National Academies Press (US)</PublisherName></Publisher>
+                  <BookTitle>Book title</BookTitle>
+                  <CollectionTitle>Series title</CollectionTitle>
+                  <PubDate><Year>1996</Year></PubDate>
+                  <AuthorList><Author><CollectiveName>Committee name</CollectiveName></Author></AuthorList>
+                  <ELocationID EIdType="doi">10.17226/5257</ELocationID>
+                </Book>
+                <PublicationType>Review</PublicationType>
+              </BookDocument>
+              <PubmedBookData><PublicationStatus>ppublish</PublicationStatus></PubmedBookData>
+            </PubmedBookArticle>
+            """
+        )
+        parsed = parse_book(article)
+        self.assertEqual(parsed["doi"], "10.17226/5257")
+        self.assertEqual(parsed["authors"], ["Committee name"])
+        self.assertEqual(parsed["journal"], "Series title")
+
     def test_retracted_record_is_blocked(self):
         item = record(
             publication_types=["Retracted Publication"],

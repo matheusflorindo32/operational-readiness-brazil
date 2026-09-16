@@ -1,0 +1,20 @@
+{
+  "generated_on": "2026-09-16",
+  "policy": "NON_BLOCKING_CONTROLLED_SCREENING_V1",
+  "total_records": 1456,
+  "quarantined_retraction": 1,
+  "editorial_review_current": 18,
+  "editorial_review_audited_baseline": 17,
+  "editorial_review_new_delta": 1,
+  "full_text_candidates": 1206,
+  "full_text_active": 1191,
+  "full_text_editorial_hold": 15,
+  "pending_adjudication": 240,
+  "pending_batches": 24,
+  "metadata_conflicts_documented": 90,
+  "doi_conflicts_resolved": 2,
+  "claim_ready": 0,
+  "human_fields_populated": 0,
+  "zotero_modified": false,
+  "canonical_master_modified": false
+}

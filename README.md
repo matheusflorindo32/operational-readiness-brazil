@@ -165,3 +165,23 @@ required. Local audit success alone does not attest a remote commit or CI result
 ## Citation
 
 Citation metadata is maintained in [`CITATION.cff`](CITATION.cff). The OSF DOI will be added only after it is explicitly verified.
+
+## Non-blocking controlled progression — 2026-09-16
+
+The operational workflow now isolates record-level integrity or metadata issues
+without stopping unrelated eligible records. The formal retraction remains
+`BLOCKED_INTEGRITY / NOT USED`; correction/update relations remain
+`REVIEW_REQUIRED`; and 1,191 of the 1,206 full-text candidates are active in a
+lawful-access discovery queue. Fifteen full-text candidates are on editorial
+hold, while 240 ambiguous records remain in 24 reversible adjudication batches.
+
+The current PubMed refresh added one correction relation after the audited
+17-record baseline, so the current editorial queue contains 18 correction or
+update records. All 90 previously recorded metadata differences and both DOI
+representation conflicts now have explicit, source-preserving technical
+resolutions. The canonical Master Evidence and Zotero were not changed.
+Claim-Ready remains **0/1,456**, and no human-review field was populated.
+
+See the [non-blocking execution report](docs/NONBLOCKING_EVIDENCE_FLOW_2026-09-16.md),
+the [control workbook](outputs/triage/2026-09-16/Operational_Readiness_Nonblocking_Queues.xlsx)
+and the [machine-readable queues](reporting/nonblocking/2026-09-16/).
