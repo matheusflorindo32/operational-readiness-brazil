@@ -2,6 +2,15 @@
 
 All notable project changes are documented here.
 
+## [1.6.1] — 2026-09-15
+### Gate 2 high-rigor first cycle
+- Revalidated the published Gate 1 and Gate 2 preparation state before any new artifact was created.
+- Requeried PubMed for the retracted record and five pilot records representing `ErratumFor`, `ErratumIn`, `UpdateOf`, `UpdateIn`, missing DOI and missing notice PMID.
+- Preserved current primary-source metadata and explicit `NOT VERIFIED` boundaries without inferring scientific impact from an editorial-relation type.
+- Added a fail-closed import guard and 15 named regression tests covering the anti-contamination, identity, completeness, conflict and dry-run requirements.
+- Left all human reviewer, date, decision and justification fields blank; no Zotero, Master Evidence, Google Sheets or Claim-Ready mutation occurred.
+- Stopped with `PILOT_READY`; the next required action is human adjudication of PMID 26159007.
+
 ## [1.6.0] — 2026-09-15
 ### Gate 2 human-adjudication preparation
 - Revalidated Gate 1 at commit `cbd1643308f35f03ce5bff80beb755cb927ca46c`, including green CI and the canonical 10 red, 1,446 yellow and zero green traffic light in XLSX and Google Sheets.

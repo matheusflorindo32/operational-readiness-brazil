@@ -97,6 +97,14 @@ decision and justification field remains blank; all 18 records remain blocked
 from Claim-Ready. Zotero and the canonical Master Evidence were not modified.
 See the [Gate 2 preparation report](docs/GATE_2_HUMAN_ADJUDICATION_PREPARATION_2026-09-15.md).
 
+The first high-rigor Gate 2 cycle revalidated that entry state and refreshed
+PubMed primary metadata for the retracted record plus five representative pilot
+cases. The pilot covers `ErratumFor`, `ErratumIn`, `UpdateOf`, `UpdateIn`, a
+missing DOI and a notice without PMID. All human fields remain blank; the cycle
+is `PILOT_READY`, human adjudication remains 0/18 and Claim-Ready remains
+0/1,456. The next action is an identified human review of PMID 26159007. See the
+[first-cycle report](docs/GATE_2_FIRST_CYCLE_HIGH_RIGOR_2026-09-15.md).
+
 ## Historical release milestones
 
 - [x] GitHub repository materialized

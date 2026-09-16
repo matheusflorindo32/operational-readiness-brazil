@@ -276,3 +276,25 @@ Gate 2 preparation controls: 10/10 complete (100.00%). Human adjudication is
 identified reviewer. Overall administrative progress remains 52/74 (70.27%);
 definitive evidence identification remains 3/14 (21.43%). See
 `docs/GATE_2_HUMAN_ADJUDICATION_PREPARATION_2026-09-15.md`.
+
+## Gate 2 — high-rigor first cycle — 2026-09-15
+
+**Decision: PILOT_READY | HUMAN ADJUDICATION: 0/18 | IMPORT: 0/18 | CLAIM-READY: 0/1,456**
+
+- [x] Entry state revalidated: 10 red, 1,446 yellow and zero green.
+- [x] Current PubMed source refreshed for PMID 26159007 and its retraction notice.
+- [x] Assisted recommendation kept separate from the empty human decision.
+- [x] Five pilot records selected across all required editorial and missing-identifier patterns.
+- [x] Six dossiers contain source-specific facts and explicit `NOT VERIFIED` limits.
+- [x] Missing DOI and missing notice PMID remain explicit; no identifier was inferred.
+- [x] Fifteen fail-closed Gate 2 controls implemented and passing locally.
+- [x] Zotero and Master Evidence verified unchanged in read-only comparisons.
+- [x] No import, merge, reimport, deletion, Claim-Ready release or Gate 3 work.
+- [ ] Identified human reviewer adjudicates PMID 26159007.
+- [ ] Six complete human decisions pass intermediate pilot QC — 0/6 (0.00%).
+- [ ] Remaining 12 records reviewed one at a time — 0/12 (0.00%).
+
+Preparation for this cycle is 6/6 (100.00%). Human adjudication is 0/18
+(0.00%); pilot adjudication is 0/6 (0.00%); import is 0/18 (0.00%); and
+Claim-Ready is 0/1,456 (0.00%). See
+`docs/GATE_2_FIRST_CYCLE_HIGH_RIGOR_2026-09-15.md`.
