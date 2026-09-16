@@ -230,3 +230,27 @@ Sheet then reconciled to the XLSX at 1,456/1,456 with the same private owner-onl
 permission. Overall administrative progress remains 52/74 (70.27%); definitive
 evidence identification remains 3/14 (21.43%). See
 `docs/PUBMED_TITLE_ABSTRACT_SCREENING_2026-09-07.md`.
+
+## Gate 1 — documentary consistency — 2026-09-15
+
+**Decision: PASS FOR GATE 1 ONLY | GATE 2 NOT STARTED | HUMAN SCIENTIFIC APPROVAL: 0/1,456**
+
+- [x] GitHub `origin/main` and the clean checkout audited at the same starting commit.
+- [x] Exact-commit CI audited as successful before modification.
+- [x] README, checklist, changelog, current and historical reports compared.
+- [x] Local XLSX and canonical Google Sheets reconciled at 10 red, 1,446 yellow and zero green.
+- [x] Stale pre-analysis narrative corrected without changing data or decisions.
+- [x] Master Evidence reconciled at 1,456 rows, unique Evidence IDs, PMIDs and production Zotero keys.
+- [x] Claim-Ready and human-review fields remain 0/1,456.
+- [x] Zotero API/Connector returned HTTP 200; `PE9UF4YN` has 1,456 items; `EMHHKNTM` contains only `FXC7ZY9R`; the library has 1,457 main items.
+- [x] `FXC7ZY9R` remains isolated and `8XVBQIYE` remains the production key for PMID 37415704; `DO NOT MERGE` preserved.
+- [x] Verified external pre-edit backup and SHA-256 manifest created.
+- [x] Existing formula and screening regression controls re-executed; documentary regression added.
+- [ ] Human adjudication of the 18 priority editorial-relation records — Gate 2, not started.
+
+Gate 1 controls: 11/11 complete (100.00%). Current screening queues remain
+1,206/1,456 retained (82.83%), 9/1,456 proposed exclusions (0.62%), 240/1,456
+pending adjudication (16.48%) and 1/1,456 blocked by integrity (0.07%). Overall
+administrative progress remains 52/74 (70.27%); definitive evidence
+identification remains 3/14 (21.43%). See
+`docs/GATE_1_DOCUMENTARY_CONSISTENCY_2026-09-15.md`.

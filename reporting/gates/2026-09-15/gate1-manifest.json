@@ -1,0 +1,95 @@
+{
+  "gate": 1,
+  "date": "2026-09-15",
+  "scope": "documentary consistency only",
+  "starting_commit": "e9bf3c74fc709ee1b34a3b487ce003e4a3e0b480",
+  "starting_remote_commit": "e9bf3c74fc709ee1b34a3b487ce003e4a3e0b480",
+  "starting_ci": {
+    "workflow": "Security baseline",
+    "run_id": 34119367182,
+    "status": "completed",
+    "conclusion": "success"
+  },
+  "canonical_counts": {
+    "records": 1456,
+    "traffic_light_green": 0,
+    "traffic_light_yellow": 1446,
+    "traffic_light_red": 10,
+    "claim_ready": 0,
+    "human_confirmations": 0
+  },
+  "screening_queues": {
+    "retained_full_text": 1206,
+    "proposed_exclusions": 9,
+    "pending_adjudication": 240,
+    "blocked_integrity": 1
+  },
+  "zotero_read_only": {
+    "api_http": 200,
+    "connector_http": 200,
+    "production_collection_key": "PE9UF4YN",
+    "production_items": 1456,
+    "controlled_collection_key": "EMHHKNTM",
+    "controlled_items": ["FXC7ZY9R"],
+    "library_main_items": 1457,
+    "pmid_37415704_production_key": "8XVBQIYE",
+    "merge_decision": "DO NOT MERGE"
+  },
+  "google_drive": {
+    "canonical_sheet_id": "1X6MerTU2oZYup6LMI0SVBxFg3FcH_smstrBOf_wSRDM",
+    "shared": false,
+    "permissions": "owner only",
+    "rows": 1456,
+    "traffic_light_green": 0,
+    "traffic_light_yellow": 1446,
+    "traffic_light_red": 10
+  },
+  "tests": {
+    "unittest_passed": 19,
+    "unittest_failed": 0,
+    "structural_controls_passed": 44,
+    "structural_controls_failed": 0,
+    "formula_errors": 0
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "c7c22c7a9414485eb655a8afb68e4a79d2af54b5646e21a135b188593156b21e",
+      "bytes": 9655
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "ac06a132bf7474b3088d5c807ec767c4c1febda6bab338b848596e419cfc4b58",
+      "bytes": 15344
+    },
+    {
+      "path": "reporting/CHECKLIST.md",
+      "sha256": "59e90230a8c716fc5f26747dcba1d0df07e493959ec1bb9c11ba4b0306198693",
+      "bytes": 15674
+    },
+    {
+      "path": "docs/PUBMED_PREANALYSIS_GATE_2026-09-06.md",
+      "sha256": "04a0bb9f3bee39864a985b36a9a6eab5e15887a4b3210e8a116b93f9a9a2e7bb",
+      "bytes": 7829
+    },
+    {
+      "path": "docs/GATE_1_DOCUMENTARY_CONSISTENCY_2026-09-15.md",
+      "sha256": "60250b772d6d6041685fad9b014d69e79630c36ece166b92e0c748aeb0834883",
+      "bytes": 4068
+    },
+    {
+      "path": "analysis/test_gate1_documentary_consistency.py",
+      "sha256": "1442a703ebb512f1237deaf097a2ddee7d110f1e334254643bcac56a2809d9d5",
+      "bytes": 1840
+    },
+    {
+      "path": "outputs/8a39e3c813da/PREMIUM_ELITE_DIAMANTE_Evidence_Command_Center.xlsx",
+      "sha256": "2177618b04536e5a9c7b0feffe601b9847826b8fbb283715e2c071a1f604427b",
+      "bytes": 1711995,
+      "modified": false
+    }
+  ],
+  "decision": "PASS_PENDING_PUBLICATION_AND_CI",
+  "gate_2_started": false,
+  "global_scientific_approval": false
+}

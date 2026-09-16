@@ -58,7 +58,11 @@ Cinco tabelas operacionais congelam as três linhas de cabeçalho. O indicador
 Analysis pending usa total identificado menos datas de análise positivas e retorna
 1.456 nos dois formatos. O contador de alertas vermelhos passou a contar EC
 `BLOCKED — integrity or use restriction` por igualdade exata, eliminando divergência de cálculo de curingas no XLSX:
-1 vermelho, 1.455 amarelos e zero verdes em ambos os formatos.
+Na revalidação documental de 2026-09-15, após a triagem assistida, o estado
+canônico passou a **10 vermelhos, 1.446 amarelos e zero verdes** em ambos os
+formatos: a retração e as nove propostas de exclusão permanecem bloqueadas para
+uso, e os demais registros continuam em cautela. Esta nota substitui a contagem
+transitória desta seção como referência de status atual.
 Foram preservados 14 abas, 10 tabelas e 2 gráficos no XLSX.
 Os rótulos de família primária B/C distinguem 385/191 linhas dos retornos 391/194
 das buscas, que têm sobreposição. O baseline histórico pré-execução continua

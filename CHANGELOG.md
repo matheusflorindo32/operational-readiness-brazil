@@ -2,6 +2,13 @@
 
 All notable project changes are documented here.
 
+## [1.5.1] — 2026-09-15
+### Gate 1 documentary consistency
+- Reconciled the current traffic-light statement across README, checklist, audit reports, local XLSX and canonical Google Sheets at 10 red, 1,446 yellow and zero green.
+- Corrected one stale narrative count in the historical pre-analysis report; no workbook row, screening decision, Zotero item or Drive permission changed.
+- Revalidated 1,456/1,456 stable Evidence ID ↔ PMID ↔ Zotero key mappings, Claim-Ready 0/1,456, the isolated controlled key `FXC7ZY9R`, and the production key `8XVBQIYE`.
+- Added a documentary regression test and a Gate 1 audit report with cause, affected files, hashes, backup and live cross-system evidence. Gate 2 was not started.
+
 ## [1.5.0] — 2026-09-07
 ### Controlled title/abstract screening
 - Added a prospective four-state, AI-assisted title/abstract rubric and classified 1,456/1,456 PubMed records: 1,206 retained for full text, 9 proposed exclusions, 240 pending adjudication and 1 blocked by integrity.

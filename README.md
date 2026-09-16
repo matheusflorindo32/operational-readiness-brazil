@@ -84,6 +84,12 @@ See the [screening report](docs/PUBMED_TITLE_ABSTRACT_SCREENING_2026-09-07.md),
 is a gate to human adjudication and lawful full-text review; it is not global
 scientific approval of the articles.
 
+The Gate 1 documentary revalidation on 2026-09-15 confirmed the same canonical
+traffic light in GitHub, the local XLSX and Google Sheets: **10 red, 1,446 yellow
+and zero green**. The stale count in the pre-analysis narrative was corrected;
+the workbook, canonical Sheet, Zotero library and screening decisions were not
+changed. See the [Gate 1 report](docs/GATE_1_DOCUMENTARY_CONSISTENCY_2026-09-15.md).
+
 ## Historical release milestones
 
 - [x] GitHub repository materialized
