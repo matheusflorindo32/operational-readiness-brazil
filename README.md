@@ -212,3 +212,24 @@ same normalized scientific semantic SHA-256
 and pass all scientific invariants. The Git binary remains canonical; future
 exports must record both binary and semantic hashes. See the
 [artifact identity report](docs/ARTIFACT_IDENTITY_RECONCILIATION_2026-09-16.md).
+
+## Pilot 01 methodological correction — 2026-09-17
+
+Before scale, the Pilot 01 appraisal architecture was corrected additively.
+Both mixed-methods records now carry complete MMAT 2018 screening, qualitative,
+quantitative descriptive and integration criteria. The conceptual article and
+commentary were reappraised with the current JBI Expert Opinion tool. SANRA is
+explicitly a narrative-review methodological-quality appraisal, not a generic
+risk-of-bias instrument.
+
+All ten records now distinguish empirical, mixed-methods, qualitative,
+narrative-review, conceptual and commentary/expert-opinion evidence. AI
+appraisal completion is provisional; human confirmation remains 0/10 and
+Claim-Ready remains 0/1,456. EV-0523 remains `HUMAN_REVIEW_REQUIRED`. The two
+author accepted manuscripts retain their version identity and explicit VOR
+comparison status. Pilot 02 was not processed.
+
+The original pilot is preserved by hash. See the
+[methodological correction report](docs/FULL_TEXT_PILOT_01_METHODOLOGICAL_CORRECTION_2026-09-17.md),
+[corrected ledgers](reporting/full-text/2026-09-17/pilot-01-methodological-correction/)
+and the separate corrected workbook under `outputs/full-text/2026-09-17/`.

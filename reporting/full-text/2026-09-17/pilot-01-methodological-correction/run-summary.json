@@ -1,0 +1,18 @@
+{
+  "source_commit": "455dde313c9a2f81749189baf601334b733b0dbd",
+  "entry_gate": "GO_NONBLOCKING_CORRECTION_REQUIRED_BEFORE_SCALE",
+  "records": 10,
+  "mmat_records_complete": 2,
+  "jbi_textual_records_current": 2,
+  "sanra_semantics_explicit": true,
+  "aam_records_audited": 2,
+  "red_team_records_pass": 10,
+  "human_appraisal_confirmed": 0,
+  "claim_ready": 0,
+  "ev0523_status": "HUMAN_REVIEW_REQUIRED",
+  "pilot_02_processed": false,
+  "zotero_modified": false,
+  "master_evidence_modified": false,
+  "scientific_pass": "PROHIBITED",
+  "decision": "GO_PILOT_02"
+}

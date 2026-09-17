@@ -365,3 +365,32 @@ for controlled progression, not scientific approval or PASS.
 Artifact controls are 11/11 complete (100.00%). The canonical binary was not
 replaced, Zotero was not modified and independent evidence work remains
 `GO_NONBLOCKING`.
+
+## Full-text Pilot 01 methodological correction — 2026-09-17
+
+**Decision: GO_PILOT_02 | SCIENTIFIC PASS: PROHIBITED | HUMAN CONFIRMATION: 0/10 | CLAIM-READY: 0/1,456**
+
+- [x] State and source commit `455dde313c9a2f81749189baf601334b733b0dbd` audited.
+- [x] Original Pilot 01 artifacts and hashes preserved without overwrite.
+- [x] MMAT EV-0787 expanded to S1/S2, 1.1–1.5, 4.1–4.5 and 5.1–5.5.
+- [x] MMAT EV-0593 expanded to S1/S2, 1.1–1.5, 4.1–4.5 and 5.1–5.5.
+- [x] Quantitative components classified as quantitative descriptive with reasons.
+- [x] EV-0758 and EV-0523 reclassified and reappraised with current JBI Expert Opinion.
+- [x] SANRA explicitly limited to narrative-review methodological-quality appraisal.
+- [x] Methodological quality, risk of bias and textual-evidence appraisal separated.
+- [x] Evidence classes and original-data/effect-estimate flags added for 10/10.
+- [x] AI provisional completion separated from blank human confirmation.
+- [x] EV-0787 and EV-0425 AAM/VOR status audited without erasing AAM identity.
+- [x] EV-0523 remains non-empirical and `HUMAN_REVIEW_REQUIRED`.
+- [x] Methodological Red Team passes 10/10 records and 130/130 checks.
+- [x] Twelve named regressions plus preservation and Red Team controls pass.
+- [x] Earlier regression suite preserved and passing.
+- [x] Corrected XLSX reopened with seven sheets, exact summary values and zero formula-error matches.
+- [x] Human fields blank and Claim-Ready zero.
+- [ ] Identifiable human appraisal confirmation — 0/10 (0.00%).
+
+Correction controls are 17/17 complete (100.00%). Appraisal architecture is
+corrected for 10/10 records (100.00%); human confirmation is 0/10 (0.00%);
+Claim-Ready is 0/10 (0.00%) and remains 0/1,456 globally. Pilot 02 processing
+is zero records. `GO_PILOT_02` authorizes the next controlled batch only after
+publication/CI and does not constitute scientific inclusion or PASS.

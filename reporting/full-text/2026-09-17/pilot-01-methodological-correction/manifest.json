@@ -1,0 +1,34 @@
+{
+  "aam-vor-ledger.csv": {
+    "sha256": "2b999c7450761e19a3a92d5ac414f20df8214b8bd531b4930632c9fe7c5e19a7",
+    "bytes": 959
+  },
+  "corrected-appraisal-domain-ledger.csv": {
+    "sha256": "7341048fbd8225544133b91cb47d1fb7403a5ebfc49b9462db3f202149f0e0d9",
+    "bytes": 54238
+  },
+  "corrected-records.csv": {
+    "sha256": "e34b98bb8a7601b0ed85e1f274e1e01dd868688387edd6035c002d34f9b70302",
+    "bytes": 26456
+  },
+  "delta-ledger.csv": {
+    "sha256": "b0c9867ddc794eb8ef5f38b205090783d67c0375c4ccef9f136e828a9948dc8e",
+    "bytes": 7632
+  },
+  "methodological-red-team-ledger.csv": {
+    "sha256": "8232e8b2b08418075ae3fca1199032dce4fb7fdfb94ee92d4c656544e08cb413",
+    "bytes": 2639
+  },
+  "run-summary.json": {
+    "sha256": "291eada45cc5664117efe99f7157936a6e52316bde7b1022fe8a7c9921278f14",
+    "bytes": 587
+  },
+  "source-preservation.json": {
+    "sha256": "45134268102abebb873fab0daee67295bcc959e7154cd474892672628f32d3e1",
+    "bytes": 1767
+  },
+  "workbook-artifact.json": {
+    "sha256": "3363be609a6b5cd052648826d3e6ef87627fd6b5e00a1a5893a27c0c940acb47",
+    "bytes": 577
+  }
+}

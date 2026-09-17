@@ -2,6 +2,16 @@
 
 All notable project changes are documented here.
 
+## [1.8.1] — 2026-09-17
+### Pilot 01 methodological correction
+- Preserved the original Pilot 01 artifacts and hashes while publishing a separate corrected ledger set and seven-sheet workbook.
+- Completed MMAT 2018 for both mixed-methods records with screening, qualitative, quantitative descriptive and integration criteria; removed the generic component-quality shortcut and calculated no global score.
+- Reclassified and reappraised the conceptual article and commentary with the current JBI Expert Opinion tool instead of silently retaining the legacy 2017 textual tool.
+- Defined SANRA as narrative-review methodological-quality appraisal and separated methodological quality, risk of bias and textual-evidence appraisal fields.
+- Added explicit evidence classes, provisional-AI versus human-confirmation states and fail-closed handling for EV-0523.
+- Audited both author accepted manuscripts: EV-0787 received a lawful VOR section cross-check; EV-0425 retains `VERSION_OF_RECORD_COMPARISON_PENDING`.
+- Re-ran methodological Red Team for 10/10 records and added 14 corrective regression tests. Human confirmation and Claim-Ready remain zero; Pilot 02 was not processed.
+
 ## [1.8.0] — 2026-09-17
 ### Full-text evidence qualification pilot
 - Processed the first ten active P1 PMC records through lawful full-text discovery, identity, version, integrity, provisional eligibility, design, extraction, design-specific appraisal, exact evidence location, claim boundary, transferability and Red Team.

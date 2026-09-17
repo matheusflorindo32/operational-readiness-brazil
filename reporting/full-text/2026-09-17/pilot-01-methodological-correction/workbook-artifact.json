@@ -1,0 +1,24 @@
+{
+  "path": "outputs/full-text/2026-09-17/Operational_Readiness_Full_Text_Pilot_01_Corrected.xlsx",
+  "bytes": 30208,
+  "sha256": "733379791425b300f5ea704170c6a2d55ba90fd962c698f680d1d1c2d97d67d2",
+  "sheets": [
+    "Resumo",
+    "Registros corrigidos",
+    "Appraisal corrigido",
+    "Delta",
+    "AAM-VOR",
+    "Red Team",
+    "Revisão humana"
+  ],
+  "summary": {
+    "records": 10,
+    "mmat_complete": 2,
+    "jbi_textual_current": 2,
+    "aam_audited": 2,
+    "red_team_pass": 10,
+    "human_confirmations": 0,
+    "claim_ready": 0,
+    "pilot_02_processed": false
+  }
+}
