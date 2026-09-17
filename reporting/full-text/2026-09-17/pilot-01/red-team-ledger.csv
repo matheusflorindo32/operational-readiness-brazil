@@ -1,0 +1,11 @@
+﻿evidence_id,identity,doi,supplement_confusion,editorial_relation,retraction,duplicate,design,appraisal_compatibility,result_extraction,denominator,table_interpretation,primary_secondary_outcome,adjusted_unadjusted,causal_overreach,population_generalization,claim_boundary,finding_and_correction
+EV-0668,PASS,PASS,PASS,PASS,PASS,PASS,ATTENTION,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,Program description could be misread as effectiveness evidence; retained only as conceptual/implementation evidence.
+EV-0787,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,Effectiveness language in participant perceptions must not be converted into measured clinical effectiveness.
+EV-0758,PASS,PASS,PASS,PASS,PASS,PASS,ATTENTION,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,Early applications and author conclusions were bounded as descriptive; no effectiveness claim was retained.
+EV-0753,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,Perceived effectiveness was separated from actual outcome effectiveness and causal inference.
+EV-0727,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,"Patient reports were preserved as qualitative findings, not prevalence estimates or causal effects."
+EV-0593,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,Percentages were tied to denominator 19 and not generalized to nurses or public-safety personnel.
+EV-0523,PASS,PASS,PASS,PASS,PASS,PASS,ATTENTION,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PMC article type is article-commentary; the queue's generic Journal Article label must not imply an empirical study.
+EV-0503,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,Perceived better outcomes were not treated as measured consumer outcomes or cost-effectiveness.
+EV-0447,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,Participant endorsement was retained as perception and not upgraded to effectiveness evidence.
+EV-0425,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,Preferences were not converted into evidence that the interventions improve health or implementation outcomes.

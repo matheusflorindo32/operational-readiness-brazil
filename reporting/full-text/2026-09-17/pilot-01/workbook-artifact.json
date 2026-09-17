@@ -1,0 +1,8 @@
+{
+  "path": "outputs/full-text/2026-09-17/Operational_Readiness_Full_Text_Pilot_01.xlsx",
+  "sha256": "19033a732cfdb870c49676529877ff303bf91b875ae84e79f7a017c78674ee09",
+  "bytes": 28657,
+  "generated_on": "2026-09-17",
+  "generator": "analysis/build_full_text_pilot_workbook.mjs",
+  "canonical_master_modified": false
+}

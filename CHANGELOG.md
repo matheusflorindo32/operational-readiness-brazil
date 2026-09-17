@@ -2,6 +2,16 @@
 
 All notable project changes are documented here.
 
+## [1.8.0] — 2026-09-17
+### Full-text evidence qualification pilot
+- Processed the first ten active P1 PMC records through lawful full-text discovery, identity, version, integrity, provisional eligibility, design, extraction, design-specific appraisal, exact evidence location, claim boundary, transferability and Red Team.
+- Confirmed 10/10 full texts and identities: eight versions of record and two author accepted manuscripts; no correction, retraction, update or expression-of-concern signal appeared in the current PubMed records.
+- Provisionally retained nine records and routed one editorial commentary to `HUMAN_REVIEW_REQUIRED`; all ten still require real human review.
+- Added SANRA, MMAT 2018, JBI Qualitative and JBI Text and Opinion domain ledgers without populating any human field.
+- Kept Claim-Ready at 0/10 for the pilot and 0/1,456 globally; left Zotero and canonical Master Evidence unchanged.
+- Added a seven-sheet control workbook, provenance hashes, record-level Red Team, a reproducible generator and fail-closed regression tests.
+- Corrected a date-sensitive rebuild test while preserving comparison of every scientific and operational field.
+
 ## [1.7.1] — 2026-09-16
 ### XLSX artifact identity reconciliation
 - Preserved and compared the Git-canonical non-blocking workbook against the divergent Downloads copy at binary, ZIP/OOXML and normalized semantic levels.

@@ -1,0 +1,34 @@
+{
+  "appraisal-domain-ledger.csv": {
+    "sha256": "1a1f4ff06db9f9a50526b7b85965acf2da0ee2e9b7b2c2cd30b82f92111d29a4",
+    "bytes": 18375
+  },
+  "doi-resolver-checks.json": {
+    "sha256": "42754691a6957a4c57480d1469158a516e2f7053ca1084a6ed06afb4754e03b0",
+    "bytes": 3311
+  },
+  "environment-precheck.json": {
+    "sha256": "a261015111bf8d96e0dfcf621c51544489cfe8e8809790157b2734bda8ddd461",
+    "bytes": 1288
+  },
+  "pilot-records.csv": {
+    "sha256": "89b5d39d6ddc753152c09c2fb731fcbf0080753764ce7c634acc82abc68dffa9",
+    "bytes": 21480
+  },
+  "provenance-ledger.csv": {
+    "sha256": "7cee56c08c7db9c3d66a7013c3aff8b8d43097f9500f3f70a855c3522107876a",
+    "bytes": 6255
+  },
+  "red-team-ledger.csv": {
+    "sha256": "dd67dc532d591fb1ef6a00f7717b8ba2b9cde64cac68cb50d8b755119cd03c4c",
+    "bytes": 2252
+  },
+  "run-summary.json": {
+    "sha256": "a1b9a848d45cd26c88d096c6194b18a38797a7906a9ee0f7f9ec719667fafd17",
+    "bytes": 581
+  },
+  "workbook-artifact.json": {
+    "sha256": "dfa8857ac79b8f57770a97bd1aeb058e671c4911ea001277fe247eda4e661c3b",
+    "bytes": 329
+  }
+}

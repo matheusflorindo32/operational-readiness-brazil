@@ -49,7 +49,13 @@ class NonBlockingQueuesTest(unittest.TestCase):
             self.skipTest("Audited raw PubMed backup is intentionally external to Git")
         with tempfile.TemporaryDirectory() as temp:
             rebuilt = build(external / "pubmed-current-records.json", external / "screening-decisions.json", Path(temp))
-        self.assertEqual(rebuilt, self.summary)
+        # ``generated_on`` records the execution date and is expected to change
+        # when the deterministic rebuild is audited on a later day.  Compare
+        # every scientific and operational field while keeping the timestamp
+        # outside the reproducibility assertion.
+        rebuilt_without_date = {key: value for key, value in rebuilt.items() if key != "generated_on"}
+        summary_without_date = {key: value for key, value in self.summary.items() if key != "generated_on"}
+        self.assertEqual(rebuilt_without_date, summary_without_date)
 
 
 if __name__ == "__main__":

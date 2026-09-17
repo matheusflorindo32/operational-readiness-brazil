@@ -1,0 +1,36 @@
+{
+  "checked_on": "2026-09-17",
+  "entry_commit": "c3dd18ac7f457f337b44dc303e2f6199a05d7afd",
+  "origin_main": "c3dd18ac7f457f337b44dc303e2f6199a05d7afd",
+  "entry_ci": {
+    "run_id": 35091619376,
+    "conclusion": "success",
+    "url": "https://github.com/matheusflorindo32/operational-readiness-brazil/actions/runs/35091619376"
+  },
+  "zotero": {
+    "api_http": 200,
+    "connector_http": 200,
+    "main_items": 1457,
+    "production_collection": "PE9UF4YN",
+    "production_items": 1456,
+    "controlled_collection": "EMHHKNTM",
+    "controlled_items": [
+      "FXC7ZY9R"
+    ],
+    "production_key_pmid_37415704": "8XVBQIYE",
+    "write_performed": false
+  },
+  "canonical_master": {
+    "path_external": "external://outputs/8a39e3c813da/PREMIUM_ELITE_DIAMANTE_Evidence_Command_Center.xlsx",
+    "sha256": "2177618b04536e5a9c7b0feffe601b9847826b8fbb283715e2c071a1f604427b",
+    "bytes": 1711995,
+    "modified": false
+  },
+  "nonblocking_workbook": {
+    "path": "outputs/triage/2026-09-16/Operational_Readiness_Nonblocking_Queues.xlsx",
+    "sha256": "808985682db5bb553fd4709795e1066f9b62fdd8a8fd608e1ba2e004565ca082",
+    "bytes": 279049,
+    "modified": false
+  },
+  "external_backup": "external://zotero-backups/2026-09-17-fulltext-pilot/"
+}

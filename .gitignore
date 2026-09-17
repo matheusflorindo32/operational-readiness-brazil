@@ -30,6 +30,7 @@ __pycache__/
 *.xlsx
 !outputs/adjudication/2026-09-15/GATE_2_Fila_Adjudicacao_Humana_18_Registros.xlsx
 !outputs/triage/2026-09-16/Operational_Readiness_Nonblocking_Queues.xlsx
+!outputs/full-text/2026-09-17/Operational_Readiness_Full_Text_Pilot_01.xlsx
 *.xls
 *.sav
 *.dta

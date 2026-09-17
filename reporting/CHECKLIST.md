@@ -14,6 +14,30 @@
 - [x] CFIR + Proctor + ERIC implementation-science architecture retained
 - [x] Major design correction documented in AMENDMENTS.md and CHANGELOG.md
 
+## Full-text evidence qualification pilot — 2026-09-17
+
+**Decision: GO_NONBLOCKING_HUMAN_REVIEW_REQUIRED | HUMAN CONFIRMATION: 0/10 | CLAIM-READY: 0/1,456**
+
+- [x] Entry commit, remote, CI, queues, hashes and prior invariants audited.
+- [x] Zotero API/Connector HTTP 200; 1,457 main items; `PE9UF4YN` 1,456; `EMHHKNTM` only `FXC7ZY9R`.
+- [x] First ten active P1 PMC records selected without editorial hold or integrity block.
+- [x] Lawful full text obtained and hashed for 10/10.
+- [x] PMID, DOI, PMCID and document identity matched for 10/10.
+- [x] Article version recorded: 8/10 Version of Record and 2/10 Author Accepted Manuscript.
+- [x] Current PubMed integrity check completed for 10/10 with bounded wording.
+- [x] Design-specific AI-assisted appraisal completed for 10/10.
+- [x] Extraction, exact location, supported/unsupported claims and transferability recorded for 10/10.
+- [x] Red Team completed for 10/10 and commentary routed to `HUMAN_REVIEW_REQUIRED`.
+- [x] Human reviewer/date/decision/justification/confirmation blank for 10/10.
+- [x] `FXC7ZY9R` and PMID 26159007 absent from the pilot; quarantine preserved.
+- [x] Regression suite passes 55/55.
+- [ ] Identifiable human review completed — 0/10 (0.00%).
+- [ ] Claim-Ready released — 0/10 (0.00%).
+
+Pilot technical completion is 10/10 (100.00%). Provisional retention is 9/10
+(90.00%); direct eligibility adjudication is 1/10 (10.00%); human confirmation
+is 0/10 (0.00%). This is not scientific PASS.
+
 ## Infrastructure
 - [x] GitHub repository created and materialized
 - [x] README aligned with conceptual essay design

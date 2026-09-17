@@ -1,0 +1,31 @@
+﻿evidence_id,stage,source,path_external,sha256,timestamp,tool,transformation
+EV-0668,RAW_PUBMED,NCBI Entrez EFetch,external://full-text/2026-09-17-pilot-01/raw/pubmed/36141388.xml,e06eebad1fae6879e99ede78feacdc6853206db88af0d549a65909a8f15a8d43,2026-09-17,ncbi_entrez.py,none
+EV-0668,FULL_TEXT,NCBI PMC EFetch JATS XML,external://full-text/2026-09-17-pilot-01/raw/pmc/PMC9498760.xml,1f95be2b49f58eb9b096b36db3cdecb5f5c9d274cbe80e050ae7ad5a7f6234c6,2026-09-17,ncbi_entrez.py,parsed metadata and section locations
+EV-0668,EXTRACTION_APPRAISAL,audited JATS full text,,,2026-09-17,build_full_text_pilot.py,AI-assisted provisional extraction and design-specific appraisal; human fields unchanged
+EV-0787,RAW_PUBMED,NCBI Entrez EFetch,external://full-text/2026-09-17-pilot-01/raw/pubmed/33933923.xml,5cab6d8aad7dd62d768c0405ffb000cc84b89bb536474302866938e645bf9034,2026-09-17,ncbi_entrez.py,none
+EV-0787,FULL_TEXT,NCBI PMC EFetch JATS XML,external://full-text/2026-09-17-pilot-01/raw/pmc/PMC8530836.xml,8a5590c78eb1de80d80e10ac4f843a5cc9d129b26cfa6e6521fc057ff90c1759,2026-09-17,ncbi_entrez.py,parsed metadata and section locations
+EV-0787,EXTRACTION_APPRAISAL,audited JATS full text,,,2026-09-17,build_full_text_pilot.py,AI-assisted provisional extraction and design-specific appraisal; human fields unchanged
+EV-0758,RAW_PUBMED,NCBI Entrez EFetch,external://full-text/2026-09-17-pilot-01/raw/pubmed/34622213.xml,03ff55dd57e67224fae6cb619631aefc8c094970f5f4079382e9e8e6f72769c1,2026-09-17,ncbi_entrez.py,none
+EV-0758,FULL_TEXT,NCBI PMC EFetch JATS XML,external://full-text/2026-09-17-pilot-01/raw/pmc/PMC8116638.xml,8462def4ddce19c3dba02ef121c8af0f0fccd2ad119e5fa7ba97290788ea61ea,2026-09-17,ncbi_entrez.py,parsed metadata and section locations
+EV-0758,EXTRACTION_APPRAISAL,audited JATS full text,,,2026-09-17,build_full_text_pilot.py,AI-assisted provisional extraction and design-specific appraisal; human fields unchanged
+EV-0753,RAW_PUBMED,NCBI Entrez EFetch,external://full-text/2026-09-17-pilot-01/raw/pubmed/34665820.xml,b3c7bb0371785e19df61151bebf403d56f863afcb67700e6e6ff7a34e9eaab48,2026-09-17,ncbi_entrez.py,none
+EV-0753,FULL_TEXT,NCBI PMC EFetch JATS XML,external://full-text/2026-09-17-pilot-01/raw/pmc/PMC8525775.xml,0f36cec7c1454bd79586d8d2346085f30a21ae183cdc2764733b508d5d154b54,2026-09-17,ncbi_entrez.py,parsed metadata and section locations
+EV-0753,EXTRACTION_APPRAISAL,audited JATS full text,,,2026-09-17,build_full_text_pilot.py,AI-assisted provisional extraction and design-specific appraisal; human fields unchanged
+EV-0727,RAW_PUBMED,NCBI Entrez EFetch,external://full-text/2026-09-17-pilot-01/raw/pubmed/35076700.xml,c556492e881ffc4e03d30af7383048dae6ea553288203deda45a09dca9779050,2026-09-17,ncbi_entrez.py,none
+EV-0727,FULL_TEXT,NCBI PMC EFetch JATS XML,external://full-text/2026-09-17-pilot-01/raw/pmc/PMC8790663.xml,e6c9cdaeae6bf338ad5e5ed1104e478d8a1c65ea572be58f4816f863fe02a214,2026-09-17,ncbi_entrez.py,parsed metadata and section locations
+EV-0727,EXTRACTION_APPRAISAL,audited JATS full text,,,2026-09-17,build_full_text_pilot.py,AI-assisted provisional extraction and design-specific appraisal; human fields unchanged
+EV-0593,RAW_PUBMED,NCBI Entrez EFetch,external://full-text/2026-09-17-pilot-01/raw/pubmed/37297641.xml,15c4e28fd836fcae7572e37bcf39ebd1291bddaf31128003a9b3cd4a9a5f345c,2026-09-17,ncbi_entrez.py,none
+EV-0593,FULL_TEXT,NCBI PMC EFetch JATS XML,external://full-text/2026-09-17-pilot-01/raw/pmc/PMC10252876.xml,e310873034baa3bf725b7db33b6a01a1b598a458f9eda6218663f0918ae34fa2,2026-09-17,ncbi_entrez.py,parsed metadata and section locations
+EV-0593,EXTRACTION_APPRAISAL,audited JATS full text,,,2026-09-17,build_full_text_pilot.py,AI-assisted provisional extraction and design-specific appraisal; human fields unchanged
+EV-0523,RAW_PUBMED,NCBI Entrez EFetch,external://full-text/2026-09-17-pilot-01/raw/pubmed/38115970.xml,04b5c8629991132b66514d2587ce83d6cb683f22dcc8c174b7f6c790af51f028,2026-09-17,ncbi_entrez.py,none
+EV-0523,FULL_TEXT,NCBI PMC EFetch JATS XML,external://full-text/2026-09-17-pilot-01/raw/pmc/PMC10729156.xml,f24bf904cc0e14c67917f10e38412d3478d741995a0740aefcdbcfa7f1240155,2026-09-17,ncbi_entrez.py,parsed metadata and section locations
+EV-0523,EXTRACTION_APPRAISAL,audited JATS full text,,,2026-09-17,build_full_text_pilot.py,AI-assisted provisional extraction and design-specific appraisal; human fields unchanged
+EV-0503,RAW_PUBMED,NCBI Entrez EFetch,external://full-text/2026-09-17-pilot-01/raw/pubmed/38322801.xml,6e9a1059f6f26557303e86fee6ea476e201aabc7c9d457516359c0f7fed2dbf0,2026-09-17,ncbi_entrez.py,none
+EV-0503,FULL_TEXT,NCBI PMC EFetch JATS XML,external://full-text/2026-09-17-pilot-01/raw/pmc/PMC10775732.xml,d6b583237dfa08f2afaf2c88a4aac73e686f0a3506fbd7d451aebc123f104466,2026-09-17,ncbi_entrez.py,parsed metadata and section locations
+EV-0503,EXTRACTION_APPRAISAL,audited JATS full text,,,2026-09-17,build_full_text_pilot.py,AI-assisted provisional extraction and design-specific appraisal; human fields unchanged
+EV-0447,RAW_PUBMED,NCBI Entrez EFetch,external://full-text/2026-09-17-pilot-01/raw/pubmed/39028235.xml,fbbfa8b232e7da4f2bdadfad76386104824fbacfecc9fc68a3c020939261adff,2026-09-17,ncbi_entrez.py,none
+EV-0447,FULL_TEXT,NCBI PMC EFetch JATS XML,external://full-text/2026-09-17-pilot-01/raw/pmc/PMC11254139.xml,c718a144932f280840af8c0423ad729ae904346cb2880e93af8bf1ba51e26ba5,2026-09-17,ncbi_entrez.py,parsed metadata and section locations
+EV-0447,EXTRACTION_APPRAISAL,audited JATS full text,,,2026-09-17,build_full_text_pilot.py,AI-assisted provisional extraction and design-specific appraisal; human fields unchanged
+EV-0425,RAW_PUBMED,NCBI Entrez EFetch,external://full-text/2026-09-17-pilot-01/raw/pubmed/39205432.xml,447cf3bc2a1ffc04026d8d28fd38416268cb8799c89314c94480647c12b57b8d,2026-09-17,ncbi_entrez.py,none
+EV-0425,FULL_TEXT,NCBI PMC EFetch JATS XML,external://full-text/2026-09-17-pilot-01/raw/pmc/PMC12372593.xml,6fdb713d44d6c467fee674d19e46dd93b3ee1c21eed143d2b2901286ad920a39,2026-09-17,ncbi_entrez.py,parsed metadata and section locations
+EV-0425,EXTRACTION_APPRAISAL,audited JATS full text,,,2026-09-17,build_full_text_pilot.py,AI-assisted provisional extraction and design-specific appraisal; human fields unchanged

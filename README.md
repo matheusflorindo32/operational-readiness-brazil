@@ -16,6 +16,7 @@
 - **Registered protocol:** Conceptual Essay Protocol v1.0, OSF, 2026-08-26.
 - **OSF associated project:** https://osf.io/djgax
 - **Structured evidence architecture:** families A/B/C; seed-set conceptual coverage pilot 15/15.
+- **Full-text pilot:** 10/10 active PMC records processed to the point immediately before human confirmation; Claim-Ready remains 0/1,456.
 - **Primary journal positioning:** Strength & Conditioning Journal.
 
 > **Atleta tático é o ponto de partida, não o ponto final.**
@@ -185,6 +186,22 @@ Claim-Ready remains **0/1,456**, and no human-review field was populated.
 See the [non-blocking execution report](docs/NONBLOCKING_EVIDENCE_FLOW_2026-09-16.md),
 the [control workbook](outputs/triage/2026-09-16/Operational_Readiness_Nonblocking_Queues.xlsx)
 and the [machine-readable queues](reporting/nonblocking/2026-09-16/).
+
+## Full-text evidence qualification pilot — 2026-09-17
+
+The first ten active P1 records with a lawful PMC route completed the technical
+pipeline through identity, version, integrity, provisional full-text
+eligibility, design, extraction, design-specific appraisal, exact location,
+claim boundary, transferability and Red Team. Nine received an AI-assisted
+provisional `INCLUDE_FULL_TEXT`; one commentary is
+`HUMAN_REVIEW_REQUIRED`. These are workflow states, not final scientific
+inclusion decisions.
+
+Human reviewer, date, decision, justification and confirmation remain empty for
+10/10. Claim-Ready remains **0/1,456**. Zotero and the canonical Master Evidence
+were not changed. See the [pilot report](docs/FULL_TEXT_EVIDENCE_QUALIFICATION_PILOT_01_2026-09-17.md),
+the [machine-readable ledgers](reporting/full-text/2026-09-17/pilot-01/) and the
+separate control workbook under `outputs/full-text/2026-09-17/`.
 
 ### XLSX chain of custody
 

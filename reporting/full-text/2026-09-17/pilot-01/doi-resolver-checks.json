@@ -1,0 +1,92 @@
+[
+  {
+    "evidence_id": "EV-0668",
+    "doi": "10.3390/healthcare10091777",
+    "request_url": "https://doi.org/10.3390/healthcare10091777",
+    "http_status": "403",
+    "effective_url": "https://www.mdpi.com/2227-9032/10/9/1777",
+    "checked_on": "2026-09-17",
+    "resolver_identity_status": "RESOLVED"
+  },
+  {
+    "evidence_id": "EV-0787",
+    "doi": "10.1016/j.drugpo.2021.103259",
+    "request_url": "https://doi.org/10.1016/j.drugpo.2021.103259",
+    "http_status": "200",
+    "effective_url": "https://linkinghub.elsevier.com/retrieve/pii/S095539592100164X",
+    "checked_on": "2026-09-17",
+    "resolver_identity_status": "RESOLVED"
+  },
+  {
+    "evidence_id": "EV-0758",
+    "doi": "10.1007/s43477-021-00011-6",
+    "request_url": "https://doi.org/10.1007/s43477-021-00011-6",
+    "http_status": "200",
+    "effective_url": "https://link.springer.com/article/10.1007/s43477-021-00011-6",
+    "checked_on": "2026-09-17",
+    "resolver_identity_status": "RESOLVED"
+  },
+  {
+    "evidence_id": "EV-0753",
+    "doi": "10.1371/journal.pone.0258547",
+    "request_url": "https://doi.org/10.1371/journal.pone.0258547",
+    "http_status": "200",
+    "effective_url": "https://journals.plos.org/plosone/article",
+    "checked_on": "2026-09-17",
+    "resolver_identity_status": "RESOLVED"
+  },
+  {
+    "evidence_id": "EV-0727",
+    "doi": "10.1001/jamanetworkopen.2021.44955",
+    "request_url": "https://doi.org/10.1001/jamanetworkopen.2021.44955",
+    "http_status": "403",
+    "effective_url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2788378",
+    "checked_on": "2026-09-17",
+    "resolver_identity_status": "RESOLVED"
+  },
+  {
+    "evidence_id": "EV-0593",
+    "doi": "10.3390/ijerph20116037",
+    "request_url": "https://doi.org/10.3390/ijerph20116037",
+    "http_status": "403",
+    "effective_url": "https://www.mdpi.com/1660-4601/20/11/6037",
+    "checked_on": "2026-09-17",
+    "resolver_identity_status": "RESOLVED"
+  },
+  {
+    "evidence_id": "EV-0523",
+    "doi": "10.1136/tsaco-2023-001292",
+    "request_url": "https://doi.org/10.1136/tsaco-2023-001292",
+    "http_status": "403",
+    "effective_url": "https://tsaco.bmj.com/lookup/doi/10.1136/tsaco-2023-001292",
+    "checked_on": "2026-09-17",
+    "resolver_identity_status": "RESOLVED"
+  },
+  {
+    "evidence_id": "EV-0503",
+    "doi": "10.1177/26334895231220259",
+    "request_url": "https://doi.org/10.1177/26334895231220259",
+    "http_status": "403",
+    "effective_url": "https://journals.sagepub.com/doi/10.1177/26334895231220259",
+    "checked_on": "2026-09-17",
+    "resolver_identity_status": "RESOLVED"
+  },
+  {
+    "evidence_id": "EV-0447",
+    "doi": "10.5811/westjem.18033",
+    "request_url": "https://doi.org/10.5811/westjem.18033",
+    "http_status": "202",
+    "effective_url": "https://escholarship.org/uc/item/4rq0g3d0",
+    "checked_on": "2026-09-17",
+    "resolver_identity_status": "RESOLVED"
+  },
+  {
+    "evidence_id": "EV-0425",
+    "doi": "10.1111/dar.13926",
+    "request_url": "https://doi.org/10.1111/dar.13926",
+    "http_status": "403",
+    "effective_url": "https://onlinelibrary.wiley.com/doi/10.1111/dar.13926",
+    "checked_on": "2026-09-17",
+    "resolver_identity_status": "RESOLVED"
+  }
+]

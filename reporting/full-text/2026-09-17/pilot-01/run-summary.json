@@ -1,0 +1,19 @@
+{
+  "generated_on": "2026-09-17",
+  "policy": "FAIL_CLOSED_NONBLOCKING_FULL_TEXT_V1",
+  "pilot_size": 10,
+  "full_text_obtained": 10,
+  "identity_match_confirmed": 10,
+  "version_of_record": 8,
+  "author_accepted_manuscript": 2,
+  "integrity_clear": 10,
+  "ai_include_full_text": 9,
+  "ai_human_review_required": 1,
+  "appraisal_completed_ai_provisional": 10,
+  "human_decisions": 0,
+  "claim_ready": 0,
+  "control_item_present": false,
+  "retracted_pmid_present": false,
+  "scientific_pass": "PROHIBITED",
+  "decision": "GO_NONBLOCKING_HUMAN_REVIEW_REQUIRED"
+}
