@@ -194,6 +194,9 @@ semantic integrity. The complete repository suite is rerun before publication.
 | Pilot 02 workbook semantic | `18db89464f16777e335f28268b3d0c89976f0eca0097c43b49cf9df4f760eb48` |
 
 The complete per-file manifest is `reporting/full-text/2026-09-17/pilot-02/manifest.json`.
+Repository text-file hashes use an explicit `NORMALIZED_LF` basis so the same
+canonical digest is obtained on Windows and Linux checkouts; the XLSX hashes
+remain byte-exact and semantic hashes as labeled.
 
 ## 21. Arquivos
 

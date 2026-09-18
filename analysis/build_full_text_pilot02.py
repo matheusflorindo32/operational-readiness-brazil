@@ -275,6 +275,15 @@ def sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
+def normalized_lf_bytes(path: Path) -> bytes:
+    """Return repository text independently of checkout newline conversion."""
+    return path.read_bytes().replace(b"\r\n", b"\n").replace(b"\r", b"\n")
+
+
+def normalized_lf_sha256(path: Path) -> str:
+    return hashlib.sha256(normalized_lf_bytes(path)).hexdigest()
+
+
 def read_csv(path: Path) -> list[dict[str, str]]:
     with path.open(encoding="utf-8-sig", newline="") as handle:
         return list(csv.DictReader(handle))
@@ -282,7 +291,7 @@ def read_csv(path: Path) -> list[dict[str, str]]:
 
 def write_csv(path: Path, rows: list[dict[str, str]]) -> None:
     with path.open("w", encoding="utf-8-sig", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=list(rows[0]))
+        writer = csv.DictWriter(handle, fieldnames=list(rows[0]), lineterminator="\n")
         writer.writeheader(); writer.writerows(rows)
 
 
@@ -475,7 +484,11 @@ def build() -> dict[str, object]:
         "source_commit": SOURCE_COMMIT,
         "master_evidence": {"path": str(MASTER.relative_to(ROOT)).replace("\\", "/"), "sha256": sha256(MASTER)},
         "priority_queue": {"path": str(QUEUE.relative_to(ROOT)).replace("\\", "/"), "sha256": sha256(QUEUE)},
-        "pilot_01_corrected": {"path": str(PILOT1.parent.relative_to(ROOT)).replace("\\", "/"), "records_sha256": sha256(PILOT1)},
+        "pilot_01_corrected": {
+            "path": str(PILOT1.parent.relative_to(ROOT)).replace("\\", "/"),
+            "records_sha256": normalized_lf_sha256(PILOT1),
+            "hash_basis": "NORMALIZED_LF",
+        },
         "invariants": {"path": "reporting/artifact_reconciliation/2026-09-16/scientific-invariants.json", "sha256": sha256(ROOT / "reporting/artifact_reconciliation/2026-09-16/scientific-invariants.json")},
         "policy": "Source artifacts are read-only; Zotero and canonical Master Evidence were not modified.",
     }
@@ -504,7 +517,15 @@ def build() -> dict[str, object]:
         artifact = json.loads(workbook_artifact.read_text(encoding="utf-8"))
         artifact["semantic_sha256"] = semantic_sha256(workbook)
         workbook_artifact.write_text(json.dumps(artifact, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    manifest = {path.name: {"sha256": sha256(path), "bytes": path.stat().st_size} for path in sorted(OUTPUT.iterdir()) if path.is_file() and path.name != "manifest.json"}
+    manifest = {
+        path.name: {
+            "sha256": normalized_lf_sha256(path),
+            "bytes": len(normalized_lf_bytes(path)),
+            "hash_basis": "NORMALIZED_LF",
+        }
+        for path in sorted(OUTPUT.iterdir())
+        if path.is_file() and path.name != "manifest.json"
+    }
     (OUTPUT / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return summary
 

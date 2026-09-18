@@ -1,42 +1,52 @@
 {
   "appraisal-domain-ledger.csv": {
-    "sha256": "322b3cd6242b9738f7bcf52119fcbf0bad58e2834cfdee1f4c4a985d11edc9d1",
-    "bytes": 52090
+    "sha256": "1d8102c71ebe830219b308df69eb610ecf193ea28d330d1a135c60e1224cfa3c",
+    "bytes": 51979,
+    "hash_basis": "NORMALIZED_LF"
   },
   "human-review-queue-pilots-01-02.csv": {
-    "sha256": "74dea4b1201f85eab02cd4d692d3bde42a3edb2fcb0cfa7dc53d03be817d71f0",
-    "bytes": 19264
+    "sha256": "d53ff80396ffa10e9503a11b6dfecd65eb56fedf516338e552a451324bf1fc1d",
+    "bytes": 19243,
+    "hash_basis": "NORMALIZED_LF"
   },
   "pilot-records.csv": {
-    "sha256": "78b40f665ffd655f334beac60ae7298ce7aa9489b4ac0d525796b5af9f22029d",
-    "bytes": 24012
+    "sha256": "c923701c28a003fdafebdee4b7409c16a7f12a5030ece6a4af4bfc214ac0d880",
+    "bytes": 24001,
+    "hash_basis": "NORMALIZED_LF"
   },
   "provenance-ledger.csv": {
-    "sha256": "894ff5e8dad2b058c8512b031b3133838188e403c02ddc81b7f0f2415eeb6c01",
-    "bytes": 6526
+    "sha256": "d283b44c2a6ad9187bfb0c44f1ccb3cc35001b0302e78d00c6c7792d0c03d897",
+    "bytes": 6495,
+    "hash_basis": "NORMALIZED_LF"
   },
   "red-team-ledger.csv": {
-    "sha256": "367e481990a7fd2954d6cd4e80d3fb3f3ba661e549ce52a5fe0e0146f871861f",
-    "bytes": 3097
+    "sha256": "b090bc9f860fb032f3fb02bf3d511d4a90e333df3bd687a85512537f66e32861",
+    "bytes": 3086,
+    "hash_basis": "NORMALIZED_LF"
   },
   "run-summary.json": {
-    "sha256": "08e153ea55c35f3757881b338d4907dc0a6430a1830c53b21791ef02364b6da1",
-    "bytes": 924
+    "sha256": "d04487bbcd66bca93c62686e3e12f0f1ef8b83cca636378a06a3549a66851946",
+    "bytes": 895,
+    "hash_basis": "NORMALIZED_LF"
   },
   "selection-audit.csv": {
-    "sha256": "da3b4ec4679f9ee0bd5668f105f0524cf990553927bdb8f093db16c43e9a5fae",
-    "bytes": 972
+    "sha256": "d24c82212377b63a4edb7e67773913be3f3d8969bf67811c00e49ca30290819f",
+    "bytes": 961,
+    "hash_basis": "NORMALIZED_LF"
   },
   "source-preservation.json": {
-    "sha256": "cf3973ad2e9080711e6800fd51766435030c2c6a647afe7f849cef19e5207eff",
-    "bytes": 963
+    "sha256": "4d7ea7015b6ce04085a5aedf26cce5a84974354b1db50127a0ea8f005025dbb6",
+    "bytes": 978,
+    "hash_basis": "NORMALIZED_LF"
   },
   "version-ledger.csv": {
-    "sha256": "2c39294a1c9102b68d5c414ea30f1eab1c41a6c4b04eef2e5ab3bb581e602585",
-    "bytes": 2073
+    "sha256": "77a9cc35166dc309b2ae3a67091348fbbd087f30203db35d7db9dd1d701545b0",
+    "bytes": 2062,
+    "hash_basis": "NORMALIZED_LF"
   },
   "workbook-artifact.json": {
-    "sha256": "b31649acf174a152f618fed90f3efc669afbfc44c0df50b859a585741887a0f9",
-    "bytes": 674
+    "sha256": "12a4b4f54670db5993870cab24441adbd0c4f4a5aec16f124e099611d30102b1",
+    "bytes": 648,
+    "hash_basis": "NORMALIZED_LF"
   }
 }

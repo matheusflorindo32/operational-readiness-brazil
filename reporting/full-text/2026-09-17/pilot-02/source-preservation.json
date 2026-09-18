@@ -10,7 +10,8 @@
   },
   "pilot_01_corrected": {
     "path": "reporting/full-text/2026-09-17/pilot-01-methodological-correction",
-    "records_sha256": "e34b98bb8a7601b0ed85e1f274e1e01dd868688387edd6035c002d34f9b70302"
+    "records_sha256": "52d6683e8ab0bf6bc61a8459a1694c2d6cc4904d676f214c8fd5b800412c2abc",
+    "hash_basis": "NORMALIZED_LF"
   },
   "invariants": {
     "path": "reporting/artifact_reconciliation/2026-09-16/scientific-invariants.json",

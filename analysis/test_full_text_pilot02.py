@@ -23,6 +23,15 @@ def rows(name: str) -> list[dict[str, str]]:
         return list(csv.DictReader(handle))
 
 
+def normalized_lf_sha256(path: Path) -> str:
+    payload = path.read_bytes().replace(b"\r\n", b"\n").replace(b"\r", b"\n")
+    return hashlib.sha256(payload).hexdigest()
+
+
+def normalized_lf_size(path: Path) -> int:
+    return len(path.read_bytes().replace(b"\r\n", b"\n").replace(b"\r", b"\n"))
+
+
 class FullTextPilot02Test(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
@@ -102,14 +111,17 @@ class FullTextPilot02Test(unittest.TestCase):
         master = ROOT / preservation["master_evidence"]["path"]
         self.assertEqual(hashlib.sha256(master.read_bytes()).hexdigest(), preservation["master_evidence"]["sha256"])
         pilot1 = ROOT / preservation["pilot_01_corrected"]["path"] / "corrected-records.csv"
-        self.assertEqual(hashlib.sha256(pilot1.read_bytes()).hexdigest(), preservation["pilot_01_corrected"]["records_sha256"])
+        self.assertEqual(preservation["pilot_01_corrected"]["hash_basis"], "NORMALIZED_LF")
+        self.assertEqual(normalized_lf_sha256(pilot1), preservation["pilot_01_corrected"]["records_sha256"])
 
     def test_14_manifest_covers_delivered_ledgers(self) -> None:
         manifest = json.loads((OUT / "manifest.json").read_text(encoding="utf-8"))
         for name, metadata in manifest.items():
             target = OUT / name
             self.assertTrue(target.exists())
-            self.assertEqual(hashlib.sha256(target.read_bytes()).hexdigest(), metadata["sha256"])
+            self.assertEqual(metadata["hash_basis"], "NORMALIZED_LF")
+            self.assertEqual(normalized_lf_sha256(target), metadata["sha256"])
+            self.assertEqual(normalized_lf_size(target), metadata["bytes"])
 
     def test_15_workbook_integrity_and_eight_sheets(self) -> None:
         self.assertTrue(WORKBOOK.exists())
