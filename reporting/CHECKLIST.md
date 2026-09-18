@@ -425,3 +425,31 @@ Pilot 02 technical processing is 10/10 (100.00%). Cumulative processing is
 (5.22%). Human confirmation is 0/20 across the two pilot queues and global
 Claim-Ready remains 0/1,456. `GO_PILOT_03` authorizes only the next controlled
 batch after publication and green CI.
+
+## Full-text Pilot 03 — 2026-09-17
+
+**Decision: GO_NEXT_BATCH | SCALE_READINESS: KEEP_BATCH_SIZE_10 | SCIENTIFIC PASS: PROHIBITED**
+
+- [x] Entry HEAD, `origin/main`, clean checkout and exact-commit CI audited.
+- [x] Master Evidence preserved at the same SHA-256 before/after.
+- [x] Exactly ten next active `P1` PMC records selected with no Pilot 01/02 reuse.
+- [x] Lawful full text and PMID/PMCID/DOI identity confirmed for 10/10.
+- [x] Seven VOR and three AAM versions recorded; two full comparisons completed and one remains pending.
+- [x] Current PubMed integrity check completed for 10/10 with bounded wording.
+- [x] Designs and evidence classes confirmed before instrument selection.
+- [x] Six appraisal routes applied and 95/95 provisional domains completed without global score.
+- [x] Extraction, exact location, supported/unsupported claims and transferability recorded for 10/10.
+- [x] Red Team passed 10/10 record gates and 230/230 controls.
+- [x] Cumulative human queue contains 30 rows with all human fields blank.
+- [x] `FXC7ZY9R` and PMID 26159007 remain excluded.
+- [x] Pilot 02 derivative audited without replacing its canonical workbook.
+- [x] Pilot 03 workbook, ledgers, hashes, builders and focused regressions generated.
+- [ ] Identifiable human confirmation — 0/30 (0.00%).
+- [ ] VOR comparison for EV-0252.
+- [ ] Claim-level human source audit — 0/30 (0.00%).
+- [ ] Claim-Ready release — 0/30 (0.00%); global 0/1,456.
+
+Pilot 03 technical processing is 10/10 (100.00%). Cumulative technical progress
+is 30/1,191 active candidates (2.52%) and 30/383 active PMC-route candidates
+(7.83%). The next batch remains limited to ten records. No scientific PASS is
+declared.

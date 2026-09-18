@@ -1,0 +1,86 @@
+{
+  "status": "DOCUMENTED_DERIVED_FUNCTIONAL_VARIANCE",
+  "canonical": {
+    "path": "outputs/full-text/2026-09-17/Operational_Readiness_Full_Text_Pilot_02.xlsx",
+    "binary_sha256": "9c1695b19b5eaa26844c27c1bb9893c54956b0b1f4722c5f7f12cd4e4c3abc7c",
+    "semantic_sha256": "019f16eeeca246e12c43593c4caf95f2509d0f433c1d3f3808d930c0114be615"
+  },
+  "derived": {
+    "path_external": "C:\\Users\\mathe\\Downloads\\Operational_Readiness_Full_Text_Pilot_02.xlsx",
+    "binary_sha256": "81b505eee25b7c2738b431d30c3910b623b9a68f44e2508c4079a00626229aae",
+    "semantic_sha256": "142acd9e3600055f396917a38c9f42f5c34030e8cac23635aa19b77b3cb470a1"
+  },
+  "strict_semantic_equal": false,
+  "scientific_cell_values_equal": true,
+  "formula_functionally_equivalent": true,
+  "cell_differences": [
+    {
+      "sheet": "Resumo",
+      "cell": "B17",
+      "canonical": {
+        "cell": "B17",
+        "value": 0,
+        "formula": "COUNTIF('Registros'!$AG$2:$AG$11,\"YES\")",
+        "hyperlink": null,
+        "data_type": "formula"
+      },
+      "derived": {
+        "cell": "B17",
+        "value": 0,
+        "formula": "COUNTIF(Registros!$AG$2:$AG$11,\"YES\")",
+        "hyperlink": null,
+        "data_type": "formula"
+      }
+    }
+  ],
+  "data_validation_differences": [
+    {
+      "sheet": "Revisão humana",
+      "canonical": [
+        {
+          "attrs": {
+            "sqref": "P2:P21",
+            "type": "list"
+          },
+          "formulas": [
+            "\"Confirmar retenção,Confirmar exclusão,Solicitar esclarecimento,Solicitar nova avaliação\""
+          ]
+        },
+        {
+          "attrs": {
+            "sqref": "R2:R21",
+            "type": "list"
+          },
+          "formulas": [
+            "\"YES,NO\""
+          ]
+        }
+      ],
+      "derived": [
+        {
+          "attrs": {
+            "allowBlank": "1",
+            "sqref": "P2:P21",
+            "type": "list"
+          },
+          "formulas": [
+            "\"Confirmar retenção,Confirmar exclusão,Solicitar esclarecimento,Solicitar nova avaliação\""
+          ]
+        },
+        {
+          "attrs": {
+            "allowBlank": "1",
+            "sqref": "R2:R21",
+            "type": "list"
+          },
+          "formulas": [
+            "\"YES,NO\""
+          ]
+        }
+      ]
+    }
+  ],
+  "interpretation": "All populated values and calculated intent are preserved. One COUNTIF formula differs only by quoting of the sheet name, and two validation rules add allowBlank=1. Strict semantics are therefore unequal.",
+  "canonical_preserved": true,
+  "derived_replaces_canonical": false
+}

@@ -33,6 +33,7 @@ __pycache__/
 !outputs/full-text/2026-09-17/Operational_Readiness_Full_Text_Pilot_01.xlsx
 !outputs/full-text/2026-09-17/Operational_Readiness_Full_Text_Pilot_01_Corrected.xlsx
 !outputs/full-text/2026-09-17/Operational_Readiness_Full_Text_Pilot_02.xlsx
+!outputs/full-text/2026-09-17/Operational_Readiness_Full_Text_Pilot_03.xlsx
 *.xls
 *.sav
 *.dta

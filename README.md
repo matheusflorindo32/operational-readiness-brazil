@@ -16,7 +16,7 @@
 - **Registered protocol:** Conceptual Essay Protocol v1.0, OSF, 2026-08-26.
 - **OSF associated project:** https://osf.io/djgax
 - **Structured evidence architecture:** families A/B/C; seed-set conceptual coverage pilot 15/15.
-- **Full-text pilot:** 10/10 active PMC records processed to the point immediately before human confirmation; Claim-Ready remains 0/1,456.
+- **Full-text pilots:** 30/1,191 active candidates processed across three controlled batches (2.52%), including 30/383 active PMC-route candidates (7.83%); human confirmation and Claim-Ready remain zero.
 - **Primary journal positioning:** Strength & Conditioning Journal.
 
 > **Atleta tático é o ponto de partida, não o ponto final.**
@@ -253,3 +253,22 @@ Decision: **`GO_PILOT_03` for controlled technical processing only**. Scientific
 PASS remains prohibited. See the [Pilot 02 report](docs/FULL_TEXT_EVIDENCE_QUALIFICATION_PILOT_02_2026-09-17.md),
 [machine-readable ledgers](reporting/full-text/2026-09-17/pilot-02/) and the
 separate eight-sheet workbook under `outputs/full-text/2026-09-17/`.
+
+## Full-text evidence qualification Pilot 03 — 2026-09-17
+
+The next ten deterministic active `P1` candidates with a PMC route completed
+lawful full-text identity, version, integrity, design classification,
+design-compatible provisional appraisal, bounded extraction, exact location,
+claim boundaries, transferability and a 23-point Red Team. The batch includes
+four qualitative studies and six additional design/appraisal routes. Seven
+sources are versions of record and three are AAMs; EV-0252 retains
+`VOR_COMPARISON_PENDING`.
+
+The cumulative human queue is 30/30 with every human field blank and Claim-Ready
+0/30. Technical progress is 30/1,191 active candidates (2.52%) and 30/383 active
+PMC-route candidates (7.83%). Zotero and Master Evidence remain unchanged.
+
+Decision: **`GO_NEXT_BATCH` with `SCALE_READINESS = KEEP_BATCH_SIZE_10`**.
+Scientific PASS remains prohibited. See the [Pilot 03 report](docs/FULL_TEXT_EVIDENCE_QUALIFICATION_PILOT_03_2026-09-17.md),
+[machine-readable ledgers](reporting/full-text/2026-09-17/pilot-03/) and the
+separate Pilot 03 workbook under `outputs/full-text/2026-09-17/`.

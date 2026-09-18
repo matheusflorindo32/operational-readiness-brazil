@@ -2,6 +2,16 @@
 
 All notable project changes are documented here.
 
+## [1.10.0] — 2026-09-17
+### Full-text evidence qualification Pilot 03
+- Processed exactly the next ten deterministic active P1 PMC records without reusing Pilots 01/02 or touching Zotero and Master Evidence.
+- Confirmed 10/10 lawful full texts, identities and current PubMed integrity checks; recorded seven VORs and three AAMs, with one VOR comparison pending.
+- Classified a heterogeneous set of qualitative, cross-sectional, protocol, narrative, mixed-methods, descriptive and natural-experiment designs and completed 95/95 provisional appraisal domains without a global score.
+- Added bounded extraction, exact evidence locations, supported and unsupported claims, transferability limits and 230/230 Red Team checks.
+- Expanded the human-review queue to 30 records with every human field blank and Claim-Ready zero.
+- Audited the available Pilot 02 derivative as a documented functional variance: scientific cell values are equal, but strict semantics differ in one formula serialization and two validation attributes; the canonical workbook remains unchanged.
+- Added the Pilot 03 workbook, reproducible builders, normalized-LF manifest and 18 focused regressions. Decision: `GO_NEXT_BATCH`; scale remains `KEEP_BATCH_SIZE_10`; scientific PASS is prohibited.
+
 ## [1.9.0] — 2026-09-17
 ### Full-text evidence qualification Pilot 02
 - Selected the next ten active P1 PMC records in deterministic queue order without reusing Pilot 01 records.

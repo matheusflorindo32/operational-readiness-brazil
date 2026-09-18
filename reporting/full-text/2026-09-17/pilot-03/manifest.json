@@ -1,0 +1,62 @@
+{
+  "appraisal-domain-ledger.csv": {
+    "sha256": "597a9adb7ffa5bfc9fb10789035c7c05694cf9d8d9db8cf426f1ab7d4b36458e",
+    "bytes": 35963,
+    "hash_basis": "NORMALIZED_LF"
+  },
+  "human-review-queue-pilots-01-03.csv": {
+    "sha256": "9be9ae3f806441b1767c7851578c7d7c5c97eb3eb1e9130f579cfd834af515fd",
+    "bytes": 31706,
+    "hash_basis": "NORMALIZED_LF"
+  },
+  "pilot-records.csv": {
+    "sha256": "f412e9751c66e57e0dc97dfa534db02f8f7a74bd959ccbf05ed0f1f66b8c18f7",
+    "bytes": 24849,
+    "hash_basis": "NORMALIZED_LF"
+  },
+  "pilot02-derived-variance.json": {
+    "sha256": "091d4dcb4627d7a79668233120a7a7b1dd5182a3908184c7ddf13aed6bd1a052",
+    "bytes": 2603,
+    "hash_basis": "NORMALIZED_LF"
+  },
+  "provenance-ledger.csv": {
+    "sha256": "e4b4d7b46fa3eb6f6992b50236801cd37da052d77b6de74c44346fde58607630",
+    "bytes": 6428,
+    "hash_basis": "NORMALIZED_LF"
+  },
+  "red-team-ledger.csv": {
+    "sha256": "5d69d416c9253e0958212163d20de7904272406d45c2db153a403053bc8afd7f",
+    "bytes": 3777,
+    "hash_basis": "NORMALIZED_LF"
+  },
+  "run-summary.json": {
+    "sha256": "d0b6c184230cf0e33afc2dac8e42cf9322dedd8d285529b11dbc4105bf34a7ff",
+    "bytes": 916,
+    "hash_basis": "NORMALIZED_LF"
+  },
+  "scale-readiness.json": {
+    "sha256": "8b5df970c24808e37f17b2f726e7fe0622f1bdebba63194ce85601278dcc1b44",
+    "bytes": 854,
+    "hash_basis": "NORMALIZED_LF"
+  },
+  "selection-audit.csv": {
+    "sha256": "7d29aa3ef6586f11b7fe4f28cdbd4ca0ff23c79d66dc4a194bb9a22eade4749d",
+    "bytes": 1006,
+    "hash_basis": "NORMALIZED_LF"
+  },
+  "source-preservation.json": {
+    "sha256": "ca645cfac72f7c7c199c0e0c74b99823d9fc5292af3ff8d897e1549525cea41e",
+    "bytes": 858,
+    "hash_basis": "NORMALIZED_LF"
+  },
+  "versions-ledger.csv": {
+    "sha256": "bf23afe2965726e5e56b4944fabb1743aa273a182dcded7270c5b6e97d19c8c7",
+    "bytes": 2474,
+    "hash_basis": "NORMALIZED_LF"
+  },
+  "workbook-artifact.json": {
+    "sha256": "5c9f1bbf5d197991184e9456ea04db633236487287c12c815dd48784da91e6cf",
+    "bytes": 695,
+    "hash_basis": "NORMALIZED_LF"
+  }
+}

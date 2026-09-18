@@ -1,0 +1,15 @@
+{
+  "source_commit": "fc1442d04a5c4c52b46d8a6c70d1531a58ea7ec4",
+  "master_evidence": {
+    "path": "outputs/8a39e3c813da/PREMIUM_ELITE_DIAMANTE_Evidence_Command_Center.xlsx",
+    "sha256_before": "2177618b04536e5a9c7b0feffe601b9847826b8fbb283715e2c071a1f604427b",
+    "sha256_after": "2177618b04536e5a9c7b0feffe601b9847826b8fbb283715e2c071a1f604427b"
+  },
+  "priority_queue": {
+    "path": "reporting/nonblocking/2026-09-16/full-text-priority-queue.csv",
+    "sha256": "2e69f4cecee819eab5083e22fabcd7a42223a8c45e3aa996c3a23bb1d905b7b6"
+  },
+  "pilot_01_records_sha256_normalized_lf": "52d6683e8ab0bf6bc61a8459a1694c2d6cc4904d676f214c8fd5b800412c2abc",
+  "pilot_02_records_sha256_normalized_lf": "c923701c28a003fdafebdee4b7409c16a7f12a5030ece6a4af4bfc214ac0d880",
+  "policy": "Source artifacts are read-only; Zotero and Master Evidence were not modified."
+}

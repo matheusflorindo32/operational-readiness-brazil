@@ -1,0 +1,21 @@
+{
+  "decision": "KEEP_BATCH_SIZE_10",
+  "basis": {
+    "pilot_01_methodological_correction_required": true,
+    "new_routes_in_pilot_03": [
+      "revised JBI analytical cross-sectional",
+      "non-scored protocol completeness",
+      "SANRA narrative review",
+      "MMAT quantitative descriptive"
+    ],
+    "pilot_03_aam": 3,
+    "pilot_03_vor_comparison_pending": 1,
+    "identity_failures": 0,
+    "integrity_failures": 0,
+    "red_team_pass": "230/230",
+    "provenance_complete": true,
+    "tests_required_before_commit": true
+  },
+  "rationale": "Three technical lots are complete, but Pilot 01 required methodological correction, Pilot 03 adds several new appraisal routes, and AAM/VOR work remains nontrivial. Retain batches of 10 until another stable heterogeneous lot passes without methodological correction.",
+  "automatic_scale": false
+}
