@@ -2,6 +2,16 @@
 
 All notable project changes are documented here.
 
+## [1.9.0] — 2026-09-17
+### Full-text evidence qualification Pilot 02
+- Selected the next ten active P1 PMC records in deterministic queue order without reusing Pilot 01 records.
+- Confirmed 10/10 lawful full texts and identities; recorded seven versions of record and three author accepted manuscripts without assuming version equivalence.
+- Classified four qualitative, two mixed-methods and four quasi-experimental records and completed 110 design-specific appraisal domains without a global quality score.
+- Added source-bounded extraction, exact locations, supported and unsupported claims, transferability limits and a 16-point Red Team for every record.
+- Preserved blank human fields and Claim-Ready at zero; generated the combined 20-record human-review queue.
+- Added an eight-sheet workbook, source and artifact hashes, machine-readable ledgers, reproducible builders and 15 fail-closed regression tests.
+- Preserved Zotero, the canonical Master Evidence, Pilot 01 and the integrity quarantine. Decision: `GO_PILOT_03`; scientific PASS remains prohibited.
+
 ## [1.8.1] — 2026-09-17
 ### Pilot 01 methodological correction
 - Preserved the original Pilot 01 artifacts and hashes while publishing a separate corrected ledger set and seven-sheet workbook.

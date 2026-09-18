@@ -1,0 +1,26 @@
+{
+  "path": "outputs/full-text/2026-09-17/Operational_Readiness_Full_Text_Pilot_02.xlsx",
+  "bytes": 40175,
+  "binary_sha256": "9c1695b19b5eaa26844c27c1bb9893c54956b0b1f4722c5f7f12cd4e4c3abc7c",
+  "sheets": [
+    "Resumo",
+    "Seleção",
+    "Registros",
+    "Appraisal",
+    "Versões",
+    "Red Team",
+    "Proveniência",
+    "Revisão humana"
+  ],
+  "summary": {
+    "records": 10,
+    "full_text": 10,
+    "identity": 10,
+    "appraisals": 10,
+    "red_team": 10,
+    "human_confirmations": 0,
+    "claim_ready": 0,
+    "decision": "GO_PILOT_03"
+  },
+  "semantic_sha256": "18db89464f16777e335f28268b3d0c89976f0eca0097c43b49cf9df4f760eb48"
+}

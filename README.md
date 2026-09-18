@@ -233,3 +233,23 @@ The original pilot is preserved by hash. See the
 [methodological correction report](docs/FULL_TEXT_PILOT_01_METHODOLOGICAL_CORRECTION_2026-09-17.md),
 [corrected ledgers](reporting/full-text/2026-09-17/pilot-01-methodological-correction/)
 and the separate corrected workbook under `outputs/full-text/2026-09-17/`.
+
+## Full-text evidence qualification Pilot 02 — 2026-09-17
+
+The next ten active `P1` candidates with a PMC route were selected in exact queue
+order after excluding Pilot 01. All ten completed lawful full-text retrieval,
+identity, version, integrity, provisional eligibility, design classification,
+design-specific domain appraisal, extraction with exact locations, claim
+boundaries, transferability and 16-point Red Team review.
+
+The batch contains four qualitative, two mixed-methods and four
+quasi-experimental records. Seven sources are versions of record and three are
+author accepted manuscripts; two of those retain
+`VERSION_OF_RECORD_COMPARISON_PENDING`. Human fields remain blank for 10/10 and
+Claim-Ready remains 0/10 and 0/1,456 globally. Zotero, the canonical Master
+Evidence and all Pilot 01 artifacts remain unchanged.
+
+Decision: **`GO_PILOT_03` for controlled technical processing only**. Scientific
+PASS remains prohibited. See the [Pilot 02 report](docs/FULL_TEXT_EVIDENCE_QUALIFICATION_PILOT_02_2026-09-17.md),
+[machine-readable ledgers](reporting/full-text/2026-09-17/pilot-02/) and the
+separate eight-sheet workbook under `outputs/full-text/2026-09-17/`.

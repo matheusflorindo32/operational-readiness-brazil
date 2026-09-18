@@ -394,3 +394,34 @@ corrected for 10/10 records (100.00%); human confirmation is 0/10 (0.00%);
 Claim-Ready is 0/10 (0.00%) and remains 0/1,456 globally. Pilot 02 processing
 is zero records. `GO_PILOT_02` authorizes the next controlled batch only after
 publication/CI and does not constitute scientific inclusion or PASS.
+
+## Full-text Pilot 02 — 2026-09-17
+
+**Decision: GO_PILOT_03 | SCIENTIFIC PASS: PROHIBITED | HUMAN CONFIRMATION: 0/10 | CLAIM-READY: 0/1,456**
+
+- [x] Entry branch, local HEAD, `origin/main`, clean tree and exact-commit CI audited.
+- [x] Canonical Master Evidence SHA-256 preserved.
+- [x] First ten eligible `P1` PMC records selected deterministically with no Pilot 01 reuse.
+- [x] Lawful full text and identity confirmed for 10/10.
+- [x] Seven VOR and three AAM versions explicitly recorded.
+- [x] Current PubMed integrity relations checked for 10/10 with dated limitations.
+- [x] Four qualitative, two mixed-methods and four quasi-experimental designs classified.
+- [x] Design-compatible appraisal completed provisionally for 10/10 and 110/110 domains.
+- [x] MMAT mixed-methods coverage includes screening, qualitative, quantitative and integration criteria.
+- [x] Extraction, exact locations, supported and unsupported claims, and transferability limits recorded for 10/10.
+- [x] Red Team passed 10/10 record gates and 160/160 checks.
+- [x] Human reviewer, date, decision, justification and confirmation blank in 10/10.
+- [x] `FXC7ZY9R` and PMID 26159007 excluded from the batch.
+- [x] Zotero, canonical Master Evidence and Pilot 01 artifacts preserved read-only.
+- [x] Eight-sheet workbook, ledgers, source hashes and manifest generated.
+- [x] Focused and repository regression suites passed before publication.
+- [ ] Identifiable human confirmation — 0/10 (0.00%).
+- [ ] VOR comparison for EV-1328 and EV-0791.
+- [ ] VOR-specific evidence locations for all three AAM records.
+- [ ] Claim-Ready release — 0/10 (0.00%).
+
+Pilot 02 technical processing is 10/10 (100.00%). Cumulative processing is
+20/1,191 active candidates (1.68%) and 20/383 active PMC-route candidates
+(5.22%). Human confirmation is 0/20 across the two pilot queues and global
+Claim-Ready remains 0/1,456. `GO_PILOT_03` authorizes only the next controlled
+batch after publication and green CI.
