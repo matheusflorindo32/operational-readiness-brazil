@@ -1,0 +1,19 @@
+{
+  "phase": "DEEP EVIDENCE BATCH 06B",
+  "date": "2026-09-20",
+  "reviewer1": "Matheus Florindo de Deus",
+  "reviewer1_decisions": 11,
+  "human_claim_ready_single_review": 5,
+  "pending_reviewer2": 6,
+  "consensus_completed": 0,
+  "ev_1379": "HOLD_VERSION / FAIL_CLOSED",
+  "cohort_overlap": "CF-BR-PMES-CFO-2023-01 / PARTIAL_OVERLAP",
+  "framework": "PROPOSED SYNTHESIS FRAMEWORK — NOT YET VALIDATED",
+  "zotero_pending": 28,
+  "fabricated_zotero_keys": 0,
+  "gate": "WAVE1_REVIEWER1_COMPLETE",
+  "artifact_sha256": {
+    "Operational_Readiness_Evidence_Command_Center_v0_6B.xlsx": "e9256baec6c7922c23e9ad25f32e11e58f1120d1b19bb3310740996cf2669d2b",
+    "SECOND_REVIEWER_FORM_WAVE1_v1.docx": "a4ba1c091f5b5fc6ed3ccd22c3cd9d17b704467bba9395043ae010c0a970b805"
+  }
+}
