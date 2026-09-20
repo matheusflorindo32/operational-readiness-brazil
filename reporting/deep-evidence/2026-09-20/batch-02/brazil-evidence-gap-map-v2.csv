@@ -1,0 +1,11 @@
+domain,gap,evidence,interpretation
+Cardiorespiratory fitness,BRAZIL_PRELIMINARY_COVERAGE,BR-EXT-007; BR-EXT-008,Specialized-police evidence; numeric extraction pending for BR-EXT-007
+Strength/power/muscular endurance,BRAZIL_MODERATE_GAP,BR-EXT-008,No national/longitudinal coverage
+Load carriage/equipment/uniform,BRAZIL_PRELIMINARY_COVERAGE,BR-EXT-006,Direct PMES study but very small n
+Sleep/fatigue/shift work,BRAZIL_PRELIMINARY_COVERAGE,BR-EXT-002; BR-EXT-003; BR-EXT-001,Multiple PM samples
+Musculoskeletal injury/return to duty,BRAZIL_HIGH_GAP,BR-EXT-004; BR-EXT-005; BR-EXT-006,Pain/discomfort but not prospective injury/RTD
+Cardiovascular risk,BRAZIL_PRELIMINARY_COVERAGE,BR-EXT-001,Strong direct cohort but limited demographics
+Nutrition/hydration,BRAZIL_CRITICAL_GAP,NONE,No core Brazilian evidence in B02
+Cognition/decision-making,BRAZIL_CRITICAL_GAP,NONE,No direct Brazilian tactical cognition evidence
+Tactical medicine/APH/TCCC/TECC,BRAZIL_CRITICAL_GAP,NONE,Brazil operational outcome evidence missing
+Implementation science,BRAZIL_CRITICAL_GAP,NONE,No direct Brazilian public-safety implementation-science evidence in B02
