@@ -1,0 +1,23 @@
+{
+  "phase": "DEEP EVIDENCE BATCH 06A",
+  "parent_sha": "9c8c8a623d897a77a9fce696cdf31bdd07fac6c4",
+  "canonical_records": 1484,
+  "canonical_end": "EV-1484",
+  "human_claim_ready": 0,
+  "wave1_claims": 11,
+  "wave2_international_queued": 3,
+  "human_decisions_recorded": 0,
+  "second_reviewer_required": 6,
+  "ev_1379": "HOLD_VERSION / FAIL_CLOSED",
+  "zotero_pending": 28,
+  "fabricated_zotero_keys": 0,
+  "artifacts": {
+    "workbook": "Operational_Readiness_Evidence_Command_Center_v0_6.xlsx",
+    "human_wave1_packet": "HUMAN_ADJUDICATION_WAVE1_v1.docx"
+  },
+  "sha256": {
+    "workbook": "2221e35a3ec25980d000af60ed4f3261e86732db62e1d932a6a3fb03e5fb2093",
+    "human_wave1_packet": "d41cee0b85b14b5c11f31d254939c002cf78b2b4384a9c37ce3bd5c891d80d38"
+  },
+  "gate": "HUMAN_ADJUDICATION_WAVE1_READY"
+}
