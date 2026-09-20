@@ -1,0 +1,11 @@
+domain,brazil_studies_found,designs,populations,quality,quantity,consistency,police_present,firefighters_present,military_present,representativeness,brazil_claim_capacity,gap,next_action
+cardiorespiratory fitness,0,NOT_IDENTIFIED,NOT_IDENTIFIED,NOT_ASSESSED,0,NOT_ASSESSED,NO,NO,NO,NONE,INSUFFICIENT,BRAZIL_CRITICAL_GAP,Targeted Brazil evidence rescue
+strength power muscular endurance,0,NOT_IDENTIFIED,NOT_IDENTIFIED,NOT_ASSESSED,0,NOT_ASSESSED,NO,NO,NO,NONE,INSUFFICIENT,BRAZIL_CRITICAL_GAP,Targeted Brazil evidence rescue
+body composition,0,NOT_IDENTIFIED,NOT_IDENTIFIED,NOT_ASSESSED,0,NOT_ASSESSED,NO,NO,NO,NONE,INSUFFICIENT,BRAZIL_HIGH_GAP,Targeted Brazil evidence rescue
+load carriage equipment uniforms,0,NOT_IDENTIFIED,NOT_IDENTIFIED,NOT_ASSESSED,0,NOT_ASSESSED,NO,NO,NO,NONE,INSUFFICIENT,BRAZIL_CRITICAL_GAP,Search police body-armor and uniform studies
+sleep fatigue shift work,0,NOT_IDENTIFIED,NOT_IDENTIFIED,NOT_ASSESSED,0,NOT_ASSESSED,NO,NO,NO,NONE,INSUFFICIENT,BRAZIL_CRITICAL_GAP,Search PM/PC/CBM shift-work studies
+musculoskeletal injury return to duty,0,NOT_IDENTIFIED,NOT_IDENTIFIED,NOT_ASSESSED,0,NOT_ASSESSED,NO,NO,NO,NONE,INSUFFICIENT,BRAZIL_HIGH_GAP,Search injury/absence/RTW studies
+mental health stress burnout,0,NOT_IDENTIFIED,NOT_IDENTIFIED,NOT_ASSESSED,0,NOT_ASSESSED,NO,NO,NO,NONE,INSUFFICIENT,BRAZIL_CRITICAL_GAP,Search longitudinal/intervention studies
+cardiovascular risk,0,NOT_IDENTIFIED,NOT_IDENTIFIED,NOT_ASSESSED,0,NOT_ASSESSED,NO,NO,NO,NONE,INSUFFICIENT,BRAZIL_HIGH_GAP,Search police/fire cardiovascular cohorts
+tactical medicine TCCC TECC APH,0,NOT_IDENTIFIED,NOT_IDENTIFIED,NOT_ASSESSED,0,NOT_ASSESSED,NO,NO,NO,NONE,INSUFFICIENT,BRAZIL_CRITICAL_GAP,Search Brazilian tactical medicine and trauma-training evidence
+implementation science,0,NOT_IDENTIFIED,NOT_IDENTIFIED,NOT_ASSESSED,0,NOT_ASSESSED,NO,NO,NO,NONE,INSUFFICIENT,BRAZIL_CRITICAL_GAP,Search implementation studies in public-safety agencies
