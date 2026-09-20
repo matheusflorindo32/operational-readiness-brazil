@@ -1,0 +1,13 @@
+evidence_id,domain,scientific_tier,brazil_tier,ai_qualified,human_claim_ready,title
+EV-1471,Nutrition Brazil,SUPPORTING_EVIDENCE,BRAZIL_CORE_CANDIDATE,YES,NO,Association between caloric and macronutrient intake and psychomotor performance
+EV-1472,Nutrition Brazil,SUPPORTING_EVIDENCE,BRAZIL_CORE_CANDIDATE,YES,NO,Chrononutritional Patterns in shift-working military policemen
+EV-1473,Cognition Brazil,SUPPORTING_EVIDENCE,BRAZIL_CORE_CANDIDATE,YES,NO,Induced stress symptoms and shooting performance in PMES cadets
+EV-1474,Cognition Brazil,SUPPORTING_EVIDENCE,BRAZIL_CORE_CANDIDATE,YES,NO,"Physical fitness, mood and shooting proficiency in PMES cadets"
+EV-1475,Tactical Medicine Brazil,SUPPORTING_EVIDENCE,BRAZIL_CORE_CANDIDATE,YES,NO,PMMG tourniquet use in third parties
+EV-1476,Tactical Medicine Brazil,CONTEXTUAL_EVIDENCE,BRAZIL_CONTEXTUAL_EVIDENCE,YES,NO,APH-Tático in PMPR COE operations
+EV-1477,Tactical Medicine Brazil,CONTEXTUAL_EVIDENCE,BRAZIL_CONTEXTUAL_EVIDENCE,YES,NO,MJSP APH-Tático official institutional source
+EV-1478,Implementation Brazil,CORE_EVIDENCE,BRAZIL_CORE_EVIDENCE,YES,NO,Data-driven policing reform in Brazil
+EV-1479,Implementation Brazil,SUPPORTING_EVIDENCE,BRAZIL_SUPPORTING_EVIDENCE,YES,NO,Escola Segura impact evaluation
+EV-1480,Implementation Brazil,SUPPORTING_EVIDENCE,BRAZIL_CORE_CANDIDATE,YES,NO,Supplemental martial arts and simulated use-of-force performance
+EV-1481,Implementation Brazil,CORE_EVIDENCE,BRAZIL_CORE_EVIDENCE,YES,NO,Six-month PMTO academy training and physical fitness
+EV-1482,Implementation Brazil,CONTEXTUAL_EVIDENCE,BRAZIL_CONTEXTUAL_EVIDENCE,YES,NO,PMPI mental-health policy/program implementation context

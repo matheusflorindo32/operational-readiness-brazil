@@ -1,0 +1,5 @@
+domain,international_evidence,brazil_evidence,transferability,remaining_gap
+Nutrition/shift work,International tactical nutrition evidence,EV-1471; EV-1472,MODERATE_TRANSFERABILITY,"Hydration, heat, interventions"
+Cognition/shooting,International sleep/caffeine/marksmanship evidence,EV-1473; EV-1474; EV-1480,MODERATE_TRANSFERABILITY,Field replication
+Tactical medicine,EV-1117; EV-1266,EV-1475; EV-1476; EV-1477,REQUIRES_BRAZILIAN_VALIDATION,Patient-outcome effectiveness
+Implementation,International implementation corpus,EV-1478; EV-1479; EV-1482,LOW_TO_MODERATE_TRANSFERABILITY,Formal implementation-science frameworks
