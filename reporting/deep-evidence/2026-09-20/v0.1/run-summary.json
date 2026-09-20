@@ -1,0 +1,23 @@
+{
+  "phase": "AI DEEP EVIDENCE QUALIFICATION & SCIENTIFIC SYNTHESIS",
+  "version": "v0.1",
+  "entry_sha": "7abf5c073cf241d12e58bf4c84ce9c460f4fb5a2",
+  "legacy_technical_records_preserved": 40,
+  "retiered_records_in_command_center": 20,
+  "deep_qualified_batch_01": 10,
+  "ai_qualified_yes": 17,
+  "human_claim_ready_yes": 0,
+  "core_evidence_count": 5,
+  "supporting_count": 6,
+  "contextual_count": 5,
+  "low_priority_count": 1,
+  "hold_version_count": 3,
+  "gate": "CONTINUE_AI_DEEP_QUALIFICATION",
+  "ready_for_human_scientific_adjudication": false,
+  "binary_artifacts": {
+    "workbook": "Operational_Readiness_Evidence_Command_Center_v0_1.xlsx",
+    "workbook_sha256": "c3a60d330fc78bb96e9271acf809f142f4acd02a759fb8f938be1fa8118ecd53",
+    "manuscript_docx": "MANUSCRIPT_PRE_REVIEW_v0_1.docx",
+    "manuscript_sha256": "51da44ed6b6a0b373aac2cc2002cb8644d68f59c57077af3c4b1f8655969eff5"
+  }
+}
