@@ -1,0 +1,22 @@
+{
+  "batch02_exact_count": 20,
+  "international_count": 12,
+  "brazil_count": 8,
+  "textual_artifacts_path": "reporting/deep-evidence/2026-09-20/batch-02/",
+  "binary_artifacts": {
+    "xlsx": {
+      "file": "Operational_Readiness_Evidence_Command_Center_v0_2.xlsx",
+      "sha256": "827ba5a4f1ae7f474ca3aa7b772f3fe97b7a5406f51bfd1c132809a796ff7aab"
+    },
+    "manuscript_international": {
+      "file": "MANUSCRIPT_PRE_REVIEW_v0_2.docx",
+      "sha256": "399fe2d53cb74276f7b15ba277b733998d9c5d9d3680484252642820117582f0"
+    },
+    "manuscript_brazil": {
+      "file": "MANUSCRIPT_PRE_REVIEW_BRAZIL_v0_2.docx",
+      "sha256": "4e429d9483deaa558346f4ee6d4db26e34b22472722974baa3ee355c3b35c7bf"
+    }
+  },
+  "human_claim_ready": 0,
+  "gate": "CORE_EVIDENCE_GAPS_REMAIN"
+}
