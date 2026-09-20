@@ -1,0 +1,7 @@
+domain,evidence_ids,support_level,gap,status
+Individual physical capacity,EV-0603; EV-1457; EV-1481,MODERATE_PRELIMINARY_SUPPORT,Multi-unit validation,PROPOSED_NOT_VALIDATED
+Occupational load/equipment,EV-1458; EV-1459; EV-1468,MODERATE_PRELIMINARY_SUPPORT,Large Brazil performance studies,PROPOSED_NOT_VALIDATED
+Sleep/fatigue/nutrition,EV-1460; EV-1461; EV-1471; EV-1472,MODERATE_PRELIMINARY_SUPPORT,Hydration/heat/interventions,PROPOSED_NOT_VALIDATED
+Cognition/decision-making,EV-1473; EV-1474; EV-1480,MODERATE_PRELIMINARY_SUPPORT,Replication/field outcomes,PROPOSED_NOT_VALIDATED
+Tactical medicine,EV-1117; EV-1266; EV-1475; EV-1476; EV-1477,MODERATE_PRELIMINARY_SUPPORT,Brazil patient outcomes,PROPOSED_NOT_VALIDATED
+Implementation,EV-1478; EV-1479; EV-1482,MODERATE_PRELIMINARY_SUPPORT,Formal IS-framework studies,PROPOSED_NOT_VALIDATED
