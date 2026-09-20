@@ -1,0 +1,9 @@
+claim,evidence_ids,claim_provenance,confidence,boundary
+Caloric/protein intake correlated with selected vigilance metrics during day shifts in one Acre PM sample,EV-1471,BRAZIL_SPECIFIC_CLAIM,MODERATE_PRELIMINARY_SUPPORT,Association only; no causal dietary prescription
+Shift schedule was associated with different calorie/macronutrient intake and meal timing in one northern-Brazil PM sample,EV-1472,BRAZIL_SPECIFIC_CLAIM,MODERATE_PRELIMINARY_SUPPORT,Small local sample
+Induced stress did not significantly worsen most measured shooting outcomes in one PMES cadet experiment,EV-1473,BRAZIL_SPECIFIC_CLAIM,MODERATE_PRELIMINARY_SUPPORT,Context-specific null result
+Overall fitness did not consistently explain shooting proficiency in one small PMES cadet sample,EV-1474,BRAZIL_SPECIFIC_CLAIM,MODERATE_PRELIMINARY_SUPPORT,Cross-sectional and small sample
+PMMG occurrence records document police tourniquet use in civilians and increased recorded use after training institutionalization,EV-1475,BRAZIL_SPECIFIC_CLAIM,MODERATE_PRELIMINARY_SUPPORT,No causal patient-outcome estimate
+Results-based/data-driven police management can be evaluated using causal-inference designs and may affect public-safety outcomes,EV-1478,BRAZIL_SPECIFIC_CLAIM,STRONG_PRELIMINARY_SUPPORT,Not individual tactical-readiness physiology
+Escola Segura showed no impact on the analyzed outcomes in one quasi-experimental evaluation,EV-1479,BRAZIL_SPECIFIC_CLAIM,MODERATE_PRELIMINARY_SUPPORT,Do not generalize to all police programs
+Six months of PMTO academy training was associated with broad physical-fitness improvement,EV-1481,BRAZIL_SPECIFIC_CLAIM,MODERATE_PRELIMINARY_SUPPORT,Uncontrolled pre-post
