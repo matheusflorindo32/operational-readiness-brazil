@@ -56,18 +56,24 @@ Extrações foram limitadas ao conteúdo verificável. Cada registro contém sup
 - Claim-Ready: 0/40.
 - Nenhum campo humano foi preenchido em nome de pesquisador.
 
-## 10. Progresso
+## 10. Workbook
+- XLSX gerado e validado no sandbox de execução: `Operational_Readiness_Full_Text_Pilot_04.xlsx`.
+- SHA-256 binário: `6aad700b8b35930c272ce86967a9d508295191303dececbdae352503004ef841`.
+- SHA-256 semântico: `ce963365f3454b3afbc09fbe1d0fef6cf97a7f8aa085223611699a550d311598`.
+- O conector GitHub desta sessão permite escrita UTF-8, mas não recebe o arquivo binário do sandbox. O binário não foi convertido, falsificado ou publicado como se estivesse no repositório; `workbook-artifact.json` registra explicitamente `repository_binary_present=false`.
+
+## 11. Progresso
 - candidatos ativos: 40/1.191 = 3,36%;
 - candidatos PMC ativos: 40/383 = 10,44%;
 - checklist formal: 52/74 = 70,27%;
 - Claim-Ready global: 0/1.456.
 
-## 11. Scale Readiness
+## 12. Scale Readiness
 `KEEP_BATCH_SIZE_10`.
 
 Motivo central: sete rotas metodológicas, dois AAMs pendentes de comparação VOR e fila humana de 40 sem adjudicação.
 
-## 12. Gate final
+## 13. Gate científico-operacional
 `HUMAN_REVIEW_PRIORITY`.
 
 O fluxo técnico pode continuar em lotes de no máximo 10, mas a prioridade científica passa a ser iniciar revisão humana progressiva. `PASS científico` permanece proibido.
