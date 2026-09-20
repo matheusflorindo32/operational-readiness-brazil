@@ -1,0 +1,9 @@
+evidence_id,layer,title,priority_score,scientific_tier,brazil_tier,ai_qualified,human_claim_ready,processing_status
+BR-EXT-001,BRAZIL,Cardiovascular risk factors across job roles and work shifts in a Brazilian Military Police cohort: a cross-sectional study,96,CORE_EVIDENCE,BRAZIL_CORE_EVIDENCE,YES,NO,NEW_EXTERNAL_PENDING_RECONCILIATION
+BR-EXT-002,BRAZIL,"Occupational Stress and Sleep of Military Police Officers From Rio de Janeiro, Brazil",88,SUPPORTING_EVIDENCE,BRAZIL_CORE_CANDIDATE,NO,NO,FULL_TEXT_VERIFICATION_PENDING
+BR-EXT-003,BRAZIL,Atividade física e qualidade de sono em policiais militares,92,CORE_EVIDENCE,BRAZIL_CORE_EVIDENCE,YES,NO,NEW_EXTERNAL_PENDING_RECONCILIATION
+BR-EXT-004,BRAZIL,Leisure-time physical activity as a discriminator of the absence of musculoskeletal pain in military police officers,82,SUPPORTING_EVIDENCE,BRAZIL_SUPPORTING_EVIDENCE,YES,NO,NEW_EXTERNAL_PENDING_RECONCILIATION
+BR-EXT-005,BRAZIL,Skeletal Muscle Discomfort and Lifestyle of Brazilian Military Police Officers of Administrative and Tactical Force,83,SUPPORTING_EVIDENCE,BRAZIL_SUPPORTING_EVIDENCE,YES,NO,NEW_EXTERNAL_PENDING_RECONCILIATION
+BR-EXT-006,BRAZIL,"Avaliação do estilo de vida, nível de atividade física e desconforto musculoesquelético de policiais militares do regimento de polícia montada",86,SUPPORTING_EVIDENCE,BRAZIL_CORE_CANDIDATE,YES,NO,NEW_EXTERNAL_PENDING_RECONCILIATION
+BR-EXT-007,BRAZIL,Aptidão cardiorrespiratória e composição corporal dos policiais militares do Batalhão de Choque da Polícia Militar do Estado de Tocantins,87,SUPPORTING_EVIDENCE,BRAZIL_CORE_CANDIDATE,NO,NO,NUMERIC_EXTRACTION_PENDING
+BR-EXT-008,BRAZIL,Perfil da aptidão física e composição corporal dos policiais militares de elite no estado de São Paulo,85,SUPPORTING_EVIDENCE,BRAZIL_SUPPORTING_EVIDENCE,YES,NO,NEW_EXTERNAL_PENDING_RECONCILIATION
