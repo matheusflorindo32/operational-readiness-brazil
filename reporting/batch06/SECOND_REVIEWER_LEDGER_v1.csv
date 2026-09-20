@@ -1,0 +1,7 @@
+claim_id,reason,reviewer_1_status,reviewer_2_name,reviewer_2_role,reviewer_2_decision,reviewer_2_rationale,consensus_state
+BR-CLM-003,"Firearm-performance claim + cohort overlap control",PENDING_REVIEWER_1,,,,,PENDING
+BR-CLM-004,"Firearm-performance claim + cohort overlap control",PENDING_REVIEWER_1,,,,,PENDING
+BR-CLM-005,"Tactical-medicine/safety interpretation; must not become clinical-effectiveness claim",PENDING_REVIEWER_1,,,,,PENDING
+BR-CLM-006,"Policy-effect/causal-inference claim",PENDING_REVIEWER_1,,,,,PENDING
+BR-CLM-010,"Hydration/safety transferability + incomplete primary full text",PENDING_REVIEWER_1,,,,,PENDING
+BR-CLM-011,"Medical-readiness claim with state-to-national generalization risk",PENDING_REVIEWER_1,,,,,PENDING
