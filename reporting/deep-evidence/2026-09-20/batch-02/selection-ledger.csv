@@ -1,0 +1,21 @@
+order,evidence_id,layer,title,priority_score,scientific_tier,brazil_tier,ai_qualified,human_claim_ready,status
+1,EV-0603,INTERNATIONAL,Physical Training Programs for Tactical Populations: Brief Systematic Review,94,CORE_EVIDENCE,,YES,NO,RESCUED_FOR_DEEP_QUALIFICATION
+2,EV-1001,INTERNATIONAL,The effectiveness of the functional movement screen in determining injury risk in tactical occupations,88,CORE_EVIDENCE,,YES,NO,RESCUED_FOR_DEEP_QUALIFICATION
+3,EV-0325,INTERNATIONAL,Salivary biomarkers of tactical athlete readiness: A systematic review,91,CORE_EVIDENCE,,YES,NO,RESCUED_FOR_DEEP_QUALIFICATION
+4,EV-1117,INTERNATIONAL,Pre-hospital management of mass casualty civilian shootings: a systematic literature review,90,CORE_EVIDENCE,,YES,NO,RESCUED_FOR_DEEP_QUALIFICATION
+5,EV-1266,INTERNATIONAL,Death on the battlefield (2001-2011): implications for the future of combat casualty care,93,CORE_EVIDENCE,,YES,NO,RESCUED_FOR_DEEP_QUALIFICATION
+6,EV-1379,INTERNATIONAL,Caffeine restores engagement speed but not shooting precision following 22 h of active wakefulness,78,HOLD_VERSION,,NO,NO,HOLD_VERSION
+7,INT-EXT-31045682,INTERNATIONAL,Characterization of the Physical Fitness of Police Officers: A Systematic Review,95,CORE_EVIDENCE,,YES,NO,NEW_EXTERNAL_PENDING_RECONCILIATION
+8,INT-EXT-28515947,INTERNATIONAL,The impact of body armor on physical performance of law enforcement personnel: a systematic review,94,CORE_EVIDENCE,,YES,NO,NEW_EXTERNAL_PENDING_RECONCILIATION
+9,INT-EXT-29316674,INTERNATIONAL,The Impact of Load Carriage on Measures of Power and Agility in Tactical Occupations: A Critical Review,84,SUPPORTING_EVIDENCE,,YES,NO,NEW_EXTERNAL_PENDING_RECONCILIATION
+10,INT-EXT-30862044,INTERNATIONAL,Sleep Quality among Police Officers: Implications and Insights from a Systematic Review and Meta-Analysis,95,CORE_EVIDENCE,,YES,NO,NEW_EXTERNAL_PENDING_RECONCILIATION
+11,INT-EXT-42165076,INTERNATIONAL,Association Between Work Stress and Sleep Disorders in Law Enforcement: A Systematic Review and Meta-Analysis,96,CORE_EVIDENCE,,YES,NO,NEW_EXTERNAL_PENDING_RECONCILIATION
+12,INT-EXT-FNUT2026,INTERNATIONAL,Acute caffeine supplementation as a nutrition-based strategy to mitigate sleep-loss-related cognitive and operational performance impairments in military personnel,95,CORE_EVIDENCE,,YES,NO,NEW_EXTERNAL_PENDING_RECONCILIATION
+13,BR-EXT-001,BRAZIL,Cardiovascular risk factors across job roles and work shifts in a Brazilian Military Police cohort: a cross-sectional study,96,CORE_EVIDENCE,BRAZIL_CORE_EVIDENCE,YES,NO,NEW_EXTERNAL_PENDING_RECONCILIATION
+14,BR-EXT-002,BRAZIL,"Occupational Stress and Sleep of Military Police Officers From Rio de Janeiro, Brazil",88,SUPPORTING_EVIDENCE,BRAZIL_CORE_CANDIDATE,NO,NO,FULL_TEXT_VERIFICATION_PENDING
+15,BR-EXT-003,BRAZIL,Atividade física e qualidade de sono em policiais militares,92,CORE_EVIDENCE,BRAZIL_CORE_EVIDENCE,YES,NO,NEW_EXTERNAL_PENDING_RECONCILIATION
+16,BR-EXT-004,BRAZIL,Leisure-time physical activity as a discriminator of the absence of musculoskeletal pain in military police officers,82,SUPPORTING_EVIDENCE,BRAZIL_SUPPORTING_EVIDENCE,YES,NO,NEW_EXTERNAL_PENDING_RECONCILIATION
+17,BR-EXT-005,BRAZIL,Skeletal Muscle Discomfort and Lifestyle of Brazilian Military Police Officers of Administrative and Tactical Force,83,SUPPORTING_EVIDENCE,BRAZIL_SUPPORTING_EVIDENCE,YES,NO,NEW_EXTERNAL_PENDING_RECONCILIATION
+18,BR-EXT-006,BRAZIL,"Avaliação do estilo de vida, nível de atividade física e desconforto musculoesquelético de policiais militares do regimento de polícia montada",86,SUPPORTING_EVIDENCE,BRAZIL_CORE_CANDIDATE,YES,NO,NEW_EXTERNAL_PENDING_RECONCILIATION
+19,BR-EXT-007,BRAZIL,Aptidão cardiorrespiratória e composição corporal dos policiais militares do Batalhão de Choque da Polícia Militar do Estado de Tocantins,87,SUPPORTING_EVIDENCE,BRAZIL_CORE_CANDIDATE,NO,NO,NUMERIC_EXTRACTION_PENDING
+20,BR-EXT-008,BRAZIL,Perfil da aptidão física e composição corporal dos policiais militares de elite no estado de São Paulo,85,SUPPORTING_EVIDENCE,BRAZIL_SUPPORTING_EVIDENCE,YES,NO,NEW_EXTERNAL_PENDING_RECONCILIATION
