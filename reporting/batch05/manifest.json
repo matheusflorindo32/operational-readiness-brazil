@@ -1,0 +1,28 @@
+{
+  "phase": "DEEP EVIDENCE BATCH 05",
+  "entry_batch04_sha": "06626b4a62a17bf43ba909fa1f021086bc34b61d",
+  "canonical_records": 1484,
+  "canonical_end": "EV-1484",
+  "new_canonical": [
+    "EV-1483",
+    "EV-1484"
+  ],
+  "human_claim_ready": 0,
+  "ev_1379": "HOLD_VERSION",
+  "cohort_overlap": {
+    "EV-1473_EV-1474": "PARTIAL_OVERLAP",
+    "family": "CF-BR-PMES-CFO-2023-01"
+  },
+  "zotero_pending": 28,
+  "fabricated_zotero_keys": 0,
+  "structural_gaps": [
+    "BRAZILIAN PATIENT-OUTCOME TACTICAL MEDICINE",
+    "FORMAL IMPLEMENTATION SCIENCE IN BRAZILIAN PUBLIC SAFETY"
+  ],
+  "gate": "GO_HUMAN_ADJUDICATION_PREP",
+  "artifacts": {
+    "workbook": "Operational_Readiness_Evidence_Command_Center_v0_5.xlsx",
+    "international_manuscript": "MANUSCRIPT_PRE_REVIEW_v0_5.docx",
+    "brazil_manuscript": "MANUSCRIPT_PRE_REVIEW_BRAZIL_v0_5.docx"
+  }
+}
