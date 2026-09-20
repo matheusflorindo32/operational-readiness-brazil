@@ -15,5 +15,9 @@
   "ev_1379": "HOLD_INTEGRITY / FAIL_CLOSED",
   "framework": "PROPOSED SYNTHESIS FRAMEWORK — NOT YET VALIDATED",
   "workbook_sha256": "2dcbed139bd03f50c577da0ad50df10df4998dab5ca29f1866cdffdd58e7e8a4",
-  "package_sha256": "9f41cf1993a257c0e99af48db973e83849a76a7a5c375c2470d44df680eb0950"
+  "package_sha256": "a5482de6204aa4e1cb3bbfc2169871b8ca118b942573804e8e9723b7acc5d260",
+  "drive_package_id": "1C4SkwxLPR4XOfh3OGWKMY6hZM_zo7P5V",
+  "drive_final_report_id": "18q5vr0hAtr1ixeCT68BX-jteNB4mnf7c",
+  "drive_audit_registry_id": "1HJuWHfY8C7ec38hvr1gDQmR2YOucDdfDZ4hfMtNtHNY",
+  "ci_status": "MISSING_NOT_TRIGGERED"
 }
