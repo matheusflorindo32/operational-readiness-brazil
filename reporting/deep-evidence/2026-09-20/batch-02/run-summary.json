@@ -1,0 +1,23 @@
+{
+  "phase": "DEEP EVIDENCE BATCH 02 — INTERNATIONAL + BRAZIL",
+  "entry_sha": "c8ae52f306c7939a8aa451cf012510de9d95f6d6",
+  "entry_ci": "SUCCESS",
+  "batch02_exact_count": 20,
+  "international_count": 12,
+  "brazil_count": 8,
+  "mandatory_rescue_count": 6,
+  "mandatory_rescued": 5,
+  "mandatory_hold_version": [
+    "EV-1379"
+  ],
+  "ai_qualified_yes": 17,
+  "human_claim_ready_yes": 0,
+  "core_evidence": 12,
+  "supporting_evidence": 7,
+  "hold_version": 1,
+  "brazil_core_evidence": 2,
+  "brazil_core_candidate": 3,
+  "brazil_supporting": 3,
+  "external_master_reconciliation_pending": 14,
+  "gate": "CORE_EVIDENCE_GAPS_REMAIN"
+}
