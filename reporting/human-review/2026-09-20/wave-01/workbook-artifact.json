@@ -1,0 +1,19 @@
+{
+  "path_external": "Operational_Readiness_Human_Review_Wave_01.xlsx",
+  "binary_sha256": "f6fd2aea2b7e5517b0b2a7654a8be4eda755bffc4b958e32ba64ea800788bb81",
+  "repository_binary_present": false,
+  "sheets": [
+    "Resumo",
+    "Seleção",
+    "Revisão por artigo",
+    "Appraisal",
+    "Claims",
+    "Source Verification",
+    "Integridade e Versão",
+    "Decisões humanas",
+    "Pendências",
+    "Audit Trail"
+  ],
+  "human_fields_blank": true,
+  "claim_ready_initial": 0
+}
