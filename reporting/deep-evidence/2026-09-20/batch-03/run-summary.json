@@ -1,0 +1,20 @@
+{
+  "phase": "BATCH 03 — BRAZIL CRITICAL GAP CLOSURE + MASTER EVIDENCE RECONCILIATION + VERSION RESOLUTION",
+  "entry_sha": "99becc07c66c9987da28f97dc57cf4eed8bc6310",
+  "entry_ci": "SUCCESS",
+  "master_evidence_baseline": 1456,
+  "master_evidence_after_reconciliation": 1482,
+  "batch02_external_reconciled": 14,
+  "batch03_selected": 12,
+  "batch03_ai_qualified": 12,
+  "human_claim_ready": 0,
+  "zotero_direct_connector_available": false,
+  "zotero_keys_invented": 0,
+  "zotero_writes_pending": 26,
+  "ev_1379": "HOLD_VERSION",
+  "tests": "14/14 PASS",
+  "gate": "CORE_EVIDENCE_GAPS_REMAIN",
+  "workbook_sha256": "3e2ddb66644e371bd346381a61a1c410ca6ff735825301e2627ba4a0471dadcd",
+  "manuscript_international_sha256": "9f75e4de0c9d7ea3e8f0c20950361fcecebd90ace148cbd48f6aed7ed7703836",
+  "manuscript_brazil_sha256": "b0f52595d05eb0c08cac2fbfc094f48f04d6d67049e62979bea4383b59f547b2"
+}
