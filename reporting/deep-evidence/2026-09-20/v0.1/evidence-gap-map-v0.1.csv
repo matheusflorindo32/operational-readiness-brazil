@@ -1,0 +1,11 @@
+domain,severity,current_status,next_action
+Cardiorespiratory fitness,CRITICAL,"No deep-qualified direct source in current re-tier set","Prioritize tactical population VO2 and occupational-performance evidence"
+Strength / power / muscular endurance,CRITICAL,"No deep-qualified direct source","Prioritize police/fire/military performance cohorts and trials"
+Body composition,HIGH,"No direct source","Prioritize occupational body-composition/performance evidence"
+Load carriage / external load,HIGH,"No direct source","Prioritize body armor/load-carriage studies"
+Heat / hydration / environment,HIGH,"Austere medical context only","Prioritize tactical heat-strain and hydration evidence"
+Sleep / fatigue / shift work,CRITICAL,"No deep-qualified source","Prioritize police/military sleep deprivation and shift-work evidence"
+Cognitive performance / decision-making,HIGH,"No direct source","Prioritize tactical cognition under fatigue/stress"
+Injury / musculoskeletal readiness,HIGH,"RTW reliability source exists; predictive injury evidence absent","Prioritize injury risk, RTW validity and prevention evidence"
+Nutrition,HIGH,"No direct source","Prioritize tactical nutrition, energy availability and hydration evidence"
+Brazilian public-safety validation,CRITICAL,"Current evidence overwhelmingly international","Prioritize Brazilian police/fire/military datasets and institutional sources"
