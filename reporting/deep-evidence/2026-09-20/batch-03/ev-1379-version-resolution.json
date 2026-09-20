@@ -1,0 +1,16 @@
+{
+  "evidence_id": "EV-1379",
+  "pmid": "15460628",
+  "erratum_verified": true,
+  "erratum_citation": "Aviat Space Environ Med. 2005 Jan;76(1):74",
+  "exact_erratum_content_verified": false,
+  "effect_on_sample": "UNRESOLVED",
+  "effect_on_methods": "UNRESOLVED",
+  "effect_on_dose": "UNRESOLVED",
+  "effect_on_statistics": "UNRESOLVED",
+  "effect_on_results": "UNRESOLVED",
+  "effect_on_interpretation": "UNRESOLVED",
+  "effect_on_conclusion": "UNRESOLVED",
+  "classification": "HOLD_VERSION",
+  "reason": "Erratum existence verified; exact correction content not available in lawful retrieved sources; fail-closed maintained."
+}
