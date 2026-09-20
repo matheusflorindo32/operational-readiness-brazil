@@ -2,47 +2,16 @@
   "pilot": "04",
   "date": "2026-09-20",
   "source_commit": "383cb7d24900d81611679b250995a2ef6d46530a",
-  "selected": [
-    "EV-0103",
-    "EV-1301",
-    "EV-1039",
-    "EV-0796",
-    "EV-0632",
-    "EV-0458",
-    "EV-0376",
-    "EV-0880",
-    "EV-0862",
-    "EV-0813"
-  ],
-  "pmids": [
-    "42093038",
-    "21761154",
-    "29373993",
-    "33824854",
-    "36689353",
-    "38943537",
-    "39727243",
-    "32414356",
-    "32884581",
-    "33588821"
-  ],
-  "excluded_controls": {
-    "zotero_control_key": "FXC7ZY9R",
-    "retracted_pmid": "26159007"
+  "selected": ["EV-0103","EV-1301","EV-1039","EV-0796","EV-0632","EV-0458","EV-0376","EV-0880","EV-0862","EV-0813"],
+  "pmids": ["42093038","21761154","29373993","33824854","36689353","38943537","39727243","32414356","32884581","33588821"],
+  "excluded_controls": {"zotero_control_key":"FXC7ZY9R","retracted_pmid":"26159007"},
+  "artifacts": ["appraisal-domain-ledger.csv","human-review-queue-pilots-01-04.csv","pilot-records.csv","provenance-ledger.csv","red-team-ledger.csv","run-summary.json","scale-readiness.json","selection-audit.csv","source-preservation.json","versions-ledger.csv","workbook-artifact.json"],
+  "workbook_binary": {
+    "name": "Operational_Readiness_Full_Text_Pilot_04.xlsx",
+    "sha256": "6aad700b8b35930c272ce86967a9d508295191303dececbdae352503004ef841",
+    "repository_binary_present": false,
+    "status": "EXTERNAL_ARTIFACT_ONLY_CONNECTOR_BINARY_UPLOAD_UNSUPPORTED"
   },
-  "artifacts": [
-    "appraisal-domain-ledger.csv",
-    "human-review-queue-pilots-01-04.csv",
-    "pilot-records.csv",
-    "provenance-ledger.csv",
-    "red-team-ledger.csv",
-    "run-summary.json",
-    "scale-readiness.json",
-    "selection-audit.csv",
-    "source-preservation.json",
-    "versions-ledger.csv",
-    "workbook-artifact.json"
-  ],
   "human_fields_policy": "MUST_REMAIN_BLANK",
   "claim_ready_policy": "FAIL_CLOSED"
 }
