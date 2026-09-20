@@ -1,0 +1,22 @@
+{
+  "path": "outputs/full-text/2026-09-20/Operational_Readiness_Full_Text_Pilot_04.xlsx",
+  "bytes": 234046,
+  "binary_sha256": "6aad700b8b35930c272ce86967a9d508295191303dececbdae352503004ef841",
+  "semantic_sha256": "ce963365f3454b3afbc09fbe1d0fef6cf97a7f8aa085223611699a550d311598",
+  "sheets": ["Resumo","Seleção","Registros","Appraisal","Versões","Red Team","Proveniência","Revisão humana"],
+  "repository_binary_present": false,
+  "binary_publication_status": "EXTERNAL_ARTIFACT_ONLY_CONNECTOR_BINARY_UPLOAD_UNSUPPORTED",
+  "validation_note": "The exact XLSX bytes were generated and validated in the execution sandbox with artifact_tool; formula-error scan matched zero entries and SHA-256 was computed before publication. The GitHub connector available in this session accepts UTF-8 text writes but not sandbox binary-file handoff, so no corrupted surrogate was committed.",
+  "summary": {
+    "records": 10,
+    "full_text_lawful_route": 10,
+    "identity": 10,
+    "appraisal_items_domains": 89,
+    "red_team_checks": 230,
+    "human_queue_total": 40,
+    "human_confirmations": 0,
+    "claim_ready": 0,
+    "decision": "HUMAN_REVIEW_PRIORITY",
+    "scale_readiness": "KEEP_BATCH_SIZE_10"
+  }
+}

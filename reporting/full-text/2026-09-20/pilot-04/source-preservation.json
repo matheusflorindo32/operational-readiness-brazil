@@ -1,0 +1,15 @@
+{
+  "source_commit": "383cb7d24900d81611679b250995a2ef6d46530a",
+  "master_evidence": {
+    "path": "outputs/8a39e3c813da/PREMIUM_ELITE_DIAMANTE_Evidence_Command_Center.xlsx",
+    "expected_preserved_sha256_from_pilot03": "2177618b04536e5a9c7b0feffe601b9847826b8fbb283715e2c071a1f604427b",
+    "modified": false,
+    "note": "No write was made to Master Evidence in Pilot 04. This runtime did not re-download the binary to independently recompute SHA-256."
+  },
+  "zotero_modified": false,
+  "pilot03_preserved": true,
+  "ev0252_pending_preserved": true,
+  "ev0252_status": "VOR_COMPARISON_PENDING",
+  "raw_source_policy": "Only lawful public routes were used. Private PDFs and personal attachments were not used or versioned.",
+  "raw_byte_hash_limitation": "Connector/web retrieval did not expose raw XML bytes for all ten records; no synthetic source hash was invented."
+}
