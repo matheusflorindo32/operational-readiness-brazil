@@ -1,0 +1,5 @@
+date,action,source_sha,records_affected,write_human_fields,claim_ready_change,notes
+2026-09-20,Remote entry gate audited,f63c5bca4ba37d2c6697907e236be88ea9456314,repository,NO,NO,Security baseline success; post-Pilot-04 delta is documentary Pilot 06 block only.
+2026-09-20,Wave 01 deterministic selection,f63c5bca4ba37d2c6697907e236be88ea9456314,10,NO,NO,Relevance-first ranking with methodological-diversity constraints.
+2026-09-20,AAM/VOR status rechecked,f63c5bca4ba37d2c6697907e236be88ea9456314,EV-0252; EV-0632; EV-0376,NO,NO,All remain VOR_COMPARISON_PENDING.
+2026-09-20,Pilot 05 preflight derived,f63c5bca4ba37d2c6697907e236be88ea9456314,10 candidates,NO,NO,"No appraisal, extraction or claims executed."
