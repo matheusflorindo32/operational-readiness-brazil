@@ -32,7 +32,7 @@ class Pilot04Regression(unittest.TestCase):
     def test_human_queue_40(self):
         r=rows("human-review-queue-pilots-01-04.csv")
         self.assertEqual(len(r),40)
-        self.assertEqual(sum(1 for x in r if x["Piloto"]=="PILOT_04"),10)
+        self.assertEqual(sum(1 for x in r if x["pilot"]=="PILOT_04"),10)
         self.assertTrue(all(x["Claim-Ready"]=="NO" for x in r))
 
     def test_appraisal_and_red_team(self):
