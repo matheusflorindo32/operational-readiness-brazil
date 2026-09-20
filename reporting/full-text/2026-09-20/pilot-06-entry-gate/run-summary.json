@@ -1,0 +1,13 @@
+{
+  "source_commit": "e98318ee6da6b9f9546f0d43231d0d2177f229c0",
+  "date": "2026-09-20",
+  "gate": "BLOCKED",
+  "reason": "PILOT_05_NOT_MATERIALIZED_IN_REMOTE_CANONICAL_REPOSITORY",
+  "pilot06_processing_started": false,
+  "pilot06_records_processed": 0,
+  "expected_precondition_active_processed": 50,
+  "remote_confirmed_active_processed": 40,
+  "human_decisions_created": 0,
+  "claim_ready_created": 0,
+  "required_next_action": "MATERIALIZE_AND_AUDIT_PILOT_05_THEN_RERUN_PILOT_06_ENTRY_GATE"
+}
