@@ -23,11 +23,24 @@ Base freeze: CEF-v1 (not reopened).
 - Added attribution to pre-existing multidomain readiness concepts; no claim that multidomain readiness itself is novel.
 - Maintained HUMAN LEAD REVIEW + INDEPENDENT AI METHODOLOGICAL AUDIT governance.
 
-## Artifacts
-Canonical local audit workbook SHA-256:
+## Canonical artifacts
+Audit workbook SHA-256:
 2dcbed139bd03f50c577da0ad50df10df4998dab5ca29f1866cdffdd58e7e8a4
 
-Canonical local Batch 08 package SHA-256:
-9f41cf1993a257c0e99af48db973e83849a76a7a5c375c2470d44df680eb0950
+Final Batch 08 package SHA-256:
+a5482de6204aa4e1cb3bbfc2169871b8ca118b942573804e8e9723b7acc5d260
+
+Drive package:
+https://drive.google.com/file/d/1C4SkwxLPR4XOfh3OGWKMY6hZM_zo7P5V/view?usp=drivesdk
+
+Drive final report:
+https://drive.google.com/file/d/18q5vr0hAtr1ixeCT68BX-jteNB4mnf7c/view?usp=drivesdk
+
+## Remote state
+- Branch: deep-evidence-batch08-manuscript-audit
+- PR #11: open / draft / not merged
+- Compare with Batch06F base: ahead 4 commits / behind 0 at the first remote audit; additional checksum-fix commits may follow.
+- PR endpoint reported mergeable=false at audit time; this was not overridden.
+- CI for the Batch 08 head was not triggered/returned by the connector. CI is therefore NOT called green.
 
 This phase authorizes pre-submission editorial review only. It does not authorize submission.
