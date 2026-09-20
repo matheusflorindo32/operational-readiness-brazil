@@ -1,0 +1,31 @@
+﻿Evidence ID,Etapa,Fonte,Caminho/URL,SHA-256,Data,Ferramenta,Transformação
+EV-0103,BIBLIOGRAPHIC_IDENTITY,PubMed,https://pubmed.ncbi.nlm.nih.gov/42093038/,HASH_NOT_AVAILABLE_CONNECTOR_RETRIEVAL,2026-09-20,web verification,PMID/PMCID/DOI/title metadata verification
+EV-0103,FULL_TEXT,PubMed Central / publisher,https://pmc.ncbi.nlm.nih.gov/articles/PMC13147615/,HASH_NOT_AVAILABLE_CONNECTOR_RETRIEVAL,2026-09-20,web verification,full-text/section verification where retrievable; no private PDF used
+EV-0103,EXTRACTION_APPRAISAL,audited lawful source,https://doi.org/10.1186/s13049-026-01621-5,,2026-09-20,AI-assisted structured review,provisional extraction/appraisal; human fields unchanged
+EV-1301,BIBLIOGRAPHIC_IDENTITY,PubMed,https://pubmed.ncbi.nlm.nih.gov/21761154/,HASH_NOT_AVAILABLE_CONNECTOR_RETRIEVAL,2026-09-20,web verification,PMID/PMCID/DOI/title metadata verification
+EV-1301,FULL_TEXT,PubMed Central / publisher,https://pmc.ncbi.nlm.nih.gov/articles/PMC3218271/,HASH_NOT_AVAILABLE_CONNECTOR_RETRIEVAL,2026-09-20,web verification,full-text/section verification where retrievable; no private PDF used
+EV-1301,EXTRACTION_APPRAISAL,audited lawful source,https://link.springer.com/article/10.1007/s11121-011-0234-5,,2026-09-20,AI-assisted structured review,provisional extraction/appraisal; human fields unchanged
+EV-1039,BIBLIOGRAPHIC_IDENTITY,PubMed,https://pubmed.ncbi.nlm.nih.gov/29373993/,HASH_NOT_AVAILABLE_CONNECTOR_RETRIEVAL,2026-09-20,web verification,PMID/PMCID/DOI/title metadata verification
+EV-1039,FULL_TEXT,PubMed Central / publisher,https://pmc.ncbi.nlm.nih.gov/articles/PMC5787269/,HASH_NOT_AVAILABLE_CONNECTOR_RETRIEVAL,2026-09-20,web verification,full-text/section verification where retrievable; no private PDF used
+EV-1039,EXTRACTION_APPRAISAL,audited lawful source,https://doi.org/10.1186/s13063-017-2437-y,,2026-09-20,AI-assisted structured review,provisional extraction/appraisal; human fields unchanged
+EV-0796,BIBLIOGRAPHIC_IDENTITY,PubMed,https://pubmed.ncbi.nlm.nih.gov/33824854/,HASH_NOT_AVAILABLE_CONNECTOR_RETRIEVAL,2026-09-20,web verification,PMID/PMCID/DOI/title metadata verification
+EV-0796,FULL_TEXT,PubMed Central / publisher,https://pmc.ncbi.nlm.nih.gov/articles/PMC8008048/,HASH_NOT_AVAILABLE_CONNECTOR_RETRIEVAL,2026-09-20,web verification,full-text/section verification where retrievable; no private PDF used
+EV-0796,EXTRACTION_APPRAISAL,audited lawful source,https://doi.org/10.4102/ajlm.v10i1.1057,,2026-09-20,AI-assisted structured review,provisional extraction/appraisal; human fields unchanged
+EV-0632,BIBLIOGRAPHIC_IDENTITY,PubMed,https://pubmed.ncbi.nlm.nih.gov/36689353/,HASH_NOT_AVAILABLE_CONNECTOR_RETRIEVAL,2026-09-20,web verification,PMID/PMCID/DOI/title metadata verification
+EV-0632,FULL_TEXT,PubMed Central / publisher,https://pmc.ncbi.nlm.nih.gov/articles/PMC10329983/,HASH_NOT_AVAILABLE_CONNECTOR_RETRIEVAL,2026-09-20,web verification,full-text/section verification where retrievable; no private PDF used
+EV-0632,EXTRACTION_APPRAISAL,audited lawful source,https://doi.org/10.1080/10903127.2023.2172493,,2026-09-20,AI-assisted structured review,provisional extraction/appraisal; human fields unchanged
+EV-0458,BIBLIOGRAPHIC_IDENTITY,PubMed,https://pubmed.ncbi.nlm.nih.gov/38943537/,HASH_NOT_AVAILABLE_CONNECTOR_RETRIEVAL,2026-09-20,web verification,PMID/PMCID/DOI/title metadata verification
+EV-0458,FULL_TEXT,PubMed Central / publisher,https://pmc.ncbi.nlm.nih.gov/articles/PMC13396151/,HASH_NOT_AVAILABLE_CONNECTOR_RETRIEVAL,2026-09-20,web verification,full-text/section verification where retrievable; no private PDF used
+EV-0458,EXTRACTION_APPRAISAL,audited lawful source,https://doi.org/10.1093/milmed/usae332,,2026-09-20,AI-assisted structured review,provisional extraction/appraisal; human fields unchanged
+EV-0376,BIBLIOGRAPHIC_IDENTITY,PubMed,https://pubmed.ncbi.nlm.nih.gov/39727243/,HASH_NOT_AVAILABLE_CONNECTOR_RETRIEVAL,2026-09-20,web verification,PMID/PMCID/DOI/title metadata verification
+EV-0376,FULL_TEXT,PubMed Central / publisher,https://pmc.ncbi.nlm.nih.gov/articles/PMC12202711/,HASH_NOT_AVAILABLE_CONNECTOR_RETRIEVAL,2026-09-20,web verification,full-text/section verification where retrievable; no private PDF used
+EV-0376,EXTRACTION_APPRAISAL,audited lawful source,https://doi.org/10.1177/15248380241305567,,2026-09-20,AI-assisted structured review,provisional extraction/appraisal; human fields unchanged
+EV-0880,BIBLIOGRAPHIC_IDENTITY,PubMed,https://pubmed.ncbi.nlm.nih.gov/32414356/,HASH_NOT_AVAILABLE_CONNECTOR_RETRIEVAL,2026-09-20,web verification,PMID/PMCID/DOI/title metadata verification
+EV-0880,FULL_TEXT,PubMed Central / publisher,https://pmc.ncbi.nlm.nih.gov/articles/PMC7229618/,HASH_NOT_AVAILABLE_CONNECTOR_RETRIEVAL,2026-09-20,web verification,full-text/section verification where retrievable; no private PDF used
+EV-0880,EXTRACTION_APPRAISAL,audited lawful source,https://link.springer.com/article/10.1186/s12889-020-08868-2,,2026-09-20,AI-assisted structured review,provisional extraction/appraisal; human fields unchanged
+EV-0862,BIBLIOGRAPHIC_IDENTITY,PubMed,https://pubmed.ncbi.nlm.nih.gov/32884581/,HASH_NOT_AVAILABLE_CONNECTOR_RETRIEVAL,2026-09-20,web verification,PMID/PMCID/DOI/title metadata verification
+EV-0862,FULL_TEXT,PubMed Central / publisher,https://pmc.ncbi.nlm.nih.gov/articles/PMC7461150/,HASH_NOT_AVAILABLE_CONNECTOR_RETRIEVAL,2026-09-20,web verification,full-text/section verification where retrievable; no private PDF used
+EV-0862,EXTRACTION_APPRAISAL,audited lawful source,https://link.springer.com/article/10.1186/s13031-020-00308-7,,2026-09-20,AI-assisted structured review,provisional extraction/appraisal; human fields unchanged
+EV-0813,BIBLIOGRAPHIC_IDENTITY,PubMed,https://pubmed.ncbi.nlm.nih.gov/33588821/,HASH_NOT_AVAILABLE_CONNECTOR_RETRIEVAL,2026-09-20,web verification,PMID/PMCID/DOI/title metadata verification
+EV-0813,FULL_TEXT,PubMed Central / publisher,https://pmc.ncbi.nlm.nih.gov/articles/PMC7885386/,HASH_NOT_AVAILABLE_CONNECTOR_RETRIEVAL,2026-09-20,web verification,full-text/section verification where retrievable; no private PDF used
+EV-0813,EXTRACTION_APPRAISAL,audited lawful source,https://link.springer.com/article/10.1186/s12909-021-02530-0,,2026-09-20,AI-assisted structured review,provisional extraction/appraisal; human fields unchanged
