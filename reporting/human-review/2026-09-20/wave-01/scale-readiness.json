@@ -1,0 +1,4 @@
+{
+  "decision": "KEEP_BATCH_SIZE_10",
+  "reason": "No human agreement/correction rate exists yet; three AAM/VOR holds persist; human backlog remains 40. Do not scale scientific batching before real adjudication data."
+}
