@@ -1,0 +1,23 @@
+{
+  "phase": "DEEP EVIDENCE BATCH 09",
+  "date": "2026-09-20",
+  "base_freeze": "CEF-v1",
+  "core_reopened": false,
+  "entry_gate": "GO_PRE_SUBMISSION_EDITORIAL_REVIEW",
+  "gate": "PRE_SUBMISSION_REVISIONS_REQUIRED",
+  "submission_performed": false,
+  "primary_targets": {
+    "international": "Journal of Occupational Health — Review Article",
+    "brazil": "Revista Brasileira de Saúde Ocupacional — Ensaio"
+  },
+  "secondary_targets": {
+    "international": "Frontiers in Public Health — Occupational Health and Safety",
+    "brazil": "Revista Brasileira de Medicina do Trabalho"
+  },
+  "scientific_blocks": 0,
+  "reference_integrity_blocks": 0,
+  "copyright_blocks": 0,
+  "figure_qa": "PASS",
+  "docx_render_qa": "PASS",
+  "submission_candidate": false
+}
