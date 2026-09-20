@@ -1,0 +1,11 @@
+order,evidence_id,pmid,doi,title,priority_score,access,publication_types,family,predicted_methodological_risk_only
+1,EV-0643,36553905,10.3390/healthcare10122381,Inter-Rater and Intra-Rater Reliability of Return-to-Work Screening Tests for UK Firefighters Following Injury.,18,PMC_AVAILABLE,Journal Article,A,measurement/reliability design likely
+2,EV-0588,37344226,10.1080/10903127.2023.2227249,Safe Ground Transport of Pediatric Patients: A Qualitative Assessment of Best Practice Guidelines Implementation.,18,PMC_AVAILABLE,Journal Article,C,qualitative implementation
+3,EV-0465,38869933,10.2196/52811,"Quality of Life, Physical Activity Participation, and Perceptions of Physical Rehabilitation Among Community-Reintegrated Veterans With Lower Limb Amputation in Sri Lanka: Convergent Parallel Mixed Methods Study.",18,PMC_AVAILABLE,Journal Article,C,mixed methods
+4,EV-0394,39506879,10.1186/s44158-024-00209-8,Management of critically ill patients in austere environments: good clinical practice by SIAARTI.,18,PMC_AVAILABLE,Journal Article | Review,B,guideline/review appraisal route likely
+5,EV-0387,39542779,10.1016/j.cjtee.2024.07.010,Research progress of tourniquets and their application in the Russia-Ukraine Conflict.,18,PMC_AVAILABLE,Journal Article | Review,B,review; conflict-context transferability
+6,EV-0224,41184648,10.1186/s13089-025-00458-w,Performance and development trends of ultrasound diagnostic systems in military settings: a review.,18,PMC_AVAILABLE,Journal Article | Review,B,review; technology/military setting
+7,EV-1103,28265416,10.1186/2054-314x-1-1,Evaluating new types of tourniquets by the Israeli Naval special warfare unit.,17,PMC_AVAILABLE,Journal Article,B,experimental/tactical equipment
+8,EV-1038,29386714,10.1016/j.mjafi.2017.09.009,Forward surgical care: Emerging issues and challenges.,17,PMC_AVAILABLE,Journal Article,B,narrative/operational clinical review likely
+9,EV-0966,30963311,10.1186/s40352-019-0086-9,A scoping review of military veterans involved in the criminal justice system and their health and healthcare.,17,PMC_AVAILABLE,Journal Article | Scoping Review,C,scoping review
+10,EV-0946,31338408,10.1016/j.tcr.2019.100217,Tactical tourniquet: Surgical management must be within 3 hours.,17,PMC_AVAILABLE,Case Reports | Journal Article,B,case report/clinical inference risk

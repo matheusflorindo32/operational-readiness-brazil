@@ -1,0 +1,30 @@
+{
+  "phase": "HUMAN_REVIEW_WAVE_01",
+  "date": "2026-09-20",
+  "source_sha": "f63c5bca4ba37d2c6697907e236be88ea9456314",
+  "selected": [
+    "EV-0103",
+    "EV-1328",
+    "EV-0632",
+    "EV-0896",
+    "EV-0503",
+    "EV-0758",
+    "EV-0668",
+    "EV-0091",
+    "EV-0523",
+    "EV-0376"
+  ],
+  "pilot05_preflight": [
+    "EV-0643",
+    "EV-0588",
+    "EV-0465",
+    "EV-0394",
+    "EV-0387",
+    "EV-0224",
+    "EV-1103",
+    "EV-1038",
+    "EV-0966",
+    "EV-0946"
+  ],
+  "policy": "AI_PREPARES_HUMAN_DECIDES_FAIL_CLOSED"
+}

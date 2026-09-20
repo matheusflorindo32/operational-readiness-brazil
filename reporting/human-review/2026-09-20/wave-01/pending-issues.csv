@@ -1,0 +1,5 @@
+evidence_id,issue,status,required_action,blocks_claim_ready,note
+EV-0252,AAM x VOR comparison,VOR_COMPARISON_PENDING,Compare complete publisher VOR against AAM when lawful access permits,YES,"Publisher page exists, but full methods/results/tables/limitations comparison remains insufficient."
+EV-0632,AAM x VOR comparison + correction,VOR_COMPARISON_PENDING,Compare complete publisher VOR against AAM and register correction context,YES,Publisher page states minor correction does not impact academic content; complete VOR equivalence audit remains pending.
+EV-0376,AAM x VOR comparison,VOR_COMPARISON_PENDING,Compare complete publisher VOR against AAM when lawful access permits,YES,"SAGE identifies the current version, but full content remains restricted."
+PILOT_06,Canonical precondition,BLOCKED,Preserve existing block until Pilot 05 canonical materialization issue is separately resolved,YES,Not a Wave 01 scientific failure.

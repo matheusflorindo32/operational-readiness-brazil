@@ -1,0 +1,24 @@
+{
+  "source_sha": "f63c5bca4ba37d2c6697907e236be88ea9456314",
+  "entry_ci": "SUCCESS",
+  "pilot04_integrity_preserved": true,
+  "wave01_selected": 10,
+  "human_reviews_completed": 0,
+  "human_confirm": 0,
+  "human_confirm_with_corrections": 0,
+  "human_hold": 0,
+  "human_exclude": 0,
+  "human_block_integrity": 0,
+  "claim_ready_wave01": 0,
+  "claim_ready_global": 0,
+  "version_holds": [
+    "EV-0252",
+    "EV-0632",
+    "EV-0376"
+  ],
+  "pilot05_preflight_count": 10,
+  "pilot05_scientific_processing_started": false,
+  "scale_readiness": "KEEP_BATCH_SIZE_10",
+  "gate": "CONTINUE_HUMAN_REVIEW",
+  "pilot06_existing_gate": "BLOCKED (pre-existing canonical Pilot 05 materialization issue)"
+}
