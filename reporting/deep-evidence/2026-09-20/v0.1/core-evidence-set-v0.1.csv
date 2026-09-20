@@ -1,0 +1,9 @@
+evidence_id,title,ai_class,priority_score,ai_qualified,human_claim_ready,role
+EV-0632,"Comparing the Effects of Low-Dose Ketamine, Fentanyl, and Morphine on Hemorrhagic Tolerance and Analgesia in Humans.",HOLD_VERSION,85,NO,NO,"Potential core after VOR comparison"
+EV-1103,"Evaluating new types of tourniquets by the Israeli Naval special warfare unit.",CORE_EVIDENCE,84,YES,NO,"Direct special-operations equipment-performance evidence"
+EV-0103,"The role of tactical police medics in the prehospital environment: results from an interview study.",CORE_EVIDENCE,82,YES,NO,"Direct tactical-police prehospital system evidence"
+EV-0394,"Management of critically ill patients in austere environments: good clinical practice by SIAARTI.",CORE_EVIDENCE,81,YES,NO,"High-value austere-care guidance"
+EV-0643,"Inter-Rater and Intra-Rater Reliability of Return-to-Work Screening Tests for UK Firefighters Following Injury.",CORE_EVIDENCE,80,YES,NO,"Job-specific functional readiness / RTW"
+EV-1328,"Trauma Care Training for National Police Nurses in Colombia",HOLD_VERSION,79,NO,NO,"Potential direct police trauma-training core source after version gate"
+EV-0896,"How to Stop the Bleed: First Care Provider Model for Developing Public Trauma Response Beyond Basic Hemorrhage Control",CORE_EVIDENCE,78,YES,NO,"First-responder trauma-training simulation evidence"
+EV-0376,"Integrating Implementation Science in Interpersonal Violence Research and Practice: A Systematic Review of Barriers and Facilitators of Implementation.",HOLD_VERSION,72,NO,NO,"High-value implementation synthesis after version gate"
