@@ -1,0 +1,11 @@
+{
+  "international": {
+    "file": "MANUSCRIPT_PRE_REVIEW_v0_2.docx",
+    "sha256": "399fe2d53cb74276f7b15ba277b733998d9c5d9d3680484252642820117582f0"
+  },
+  "brazil": {
+    "file": "MANUSCRIPT_PRE_REVIEW_BRAZIL_v0_2.docx",
+    "sha256": "4e429d9483deaa558346f4ee6d4db26e34b22472722974baa3ee355c3b35c7bf"
+  },
+  "binary_location": "LOCAL_ARTIFACT_LINKED_IN_CHAT"
+}

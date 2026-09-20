@@ -1,0 +1,7 @@
+domain,international_evidence,brazil_evidence,transferability,brazil_need
+Physical fitness,EV-0603; INT-EXT-31045682,BR-EXT-007; BR-EXT-008,REQUIRES_BRAZILIAN_VALIDATION,Task-linked local validation
+Load/equipment,INT-EXT-28515947; INT-EXT-29316674,BR-EXT-006,MODERATE_TRANSFERABILITY,Larger multi-unit studies
+Sleep/stress,INT-EXT-30862044; INT-EXT-42165076,BR-EXT-002; BR-EXT-003,MODERATE_TRANSFERABILITY,Longitudinal/intervention studies
+Cardiovascular,,BR-EXT-001,BRAZIL_SPECIFIC_DIRECT,Broader age/sex/state cohorts
+Tactical medicine,EV-1117; EV-1266,NONE,REQUIRES_BRAZILIAN_VALIDATION,Brazil APH/TCCC/TECC operational studies
+Caffeine/cognition,INT-EXT-FNUT2026; EV-1379,NONE,REQUIRES_BRAZILIAN_VALIDATION,Brazil tactical cognition evidence

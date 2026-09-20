@@ -1,0 +1,8 @@
+section,evidence,coverage,gap
+Physical performance,EV-0603; INT-EXT-31045682,STRONGER,Population-specific thresholds remain
+Load/equipment,INT-EXT-28515947; INT-EXT-29316674; BR-EXT-006,STRONGER,Brazil performance-effect evidence sparse
+Sleep/fatigue,INT-EXT-30862044; INT-EXT-42165076; BR-EXT-002; BR-EXT-003,STRONGER,Brazil intervention evidence missing
+Injury/RTD,EV-1001,MODERATE,Prospective RTD/reinjury validation needed
+Tactical medicine,EV-1117; EV-1266,STRONGER_INTERNATIONALLY,Brazil direct evidence critical gap
+Nutrition/hydration,INT-EXT-FNUT2026,WEAK_PARTIAL,Caffeine only
+Environmental stress,EV-0325,WEAK_PARTIAL,Direct heat/cold/altitude evidence needed

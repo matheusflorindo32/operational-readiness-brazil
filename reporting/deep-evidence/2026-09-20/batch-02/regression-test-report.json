@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "passed": 18,
+  "total": 18,
+  "key_checks": [
+    "exactly_20_b02",
+    "b01_preserved",
+    "no_human_claim_ready",
+    "no_retracted_used",
+    "tiers_allowed",
+    "international_not_brazil",
+    "ids_unique",
+    "mandatory_rescue_present",
+    "ev1379_fail_closed",
+    "pmid_26159007_absent",
+    "fxc7zy9r_absent"
+  ]
+}
