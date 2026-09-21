@@ -1,0 +1,17 @@
+Ref,Evidence_ID,Current_Role,Fitness,Status,Note
+1,EXT-TFF-2013,Conceptual,DIRECT_SUPPORT,PASS,Supports multidomain readiness context only
+2,EXT-ACC-AHA-2026,Conceptual,DIRECT_SUPPORT,PASS,Supports tactical cardiovascular/task-linked context; not project originality
+3,EV-1471,CORE,DIRECT_SUPPORT,PASS,Bounded shift/nutrition/vigilance claims
+4,EV-1472,CORE,DIRECT_SUPPORT,PASS,Bounded schedule/intake claims
+5,EV-1473,CORE_OVERLAP_FAMILY,DIRECT_SUPPORT,PASS,Protocol-specific firearm/stress findings
+6,EV-1474,CORE_OVERLAP_FAMILY,DIRECT_SUPPORT,PASS,Protocol-specific firearm/fitness findings; not independent replication
+7,EV-1475,CORE,DIRECT_SUPPORT,PASS,Operational tourniquet-use documentation only
+8,EV-1476,CONTEXTUAL,CONTEXT_ONLY,PASS,APH-Tatico context; not effectiveness
+9,EV-1477,CONTEXTUAL,CONTEXT_ONLY,PASS,Institutional APH-Tatico framework; not patient outcome
+10,EV-1478,CORE,DIRECT_SUPPORT,PASS,Organizational/policy estimate only
+11,EV-1479,CORE,DIRECT_SUPPORT,PASS,Null/limited program result preserved
+12,EV-1481,CORE,DIRECT_SUPPORT,PASS,Academy fitness change; no component causality
+13,EV-1480,SUPPORTING,PARTIAL_SUPPORT,PASS,Simulated use-of-force support only
+14,EV-1484,CORE,DIRECT_SUPPORT,PASS,State-specific medical-readiness evidence
+15,EV-1483,CONTEXTUAL,INDIRECT_SUPPORT,PASS,Military physiology; no direct police/fire transfer
+16,EV-1482,CONTEXTUAL,CONTEXT_ONLY,PASS,Organizational mental-health context only
