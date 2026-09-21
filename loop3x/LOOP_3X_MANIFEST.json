@@ -1,0 +1,27 @@
+{
+  "phase": "DEEP EVIDENCE LOOP 3x — FULL 1,484-RECORD SCREENING",
+  "date": "2026-09-21",
+  "canonical_expected": 1484,
+  "processed": 1484,
+  "unique_ev_ids": 1484,
+  "missing_ev_ids": 0,
+  "missing_classifications": 0,
+  "final_classes": {
+    "ALREADY_CITED": 14,
+    "FULL_TEXT_REVIEW": 266,
+    "REPLACE_EXISTING_CANDIDATE": 16,
+    "CONTRADICTORY_CANDIDATE": 3,
+    "DISCUSSION_ONLY": 448,
+    "CONTEXT_ONLY": 10,
+    "OUT_OF_SCOPE": 443,
+    "LOW_RELEVANCE": 282,
+    "INTEGRITY_BLOCK": 2
+  },
+  "full_text_queue_total": 285,
+  "freeze_change_candidates": 19,
+  "cef_v1_changed": false,
+  "ev_1379": "FAIL_CLOSED / INTEGRITY_BLOCK",
+  "gate": "FULL_UNIVERSE_3PASS_SCREENING_COMPLETE",
+  "next_gate": "GO_FULL_TEXT_SATURATION_REVIEW",
+  "red_team_correction": "Initial domain classifier was rejected after administrative SCREENING_DECISION text contaminated domain assignment. Entire universe was reprocessed after separating scientific from workflow metadata."
+}
