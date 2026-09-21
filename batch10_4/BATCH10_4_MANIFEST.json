@@ -1,0 +1,26 @@
+{
+  "phase": "DEEP EVIDENCE BATCH 10.4",
+  "gate": "PARTIAL_GO",
+  "status": "FULL_MANUSCRIPT_COMPLETE — BIBLIOGRAPHIC_SATURATION_PENDING",
+  "entry_branch": "deep-evidence-batch10-final-human-signoff",
+  "entry_head": "ca37647f6043fe447ea4f6a4e604c4df6e89e4d4",
+  "canonical_records": 1484,
+  "canonical_end": "EV-1484",
+  "cef_v1": {
+    "core": 9,
+    "supporting": 1,
+    "contextual": 4,
+    "hold_integrity": 1,
+    "reopened": false
+  },
+  "ev_1379": "FAIL_CLOSED",
+  "current_references": {
+    "international": 16,
+    "brazil": 16,
+    "status": "REFERENCE_SET_PROVISIONAL"
+  },
+  "reference_saturation_pass": false,
+  "freeeze_change_request_count": 0,
+  "blocker": "No single consolidated row-level Master Evidence artifact for EV-0001..EV-1484 is exposed on the working branch; full-universe screening cannot be truthfully declared.",
+  "next_batch": "BATCH 10.4A — MASTER EVIDENCE RECONSTRUCTION & FULL-UNIVERSE SCREENING"
+}
