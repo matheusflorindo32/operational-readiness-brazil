@@ -1,0 +1,5 @@
+Evidence_ID,Domain,Status,Interpretation
+EV-1473,Cognition/Firearm,NULL_OR_LIMITED_RESULT_PRESERVED,No detected shooting decrement under tested stress classification; selected grip difference only
+EV-1474,Cognition/Firearm,MIXED_ASSOCIATIONS_PRESERVED,No broad global fitness-to-shooting inference
+EV-1479,Policy/Program,NULL_RESULT_PRESERVED,Null/limited program result retained in synthesis
+FULL_UNIVERSE,All domains,PENDING_SCREENING,Contradictory evidence across EV-0001..EV-1484 not yet exhaustively screened

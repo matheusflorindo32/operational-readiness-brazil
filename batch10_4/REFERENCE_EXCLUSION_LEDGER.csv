@@ -1,0 +1,3 @@
+Evidence_ID,Decision,Reason,Reversible
+EV-1379,INTEGRITY_BLOCK,FAIL_CLOSED under CEF-v1,YES_ONLY_BY_FORMAL_FREEZE_CHANGE
+UNSCREENED_UNIVERSE,NOT_EXCLUDED,Full-universe screening not yet completed,YES
