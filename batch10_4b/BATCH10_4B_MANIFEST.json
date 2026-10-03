@@ -17,7 +17,10 @@
       "FULL_TEXT_REVIEW": 266,
       "REPLACE_EXISTING_CANDIDATE": 16
     },
-    "row_level_final_classification_artifacts": [],
+    "row_level_final_classification_artifacts": [
+      "batch10_4b/canonical/MASTER_EVIDENCE_CANONICAL_EV0001_EV1484.csv"
+    ],
+    "canonical_ledger_rows": 1484,
     "baseline_identity_rows": 1456,
     "later_additions_rows": 26,
     "expected_later_additions": 28,
@@ -30,8 +33,8 @@
   "findings": [
     {
       "id": "LOOP_MANIFEST_COUNTS",
-      "status": "DECLARED_NOT_INDEPENDENTLY_PROVABLE",
-      "detail": "The upstream manifest declares 1,484 processed, unique IDs and final classifications."
+      "status": "PASS",
+      "detail": "The upstream manifest counts are independently recomputed from the canonical 1,484-row ledger."
     },
     {
       "id": "CHECKPOINT_TOTAL",
@@ -45,13 +48,13 @@
     },
     {
       "id": "ROW_LEVEL_FINAL_CLASSIFICATION_SOURCE",
-      "status": "BLOCKED",
-      "detail": "No 1,484-row CSV in loop3x contains Evidence_ID plus a final classification; therefore zero missing IDs and zero missing classifications cannot be independently recomputed."
+      "status": "PASS",
+      "detail": "The canonical 1,484-row CSV contains Evidence_ID, final classification and provenance."
     },
     {
       "id": "CANONICAL_UNIVERSE_RECONCILIATION",
-      "status": "BLOCKED",
-      "detail": "The preserved identity map has 1456 rows and the later-additions ledger has 26 rows; this reconciles to 1482, leaving 2 of the 28 expected additions without a row in that ledger. Neither source provides a unified final-classification ledger."
+      "status": "PASS",
+      "detail": "The materialized ledger reconciles the 1,456-row baseline with all 28 canonical additions, including the two Batch05 additions missing from the older 26-row ledger."
     },
     {
       "id": "CEF_V1",
@@ -64,7 +67,7 @@
       "detail": "Reference QA ledger contains 16 currently cited references."
     }
   ],
-  "gate": "BLOCKED",
-  "blocker": "No 1,484-row CSV in loop3x contains Evidence_ID plus a final classification; therefore zero missing IDs and zero missing classifications cannot be independently recomputed.",
-  "permitted_next_action": "Reconstruct and version a 1,484-row canonical screening ledger with Evidence_ID, final classification, source provenance, the 1,456 baseline, all 28 additions, and explicit resolution of the two additions missing from the available reconciliation ledger."
+  "gate": "GO_FULL_TEXT_SATURATION_REVIEW",
+  "blocker": null,
+  "permitted_next_action": "Begin controlled full-text saturation review."
 }

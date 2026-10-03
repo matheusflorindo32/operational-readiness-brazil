@@ -1,0 +1,35 @@
+{
+  "phase": "BATCH 10.4B-R — CANONICAL LEDGER RECONSTRUCTION",
+  "source": {
+    "drive_file_id": "1PsCIFKpNMjrpsaHVu2mGKFYlRboKvNGgorZocCILnoY",
+    "url": "https://docs.google.com/spreadsheets/d/1PsCIFKpNMjrpsaHVu2mGKFYlRboKvNGgorZocCILnoY/edit",
+    "sheet": "FULL_UNIVERSE_SCREENING",
+    "modified": "2026-09-21T02:35:49.190Z"
+  },
+  "entry_commit": "34da7f52698cd245900f7e2c19a5c392da9db7cc",
+  "artifacts": {
+    "canonical_ledger_sha256": "44ae57f26c8526ef91140a48dd3906705a6684722dd1fcf2e99d8abb7fc2b00a",
+    "additions_sha256": "91265236bd5c6b8069bbd8524e59d47675bc70b687408a7777c75a33d4b804ee",
+    "conflict_ledger_sha256": "ad60fc40768f8a3e51b1a968bb7b1916fd5eb835219be8df9408febd01891a81",
+    "queue_reconciliation_sha256": "ec16f5ba488b4638a5b35adfa6eeefbcc4c54b569d3a996e45edce128da500ee"
+  },
+  "reconciliation": {
+    "baseline": 1456,
+    "additions": 28,
+    "total": 1484,
+    "queue": 285,
+    "resolved_previous_gap_ids": [
+      "EV-1483",
+      "EV-1484"
+    ]
+  },
+  "completeness_gate": "CANONICAL_1484_LEDGER_PASS",
+  "scientific_changes": {
+    "full_text_appraisal": 0,
+    "reference_selection": 0,
+    "reference_exclusion": 0,
+    "cef_v1_changes": 0,
+    "freeze_change_requests": 0
+  },
+  "gate": "BATCH10_4B_UNBLOCKED"
+}

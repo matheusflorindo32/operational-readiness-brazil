@@ -2,7 +2,7 @@
 
 ## Deep Evidence Batch 10.4B — entry audit — 2026-10-03
 
-**Decision: BLOCKED | No new full-text review, final reference selection or CEF-v1 change authorized by the audit.**
+**Decision: CANONICAL_1484_LEDGER_PASS | GO_FULL_TEXT_SATURATION_REVIEW. No scientific review occurred in this reconciliation mission.**
 
 - [x] Continuation created directly from LOOP 3× `a0fcb99fe67f4009526668acf3e43028ad83e646`; no merge performed.
 - [x] Entry CI checked: two `Security baseline` runs completed successfully.
@@ -11,9 +11,10 @@
 - [x] Full-text saturation queue checked: 285 rows, 285 unique Evidence IDs (266 full-text, 16 replacement, 3 contradictory).
 - [x] CEF-v1 remains frozen; EV-1379 remains `FAIL_CLOSED` and cannot support claims.
 - [x] Current v0.12 reference QA ledger checked: 16 references for International and 16 for Brazil.
-- [ ] Canonical 1,484-row `Evidence_ID` → final-classification → provenance ledger available — **0/1 (0.00%)**.
-- [ ] Independent verification of zero missing IDs and zero missing classifications — **0/1 (0.00%)**.
-- [ ] Full-text saturation, citation fitness, redundancy, contradictory-evidence and final-reference decisions — blocked pending the row-level ledger.
+- [x] Drive-authoritative canonical ledger materialized: 1,484/1,484 rows, IDs, final classifications and provenances.
+- [x] Baseline/additions reconciliation: 1,456 + 28 = 1,484; EV-1483 and EV-1484 historical omissions resolved by Batch05 evidence.
+- [x] Full-text queue derives from canonical ledger: 285/285 reconciled.
+- [ ] Full-text saturation, citation fitness, redundancy, contradictory-evidence and final-reference decisions — deferred to the original Batch 10.4B.
 
 The required reconstruction is documented in
 [`batch10_4b/BATCH10_4B_ENTRY_AUDIT.md`](../batch10_4b/BATCH10_4B_ENTRY_AUDIT.md).

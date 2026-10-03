@@ -17,7 +17,7 @@
 - **OSF associated project:** https://osf.io/djgax
 - **Structured evidence architecture:** families A/B/C; seed-set conceptual coverage pilot 15/15.
 - **Full-text pilots:** 30/1,191 active candidates processed across three controlled batches (2.52%), including 30/383 active PMC-route candidates (7.83%); human confirmation and Claim-Ready remain zero.
-- **Batch 10.4B entry audit:** `BLOCKED` before new scientific review. The LOOP 3× manifest and 15 lot checkpoints declare 1,484 processed records, while the repository exposes only the 285-row survivor queue and no canonical 1,484-row final-classification ledger. No final reference was selected on that basis.
+- **Batch 10.4B-R:** `CANONICAL_1484_LEDGER_PASS`. A Drive-authoritative LOOP 3× workbook was materialized into a versioned 1,484-row CSV; the 285-record full-text queue is reconciled and ready for its separate scientific-review gate.
 - **Primary journal positioning:** Strength & Conditioning Journal.
 
 > **Atleta tático é o ponto de partida, não o ponto final.**
@@ -62,7 +62,7 @@ Every substantive scientific claim should be traceable to a source and, where ap
 
 Military and other tactical evidence is **not automatically treated as equivalent** to Brazilian public-safety evidence. Transferability is explicitly assessed.
 
-## Batch 10.4B entry-audit status — 2026-10-03
+## Batch 10.4B-R canonical reconciliation — 2026-10-03
 
 The continuation branch was created directly from the LOOP 3× head
 `a0fcb99fe67f4009526668acf3e43028ad83e646`, without a merge. Its checkpoint
@@ -71,15 +71,18 @@ ledger sums to 1,484 processed records and its full-text saturation queue is
 contradictory candidates). CEF-v1 remains frozen and EV-1379 remains
 `FAIL_CLOSED`.
 
-The requested selection cannot begin yet: no versioned, row-level 1,484-record
-ledger exposes the final classification and source provenance needed to
-independently verify the LOOP 3× completeness assertions. This is a systemic
-traceability blocker, not an assessment of any individual article. The
-[entry audit](batch10_4b/BATCH10_4B_ENTRY_AUDIT.md) and its
-[machine-readable manifest](batch10_4b/BATCH10_4B_MANIFEST.json) preserve the
-evidence, the exact blocker and the reconstruction action required to reopen
-the Batch. No full text was fetched, no article was included or excluded, and
-CEF-v1 was not changed.
+The former traceability blocker was resolved using the authoritative Drive
+workbook `Operational_Readiness_LOOP3X_EV0001_EV1484_2026-09-21`. The
+[canonical ledger](batch10_4b/canonical/MASTER_EVIDENCE_CANONICAL_EV0001_EV1484.csv)
+contains 1.484 sequential unique IDs, complete LOOP 3× classification and
+provenance. It reconciles the 1.456-record baseline with 28 additions; the two
+records missing from the prior +26 ledger are documented as EV-1483 and EV-1484
+in the [conflict ledger](batch10_4b/canonical/CANONICAL_CONFLICT_LEDGER.csv).
+
+The [reexecuted entry audit](batch10_4b/BATCH10_4B_ENTRY_AUDIT.md) and
+[unblock report](batch10_4b/BATCH10_4B_UNBLOCK_REPORT.md) now declare
+`GO_FULL_TEXT_SATURATION_REVIEW`. No full text was fetched, no article was
+included or excluded, and CEF-v1 was not changed in this reconciliation mission.
 
 ## APHT / Tactical Medicine
 

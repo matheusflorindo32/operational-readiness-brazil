@@ -3,10 +3,14 @@
 All notable project changes are documented here.
 
 ## [Unreleased] — 2026-10-03
-### Batch 10.4B entry audit
+### Batch 10.4B-R canonical ledger reconstruction
+- Located the authoritative Drive workbook `Operational_Readiness_LOOP3X_EV0001_EV1484_2026-09-21` and materialized its `FULL_UNIVERSE_SCREENING` tab as a versioned 1,484-row canonical CSV with per-record LOOP 3× class and provenance.
+- Reconciled 1,456 baseline records plus 28 canonical additions. EV-1483 and EV-1484 were formally demonstrated through Batch05 audit/manifest and retained in a conflict ledger because they were absent from the prior 26-row Batch02/03 additions ledger.
+- Passed the 1,484-row completeness gate and reconciled the 285-record full-text queue. The entry audit now permits `GO_FULL_TEXT_SATURATION_REVIEW`; no scientific appraisal, reference selection, CEF-v1 edit or FCR occurred.
+
+### Batch 10.4B historical entry audit
 - Created an isolated continuation branch from the LOOP 3× head and verified its two successful CI runs, the 15 checkpoints (1,484 summed records), the 285/285 unique-ID saturation queue, the frozen CEF-v1 and EV-1379 `FAIL_CLOSED` control.
-- Detected that the LOOP 3× completeness counts are declared in its manifest but cannot be independently recomputed: the repository has no canonical 1,484-row final-classification ledger with `Evidence_ID` and decision provenance.
-- Added a fail-closed audit script, regression test and machine-readable manifest. The Batch is `BLOCKED` before scientific full-text processing; no candidate was promoted, excluded or used to alter CEF-v1.
+- Initially detected that the LOOP 3× completeness counts were declared without a row-level ledger in Git; this was later resolved by the authoritative Drive workbook and Batch05 evidence above.
 
 ## [1.10.0] — 2026-09-17
 ### Full-text evidence qualification Pilot 03

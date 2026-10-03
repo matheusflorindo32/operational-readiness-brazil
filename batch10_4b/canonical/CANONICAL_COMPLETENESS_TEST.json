@@ -1,0 +1,45 @@
+{
+  "phase": "BATCH 10.4B-R CANONICAL LEDGER AUDIT",
+  "canonical_ledger": "batch10_4b/canonical/MASTER_EVIDENCE_CANONICAL_EV0001_EV1484.csv",
+  "canonical_ledger_sha256": "44ae57f26c8526ef91140a48dd3906705a6684722dd1fcf2e99d8abb7fc2b00a",
+  "counts": {
+    "rows": 1484,
+    "unique_ids": 1484,
+    "missing_ids": 0,
+    "duplicate_ids": 0,
+    "baseline": 1456,
+    "additions": 28,
+    "final_classifications_present": 1484,
+    "provenance_present": 1484,
+    "full_text_queue_reconciled": 285
+  },
+  "final_classes": {
+    "ALREADY_CITED": 14,
+    "CONTEXT_ONLY": 10,
+    "CONTRADICTORY_CANDIDATE": 3,
+    "DISCUSSION_ONLY": 448,
+    "FULL_TEXT_REVIEW": 266,
+    "INTEGRITY_BLOCK": 2,
+    "LOW_RELEVANCE": 282,
+    "OUT_OF_SCOPE": 443,
+    "REPLACE_EXISTING_CANDIDATE": 16
+  },
+  "checks": {
+    "row_count": true,
+    "unique_ids": true,
+    "first_id": true,
+    "last_id": true,
+    "complete_sequence": true,
+    "baseline_count": true,
+    "addition_count": true,
+    "final_classifications_present": true,
+    "source_and_provenance_present": true,
+    "queue_reconciled": true,
+    "full_text_class_count": true,
+    "replace_class_count": true,
+    "contradictory_class_count": true,
+    "ev_1379_fail_closed": true,
+    "cef_v1_intact": true
+  },
+  "gate": "CANONICAL_1484_LEDGER_PASS"
+}
