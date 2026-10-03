@@ -17,6 +17,7 @@
 - **OSF associated project:** https://osf.io/djgax
 - **Structured evidence architecture:** families A/B/C; seed-set conceptual coverage pilot 15/15.
 - **Full-text pilots:** 30/1,191 active candidates processed across three controlled batches (2.52%), including 30/383 active PMC-route candidates (7.83%); human confirmation and Claim-Ready remain zero.
+- **Batch 10.4B entry audit:** `BLOCKED` before new scientific review. The LOOP 3× manifest and 15 lot checkpoints declare 1,484 processed records, while the repository exposes only the 285-row survivor queue and no canonical 1,484-row final-classification ledger. No final reference was selected on that basis.
 - **Primary journal positioning:** Strength & Conditioning Journal.
 
 > **Atleta tático é o ponto de partida, não o ponto final.**
@@ -60,6 +61,25 @@ This repository is the **canonical versioned scientific core** of the project. I
 Every substantive scientific claim should be traceable to a source and, where applicable, to the relevant result, page, table, or figure. DOI/metadata verification, corrections/retractions, methodological relevance, and transferability to Brazilian public safety are documented separately rather than inferred from citation alone.
 
 Military and other tactical evidence is **not automatically treated as equivalent** to Brazilian public-safety evidence. Transferability is explicitly assessed.
+
+## Batch 10.4B entry-audit status — 2026-10-03
+
+The continuation branch was created directly from the LOOP 3× head
+`a0fcb99fe67f4009526668acf3e43028ad83e646`, without a merge. Its checkpoint
+ledger sums to 1,484 processed records and its full-text saturation queue is
+285/285 unique Evidence IDs (266 full-text, 16 replacement and three
+contradictory candidates). CEF-v1 remains frozen and EV-1379 remains
+`FAIL_CLOSED`.
+
+The requested selection cannot begin yet: no versioned, row-level 1,484-record
+ledger exposes the final classification and source provenance needed to
+independently verify the LOOP 3× completeness assertions. This is a systemic
+traceability blocker, not an assessment of any individual article. The
+[entry audit](batch10_4b/BATCH10_4B_ENTRY_AUDIT.md) and its
+[machine-readable manifest](batch10_4b/BATCH10_4B_MANIFEST.json) preserve the
+evidence, the exact blocker and the reconstruction action required to reopen
+the Batch. No full text was fetched, no article was included or excluded, and
+CEF-v1 was not changed.
 
 ## APHT / Tactical Medicine
 

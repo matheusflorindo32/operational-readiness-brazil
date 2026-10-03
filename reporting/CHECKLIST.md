@@ -1,5 +1,23 @@
 # Project Checklist
 
+## Deep Evidence Batch 10.4B — entry audit — 2026-10-03
+
+**Decision: BLOCKED | No new full-text review, final reference selection or CEF-v1 change authorized by the audit.**
+
+- [x] Continuation created directly from LOOP 3× `a0fcb99fe67f4009526668acf3e43028ad83e646`; no merge performed.
+- [x] Entry CI checked: two `Security baseline` runs completed successfully.
+- [x] LOOP 3× manifest inspected: it declares 1,484 processed, 1,484 unique IDs and zero missing IDs/classifications.
+- [x] Fifteen checkpoint lots independently summed to 1,484 processed records.
+- [x] Full-text saturation queue checked: 285 rows, 285 unique Evidence IDs (266 full-text, 16 replacement, 3 contradictory).
+- [x] CEF-v1 remains frozen; EV-1379 remains `FAIL_CLOSED` and cannot support claims.
+- [x] Current v0.12 reference QA ledger checked: 16 references for International and 16 for Brazil.
+- [ ] Canonical 1,484-row `Evidence_ID` → final-classification → provenance ledger available — **0/1 (0.00%)**.
+- [ ] Independent verification of zero missing IDs and zero missing classifications — **0/1 (0.00%)**.
+- [ ] Full-text saturation, citation fitness, redundancy, contradictory-evidence and final-reference decisions — blocked pending the row-level ledger.
+
+The required reconstruction is documented in
+[`batch10_4b/BATCH10_4B_ENTRY_AUDIT.md`](../batch10_4b/BATCH10_4B_ENTRY_AUDIT.md).
+
 ## Protocol and conceptual design
 - [x] Central title and tactical-athlete anchor retained
 - [x] Paradigm-shift rationale defined

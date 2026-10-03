@@ -1,0 +1,70 @@
+{
+  "phase": "DEEP EVIDENCE BATCH 10.4B — ENTRY AUDIT",
+  "entry_head": "a0fcb99fe67f4009526668acf3e43028ad83e646",
+  "upstream_loop_manifest": {
+    "canonical_expected": 1484,
+    "processed": 1484,
+    "unique_ev_ids": 1484,
+    "missing_ev_ids": 0,
+    "missing_classifications": 0
+  },
+  "independent_observations": {
+    "checkpoint_processed_sum": 1484,
+    "full_text_queue_rows": 285,
+    "full_text_queue_unique_evidence_ids": 285,
+    "full_text_queue_classes": {
+      "CONTRADICTORY_CANDIDATE": 3,
+      "FULL_TEXT_REVIEW": 266,
+      "REPLACE_EXISTING_CANDIDATE": 16
+    },
+    "row_level_final_classification_artifacts": [],
+    "baseline_identity_rows": 1456,
+    "later_additions_rows": 26,
+    "expected_later_additions": 28,
+    "unreconciled_later_additions": 2,
+    "current_reference_count_international": 16,
+    "current_reference_count_brazil": 16,
+    "cef_v1_changed": false,
+    "ev_1379": "FAIL_CLOSED"
+  },
+  "findings": [
+    {
+      "id": "LOOP_MANIFEST_COUNTS",
+      "status": "DECLARED_NOT_INDEPENDENTLY_PROVABLE",
+      "detail": "The upstream manifest declares 1,484 processed, unique IDs and final classifications."
+    },
+    {
+      "id": "CHECKPOINT_TOTAL",
+      "status": "PASS",
+      "detail": "15 checkpoint lots sum to 1484 processed records."
+    },
+    {
+      "id": "QUEUE_IDENTITY",
+      "status": "PASS",
+      "detail": "Queue has 285 rows and 285 unique Evidence IDs."
+    },
+    {
+      "id": "ROW_LEVEL_FINAL_CLASSIFICATION_SOURCE",
+      "status": "BLOCKED",
+      "detail": "No 1,484-row CSV in loop3x contains Evidence_ID plus a final classification; therefore zero missing IDs and zero missing classifications cannot be independently recomputed."
+    },
+    {
+      "id": "CANONICAL_UNIVERSE_RECONCILIATION",
+      "status": "BLOCKED",
+      "detail": "The preserved identity map has 1456 rows and the later-additions ledger has 26 rows; this reconciles to 1482, leaving 2 of the 28 expected additions without a row in that ledger. Neither source provides a unified final-classification ledger."
+    },
+    {
+      "id": "CEF_V1",
+      "status": "PASS",
+      "detail": "CEF-v1 remains frozen; EV-1379 must not support claims."
+    },
+    {
+      "id": "CURRENT_REFERENCE_SET",
+      "status": "PASS",
+      "detail": "Reference QA ledger contains 16 currently cited references."
+    }
+  ],
+  "gate": "BLOCKED",
+  "blocker": "No 1,484-row CSV in loop3x contains Evidence_ID plus a final classification; therefore zero missing IDs and zero missing classifications cannot be independently recomputed.",
+  "permitted_next_action": "Reconstruct and version a 1,484-row canonical screening ledger with Evidence_ID, final classification, source provenance, the 1,456 baseline, all 28 additions, and explicit resolution of the two additions missing from the available reconciliation ledger."
+}

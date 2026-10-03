@@ -2,6 +2,12 @@
 
 All notable project changes are documented here.
 
+## [Unreleased] — 2026-10-03
+### Batch 10.4B entry audit
+- Created an isolated continuation branch from the LOOP 3× head and verified its two successful CI runs, the 15 checkpoints (1,484 summed records), the 285/285 unique-ID saturation queue, the frozen CEF-v1 and EV-1379 `FAIL_CLOSED` control.
+- Detected that the LOOP 3× completeness counts are declared in its manifest but cannot be independently recomputed: the repository has no canonical 1,484-row final-classification ledger with `Evidence_ID` and decision provenance.
+- Added a fail-closed audit script, regression test and machine-readable manifest. The Batch is `BLOCKED` before scientific full-text processing; no candidate was promoted, excluded or used to alter CEF-v1.
+
 ## [1.10.0] — 2026-09-17
 ### Full-text evidence qualification Pilot 03
 - Processed exactly the next ten deterministic active P1 PMC records without reusing Pilots 01/02 or touching Zotero and Master Evidence.
