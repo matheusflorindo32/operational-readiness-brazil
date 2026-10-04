@@ -8,6 +8,10 @@ All notable project changes are documented here.
 - Detected that 15/100 records labelled with a PMC XML route have only abstract/fragment XML rather than an article body. They are fail-closed access/version holds, not scientific exclusions. The reusable body audit leaves 85/100 actual article bodies available and 76 unreviewed bodies after this checkpoint.
 - Kept all human fields pending and Claim-Ready at zero. No reference was replaced, no manuscript or CEF-v1 was changed, and no Zotero action, reimportation or merge occurred. Decision: `PARTIAL_GO` to FT1 lot 02.
 
+### Batch 10.4B-FT1 lots 02-03
+- Appraised the next 20 records from EV-0837 through EV-0183 without reprocessing lot 01. Eighteen article bodies received bounded AI-provisional appraisal; EV-0846 and EV-0143 were retained as `FULL_TEXT_INSUFFICIENT` because their PMC XML lacks a body.
+- The cumulative checkpoint is 30/100 processed, 27/100 scientifically appraised and three source-insufficient records. It adds six provisional includes, six contextual/discussion records, one quality exclusion and one misaligned exclusion; all human and Claim-Ready fields remain fail-closed.
+
 ### Batch 10.4B source discovery
 - Traversed all 285 reconciled saturation candidates in 15 ordered lots, beginning with the three contradictory and 16 replacement candidates. Recorded PubMed primary metadata provenance and lawful PMC XML availability without a Zotero write, reimport, merge, manuscript edit or CEF-v1 change.
 - Identified 100/285 (35.09%) lawful PMC XML routes and recorded 185/285 (64.91%) as access-pending. The latter are explicitly labelled `ACCESS_PENDING_NOT_SCIENTIFIC_EXCLUSION`, not excluded scientific evidence.

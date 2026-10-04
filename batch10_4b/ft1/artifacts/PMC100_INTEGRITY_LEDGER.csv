@@ -9,3 +9,23 @@ EV-0252,INTEGRITY_CLEAR_AS_OF_2026-09-17,"Pilot 03 PubMed XML audit found no ind
 EV-0402,INTEGRITY_CLEAR_AS_OF_2026-10-03,Current PubMed metadata retrieved during source discovery contained no editorial relation; this is date-bounded.,FULL_ARTICLE_BODY_READ,PENDING
 EV-0523,INTEGRITY_CLEAR_AS_OF_2026-10-03,Current PubMed metadata retrieved during source discovery contained no editorial relation; this is date-bounded.,FULL_ARTICLE_BODY_READ,PENDING
 EV-0606,INTEGRITY_CLEAR_AS_OF_2026-10-03,Current PubMed metadata retrieved during source discovery contained no editorial relation; this is date-bounded.,XML_ABSTRACT_ONLY_NOT_FULL_TEXT,PENDING
+EV-0837,INTEGRITY_CLEAR_AS_OF_2026-10-04,No editorial signal in previously retrieved primary metadata; date-bounded.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0846,INTEGRITY_CLEAR_AS_OF_2026-10-04,No editorial signal in previously retrieved primary metadata; date-bounded.,XML_ABSTRACT_ONLY_NOT_FULL_TEXT,PENDING
+EV-1301,INTEGRITY_CLEAR_AS_OF_2026-10-04,No editorial signal in previously retrieved primary metadata; date-bounded.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0014,INTEGRITY_CLEAR_AS_OF_2026-10-04,No editorial signal in previously retrieved primary metadata; date-bounded.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0045,INTEGRITY_CLEAR_AS_OF_2026-10-04,No editorial signal in previously retrieved primary metadata; date-bounded.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0068,INTEGRITY_CLEAR_AS_OF_2026-10-04,No editorial signal in previously retrieved primary metadata; date-bounded.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0076,INTEGRITY_CLEAR_AS_OF_2026-10-04,No editorial signal in previously retrieved primary metadata; date-bounded.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0092,INTEGRITY_CLEAR_AS_OF_2026-10-04,No editorial signal in previously retrieved primary metadata; date-bounded.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0103,INTEGRITY_CLEAR_AS_OF_2026-10-04,No editorial signal in previously retrieved primary metadata; date-bounded.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0114,INTEGRITY_CLEAR_AS_OF_2026-10-04,No editorial signal in previously retrieved primary metadata; date-bounded.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0115,INTEGRITY_CLEAR_AS_OF_2026-10-04,No indexed editorial signal in primary metadata; date-bounded.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0143,INTEGRITY_CLEAR_AS_OF_2026-10-04,No indexed editorial signal in primary metadata; date-bounded.,XML_ABSTRACT_ONLY_NOT_FULL_TEXT,PENDING
+EV-0146,INTEGRITY_CLEAR_AS_OF_2026-10-04,No indexed editorial signal in primary metadata; date-bounded.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0151,INTEGRITY_CLEAR_AS_OF_2026-10-04,No indexed editorial signal in primary metadata; date-bounded.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0153,INTEGRITY_CLEAR_AS_OF_2026-10-04,No indexed editorial signal in primary metadata; date-bounded.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0156,INTEGRITY_CLEAR_AS_OF_2026-10-04,No indexed editorial signal in primary metadata; date-bounded.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0161,INTEGRITY_CLEAR_AS_OF_2026-10-04,No indexed editorial signal in primary metadata; date-bounded.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0178,INTEGRITY_CLEAR_AS_OF_2026-10-04,No indexed editorial signal in primary metadata; date-bounded.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0179,INTEGRITY_CLEAR_AS_OF_2026-10-04,No indexed editorial signal in primary metadata; date-bounded.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0183,INTEGRITY_CLEAR_AS_OF_2026-10-04,No indexed editorial signal in primary metadata; date-bounded.,FULL_ARTICLE_BODY_READ,PENDING

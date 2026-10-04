@@ -17,14 +17,14 @@ def test_ft1_lot01_is_bounded_and_fail_closed():
     decisions = read_csv("PMC100_PROVISIONAL_DECISIONS.csv")
     source = read_csv("PMC100_SOURCE_BODY_VALIDATION.csv")
     assert manifest["state"] == "PARTIAL_GO"
-    assert manifest["reviewed"] == 10
-    assert manifest["full_article_body_read"] == 9
-    assert manifest["remaining"] == 90
+    assert manifest["reviewed"] == 30
+    assert manifest["full_article_body_read"] == 27
+    assert manifest["remaining"] == 70
     assert manifest["claim_ready_provisional"] == 0
     assert manifest["human_confirmation"] == 0
     assert manifest["cef_v1_changed"] is False
     assert manifest["ev_1379"] == "FAIL_CLOSED"
-    assert len(decisions) == 10
+    assert len(decisions) == 30
     assert all(row["HUMAN_CONFIRMATION"] == "PENDING" for row in decisions)
     assert all(row["CLAIM_READY_PROVISIONAL"] == "NO" for row in decisions)
     assert len(source) == 100

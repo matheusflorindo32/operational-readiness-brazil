@@ -2,13 +2,13 @@
   "phase": "BATCH 10.4B-FT1",
   "state": "PARTIAL_GO",
   "eligible_pmc_xml": 100,
-  "reviewed": 10,
-  "full_article_body_read": 9,
-  "xml_abstract_only": 1,
-  "remaining": 90,
+  "reviewed": 30,
+  "full_article_body_read": 27,
+  "xml_abstract_only": 3,
+  "remaining": 70,
   "claim_ready_provisional": 0,
   "human_confirmation": 0,
   "cef_v1_changed": false,
   "ev_1379": "FAIL_CLOSED",
-  "next_evidence_id": "EV-0837"
+  "next_evidence_id": "EV-0195"
 }

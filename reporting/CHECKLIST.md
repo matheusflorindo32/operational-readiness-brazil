@@ -41,7 +41,7 @@ O resultado e a limitação estão documentados em
 
 ## Deep Evidence Batch 10.4B-FT1 — checkpoint 01 — 2026-10-03
 
-**Decision: PARTIAL_GO | 10/100 processados | Claim-Ready 0/10 | revisão humana 0/10.**
+**Decision: PARTIAL_GO | 30/100 processados | Claim-Ready 0/30 | revisão humana 0/30.**
 
 - [x] Começo em `EV-0386` e ordem determinística do primeiro lote preservados.
 - [x] Nove corpos PMC lidos; extração, design, appraisal, risco de viés, integridade, claim fit e Red Team provisórios registrados.
@@ -49,8 +49,9 @@ O resultado e a limitação estão documentados em
 - [x] `EV-0606` bloqueado como XML apenas de resumo, sem inferência de resultado.
 - [x] Fonte PMC revalidada em 100/100: 85 corpos de artigo e 15 XML de resumo/fragmento.
 - [x] CEF-v1 e EV-1379 preservados; nenhum Zotero, merge, reimportação, exclusão científica ou mudança de manuscrito.
-- [ ] Appraisal FT1 completo — 10/100 (10,00%); 90 registros pendentes.
-- [ ] Corpos de artigo ainda elegíveis para leitura — 76/85 (89,41%) após o lote 01.
+- [x] Lotes 02-03 concluídos de `EV-0837` a `EV-0183`, sem reprocessar o lote 01.
+- [ ] Appraisal FT1 completo — 30/100 (30,00%); 70 registros pendentes.
+- [ ] Corpos de artigo ainda elegíveis para leitura — 58/85 (68,24%) após os lotes 01-03.
 - [ ] Decisão final de referências, saturação e v0.13 — bloqueadas.
 
 Veja [`batch10_4b/ft1/BATCH10_4B_FT1_FINAL_REPORT.md`](../batch10_4b/ft1/BATCH10_4B_FT1_FINAL_REPORT.md).

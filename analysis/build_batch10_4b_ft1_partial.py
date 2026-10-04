@@ -29,11 +29,15 @@ def write_csv(name: str, fields: list[str], rows: list[dict[str, str]]) -> None:
 
 
 def main() -> int:
-    decisions = read_csv(LOTS / "FT1-LOT-01_APPRAISAL.csv")
-    staged = json.loads((STAGING / "FT1-LOT-01_FULL_TEXT_DIGEST.json").read_text(encoding="utf-8"))
+    decision_files = sorted(LOTS.glob("FT1-LOT-*_APPRAISAL.csv"))
+    decisions = [row for path in decision_files for row in read_csv(path)]
+    staged = []
+    for path in decision_files:
+        lot = path.name.removesuffix("_APPRAISAL.csv")
+        staged.extend(json.loads((STAGING / f"{lot}_FULL_TEXT_DIGEST.json").read_text(encoding="utf-8")))
     by_id = {row["Evidence_ID"]: row for row in decisions}
-    if len(decisions) != 10 or len(by_id) != 10 or {row["Evidence_ID"] for row in staged} != set(by_id):
-        raise SystemExit("FT1 lot 01 identity mismatch")
+    if len(decisions) != len(by_id) or {row["Evidence_ID"] for row in staged} != set(by_id):
+        raise SystemExit("FT1 reviewed-lot identity mismatch")
     extraction = []
     for source in staged:
         decision = by_id[source["Evidence_ID"]]
@@ -83,9 +87,11 @@ def main() -> int:
         by_domain[source["Domain"]] += 1
     coverage = [{"Domain": domain, "Reviewed_In_FT1": count, "Status": "PARTIAL_NOT_SATURATED", "Reason": "Only FT1 lot 01 has completed AI-provisional appraisal."} for domain, count in sorted(by_domain.items())]
     write_csv("PMC100_DOMAIN_COVERAGE.csv", list(coverage[0]), coverage)
-    checkpoint = [{"Lot": "FT1-LOT-01", "Eligible_PMC_Universe": 100, "Reviewed": 10, "Remaining": 90, "Full_Article_Body_Read": 9, "XML_Abstract_Only": 1, "Provisional_Include": sum(row["Provisional_Decision"] == "PROVISIONAL_INCLUDE" for row in decisions), "Provisional_Replacement": sum(row["Provisional_Decision"] == "PROVISIONAL_REPLACE_CANDIDATE" for row in decisions), "Discussion_Only": sum(row["Provisional_Decision"] == "DISCUSSION_ONLY" for row in decisions), "Context_Only": sum(row["Provisional_Decision"] == "CONTEXT_ONLY" for row in decisions), "Unresolved": sum(row["Provisional_Decision"] == "UNRESOLVED" for row in decisions), "FCR_Candidates": 0, "Progress_Percent": "10.00", "Next_Evidence_ID": "EV-0837", "Gate": "PARTIAL_GO"}]
+    full_body = sum(row["Full_Text_Reading_Status"] not in {"XML_ABSTRACT_ONLY_NOT_FULL_TEXT", "FULL_TEXT_INSUFFICIENT"} for row in decisions)
+    next_ids = {20: "EV-0115", 30: "EV-0195"}
+    checkpoint = [{"Lot": decision_files[-1].name.removesuffix("_APPRAISAL.csv"), "Eligible_PMC_Universe": 100, "Reviewed": len(decisions), "Remaining": 100 - len(decisions), "Full_Article_Body_Read": full_body, "XML_Abstract_Only": len(decisions) - full_body, "Provisional_Include": sum(row["Provisional_Decision"] == "PROVISIONAL_INCLUDE" for row in decisions), "Provisional_Replacement": sum(row["Provisional_Decision"] == "PROVISIONAL_REPLACE_CANDIDATE" for row in decisions), "Discussion_Only": sum(row["Provisional_Decision"] == "DISCUSSION_ONLY" for row in decisions), "Context_Only": sum(row["Provisional_Decision"] == "CONTEXT_ONLY" for row in decisions), "Unresolved": sum(row["Provisional_Decision"] in {"UNRESOLVED", "FULL_TEXT_INSUFFICIENT"} for row in decisions), "FCR_Candidates": 0, "Progress_Percent": f"{len(decisions):.2f}", "Next_Evidence_ID": next_ids.get(len(decisions), "RECOMPUTE_FROM_QUEUE"), "Gate": "PARTIAL_GO"}]
     write_csv("PMC100_CHECKPOINT_LEDGER.csv", list(checkpoint[0]), checkpoint)
-    manifest = {"phase": "BATCH 10.4B-FT1", "state": "PARTIAL_GO", "eligible_pmc_xml": 100, "reviewed": 10, "full_article_body_read": 9, "xml_abstract_only": 1, "remaining": 90, "claim_ready_provisional": 0, "human_confirmation": 0, "cef_v1_changed": False, "ev_1379": "FAIL_CLOSED", "next_evidence_id": "EV-0837"}
+    manifest = {"phase": "BATCH 10.4B-FT1", "state": "PARTIAL_GO", "eligible_pmc_xml": 100, "reviewed": len(decisions), "full_article_body_read": full_body, "xml_abstract_only": len(decisions) - full_body, "remaining": 100 - len(decisions), "claim_ready_provisional": 0, "human_confirmation": 0, "cef_v1_changed": False, "ev_1379": "FAIL_CLOSED", "next_evidence_id": checkpoint[0]["Next_Evidence_ID"]}
     (OUT / "BATCH10_4B_FT1_MANIFEST.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(manifest, ensure_ascii=False))
     return 0
