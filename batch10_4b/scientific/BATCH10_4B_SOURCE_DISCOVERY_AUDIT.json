@@ -1,0 +1,28 @@
+{
+  "phase": "DEEP EVIDENCE BATCH 10.4B — SOURCE DISCOVERY AUDIT",
+  "counts": {
+    "queue": 285,
+    "unique_evidence_ids": 285,
+    "lawful_pmc_xml": 100,
+    "full_text_unavailable": 185,
+    "contradictory": 3,
+    "replacement": 16,
+    "final_includes": 0
+  },
+  "checks": {
+    "queue_rows": true,
+    "unique_evidence_ids": true,
+    "expected_classes": true,
+    "source_status_complete": true,
+    "claim_ready_fail_closed": true,
+    "human_review_pending": true,
+    "no_final_inclusion": true,
+    "appraisal_is_not_fabricated": true,
+    "contradictory_queue_complete": true,
+    "replacement_queue_complete": true,
+    "domains_not_prematurely_saturated": true,
+    "ev1379_absent_from_queue": true,
+    "access_holds_not_scientific_exclusions": true
+  },
+  "gate": "PARTIAL_GO"
+}

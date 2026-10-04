@@ -1,0 +1,21 @@
+Evidence_ID,PMID,DOI,Primary_Metadata_Source,Integrity_Status,Integrity_Notices,Full_Text_Status,Full_Text_URL,Retrieval_Error
+EV-0001,42658917,,https://pubmed.ncbi.nlm.nih.gov/42658917/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-0167,41537090,10.1007/s11292-025-09711-7,https://pubmed.ncbi.nlm.nih.gov/41537090/,Verified — clear,,LAWFUL_PMC_XML,https://pmc.ncbi.nlm.nih.gov/articles/PMC12798756/,
+EV-0252,40979841,10.1080/15614263.2025.2512806,https://pubmed.ncbi.nlm.nih.gov/40979841/,Verified — clear,,LAWFUL_PMC_XML,https://pmc.ncbi.nlm.nih.gov/articles/PMC12448121/,
+EV-0334,40156908,10.1093/milmed/usaf057,https://pubmed.ncbi.nlm.nih.gov/40156908/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-0402,39449476,10.3390/jfmk9040182,https://pubmed.ncbi.nlm.nih.gov/39449476/,Verified — clear,,LAWFUL_PMC_XML,https://pmc.ncbi.nlm.nih.gov/articles/PMC11503342/,
+EV-0523,38115970,10.1136/tsaco-2023-001292,https://pubmed.ncbi.nlm.nih.gov/38115970/,Verified — clear,CommentOn: Trauma Surg Acute Care Open. 2023 Nov 14;8(1):e001132. doi: 10.1136/tsaco-2023-001132.,LAWFUL_PMC_XML,https://pmc.ncbi.nlm.nih.gov/articles/PMC10729156/,
+EV-0606,37030012,10.1093/tbm/ibad015,https://pubmed.ncbi.nlm.nih.gov/37030012/,Verified — clear,,LAWFUL_PMC_XML,https://pmc.ncbi.nlm.nih.gov/articles/PMC10415731/,
+EV-0837,33241783,10.4269/ajtmh.20-0541,https://pubmed.ncbi.nlm.nih.gov/33241783/,Verified — clear,,LAWFUL_PMC_XML,https://pmc.ncbi.nlm.nih.gov/articles/PMC7790083/,
+EV-0846,33123621,10.1080/23328940.2020.1742572,https://pubmed.ncbi.nlm.nih.gov/33123621/,Verified — clear,,LAWFUL_PMC_XML,https://pmc.ncbi.nlm.nih.gov/articles/PMC7575231/,
+EV-0971,30915938,10.1017/s1049023x19000037,https://pubmed.ncbi.nlm.nih.gov/30915938/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-1010,30165726,,https://pubmed.ncbi.nlm.nih.gov/30165726/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-1119,27689379,10.55460/arzp-rfk1,https://pubmed.ncbi.nlm.nih.gov/27689379/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-1165,26360353,10.55460/j3tf-9ekv,https://pubmed.ncbi.nlm.nih.gov/26360353/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-1244,24005550,10.7205/milmed-d-13-00191,https://pubmed.ncbi.nlm.nih.gov/24005550/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-1301,21761154,10.1007/s11121-011-0234-5,https://pubmed.ncbi.nlm.nih.gov/21761154/,Verified — clear,,LAWFUL_PMC_XML,https://pmc.ncbi.nlm.nih.gov/articles/PMC3218271/,
+EV-1303,21607910,,https://pubmed.ncbi.nlm.nih.gov/21607910/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-1330,19743737,10.7205/milmed-d-03-2508,https://pubmed.ncbi.nlm.nih.gov/19743737/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-0012,42600053,10.1093/milmed/usag387,https://pubmed.ncbi.nlm.nih.gov/42600053/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-0014,42583191,10.3389/fphys.2026.1904857,https://pubmed.ncbi.nlm.nih.gov/42583191/,Verified — clear,,LAWFUL_PMC_XML,https://pmc.ncbi.nlm.nih.gov/articles/PMC13459097/,
+EV-0016,42580324,10.1093/milmed/usag353,https://pubmed.ncbi.nlm.nih.gov/42580324/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA

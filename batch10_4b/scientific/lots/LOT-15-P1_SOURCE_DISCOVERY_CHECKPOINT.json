@@ -1,0 +1,8 @@
+{
+  "queue": 6,
+  "lawful_pmc_xml": 2,
+  "full_text_unavailable": 4,
+  "unresolved_with_pmc_full_text": 2,
+  "next_unreviewed_ev_id": "EV-1461",
+  "gate": "PARTIAL_GO_SOURCE_DISCOVERY_COMPLETE"
+}

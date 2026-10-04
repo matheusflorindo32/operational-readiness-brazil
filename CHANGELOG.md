@@ -3,6 +3,12 @@
 All notable project changes are documented here.
 
 ## [Unreleased] — 2026-10-03
+### Batch 10.4B source discovery
+- Traversed all 285 reconciled saturation candidates in 15 ordered lots, beginning with the three contradictory and 16 replacement candidates. Recorded PubMed primary metadata provenance and lawful PMC XML availability without a Zotero write, reimport, merge, manuscript edit or CEF-v1 change.
+- Identified 100/285 (35.09%) lawful PMC XML routes and recorded 185/285 (64.91%) as access-pending. The latter are explicitly labelled `ACCESS_PENDING_NOT_SCIENTIFIC_EXCLUSION`, not excluded scientific evidence.
+- Preserved the three contradictory records as unresolved, with only bounded provisional impacts; preserved all 16 replacement comparisons as unresolved. There are zero final inclusions, replacements, Claim-Ready records, human decisions, freeze-change requests and saturated domains.
+- Added source-discovery ledgers, per-lot checkpoints and a fail-closed regression audit (13 controls). Decision: `PARTIAL_GO` to full-text appraisal of the legally accessible subset; `REFERENCE_SATURATION_PASS` and v0.13 are not authorized.
+
 ### Batch 10.4B-R canonical ledger reconstruction
 - Located the authoritative Drive workbook `Operational_Readiness_LOOP3X_EV0001_EV1484_2026-09-21` and materialized its `FULL_UNIVERSE_SCREENING` tab as a versioned 1,484-row canonical CSV with per-record LOOP 3× class and provenance.
 - Reconciled 1,456 baseline records plus 28 canonical additions. EV-1483 and EV-1484 were formally demonstrated through Batch05 audit/manifest and retained in a conflict ledger because they were absent from the prior 26-row Batch02/03 additions ledger.

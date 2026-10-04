@@ -18,6 +18,7 @@
 - **Structured evidence architecture:** families A/B/C; seed-set conceptual coverage pilot 15/15.
 - **Full-text pilots:** 30/1,191 active candidates processed across three controlled batches (2.52%), including 30/383 active PMC-route candidates (7.83%); human confirmation and Claim-Ready remain zero.
 - **Batch 10.4B-R:** `CANONICAL_1484_LEDGER_PASS`. A Drive-authoritative LOOP 3× workbook was materialized into a versioned 1,484-row CSV; the 285-record full-text queue is reconciled and ready for its separate scientific-review gate.
+- **Batch 10.4B source discovery:** `PARTIAL_GO`. All 285 queue records have recorded primary metadata provenance; 100 have a lawful PMC XML route and 185 remain access-pending. No record has received final appraisal, reference selection, human confirmation, Claim-Ready status, or a manuscript change.
 - **Primary journal positioning:** Strength & Conditioning Journal.
 
 > **Atleta tático é o ponto de partida, não o ponto final.**
@@ -83,6 +84,18 @@ The [reexecuted entry audit](batch10_4b/BATCH10_4B_ENTRY_AUDIT.md) and
 [unblock report](batch10_4b/BATCH10_4B_UNBLOCK_REPORT.md) now declare
 `GO_FULL_TEXT_SATURATION_REVIEW`. No full text was fetched, no article was
 included or excluded, and CEF-v1 was not changed in this reconciliation mission.
+
+## Batch 10.4B source discovery — 2026-10-03
+
+The 285-record saturation queue was traversed in 15 controlled lots, beginning
+with the three contradictory and 16 replacement candidates. The resulting
+[full-text saturation master](batch10_4b/scientific/FULL_TEXT_SATURATION_MASTER.csv)
+records 100 lawful PMC XML routes (35.09%) and 185 access-pending records
+(64.91%). The latter are not scientific exclusions. The three contradictory
+records remain unresolved and the 16 replacement comparisons remain
+unresolved; all human fields and Claim-Ready values stay fail-closed. See the
+[Batch 10.4B report](batch10_4b/BATCH10_4B_FINAL_REPORT.md) and
+[source-discovery audit](batch10_4b/scientific/BATCH10_4B_SOURCE_DISCOVERY_AUDIT.json).
 
 ## APHT / Tactical Medicine
 

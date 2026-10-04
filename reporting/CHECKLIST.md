@@ -19,6 +19,26 @@
 The required reconstruction is documented in
 [`batch10_4b/BATCH10_4B_ENTRY_AUDIT.md`](../batch10_4b/BATCH10_4B_ENTRY_AUDIT.md).
 
+## Deep Evidence Batch 10.4B — descoberta de fonte — 2026-10-03
+
+**Decision: PARTIAL_GO | 285/285 provenance routes recorded | no scientific selection occurred.**
+
+- [x] Entrada canônica revalidada: 1.484/1.484 IDs únicos, baseline 1.456 + 28 adições e fila 285/285.
+- [x] Quinze lotes processados na ordem Tier 0, P0 e P1; sem reimportação, merge, escrita Zotero ou alteração de CEF-v1.
+- [x] Proveniência de metadados primários registrada para 285/285 (100,00%).
+- [x] Rota de XML PMC lícito registrada para 100/285 (35,09%).
+- [x] Acesso pendente registrado para 185/285 (64,91%) sem classificá-lo como exclusão científica.
+- [x] Três contraditórios e 16 comparações de substituição preservados sem decisão final.
+- [x] `EV-1379` permanece `FAIL_CLOSED` e fora da fila; Claim-Ready continua 0/285 e os campos humanos continuam pendentes.
+- [x] Auditoria fail-closed e regressão focal passaram (13 controles; 2 testes).
+- [ ] Leitura integral e extração verificável — 0/285.
+- [ ] Appraisal por desenho e citation fitness — 0/285.
+- [ ] Seleção final, análise de redundância e saturação por domínio — 0/285.
+- [ ] Revisão humana identificável — 0/285.
+
+O resultado e a limitação estão documentados em
+[`batch10_4b/BATCH10_4B_FINAL_REPORT.md`](../batch10_4b/BATCH10_4B_FINAL_REPORT.md).
+
 ## Protocol and conceptual design
 - [x] Central title and tactical-athlete anchor retained
 - [x] Paradigm-shift rationale defined

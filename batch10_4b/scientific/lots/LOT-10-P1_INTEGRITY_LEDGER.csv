@@ -1,0 +1,21 @@
+Evidence_ID,PMID,DOI,Primary_Metadata_Source,Integrity_Status,Integrity_Notices,Full_Text_Status,Full_Text_URL,Retrieval_Error
+EV-0786,33975344,10.4085/1062-6050-0380.19,https://pubmed.ncbi.nlm.nih.gov/33975344/,Verified — clear,,LAWFUL_PMC_XML,https://pmc.ncbi.nlm.nih.gov/articles/PMC8675322/,
+EV-0795,33829468,10.5603/imh.2021.0002,https://pubmed.ncbi.nlm.nih.gov/33829468/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-0799,33786041,10.1016/j.jesf.2021.02.002,https://pubmed.ncbi.nlm.nih.gov/33786041/,Verified — clear,,LAWFUL_PMC_XML,https://pmc.ncbi.nlm.nih.gov/articles/PMC7970355/,
+EV-0800,33779201,10.1037/ser0000528,https://pubmed.ncbi.nlm.nih.gov/33779201/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-0804,33707156,10.1016/j.jsams.2021.02.016,https://pubmed.ncbi.nlm.nih.gov/33707156/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-0809,33612511,10.3233/wor-203401,https://pubmed.ncbi.nlm.nih.gov/33612511/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-0823,33466351,10.3390/ijerph18010339,https://pubmed.ncbi.nlm.nih.gov/33466351/,Verified — clear,,LAWFUL_PMC_XML,https://pmc.ncbi.nlm.nih.gov/articles/PMC7795331/,
+EV-0832,33313735,10.1093/pm/pnaa367,https://pubmed.ncbi.nlm.nih.gov/33313735/,Pending,ErratumIn: Pain Med. 2021 Aug 6;22(8):1887. doi: 10.1093/pm/pnab052.,LAWFUL_PMC_XML,https://pmc.ncbi.nlm.nih.gov/articles/PMC7825002/,
+EV-0857,32962049,10.3390/ijerph17186825,https://pubmed.ncbi.nlm.nih.gov/32962049/,Verified — clear,,LAWFUL_PMC_XML,https://pmc.ncbi.nlm.nih.gov/articles/PMC7558920/,
+EV-0874,32585995,10.3390/nu12061876,https://pubmed.ncbi.nlm.nih.gov/32585995/,Verified — clear,,LAWFUL_PMC_XML,https://pmc.ncbi.nlm.nih.gov/articles/PMC7353453/,
+EV-0878,32556201,10.4085/1062-6050-10-19,https://pubmed.ncbi.nlm.nih.gov/32556201/,Verified — clear,,LAWFUL_PMC_XML,https://pmc.ncbi.nlm.nih.gov/articles/PMC7384467/,
+EV-0886,32314785,10.1093/milmed/usz491,https://pubmed.ncbi.nlm.nih.gov/32314785/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-0899,32089966,,https://pubmed.ncbi.nlm.nih.gov/32089966/,Verified — clear,,LAWFUL_PMC_XML,https://pmc.ncbi.nlm.nih.gov/articles/PMC7015033/,
+EV-0900,32077952,10.1093/milmed/usz483,https://pubmed.ncbi.nlm.nih.gov/32077952/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-0904,32074304,10.1093/milmed/usz303,https://pubmed.ncbi.nlm.nih.gov/32074304/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-0906,32073617,10.1093/milmed/usaa015,https://pubmed.ncbi.nlm.nih.gov/32073617/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-0919,31822912,10.1093/milmed/usz423,https://pubmed.ncbi.nlm.nih.gov/31822912/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-0930,31586604,10.1016/j.steroids.2019.108504,https://pubmed.ncbi.nlm.nih.gov/31586604/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-0936,31500652,10.1186/s12970-019-0308-5,https://pubmed.ncbi.nlm.nih.gov/31500652/,Verified — clear,,LAWFUL_PMC_XML,https://pmc.ncbi.nlm.nih.gov/articles/PMC6734287/,
+EV-0939,31419992,10.1186/s13012-019-0931-1,https://pubmed.ncbi.nlm.nih.gov/31419992/,Verified — clear,,LAWFUL_PMC_XML,https://pmc.ncbi.nlm.nih.gov/articles/PMC6698020/,

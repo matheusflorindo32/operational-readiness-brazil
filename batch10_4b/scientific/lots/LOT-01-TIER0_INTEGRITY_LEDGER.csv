@@ -1,0 +1,20 @@
+Evidence_ID,PMID,DOI,Primary_Metadata_Source,Integrity_Status,Integrity_Notices,Full_Text_Status,Full_Text_URL,Retrieval_Error
+EV-0052,42489479,10.1519/jsc.0000000000005436,https://pubmed.ncbi.nlm.nih.gov/42489479/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-1066,28919497,10.1016/j.jsams.2017.08.021,https://pubmed.ncbi.nlm.nih.gov/28919497/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-0140,41843415,10.1249/mss.0000000000003908,https://pubmed.ncbi.nlm.nih.gov/41843415/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-0164,41576259,10.1519/jsc.0000000000005275,https://pubmed.ncbi.nlm.nih.gov/41576259/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-0386,39568140,10.1080/15502783.2024.2427751,https://pubmed.ncbi.nlm.nih.gov/39568140/,Verified — clear,,LAWFUL_PMC_XML,https://pmc.ncbi.nlm.nih.gov/articles/PMC11583326/,
+EV-0426,39203882,10.3390/nu16162746,https://pubmed.ncbi.nlm.nih.gov/39203882/,Verified — clear,,LAWFUL_PMC_XML,https://pmc.ncbi.nlm.nih.gov/articles/PMC11357047/,
+EV-0521,38140393,10.3390/nu15245134,https://pubmed.ncbi.nlm.nih.gov/38140393/,Verified — clear,,LAWFUL_PMC_XML,https://pmc.ncbi.nlm.nih.gov/articles/PMC10745745/,
+EV-0667,36167789,10.1038/s41598-022-20315-3,https://pubmed.ncbi.nlm.nih.gov/36167789/,Verified — clear,,LAWFUL_PMC_XML,https://pmc.ncbi.nlm.nih.gov/articles/PMC9515111/,
+EV-0716,35247052,10.1093/milmed/usac040,https://pubmed.ncbi.nlm.nih.gov/35247052/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-0893,32203610,10.55460/ii7l-nfhc,https://pubmed.ncbi.nlm.nih.gov/32203610/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-0959,31096123,10.1016/j.sleep.2019.03.013,https://pubmed.ncbi.nlm.nih.gov/31096123/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-1062,28969343,10.1093/nutrit/nux009,https://pubmed.ncbi.nlm.nih.gov/28969343/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-1063,28969342,10.1093/nutrit/nux008,https://pubmed.ncbi.nlm.nih.gov/28969342/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-1064,28969341,10.1093/nutrit/nux007,https://pubmed.ncbi.nlm.nih.gov/28969341/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-1065,28969340,10.1093/nutrit/nux005,https://pubmed.ncbi.nlm.nih.gov/28969340/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-1122,27634607,10.3357/amhp.4468.2016,https://pubmed.ncbi.nlm.nih.gov/27634607/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-1457,31045682,10.1519/jsc.0000000000003177,https://pubmed.ncbi.nlm.nih.gov/31045682/,Yes,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-1458,28515947,10.1186/s40557-017-0169-9,https://pubmed.ncbi.nlm.nih.gov/28515947/,Yes,,LAWFUL_PMC_XML,https://pmc.ncbi.nlm.nih.gov/articles/PMC5434519/,
+EV-1462,,10.3389/fnut.2026.1893033,https://doi.org/10.3389/fnut.2026.1893033,Yes,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA

@@ -1,0 +1,21 @@
+Evidence_ID,PMID,DOI,Primary_Metadata_Source,Integrity_Status,Integrity_Notices,Full_Text_Status,Full_Text_URL,Retrieval_Error
+EV-1308,21442587,10.55460/556o-k7n2,https://pubmed.ncbi.nlm.nih.gov/21442587/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-1311,21218294,10.1080/15402002.2011.533994,https://pubmed.ncbi.nlm.nih.gov/21218294/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-1323,20117593,10.1016/j.amepre.2009.10.004,https://pubmed.ncbi.nlm.nih.gov/20117593/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-1325,20084692,,https://pubmed.ncbi.nlm.nih.gov/20084692/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-1338,18849873,10.1249/mss.0b013e3181892dc2,https://pubmed.ncbi.nlm.nih.gov/18849873/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-1340,18751589,10.7205/milmed.173.8.738,https://pubmed.ncbi.nlm.nih.gov/18751589/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-1353,17995535,10.1111/j.1708-8305.2007.00159.x,https://pubmed.ncbi.nlm.nih.gov/17995535/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-1377,15748014,10.1017/s1049023x00002132,https://pubmed.ncbi.nlm.nih.gov/15748014/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-1390,12502180,,https://pubmed.ncbi.nlm.nih.gov/12502180/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-1392,12502174,,https://pubmed.ncbi.nlm.nih.gov/12502174/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-1400,11413730,,https://pubmed.ncbi.nlm.nih.gov/11413730/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-1408,10736540,10.1016/s0749-3797(99)00171-3,https://pubmed.ncbi.nlm.nih.gov/10736540/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-1415,9640037,,https://pubmed.ncbi.nlm.nih.gov/9640037/,Verified — clear,CommentIn: Mil Med. 1998 Oct;163(10):659.,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-1417,9591616,,https://pubmed.ncbi.nlm.nih.gov/9591616/,Verified — clear,CommentIn: Aviat Space Environ Med. 1999 May;70(5):533-4.,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-1426,9006883,,https://pubmed.ncbi.nlm.nih.gov/9006883/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-1428,8502390,,https://pubmed.ncbi.nlm.nih.gov/8502390/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-1429,8479631,,https://pubmed.ncbi.nlm.nih.gov/8479631/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-1438,6528505,,https://pubmed.ncbi.nlm.nih.gov/6528505/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-1440,3593147,,https://pubmed.ncbi.nlm.nih.gov/3593147/,Verified — clear,,FULL_TEXT_UNAVAILABLE,,NO_PMCID_IN_PRIMARY_METADATA
+EV-1460,30862044,,https://pubmed.ncbi.nlm.nih.gov/30862044/,Yes,,LAWFUL_PMC_XML,https://pmc.ncbi.nlm.nih.gov/articles/PMC6427768/,
