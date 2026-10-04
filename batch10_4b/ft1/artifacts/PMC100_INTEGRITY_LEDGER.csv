@@ -1,0 +1,11 @@
+Evidence_ID,Integrity_Status,Integrity_Rationale,Full_Text_Reading_Status,HUMAN_CONFIRMATION
+EV-0386,INTEGRITY_CLEAR_AS_OF_2026-10-03,Current PubMed metadata retrieved during source discovery contained no editorial relation; this is date-bounded.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0426,INTEGRITY_CLEAR_AS_OF_2026-10-03,Current PubMed metadata retrieved during source discovery contained no editorial relation; this is date-bounded.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0521,INTEGRITY_CLEAR_AS_OF_2026-10-03,Current PubMed metadata retrieved during source discovery contained no editorial relation; this is date-bounded.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0667,INTEGRITY_CLEAR_AS_OF_2026-10-03,Current PubMed metadata retrieved during source discovery contained no editorial relation; this is date-bounded.,FULL_ARTICLE_BODY_READ,PENDING
+EV-1458,INTEGRITY_CLEAR_AS_OF_2026-10-03,Current PubMed metadata retrieved during source discovery contained no editorial relation; this is date-bounded.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0167,INTEGRITY_CLEAR_AS_OF_2026-09-17,"Pilot 03 PubMed XML audit found no indexed correction, retraction, update or expression-of-concern relation; date-bounded.",FULL_ARTICLE_BODY_READ_REUSED_PILOT03,PENDING
+EV-0252,INTEGRITY_CLEAR_AS_OF_2026-09-17,"Pilot 03 PubMed XML audit found no indexed correction, retraction, update or expression-of-concern relation; date-bounded.",FULL_ARTICLE_BODY_READ_REUSED_PILOT03,PENDING
+EV-0402,INTEGRITY_CLEAR_AS_OF_2026-10-03,Current PubMed metadata retrieved during source discovery contained no editorial relation; this is date-bounded.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0523,INTEGRITY_CLEAR_AS_OF_2026-10-03,Current PubMed metadata retrieved during source discovery contained no editorial relation; this is date-bounded.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0606,INTEGRITY_CLEAR_AS_OF_2026-10-03,Current PubMed metadata retrieved during source discovery contained no editorial relation; this is date-bounded.,XML_ABSTRACT_ONLY_NOT_FULL_TEXT,PENDING

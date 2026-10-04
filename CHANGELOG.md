@@ -3,6 +3,11 @@
 All notable project changes are documented here.
 
 ## [Unreleased] — 2026-10-03
+### Batch 10.4B-FT1 initial appraisal checkpoint
+- Began the deterministic PMC full-text appraisal at EV-0386 and completed the first ten-record checkpoint. Nine XML article bodies received bounded AI-provisional extraction, design-specific appraisal, integrity check, claim boundary, citation-fitness and decision records; EV-0167 and EV-0252 preserve and reference their Pilot 03 appraisal rather than silently duplicating it.
+- Detected that 15/100 records labelled with a PMC XML route have only abstract/fragment XML rather than an article body. They are fail-closed access/version holds, not scientific exclusions. The reusable body audit leaves 85/100 actual article bodies available and 76 unreviewed bodies after this checkpoint.
+- Kept all human fields pending and Claim-Ready at zero. No reference was replaced, no manuscript or CEF-v1 was changed, and no Zotero action, reimportation or merge occurred. Decision: `PARTIAL_GO` to FT1 lot 02.
+
 ### Batch 10.4B source discovery
 - Traversed all 285 reconciled saturation candidates in 15 ordered lots, beginning with the three contradictory and 16 replacement candidates. Recorded PubMed primary metadata provenance and lawful PMC XML availability without a Zotero write, reimport, merge, manuscript edit or CEF-v1 change.
 - Identified 100/285 (35.09%) lawful PMC XML routes and recorded 185/285 (64.91%) as access-pending. The latter are explicitly labelled `ACCESS_PENDING_NOT_SCIENTIFIC_EXCLUSION`, not excluded scientific evidence.

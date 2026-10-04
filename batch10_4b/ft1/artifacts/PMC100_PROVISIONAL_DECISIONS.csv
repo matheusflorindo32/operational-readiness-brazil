@@ -1,0 +1,11 @@
+Evidence_ID,Citation_Fitness,Provisional_Decision,AI_Qualified,HUMAN_CONFIRMATION,CLAIM_READY_PROVISIONAL,Prohibited_Inference
+EV-0386,PARTIAL_SUPPORT,PROVISIONAL_REPLACE_CANDIDATE,YES,PENDING,NO,Does not establish that astaxanthin improves occupational performance or cardiometabolic health in firefighters or Brazilian public safety.
+EV-0426,PARTIAL_SUPPORT,PROVISIONAL_REPLACE_CANDIDATE,YES,PENDING,NO,"Does not justify a general supplementation protocol, causal field-readiness claim, or direct transfer to Brazilian public safety."
+EV-0521,DIRECT_SUPPORT,PROVISIONAL_REPLACE_CANDIDATE,YES,PENDING,NO,"Does not show that protein/carbohydrate alone caused benefit, that every occupational task improved, or that results generalize to female firefighters or Brazilian agencies."
+EV-0667,DIRECT_SUPPORT,PROVISIONAL_REPLACE_CANDIDATE,YES,PENDING,NO,"Does not validate the test for Brazilian policing, establish combat readiness, or prove outcome prediction beyond this small infantry cohort."
+EV-1458,DIRECT_SUPPORT,PROVISIONAL_REPLACE_CANDIDATE,YES,PENDING,NO,"Does not quantify the effect of a particular Brazilian vest, prove injury prevention effects, or establish cognitive/marksmanship decrement in all settings."
+EV-0167,DIRECT_SUPPORT,PROVISIONAL_INCLUDE,YES,PENDING,NO,"Does not establish improved officer behavior, public safety, accountability, technology accuracy, causal organization-wide benefit or Brazilian applicability."
+EV-0252,DIRECT_SUPPORT,PROVISIONAL_INCLUDE,YES,PENDING,NO,"Does not establish prevalence across US policing, causal determinants of implementation success, innovation effectiveness or transferability to Brazil."
+EV-0402,CONTEXT_ONLY,CONTEXT_ONLY,YES,PENDING,NO,"Does not establish that the suggested volumes or thresholds improve health, performance or safety in firefighters or Brazilian public safety."
+EV-0523,DISCUSSION_ONLY,DISCUSSION_ONLY,YES,PENDING,NO,"Does not establish training effectiveness, fidelity, sustainability or outcome benefit and cannot replace the underlying initiative report."
+EV-0606,UNRESOLVED,UNRESOLVED,NO,PENDING,NO,"No finding, appraisal, claim or implementation conclusion may be inferred from the abstract-only XML."

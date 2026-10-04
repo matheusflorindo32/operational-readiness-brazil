@@ -19,6 +19,7 @@
 - **Full-text pilots:** 30/1,191 active candidates processed across three controlled batches (2.52%), including 30/383 active PMC-route candidates (7.83%); human confirmation and Claim-Ready remain zero.
 - **Batch 10.4B-R:** `CANONICAL_1484_LEDGER_PASS`. A Drive-authoritative LOOP 3× workbook was materialized into a versioned 1,484-row CSV; the 285-record full-text queue is reconciled and ready for its separate scientific-review gate.
 - **Batch 10.4B source discovery:** `PARTIAL_GO`. All 285 queue records have recorded primary metadata provenance; 100 have a lawful PMC XML route and 185 remain access-pending. No record has received final appraisal, reference selection, human confirmation, Claim-Ready status, or a manuscript change.
+- **Batch 10.4B-FT1:** `PARTIAL_GO` after 10/100 PMC-route records. Nine article bodies were read and one XML was abstract-only; a full source-body audit found 85 usable bodies and 15 XML fragments. All decisions remain AI-provisional and Claim-Ready remains zero.
 - **Primary journal positioning:** Strength & Conditioning Journal.
 
 > **Atleta tático é o ponto de partida, não o ponto final.**

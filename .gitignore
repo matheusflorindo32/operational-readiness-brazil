@@ -50,6 +50,7 @@ __pycache__/
 ~$*
 *.tmp
 *.bak
+/batch10_4b/ft1/staging/
 # Zotero databases, private pre-import snapshots and local backup files
 *.sqlite
 *.sqlite-*

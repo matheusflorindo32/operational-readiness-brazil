@@ -39,6 +39,22 @@ The required reconstruction is documented in
 O resultado e a limitação estão documentados em
 [`batch10_4b/BATCH10_4B_FINAL_REPORT.md`](../batch10_4b/BATCH10_4B_FINAL_REPORT.md).
 
+## Deep Evidence Batch 10.4B-FT1 — checkpoint 01 — 2026-10-03
+
+**Decision: PARTIAL_GO | 10/100 processados | Claim-Ready 0/10 | revisão humana 0/10.**
+
+- [x] Começo em `EV-0386` e ordem determinística do primeiro lote preservados.
+- [x] Nove corpos PMC lidos; extração, design, appraisal, risco de viés, integridade, claim fit e Red Team provisórios registrados.
+- [x] `EV-0167` e `EV-0252` reutilizam, com rastreabilidade, o appraisal do Pilot 03; não houve simulação de nova revisão humana.
+- [x] `EV-0606` bloqueado como XML apenas de resumo, sem inferência de resultado.
+- [x] Fonte PMC revalidada em 100/100: 85 corpos de artigo e 15 XML de resumo/fragmento.
+- [x] CEF-v1 e EV-1379 preservados; nenhum Zotero, merge, reimportação, exclusão científica ou mudança de manuscrito.
+- [ ] Appraisal FT1 completo — 10/100 (10,00%); 90 registros pendentes.
+- [ ] Corpos de artigo ainda elegíveis para leitura — 76/85 (89,41%) após o lote 01.
+- [ ] Decisão final de referências, saturação e v0.13 — bloqueadas.
+
+Veja [`batch10_4b/ft1/BATCH10_4B_FT1_FINAL_REPORT.md`](../batch10_4b/ft1/BATCH10_4B_FT1_FINAL_REPORT.md).
+
 ## Protocol and conceptual design
 - [x] Central title and tactical-athlete anchor retained
 - [x] Paradigm-shift rationale defined
