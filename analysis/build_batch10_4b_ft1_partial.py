@@ -30,6 +30,8 @@ def write_csv(name: str, fields: list[str], rows: list[dict[str, str]]) -> None:
 
 def main() -> int:
     decision_files = sorted(LOTS.glob("FT1-LOT-*_APPRAISAL.csv"))
+    if not decision_files:
+        raise SystemExit("No reviewed FT1 lot exists")
     decisions = [row for path in decision_files for row in read_csv(path)]
     staged = []
     for path in decision_files:
@@ -87,11 +89,28 @@ def main() -> int:
         by_domain[source["Domain"]] += 1
     coverage = [{"Domain": domain, "Reviewed_In_FT1": count, "Status": "PARTIAL_NOT_SATURATED", "Reason": "Only FT1 lot 01 has completed AI-provisional appraisal."} for domain, count in sorted(by_domain.items())]
     write_csv("PMC100_DOMAIN_COVERAGE.csv", list(coverage[0]), coverage)
-    full_body = sum(row["Full_Text_Reading_Status"] not in {"XML_ABSTRACT_ONLY_NOT_FULL_TEXT", "FULL_TEXT_INSUFFICIENT"} for row in decisions)
-    next_ids = {20: "EV-0115", 30: "EV-0195"}
-    checkpoint = [{"Lot": decision_files[-1].name.removesuffix("_APPRAISAL.csv"), "Eligible_PMC_Universe": 100, "Reviewed": len(decisions), "Remaining": 100 - len(decisions), "Full_Article_Body_Read": full_body, "XML_Abstract_Only": len(decisions) - full_body, "Provisional_Include": sum(row["Provisional_Decision"] == "PROVISIONAL_INCLUDE" for row in decisions), "Provisional_Replacement": sum(row["Provisional_Decision"] == "PROVISIONAL_REPLACE_CANDIDATE" for row in decisions), "Discussion_Only": sum(row["Provisional_Decision"] == "DISCUSSION_ONLY" for row in decisions), "Context_Only": sum(row["Provisional_Decision"] == "CONTEXT_ONLY" for row in decisions), "Unresolved": sum(row["Provisional_Decision"] in {"UNRESOLVED", "FULL_TEXT_INSUFFICIENT"} for row in decisions), "FCR_Candidates": 0, "Progress_Percent": f"{len(decisions):.2f}", "Next_Evidence_ID": next_ids.get(len(decisions), "RECOMPUTE_FROM_QUEUE"), "Gate": "PARTIAL_GO"}]
+    all_staged = []
+    for digest in sorted(STAGING.glob("FT1-LOT-*_FULL_TEXT_DIGEST.json")):
+        all_staged.extend(json.loads(digest.read_text(encoding="utf-8")))
+    all_staged.sort(key=lambda row: int(row["Lot_Order"]))
+    if len(all_staged) != 100 or len({row["Evidence_ID"] for row in all_staged}) != 100:
+        raise SystemExit("FT1 staged-universe identity mismatch")
+    reviewed_ids = set(by_id)
+    next_evidence_id = next((row["Evidence_ID"] for row in all_staged if row["Evidence_ID"] not in reviewed_ids), "NONE_ALL_100_DOCUMENTED")
+    checkpoint = []
+    cumulative = []
+    for path in decision_files:
+        lot_rows = read_csv(path)
+        cumulative.extend(lot_rows)
+        c_count = len(cumulative)
+        c_full_body = sum(row["Full_Text_Reading_Status"] not in {"XML_ABSTRACT_ONLY_NOT_FULL_TEXT", "FULL_TEXT_INSUFFICIENT"} for row in cumulative)
+        c_decisions = Counter(row["Provisional_Decision"] for row in cumulative)
+        c_ids = {row["Evidence_ID"] for row in cumulative}
+        c_next = next((row["Evidence_ID"] for row in all_staged if row["Evidence_ID"] not in c_ids), "NONE_ALL_100_DOCUMENTED")
+        checkpoint.append({"Lot": path.name.removesuffix("_APPRAISAL.csv"), "Evidence_IDs_Processed": "|".join(row["Evidence_ID"] for row in lot_rows), "Eligible_PMC_Universe": 100, "Reviewed": c_count, "Remaining": 100 - c_count, "Scientifically_Appraised": c_full_body, "Full_Text_Insufficient_or_Unresolved": c_count - c_full_body, "Provisional_Include": c_decisions["PROVISIONAL_INCLUDE"], "Provisional_Replacement": c_decisions["PROVISIONAL_REPLACE_CANDIDATE"], "Provisional_Contradictory": c_decisions["PROVISIONAL_CONTRADICTORY_INCLUDE"], "Discussion_Only": c_decisions["DISCUSSION_ONLY"], "Context_Only": c_decisions["CONTEXT_ONLY"], "Redundant_Exclude": c_decisions["REDUNDANT_EXCLUDE"], "Quality_Exclude": c_decisions["QUALITY_EXCLUDE"], "Misaligned_Exclude": c_decisions["MISALIGNED_EXCLUDE"], "Integrity_Blocks": c_decisions["INTEGRITY_BLOCK"], "Unresolved": c_decisions["UNRESOLVED"] + c_decisions["FULL_TEXT_INSUFFICIENT"], "FCR_Candidates": 0, "Progress_Percent": f"{c_count:.2f}", "LAST_REVIEWED_EV_ID": lot_rows[-1]["Evidence_ID"], "NEXT_UNREVIEWED_EV_ID": c_next, "Gate": "PARTIAL_GO"})
     write_csv("PMC100_CHECKPOINT_LEDGER.csv", list(checkpoint[0]), checkpoint)
-    manifest = {"phase": "BATCH 10.4B-FT1", "state": "PARTIAL_GO", "eligible_pmc_xml": 100, "reviewed": len(decisions), "full_article_body_read": full_body, "xml_abstract_only": len(decisions) - full_body, "remaining": 100 - len(decisions), "claim_ready_provisional": 0, "human_confirmation": 0, "cef_v1_changed": False, "ev_1379": "FAIL_CLOSED", "next_evidence_id": checkpoint[0]["Next_Evidence_ID"]}
+    full_body = sum(row["Full_Text_Reading_Status"] not in {"XML_ABSTRACT_ONLY_NOT_FULL_TEXT", "FULL_TEXT_INSUFFICIENT"} for row in decisions)
+    manifest = {"phase": "BATCH 10.4B-FT1", "state": "PARTIAL_GO", "eligible_pmc_xml": 100, "reviewed": len(decisions), "full_article_body_read": full_body, "xml_abstract_only": len(decisions) - full_body, "remaining": 100 - len(decisions), "claim_ready_provisional": 0, "human_confirmation": 0, "cef_v1_changed": False, "ev_1379": "FAIL_CLOSED", "next_evidence_id": next_evidence_id}
     (OUT / "BATCH10_4B_FT1_MANIFEST.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(manifest, ensure_ascii=False))
     return 0

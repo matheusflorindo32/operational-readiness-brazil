@@ -1,13 +1,13 @@
 # Batch 10.4B-FT1 — checkpoint de appraisal por texto completo
 
-**Data:** 2026-10-03
-**Commit de entrada:** `5cdc6c34e9edc18833c8b9f57ec1c21d64bb0683`
+**Data:** 2026-10-05
+**Commit de entrada:** `136d30d22161118f27a1d2bc00fdb9d27388db84`
 **Estado:** `PARTIAL_GO`
 
 ## Escopo concluído neste checkpoint
 
-Os três primeiros lotes determinísticos iniciaram em `EV-0386` e percorreram 30 registros
-da fila PMC. Vinte e sete têm corpo de artigo no XML e receberam leitura, extração
+Os cinco primeiros lotes determinísticos iniciaram em `EV-0386` e percorreram 50 registros
+da fila PMC. Quarenta e seis têm corpo de artigo no XML e receberam leitura, extração
 delimitada, identificação de desenho, appraisal provisório, avaliação de
 integridade, citation fitness, decisão provisória e Red Team de fronteira. Dois
 (`EV-0167` e `EV-0252`) reutilizam, com referência explícita, o appraisal
@@ -26,9 +26,9 @@ A verificação de todos os 100 arquivos XML já identificados encontrou:
 |---|---:|---:|
 | Corpo de artigo suficiente para leitura | 85 | 85,00% |
 | XML somente de resumo ou fragmento | 15 | 15,00% |
-| Corpos com leitura FT1 nos lotes 01-03 | 27 | 27,00% |
-| Registros processados, incluindo XML incompleto fail-closed | 30 | 30,00% |
-| Restantes sem appraisal FT1 | 70 | 70,00% |
+| Corpos com leitura FT1 nos lotes 01-05 | 46 | 46,00% |
+| Registros processados, incluindo XML incompleto fail-closed | 50 | 50,00% |
+| Restantes sem appraisal FT1 | 50 | 50,00% |
 
 Os 15 XML incompletos não são exclusões científicas e não alteram os 185
 registros que já estavam sem rota lícita identificada. Eles formam uma
@@ -39,12 +39,12 @@ subfila adicional de acesso/versão a ser resolvida legalmente.
 | Decisão | n |
 |---|---:|
 | `PROVISIONAL_REPLACE_CANDIDATE` | 5 |
-| `PROVISIONAL_INCLUDE` | 9 |
-| `CONTEXT_ONLY` | 7 |
-| `DISCUSSION_ONLY` | 4 |
+| `PROVISIONAL_INCLUDE` | 16 |
+| `CONTEXT_ONLY` | 14 |
+| `DISCUSSION_ONLY` | 8 |
 | `QUALITY_EXCLUDE` | 1 |
-| `MISALIGNED_EXCLUDE` | 1 |
-| `FULL_TEXT_INSUFFICIENT` | 2 |
+| `MISALIGNED_EXCLUDE` | 2 |
+| `FULL_TEXT_INSUFFICIENT` | 3 |
 | `UNRESOLVED` | 1 |
 
 As cinco substituições são somente comparações candidatas: quatro ficaram
@@ -67,7 +67,16 @@ alteração de manuscrito, escrita Zotero, reimportação ou merge.
 
 ## Próxima ação exata
 
-Prosseguir pelo lote 04 em `EV-0195`, com os mesmos controles. Dos 70 registros
-restantes, 58 têm corpo de artigo já validado e 12 aguardam fonte ou versão com
-corpo completo. `PMC100_FULL_TEXT_APPRAISAL_COMPLETE`, saturação de referência,
+O lote 04 foi integrado a partir de `EV-0195`: um protocolo, duas revisões sem
+método reprodutível suficiente, uma coorte policial, duas análises transversais,
+uma análise de bombeiros, um XML sem corpo e um ensaio crossover. A coorte policial,
+a análise de estresse militar, a análise de bombeiros e o ensaio nutricional foram
+mantidos somente como candidatos provisórios, com limites explícitos e sem liberação
+de claim. O lote 05 integrou uma simulação não ocupacional, um protocolo de reabilitação,
+evidência observacional de bombeiros e militares, análise de política, consenso Delphi e
+um experimento com população não bombeira. Preservou resultados nulos e recusou usar a
+simulação não ocupacional como evidência de bombeiros. Prosseguir pelo lote 06 em
+`EV-0390`, com os mesmos controles. Dos 50 registros restantes, 39 têm corpo de artigo
+já validado e 11 aguardam fonte ou versão
+com corpo completo. `PMC100_FULL_TEXT_APPRAISAL_COMPLETE`, saturação de referência,
 v0.13 e aprovação científica permanecem bloqueados.

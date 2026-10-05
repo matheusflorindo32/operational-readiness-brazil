@@ -1,2 +1,6 @@
-Lot,Eligible_PMC_Universe,Reviewed,Remaining,Full_Article_Body_Read,XML_Abstract_Only,Provisional_Include,Provisional_Replacement,Discussion_Only,Context_Only,Unresolved,FCR_Candidates,Progress_Percent,Next_Evidence_ID,Gate
-FT1-LOT-03,100,30,70,27,3,9,5,4,7,3,0,30.00,EV-0195,PARTIAL_GO
+Lot,Evidence_IDs_Processed,Eligible_PMC_Universe,Reviewed,Remaining,Scientifically_Appraised,Full_Text_Insufficient_or_Unresolved,Provisional_Include,Provisional_Replacement,Provisional_Contradictory,Discussion_Only,Context_Only,Redundant_Exclude,Quality_Exclude,Misaligned_Exclude,Integrity_Blocks,Unresolved,FCR_Candidates,Progress_Percent,LAST_REVIEWED_EV_ID,NEXT_UNREVIEWED_EV_ID,Gate
+FT1-LOT-01,EV-0386|EV-0426|EV-0521|EV-0667|EV-1458|EV-0167|EV-0252|EV-0402|EV-0523|EV-0606,100,10,90,9,1,2,5,0,1,1,0,0,0,0,1,0,10.00,EV-0606,EV-0837,PARTIAL_GO
+FT1-LOT-02,EV-0837|EV-0846|EV-1301|EV-0014|EV-0045|EV-0068|EV-0076|EV-0092|EV-0103|EV-0114,100,20,80,18,2,6,5,0,2,5,0,0,0,0,2,0,20.00,EV-0114,EV-0115,PARTIAL_GO
+FT1-LOT-03,EV-0115|EV-0143|EV-0146|EV-0151|EV-0153|EV-0156|EV-0161|EV-0178|EV-0179|EV-0183,100,30,70,27,3,9,5,0,4,7,0,1,1,0,3,0,30.00,EV-0183,EV-0195,PARTIAL_GO
+FT1-LOT-04,EV-0195|EV-0196|EV-0198|EV-0200|EV-0204|EV-0230|EV-0236|EV-0264|EV-0289|EV-0294,100,40,60,36,4,13,5,0,6,10,0,1,1,0,4,0,40.00,EV-0294,EV-0295,PARTIAL_GO
+FT1-LOT-05,EV-0295|EV-0311|EV-0315|EV-0322|EV-0337|EV-0370|EV-0373|EV-0377|EV-0383|EV-0388,100,50,50,46,4,16,5,0,8,14,0,1,2,0,4,0,50.00,EV-0388,EV-0390,PARTIAL_GO

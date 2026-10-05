@@ -29,3 +29,23 @@ EV-0161,INTEGRITY_CLEAR_AS_OF_2026-10-04,No indexed editorial signal in primary 
 EV-0178,INTEGRITY_CLEAR_AS_OF_2026-10-04,No indexed editorial signal in primary metadata; date-bounded.,FULL_ARTICLE_BODY_READ,PENDING
 EV-0179,INTEGRITY_CLEAR_AS_OF_2026-10-04,No indexed editorial signal in primary metadata; date-bounded.,FULL_ARTICLE_BODY_READ,PENDING
 EV-0183,INTEGRITY_CLEAR_AS_OF_2026-10-04,No indexed editorial signal in primary metadata; date-bounded.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0195,INTEGRITY_CLEAR_AS_OF_2026-10-05,PubMed primary metadata labels Clinical Trial Protocol; no editorial notice identified in the source reviewed.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0196,INTEGRITY_CLEAR_AS_OF_2026-10-05,PubMed primary metadata labels Review; no editorial notice identified in the source reviewed.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0198,INTEGRITY_CLEAR_AS_OF_2026-10-05,PubMed primary metadata confirms journal article; no editorial notice identified in the source reviewed.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0200,INTEGRITY_CLEAR_AS_OF_2026-10-05,PubMed primary metadata labels Review; no editorial notice identified in the source reviewed.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0204,INTEGRITY_CLEAR_AS_OF_2026-10-05,PubMed primary metadata and publisher DOI identify the prospective cohort; no editorial notice identified in the source reviewed.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0230,INTEGRITY_CLEAR_AS_OF_2026-10-05,PubMed primary metadata confirms journal article; no editorial notice identified in the source reviewed.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0236,INTEGRITY_CLEAR_AS_OF_2026-10-05,PubMed primary metadata confirms journal article; no editorial notice identified in the source reviewed.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0264,INTEGRITY_CLEAR_AS_OF_2026-10-05,PubMed primary metadata confirms journal article; no editorial notice identified in the source reviewed.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0289,INTEGRITY_CLEAR_AS_OF_2026-10-05,PubMed primary metadata confirms indexed record; no editorial notice identified in the source reviewed.,XML_ABSTRACT_ONLY_NOT_FULL_TEXT,PENDING
+EV-0294,INTEGRITY_CLEAR_AS_OF_2026-10-05,PubMed primary metadata labels Randomized Controlled Trial; no editorial notice identified in the source reviewed.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0295,INTEGRITY_CLEAR_AS_OF_2026-10-05,No editorial notice identified in the PMC source reviewed.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0311,INTEGRITY_CLEAR_AS_OF_2026-10-05,PubMed primary metadata labels Clinical Trial Protocol; no editorial notice identified in the source reviewed.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0315,INTEGRITY_CLEAR_AS_OF_2026-10-05,No editorial notice identified in the PMC source reviewed.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0322,INTEGRITY_CLEAR_AS_OF_2026-10-05,No editorial notice identified in the PMC source reviewed.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0337,INTEGRITY_CLEAR_AS_OF_2026-10-05,No editorial notice identified in the PMC source reviewed.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0370,INTEGRITY_CLEAR_AS_OF_2026-10-05,No editorial notice identified in the PMC source reviewed.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0373,INTEGRITY_CLEAR_AS_OF_2026-10-05,No editorial notice identified in the PMC source reviewed.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0377,INTEGRITY_CLEAR_AS_OF_2026-10-05,No editorial notice identified in the PMC source reviewed.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0383,INTEGRITY_CLEAR_AS_OF_2026-10-05,No editorial notice identified in the PMC source reviewed.,FULL_ARTICLE_BODY_READ,PENDING
+EV-0388,INTEGRITY_CLEAR_AS_OF_2026-10-05,No editorial notice identified in the PMC source reviewed.,FULL_ARTICLE_BODY_READ,PENDING

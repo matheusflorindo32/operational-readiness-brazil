@@ -39,9 +39,9 @@ The required reconstruction is documented in
 O resultado e a limitação estão documentados em
 [`batch10_4b/BATCH10_4B_FINAL_REPORT.md`](../batch10_4b/BATCH10_4B_FINAL_REPORT.md).
 
-## Deep Evidence Batch 10.4B-FT1 — checkpoint 01 — 2026-10-03
+## Deep Evidence Batch 10.4B-FT1 — checkpoint 05 — 2026-10-05
 
-**Decision: PARTIAL_GO | 30/100 processados | Claim-Ready 0/30 | revisão humana 0/30.**
+**Decision: PARTIAL_GO | 50/100 processados | Claim-Ready 0/50 | revisão humana 0/50.**
 
 - [x] Começo em `EV-0386` e ordem determinística do primeiro lote preservados.
 - [x] Nove corpos PMC lidos; extração, design, appraisal, risco de viés, integridade, claim fit e Red Team provisórios registrados.
@@ -49,9 +49,11 @@ O resultado e a limitação estão documentados em
 - [x] `EV-0606` bloqueado como XML apenas de resumo, sem inferência de resultado.
 - [x] Fonte PMC revalidada em 100/100: 85 corpos de artigo e 15 XML de resumo/fragmento.
 - [x] CEF-v1 e EV-1379 preservados; nenhum Zotero, merge, reimportação, exclusão científica ou mudança de manuscrito.
-- [x] Lotes 02-03 concluídos de `EV-0837` a `EV-0183`, sem reprocessar o lote 01.
-- [ ] Appraisal FT1 completo — 30/100 (30,00%); 70 registros pendentes.
-- [ ] Corpos de artigo ainda elegíveis para leitura — 58/85 (68,24%) após os lotes 01-03.
+- [x] Lotes 02-05 concluídos de `EV-0837` a `EV-0388`, sem reprocessar os lotes anteriores.
+- [x] Lote 04 iniciou em `EV-0195`; preservou um protocolo e duas revisões sem método reprodutível como não evidência de efetividade, e classificou `EV-0289` como fonte insuficiente.
+- [x] Lote 05 preservou os resultados nulos e recusou usar simulações em não bombeiros como evidência de bombeiros.
+- [ ] Appraisal FT1 completo — 50/100 (50,00%); 50 registros pendentes.
+- [ ] Corpos de artigo ainda elegíveis para leitura — 39/85 (45,88%) após os lotes 01-05.
 - [ ] Decisão final de referências, saturação e v0.13 — bloqueadas.
 
 Veja [`batch10_4b/ft1/BATCH10_4B_FT1_FINAL_REPORT.md`](../batch10_4b/ft1/BATCH10_4B_FT1_FINAL_REPORT.md).
