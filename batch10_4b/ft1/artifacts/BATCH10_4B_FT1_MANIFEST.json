@@ -1,14 +1,14 @@
 {
   "phase": "BATCH 10.4B-FT1",
-  "state": "PARTIAL_GO",
+  "state": "PMC100_FULL_TEXT_APPRAISAL_COMPLETE",
   "eligible_pmc_xml": 100,
-  "reviewed": 70,
-  "full_article_body_read": 63,
-  "xml_abstract_only": 7,
-  "remaining": 30,
+  "reviewed": 100,
+  "full_article_body_read": 85,
+  "xml_abstract_only": 15,
+  "remaining": 0,
   "claim_ready_provisional": 0,
   "human_confirmation": 0,
   "cef_v1_changed": false,
   "ev_1379": "FAIL_CLOSED",
-  "next_evidence_id": "EV-0655"
+  "next_evidence_id": "NONE_ALL_100_DOCUMENTED"
 }

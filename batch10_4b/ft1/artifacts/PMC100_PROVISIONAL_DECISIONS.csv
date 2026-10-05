@@ -7,7 +7,7 @@ EV-1458,DIRECT_SUPPORT,PROVISIONAL_REPLACE_CANDIDATE,YES,PENDING,NO,"Does not qu
 EV-0167,DIRECT_SUPPORT,PROVISIONAL_INCLUDE,YES,PENDING,NO,"Does not establish improved officer behavior, public safety, accountability, technology accuracy, causal organization-wide benefit or Brazilian applicability."
 EV-0252,DIRECT_SUPPORT,PROVISIONAL_INCLUDE,YES,PENDING,NO,"Does not establish prevalence across US policing, causal determinants of implementation success, innovation effectiveness or transferability to Brazil."
 EV-0402,CONTEXT_ONLY,CONTEXT_ONLY,YES,PENDING,NO,"Does not establish that the suggested volumes or thresholds improve health, performance or safety in firefighters or Brazilian public safety."
-EV-0523,DISCUSSION_ONLY,DISCUSSION_ONLY,YES,PENDING,NO,"Does not establish training effectiveness, fidelity, sustainability or outcome benefit and cannot replace the underlying initiative report."
+EV-0523,UNRESOLVED,FULL_TEXT_INSUFFICIENT,NO,PENDING,NO,Does not release an implementation or effectiveness claim.
 EV-0606,UNRESOLVED,UNRESOLVED,NO,PENDING,NO,"No finding, appraisal, claim or implementation conclusion may be inferred from the abstract-only XML."
 EV-0837,CONTEXT_ONLY,CONTEXT_ONLY,YES,PENDING,NO,Does not establish that a military HIV portfolio improves public-safety readiness or transfers to Brazil.
 EV-0846,UNRESOLVED,FULL_TEXT_INSUFFICIENT,NO,PENDING,NO,"No prediction, heat-readiness or operational recommendation may be inferred."
@@ -69,3 +69,33 @@ EV-0640,UNRESOLVED,FULL_TEXT_INSUFFICIENT,NO,PENDING,NO,Does not release fitness
 EV-0641,DISCUSSION_ONLY,DISCUSSION_ONLY,YES,PENDING,NO,Does not validate risk or return-to-duty assessment.
 EV-0643,PARTIAL_SUPPORT,PROVISIONAL_INCLUDE,YES,PENDING,NO,Does not establish that the screen predicts safe return to duty.
 EV-0650,CONTEXT_ONLY,CONTEXT_ONLY,YES,PENDING,NO,Does not validate a predictive selection or readiness model.
+EV-0655,CONTEXT_ONLY,CONTEXT_ONLY,YES,PENDING,NO,No causal or threshold inference.
+EV-0663,DISCUSSION_ONLY,DISCUSSION_ONLY,YES,PENDING,NO,No intervention effect.
+EV-0670,PARTIAL_SUPPORT,PROVISIONAL_INCLUDE,YES,PENDING,NO,No definitive operational-performance claim.
+EV-0681,CONTEXT_ONLY,CONTEXT_ONLY,YES,PENDING,NO,Not direct evidence of Brazilian operational effect.
+EV-0682,PARTIAL_SUPPORT,PROVISIONAL_INCLUDE,YES,PENDING,NO,No causal supplement or screening claim.
+EV-0684,UNRESOLVED,FULL_TEXT_INSUFFICIENT,NO,PENDING,NO,No claim released.
+EV-0705,CONTEXT_ONLY,CONTEXT_ONLY,YES,PENDING,NO,No broad readiness-effect inference.
+EV-0721,PARTIAL_SUPPORT,PROVISIONAL_INCLUDE,YES,PENDING,NO,No causal or prevention-effect claim.
+EV-0734,PARTIAL_SUPPORT,PROVISIONAL_INCLUDE,YES,PENDING,NO,No universal fitness threshold.
+EV-0749,MISALIGNED,MISALIGNED_EXCLUDE,YES,PENDING,NO,Not evidence for present readiness claims.
+EV-0756,CONTEXT_ONLY,CONTEXT_ONLY,YES,PENDING,NO,No prevention-effect claim.
+EV-0760,CONTEXT_ONLY,CONTEXT_ONLY,YES,PENDING,NO,No causal nutrition claim.
+EV-0786,UNRESOLVED,FULL_TEXT_INSUFFICIENT,NO,PENDING,NO,No claim released.
+EV-0799,PARTIAL_SUPPORT,PROVISIONAL_INCLUDE,YES,PENDING,NO,No long-term readiness claim.
+EV-0823,CONTEXT_ONLY,CONTEXT_ONLY,YES,PENDING,NO,No readiness or intervention effect.
+EV-0832,UNRESOLVED,FULL_TEXT_INSUFFICIENT,NO,PENDING,NO,No claim released.
+EV-0857,CONTEXT_ONLY,CONTEXT_ONLY,YES,PENDING,NO,No causal occupational inference.
+EV-0874,CONTEXT_ONLY,CONTEXT_ONLY,YES,PENDING,NO,No performance or intervention effect.
+EV-0878,UNRESOLVED,FULL_TEXT_INSUFFICIENT,NO,PENDING,NO,No claim released.
+EV-0899,UNRESOLVED,FULL_TEXT_INSUFFICIENT,NO,PENDING,NO,No claim released.
+EV-0936,CONTEXT_ONLY,CONTEXT_ONLY,YES,PENDING,NO,No causal or supplementation claim.
+EV-0939,DISCUSSION_ONLY,DISCUSSION_ONLY,YES,PENDING,NO,No causal program-effect claim.
+EV-0960,PARTIAL_SUPPORT,PROVISIONAL_INCLUDE,YES,PENDING,NO,No definitive program-effect claim.
+EV-1026,PARTIAL_SUPPORT,PROVISIONAL_INCLUDE,YES,PENDING,NO,No causal workload or prevention claim.
+EV-1110,UNRESOLVED,FULL_TEXT_INSUFFICIENT,NO,PENDING,NO,No claim released.
+EV-1128,PARTIAL_SUPPORT,PROVISIONAL_INCLUDE,YES,PENDING,NO,No causal prevention claim.
+EV-1178,UNRESOLVED,FULL_TEXT_INSUFFICIENT,NO,PENDING,NO,No claim released.
+EV-1460,PARTIAL_SUPPORT,PROVISIONAL_INCLUDE,YES,PENDING,NO,No Brazil-specific or causal organizational claim.
+EV-1461,PARTIAL_SUPPORT,PROVISIONAL_INCLUDE,YES,PENDING,NO,No causal or Brazil-specific claim.
+EV-1467,PARTIAL_SUPPORT,PROVISIONAL_INCLUDE,YES,PENDING,NO,Does not establish causal occupational effect or intervention benefit.

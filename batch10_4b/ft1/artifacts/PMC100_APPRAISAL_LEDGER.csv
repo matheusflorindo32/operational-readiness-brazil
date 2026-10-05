@@ -7,7 +7,7 @@ EV-1458,Systematic review,AMSTAR 2,LOW_CONFIDENCE,Review documents search and PR
 EV-0167,Natural experiment with cross-sectional surveys and adjusted/IV analyses,JBI Quasi-Experimental Studies,SOME_CONCERNS,"Reused from Pilot 03: no randomized department allocation, no baseline primary outcomes and residual department confounding remain.",FULL_ARTICLE_BODY_READ_REUSED_PILOT03,YES,PENDING
 EV-0252,Quantitative descriptive convenience survey,MMAT Quantitative Descriptive,SOME_CONCERNS,"Reused from Pilot 03: convenience sampling, no computable response rate and uncertain instrument validation limit representativeness.",FULL_ARTICLE_BODY_READ_REUSED_PILOT03,YES,PENDING
 EV-0402,Narrative review,SANRA,SOME_CONCERNS,Narrative synthesis offers a transparent practical discussion but does not provide a reproducible systematic-effect estimate; author states firefighter RCT evidence is absent.,FULL_ARTICLE_BODY_READ,YES,PENDING
-EV-0523,Editorial commentary,JBI Text and Opinion Checklist,NOT_APPLICABLE_FOR_EFFECTIVENESS,"The XML body is a commentary on another initiative, not primary outcome research; it supplies no study-level effect estimate for this project.",FULL_ARTICLE_BODY_READ,YES,PENDING
+EV-0523,Editorial commentary,NOT_APPLICABLE_UNTIL_FULL_BODY_AVAILABLE,UNRESOLVED,The definitive source-body audit classifies the 446-word XML as abstract/fragment only; earlier commentary handling is superseded to keep the closing gate fail-closed.,XML_ABSTRACT_ONLY_NOT_FULL_TEXT,NO,PENDING
 EV-0606,Mixed-methods implementation evaluation,NOT_APPLICABLE_UNTIL_FULL_BODY_AVAILABLE,UNRESOLVED,"PMC XML contains article metadata and abstract but no body; design, methods, results tables and limitations were not appraised.",XML_ABSTRACT_ONLY_NOT_FULL_TEXT,NO,PENDING
 EV-0837,Narrative implementation-science portfolio review,SANRA,SOME_CONCERNS,Descriptive portfolio review; no reproducible comparative effect estimate for the implementation strategies presented.,FULL_ARTICLE_BODY_READ,YES,PENDING
 EV-0846,Operational heat-acclimatization study,NOT_APPLICABLE_UNTIL_FULL_BODY_AVAILABLE,UNRESOLVED,"Validated PMC XML has no article body, methods, results tables or limitations.",XML_ABSTRACT_ONLY_NOT_FULL_TEXT,NO,PENDING
@@ -69,3 +69,33 @@ EV-0640,Retrospective cohort,NOT_APPLICABLE_UNTIL_FULL_BODY_AVAILABLE,UNRESOLVED
 EV-0641,Prospective observational protocol,SPIRIT protocol completeness check,NOT_APPLICABLE_FOR_EFFECT_ESTIMATE,Multi-centre assessment-development protocol has no outcomes.,FULL_ARTICLE_BODY_READ,YES,PENDING
 EV-0643,Reliability study,COSMIN reliability criteria,SOME_CONCERNS,Eight simulated RTW tasks were rated by a mixed occupational group; reliability does not validate clinical or duty outcome prediction.,FULL_ARTICLE_BODY_READ,YES,PENDING
 EV-0650,Cross-sectional predictive modelling study,JBI Analytical Cross-Sectional Checklist,CRITICALLY_LOW,Fourteen male firefighters and multiple predictors leave substantial overfitting risk.,FULL_ARTICLE_BODY_READ,YES,PENDING
+EV-0655,Cross-sectional descriptive study,JBI Analytical Cross-Sectional Checklist,SOME_CONCERNS,Extreme-performer sample; descriptive design.,FULL_ARTICLE_BODY_READ,YES,PENDING
+EV-0663,Implementation framework,Framework appraisal,SOME_CONCERNS,Framework-development article without effectiveness outcome.,FULL_ARTICLE_BODY_READ,YES,PENDING
+EV-0670,Feasibility intervention study,JBI Quasi-Experimental Checklist,SOME_CONCERNS,Feasibility design and limited sample constrain effectiveness claims.,FULL_ARTICLE_BODY_READ,YES,PENDING
+EV-0681,Position stand,Position-statement appraisal,SOME_CONCERNS,Expert synthesis rather than primary-effect study.,FULL_ARTICLE_BODY_READ,YES,PENDING
+EV-0682,Cross-sectional observational study,JBI Analytical Cross-Sectional Checklist,SOME_CONCERNS,Associational design cannot establish supplementation or body-composition causality.,FULL_ARTICLE_BODY_READ,YES,PENDING
+EV-0684,Qualitative study,NOT_APPLICABLE_UNTIL_FULL_BODY_AVAILABLE,UNRESOLVED,No Methods/Results body in validated XML.,XML_ABSTRACT_ONLY_NOT_FULL_TEXT,NO,PENDING
+EV-0705,Experimental stress study,JBI Quasi-Experimental Checklist,SOME_CONCERNS,Study-specific stress paradigm limits operational generalization.,FULL_ARTICLE_BODY_READ,YES,PENDING
+EV-0721,Retrospective cohort,JBI Cohort Checklist,SOME_CONCERNS,Administrative cohort supports risk association but residual confounding remains.,FULL_ARTICLE_BODY_READ,YES,PENDING
+EV-0734,Prospective cohort,JBI Cohort Checklist,SOME_CONCERNS,Specific march context and sample constrain generalization.,FULL_ARTICLE_BODY_READ,YES,PENDING
+EV-0749,Systematic review,AMSTAR 2,SOME_CONCERNS,TCCC evidence/gap review is clinical and not central to operational-readiness claims.,FULL_ARTICLE_BODY_READ,YES,PENDING
+EV-0756,Population cohort,JBI Cohort Checklist,SOME_CONCERNS,"Administrative cohort supports recurrence description, not causality.",FULL_ARTICLE_BODY_READ,YES,PENDING
+EV-0760,Cross-sectional pilot,JBI Analytical Cross-Sectional Checklist,CRITICALLY_LOW,Pilot self-report study has limited precision.,FULL_ARTICLE_BODY_READ,YES,PENDING
+EV-0786,Retrospective cohort,NOT_APPLICABLE_UNTIL_FULL_BODY_AVAILABLE,UNRESOLVED,No Methods/Results body in validated XML.,XML_ABSTRACT_ONLY_NOT_FULL_TEXT,NO,PENDING
+EV-0799,Randomized crossover trial,RoB 2,SOME_CONCERNS,Short-term task study limits operational generalization.,FULL_ARTICLE_BODY_READ,YES,PENDING
+EV-0823,Cross-sectional recruit study,JBI Analytical Cross-Sectional Checklist,SOME_CONCERNS,Recruit sample and autonomic marker associations are indirect.,FULL_ARTICLE_BODY_READ,YES,PENDING
+EV-0832,Clinical trial protocol,NOT_APPLICABLE_UNTIL_FULL_BODY_AVAILABLE,UNRESOLVED,No Methods/Results body in validated XML.,XML_ABSTRACT_ONLY_NOT_FULL_TEXT,NO,PENDING
+EV-0857,Cross-sectional study,JBI Analytical Cross-Sectional Checklist,SOME_CONCERNS,Occupational comparison is observational.,FULL_ARTICLE_BODY_READ,YES,PENDING
+EV-0874,Cross-sectional dietary assessment,JBI Analytical Cross-Sectional Checklist,SOME_CONCERNS,Dietary assessment is self-reported and cross-sectional.,FULL_ARTICLE_BODY_READ,YES,PENDING
+EV-0878,Longitudinal cohort,NOT_APPLICABLE_UNTIL_FULL_BODY_AVAILABLE,UNRESOLVED,No Methods/Results body in validated XML.,XML_ABSTRACT_ONLY_NOT_FULL_TEXT,NO,PENDING
+EV-0899,Case report,NOT_APPLICABLE_UNTIL_FULL_BODY_AVAILABLE,UNRESOLVED,No Methods/Results body in validated XML.,XML_ABSTRACT_ONLY_NOT_FULL_TEXT,NO,PENDING
+EV-0936,Cross-sectional study,JBI Analytical Cross-Sectional Checklist,SOME_CONCERNS,Associational tactical-athlete sample cannot establish vitamin-D treatment effect.,FULL_ARTICLE_BODY_READ,YES,PENDING
+EV-0939,Scoping review,PRISMA-ScR appraisal,SOME_CONCERNS,Maps implementation literature without pooled effectiveness estimation.,FULL_ARTICLE_BODY_READ,YES,PENDING
+EV-0960,Pilot intervention study,JBI Quasi-Experimental Checklist,SOME_CONCERNS,Pilot study requires replication and controlled effectiveness testing.,FULL_ARTICLE_BODY_READ,YES,PENDING
+EV-1026,Cross-sectional occupational study,JBI Analytical Cross-Sectional Checklist,SOME_CONCERNS,Self-reported workload and injury data limit temporal inference.,FULL_ARTICLE_BODY_READ,YES,PENDING
+EV-1110,Review,NOT_APPLICABLE_UNTIL_FULL_BODY_AVAILABLE,UNRESOLVED,No Methods/Results body in validated XML.,XML_ABSTRACT_ONLY_NOT_FULL_TEXT,NO,PENDING
+EV-1128,Prospective cohort,JBI Cohort Checklist,SOME_CONCERNS,Cohort can identify risk association but residual confounding remains.,FULL_ARTICLE_BODY_READ,YES,PENDING
+EV-1178,Practice review,NOT_APPLICABLE_UNTIL_FULL_BODY_AVAILABLE,UNRESOLVED,No Methods/Results body in validated XML.,XML_ABSTRACT_ONLY_NOT_FULL_TEXT,NO,PENDING
+EV-1460,Systematic review and meta-analysis,AMSTAR 2,SOME_CONCERNS,Review-level evidence requires claim-specific human verification before citation.,FULL_ARTICLE_BODY_READ,YES,PENDING
+EV-1461,Systematic review and meta-analysis,AMSTAR 2,SOME_CONCERNS,Review-level evidence requires claim-specific human verification before citation.,FULL_ARTICLE_BODY_READ,YES,PENDING
+EV-1467,Cross-sectional observational study,JBI Analytical Cross-Sectional Checklist,SOME_CONCERNS,Brazilian police sample provides contextual relevance but observational design limits causal inference.,FULL_ARTICLE_BODY_READ,YES,PENDING

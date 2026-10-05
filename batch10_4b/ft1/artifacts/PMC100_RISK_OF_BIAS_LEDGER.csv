@@ -7,7 +7,7 @@ EV-1458,AMSTAR 2,LOW_CONFIDENCE,Review documents search and PRISMA selection but
 EV-0167,JBI Quasi-Experimental Studies,SOME_CONCERNS,"Reused from Pilot 03: no randomized department allocation, no baseline primary outcomes and residual department confounding remain.",INTEGRITY_CLEAR_AS_OF_2026-09-17,PASS_WITH_BOUNDARY
 EV-0252,MMAT Quantitative Descriptive,SOME_CONCERNS,"Reused from Pilot 03: convenience sampling, no computable response rate and uncertain instrument validation limit representativeness.",INTEGRITY_CLEAR_AS_OF_2026-09-17,PASS_WITH_BOUNDARY
 EV-0402,SANRA,SOME_CONCERNS,Narrative synthesis offers a transparent practical discussion but does not provide a reproducible systematic-effect estimate; author states firefighter RCT evidence is absent.,INTEGRITY_CLEAR_AS_OF_2026-10-03,PASS_WITH_BOUNDARY
-EV-0523,JBI Text and Opinion Checklist,NOT_APPLICABLE_FOR_EFFECTIVENESS,"The XML body is a commentary on another initiative, not primary outcome research; it supplies no study-level effect estimate for this project.",INTEGRITY_CLEAR_AS_OF_2026-10-03,PASS_WITH_BOUNDARY
+EV-0523,NOT_APPLICABLE_UNTIL_FULL_BODY_AVAILABLE,UNRESOLVED,The definitive source-body audit classifies the 446-word XML as abstract/fragment only; earlier commentary handling is superseded to keep the closing gate fail-closed.,INTEGRITY_CLEAR_AS_OF_2026-10-05,PASS_FAIL_CLOSED
 EV-0606,NOT_APPLICABLE_UNTIL_FULL_BODY_AVAILABLE,UNRESOLVED,"PMC XML contains article metadata and abstract but no body; design, methods, results tables and limitations were not appraised.",INTEGRITY_CLEAR_AS_OF_2026-10-03,PASS_FAIL_CLOSED
 EV-0837,SANRA,SOME_CONCERNS,Descriptive portfolio review; no reproducible comparative effect estimate for the implementation strategies presented.,INTEGRITY_CLEAR_AS_OF_2026-10-04,PASS_WITH_BOUNDARY
 EV-0846,NOT_APPLICABLE_UNTIL_FULL_BODY_AVAILABLE,UNRESOLVED,"Validated PMC XML has no article body, methods, results tables or limitations.",INTEGRITY_CLEAR_AS_OF_2026-10-04,PASS_FAIL_CLOSED
@@ -69,3 +69,33 @@ EV-0640,NOT_APPLICABLE_UNTIL_FULL_BODY_AVAILABLE,UNRESOLVED,Validated XML has no
 EV-0641,SPIRIT protocol completeness check,NOT_APPLICABLE_FOR_EFFECT_ESTIMATE,Multi-centre assessment-development protocol has no outcomes.,INTEGRITY_CLEAR_AS_OF_2026-10-05,PASS_WITH_PROTOCOL_BOUNDARY
 EV-0643,COSMIN reliability criteria,SOME_CONCERNS,Eight simulated RTW tasks were rated by a mixed occupational group; reliability does not validate clinical or duty outcome prediction.,INTEGRITY_CLEAR_AS_OF_2026-10-05,PASS_WITH_VALIDITY_BOUNDARY
 EV-0650,JBI Analytical Cross-Sectional Checklist,CRITICALLY_LOW,Fourteen male firefighters and multiple predictors leave substantial overfitting risk.,INTEGRITY_CLEAR_AS_OF_2026-10-05,PASS_WITH_OVERFITTING_BOUNDARY
+EV-0655,JBI Analytical Cross-Sectional Checklist,SOME_CONCERNS,Extreme-performer sample; descriptive design.,INTEGRITY_CLEAR_AS_OF_2026-10-05,PASS_WITH_BOUNDARY
+EV-0663,Framework appraisal,SOME_CONCERNS,Framework-development article without effectiveness outcome.,INTEGRITY_CLEAR_AS_OF_2026-10-05,PASS_WITH_BOUNDARY
+EV-0670,JBI Quasi-Experimental Checklist,SOME_CONCERNS,Feasibility design and limited sample constrain effectiveness claims.,INTEGRITY_CLEAR_AS_OF_2026-10-05,PASS_WITH_FEASIBILITY_BOUNDARY
+EV-0681,Position-statement appraisal,SOME_CONCERNS,Expert synthesis rather than primary-effect study.,INTEGRITY_CLEAR_AS_OF_2026-10-05,PASS_WITH_GUIDANCE_BOUNDARY
+EV-0682,JBI Analytical Cross-Sectional Checklist,SOME_CONCERNS,Associational design cannot establish supplementation or body-composition causality.,INTEGRITY_CLEAR_AS_OF_2026-10-05,PASS_WITH_CAUSALITY_BOUNDARY
+EV-0684,NOT_APPLICABLE_UNTIL_FULL_BODY_AVAILABLE,UNRESOLVED,No Methods/Results body in validated XML.,INTEGRITY_CLEAR_AS_OF_2026-10-05,PASS_FAIL_CLOSED
+EV-0705,JBI Quasi-Experimental Checklist,SOME_CONCERNS,Study-specific stress paradigm limits operational generalization.,INTEGRITY_CLEAR_AS_OF_2026-10-05,PASS_WITH_BOUNDARY
+EV-0721,JBI Cohort Checklist,SOME_CONCERNS,Administrative cohort supports risk association but residual confounding remains.,INTEGRITY_CLEAR_AS_OF_2026-10-05,PASS_WITH_CAUSALITY_BOUNDARY
+EV-0734,JBI Cohort Checklist,SOME_CONCERNS,Specific march context and sample constrain generalization.,INTEGRITY_CLEAR_AS_OF_2026-10-05,PASS_WITH_BOUNDARY
+EV-0749,AMSTAR 2,SOME_CONCERNS,TCCC evidence/gap review is clinical and not central to operational-readiness claims.,INTEGRITY_CLEAR_AS_OF_2026-10-05,PASS_WITH_SCOPE_BOUNDARY
+EV-0756,JBI Cohort Checklist,SOME_CONCERNS,"Administrative cohort supports recurrence description, not causality.",INTEGRITY_CLEAR_AS_OF_2026-10-05,PASS_WITH_BOUNDARY
+EV-0760,JBI Analytical Cross-Sectional Checklist,CRITICALLY_LOW,Pilot self-report study has limited precision.,INTEGRITY_CLEAR_AS_OF_2026-10-05,PASS_WITH_BOUNDARY
+EV-0786,NOT_APPLICABLE_UNTIL_FULL_BODY_AVAILABLE,UNRESOLVED,No Methods/Results body in validated XML.,INTEGRITY_CLEAR_AS_OF_2026-10-05,PASS_FAIL_CLOSED
+EV-0799,RoB 2,SOME_CONCERNS,Short-term task study limits operational generalization.,INTEGRITY_CLEAR_AS_OF_2026-10-05,PASS_WITH_BOUNDARY
+EV-0823,JBI Analytical Cross-Sectional Checklist,SOME_CONCERNS,Recruit sample and autonomic marker associations are indirect.,INTEGRITY_CLEAR_AS_OF_2026-10-05,PASS_WITH_BOUNDARY
+EV-0832,NOT_APPLICABLE_UNTIL_FULL_BODY_AVAILABLE,UNRESOLVED,No Methods/Results body in validated XML.,INTEGRITY_CLEAR_AS_OF_2026-10-05,PASS_FAIL_CLOSED
+EV-0857,JBI Analytical Cross-Sectional Checklist,SOME_CONCERNS,Occupational comparison is observational.,INTEGRITY_CLEAR_AS_OF_2026-10-05,PASS_WITH_BOUNDARY
+EV-0874,JBI Analytical Cross-Sectional Checklist,SOME_CONCERNS,Dietary assessment is self-reported and cross-sectional.,INTEGRITY_CLEAR_AS_OF_2026-10-05,PASS_WITH_BOUNDARY
+EV-0878,NOT_APPLICABLE_UNTIL_FULL_BODY_AVAILABLE,UNRESOLVED,No Methods/Results body in validated XML.,INTEGRITY_CLEAR_AS_OF_2026-10-05,PASS_FAIL_CLOSED
+EV-0899,NOT_APPLICABLE_UNTIL_FULL_BODY_AVAILABLE,UNRESOLVED,No Methods/Results body in validated XML.,INTEGRITY_CLEAR_AS_OF_2026-10-05,PASS_FAIL_CLOSED
+EV-0936,JBI Analytical Cross-Sectional Checklist,SOME_CONCERNS,Associational tactical-athlete sample cannot establish vitamin-D treatment effect.,INTEGRITY_CLEAR_AS_OF_2026-10-05,PASS_WITH_BOUNDARY
+EV-0939,PRISMA-ScR appraisal,SOME_CONCERNS,Maps implementation literature without pooled effectiveness estimation.,INTEGRITY_CLEAR_AS_OF_2026-10-05,PASS_WITH_SCOPE_BOUNDARY
+EV-0960,JBI Quasi-Experimental Checklist,SOME_CONCERNS,Pilot study requires replication and controlled effectiveness testing.,INTEGRITY_CLEAR_AS_OF_2026-10-05,PASS_WITH_PRECISION_BOUNDARY
+EV-1026,JBI Analytical Cross-Sectional Checklist,SOME_CONCERNS,Self-reported workload and injury data limit temporal inference.,INTEGRITY_CLEAR_AS_OF_2026-10-05,PASS_WITH_BOUNDARY
+EV-1110,NOT_APPLICABLE_UNTIL_FULL_BODY_AVAILABLE,UNRESOLVED,No Methods/Results body in validated XML.,INTEGRITY_CLEAR_AS_OF_2026-10-05,PASS_FAIL_CLOSED
+EV-1128,JBI Cohort Checklist,SOME_CONCERNS,Cohort can identify risk association but residual confounding remains.,INTEGRITY_CLEAR_AS_OF_2026-10-05,PASS_WITH_BOUNDARY
+EV-1178,NOT_APPLICABLE_UNTIL_FULL_BODY_AVAILABLE,UNRESOLVED,No Methods/Results body in validated XML.,INTEGRITY_CLEAR_AS_OF_2026-10-05,PASS_FAIL_CLOSED
+EV-1460,AMSTAR 2,SOME_CONCERNS,Review-level evidence requires claim-specific human verification before citation.,INTEGRITY_CLEAR_AS_OF_2026-10-05,PASS_WITH_REVIEW_BOUNDARY
+EV-1461,AMSTAR 2,SOME_CONCERNS,Review-level evidence requires claim-specific human verification before citation.,INTEGRITY_CLEAR_AS_OF_2026-10-05,PASS_WITH_REVIEW_BOUNDARY
+EV-1467,JBI Analytical Cross-Sectional Checklist,SOME_CONCERNS,Brazilian police sample provides contextual relevance but observational design limits causal inference.,INTEGRITY_CLEAR_AS_OF_2026-10-05,PASS_WITH_CAUSALITY_BOUNDARY

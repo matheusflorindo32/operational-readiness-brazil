@@ -16,15 +16,15 @@ def test_ft1_checkpoint_is_bounded_and_fail_closed():
     manifest = json.loads((OUT / "BATCH10_4B_FT1_MANIFEST.json").read_text(encoding="utf-8"))
     decisions = read_csv("PMC100_PROVISIONAL_DECISIONS.csv")
     source = read_csv("PMC100_SOURCE_BODY_VALIDATION.csv")
-    assert manifest["state"] == "PARTIAL_GO"
-    assert manifest["reviewed"] == 70
-    assert manifest["full_article_body_read"] == 63
-    assert manifest["remaining"] == 30
+    assert manifest["state"] == "PMC100_FULL_TEXT_APPRAISAL_COMPLETE"
+    assert manifest["reviewed"] == 100
+    assert manifest["full_article_body_read"] == 85
+    assert manifest["remaining"] == 0
     assert manifest["claim_ready_provisional"] == 0
     assert manifest["human_confirmation"] == 0
     assert manifest["cef_v1_changed"] is False
     assert manifest["ev_1379"] == "FAIL_CLOSED"
-    assert len(decisions) == 70
+    assert len(decisions) == 100
     assert all(row["HUMAN_CONFIRMATION"] == "PENDING" for row in decisions)
     assert all(row["CLAIM_READY_PROVISIONAL"] == "NO" for row in decisions)
     assert len(source) == 100
