@@ -1,0 +1,15 @@
+{
+  "phase": "BATCH 10.4B-FT2",
+  "state": "REMAINING185_ACCESS_PRIORITIZATION_COMPLETE",
+  "remaining_universe": 185,
+  "prioritized": 185,
+  "classes": {
+    "HIGH_IMPACT_ACCESS_REQUIRED": 25,
+    "MEDIUM_IMPACT_ACCESS_REQUIRED": 109,
+    "LOW_INCREMENTAL_VALUE_ACCESS_PENDING": 51
+  },
+  "cef_v1_changed": false,
+  "manuscript_changed": false,
+  "reference_saturation": false,
+  "ev_1379": "FAIL_CLOSED"
+}
