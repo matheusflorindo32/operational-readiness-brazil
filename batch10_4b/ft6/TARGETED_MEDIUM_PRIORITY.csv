@@ -1,0 +1,6 @@
+Evidence_ID,Targeted_Medium_Priority,Selection_Score,Gap_Severity,Rationale
+EV-0222,M3 — MODERATE,10,IMPORTANT_GAP,"Metadata-only, gap-linked prioritization; no full-text or quality appraisal inferred."
+EV-0651,M3 — MODERATE,10,UNRESOLVED_DUE_TO_ACCESS,"Metadata-only, gap-linked prioritization; no full-text or quality appraisal inferred."
+EV-0692,M3 — MODERATE,10,UNRESOLVED_DUE_TO_ACCESS,"Metadata-only, gap-linked prioritization; no full-text or quality appraisal inferred."
+EV-0776,M3 — MODERATE,10,UNRESOLVED_DUE_TO_ACCESS,"Metadata-only, gap-linked prioritization; no full-text or quality appraisal inferred."
+EV-0906,M3 — MODERATE,10,IMPORTANT_GAP,"Metadata-only, gap-linked prioritization; no full-text or quality appraisal inferred."
