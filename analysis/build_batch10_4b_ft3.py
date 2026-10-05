@@ -18,11 +18,14 @@ def main():
  high=read(HIGH); assert len(high)==25 and len({x['Evidence_ID'] for x in high})==25
  rows=[];attempts=[]
  for rank,r in enumerate(high,1):
-  pmid=r['PMID']; q=urllib.parse.quote(f'EXT_ID:{pmid} AND SRC:MED'); data=get('https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&query='+q)
+  pmid=r['PMID']; q=urllib.parse.quote(f'EXT_ID:{pmid} AND SRC:MED') if pmid else ''
+  data=get('https://www.ebi.ac.uk/europepmc/webservices/rest/search?format=json&query='+q) if q else None
   result={}
   if data:
    hits=json.loads(data).get('resultList',{}).get('result',[]); result=hits[0] if hits else {}
-  pmcid=result.get('pmcid',''); source='';url='';status='ACCESS_UNRESOLVED';version='NONE';sha='';ready='NO';note='No lawful full-text body verified through Europe PMC in this run.'
+  if not pmid:
+   result={}
+  pmcid=result.get('pmcid',''); source='';url='';status='IDENTITY_UNRESOLVED' if not pmid else 'ACCESS_UNRESOLVED';version='NONE';sha='';ready='NO';note='No lawful full-text body verified through Europe PMC in this run.' if pmid else 'No PMID was present in the High source row; recovery is fail-closed until title/DOI identity is independently resolved.'
   if pmcid:
    xmlurl=f'https://www.ebi.ac.uk/europepmc/webservices/rest/PMC{pmcid.replace("PMC","")}/fullTextXML'; xml=get(xmlurl)
    if xml and b'<body' in xml and len(xml)>5000:

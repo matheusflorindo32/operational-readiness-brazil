@@ -2,9 +2,9 @@
   "phase": "BATCH 10.4B-FT3",
   "state": "HIGH25_FULL_TEXT_RECOVERY_COMPLETE",
   "processed": 25,
-  "appraisal_ready": 3,
+  "appraisal_ready": 0,
   "statuses": {
-    "FULL_TEXT_RECOVERED_FINAL_VERSION": 3,
+    "ACCESS_UNRESOLVED": 3,
     "PAYWALLED_NO_LAWFUL_FULL_TEXT_FOUND": 22
   },
   "cef_v1_changed": false,
