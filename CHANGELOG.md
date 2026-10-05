@@ -17,6 +17,10 @@ All notable project changes are documented here.
 - Preserved null findings, population mismatch, protocol-only status, and simulation limits. Fourteen records are context-only, eight discussion-only, two misaligned exclusions, and no record has a final inclusion, human confirmation, Claim-Ready status, CEF-v1 change, Zotero write, reimportation, or merge.
 - Rebuilt the checkpoint ledger as cumulative per-lot evidence, including processed IDs, scientific-appraisal/source-insufficiency counts, full decision categories, and deterministic next ID (`EV-0390`).
 
+### Batch 10.4B-FT1 lots 06-07
+- Continued from `EV-0390` through `EV-0650`, reaching 70/100 statuses. The appraisal remains provisional: no final reference decision, human confirmation, Claim-Ready release, CEF-v1 edit, Zotero write, reimportation, or merge occurred.
+- Preserved protocol-only records as non-effect evidence, preserved a null simulation result, and fail-closed `EV-0534`, `EV-0616`, and `EV-0640` because their routed PMC XML has no Methods/Results body. The next deterministic record is `EV-0655`.
+
 ### Batch 10.4B source discovery
 - Traversed all 285 reconciled saturation candidates in 15 ordered lots, beginning with the three contradictory and 16 replacement candidates. Recorded PubMed primary metadata provenance and lawful PMC XML availability without a Zotero write, reimport, merge, manuscript edit or CEF-v1 change.
 - Identified 100/285 (35.09%) lawful PMC XML routes and recorded 185/285 (64.91%) as access-pending. The latter are explicitly labelled `ACCESS_PENDING_NOT_SCIENTIFIC_EXCLUSION`, not excluded scientific evidence.

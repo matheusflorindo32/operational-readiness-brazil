@@ -6,8 +6,8 @@
 
 ## Escopo concluído neste checkpoint
 
-Os cinco primeiros lotes determinísticos iniciaram em `EV-0386` e percorreram 50 registros
-da fila PMC. Quarenta e seis têm corpo de artigo no XML e receberam leitura, extração
+Os sete primeiros lotes determinísticos iniciaram em `EV-0386` e percorreram 70 registros
+da fila PMC. Sessenta e três têm corpo de artigo no XML e receberam leitura, extração
 delimitada, identificação de desenho, appraisal provisório, avaliação de
 integridade, citation fitness, decisão provisória e Red Team de fronteira. Dois
 (`EV-0167` e `EV-0252`) reutilizam, com referência explícita, o appraisal
@@ -26,9 +26,9 @@ A verificação de todos os 100 arquivos XML já identificados encontrou:
 |---|---:|---:|
 | Corpo de artigo suficiente para leitura | 85 | 85,00% |
 | XML somente de resumo ou fragmento | 15 | 15,00% |
-| Corpos com leitura FT1 nos lotes 01-05 | 46 | 46,00% |
-| Registros processados, incluindo XML incompleto fail-closed | 50 | 50,00% |
-| Restantes sem appraisal FT1 | 50 | 50,00% |
+| Corpos com leitura FT1 nos lotes 01-07 | 63 | 63,00% |
+| Registros processados, incluindo XML incompleto fail-closed | 70 | 70,00% |
+| Restantes sem appraisal FT1 | 30 | 30,00% |
 
 Os 15 XML incompletos não são exclusões científicas e não alteram os 185
 registros que já estavam sem rota lícita identificada. Eles formam uma
@@ -39,12 +39,12 @@ subfila adicional de acesso/versão a ser resolvida legalmente.
 | Decisão | n |
 |---|---:|
 | `PROVISIONAL_REPLACE_CANDIDATE` | 5 |
-| `PROVISIONAL_INCLUDE` | 16 |
-| `CONTEXT_ONLY` | 14 |
-| `DISCUSSION_ONLY` | 8 |
+| `PROVISIONAL_INCLUDE` | 21 |
+| `CONTEXT_ONLY` | 21 |
+| `DISCUSSION_ONLY` | 13 |
 | `QUALITY_EXCLUDE` | 1 |
 | `MISALIGNED_EXCLUDE` | 2 |
-| `FULL_TEXT_INSUFFICIENT` | 3 |
+| `FULL_TEXT_INSUFFICIENT` | 6 |
 | `UNRESOLVED` | 1 |
 
 As cinco substituições são somente comparações candidatas: quatro ficaram
@@ -76,7 +76,9 @@ de claim. O lote 05 integrou uma simulação não ocupacional, um protocolo de r
 evidência observacional de bombeiros e militares, análise de política, consenso Delphi e
 um experimento com população não bombeira. Preservou resultados nulos e recusou usar a
 simulação não ocupacional como evidência de bombeiros. Prosseguir pelo lote 06 em
-`EV-0390`, com os mesmos controles. Dos 50 registros restantes, 39 têm corpo de artigo
-já validado e 11 aguardam fonte ou versão
+`EV-0390`, com os mesmos controles. Os lotes 06-07 avançaram até `EV-0650`; preservaram
+protocolos sem resultados, resultados nulos e limitações de população, e bloquearam
+`EV-0534`, `EV-0616` e `EV-0640` por XML sem corpo. Prosseguir pelo lote 08 em `EV-0655`.
+Dos 30 registros restantes, 22 têm corpo de artigo já validado e 8 aguardam fonte ou versão
 com corpo completo. `PMC100_FULL_TEXT_APPRAISAL_COMPLETE`, saturação de referência,
 v0.13 e aprovação científica permanecem bloqueados.
