@@ -1,0 +1,4 @@
+Evidence_ID,Selection_bias,Confounding,Measurement_bias,Missing_data,Selective_reporting,Overall,No_claim_ready
+EV-1462,See appraisal rationale,Primary-study variation; review reports 5 some-concerns and 1 high RoB,See appraisal rationale,See full-text appraisal,Potential/limited reporting,LOW,YES
+EV-1463,See appraisal rationale,Unresolved/No control,See appraisal rationale,See full-text appraisal,Potential/limited reporting,SOME_CONCERNS,YES
+EV-1466,See appraisal rationale,Unresolved/No control,See appraisal rationale,NR — NOT REPORTED,Potential/limited reporting,HIGH_RISK_OF_BIAS,YES

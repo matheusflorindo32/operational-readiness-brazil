@@ -1,0 +1,4 @@
+Evidence_ID,Overlap_status,Incremental_value,Rationale
+EV-1462,POSSIBLE_TOPIC_OVERLAP,HIGH,Potential overlap with current caffeine references; not a study-cohort duplicate.
+EV-1463,NO_DIRECT_OVERLAP_IDENTIFIED,HIGH,Distinct PMDF clinical cohort; no shared cohort asserted.
+EV-1466,POSSIBLE_BRAZILIAN_POLICE_DOMAIN_OVERLAP,MODERATE,Distinct ESTOP/Jequie dataset; context is direct but evidence is weak for intervention claims.

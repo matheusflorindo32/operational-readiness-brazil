@@ -1,0 +1,34 @@
+{
+  "batch": "BATCH10_4B_FT4",
+  "gate": "HIGH3_FULL_TEXT_APPRAISAL_COMPLETE",
+  "processed_ids": [
+    "EV-1462",
+    "EV-1463",
+    "EV-1466"
+  ],
+  "count": 3,
+  "claim_ready": 0,
+  "human_review": 0,
+  "cef_v1": "UNCHANGED",
+  "zotero": "UNCHANGED",
+  "manuscript": "UNCHANGED",
+  "sources": {
+    "EV-1462": "https://www.frontiersin.org/articles/10.3389/fnut.2026.1893033/full",
+    "EV-1463": "https://www.frontiersin.org/articles/10.3389/fpubh.2025.1716547/full",
+    "EV-1466": "https://www.scielo.br/j/brjp/a/7QzX6dJgmZdQg8fhmPNvPyq/?lang=en"
+  },
+  "files": {
+    "BATCH10_4B_FT4_REPORT.md": "5d55c8d4a33dee11ac763aa14b86cffe25b7d2a16ae959037d763f596dad4485",
+    "HIGH3_APPRAISAL_LEDGER.csv": "18f77cdce19480ac18dedeb828607c8bdda1b25f1d1344045a29701cbe782565",
+    "HIGH3_CLAIM_CITATION_MATRIX.csv": "f2f2c69d10d5d2fd436495d69c354dfe5741af245b715b2ec2701e78742dc17b",
+    "HIGH3_FCR_CANDIDATES.csv": "17fd94aaac0a4a339741653c7dbd969667993695c1a90037d7f800ae3702c108",
+    "HIGH3_FULL_TEXT_EXTRACTION.csv": "8b44f593b923f012e2ca503e69d45b86b865c3456a1206a1f54520ba13cdcb72",
+    "HIGH3_INTEGRITY_LEDGER.csv": "788e7dc5ea01b2babb770f4466b6f34a9b44715f63fb4bf4eecff31b28fd1a28",
+    "HIGH3_OVERLAP_LEDGER.csv": "62c9cb81f11b183c290c67e0608726fadb020b3a3c6f38d72a0bd7931d5dd370",
+    "HIGH3_PROVISIONAL_DECISIONS.csv": "b409f87799e365ce29ea09d860773cbdffbdf6dcd8e0624d5e9547681f61c496",
+    "HIGH3_REPLACEMENT_COMPARISON.csv": "dae6c79b53a35b1164722bfb8df50af9477d2b46929c598fcbeee28e0314287f",
+    "HIGH3_RESULTS_LEDGER.csv": "26189a37d779e8b4e4a95402de019134f0b93720f2542851c939b306b3092b1b",
+    "HIGH3_RISK_OF_BIAS_LEDGER.csv": "6b9244afbda4f0ab91e882743b92e33650a48b83ecaf36f97c1f2985a4e0c38f",
+    "HIGH3_TRANSFERABILITY_LEDGER.csv": "eb7e61f98d133091fbf2a0d5236e67e5366b9f7b48d74085692dd6a06ff4fa0d"
+  }
+}
