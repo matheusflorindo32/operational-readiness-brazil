@@ -1,0 +1,6 @@
+[allowlist]
+description = "Hashes de integridade FT5, não credenciais"
+regexes = [
+  '''8af53b2cfba2ced06a22ed3714005bc05a1595c622bed415be27e675cca6da7d''',
+  '''f72d2e0e77897bef484cb37d3554a911b5bfa195847bf5691c02756bce740293''',
+]
