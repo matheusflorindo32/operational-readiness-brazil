@@ -1,0 +1,12 @@
+{
+  "phase": "BATCH10_4B_FT3R",
+  "state": "HIGH3_IDENTITY_REMEDIATION_COMPLETE",
+  "records": 3,
+  "identity_verified": 3,
+  "final_full_text_recovered": 3,
+  "appraisal_ready": 3,
+  "integrity_flags": 0,
+  "cef_v1_changed": false,
+  "manuscript_changed": false,
+  "zotero_changed": false
+}
