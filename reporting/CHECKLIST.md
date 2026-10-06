@@ -1,5 +1,17 @@
 # Project Checklist
 
+## Batch 10.4E — HR-001 deterministic mapping — 2026-10-06
+
+**Decision: HR001_ADJUDICATION_COMPLETE | GO_HR002_HUMAN_ADJUDICATION.**
+
+- [x] Authorized human decision `HR-001 = MAP MANUALLY` recorded with named reviewer, date and rationale.
+- [x] 60/60 FT8 ledger claims assigned one permitted mapping status.
+- [x] Zero inferred sentence/citation/reference links created; zero blocked evidence used as support and zero orphan citations created.
+- [x] 59 claims retained outside v0.13 pending a future narrowed, human-approved evidence chain; one `NR — NOT REPORTED` placeholder marked for removal from future claim matrices.
+- [x] FT4 caffeine, PMDF and Bahia boundary text retained as limitation disclosure only, never as a support citation.
+- [x] CEF-v1 and Zotero unchanged; final reference freeze remains prohibited.
+- [ ] HR-002 through HR-010 human adjudication and final reference freeze.
+
 ## Deep Evidence Batch 10.4B — entry audit — 2026-10-03
 
 **Decision: CANONICAL_1484_LEDGER_PASS | GO_FULL_TEXT_SATURATION_REVIEW. No scientific review occurred in this reconciliation mission.**

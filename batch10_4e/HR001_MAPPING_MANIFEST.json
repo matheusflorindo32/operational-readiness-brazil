@@ -1,0 +1,36 @@
+{
+  "batch": "BATCH10_4E",
+  "review_id": "HR-001",
+  "base_commit": "279de422a070a435eeb9be82876239758486bdd3",
+  "gate": "HR001_ADJUDICATION_COMPLETE",
+  "next_gate": "GO_HR002_HUMAN_ADJUDICATION",
+  "claims_expected": 60,
+  "claims_statused": 60,
+  "mapping_status_counts": {
+    "UNLINKED_NARROWING_REQUIRED": 59,
+    "UNLINKED_DELETE_REQUIRED": 1
+  },
+  "blank_mapping_status": 0,
+  "unsupported_forced_links": 0,
+  "blocked_evidence_used_as_support": 0,
+  "orphan_citations_created": 0,
+  "reference_freeze": "PROHIBITED_PENDING_HR002_TO_HR010",
+  "cef_v1": "UNCHANGED",
+  "zotero": "UNCHANGED",
+  "human_decision": {
+    "Review_ID": "HR-001",
+    "HUMAN_DECISION": "MAP MANUALLY",
+    "HUMAN_REVIEWER": "Matheus Florindo de Deus",
+    "HUMAN_REVIEW_DATE": "2026-10-05",
+    "HUMAN_RATIONALE": "Approved deterministic claim-to-sentence-to-reference mapping before final reference freeze to prevent unsupported or inferred citation links.",
+    "Scope": "Mapping method only; no reference freeze, scientific promotion, CEF-v1 change or Zotero change."
+  },
+  "files": {
+    "HR001_AMBIGUOUS_CLAIMS.csv": "83294229e714c0f70974f05ac9239fae48cdab898c7eb2552617b8672023cb1d",
+    "HR001_CITATION_FIT_AUDIT.csv": "8a7770f92c41d0065e01c0c98dcdc536e9fa8339745717c541a2161b1aed3496",
+    "HR001_CLAIM_SENTENCE_REFERENCE_MAP.csv": "28e40124958198ff450fa5ab56db940afffae48c1db5436ef7ec4b2930b24c4e",
+    "HR001_HUMAN_DECISION_RECORD.csv": "8f39f7ba38d53d8cbd515838400261d7c25094ad6a162e7c69d9d648c09b6a2b",
+    "HR001_REPORT.md": "e057dc919683599d8c3abd5b35491458703a465bde2ee2658991ebe75e95476a",
+    "HR001_UNLINKED_CLAIMS.csv": "28e40124958198ff450fa5ab56db940afffae48c1db5436ef7ec4b2930b24c4e"
+  }
+}

@@ -1,0 +1,2 @@
+Review_ID,HUMAN_DECISION,HUMAN_REVIEWER,HUMAN_REVIEW_DATE,HUMAN_RATIONALE,Scope
+HR-001,MAP MANUALLY,Matheus Florindo de Deus,2026-10-05,Approved deterministic claim-to-sentence-to-reference mapping before final reference freeze to prevent unsupported or inferred citation links.,"Mapping method only; no reference freeze, scientific promotion, CEF-v1 change or Zotero change."

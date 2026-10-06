@@ -2,7 +2,12 @@
 
 All notable project changes are documented here.
 
-## [Unreleased] — 2026-10-05
+## [Unreleased] — 2026-10-06
+### Batch 10.4E HR-001 deterministic mapping adjudication
+- Recorded the authorized human decision `HR-001 = MAP MANUALLY` by Matheus Florindo de Deus, dated 2026-10-05, solely to determine whether each FT8 ledger claim has a defensible v0.13 sentence-to-citation-to-reference chain.
+- Classified 60/60 claims without forcing a topical or inferred link: 59 are `UNLINKED_NARROWING_REQUIRED` and the `NR — NOT REPORTED` placeholder is `UNLINKED_DELETE_REQUIRED`. No claim was promoted to support, no reference was added, and no manuscript was changed.
+- Preserved the three FT4 records only as uncited limitation boundaries, not as supporting citations. `FINAL_REFERENCE_FREEZE` remains prohibited pending HR-002 through HR-010; CEF-v1 and Zotero remain unchanged.
+
 ### Batch 10.4D final scientific and reference audit
 - Audited all 60 FT8 ledger claims, the 16 retained v0.13 references, six replacement candidates, three unresolved contradictory candidates and the required limitation/overclaim controls without reopening the search, screening, CEF-v1 or Zotero.
 - Found a structural traceability gap: the versioned FT8 claims do not yet have deterministic sentence-to-citation links in v0.13. The 60 records are therefore `CITATION_CHANGE_REQUIRED` for mapping purposes; this does not assert that each underlying claim lacks evidentiary support.
