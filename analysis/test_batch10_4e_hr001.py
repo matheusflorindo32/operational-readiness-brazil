@@ -29,10 +29,10 @@ def test_hr001_decision_is_limited_to_authorized_row():
     assert decision[0]["HUMAN_DECISION"] == "MAP MANUALLY"
     assert decision[0]["HUMAN_REVIEWER"] == "Matheus Florindo de Deus"
     queue = rows("../batch10_4d/FINAL_HUMAN_REVIEW_QUEUE.csv")
-    assert all(not row["HUMAN_DECISION"] for row in queue if row["Review_ID"] not in {"HR-002", "HR-003", "HR-004", "HR-005", "HR-006", "HR-007"})
-    assert all(not row["HUMAN_REVIEWER"] for row in queue if row["Review_ID"] not in {"HR-002", "HR-003", "HR-004", "HR-005", "HR-006", "HR-007"})
-    assert all(not row["HUMAN_REVIEW_DATE"] for row in queue if row["Review_ID"] not in {"HR-002", "HR-003", "HR-004", "HR-005", "HR-006", "HR-007"})
-    assert all(not row["HUMAN_RATIONALE"] for row in queue if row["Review_ID"] not in {"HR-002", "HR-003", "HR-004", "HR-005", "HR-006", "HR-007"})
+    assert all(not row["HUMAN_DECISION"] for row in queue if row["Review_ID"] not in {"HR-002", "HR-003", "HR-004", "HR-005", "HR-006", "HR-007", "HR-008"})
+    assert all(not row["HUMAN_REVIEWER"] for row in queue if row["Review_ID"] not in {"HR-002", "HR-003", "HR-004", "HR-005", "HR-006", "HR-007", "HR-008"})
+    assert all(not row["HUMAN_REVIEW_DATE"] for row in queue if row["Review_ID"] not in {"HR-002", "HR-003", "HR-004", "HR-005", "HR-006", "HR-007", "HR-008"})
+    assert all(not row["HUMAN_RATIONALE"] for row in queue if row["Review_ID"] not in {"HR-002", "HR-003", "HR-004", "HR-005", "HR-006", "HR-007", "HR-008"})
 
 
 def test_manifest_and_red_team_controls():

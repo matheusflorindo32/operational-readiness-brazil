@@ -14,7 +14,7 @@ def test_hr002_is_the_only_new_official_queue_decision():
     assert target["HUMAN_REVIEWER"] == "Matheus Florindo de Deus"
     assert target["HUMAN_REVIEW_DATE"] == "2026-10-06"
     for row in queue:
-        if row["Review_ID"] not in {"HR-002", "HR-003", "HR-004", "HR-005", "HR-006", "HR-007"}:
+        if row["Review_ID"] not in {"HR-002", "HR-003", "HR-004", "HR-005", "HR-006", "HR-007", "HR-008"}:
             assert not row["HUMAN_DECISION"] and not row["HUMAN_REVIEWER"] and not row["HUMAN_REVIEW_DATE"] and not row["HUMAN_RATIONALE"]
 
 def test_hr002_manuscript_controls_are_fail_closed():

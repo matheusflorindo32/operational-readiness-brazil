@@ -3,6 +3,11 @@
 All notable project changes are documented here.
 
 ## [Unreleased] — 2026-10-06
+### Batch 10.4E HR-008 final replacement adjudication
+- Resolved EV-0667 against EV-1481 (reference 12) and EV-1480 (reference 13). The retained references remain for their separate, cited Brazilian academy-fitness and cadet use-of-force claims.
+- Recorded the conditionally authorized human decision `HR-008 = KEEP_CURRENT`. EV-0667 remains outside support and replacement roles because its 30-15 IFT measurement result in 34 Slovenian infantry members only supports an absent claim and cannot validate Brazilian policing or combat readiness.
+- Final reference freeze, manuscripts, CEF-v1, Zotero and Claim-Ready remain unchanged. HR-009 and HR-010 remain blank.
+
 ### Batch 10.4E HR-007 final replacement adjudication
 - Resolved EV-0521 against EV-1471 (reference 3) and EV-1472 (reference 4). The current set remains for its distinct, cited Brazilian police shift-nutrition, vigilance and chrononutrition claims.
 - Recorded the conditionally authorized human decision `HR-007 = KEEP_CURRENT`. EV-0521 remains outside support and replacement roles because its small male-firefighter supplementation trial does not improve the active police claims and has `RoB 2 = SOME_CONCERNS`.

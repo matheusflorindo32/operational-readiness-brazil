@@ -6,7 +6,7 @@ def rows(p):
 def test_hr004_only_authorized_queue_update():
  q=rows(ROOT/'batch10_4d'/'FINAL_HUMAN_REVIEW_QUEUE.csv');t=next(r for r in q if r['Review_ID']=='HR-004')
  assert t['HUMAN_DECISION']=='MAINTAIN' and t['HUMAN_REVIEWER']=='Matheus Florindo de Deus' and t['HUMAN_REVIEW_DATE']=='2026-10-06'
- assert all(not r['HUMAN_DECISION'] for r in q if r['Review_ID'] not in {'HR-002','HR-003','HR-004','HR-005','HR-006','HR-007'})
+ assert all(not r['HUMAN_DECISION'] for r in q if r['Review_ID'] not in {'HR-002','HR-003','HR-004','HR-005','HR-006','HR-007','HR-008'})
 def test_hr004_bmi_controls():
  a=rows(ROOT/'batch10_4e'/'HR004_MANUSCRIPT_COMPLIANCE_AUDIT.csv');assert len(a)==2
  for r in a:

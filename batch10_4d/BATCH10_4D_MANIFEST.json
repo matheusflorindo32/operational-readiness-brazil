@@ -21,7 +21,7 @@
     "FINAL_CLAIM_CITATION_AUDIT.csv": "12362bd8c0a05aef6774b628450303dedb2bf8d8701d49cdf1e6ad9efcdac78b",
     "FINAL_CONTRADICTORY_DISCLOSURE_AUDIT.csv": "d7324556ce074acbefc081379297326468af3df92f9b16eff8546bc4abd2b931",
     "FINAL_FCR_CANDIDATES.csv": "f5acf38cdcf65ecc152b71a850755ff394cf77d2894d99c1163d003cf6764ad1",
-    "FINAL_HUMAN_REVIEW_QUEUE.csv": "88eb3c9e084f9913943fe082ddf1de7f2c73f2596e67c9a192ec00647aa99bdc",
+    "FINAL_HUMAN_REVIEW_QUEUE.csv": "802bdc395e1e64b6790a39135503e7a797d03810cb267f1e9d5bd91a16c6b77b",
     "FINAL_INTERNATIONAL_BRAZIL_COMPARISON.csv": "559ddd0869c2a1cc9f96f7c0a368a119bd46f40dfa22919bc41c7ab94d411898",
     "FINAL_LANGUAGE_OVERCLAIM_AUDIT.csv": "9054897adde31dc72948a3b841d7db905351bdde1da934e1cfdc3c4c8d8ef8b5",
     "FINAL_LIMITATIONS_AUDIT.csv": "7ff111b9b564e3285971f4d9a714839f323fb20dcad2923f709a31fa552a15c2",
@@ -71,6 +71,13 @@
       "reviewer": "Matheus Florindo de Deus",
       "review_date": "2026-10-06",
       "scope": "Retain EV-1471 and EV-1472 for their distinct cited Brazilian shift-nutrition claims; do not promote EV-0521."
+    },
+    "HR-008": {
+      "evidence_id": "EV-0667",
+      "decision": "KEEP_CURRENT",
+      "reviewer": "Matheus Florindo de Deus",
+      "review_date": "2026-10-06",
+      "scope": "Retain EV-1481 and EV-1480 for their cited Brazilian academy/cadet claims; do not promote EV-0667."
     }
   }
 }
