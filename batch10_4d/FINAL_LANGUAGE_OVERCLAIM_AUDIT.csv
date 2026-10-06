@@ -1,0 +1,6 @@
+Check,Banned_Phrases,Occurrences,Decision,Rationale
+caffeine solution,caffeine reverses sleep deprivation | caffeine solves sleep loss,0,PASS,Exact prohibited phrase scan; context and limitations manually preserved in v0.13.
+BMI proxy,bmi as a global readiness proxy,0,PASS,Exact prohibited phrase scan; context and limitations manually preserved in v0.13.
+universal high-fat impairment,high-fat diet universally impairs,0,PASS,Exact prohibited phrase scan; context and limitations manually preserved in v0.13.
+psychological self-report prediction,psychological self-report predicts readiness,0,PASS,Exact prohibited phrase scan; context and limitations manually preserved in v0.13.
+framework validation,validated framework | validated model,0,PASS,Exact prohibited phrase scan; context and limitations manually preserved in v0.13.

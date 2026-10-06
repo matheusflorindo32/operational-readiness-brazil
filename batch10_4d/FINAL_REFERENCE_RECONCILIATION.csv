@@ -1,0 +1,7 @@
+Metric,Value,Expected,Status
+references_international,16,16,PASS
+references_brazil,16,16,PASS
+cited_but_missing,0,0,PASS
+listed_but_uncited,0,0,PASS
+duplicate_doi,0,0,PASS
+blocked_evidence_used_as_support,0,0,PASS

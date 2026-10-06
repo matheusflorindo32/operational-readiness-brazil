@@ -3,6 +3,12 @@
 All notable project changes are documented here.
 
 ## [Unreleased] — 2026-10-05
+### Batch 10.4D final scientific and reference audit
+- Audited all 60 FT8 ledger claims, the 16 retained v0.13 references, six replacement candidates, three unresolved contradictory candidates and the required limitation/overclaim controls without reopening the search, screening, CEF-v1 or Zotero.
+- Found a structural traceability gap: the versioned FT8 claims do not yet have deterministic sentence-to-citation links in v0.13. The 60 records are therefore `CITATION_CHANGE_REQUIRED` for mapping purposes; this does not assert that each underlying claim lacks evidentiary support.
+- Reconciled the retained reference list with the prior versioned reference QA: zero cited-but-missing, listed-but-uncited, duplicate DOI or blocked-evidence-as-support records. Kept all six replacement recommendations at `KEEP_CURRENT_RECOMMENDED` pending human adjudication.
+- Published the final audit, reconciliation, limitation, contradiction, language, replacement and focused 10-item human-review ledgers. No v0.14 was warranted before the mapping decision and human adjudication; CEF-v1, Zotero, v0.12 and v0.13 remain unchanged. Status: `FINAL_SCIENTIFIC_AUDIT_COMPLETE_PENDING_HUMAN_ADJUDICATION`.
+
 ### Batch 10.4C evidence-saturated manuscript revision
 - Generated new International and Brazil v0.13 manuscript drafts from the authenticated v0.12 source files without overwriting v0.12, changing Zotero, reopening CEF-v1, or promoting a candidate to Claim-Ready.
 - Added explicit access and adjudication limitations: 22 HIGH, five targeted MEDIUM and 15 PMC100 fail-closed/insufficient records; unresolved contradictory records EV-0052, EV-0140 and EV-1066; bounded use constraints for EV-1462, EV-1463 and EV-1466.

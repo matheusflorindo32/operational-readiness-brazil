@@ -1,0 +1,7 @@
+Area,Finding,Decision
+Claims shared,The retained v0.12 architecture is shared; the FT8 matrix has 5 Both claims but lacks deterministic sentence links.,HUMAN_ADJUDICATION_REQUIRED
+Claims unique,"FT8 matrix: 52 International, 3 Brazil, 5 Both.",TRACEABILITY_REPAIR_REQUIRED
+References,16 verified references in each manuscript; no unique references.,PASS
+Brazil-specific additions,Brazil manuscript retains bounded public-safety adaptation and regional limits.,PASS
+International applicability,International manuscript retains transferability qualification.,PASS
+Contradictions,"Both disclose EV-0052, EV-0140 and EV-1066 without imputing results.",PASS

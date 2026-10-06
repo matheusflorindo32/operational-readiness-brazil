@@ -1,0 +1,4 @@
+Evidence_ID,Affected_Domain,Claim,Full_Text_Status,Used_As_Support,Results_Imputed,Disclosed_In_V013,Affected_Claims_Narrowed,Decision
+EV-0052,Physical / academy readiness,Psychological screening/physical-performance relationship,PAYWALLED_NO_LAWFUL_FULL_TEXT_FOUND,NO,NO,YES,YES_BY_REQUIRED_LIMITATION,HUMAN_ADJUDICATION_REQUIRED
+EV-0140,Nutrition,Short-term dietary-fat effects on physical performance,PAYWALLED_NO_LAWFUL_FULL_TEXT_FOUND,NO,NO,YES,YES_BY_REQUIRED_LIMITATION,HUMAN_ADJUDICATION_REQUIRED
+EV-1066,Physical / academy readiness,BMI/body-composition as an operational-readiness proxy,PAYWALLED_NO_LAWFUL_FULL_TEXT_FOUND,NO,NO,YES,YES_BY_REQUIRED_LIMITATION,HUMAN_ADJUDICATION_REQUIRED
