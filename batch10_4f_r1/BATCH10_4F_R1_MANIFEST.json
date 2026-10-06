@@ -1,0 +1,7 @@
+{
+  "gate": "MANUSCRIPT_SENTENCE_LEVEL_RECONCILIATION_BLOCKED",
+  "sentences": 613,
+  "scientific_sentences_pending": 168,
+  "forced_mappings": 0,
+  "freeze_executed": false
+}
