@@ -12,6 +12,16 @@
 - [x] CEF-v1 and Zotero unchanged; final reference freeze remains prohibited.
 - [ ] HR-002 through HR-010 human adjudication and final reference freeze.
 
+## Batch 10.4E — HR-002 psychological self-report — 2026-10-06
+
+**Decision: HR002_ADJUDICATION_COMPLETE | GO_HR003_HUMAN_ADJUDICATION.**
+
+- [x] Authorized human decision `HR-002 = MAINTAIN` recorded only in the HR-002 official queue row.
+- [x] EV-0052 remains unadjudicated contradictory evidence, without direct/indirect support use, Claim-Ready status or causal role.
+- [x] Both v0.13 manuscripts contain the required limitation and contain no definitive psychological-self-report prediction or unsupported causal statement.
+- [x] No v0.14, CEF-v1, Zotero, full-text recovery, screening or reference-freeze change occurred.
+- [ ] HR-003 through HR-010 human adjudication and final reference freeze.
+
 ## Deep Evidence Batch 10.4B — entry audit — 2026-10-03
 
 **Decision: CANONICAL_1484_LEDGER_PASS | GO_FULL_TEXT_SATURATION_REVIEW. No scientific review occurred in this reconciliation mission.**

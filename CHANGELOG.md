@@ -3,6 +3,11 @@
 All notable project changes are documented here.
 
 ## [Unreleased] — 2026-10-06
+### Batch 10.4E HR-002 psychological self-report adjudication
+- Recorded the authorized human decision `HR-002 = MAINTAIN` for EV-0052. The record remains `UNADJUDICATED_CONTRADICTORY_EVIDENCE`, is not support for any claim, and cannot become Claim-Ready while its lawful full text remains unavailable.
+- Audited both v0.13 manuscripts: the required limitation is present, no definitive psychological-self-report readiness/performance prediction or unsupported causal statement was found, and no freeze-change candidate or v0.14 manuscript was required.
+- Updated only the HR-002 row in the official human-review queue. HR-003 through HR-010 remain blank and final reference freeze remains prohibited.
+
 ### Batch 10.4E HR-001 deterministic mapping adjudication
 - Recorded the authorized human decision `HR-001 = MAP MANUALLY` by Matheus Florindo de Deus, dated 2026-10-05, solely to determine whether each FT8 ledger claim has a defensible v0.13 sentence-to-citation-to-reference chain.
 - Classified 60/60 claims without forcing a topical or inferred link: 59 are `UNLINKED_NARROWING_REQUIRED` and the `NR — NOT REPORTED` placeholder is `UNLINKED_DELETE_REQUIRED`. No claim was promoted to support, no reference was added, and no manuscript was changed.

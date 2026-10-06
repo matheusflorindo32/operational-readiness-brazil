@@ -13,9 +13,15 @@ def test_claim_and_reference_audit_counts():
     assert len(rows('FINAL_REPLACEMENT_REVIEW.csv')) == 6
     assert len(rows('FINAL_CONTRADICTORY_DISCLOSURE_AUDIT.csv')) == 3
 
-def test_human_fields_remain_blank_and_blocked_evidence_is_not_support():
-    for r in rows('FINAL_HUMAN_REVIEW_QUEUE.csv'):
-        assert all(not r[x] for x in ['HUMAN_DECISION','HUMAN_REVIEWER','HUMAN_REVIEW_DATE','HUMAN_RATIONALE'])
+def test_only_authorized_hr002_human_fields_are_populated_and_blocked_evidence_is_not_support():
+    queue=rows('FINAL_HUMAN_REVIEW_QUEUE.csv')
+    hr002=next(r for r in queue if r['Review_ID']=='HR-002')
+    assert hr002['HUMAN_DECISION']=='MAINTAIN'
+    assert hr002['HUMAN_REVIEWER']=='Matheus Florindo de Deus'
+    assert hr002['HUMAN_REVIEW_DATE']=='2026-10-06'
+    for r in queue:
+        if r['Review_ID'] != 'HR-002':
+            assert all(not r[x] for x in ['HUMAN_DECISION','HUMAN_REVIEWER','HUMAN_REVIEW_DATE','HUMAN_RATIONALE'])
     assert all(r['Used_As_Support'] == 'NO' for r in rows('FINAL_CONTRADICTORY_DISCLOSURE_AUDIT.csv'))
 
 def test_framework_and_reference_controls():
