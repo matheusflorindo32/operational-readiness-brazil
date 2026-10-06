@@ -3,6 +3,11 @@
 All notable project changes are documented here.
 
 ## [Unreleased] — 2026-10-06
+### Batch 10.4E HR-005 final replacement adjudication
+- Resolved the documented replacement relationship for EV-0386: it was compared with the retained set EV-1484 (reference 14) and EV-1483 (reference 15), not silently substituted for either one.
+- Recorded the conditionally authorized human decision `HR-005 = KEEP_CURRENT`. EV-0386 remains outside supporting-citation and replacement roles because it is only partial support for an absent supplement claim and reported no statistically or clinically significant cardiometabolic or fire-ground performance effect after four weeks.
+- Preserved the two existing, bounded Brazilian claim contexts; final reference freeze, manuscripts, CEF-v1, Zotero and Claim-Ready remain unchanged. HR-006 through HR-010 remain blank.
+
 ### Batch 10.4E HR-004 BMI adjudication
 - Recorded the authorized human decision `HR-004 = MAINTAIN` for EV-1066. It remains `UNADJUDICATED_CONTRADICTORY_EVIDENCE`, outside support, Claim-Ready, quantitative-support and replacement-reference roles.
 - Audited both v0.13 manuscripts: the limitation remains present and the text contains no BMI global-proxy, causal-performance, body-composition-conflation or population-overtransfer claim. No FCR candidate or v0.14 manuscript was required.

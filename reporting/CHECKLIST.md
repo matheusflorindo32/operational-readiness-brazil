@@ -42,6 +42,16 @@
 - [x] No v0.14, CEF-v1, Zotero, full-text recovery, screening or reference-freeze change occurred.
 - [ ] HR-005 through HR-010 human adjudication and final reference freeze.
 
+## Batch 10.4E — HR-005 replacement decision — 2026-10-06
+
+- [x] Deterministic replacement relationship identified: EV-0386 versus retained EV-1484/EV-1483.
+- [x] All 18 comparison dimensions documented; recency and design were not treated as decisive alone.
+- [x] Claim impact recorded for the two existing contexts and the absent supplement claim.
+- [x] Authorized human decision `HR-005 = KEEP_CURRENT` recorded only in the HR-005 official queue row.
+- [x] EV-0386 remains outside supporting-citation and replacement roles; no manuscript, CEF-v1 or Zotero change.
+- [x] HR-006 through HR-010 human fields remain blank; final reference freeze remains prohibited.
+- [ ] HR-006 through HR-010 human adjudication and final reference freeze.
+
 ## Deep Evidence Batch 10.4B — entry audit — 2026-10-03
 
 **Decision: CANONICAL_1484_LEDGER_PASS | GO_FULL_TEXT_SATURATION_REVIEW. No scientific review occurred in this reconciliation mission.**
