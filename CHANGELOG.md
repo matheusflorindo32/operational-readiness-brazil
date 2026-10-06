@@ -3,6 +3,11 @@
 All notable project changes are documented here.
 
 ## [Unreleased] — 2026-10-06
+### Batch 10.4E HR-003 dietary-fat adjudication
+- Recorded the authorized human decision `HR-003 = MAINTAIN` for EV-0140. It remains `UNADJUDICATED_CONTRADICTORY_EVIDENCE`, unavailable for direct/indirect support, quantitative evidence, Claim-Ready or nutrition recommendations.
+- Audited both v0.13 manuscripts: the limitation remains present and the text has no universal dietary-fat impairment, unsupported causal dietary, short-term-to-chronic, or non-equivalent-outcome generalization. No FCR candidate or v0.14 manuscript was required.
+- Updated only the HR-003 row in the official human-review queue. HR-004 through HR-010 remain blank and final reference freeze remains prohibited.
+
 ### Batch 10.4E HR-002 psychological self-report adjudication
 - Recorded the authorized human decision `HR-002 = MAINTAIN` for EV-0052. The record remains `UNADJUDICATED_CONTRADICTORY_EVIDENCE`, is not support for any claim, and cannot become Claim-Ready while its lawful full text remains unavailable.
 - Audited both v0.13 manuscripts: the required limitation is present, no definitive psychological-self-report readiness/performance prediction or unsupported causal statement was found, and no freeze-change candidate or v0.14 manuscript was required.

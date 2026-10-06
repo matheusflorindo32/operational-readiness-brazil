@@ -22,6 +22,16 @@
 - [x] No v0.14, CEF-v1, Zotero, full-text recovery, screening or reference-freeze change occurred.
 - [ ] HR-003 through HR-010 human adjudication and final reference freeze.
 
+## Batch 10.4E — HR-003 dietary-fat limitation — 2026-10-06
+
+**Decision: HR003_ADJUDICATION_COMPLETE | GO_HR004_HUMAN_ADJUDICATION.**
+
+- [x] Authorized human decision `HR-003 = MAINTAIN` recorded only in the HR-003 official queue row.
+- [x] EV-0140 remains unadjudicated contradictory evidence, without support, Claim-Ready, causal or nutrition-recommendation role.
+- [x] Both v0.13 manuscripts preserve the limitation and have no universal impairment, causal dietary, temporal or outcome overgeneralization.
+- [x] No v0.14, CEF-v1, Zotero, full-text recovery, screening or reference-freeze change occurred.
+- [ ] HR-004 through HR-010 human adjudication and final reference freeze.
+
 ## Deep Evidence Batch 10.4B — entry audit — 2026-10-03
 
 **Decision: CANONICAL_1484_LEDGER_PASS | GO_FULL_TEXT_SATURATION_REVIEW. No scientific review occurred in this reconciliation mission.**
