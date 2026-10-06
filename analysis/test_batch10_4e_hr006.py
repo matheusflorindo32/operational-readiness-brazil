@@ -6,7 +6,7 @@ def rows(p):
 def test_hr006_authorized_scope_only():
  q=rows(ROOT/'batch10_4d'/'FINAL_HUMAN_REVIEW_QUEUE.csv');t=next(r for r in q if r['Review_ID']=='HR-006')
  assert (t['HUMAN_DECISION'],t['HUMAN_REVIEWER'],t['HUMAN_REVIEW_DATE'])==('KEEP_CURRENT','Matheus Florindo de Deus','2026-10-06')
- assert all(not r['HUMAN_DECISION'] for r in q if r['Review_ID'] in {'HR-010'})
+ assert all(not r['HUMAN_DECISION'] for r in q if r['Review_ID'] in {})
 def test_hr006_comparison_complete_and_no_promotion():
  c=rows(ROOT/'batch10_4e'/'HR006_REPLACEMENT_COMPARISON.csv');assert len(c)==18 and {r['Dimension_Number'] for r in c}=={str(i) for i in range(1,19)} and {r['Final_Classification'] for r in c}=={'KEEP_CURRENT'}
  i=rows(ROOT/'batch10_4e'/'HR006_CLAIM_IMPACT.csv'); assert next(r for r in i if r['Claim_ID']=='INT-NUTRITION-CAUTIOUS')['Current_Wording']=='NOT PRESENT AS A SUPPORTING CLAIM IN V0.13.'

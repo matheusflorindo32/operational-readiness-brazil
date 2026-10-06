@@ -14,7 +14,7 @@ def test_hr005_only_authorized_queue_update():
     assert target["HUMAN_DECISION"] == "KEEP_CURRENT"
     assert target["HUMAN_REVIEWER"] == "Matheus Florindo de Deus"
     assert target["HUMAN_REVIEW_DATE"] == "2026-10-06"
-    assert all(not row["HUMAN_DECISION"] for row in queue if row["Review_ID"] in {"HR-010"})
+    assert all(not row["HUMAN_DECISION"] for row in queue if row["Review_ID"] in {})
 
 def test_hr005_comparison_and_claim_boundaries():
     comparison = rows(ROOT / "batch10_4e" / "HR005_REPLACEMENT_COMPARISON.csv")

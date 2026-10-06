@@ -1,0 +1,2 @@
+Evidence_ID,Identity,Authorized_Route,Full_Text,Invalid_Route,Integrity,Result
+EV-1462,DOI 10.3389/fnut.2026.1893033; Frontiers in Nutrition 2026,https://www.frontiersin.org/articles/10.3389/fnut.2026.1893033/full,FT3R identity-verified final publisher route; HTTP 200; SHA256 34858223495881e39b82c514075dda586f179037f2069893d97b4f2764a27947,FT3 shared PMCID/XML association rejected and not used,No notice observed on versioned page; not database-wide clearance,PROVENANCE_REMEDIATED_FT4

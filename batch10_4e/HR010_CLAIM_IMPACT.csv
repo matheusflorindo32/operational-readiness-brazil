@@ -1,0 +1,4 @@
+Claim_ID,Manuscript,Section,Current_Wording,Current_Citation,EV1462_Support,Decision
+BR-NUTRITION-VIGILANCE,Both,Nutrition and Schedule Load,Specific shift-related intake/vigilance association; no dietary causality.,EV-1471 / Ref 3,NO_DIRECT_SUPPORT,KEEP_CURRENT
+BR-CHRONONUTRITION-SHIFT,Both,Nutrition and Schedule Load,Shift-associated meal timing and intake patterns; no prescription/performance effect.,EV-1472 / Ref 4,NO_DIRECT_SUPPORT,KEEP_CURRENT
+INT-SLEEP-CAFFEINE-MITIGATION,International,NOT_PRESENT_AS_SUPPORTING_SECTION,NOT PRESENT AS A SUPPORTING CLAIM IN V0.13.,No assigned citation,PARTIAL_SUPPORT; military settings only; requires a new narrowed sentence,KEEP_CURRENT

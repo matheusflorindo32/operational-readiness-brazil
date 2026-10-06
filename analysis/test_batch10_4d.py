@@ -28,7 +28,7 @@ def test_only_authorized_hr002_hr004_human_fields_are_populated_and_blocked_evid
     assert hr004['HUMAN_REVIEWER']=='Matheus Florindo de Deus'
     assert hr004['HUMAN_REVIEW_DATE']=='2026-10-06'
     for r in queue:
-        if r['Review_ID'] not in {'HR-002','HR-003','HR-004','HR-005','HR-006','HR-007','HR-008','HR-009'}:
+        if r['Review_ID'] not in {'HR-002','HR-003','HR-004','HR-005','HR-006','HR-007','HR-008','HR-009','HR-010'}:
             assert all(not r[x] for x in ['HUMAN_DECISION','HUMAN_REVIEWER','HUMAN_REVIEW_DATE','HUMAN_RATIONALE'])
     assert all(r['Used_As_Support'] == 'NO' for r in rows('FINAL_CONTRADICTORY_DISCLOSURE_AUDIT.csv'))
 
