@@ -63,3 +63,7 @@ __pycache__/
 **/attachments/
 output/
 build/
+# Local authenticated manuscript sources and rendered-page QA are not project artefacts.
+.tmp_batch10_4c_source/
+batch10_4c/qa/
+batch10_4c/qa_contact/

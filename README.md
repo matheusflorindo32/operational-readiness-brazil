@@ -20,6 +20,7 @@
 - **Batch 10.4B-R:** `CANONICAL_1484_LEDGER_PASS`. A Drive-authoritative LOOP 3× workbook was materialized into a versioned 1,484-row CSV; the 285-record full-text queue is reconciled and ready for its separate scientific-review gate.
 - **Batch 10.4B source discovery:** `PARTIAL_GO`. All 285 queue records have recorded primary metadata provenance; 100 have a lawful PMC XML route and 185 remain access-pending. No record has received final appraisal, reference selection, human confirmation, Claim-Ready status, or a manuscript change.
 - **Batch 10.4B-FT1:** `PARTIAL_GO` after 70/100 PMC-route records. Sixty-three article bodies were read and seven records were fail-closed for insufficient/unresolved XML; a full source-body audit found 85 usable bodies and 15 XML fragments. All decisions remain AI-provisional and Claim-Ready remains zero.
+- **Batch 10.4C:** v0.13 manuscript drafts were generated from the authenticated v0.12 manuscripts under `REFERENCE_SATURATION_PARTIAL_PASS`. They retain the verified 16-reference list while candidate evidence remains AI-provisional; the access limitations and three unadjudicated contradictory HIGH records are now explicit. The next gate is final scientific and reference audit with named human review, not submission.
 - **Primary journal positioning:** Strength & Conditioning Journal.
 
 > **Atleta tático é o ponto de partida, não o ponto final.**

@@ -3,6 +3,12 @@
 All notable project changes are documented here.
 
 ## [Unreleased] — 2026-10-05
+### Batch 10.4C evidence-saturated manuscript revision
+- Generated new International and Brazil v0.13 manuscript drafts from the authenticated v0.12 source files without overwriting v0.12, changing Zotero, reopening CEF-v1, or promoting a candidate to Claim-Ready.
+- Added explicit access and adjudication limitations: 22 HIGH, five targeted MEDIUM and 15 PMC100 fail-closed/insufficient records; unresolved contradictory records EV-0052, EV-0140 and EV-1066; bounded use constraints for EV-1462, EV-1463 and EV-1466.
+- Preserved the verified 16-reference list pending named human adjudication. The six replacement candidates are documented as `KEEP_CURRENT` pending review; no silent replacement or final scientific approval occurred.
+- Published the v0.13 claim-citation matrix, reference-decision and human-review ledgers, limitation/FCR records, manifest, report and regression tests. Status: `GO_FINAL_SCIENTIFIC_AND_REFERENCE_AUDIT_PENDING_HUMAN_REVIEW`.
+
 ### Batch 10.4B-FT1 initial appraisal checkpoint
 - Began the deterministic PMC full-text appraisal at EV-0386 and completed the first ten-record checkpoint. Nine XML article bodies received bounded AI-provisional extraction, design-specific appraisal, integrity check, claim boundary, citation-fitness and decision records; EV-0167 and EV-0252 preserve and reference their Pilot 03 appraisal rather than silently duplicating it.
 - Detected that 15/100 records labelled with a PMC XML route have only abstract/fragment XML rather than an article body. They are fail-closed access/version holds, not scientific exclusions. The reusable body audit leaves 85/100 actual article bodies available and 76 unreviewed bodies after this checkpoint.

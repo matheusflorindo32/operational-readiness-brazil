@@ -1,0 +1,34 @@
+{
+  "batch": "BATCH10_4C",
+  "base_commit": "1b1bfce61da53c313ddd30debdcea3f6776c9d75",
+  "inherited_gate": "REFERENCE_SATURATION_PARTIAL_PASS",
+  "status": "GO_FINAL_SCIENTIFIC_AND_REFERENCE_AUDIT_PENDING_HUMAN_REVIEW",
+  "claims": 60,
+  "required_limitations": 6,
+  "replacement_candidates": 6,
+  "human_review_queue": 9,
+  "cef_v1": "UNCHANGED",
+  "zotero": "UNCHANGED",
+  "v012": "UNCHANGED",
+  "source_sha256": {
+    "Brazil_v0.12-FULL-MANUSCRIPT.docx": "73912124ccef2af53f18f6efcf4f634ad2fb1e4f16e1420f946d6c0a82aa7df1",
+    "International_v0.12-FULL-MANUSCRIPT.docx": "e968db3895d0e38dd65cd73148e0b3f034d3b2e313ebc92197f44d966e992dc6"
+  },
+  "document_text_replacements": {
+    "international": 4,
+    "brazil": 2
+  },
+  "files": {
+    "BATCH10_4C_REPORT.md": "650c40961fb1dc069a39e0c75bc57a781fcc322b30adf7b26f53c4d353b7a090",
+    "V013_CLAIM_CITATION_MATRIX.csv": "e85e25244f298d560119e329290eeb47f08d67ad71d9e5634f8b30c9d0b5691e",
+    "V013_FCR_CANDIDATES.csv": "cbb42e75035a929a40944b0abe961f96a33b6118f5016abd00f18beb23a438a7",
+    "V013_HUMAN_REVIEW_QUEUE.csv": "e1c38511d26c0bc8fb33006a5809e5a95e50bb53e13cce55c7f61e07eaf4bbef",
+    "V013_REFERENCE_DECISION_LEDGER.csv": "da117a447a9bf8732894b1c239903849450cc654c4307cc83975a3ce64e7c08d",
+    "V013_REPLACEMENT_DECISIONS.csv": "86d47190564f03a1a0f213337953268341087b6809074c71184ebbd3423e4fa0",
+    "V013_REQUIRED_LIMITATIONS_LEDGER.csv": "68e8005d6efd18c8e5686c9f296a1bd4a89c41fe8993d8737f3b2b748e293ef1",
+    "manuscripts/Brazil_v0.13-EVIDENCE-SATURATED.docx": "0c485223ea5fbe2b9453063807644a9574b8f52fabead18166b702fff1df5130",
+    "manuscripts/Brazil_v0.13-EVIDENCE-SATURATED.pdf": "3d12efb0af11672cb4c94ac6a1ff17ffd9d3ee198e00efc9903f8f7351f1d69a",
+    "manuscripts/International_v0.13-EVIDENCE-SATURATED.docx": "66dddf179259cfec8a95033fd73bcf011ec03921ce345cc0d74e6fa7907f5308",
+    "manuscripts/International_v0.13-EVIDENCE-SATURATED.pdf": "2db4f168ccb57eb6a8aa0b93e1a992bcf6b90960f47cf699d0e2df7823529eda"
+  }
+}

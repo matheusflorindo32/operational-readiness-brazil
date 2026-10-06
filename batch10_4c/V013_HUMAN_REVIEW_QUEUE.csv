@@ -1,0 +1,10 @@
+Queue_ID,Evidence_ID,Priority,Reason,Required_Decision,Human_Reviewer,Review_Date,Decision,Justification
+HUMAN-EV-0052,EV-0052,HIGH,May challenge a simple psychological self-report screen as a performance-decrement surrogate.,Adjudicate after lawful full-text access,,,,
+HUMAN-EV-0140,EV-0140,HIGH,May challenge claims that short-term moderately high-fat intake materially changes performance.,Adjudicate after lawful full-text access,,,,
+HUMAN-EV-1066,EV-1066,HIGH,May challenge BMI as a global predictor of military-relevant task performance.,Adjudicate after lawful full-text access,,,,
+HUMAN-EV-0386,EV-0386,HIGH,Replacement comparison required,REPLACE / KEEP_CURRENT / KEEP_BOTH / DROP_BOTH,,,,
+HUMAN-EV-0426,EV-0426,HIGH,Replacement comparison required,REPLACE / KEEP_CURRENT / KEEP_BOTH / DROP_BOTH,,,,
+HUMAN-EV-0521,EV-0521,HIGH,Replacement comparison required,REPLACE / KEEP_CURRENT / KEEP_BOTH / DROP_BOTH,,,,
+HUMAN-EV-0667,EV-0667,HIGH,Replacement comparison required,REPLACE / KEEP_CURRENT / KEEP_BOTH / DROP_BOTH,,,,
+HUMAN-EV-1458,EV-1458,HIGH,Replacement comparison required,REPLACE / KEEP_CURRENT / KEEP_BOTH / DROP_BOTH,,,,
+HUMAN-EV-1462,EV-1462,HIGH,Replacement comparison required,REPLACE / KEEP_CURRENT / KEEP_BOTH / DROP_BOTH,,,,
