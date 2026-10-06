@@ -1,0 +1,2 @@
+Source,Used,Reason
+DOCX rendered superscript runs,YES,Deterministic numbered anchors and numbered bibliography are present.
