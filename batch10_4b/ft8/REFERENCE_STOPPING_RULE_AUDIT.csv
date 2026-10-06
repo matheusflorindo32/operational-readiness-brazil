@@ -1,0 +1,7 @@
+Criterion,Requirement,Status,Rationale
+1,Targeted HIGH recovery exhausted,YES,FT5 completed; remaining routes are documented.
+2,Targeted MEDIUM recovery exhausted,YES,FT7 completed for all five selected records.
+3,Remaining expected incremental gain low,PARTIAL,Not low for blocked contradicted/access domains; these are explicitly excluded from saturation.
+4,Claims supported or limitations representable,PARTIAL,"Only bounded/provisional claims can proceed, with mandatory limitations."
+5,Unresolved contradictions documented,YES,Three HIGH contradictory records have an explicit ledger.
+6,No high-probability accessible gap remains,YES,FT5/FT7 did not yield appraisal-ready bodies.

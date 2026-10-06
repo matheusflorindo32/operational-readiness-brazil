@@ -1,0 +1,5 @@
+Area,Status,Rationale
+Evidence manifests and ledgers,READY,FT1/FT4/FT5/FT6/FT7 ledgers and manifests are versioned.
+Claims/reference candidates,PARTIAL,Candidates are AI-provisional; human confirmation and final reference selection remain pending.
+Saturation decision,REFERENCE_SATURATION_PARTIAL_PASS,Proceed only with narrowed claims and mandatory limitations; blocked domains cannot be represented as saturated.
+GitHub evidence layer,GITHUB_EVIDENCE_LAYER_PARTIAL,Provenance/versioning/tests are ready; scientific confirmation remains incomplete.

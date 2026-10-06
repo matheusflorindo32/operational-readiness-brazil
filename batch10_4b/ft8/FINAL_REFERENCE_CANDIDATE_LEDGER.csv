@@ -1,0 +1,104 @@
+Evidence_ID,Candidate_Status,Source,Human_Confirmation,Claim_Ready,Boundary
+EV-0386,FINAL_REPLACEMENT_CANDIDATE,PMC100 FT1,PENDING,NO,Does not establish that astaxanthin improves occupational performance or cardiometabolic health in firefighters or Brazilian public safety.
+EV-0426,FINAL_REPLACEMENT_CANDIDATE,PMC100 FT1,PENDING,NO,"Does not justify a general supplementation protocol, causal field-readiness claim, or direct transfer to Brazilian public safety."
+EV-0521,FINAL_REPLACEMENT_CANDIDATE,PMC100 FT1,PENDING,NO,"Does not show that protein/carbohydrate alone caused benefit, that every occupational task improved, or that results generalize to female firefighters or Brazilian agencies."
+EV-0667,FINAL_REPLACEMENT_CANDIDATE,PMC100 FT1,PENDING,NO,"Does not validate the test for Brazilian policing, establish combat readiness, or prove outcome prediction beyond this small infantry cohort."
+EV-1458,FINAL_REPLACEMENT_CANDIDATE,PMC100 FT1,PENDING,NO,"Does not quantify the effect of a particular Brazilian vest, prove injury prevention effects, or establish cognitive/marksmanship decrement in all settings."
+EV-0167,FINAL_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,"Does not establish improved officer behavior, public safety, accountability, technology accuracy, causal organization-wide benefit or Brazilian applicability."
+EV-0252,FINAL_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,"Does not establish prevalence across US policing, causal determinants of implementation success, innovation effectiveness or transferability to Brazil."
+EV-0402,CONTEXT_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,"Does not establish that the suggested volumes or thresholds improve health, performance or safety in firefighters or Brazilian public safety."
+EV-0523,UNRESOLVED_NOT_ELIGIBLE,PMC100 FT1,PENDING,NO,Does not release an implementation or effectiveness claim.
+EV-0606,UNRESOLVED_NOT_ELIGIBLE,PMC100 FT1,PENDING,NO,"No finding, appraisal, claim or implementation conclusion may be inferred from the abstract-only XML."
+EV-0837,CONTEXT_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Does not establish that a military HIV portfolio improves public-safety readiness or transfers to Brazil.
+EV-0846,UNRESOLVED_NOT_ELIGIBLE,PMC100 FT1,PENDING,NO,"No prediction, heat-readiness or operational recommendation may be inferred."
+EV-1301,DISCUSSION_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,"Does not demonstrate causal family, health or readiness benefit or direct Brazilian transfer."
+EV-0014,FINAL_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Does not establish that phase angle causes performance or validates a Brazilian operational threshold.
+EV-0045,CONTEXT_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,"Does not establish diet causes adiposity or readiness, nor describe Brazilian police prevalence."
+EV-0068,FINAL_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Does not show that any mapped strategy prevents injury or transfers unchanged to Brazilian academies.
+EV-0076,FINAL_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,"Does not establish sex-specific field readiness, safety, or performance benefit in police/firefighters."
+EV-0092,CONTEXT_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Does not demonstrate effectiveness of holistic programming or a validated return-to-duty pathway.
+EV-0103,FINAL_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,"Does not measure patient outcomes, validate training duration or justify a Brazilian scope-of-practice policy."
+EV-0114,CONTEXT_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,"Does not demonstrate glaucoma prevalence, screening effectiveness or readiness impact in Brazilian public safety."
+EV-0115,FINAL_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Does not establish occupational load causes MSDs or estimate Brazilian prevalence.
+EV-0143,UNRESOLVED_NOT_ELIGIBLE,PMC100 FT1,PENDING,NO,No biosecurity/readiness claim is released.
+EV-0146,CONTEXT_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,"Does not estimate population incidence, establish prevention effectiveness or transfer to Brazilian police academies."
+EV-0151,CONTEXT_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Does not show that tailoring to learning styles improves TCCC competence or patient outcomes.
+EV-0153,DO_NOT_USE,PMC100 FT1,PENDING,NO,Does not establish that a procedure improves operational readiness or justify public-safety treatment policy.
+EV-0156,DO_NOT_USE,PMC100 FT1,PENDING,NO,"Does not support genetic screening, resilience prediction or causal performance claims."
+EV-0161,DISCUSSION_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,"Does not establish PTSD treatment effectiveness, feasibility or readiness effect."
+EV-0178,DISCUSSION_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,"Does not demonstrate improved diet, readiness or health outcomes."
+EV-0179,FINAL_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Does not show athletic trainers reduce injury burden or improve readiness.
+EV-0183,FINAL_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,"Does not establish operational readiness, comparative clinical effectiveness or Brazilian system feasibility."
+EV-0195,DISCUSSION_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Does not demonstrate clinical effectiveness or readiness improvement.
+EV-0196,CONTEXT_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Does not establish the stated dose guidance as effective in Brazilian operational forces.
+EV-0198,DISCUSSION_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,"Does not establish effectiveness, acceptability, or transferability to Brazil."
+EV-0200,CONTEXT_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,"Does not justify stimulant policy, safety claims, or causal operational-readiness effects."
+EV-0204,FINAL_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,"Does not prove that fitness testing, assignment, or conditioning causes lower injury or better performance."
+EV-0230,FINAL_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,"Does not establish psychological mechanisms, mediation, intervention effects, or readiness improvement."
+EV-0236,CONTEXT_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Does not estimate prevalence in military women generally or prove that energy availability caused sleep or performance outcomes.
+EV-0264,FINAL_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Does not show that fire service accelerates ageing or that monitoring changes operational outcomes.
+EV-0289,UNRESOLVED_NOT_ELIGIBLE,PMC100 FT1,PENDING,NO,Does not support injury-risk or fitness-test claims.
+EV-0294,FINAL_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,"Does not establish long-term dietary superiority, operational effectiveness, or a universal MRE policy."
+EV-0295,DO_NOT_USE,PMC100 FT1,PENDING,NO,Does not establish occupational readiness effects in firefighters.
+EV-0311,DISCUSSION_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,"Does not demonstrate rehabilitation effectiveness, return to duty, or readiness benefit."
+EV-0315,FINAL_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Does not show that resilience training improves mental health or physical fitness.
+EV-0322,CONTEXT_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Does not estimate population intake or show that an education/access intervention changes readiness.
+EV-0337,CONTEXT_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Does not establish prevalence in armed forces or that screening improves operational readiness.
+EV-0370,FINAL_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,"Does not establish deficiency by biomarker, performance impairment, or effectiveness of dietary intervention."
+EV-0373,FINAL_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Does not show alcohol use causes cardiometabolic changes or that screening/intervention improves readiness.
+EV-0377,CONTEXT_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Does not demonstrate that a specific body-composition standard improves readiness or applies to Brazil.
+EV-0383,DISCUSSION_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Does not estimate injury burden or establish an intervention effect.
+EV-0388,CONTEXT_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Does not establish on-shift exercise effects in firefighters or broader cognitive readiness.
+EV-0390,CONTEXT_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Does not establish combat-readiness improvement from simulation fidelity.
+EV-0403,FINAL_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Does not establish alcohol or PTSD causes reduced combat readiness.
+EV-0427,CONTEXT_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Does not show that diet modification changes cardiovascular risk or readiness.
+EV-0443,CONTEXT_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Does not quantify a general detraining effect or justify readiness policy.
+EV-0459,DISCUSSION_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Does not demonstrate that capability framing improves readiness.
+EV-0503,DISCUSSION_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Does not establish program effectiveness or transferability to Brazil.
+EV-0504,DISCUSSION_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,"Does not show that ICBT improves symptoms, use, or operational readiness."
+EV-0519,CONTEXT_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Does not establish a body-composition threshold or causal readiness effect.
+EV-0524,FINAL_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Does not establish COVID-19 caused changes in all firefighters or set return-to-duty thresholds.
+EV-0529,DISCUSSION_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Does not demonstrate suicide-prevention or readiness effects.
+EV-0534,UNRESOLVED_NOT_ELIGIBLE,PMC100 FT1,PENDING,NO,Does not release a mental-health access claim.
+EV-0555,CONTEXT_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Does not validate HRV for selection or attrition prediction.
+EV-0578,CONTEXT_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Does not estimate prevalence in military personnel or prove energy availability causes sleep/readiness effects.
+EV-0583,FINAL_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Does not show that modifying activity or body composition causes performance change.
+EV-0586,FINAL_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Does not establish that DXA-based monitoring improves readiness or applies to non-US settings.
+EV-0616,UNRESOLVED_NOT_ELIGIBLE,PMC100 FT1,PENDING,NO,Does not release injury-prevention knowledge claims.
+EV-0640,UNRESOLVED_NOT_ELIGIBLE,PMC100 FT1,PENDING,NO,Does not release fitness-program effect claims.
+EV-0641,DISCUSSION_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Does not validate risk or return-to-duty assessment.
+EV-0643,FINAL_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Does not establish that the screen predicts safe return to duty.
+EV-0650,CONTEXT_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Does not validate a predictive selection or readiness model.
+EV-0655,CONTEXT_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,No causal or threshold inference.
+EV-0663,DISCUSSION_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,No intervention effect.
+EV-0670,FINAL_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,No definitive operational-performance claim.
+EV-0681,CONTEXT_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Not direct evidence of Brazilian operational effect.
+EV-0682,FINAL_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,No causal supplement or screening claim.
+EV-0684,UNRESOLVED_NOT_ELIGIBLE,PMC100 FT1,PENDING,NO,No claim released.
+EV-0705,CONTEXT_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,No broad readiness-effect inference.
+EV-0721,FINAL_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,No causal or prevention-effect claim.
+EV-0734,FINAL_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,No universal fitness threshold.
+EV-0749,DO_NOT_USE,PMC100 FT1,PENDING,NO,Not evidence for present readiness claims.
+EV-0756,CONTEXT_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,No prevention-effect claim.
+EV-0760,CONTEXT_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,No causal nutrition claim.
+EV-0786,UNRESOLVED_NOT_ELIGIBLE,PMC100 FT1,PENDING,NO,No claim released.
+EV-0799,FINAL_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,No long-term readiness claim.
+EV-0823,CONTEXT_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,No readiness or intervention effect.
+EV-0832,UNRESOLVED_NOT_ELIGIBLE,PMC100 FT1,PENDING,NO,No claim released.
+EV-0857,CONTEXT_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,No causal occupational inference.
+EV-0874,CONTEXT_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,No performance or intervention effect.
+EV-0878,UNRESOLVED_NOT_ELIGIBLE,PMC100 FT1,PENDING,NO,No claim released.
+EV-0899,UNRESOLVED_NOT_ELIGIBLE,PMC100 FT1,PENDING,NO,No claim released.
+EV-0936,CONTEXT_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,No causal or supplementation claim.
+EV-0939,DISCUSSION_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,No causal program-effect claim.
+EV-0960,FINAL_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,No definitive program-effect claim.
+EV-1026,FINAL_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,No causal workload or prevention claim.
+EV-1110,UNRESOLVED_NOT_ELIGIBLE,PMC100 FT1,PENDING,NO,No claim released.
+EV-1128,FINAL_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,No causal prevention claim.
+EV-1178,UNRESOLVED_NOT_ELIGIBLE,PMC100 FT1,PENDING,NO,No claim released.
+EV-1460,FINAL_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,No Brazil-specific or causal organizational claim.
+EV-1461,FINAL_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,No causal or Brazil-specific claim.
+EV-1467,FINAL_REFERENCE_CANDIDATE,PMC100 FT1,PENDING,NO,Does not establish causal occupational effect or intervention benefit.
+EV-1462,FINAL_REPLACEMENT_CANDIDATE,FT4,PENDING,NO,Bounded caffeine/sleep-loss mitigation only.
+EV-1463,CONTEXT_REFERENCE_CANDIDATE,FT4,PENDING,NO,PMDF cross-sectional surveillance only.
+EV-1466,CONTEXT_REFERENCE_CANDIDATE,FT4,PENDING,NO,Weak ROC context only; no prevention inference.

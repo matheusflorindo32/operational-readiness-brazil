@@ -1,0 +1,18 @@
+Domain,Saturation_Status,Rationale,PMC100_Claim_Mappings,Unresolved_HIGH_Exists,Contradictory_Risk,Access_Limitation,Human_Confirmation
+Operational / occupational readiness,PARTIALLY_SATURATED,Operational outcomes are represented but remain heterogeneous across occupations.,28,NO,RESIDUAL,MODERATE,PENDING
+Physical / academy readiness,BLOCKED_BY_UNRESOLVED_CONTRADICTORY_EVIDENCE,EV-0052 and EV-1066 remain unadjudicated contradictory HIGH evidence.,10,YES,MATERIAL,MATERIAL,PENDING
+Nutrition,BLOCKED_BY_UNRESOLVED_CONTRADICTORY_EVIDENCE,EV-0140 remains unadjudicated contradictory HIGH evidence.,13,YES,MATERIAL,MATERIAL,PENDING
+Shift work,PARTIALLY_SATURATED,Existing nutrition/shift coverage is not a standalone shift-work evidence base.,0,NO,RESIDUAL,MODERATE,PENDING
+Sleep / fatigue / recovery,PARTIALLY_SATURATED,Bounded FT4 caffeine synthesis is available; directness and transferability remain limited.,6,NO,RESIDUAL,MODERATE,PENDING
+Cognition,BLOCKED_BY_ACCESS,Relevant HIGH replacements remain inaccessible.,0,YES,MODERATE,MATERIAL,PENDING
+Firearm / operational performance,PARTIALLY_SATURATED,Coverage exists but direct operational-task outcomes remain incomplete.,0,NO,RESIDUAL,MODERATE,PENDING
+Medical / cardiovascular readiness,PARTIALLY_SATURATED,PMDF surveillance is direct but cross-sectional and cohort-specific.,1,NO,RESIDUAL,MODERATE,PENDING
+Musculoskeletal injury,PARTIALLY_SATURATED,Substantial provisional coverage exists; causal/prevention inference remains bounded.,6,NO,RESIDUAL,MODERATE,PENDING
+Tactical medicine,BLOCKED_BY_ACCESS,P0 HIGH records remain inaccessible.,2,YES,MODERATE,MATERIAL,PENDING
+TCCC / TECC / APH,BLOCKED_BY_ACCESS,P0 HIGH records remain inaccessible.,0,YES,MODERATE,MATERIAL,PENDING
+Implementation science,PARTIALLY_SATURATED,Provisional implementation evidence exists but public-safety institutional directness remains incomplete.,5,NO,RESIDUAL,MODERATE,PENDING
+Organizational / policy readiness,NOT_SATURATED,No completed dedicated coverage category.,0,NO,RESIDUAL,MODERATE,PENDING
+Hydration / heat,BLOCKED_BY_ACCESS,Only two FT1 records; a P0 HIGH remains inaccessible.,0,YES,MODERATE,MATERIAL,PENDING
+Monitoring / wearables,NOT_SATURATED,No completed dedicated coverage category.,0,NO,RESIDUAL,MODERATE,PENDING
+Brazil-specific evidence,NOT_SATURATED,Only two bounded single-force studies are appraised.,0,NO,RESIDUAL,MODERATE,PENDING
+International transferability,PARTIALLY_SATURATED,Population/context transferability limits are repeatedly documented.,0,NO,RESIDUAL,MODERATE,PENDING
