@@ -1,0 +1,13 @@
+{
+  "batch": "10.4F",
+  "entry_commit": "6ac940325dc7a2eeccfde5b9a63d18055b8ed27f",
+  "entry_ci": "success",
+  "gate": "FINAL_REFERENCE_FREEZE_BLOCKED",
+  "reason": "No deterministic sentence-to-citation-to-reference chains exist for the 60 FT8 ledger claims; forcing links is prohibited.",
+  "hr_adjudications_resolved": "10/10",
+  "ft8_claims_reviewed": "60/60",
+  "freeze_executed": false,
+  "cef_v1": "UNCHANGED",
+  "zotero": "UNCHANGED",
+  "manuscripts": "UNCHANGED"
+}
