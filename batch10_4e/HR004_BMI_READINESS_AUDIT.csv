@@ -1,0 +1,2 @@
+Evidence_ID,Requirement,International,Brazil,BMI_vs_Body_Composition,Population_Transferability,Causal_Claim,Decision
+EV-1066,"BMI must not be used as a global proxy, definitive predictor or isolated measure of operational readiness.",PASS,PASS,SEPARATED,NO_OVERTRANSFER,NO,MAINTAIN_LIMITATION

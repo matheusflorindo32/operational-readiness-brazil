@@ -21,7 +21,7 @@
     "FINAL_CLAIM_CITATION_AUDIT.csv": "12362bd8c0a05aef6774b628450303dedb2bf8d8701d49cdf1e6ad9efcdac78b",
     "FINAL_CONTRADICTORY_DISCLOSURE_AUDIT.csv": "d7324556ce074acbefc081379297326468af3df92f9b16eff8546bc4abd2b931",
     "FINAL_FCR_CANDIDATES.csv": "f5acf38cdcf65ecc152b71a850755ff394cf77d2894d99c1163d003cf6764ad1",
-    "FINAL_HUMAN_REVIEW_QUEUE.csv": "295233f8c2348ebe72be08399ee57fc6cf4a53eb28c539c0e7c497e3b2d9ab00",
+    "FINAL_HUMAN_REVIEW_QUEUE.csv": "cdd91bafdcaac468579de3b576c92fca9df479d6c91510b000085114bf8960cd",
     "FINAL_INTERNATIONAL_BRAZIL_COMPARISON.csv": "559ddd0869c2a1cc9f96f7c0a368a119bd46f40dfa22919bc41c7ab94d411898",
     "FINAL_LANGUAGE_OVERCLAIM_AUDIT.csv": "9054897adde31dc72948a3b841d7db905351bdde1da934e1cfdc3c4c8d8ef8b5",
     "FINAL_LIMITATIONS_AUDIT.csv": "7ff111b9b564e3285971f4d9a714839f323fb20dcad2923f709a31fa552a15c2",
@@ -39,6 +39,13 @@
     },
     "HR-003": {
       "evidence_id": "EV-0140",
+      "decision": "MAINTAIN",
+      "reviewer": "Matheus Florindo de Deus",
+      "review_date": "2026-10-06",
+      "scope": "Maintain limitation and fail-closed non-support treatment only."
+    },
+    "HR-004": {
+      "evidence_id": "EV-1066",
       "decision": "MAINTAIN",
       "reviewer": "Matheus Florindo de Deus",
       "review_date": "2026-10-06",

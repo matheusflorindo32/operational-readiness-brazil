@@ -32,6 +32,16 @@
 - [x] No v0.14, CEF-v1, Zotero, full-text recovery, screening or reference-freeze change occurred.
 - [ ] HR-004 through HR-010 human adjudication and final reference freeze.
 
+## Batch 10.4E — HR-004 BMI limitation — 2026-10-06
+
+**Decision: HR004_ADJUDICATION_COMPLETE | GO_HR005_HUMAN_ADJUDICATION.**
+
+- [x] Authorized human decision `HR-004 = MAINTAIN` recorded only in the HR-004 official queue row.
+- [x] EV-1066 remains unadjudicated contradictory evidence, without support, Claim-Ready, quantitative or replacement-reference role.
+- [x] Both v0.13 manuscripts preserve the BMI limitation and have no global-proxy, causal, conflation or population-overtransfer claim.
+- [x] No v0.14, CEF-v1, Zotero, full-text recovery, screening or reference-freeze change occurred.
+- [ ] HR-005 through HR-010 human adjudication and final reference freeze.
+
 ## Deep Evidence Batch 10.4B — entry audit — 2026-10-03
 
 **Decision: CANONICAL_1484_LEDGER_PASS | GO_FULL_TEXT_SATURATION_REVIEW. No scientific review occurred in this reconciliation mission.**
