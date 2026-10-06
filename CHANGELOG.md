@@ -3,6 +3,11 @@
 All notable project changes are documented here.
 
 ## [Unreleased] — 2026-10-06
+### Batch 10.4E HR-007 final replacement adjudication
+- Resolved EV-0521 against EV-1471 (reference 3) and EV-1472 (reference 4). The current set remains for its distinct, cited Brazilian police shift-nutrition, vigilance and chrononutrition claims.
+- Recorded the conditionally authorized human decision `HR-007 = KEEP_CURRENT`. EV-0521 remains outside support and replacement roles because its small male-firefighter supplementation trial does not improve the active police claims and has `RoB 2 = SOME_CONCERNS`.
+- Final reference freeze, manuscripts, CEF-v1, Zotero and Claim-Ready remain unchanged. HR-008 through HR-010 remain blank.
+
 ### Batch 10.4E HR-006 final replacement adjudication
 - Resolved EV-0426 against the retained EV-1471 (reference 3) and EV-1472 (reference 4) architecture. The records remain for their distinct, bounded Brazilian police shift-nutrition claims.
 - Recorded the conditionally authorized human decision `HR-006 = KEEP_CURRENT`. EV-0426 is a critically-low-confidence systematic review with only partial support for an absent supplement claim; it did not improve the cited claims' population, exposure, outcome or wording fit.

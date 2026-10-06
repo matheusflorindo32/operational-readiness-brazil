@@ -61,6 +61,15 @@
 - [x] HR-007 through HR-010 human fields remain blank; final reference freeze remains prohibited.
 - [ ] HR-007 through HR-010 human adjudication and final reference freeze.
 
+## Batch 10.4E — HR-007 replacement decision — 2026-10-06
+
+- [x] Deterministic replacement relationship identified: EV-0521 versus retained EV-1471/EV-1472.
+- [x] All 18 comparison dimensions and three claim-level impacts documented.
+- [x] Authorized human decision `HR-007 = KEEP_CURRENT` recorded only in the HR-007 official queue row.
+- [x] EV-0521 remains outside supporting-citation and replacement roles; no manuscript, CEF-v1 or Zotero change.
+- [x] HR-008 through HR-010 human fields remain blank; final reference freeze remains prohibited.
+- [ ] HR-008 through HR-010 human adjudication and final reference freeze.
+
 ## Deep Evidence Batch 10.4B — entry audit — 2026-10-03
 
 **Decision: CANONICAL_1484_LEDGER_PASS | GO_FULL_TEXT_SATURATION_REVIEW. No scientific review occurred in this reconciliation mission.**
