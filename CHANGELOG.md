@@ -3,6 +3,11 @@
 All notable project changes are documented here.
 
 ## [Unreleased] — 2026-10-06
+### Batch 10.4E HR-006 final replacement adjudication
+- Resolved EV-0426 against the retained EV-1471 (reference 3) and EV-1472 (reference 4) architecture. The records remain for their distinct, bounded Brazilian police shift-nutrition claims.
+- Recorded the conditionally authorized human decision `HR-006 = KEEP_CURRENT`. EV-0426 is a critically-low-confidence systematic review with only partial support for an absent supplement claim; it did not improve the cited claims' population, exposure, outcome or wording fit.
+- Final reference freeze, manuscripts, CEF-v1, Zotero and Claim-Ready remain unchanged. HR-007 through HR-010 remain blank.
+
 ### Batch 10.4E HR-005 final replacement adjudication
 - Resolved the documented replacement relationship for EV-0386: it was compared with the retained set EV-1484 (reference 14) and EV-1483 (reference 15), not silently substituted for either one.
 - Recorded the conditionally authorized human decision `HR-005 = KEEP_CURRENT`. EV-0386 remains outside supporting-citation and replacement roles because it is only partial support for an absent supplement claim and reported no statistically or clinically significant cardiometabolic or fire-ground performance effect after four weeks.
