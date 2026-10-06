@@ -1,0 +1,20 @@
+{
+  "gate": "SENTENCE_SUPPORT_ADJUDICATION_BLOCKED",
+  "scientific_sentences_expected": 168,
+  "scientific_sentences_adjudicated": 168,
+  "citation_anchors_structurally_attached": 12,
+  "forced_links": 0,
+  "blocked_evidence_used_as_support": 0,
+  "cohort_double_counting": 0,
+  "cef_v1_changed": false,
+  "zotero_changed": false,
+  "manuscripts_changed": false,
+  "dispositions": {
+    "CITATION_CHANGE_REQUIRED": 147,
+    "NARROWING_REQUIRED": 21
+  },
+  "support_fit": {
+    "INSUFFICIENT_SUPPORT": 168
+  },
+  "reason": "Versioned authorities recover bibliography identity but do not provide source-result-level sentence support; no thematic inference performed."
+}
