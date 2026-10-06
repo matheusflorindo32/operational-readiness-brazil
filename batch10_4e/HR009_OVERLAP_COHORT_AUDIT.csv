@@ -1,0 +1,2 @@
+Evidence_ID,Overlap_Status,Current_Set_Overlap,Double_Counting_Risk,Decision,Rationale
+EV-1458,REVIEW_LEVEL_OVERLAP_WITH_PRIMARY_STUDIES,NO_DOCUMENTED_SAME_COHORT_WITH_EV-1481_OR_EV-1480,YES_IF_REVIEW_AND_INCLUDED_PRIMARY_STUDIES_ARE_TREATED_AS_INDEPENDENT,DO_NOT_PROMOTE_OR_ADD,No active v0.13 armor claim; adding the review would inflate citations without a distinct approved role.
