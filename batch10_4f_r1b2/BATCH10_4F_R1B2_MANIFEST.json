@@ -1,0 +1,46 @@
+{
+  "batch": "BATCH 10.4F-R1B2",
+  "gate": "SENTENCE_SUPPORT_READJUDICATION_PASS",
+  "scientific_sentences_readjudicated": "168/168",
+  "dispositions": {
+    "NON_EVIDENTIARY_NO_SUPPORT_NEEDED": 37,
+    "DELETE_REQUIRED": 123,
+    "RETAIN_WITH_LIMITATION": 5,
+    "NARROWING_REQUIRED": 3
+  },
+  "support_fit": {
+    "NON_EVIDENTIARY_NOT_APPLICABLE": 37,
+    "NO_RESULT_LEVEL_SUPPORT": 123,
+    "CONTEXTUAL_SUPPORT": 3,
+    "PARTIAL_SUPPORT": 3,
+    "DIRECT_SUPPORT": 2
+  },
+  "forced_semantic_links": 0,
+  "blocked_evidence_used": 0,
+  "rejected_pmcid_reused": 0,
+  "cohort_double_counting": 0,
+  "null_result_suppressed": 0,
+  "unsupported_causal_claims_retained": 0,
+  "sentence_readjudication_method": "Fail-closed: only recovered sentence-reference links received source-level fit; unanchored factual claims are delete-required, while internal method/limitation/framework statements are non-evidentiary.",
+  "manuscript_changes": 0,
+  "zotero_changes": 0,
+  "cef_v1_changes": 0,
+  "deterministic_regeneration": "python analysis/build_batch10_4f_r1b2.py",
+  "artifact_sha256": {
+    "FINAL_ABSTRACT_SUPPORT_AUDIT.csv": "0e92601a82eea119a5ca2841e24c81996911d992e346313b2975626f869c2fa5",
+    "FINAL_CAUSAL_LANGUAGE_AUDIT.csv": "130d7181857f36c670540a0242869528a0d48c122fe5eef3702f061b75de398d",
+    "FINAL_CITATION_CHANGE_ACTIONS.csv": "7f34b2ed17635560338b41edb31d31dc279b75bb1ddec20a836d4be59fe3c5dc",
+    "FINAL_CITATION_REMOVAL_ACTIONS.csv": "7f34b2ed17635560338b41edb31d31dc279b75bb1ddec20a836d4be59fe3c5dc",
+    "FINAL_CONCLUSION_SUPPORT_AUDIT.csv": "c8073df7dbf17e6c50ef9e413e5ea39d5c355e4c32914bfeab6eda105dc2869b",
+    "FINAL_DELETE_ACTIONS.csv": "160c15529190fbbb4280efaf5fc8bada137f2aadfaf2c6f49d263fa2b113930f",
+    "FINAL_FCR_CANDIDATES.csv": "7f34b2ed17635560338b41edb31d31dc279b75bb1ddec20a836d4be59fe3c5dc",
+    "FINAL_NARROWING_ACTIONS.csv": "ca372cff28a43091eeb96a00a5f8bdc7fbd791527bae6d53d183c43a98abb9bd",
+    "FINAL_NON_EVIDENTIARY_SENTENCES.csv": "4cdc803feae7a14dcf83677b33c466a593e82fe8d816e01449af87c943c4b46d",
+    "FINAL_PRELIMINARY_ORPHAN_REFERENCE_AUDIT.csv": "ce16e6058e45b1c00e7f67be59175d52479bb2ef22d5c10d577025eaf3eb3e68",
+    "FINAL_PROTECTED_CLAIM_AUDIT.csv": "415d77111ed8496947a1646dc77ecf233b58e6c4be8c6157b7ff633db77720f5",
+    "FINAL_REFERENCE_VALID_USE_AUDIT.csv": "789a4e37c884fc67def8c4c01291ef805f9973a41a8923b8a8ea67880bc183c4",
+    "FINAL_SENTENCE_RESULT_FIT_MATRIX.csv": "aca322e3b1542e98fd917456d6b77bf25f02c79e0d38ff76fa9dc690b4342576",
+    "FINAL_SENTENCE_SUPPORT_READJUDICATION.csv": "aca322e3b1542e98fd917456d6b77bf25f02c79e0d38ff76fa9dc690b4342576",
+    "FINAL_TRANSFERABILITY_AUDIT.csv": "41c33b5cfb23dfc4180f500018946160b96eebbfa1ce6c18a5e0a2b81b2b1a6c"
+  }
+}
