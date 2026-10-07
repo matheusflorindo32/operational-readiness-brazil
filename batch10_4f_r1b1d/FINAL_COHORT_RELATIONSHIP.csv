@@ -1,0 +1,17 @@
+Reference_ID,Evidence_ID,Cohort_Family,SAME_COHORT_FAMILY,Independent_Cohort_Count,Rule
+1,EXT-TFF-2013,NO_KNOWN_SHARED_COHORT_IN_CURRENT_PACKET,NO,NR,No same-cohort relationship documented in this packet.
+2,EXT-ACC-AHA-2026,NO_KNOWN_SHARED_COHORT_IN_CURRENT_PACKET,NO,NR,No same-cohort relationship documented in this packet.
+3,EV-1471,NO_KNOWN_SHARED_COHORT_IN_CURRENT_PACKET,NO,NR,No same-cohort relationship documented in this packet.
+4,EV-1472,NO_KNOWN_SHARED_COHORT_IN_CURRENT_PACKET,NO,NR,No same-cohort relationship documented in this packet.
+5,EV-1473,CF-BR-PMES-CFO-2023-01,YES,1,Do not treat EV-1473 and EV-1474 as independent replications.
+6,EV-1474,CF-BR-PMES-CFO-2023-01,YES,1,Do not treat EV-1473 and EV-1474 as independent replications.
+7,EV-1475,NO_KNOWN_SHARED_COHORT_IN_CURRENT_PACKET,NO,NR,No same-cohort relationship documented in this packet.
+8,EV-1476,NO_KNOWN_SHARED_COHORT_IN_CURRENT_PACKET,NO,NR,No same-cohort relationship documented in this packet.
+9,EV-1477,NO_KNOWN_SHARED_COHORT_IN_CURRENT_PACKET,NO,NR,No same-cohort relationship documented in this packet.
+10,EV-1478,NO_KNOWN_SHARED_COHORT_IN_CURRENT_PACKET,NO,NR,No same-cohort relationship documented in this packet.
+11,EV-1479,NO_KNOWN_SHARED_COHORT_IN_CURRENT_PACKET,NO,NR,No same-cohort relationship documented in this packet.
+12,EV-1481,NO_KNOWN_SHARED_COHORT_IN_CURRENT_PACKET,NO,NR,No same-cohort relationship documented in this packet.
+13,EV-1480,NO_KNOWN_SHARED_COHORT_IN_CURRENT_PACKET,NO,NR,No same-cohort relationship documented in this packet.
+14,EV-1484,NO_KNOWN_SHARED_COHORT_IN_CURRENT_PACKET,NO,NR,No same-cohort relationship documented in this packet.
+15,EV-1483,NO_KNOWN_SHARED_COHORT_IN_CURRENT_PACKET,NO,NR,No same-cohort relationship documented in this packet.
+16,EV-1482,NO_KNOWN_SHARED_COHORT_IN_CURRENT_PACKET,NO,NR,No same-cohort relationship documented in this packet.

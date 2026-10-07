@@ -1,0 +1,6 @@
+Evidence_ID,Result_ID,Null_Status,Locator,Note
+EV-1473,EV-1473-R02,NULL_RESULT_PRESERVED,Results; paragraph 60; NR,Retained without suppression.
+EV-1473,EV-1473-R03,NULL_RESULT_PRESERVED,Results; paragraph 62; NR,Retained without suppression.
+EV-1474,EV-1474-R02,NULL_RESULT_PRESERVED,Table 3; physical activity and physical-fitness rows,Retained without suppression.
+EV-1479,EV-1479-R01,NULL_RESULT_PRESERVED,"Results, Table 4 and first Results interpretation paragraph on p.16",Retained without suppression.
+EV-1474,EV-1474-R01,PARTIAL_NULL_COMPONENT_PRESERVED,Table 3; correlation matrix,Most other anthropometric correlations in the same table were non-significant; result remains association-plus-null context.
