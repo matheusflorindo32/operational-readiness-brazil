@@ -1,0 +1,2 @@
+Evidence_ID,DOI,PMID,Reported_PMCID,PubMed_Retrieved_PMCID,Identity_Result,Action
+EV-1474,10.3389/fpsyg.2025.1736902,41694750,PMC3382270 — DO NOT USE,PMC3382270,PASS via official Frontiers DOI full-text source; legacy PMCID rejected,FREEZE_CHANGE_REQUEST_CANDIDATE only if frozen PMCID field requires correction; no CEF-v1 edit.

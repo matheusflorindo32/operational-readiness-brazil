@@ -1,0 +1,15 @@
+{
+  "gate": "TARGETED_SOURCE_RECOVERY_PARTIAL",
+  "targets": 14,
+  "newly_recovered_full_texts": 5,
+  "official_open_full_texts": 4,
+  "government_sources": 1,
+  "abstract_only_retained": 2,
+  "paywalled_no_lawful_full_text": 6,
+  "new_result_ids": 2,
+  "auditable_locators": 2,
+  "forced_semantic_links": 0,
+  "illegal_access": 0,
+  "new_references_added": 0,
+  "reason": "Lawful recovery improved source availability but unresolved central paywalled sources prevent consolidated result-level packets."
+}

@@ -1,0 +1,15 @@
+Reference_ID,Evidence_ID,Route_Attempted,URL,Outcome,Illegal_Access
+1,EXT-TFF-2013,DOI resolver/publisher landing route reached or attempted; no lawful full text captured.,https://doi.org/10.7205/MILMED-D-12-00519,PAYWALLED_NO_LAWFUL_FULL_TEXT,NO
+2,EXT-ACC-AHA-2026,DOI resolver/publisher landing route reached or attempted; no lawful full text captured.,https://doi.org/10.1016/j.jacc.2026.07.003,PAYWALLED_NO_LAWFUL_FULL_TEXT,NO
+3,EV-1471,DOI resolver/publisher landing route reached or attempted; no lawful full text captured. Structured PubMed Results abstract recovered.,https://doi.org/10.1016/j.nut.2025.112989,ABSTRACT_ONLY_CONFIRMED,NO
+4,EV-1472,DOI resolver/publisher landing route reached or attempted; no lawful full text captured.,https://doi.org/10.1177/08901171251336887,PAYWALLED_NO_LAWFUL_FULL_TEXT,NO
+6,EV-1474,Official source PDF retrieved directly Crossref identity metadata did not establish the complete identity.,https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1736902/pdf,IDENTITY_UNRESOLVED,NO
+7,EV-1475,Official source PDF retrieved directly,https://revista.ibsp.org.br/index.php/RIBSP/article/download/317/210,VERIFIED_OPEN_FULL_TEXT,NO
+8,EV-1476,Official source PDF retrieved directly,https://periodicorease.pro.br/rease/pt_BR/article/download/19687/11741,VERIFIED_OPEN_FULL_TEXT,NO
+9,EV-1477,Official source PDF retrieved directly,https://www.gov.br/mj/pt-br/assuntos/sua-seguranca/seguranca-publica/aph-tatico/manual-aluno-aph-tatico-mjsp-11-04-2025_compressed.pdf,VERIFIED_GOVERNMENT_SOURCE,NO
+10,EV-1478,DOI resolver/publisher landing route reached or attempted; no lawful full text captured.,https://doi.org/10.1016/j.jdeveco.2025.103603,PAYWALLED_NO_LAWFUL_FULL_TEXT,NO
+11,EV-1479,Official source PDF retrieved directly,https://www.scielo.br/j/ep/a/WKSVkX7LfNVtNHVMMD5hvMC/?lang=pt&format=pdf,VERIFIED_OPEN_FULL_TEXT,NO
+12,EV-1481,DOI resolver/publisher landing route reached or attempted; no lawful full text captured. Structured PubMed Results abstract recovered.,https://doi.org/10.3233/WOR-210031,ABSTRACT_ONLY_CONFIRMED,NO
+13,EV-1480,DOI resolver/publisher landing route reached or attempted; no lawful full text captured.,https://doi.org/10.1007/s11896-026-09827-0,PAYWALLED_NO_LAWFUL_FULL_TEXT,NO
+15,EV-1483,DOI resolver/publisher landing route reached or attempted; no lawful full text captured.,https://doi.org/10.1519/JSC.0000000000001065,PAYWALLED_NO_LAWFUL_FULL_TEXT,NO
+16,EV-1482,Official source PDF retrieved directly,https://revista.forumseguranca.org.br/rbsp/article/download/1764/779,VERIFIED_OPEN_FULL_TEXT,NO
