@@ -1,0 +1,2 @@
+Evidence_ID,Cohort_Family,Independent_Cohort_Count,Rule
+EV-1473;EV-1474,CF-BR-PMES-CFO-2023-01,1,Report distinct outcomes separately; do not count as independent cohorts.

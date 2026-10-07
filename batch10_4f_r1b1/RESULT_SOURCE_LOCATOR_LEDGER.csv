@@ -1,0 +1,5 @@
+Result_ID,Evidence_ID,Source_URL,Locator,Locator_Auditable
+EV-1473-R01,EV-1473,https://pmc.ncbi.nlm.nih.gov/articles/PMC10617376/,PMC11983491 > Results > paragraph 59,YES
+EV-1473-R02,EV-1473,https://pmc.ncbi.nlm.nih.gov/articles/PMC10617376/,PMC11983491 > Results > paragraph 60,YES
+EV-1473-R03,EV-1473,https://pmc.ncbi.nlm.nih.gov/articles/PMC10617376/,PMC11983491 > Results > paragraph 62,YES
+EV-1484-R01,EV-1484,https://pmc.ncbi.nlm.nih.gov/articles/PMC6792329/,PMC9453999 > Results > paragraph 80 > Table 5,YES

@@ -1,0 +1,15 @@
+{
+  "gate": "SOURCE_LEVEL_RESULT_LOCALIZATION_BLOCKED",
+  "references_inventoried": 16,
+  "verified_full_texts": 2,
+  "abstract_only": 4,
+  "source_unavailable": 10,
+  "result_ids_extracted": 4,
+  "auditable_locators": 4,
+  "forced_semantic_links": 0,
+  "blocked_evidence_used_as_support": 0,
+  "cef_v1_changed": false,
+  "zotero_changed": false,
+  "manuscripts_changed": false,
+  "reason": "Only two retained references yielded verified full text and auditable result locators; all other retained references lack result-level localization."
+}

@@ -1,0 +1,5 @@
+Evidence_ID,Result_ID,Null_Result,Preservation_Note
+EV-1473,EV-1473-R02,YES,Retained without conversion to positive trend.
+EV-1473,EV-1473-R03,YES,Retained without conversion to positive trend.
+EV-1474,NOT_RELOCALIZED,HISTORICAL_NULL_RETAINED,"No source-level result locator recovered in this batch; preserve as unrelocated history, not positive support."
+EV-1479,NOT_RELOCALIZED,HISTORICAL_NULL_RETAINED,Existing project history records a null programme result; no official result-level locator recovered in this batch.
