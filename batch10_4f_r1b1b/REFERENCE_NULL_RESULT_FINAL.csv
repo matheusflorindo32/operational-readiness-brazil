@@ -1,0 +1,5 @@
+Evidence_ID,Result_ID,Null_Result,Preservation
+EV-1473,EV-1473-R02,YES,YES
+EV-1473,EV-1473-R03,YES,YES
+EV-1474,NOT_RELOCALIZED,HISTORICAL_NULL_RETAINED,Historical null-result status retained but not re-localized; identity remains unresolved.
+EV-1479,NOT_RELOCALIZED,HISTORICAL_NULL_RETAINED,Historical null-result status retained; recovered full source still awaits result extraction.

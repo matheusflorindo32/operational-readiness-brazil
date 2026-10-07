@@ -1,0 +1,2 @@
+Evidence_ID,Status,Rule,Action
+EV-1474,PMC3382270_REJECTED_LEGACY_IDENTITY; FULL_TEXT_ROUTE_IDENTITY_UNRESOLVED,No result-level support use,FREEZE_CHANGE_REQUEST_CANDIDATE only if a frozen PMCID correction is proposed.

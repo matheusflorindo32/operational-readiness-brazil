@@ -1,0 +1,14 @@
+{
+  "gate": "EVIDENCE_PACKET_CONSOLIDATION_BLOCKED",
+  "references_packetized": 16,
+  "full_text_verified": 6,
+  "government_verified": 1,
+  "abstract_result_only": 2,
+  "insufficient": 7,
+  "result_ids": 6,
+  "auditable_locators": 6,
+  "candidate_crosswalk_coverage": 4,
+  "source_insufficient_sentence_uses": 4,
+  "forced_semantic_links": 0,
+  "reason": "Packets distinguish every source depth, but five newly recovered full texts lack result-level extraction and seven references remain source-insufficient; sentence readjudication would still force support."
+}
