@@ -1,0 +1,10 @@
+Evidence_ID,Result_ID,Permitted_Boundary,Prohibited_Inference
+EV-1474,EV-1474-R01,Association only in this small training-course sample and protocol.,"No causal, universal-readiness, national-prevalence, or BMI-as-proxy inference."
+EV-1474,EV-1474-R02,Protocol-specific absence of detected association in this sample.,No claim that physical fitness improves shooting proficiency generally.
+EV-1474,EV-1474-R03,Specific correlations with the study shooting score.,"No prediction, intervention effect, or causal claim."
+EV-1475,EV-1475-R01,Descriptive change in documented applications across the stated intervals.,"No survival benefit, effectiveness, or causal attribution to training/normative change."
+EV-1475,EV-1475-R02,Descriptive recipient distribution in the reviewed records.,"No conclusion about need, benefit, or comparative effectiveness in civilians versus officers."
+EV-1475,EV-1475-R03,Planning context for recorded device use in this dataset.,No claim that one kit per vehicle is clinically sufficient or that the device caused better outcomes.
+EV-1476,EV-1476-R01,Contextual description of APH-Tático themes only.,"No effectiveness, survival, or operational-readiness claim."
+EV-1479,EV-1479-R01,Null finding for the evaluated school/program/time and reported outcomes.,No claim that police presence improves school safety generally.
+EV-1482,EV-1482-R01,Documentary planning context for a PMPI mental-health policy proposal.,"No claim that the proposed program improves mental health, readiness, or service outcomes."

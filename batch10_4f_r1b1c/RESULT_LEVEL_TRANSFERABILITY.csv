@@ -1,0 +1,10 @@
+Evidence_ID,Result_ID,Population,Study_Design,Transferability
+EV-1474,EV-1474-R01,26 military police officers in the Espírito Santo Officer Training Course (5 women; 21 men),Cross-sectional correlational study,Direct Brazilian police-training setting; narrow sample and standardized 5-m shooting protocol.
+EV-1474,EV-1474-R02,26 military police officers in the Espírito Santo Officer Training Course,Cross-sectional correlational study,Single Brazilian police-training cohort; not independent of EV-1473 cohort family.
+EV-1474,EV-1474-R03,26 military police officers in the Espírito Santo Officer Training Course,Cross-sectional correlational study,Direct Brazilian police-training setting; requires replication and is one cohort family with EV-1473.
+EV-1475,EV-1475-R01,REDS occurrences documenting police application of a tourniquet in Minas Gerais,Ex-post-facto descriptive record review,State police record system; documentation practices and case mix may differ elsewhere.
+EV-1475,EV-1475-R02,198 documented tourniquet applications tabulated by recipient,Ex-post-facto descriptive record review,Minas Gerais records only.
+EV-1475,EV-1475-R03,"210 documented tourniquet-use occurrences, 2013–2024",Ex-post-facto descriptive record review,Single-state documentation and operational context.
+EV-1476,EV-1476-R01,Not an empirical participant sample,Bibliographic qualitative exploratory analysis,Narrative/context source; not empirical evidence.
+EV-1479,EV-1479-R01,One Escola Segura treatment school compared with one control school; survey respondents,Quasi-experimental impact evaluation with regression model,One-school evaluation; short follow-up and setting-specific implementation.
+EV-1482,EV-1482-R01,PMPI CAIS institutional documents and open information,Qualitative exploratory documentary case study,"Single institutional case and proposal, not evaluated implementation."

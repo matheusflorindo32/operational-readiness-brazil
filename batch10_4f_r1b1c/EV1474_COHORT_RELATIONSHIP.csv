@@ -1,0 +1,2 @@
+Evidence_ID,Cohort_Family,Related_Evidence_ID,Relationship,Independent_Cohort_Count,Evidence,Rule,Change_To_CEF_V1
+EV-1474,CF-BR-PMES-CFO-2023-01,EV-1473,PARTIAL_OVERLAP,1,Shared PMES officer-training context; prior project governance classification retained.,Do not count EV-1473 and EV-1474 as independent replications.,NO

@@ -1,0 +1,33 @@
+{
+  "batch": "BATCH 10.4F-R1B1C",
+  "gate": "VERIFIED_SOURCE_RESULT_EXTRACTION_PASS",
+  "extraction_scope": "Five newly recovered full texts plus EV-1477 guidance; no sentence re-adjudication.",
+  "full_texts_extracted_and_localized": 5,
+  "result_records": 9,
+  "empirical_result_records": 7,
+  "non_empirical_context_records": 2,
+  "guidance_records": 2,
+  "EV1474_identity": "EV1474_PUBLISHER_IDENTITY_PASS",
+  "EV1474_legacy_pmcid": "REJECTED",
+  "source_insufficient": 6,
+  "sentence_re_adjudication": 0,
+  "manuscript_changes": 0,
+  "zotero_changes": 0,
+  "cef_v1_changes": 0,
+  "forced_semantic_links": 0,
+  "deterministic_regeneration": "python analysis/build_batch10_4f_r1b1c.py",
+  "artifact_sha256": {
+    "VERIFIED_SOURCE_RESULT_EXTRACTION.csv": "d79dc8cea771ecfc3fffed8ffa6ff808af381e53d898bf02dffe46bef5baedd8",
+    "NEW_RESULT_LEVEL_EVIDENCE_LEDGER.csv": "d79dc8cea771ecfc3fffed8ffa6ff808af381e53d898bf02dffe46bef5baedd8",
+    "NEW_RESULT_SOURCE_LOCATORS.csv": "1b36c55630f05a8332a34db7ae1c1141a29a48f44427b9fa47888d015833a759",
+    "RESULT_LEVEL_CLAIM_BOUNDARIES.csv": "591024ddd711f4269214b844f0dd3f94b07f186dc61349374f4829bbe3326c70",
+    "RESULT_LEVEL_TRANSFERABILITY.csv": "5c2e8b193f0b163ff38bbb202e7788852d8186ad266e301b2abfc112b805c636",
+    "NULL_RESULT_COMPLETENESS_AUDIT.csv": "450269ae5ea0709ed3f15ed9e24e22ea7bd9faf7cb592ed6e48da56ac8547636",
+    "EV1474_PUBLISHER_IDENTITY_VALIDATION.csv": "05220bb5d38e6df6aa563cb84bcd351141bd97c1d23b47c2fc2454a3df23f348",
+    "EV1474_COHORT_RELATIONSHIP.csv": "150c4f882cbcb848f5e3018716e26bb13eff182a45b7259a10c8b0884f53b9f1",
+    "EV1477_GUIDANCE_EXTRACTION.csv": "407cb04ed33953f81512f43649aa48fcb15be8e40c871b6288bd86f155ea4e9f",
+    "REFERENCE_PACKET_STATUS_V3.csv": "9add1fc5ea4b2db494400a6ddb4af5ebc6479766bae89598bda231282d92ec7c",
+    "SENTENCE_RESULT_CANDIDATE_CROSSWALK_V3.csv": "5e485526e036ab4a0882f9adc58abfc10f697f0fa2072defea980167e18f6ed8",
+    "SOURCE_INSUFFICIENT_FINAL_FOR_R1B1C.csv": "c96dc88defdeefef338a84340be3ce9500ffbf4175edbd23a248dd246586fd07"
+  }
+}

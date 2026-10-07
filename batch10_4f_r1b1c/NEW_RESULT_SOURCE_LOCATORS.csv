@@ -1,0 +1,10 @@
+Evidence_ID,Result_ID,Source_URL,PDF_Page,Source_Locator,Result_Class
+EV-1474,EV-1474-R01,https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1736902/pdf,8,Table 3; correlation matrix,EMPIRICAL_ASSOCIATION
+EV-1474,EV-1474-R02,https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1736902/pdf,8,Table 3; physical activity and physical-fitness rows,EMPIRICAL_NULL_RESULT
+EV-1474,EV-1474-R03,https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1736902/pdf,8,Table 3; handgrip and mood rows,EMPIRICAL_ASSOCIATION
+EV-1475,EV-1475-R01,https://revista.ibsp.org.br/index.php/RIBSP/article/download/317/210,88,"Results, Graph 2 and accompanying paragraph",DESCRIPTIVE_PRE_POST_RECORD_COUNT
+EV-1475,EV-1475-R02,https://revista.ibsp.org.br/index.php/RIBSP/article/download/317/210,89,"Results, Table 1 and accompanying paragraph",DESCRIPTIVE_CASE_MIX
+EV-1475,EV-1475-R03,https://revista.ibsp.org.br/index.php/RIBSP/article/download/317/210,90,"Results, Table 2 and paragraph beginning “No período compreendido”",DESCRIPTIVE_LOGISTICS
+EV-1476,EV-1476-R01,https://periodicorease.pro.br/rease/article/download/19687/11741,332,"Methods; description as bibliographic, qualitative and exploratory research",NON_EMPIRICAL_CONTEXT
+EV-1479,EV-1479-R01,https://www.scielo.br/j/ep/a/WKSVkX7LfNVtNHVMMD5hvMC/?lang=pt&format=pdf,15–16,"Results, Table 4 and first Results interpretation paragraph on p.16",EMPIRICAL_NULL_RESULT
+EV-1482,EV-1482-R01,https://revista.forumseguranca.org.br/rbsp/article/download/1764/779,"199, 203–205",Methods; SWOT analysis and Results/Discussion,DOCUMENTARY_IMPLEMENTATION_FINDING
