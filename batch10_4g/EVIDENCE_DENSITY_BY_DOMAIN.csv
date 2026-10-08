@@ -1,0 +1,12 @@
+Domain,Candidate_Claims,Independent_Studies,Independent_Cohorts,Full_Text_Sources,Result_IDs,Direct_Claims,Brazil_Eligible_Claims,International_Eligible_Claims,Density_Assessment
+Sleep / fatigue / recovery,1,1,1,1,1,1,0,1,ENOUGH_FOR_SUPPORTING_SECTION
+Medical / cardiovascular readiness,2,2,2,2,2,1,2,1,STRONG_ENOUGH_FOR_CORE_SECTION
+Shooting / tactical performance,2,2,1,2,2,0,2,2,ENOUGH_FOR_SUPPORTING_SECTION
+Tactical medicine / APH,1,1,1,1,1,0,1,0,DISCUSSION_ONLY
+Implementation / organizational context,1,1,1,1,1,0,1,0,DISCUSSION_ONLY
+Musculoskeletal injury,1,1,1,1,1,0,1,0,LIMITATION_ONLY
+Nutrition / supplementation,0,0,0,0,0,0,0,0,REMOVE_FROM_MANUSCRIPT_SCOPE
+Physical fitness / academy readiness,0,0,0,0,0,0,0,0,REMOVE_FROM_MANUSCRIPT_SCOPE
+Hydration / heat,0,0,0,0,0,0,0,0,REMOVE_FROM_MANUSCRIPT_SCOPE
+Mental health / stress / mood,0,0,0,0,0,0,0,0,LIMITATION_ONLY
+Occupational readiness as composite score,0,0,0,0,0,0,0,0,REMOVE_FROM_MANUSCRIPT_SCOPE

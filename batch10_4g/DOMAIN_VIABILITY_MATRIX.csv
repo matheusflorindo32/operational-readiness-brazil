@@ -1,0 +1,12 @@
+Domain,Domain_Viability,Candidate_Claim_Count,Independent_Study_Count,Independent_Cohort_Count,Rationale,Action
+Sleep / fatigue / recovery,ENOUGH_FOR_SUPPORTING_SECTION,1,1,1,One systematic review with bounded task-dependent effects; international only.,NARROW
+Medical / cardiovascular readiness,STRONG_ENOUGH_FOR_CORE_SECTION,2,2,2,One direct PMDF cohort plus one Paraná occupational cohort; both observational and bounded.,USE
+Shooting / tactical performance,ENOUGH_FOR_SUPPORTING_SECTION,2,2,1,Two publications from CF-BR-PMES-CFO-2023-01; null results preserved and no double counting.,NARROW
+Tactical medicine / APH,DISCUSSION_ONLY,1,1,1,Record-use evidence without patient outcomes or causal training effect.,DISCUSSION_ONLY
+Implementation / organizational context,DISCUSSION_ONLY,2,2,2,One school null evaluation and one documentary case; insufficient for effectiveness section.,DISCUSSION_ONLY
+Musculoskeletal injury,LIMITATION_ONLY,1,1,1,Weak cross-sectional discrimination; no prevention or threshold claim.,DISCUSSION_ONLY
+Nutrition / supplementation,REMOVE_FROM_MANUSCRIPT_SCOPE,0,0,0,Existing candidate evidence lacks reconstruction-ready named result packets in this blueprint and nutrition remains blocked by unresolved contradictory evidence.,REMOVE_DOMAIN
+Physical fitness / academy readiness,REMOVE_FROM_MANUSCRIPT_SCOPE,0,0,0,Blocked by unresolved contradictory evidence and no independent reconstruction-ready result packet.,REMOVE_DOMAIN
+Hydration / heat,REMOVE_FROM_MANUSCRIPT_SCOPE,0,0,0,Blocked by access; no reconstruction-ready result packet.,FUTURE_SEARCH_REQUIRED
+Mental health / stress / mood,LIMITATION_ONLY,0,0,0,EV-0052 remains unadjudicated; no definitive predictor claim is permitted.,REMOVE_DOMAIN
+Occupational readiness as composite score,REMOVE_FROM_MANUSCRIPT_SCOPE,0,0,0,No validated composite outcome or adequate evidence density.,REMOVE_DOMAIN
