@@ -1,0 +1,31 @@
+{
+  "batch": "BATCH 10.4H-GAP",
+  "gate": "TARGETED_GAP_CLOSURE_INSUFFICIENT",
+  "targeted_candidates_reviewed": 4,
+  "new_result_ids": 4,
+  "new_bounded_claims": 4,
+  "claim_chains_complete": "4/4",
+  "new_final_references": 0,
+  "new_claim_ready": 0,
+  "blocked_evidence_support": 0,
+  "source_insufficient_evidence_promoted": 0,
+  "rejected_pmcid_reused": 0,
+  "cohort_double_counting": 0,
+  "null_suppression": 0,
+  "CEF_v1_changes": 0,
+  "Zotero_changes": 0,
+  "v015_changes": 0,
+  "human_review": "PENDING",
+  "deterministic_regeneration": "python analysis/build_batch10_4h_gap.py",
+  "artifact_sha256": {
+    "BATCH10_4H_GAP_REPORT.md": "a1a9cc7eac9d965252b761e8a8cc18682cfb342b4e2e165efa19d04d25209a43",
+    "GAP_CLOSURE_APPRAISAL_LEDGER.csv": "47c8d757c76ec4feae531cbb3eef7152f39f1f08a4967697f69f50c42b5a3b24",
+    "GAP_CLOSURE_INTEGRITY_LEDGER.csv": "95c992c053705c25e00ac84a6b5aea75424e8a9af6d3053072d36ca8d6c6e7aa",
+    "GAP_CLOSURE_NEW_CLAIMS.csv": "c85b032ebfade2ec77bfb9f65304c4694c4be5f08f0534713175c486985a8a5b",
+    "GAP_CLOSURE_REMAINING_GAPS.csv": "1d1fb89e98247ca3a5e448bfa0d85767b7d90d46ecdf13b8ed539257b0e40558",
+    "GAP_CLOSURE_RESULT_EXTRACTION.csv": "111238e48215638f323dfbbd55d3e73ef176aff3c4afd92023c6cc101fd99f3f",
+    "UPDATED_RECONSTRUCTION_CLAIM_LIBRARY.csv": "bf9df7ff84915f8e1a8a772aba020a1c1f7e481a623230e620ebed15924e5c72",
+    "UPDATED_RECONSTRUCTION_EVIDENCE_INVENTORY.csv": "3eddd70e821d29ed17d36d859f1c187fd4f4f9f4febda1884c2a21408b0a42e4",
+    "UPDATED_RECONSTRUCTION_GAP_MATRIX.csv": "338450416ccde0423e18a559ebc9ffaa7e1e9ef58c7c359074436ef606c70cdb"
+  }
+}
