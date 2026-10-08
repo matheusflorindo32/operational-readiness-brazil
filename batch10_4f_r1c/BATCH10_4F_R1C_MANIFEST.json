@@ -1,0 +1,42 @@
+{
+  "batch": "BATCH 10.4F-R1C",
+  "gate": "RECONCILED_V014_MAJOR_RECONSTRUCTION_REQUIRED",
+  "delete_actions_accounted": "123/123",
+  "narrowing_actions_accounted": "3/3",
+  "retain_with_limitation_accounted": "5/5",
+  "unsupported_active_scientific_sentences": 0,
+  "forced_links": 0,
+  "blocked_evidence_support": 0,
+  "rejected_pmcid_use": 0,
+  "cohort_double_counting": 0,
+  "null_suppression": 0,
+  "framework_validation_inflation": 0,
+  "unauthorized_cef_v1_change": 0,
+  "international_viability": "MAJOR_RECONSTRUCTION_REQUIRED",
+  "brazil_viability": "MAJOR_RECONSTRUCTION_REQUIRED",
+  "reference_freeze_executed": false,
+  "source_v013_sha256": {
+    "International": "66dddf179259cfec8a95033fd73bcf011ec03921ce345cc0d74e6fa7907f5308",
+    "Brazil": "0c485223ea5fbe2b9453063807644a9574b8f52fabead18166b702fff1df5130"
+  },
+  "pdf_rendering_status": "NOT_GENERATED_BUNDLED_LIBREOFFICE_UNAVAILABLE",
+  "visual_rendering_inspection": "NOT_PERFORMED_BUNDLED_RENDERER_UNAVAILABLE",
+  "deterministic_regeneration": "python analysis/build_batch10_4f_r1c.py",
+  "artifact_sha256": {
+    "R1C_ABSTRACT_BODY_COHERENCE.csv": "4ae3223552e4d6b876143c067b4b0104c7062d75c072368074a0f1dc71ca28f2",
+    "R1C_CONCLUSION_COHERENCE.csv": "852940dd5ba66effdfa50271dee6aaf92783c64fb33fbf92ef865d3d7670e219",
+    "R1C_DELETE_APPLICATION_LEDGER.csv": "f7c5d9bfb18ceeb2216e1cf0876ac3ddadbd939079da907679f9a1aeaef056c5",
+    "R1C_FCR_LEDGER.csv": "16cd0cf0c30a11b733a48bc5ccc075d5ced5c7ad1a0567cb4a9e7ac992b2a92f",
+    "R1C_INTERNATIONAL_BRAZIL_COMPARISON.csv": "241def77212570dfbe834c3b81046f29157402006549dc50ab1ea1c8025792c8",
+    "R1C_LIMITATION_APPLICATION_LEDGER.csv": "2ef6aa770a1536d76a41ec73d3d482f4bf81417a3bbb2d51c222db2c11d9714a",
+    "R1C_MANUSCRIPT_VIABILITY_AUDIT.csv": "9730b6f6a395045b5a6c83fc10a9204effe74ca16342e5074b7222514cc63150",
+    "R1C_NARROWING_APPLICATION_LEDGER.csv": "a325d176e5cb04bb91fae0ea168d43d9c65a52118eba0a4f5a34adbf3544a426",
+    "R1C_POSTBUILD_CLAIM_SUPPORT_MATRIX.csv": "48e520be40c3d562586770e3ecac29997f4a6df7e9d674c0d826b67d67fd611f",
+    "R1C_POSTBUILD_SENTENCE_INVENTORY.csv": "48e520be40c3d562586770e3ecac29997f4a6df7e9d674c0d826b67d67fd611f",
+    "R1C_REFERENCE_USE_AFTER_BUILD.csv": "81028693577c04d3669840053afdb09267f582748f8940f86322ffd04972fd6c",
+    "R1C_STRUCTURAL_REPAIR_LEDGER.csv": "0dee6decdf3ed8e4e437ed47b94eea8dce7ecf1ad2de32118f8d12e4f8d3af26",
+    "R1C_WORD_COUNT_COMPARISON.csv": "0a5d560477e63017d1991745c7df4afcddf9de89889159081898804e3ac5e42a",
+    "Brazil_v0.14-RECONCILED.docx": "6381d180d0750bbaa961aaa426ece0edf619b112c18f6449b4bf9c7add9fe240",
+    "International_v0.14-RECONCILED.docx": "57097b43ff82d3b9d982472e19537bf2045f686e8ab86b9af947c2cb02a3ec9c"
+  }
+}

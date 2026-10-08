@@ -1,0 +1,2 @@
+Manuscript,Section,Postbuild_Text,Audit,Status
+ALL,ABSTRACT,No surviving scientific abstract claim extracted by parser.,Fail-closed structural finding; abstract requires reconstruction only after source mapping is restored.,FAIL_CLOSED

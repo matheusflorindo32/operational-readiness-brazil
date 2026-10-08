@@ -28,7 +28,8 @@ def test_hr002_manuscript_controls_are_fail_closed():
         assert row["Overclaim_Status"] == "PASS_AS_WRITTEN"
         assert row["FCR_Candidate"] == "NO"
 
-def test_no_v014_and_only_authorized_decision_recorded():
-    assert not list(ROOT.rglob("*v0.14*"))
+def test_only_authorized_r1c_v014_outputs_exist_and_hr002_decision_is_preserved():
+    v014 = list(ROOT.rglob("*v0.14*"))
+    assert v014 and all(ROOT / 'batch10_4f_r1c' in path.parents for path in v014)
     decision = rows(ROOT / "batch10_4e" / "HR002_HUMAN_DECISION_RECORD.csv")
     assert len(decision) == 1 and decision[0]["Review_ID"] == "HR-002" and decision[0]["HUMAN_DECISION"] == "MAINTAIN"

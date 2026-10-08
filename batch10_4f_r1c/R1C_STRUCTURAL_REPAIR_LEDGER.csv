@@ -1,0 +1,9 @@
+Manuscript,Repair_Type,Original_Context,Replacement_Text,Rationale,Verification_Status
+International,EMPTY_PARAGRAPH_REMOVED,Figure 1 summarizes the evidence-governance architecture used in this project.,,All scientific content in paragraph was delete-required.,PASS
+International,EMPTY_SECTION_STATUS_INSERTED,Table 1.,This section contains no retained source-linked empirical claim after the fail-closed evidence audit.,Non-evidentiary structural repair; no new scientific claim.,PASS
+International,EMPTY_SECTION_STATUS_INSERTED,Table 2.,This section contains no retained source-linked empirical claim after the fail-closed evidence audit.,Non-evidentiary structural repair; no new scientific claim.,PASS
+International,EMPTY_SECTION_STATUS_INSERTED,Table 3.,This section contains no retained source-linked empirical claim after the fail-closed evidence audit.,Non-evidentiary structural repair; no new scientific claim.,PASS
+Brazil,EMPTY_PARAGRAPH_REMOVED,A Figura 1 resume a arquitetura de governança da evidência.,,All scientific content in paragraph was delete-required.,PASS
+Brazil,EMPTY_SECTION_STATUS_INSERTED,Tabela 1. Conjunto Core de evidências congelado,This section contains no retained source-linked empirical claim after the fail-closed evidence audit.,Non-evidentiary structural repair; no new scientific claim.,PASS
+Brazil,EMPTY_SECTION_STATUS_INSERTED,Tabela 2.,This section contains no retained source-linked empirical claim after the fail-closed evidence audit.,Non-evidentiary structural repair; no new scientific claim.,PASS
+Brazil,EMPTY_SECTION_STATUS_INSERTED,Tabela 3. Lacunas estruturais e prioridades de pesquisa,This section contains no retained source-linked empirical claim after the fail-closed evidence audit.,Non-evidentiary structural repair; no new scientific claim.,PASS
