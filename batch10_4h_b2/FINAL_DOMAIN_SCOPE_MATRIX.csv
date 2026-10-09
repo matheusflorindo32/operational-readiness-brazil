@@ -1,0 +1,10 @@
+Domain,Core_Status,International_Role,Brazil_Role,Claims,Evidence_Density,Decision
+Medical / cardiometabolic readiness,CORE,Transferability context only,Core evidence section,RC-BRA-CVD-01; RC-BRA-MED-01,2 result-located sources; 2 independent cohorts,KEEP
+Task-specific shooting / tactical-performance boundaries,SUPPORTING,Boundary example,Supporting evidence section,RC-BRA-SHOOT-01; RC-BRA-SHOOT-02,2 publications; 1 overlapping cohort; null findings retained,KEEP_WITH_NO_DOUBLE_COUNTING
+Sleep / caffeine,SUPPORTING,Bounded supporting section only,Not used,RC-INT-SLEEP-01,1 systematic review/meta-analysis,KEEP_INTERNATIONAL_ONLY
+Tactical medicine / APH,SUPPORTING,Not used,Supporting descriptive section,RC-BRA-APH-01,1 state record-review source,KEEP_BOUNDED
+Organizational / implementation context,SUPPORTING_CONTEXTUAL,Not used,Supporting/contextual section,RC-BRA-ORG-01; RC-BRA-IMPL-01,"2 setting-specific sources; one null evaluation, one documentary case",KEEP_BOUNDED
+Musculoskeletal context,CONTEXTUAL,Not used,Context/limitations only,RC-BRA-MSK-01; RC-GAP2-BRA-MSK-01,2 cross-sectional localized sources; no preventive inference,KEEP_CONTEXTUAL
+Nutrition / supplementation,REMOVED_FROM_CORE_SCOPE,Limitations/future research only,Limitations/future research only,RC-GAP-INT-NUTR-01; RC-GAP-INT-NUTR-02,Insufficient after targeted closure; EV-0140 unadjudicated contradictory HIGH,REMOVE
+Physical fitness / academy readiness,REMOVED_FROM_CORE_SCOPE,Evidence-gap discussion only,Evidence-gap discussion only,RC-GAP-INT-PHYS-01; RC-GAP-INT-MEAS-01,Insufficient after targeted closure; EV-0052 and EV-1066 unresolved contradictory HIGH,REMOVE
+Hydration / heat,REMOVED_FROM_CORE_SCOPE,Structural-gap statement only,Structural-gap statement only,None,No reconstruction-ready result packet,REMOVE

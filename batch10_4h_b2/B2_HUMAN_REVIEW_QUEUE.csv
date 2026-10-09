@@ -1,0 +1,13 @@
+Review_Item,Type,Requested_Human_Decision,Status,No_Human_Decision_Recorded
+RC-INT-SLEEP-01,ROLE_OR_SCOPE_CONFIRMATION,"Confirm B2 use, role and wording boundary",PENDING,YES
+RC-BRA-CVD-01,ROLE_OR_SCOPE_CONFIRMATION,"Confirm B2 use, role and wording boundary",PENDING,YES
+RC-BRA-MSK-01,ROLE_OR_SCOPE_CONFIRMATION,"Confirm B2 use, role and wording boundary",PENDING,YES
+RC-BRA-SHOOT-01,ROLE_OR_SCOPE_CONFIRMATION,"Confirm B2 use, role and wording boundary",PENDING,YES
+RC-BRA-SHOOT-02,ROLE_OR_SCOPE_CONFIRMATION,"Confirm B2 use, role and wording boundary",PENDING,YES
+RC-BRA-APH-01,ROLE_OR_SCOPE_CONFIRMATION,"Confirm B2 use, role and wording boundary",PENDING,YES
+RC-BRA-ORG-01,ROLE_OR_SCOPE_CONFIRMATION,"Confirm B2 use, role and wording boundary",PENDING,YES
+RC-BRA-IMPL-01,ROLE_OR_SCOPE_CONFIRMATION,"Confirm B2 use, role and wording boundary",PENDING,YES
+RC-BRA-MED-01,ROLE_OR_SCOPE_CONFIRMATION,"Confirm B2 use, role and wording boundary",PENDING,YES
+RC-GAP2-BRA-MSK-01,NEW_CLAIM,"Confirm B2 use, role and wording boundary",PENDING,YES
+International objective and short-form status,OBJECTIVE_CHANGE,Confirm narrowed International objective,PENDING,YES
+Brazil objective and full-manuscript status,OBJECTIVE_CHANGE,Confirm narrowed Brazil objective,PENDING,YES

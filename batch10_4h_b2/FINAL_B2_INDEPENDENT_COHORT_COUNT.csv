@@ -1,0 +1,5 @@
+Cohort_Family,Evidence_IDs,Claims,Independent_Cohort_Count,Control
+CF-BR-PMES-CFO-2023-01,EV-1473; EV-1474,RC-BRA-SHOOT-01; RC-BRA-SHOOT-02,1,Do not represent as independent replications.
+PMDF_OLDER_MALE_OFFICERS,EV-1463,RC-BRA-CVD-01,1,"Cross-sectional, sampled-setting only."
+PARANA_OCCUPATIONAL_COHORT,EV-1484,RC-BRA-MED-01,1,No national-prevalence inference.
+PMES_VILA_VELHA_17TH_COMPANY,EV-1467,RC-GAP2-BRA-MSK-01,1,Cross-sectional context only.

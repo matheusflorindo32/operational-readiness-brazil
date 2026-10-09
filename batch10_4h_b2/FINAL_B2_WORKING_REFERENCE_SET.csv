@@ -1,0 +1,11 @@
+Evidence_ID,Claim_ID,Result_ID,International_Planned_Use,Brazil_Planned_Use,Working_Role,Reference_Status,Reason,Human_Review
+EV-1462,RC-INT-SLEEP-01,EV-1462-FT4-R01,YES,NO,KEEP_SUPPORTING,WORKING_ONLY_NOT_FROZEN,"Sleep/caffeine is task-dependent and International-only; one review supports a bounded supporting section, not broad readiness advice.",PENDING
+EV-1463,RC-BRA-CVD-01,EV-1463-FT4-R01,YES,YES,KEEP,WORKING_ONLY_NOT_FROZEN,"Direct, result-located Brazilian medical-readiness evidence; International use remains transferability context only.",PENDING
+EV-1466,RC-BRA-MSK-01,EV-1466-FT4-R01,NO,YES,KEEP_CONTEXTUAL,WORKING_ONLY_NOT_FROZEN,Weak cross-sectional discrimination; retain only to delimit musculoskeletal inference.,PENDING
+EV-1473,RC-BRA-SHOOT-01,EV-1473-R02,YES,YES,KEEP_SUPPORTING,WORKING_ONLY_NOT_FROZEN,Null result preserves tactical-performance specificity.,PENDING
+EV-1474,RC-BRA-SHOOT-02,EV-1474-R02,YES,YES,KEEP_SUPPORTING,WORKING_ONLY_NOT_FROZEN,"Null correlations are useful, but cohort overlaps RC-BRA-SHOOT-01 and count as one independent cohort.",PENDING
+EV-1475,RC-BRA-APH-01,EV-1475-R01,NO,YES,KEEP_SUPPORTING,WORKING_ONLY_NOT_FROZEN,Descriptive tactical-medicine record evidence; no training or patient-outcome inference.,PENDING
+EV-1479,RC-BRA-ORG-01,EV-1479-R01,NO,YES,KEEP_SUPPORTING,WORKING_ONLY_NOT_FROZEN,Null implementation evaluation is retained for organizational context.,PENDING
+EV-1482,RC-BRA-IMPL-01,EV-1482-R01,NO,YES,KEEP_CONTEXTUAL,WORKING_ONLY_NOT_FROZEN,"Documentary institutional proposal, not effectiveness evidence.",PENDING
+EV-1484,RC-BRA-MED-01,EV-1484-R01,NO,YES,KEEP,WORKING_ONLY_NOT_FROZEN,Large Paraná occupational cohort supports a bounded medical non-readiness section.,PENDING
+EV-1467,RC-GAP2-BRA-MSK-01,EV-1467-GAP2-R01,NO,YES,KEEP_CONTEXTUAL,WORKING_ONLY_NOT_FROZEN,"Located Brazilian null result; small cross-sectional sample, contextual only.",PENDING
