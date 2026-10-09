@@ -1,0 +1,27 @@
+{
+  "batch": "BATCH 10.4H-RP",
+  "base_commit": "7f1dfbf2880c9db1aba75fd68a880f2a2d38ceee",
+  "gate": "V015_B2_AUTHORITATIVE_PACKAGE_RESTORATION_BLOCKED",
+  "expected_artifacts": 18,
+  "restored_artifacts": 0,
+  "missing_artifacts": 18,
+  "corrupted_artifacts": 0,
+  "manifest_hash_mismatches": 0,
+  "original_manifest_available": false,
+  "recovery_sources_checked": [
+    "current checkout",
+    "current Git tree",
+    "reachable Git refs",
+    "unreachable local Git objects",
+    "Codex workspace/attachments/ZIP inventory"
+  ],
+  "unauthorized_scientific_changes": 0,
+  "Zotero_changes": 0,
+  "CEF_v1_changes": 0,
+  "v015_scientific_changes": 0,
+  "next_action": "Provide original authoritative batch10_4h_r directory or validated delivery ZIP; do not regenerate.",
+  "artifact_sha256": {
+    "BATCH10_4H_R_RESTORATION_LEDGER.csv": "968f90b82afb6fc53ebf6b348dda15e9cb2c883e4b867ba3cbb85550da05b1a7",
+    "BATCH10_4H_RP_REPORT.md": "3290ef77b0838756e616589afe1677f47cc1ccac28b595f16ed8207b3ac3f396"
+  }
+}
