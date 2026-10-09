@@ -1,22 +1,21 @@
 {
-  "batch": "BATCH 10.4I",
+  "batch": "BATCH 10.4I-R",
+  "entry_commit": "9ac2dd602ae445ee9f980c667328ac5c4cd9ab6e",
   "gate": "V015_FINAL_SCIENTIFIC_AUDIT_BLOCKED",
-  "reason": "BATCH10_4H_R_GITHUB_RECONCILIATION: authoritative v0.15 B2 reconstruction artifact set absent locally and from current Git tree.",
-  "head": "340ff946ad31dbe2927c2a58b3a3cc5e3a53a52c",
-  "branch": "codex/deep-evidence-batch10-4b",
-  "batch10_4h_r_local_exists": false,
-  "batch10_4h_r_tracked_file_count": 0,
-  "expected_authority_artifact_count": 18,
-  "authorities_present": 0,
+  "reason": "International v0.15 B2 DOCX SHA-256 mismatch and invalid OOXML ZIP structure.",
+  "expected_package_artifacts": 18,
+  "present_package_artifacts": 18,
+  "integrity_failures": 1,
   "scientific_claims_audited": 0,
-  "citations_audited": 0,
-  "human_review_items_reduced": 0,
-  "reference_freeze_executed": 0,
+  "final_claim_set_generated": 0,
+  "human_review_reduced": 0,
+  "freeze_executed": 0,
   "Zotero_changed": 0,
   "CEF_v1_changed": 0,
-  "v015_content_changed": 0,
-  "next_action": "Restore or publish the complete validated batch10_4h_r artifact set, then rerun BATCH 10.4I.",
+  "manuscript_content_changed": 0,
+  "next_action": "Restore original valid International v0.15 B2 DOCX bytes matching package manifest; then retry BATCH 10.4I-R.",
   "artifact_sha256": {
-    "BATCH10_4H_R_GITHUB_RECONCILIATION.md": "2674e190e2ad27f7d2a5c199933328b48269bf3047769bff3e71bc9ace05b5c6"
+    "FINAL_V015_PACKAGE_INTEGRITY_AUDIT.csv": "e8bb68df8f35cfbe773e2f2fff259298e48815937e12e5b8690e510865755d1c",
+    "BATCH10_4I_REPORT.md": "db92fa77599adb17001a2e2f5d3e8f2b3e34d9043fdf58423ab9a0f7269aff1b"
   }
 }
