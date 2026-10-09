@@ -1,0 +1,2 @@
+Evidence_ID,PMID,DOI,Full_Text_Status,Adjudication,Result_ID,Source_Locator,Classification,Permitted_Use,Prohibited_Use,Action,Human_Review
+EV-1066,28919497,10.1016/j.jsams.2017.08.021,EV1066_LAWFUL_FULL_TEXT_UNAVAILABLE,INSUFFICIENT_TO_ADJUDICATE,,,UNADJUDICATED_CONTRADICTORY_EVIDENCE,Limitation and uncertainty only.,"Direct/indirect support, Claim-Ready, causal inference or claim modification.",Maintain current limitation; no automatic claim or freeze change.,PENDING

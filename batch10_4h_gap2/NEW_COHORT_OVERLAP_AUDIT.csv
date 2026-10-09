@@ -1,0 +1,2 @@
+Evidence_ID,Result_ID,Cohort_Identifier,Compared_Against,Overlap_Assessment,Double_Counting_Risk,Decision
+EV-1467,EV-1467-GAP2-R01,"Brazilian military police, 17th Independent Company, Vila Velha, Espírito Santo",Current reconstruction claim set and versioned Brazil candidates,NO_KNOWN_SHARED_COHORT_FROM_VERSIONED_METADATA,Not observed in this targeted comparison; human verification pending.,One contextual result only; do not count as a replication.

@@ -1,0 +1,2 @@
+Result_ID,Evidence_ID,Source_Type,Source_URL,Source_SHA256,Locator,Locator_Validation,Human_Confirmation
+EV-1467-GAP2-R01,EV-1467,PMC XML full text,https://pmc.ncbi.nlm.nih.gov/articles/PMC10660728/,5e461ab8a31de9873cc5efd6b30388bd9a93821f709871ec61b03b7fa47a99f3,Results; Table 1; Tables 2–5,Exact result text extracted from versioned full-text digest and bounded to the reported cross-sectional comparison.,PENDING
