@@ -1,0 +1,7 @@
+Control,Status,Detail
+Nutrition/supplementation core removed,PASS,No nutrition/supplementation claim used as core or support.
+Physical fitness/academy readiness core removed,PASS,No removed fitness/academy claim reintroduced.
+Hydration/heat core removed,PASS,No hydration/heat empirical claim used.
+Contradictory HIGH support use,PASS,"EV-0052, EV-0140 and EV-1066 not used as support."
+Caffeine overclaim,PASS,Only partial/task-dependent mitigation described.
+BMI/global readiness proxy,PASS,No BMI readiness proxy claim.
