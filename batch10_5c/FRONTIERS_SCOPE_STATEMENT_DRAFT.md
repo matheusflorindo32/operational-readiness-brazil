@@ -1,0 +1,3 @@
+# Draft for human approval
+
+This Mini Review addresses focused evidence boundaries in operational readiness among tactical populations. It is relevant to sports and active-living research because it examines how sleep-loss mitigation, cardiometabolic surveillance and task-specific performance findings can and cannot be transferred across military and law-enforcement contexts. Rather than presenting a global readiness score, it synthesizes result-located evidence, null findings, cohort overlap and transferability constraints, and proposes an explicitly unvalidated conceptual framework for future validation.

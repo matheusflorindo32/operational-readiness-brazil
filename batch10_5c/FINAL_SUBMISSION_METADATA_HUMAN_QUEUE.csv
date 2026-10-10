@@ -1,0 +1,10 @@
+Priority,Decision,Status,Reason
+1,Final authors and order,HUMAN_INPUT_REQUIRED,No author identities or order confirmed
+2,Corresponding and submitting author,HUMAN_INPUT_REQUIRED,No explicit communication responsibility confirmed
+3,"Affiliations, ORCID and emails",HUMAN_INPUT_REQUIRED,No human institutional facts confirmed
+4,CRediT roles,HUMAN_INPUT_REQUIRED,No author-specific contributions confirmed
+5,Funding and COI,HUMAN_INPUT_REQUIRED,No author declarations confirmed
+6,AI disclosure approval,HUMAN_INPUT_REQUIRED,Draft prepared; author approval required
+7,Frontiers APC decision,HUMAN_INPUT_REQUIRED,Financial decision pending
+8,Acknowledgments and thesis disclosure,HUMAN_INPUT_REQUIRED,No consent or academic-work fact confirmed
+9,Language approval,HUMAN_INPUT_REQUIRED,Final author review pending

@@ -1,0 +1,3 @@
+Decision_ID,Author_ID,Status,Reason,Human_Reviewer,Decision_Date
+CORRESPONDING_AUTHOR_DECISION,,HUMAN_INPUT_REQUIRED,"Requires explicit commitment to submission, review and publication communications",,
+SUBMITTING_AUTHOR_DECISION,,HUMAN_INPUT_REQUIRED,Requires explicit account-holder decision,,

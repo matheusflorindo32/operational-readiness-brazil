@@ -1,0 +1,3 @@
+# Draft for human approval
+
+Generative artificial intelligence tools from OpenAI, including ChatGPT/Codex, were used to assist project organization, consistency checks, editorial structuring, copyediting, traceability support and quality-assurance activities. The exact model/version used across all stages is not fully recoverable. The tools were not authors and did not make human authorship, scientific-interpretation, or submission decisions. Human authors must verify the factual accuracy, citations, references and final wording; approve this disclosure; and retain full responsibility for the manuscript. Prompt/output disclosure strategy: `HUMAN_DECISION_REQUIRED` (summary only versus curated supplementary AI-use log).

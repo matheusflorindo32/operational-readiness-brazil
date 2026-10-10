@@ -1,0 +1,3 @@
+# Minuta para aprovação humana
+
+Ferramentas de inteligência artificial generativa da OpenAI, incluindo ChatGPT/Codex, foram utilizadas para apoio à organização do projeto, verificações de consistência, estruturação editorial, copyediting, rastreabilidade e garantia de qualidade. A versão/modelo exato empregado em todas as etapas não está integralmente recuperável. As ferramentas não são autoras e não realizaram decisões humanas de autoria, interpretação científica ou submissão. Os autores humanos devem verificar a exatidão factual, as citações, as referências e a redação final; aprovar esta declaração; e assumir responsabilidade integral pelo manuscrito.
