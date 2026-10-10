@@ -503,4 +503,3 @@ For each row, choose one permitted decision: `RETAIN_BOUNDED_SUPPORTING_CANDIDAT
 - **Alternative:** `CONTEXTUAL_DISCUSSION_ONLY`
 - **Scientific impact:** Could add a bounded, source-located section-level support after human role and wording adjudication.
 - **Integrity:** `INTEGRITY_EXTERNAL_RECHECK_PENDING`
-
