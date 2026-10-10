@@ -1,0 +1,9 @@
+Domain,Packet_Count,Conditional_Claims,Context_Only,Not_Eligible,Null_Findings,Priority
+cardiometabolic/medical readiness,6,6,0,0,2,EXPANSION_SUPPORTING_READY
+other,23,19,0,2,2,EXPANSION_SUPPORTING_READY
+implementation science,5,5,0,0,0,EXPANSION_SUPPORTING_READY
+musculoskeletal injury,6,4,0,2,0,EXPANSION_SUPPORTING_READY
+mental health/stress,7,6,0,1,0,EXPANSION_SUPPORTING_READY
+tactical medicine/TCCC/TECC/APH,1,1,0,0,0,INSUFFICIENT_AFTER_APPRAISAL
+sleep/fatigue/recovery,4,2,0,0,0,EXPANSION_SUPPORTING_READY
+nutrition,5,4,0,0,0,EXPANSION_SUPPORTING_READY

@@ -1,0 +1,58 @@
+Evidence_ID,Primary_Design,Source_Design,Classification_Status
+EV-0386,RANDOMIZED_CONTROLLED_TRIAL,Randomized double-blind placebo-controlled crossover trial,FULL_TEXT_BASED
+EV-0667,DESIGN_REQUIRES_REVIEW,Within-subject test-retest and criterion-validity study,FULL_TEXT_BASED
+EV-1458,SYSTEMATIC_REVIEW,Systematic review,FULL_TEXT_BASED
+EV-0167,CROSS_SECTIONAL,Natural experiment with cross-sectional surveys and adjusted/IV analyses,FULL_TEXT_BASED
+EV-0252,DESIGN_REQUIRES_REVIEW,Quantitative descriptive convenience survey,FULL_TEXT_BASED
+EV-0837,IMPLEMENTATION_STUDY,Narrative implementation-science portfolio review,FULL_TEXT_BASED
+EV-1301,IMPLEMENTATION_STUDY,Implementation case report/demonstration program,FULL_TEXT_BASED
+EV-0014,CROSS_SECTIONAL,Cross-sectional multivariable association study,FULL_TEXT_BASED
+EV-0068,MIXED_METHODS,Mixed-methods participatory concept-mapping study,FULL_TEXT_BASED
+EV-0076,DESIGN_REQUIRES_REVIEW,Secondary analysis of a controlled heat-acclimation investigation,FULL_TEXT_BASED
+EV-0103,QUALITATIVE,Qualitative interview study,FULL_TEXT_BASED
+EV-0114,NARRATIVE_OR_POSITION_REVIEW,Narrative clinical review,FULL_TEXT_BASED
+EV-0115,CROSS_SECTIONAL,Cross-sectional survey,FULL_TEXT_BASED
+EV-0146,PROSPECTIVE_COHORT,Retrospective descriptive cohort,FULL_TEXT_BASED
+EV-0151,CROSS_SECTIONAL,Cross-sectional comparative survey,FULL_TEXT_BASED
+EV-0153,DESIGN_REQUIRES_REVIEW,Retrospective surgical comparative study,FULL_TEXT_BASED
+EV-0161,PROTOCOL,Hybrid implementation-effectiveness trial protocol,FULL_TEXT_BASED
+EV-0183,MIXED_METHODS,Sequential mixed-methods implementation study,FULL_TEXT_BASED
+EV-0195,PROTOCOL,Clinical trial protocol,FULL_TEXT_BASED
+EV-0196,NARRATIVE_OR_POSITION_REVIEW,Narrative review,FULL_TEXT_BASED
+EV-0198,IMPLEMENTATION_STUDY,Implementation intervention-development study,FULL_TEXT_BASED
+EV-0200,SYSTEMATIC_REVIEW,Systematic review,FULL_TEXT_BASED
+EV-0204,PROSPECTIVE_COHORT,Prospective cohort,FULL_TEXT_BASED
+EV-0230,CROSS_SECTIONAL,Cross-sectional observational study,FULL_TEXT_BASED
+EV-0236,CROSS_SECTIONAL,Cross-sectional observational study,FULL_TEXT_BASED
+EV-0311,PROTOCOL,Clinical trial protocol,FULL_TEXT_BASED
+EV-0322,MIXED_METHODS,Mixed-methods longitudinal descriptive study,FULL_TEXT_BASED
+EV-0373,CROSS_SECTIONAL,Cross-sectional observational study,FULL_TEXT_BASED
+EV-0377,DESIGN_REQUIRES_REVIEW,Secondary policy analysis,FULL_TEXT_BASED
+EV-0383,DESIGN_REQUIRES_REVIEW,Delphi consensus-methods study,FULL_TEXT_BASED
+EV-0388,RANDOMIZED_CONTROLLED_TRIAL,Randomized crossover simulation trial,FULL_TEXT_BASED
+EV-0390,DESIGN_REQUIRES_REVIEW,Repeated-measures simulation experiment,FULL_TEXT_BASED
+EV-0403,CROSS_SECTIONAL,Cross-sectional survey,FULL_TEXT_BASED
+EV-0459,DESIGN_REQUIRES_REVIEW,Narrative capability framework,FULL_TEXT_BASED
+EV-0503,QUALITATIVE,Qualitative implementation-determinant study,FULL_TEXT_BASED
+EV-0504,QUALITATIVE,Qualitative implementation study,FULL_TEXT_BASED
+EV-0529,PROTOCOL,Clinical trial protocol,FULL_TEXT_BASED
+EV-0583,CROSS_SECTIONAL,Cross-sectional observational study,FULL_TEXT_BASED
+EV-0586,PROSPECTIVE_COHORT,Prospective training cohort,FULL_TEXT_BASED
+EV-0641,PROTOCOL,Prospective observational protocol,FULL_TEXT_BASED
+EV-0655,CROSS_SECTIONAL,Cross-sectional descriptive study,FULL_TEXT_BASED
+EV-0663,IMPLEMENTATION_STUDY,Implementation framework,FULL_TEXT_BASED
+EV-0670,DESIGN_REQUIRES_REVIEW,Feasibility intervention study,FULL_TEXT_BASED
+EV-0681,DESIGN_REQUIRES_REVIEW,Position stand,FULL_TEXT_BASED
+EV-0682,CROSS_SECTIONAL,Cross-sectional observational study,FULL_TEXT_BASED
+EV-0705,DESIGN_REQUIRES_REVIEW,Experimental stress study,FULL_TEXT_BASED
+EV-0721,PROSPECTIVE_COHORT,Retrospective cohort,FULL_TEXT_BASED
+EV-0734,PROSPECTIVE_COHORT,Prospective cohort,FULL_TEXT_BASED
+EV-0749,SYSTEMATIC_REVIEW,Systematic review,FULL_TEXT_BASED
+EV-0756,PROSPECTIVE_COHORT,Population cohort,FULL_TEXT_BASED
+EV-0799,RANDOMIZED_CONTROLLED_TRIAL,Randomized crossover trial,FULL_TEXT_BASED
+EV-0936,CROSS_SECTIONAL,Cross-sectional study,FULL_TEXT_BASED
+EV-0939,SCOPING_REVIEW,Scoping review,FULL_TEXT_BASED
+EV-0960,DESIGN_REQUIRES_REVIEW,Pilot intervention study,FULL_TEXT_BASED
+EV-1026,CROSS_SECTIONAL,Cross-sectional occupational study,FULL_TEXT_BASED
+EV-1128,PROSPECTIVE_COHORT,Prospective cohort,FULL_TEXT_BASED
+EV-1461,SYSTEMATIC_REVIEW_META_ANALYSIS,Systematic review and meta-analysis,FULL_TEXT_BASED

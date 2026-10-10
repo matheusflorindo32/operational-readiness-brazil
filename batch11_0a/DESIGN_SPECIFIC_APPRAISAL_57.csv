@@ -1,0 +1,58 @@
+Evidence_ID,Design,Instrument,Overall,Rationale,Human_Confirmation
+EV-0386,RANDOMIZED_CONTROLLED_TRIAL,RoB 2,SOME_CONCERNS,"Small single-station male sample; reporting supports blinding and crossover but does not resolve all randomization, carryover and selective-reporting questions.",PENDING
+EV-0667,DESIGN_REQUIRES_REVIEW,COSMIN Risk of Bias for reliability and criterion validity,SOME_CONCERNS,"Objective repeat testing and reference tests are reported, but n=34, one Slovenian infantry sample and prediction/criterion boundaries limit generalizability.",PENDING
+EV-1458,SYSTEMATIC_REVIEW,AMSTAR 2,LOW_CONFIDENCE,Review documents search and PRISMA selection but predates prospective registration expectations and synthesizes small heterogeneous studies; no pooled causal estimate is available.,PENDING
+EV-0167,CROSS_SECTIONAL,JBI Quasi-Experimental Studies,SOME_CONCERNS,"Reused from Pilot 03: no randomized department allocation, no baseline primary outcomes and residual department confounding remain.",PENDING
+EV-0252,DESIGN_REQUIRES_REVIEW,MMAT Quantitative Descriptive,SOME_CONCERNS,"Reused from Pilot 03: convenience sampling, no computable response rate and uncertain instrument validation limit representativeness.",PENDING
+EV-0837,IMPLEMENTATION_STUDY,SANRA,SOME_CONCERNS,Descriptive portfolio review; no reproducible comparative effect estimate for the implementation strategies presented.,PENDING
+EV-1301,IMPLEMENTATION_STUDY,JBI Text and Opinion Checklist,SOME_CONCERNS,Program description and participation data are useful for implementation context but do not constitute controlled effectiveness evidence.,PENDING
+EV-0014,CROSS_SECTIONAL,JBI Analytical Cross-Sectional Checklist,SOME_CONCERNS,"Large sample and adjusted models support association estimates, but complete-case cross-sectional data cannot establish prediction or causality.",PENDING
+EV-0068,MIXED_METHODS,MMAT Mixed Methods,SOME_CONCERNS,"Participatory mapping is appropriate for priority generation, but n=48 from one jurisdiction cannot establish injury-prevention effectiveness.",PENDING
+EV-0076,DESIGN_REQUIRES_REVIEW,JBI Analytical Cross-Sectional/Repeated-Measures Checklist,SOME_CONCERNS,"Small healthy volunteer sample and secondary analysis; cardiovascular-strain trend is physiological, not a field-readiness endpoint.",PENDING
+EV-0103,QUALITATIVE,JBI Qualitative Checklist,SOME_CONCERNS,Purposive/snowball sample from Swedish urban tactical units provides contextual depth but limited geographic and regulatory transferability.,PENDING
+EV-0114,NARRATIVE_OR_POSITION_REVIEW,SANRA,SOME_CONCERNS,Clinical narrative review describes detection barriers and recommendations without an operational outcome study.,PENDING
+EV-0115,CROSS_SECTIONAL,JBI Analytical Cross-Sectional Checklist,SOME_CONCERNS,Single German tactical-unit sample and self-reported symptoms/exposures prevent causal attribution.,PENDING
+EV-0146,PROSPECTIVE_COHORT,JBI Cohort Checklist,SOME_CONCERNS,"Single tertiary center, symptomatic care-seeking male cadets and no denominator-based incidence comparison.",PENDING
+EV-0151,CROSS_SECTIONAL,JBI Analytical Cross-Sectional Checklist,SOME_CONCERNS,Small single-center male military sample; learning-style construct does not test training outcomes.,PENDING
+EV-0153,DESIGN_REQUIRES_REVIEW,ROBINS-I,CRITICAL_RISK,Small nonrandomized single-center surgical groups with indication/confounding risks and clinical treatment focus outside the manuscript scope.,PENDING
+EV-0161,PROTOCOL,NOT_APPLICABLE_PROTOCOL,NOT_APPLICABLE,"Protocol reports planned RCT/implementation methods, no outcomes.",PENDING
+EV-0183,MIXED_METHODS,MMAT Mixed Methods,SOME_CONCERNS,"Mixed military/retired/civilian sample and implementation design support feasibility context, not causal clinical or readiness benefit.",PENDING
+EV-0195,PROTOCOL,NOT_APPLICABLE_PROTOCOL,NOT_APPLICABLE,Protocol specifies a pragmatic Hybrid Type 1 randomized comparison (planned N=360) but reports no intervention outcomes.,PENDING
+EV-0196,NARRATIVE_OR_POSITION_REVIEW,SANRA narrative review scale,SOME_CONCERNS,"Useful tactical nutrition synthesis, but methods and study-selection results are not reported as a systematic review.",PENDING
+EV-0198,IMPLEMENTATION_STUDY,StaRI-informed implementation-development appraisal,SOME_CONCERNS,"Transparent Intervention Mapping and stakeholder inputs, but development work has no effectiveness, feasibility, or acceptability outcome evaluation.",PENDING
+EV-0200,SYSTEMATIC_REVIEW,AMSTAR 2,CRITICALLY_LOW,"The retained body supplies no reproducible methods, risk-of-bias assessment, or study-level results; seven-study conclusions cannot be independently assessed from this record.",PENDING
+EV-0204,PROSPECTIVE_COHORT,JBI Cohort Checklist,SOME_CONCERNS,"Twelve-month cohort with covariate adjustment and triangulated injury records, but one academy, 10% attrition, residual confounding, and a composite exposure limit inference.",PENDING
+EV-0230,CROSS_SECTIONAL,JBI Analytical Cross-Sectional Checklist,SOME_CONCERNS,"Large single-sex military sample and reported scales, but simultaneous measurement and stepwise modelling preclude causal or mediation claims.",PENDING
+EV-0236,CROSS_SECTIONAL,JBI Analytical Cross-Sectional Checklist,CRITICALLY_LOW,Objective instruments were used but only ten convenience-sampled cadets were observed for seven days without an a priori power analysis.,PENDING
+EV-0311,PROTOCOL,NOT_APPLICABLE_PROTOCOL,NOT_APPLICABLE,Two-phase randomized rehabilitation protocol reports a planned sample but no outcomes.,PENDING
+EV-0322,MIXED_METHODS,MMAT,SOME_CONCERNS,"Sequential dietary recalls and focus groups identify barriers, but only ten completed dietary measures and self-report create severe precision limits.",PENDING
+EV-0373,CROSS_SECTIONAL,JBI Analytical Cross-Sectional Checklist,SOME_CONCERNS,"Large deidentified firefighter dataset and adjusted models, but self-reported alcohol exposure and cross-sectional measurement leave residual confounding and temporal ambiguity.",PENDING
+EV-0377,DESIGN_REQUIRES_REVIEW,Policy-analysis transparency check,SOME_CONCERNS,"Large public NHANES sample and stated comparison with military data, but it is a standards analysis rather than operational-outcome study.",PENDING
+EV-0383,DESIGN_REQUIRES_REVIEW,ACCORD/Delphi reporting appraisal,SOME_CONCERNS,"Three-round international Delphi is transparent, but participant attrition and English-speaking concentration limit universality.",PENDING
+EV-0388,RANDOMIZED_CONTROLLED_TRIAL,RoB 2,SOME_CONCERNS,"Within-person experimental comparison is a strength, but 29 community participants were not firefighters and tasks were simulated.",PENDING
+EV-0390,DESIGN_REQUIRES_REVIEW,JBI Quasi-Experimental Checklist,SOME_CONCERNS,Ten naval personnel completed simulated settings; small sample and indirect workload/readiness measures constrain inference.,PENDING
+EV-0403,CROSS_SECTIONAL,JBI Analytical Cross-Sectional Checklist,SOME_CONCERNS,"Validated screening tools in 150 returning soldiers, but single male unit and simultaneous measures prevent causal claims.",PENDING
+EV-0459,DESIGN_REQUIRES_REVIEW,SANRA narrative review scale,CRITICALLY_LOW,Strategic framework without reproducible methods or empirical results.,PENDING
+EV-0503,QUALITATIVE,JBI Qualitative Checklist,SOME_CONCERNS,"CFIR-guided interviews include clinicians, managers and police, but post-hoc design and unknown police denominator limit representation.",PENDING
+EV-0504,QUALITATIVE,JBI Qualitative Checklist,SOME_CONCERNS,Ten leader interviews capture implementation perceptions but neither clinician outcomes nor user-level effectiveness.,PENDING
+EV-0529,PROTOCOL,NOT_APPLICABLE_PROTOCOL,NOT_APPLICABLE,Phase III non-inferiority trial protocol with no participant outcomes.,PENDING
+EV-0583,CROSS_SECTIONAL,JBI Analytical Cross-Sectional Checklist,SOME_CONCERNS,Thirty incumbent officers and correlational analysis cannot establish temporal prediction.,PENDING
+EV-0586,PROSPECTIVE_COHORT,JBI Cohort Checklist,SOME_CONCERNS,"Large BCT pre/post sample with DXA criterion is strong for measurement comparison, but not an operational-outcome study.",PENDING
+EV-0641,PROTOCOL,NOT_APPLICABLE_PROTOCOL,NOT_APPLICABLE,Multi-centre assessment-development protocol has no outcomes.,PENDING
+EV-0655,CROSS_SECTIONAL,JBI Analytical Cross-Sectional Checklist,SOME_CONCERNS,Extreme-performer sample; descriptive design.,PENDING
+EV-0663,IMPLEMENTATION_STUDY,Framework appraisal,SOME_CONCERNS,Framework-development article without effectiveness outcome.,PENDING
+EV-0670,DESIGN_REQUIRES_REVIEW,JBI Quasi-Experimental Checklist,SOME_CONCERNS,Feasibility design and limited sample constrain effectiveness claims.,PENDING
+EV-0681,DESIGN_REQUIRES_REVIEW,Position-statement appraisal,SOME_CONCERNS,Expert synthesis rather than primary-effect study.,PENDING
+EV-0682,CROSS_SECTIONAL,JBI Analytical Cross-Sectional Checklist,SOME_CONCERNS,Associational design cannot establish supplementation or body-composition causality.,PENDING
+EV-0705,DESIGN_REQUIRES_REVIEW,JBI Quasi-Experimental Checklist,SOME_CONCERNS,Study-specific stress paradigm limits operational generalization.,PENDING
+EV-0721,PROSPECTIVE_COHORT,JBI Cohort Checklist,SOME_CONCERNS,Administrative cohort supports risk association but residual confounding remains.,PENDING
+EV-0734,PROSPECTIVE_COHORT,JBI Cohort Checklist,SOME_CONCERNS,Specific march context and sample constrain generalization.,PENDING
+EV-0749,SYSTEMATIC_REVIEW,AMSTAR 2,SOME_CONCERNS,TCCC evidence/gap review is clinical and not central to operational-readiness claims.,PENDING
+EV-0756,PROSPECTIVE_COHORT,JBI Cohort Checklist,SOME_CONCERNS,"Administrative cohort supports recurrence description, not causality.",PENDING
+EV-0799,RANDOMIZED_CONTROLLED_TRIAL,RoB 2,SOME_CONCERNS,Short-term task study limits operational generalization.,PENDING
+EV-0936,CROSS_SECTIONAL,JBI Analytical Cross-Sectional Checklist,SOME_CONCERNS,Associational tactical-athlete sample cannot establish vitamin-D treatment effect.,PENDING
+EV-0939,SCOPING_REVIEW,PRISMA-ScR appraisal,SOME_CONCERNS,Maps implementation literature without pooled effectiveness estimation.,PENDING
+EV-0960,DESIGN_REQUIRES_REVIEW,JBI Quasi-Experimental Checklist,SOME_CONCERNS,Pilot study requires replication and controlled effectiveness testing.,PENDING
+EV-1026,CROSS_SECTIONAL,JBI Analytical Cross-Sectional Checklist,SOME_CONCERNS,Self-reported workload and injury data limit temporal inference.,PENDING
+EV-1128,PROSPECTIVE_COHORT,JBI Cohort Checklist,SOME_CONCERNS,Cohort can identify risk association but residual confounding remains.,PENDING
+EV-1461,SYSTEMATIC_REVIEW_META_ANALYSIS,AMSTAR 2,SOME_CONCERNS,Review-level evidence requires claim-specific human verification before citation.,PENDING
