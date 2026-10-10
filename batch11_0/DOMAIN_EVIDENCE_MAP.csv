@@ -1,0 +1,15 @@
+Domain,Canonical_Records,Full_Text_Queue,Eligible_Full_Texts,Result_IDs_Located,Frozen_Claim_Occurrences,Contradictory_Queue,Classification,Expansion_Status
+Cognition / firearm performance,33,20,8,6,4,0,CORE_DOMAIN,REQUIRES_DOMAIN_APPRAISAL
+General operational / occupational readiness,897,0,0,0,0,0,INSUFFICIENT_DOMAIN,NO_RESULT_LOCATED_BASIS
+Hydration / heat / thermoregulation,8,4,2,0,0,0,INSUFFICIENT_DOMAIN,NO_RESULT_LOCATED_BASIS
+Implementation science,20,7,6,4,2,0,CORE_DOMAIN,REQUIRES_DOMAIN_APPRAISAL
+Load carriage / equipment burden,7,1,1,0,0,0,INSUFFICIENT_DOMAIN,NO_RESULT_LOCATED_BASIS
+Medical / cardiovascular readiness,29,11,6,5,3,0,CORE_DOMAIN,REQUIRES_DOMAIN_APPRAISAL
+Mental health / stress,37,20,9,7,0,0,INSUFFICIENT_DOMAIN,REQUIRES_DOMAIN_APPRAISAL
+Monitoring / wearables,6,1,0,0,0,0,INSUFFICIENT_DOMAIN,NO_RESULT_LOCATED_BASIS
+Musculoskeletal injury,99,60,19,11,2,0,CORE_DOMAIN,REQUIRES_DOMAIN_APPRAISAL
+Nutrition / shift work,38,32,15,6,1,1,SUPPORTING_DOMAIN,REQUIRES_DOMAIN_APPRAISAL
+Physical / academy readiness,102,74,22,11,0,2,INSUFFICIENT_DOMAIN,REQUIRES_DOMAIN_APPRAISAL
+Policy / organizational readiness,1,0,0,0,0,0,INSUFFICIENT_DOMAIN,NO_RESULT_LOCATED_BASIS
+Sleep / fatigue / recovery,39,26,9,4,0,0,INSUFFICIENT_DOMAIN,REQUIRES_DOMAIN_APPRAISAL
+Tactical medicine / TCCC / TECC / APH,168,29,3,3,1,0,SUPPORTING_DOMAIN,REQUIRES_DOMAIN_APPRAISAL

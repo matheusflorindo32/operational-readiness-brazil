@@ -1,0 +1,8 @@
+Evidence_ID,Status,Support_Use,Permitted_Use
+EV-0052,UNADJUDICATED_CONTRADICTORY_EVIDENCE,0,limitation/evidence gap only if source record supports it
+EV-0140,UNADJUDICATED_CONTRADICTORY_EVIDENCE,0,limitation/evidence gap only if source record supports it
+EV-1066,UNADJUDICATED_CONTRADICTORY_EVIDENCE,0,limitation/evidence gap only if source record supports it
+EV-1473,NULL_RESULT_PRESERVED,bounded,retain null result and its limits
+EV-1474,NULL_RESULT_PRESERVED,bounded,retain null result and its limits
+EV-1479,NULL_RESULT_PRESERVED,bounded,retain null result and its limits
+EV-1467,NULL_RESULT_PRESERVED,bounded,retain null result and its limits
