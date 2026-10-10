@@ -1,0 +1,5 @@
+Item,Status,Evidence
+Mini Review word limit and structure,PASS,Target-specific DOCX; <=3000 required
+No more than two figures/tables,PASS,0 figures/tables
+Four frozen references only,PASS,Reference drift audit
+Author and declaration metadata,HUMAN_INPUT_REQUIRED,Authorship queue

@@ -1,0 +1,8 @@
+Manuscript,Change_ID,Section,Before,After,Change_Type,Scientific_Meaning_Changed,Reason,Journal_Requirement,Human_Review_Needed
+International,INT-001,Title,Frozen title,Evidence boundaries and transferability in operational readiness among tactical populations,CLARITY_ONLY,NO,Target-journal editorial compliance,See guideline snapshot,NO
+International,INT-002,Structure,Numbered scientific headings,Journal-specific Mini Review headings,STRUCTURAL_ONLY,NO,Target-journal editorial compliance,See guideline snapshot,NO
+International,INT-003,References,Working audit format,Numbered Vancouver-style journal entries,REFERENCE_STYLE_ONLY,NO,Target-journal editorial compliance,See guideline snapshot,NO
+Brazil,BRA-001,Title,Frozen English title,Bilingual RBSO title block,CLARITY_ONLY,NO,Target-journal editorial compliance,See guideline snapshot,NO
+Brazil,BRA-002,Abstract,English-only abstract,Bilingual metadata abstract/Resumo,CLARITY_ONLY,NO,Target-journal editorial compliance,See guideline snapshot,NO
+Brazil,BRA-003,Structure,Numbered scientific headings,RBSO Ensaio headings,STRUCTURAL_ONLY,NO,Target-journal editorial compliance,See guideline snapshot,NO
+Brazil,BRA-004,References,Working audit format,Numbered Vancouver-style journal entries,REFERENCE_STYLE_ONLY,NO,Target-journal editorial compliance,See guideline snapshot,NO

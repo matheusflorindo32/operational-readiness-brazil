@@ -1,0 +1,6 @@
+Journal,Field,Status,Reason
+Both,Author order and names,HUMAN_INPUT_REQUIRED,No authorship facts invented
+Both,"Corresponding author, affiliation and ORCID",HUMAN_INPUT_REQUIRED,No human assignment recorded
+Both,CRediT roles including Professor Danilo Bocalini,HUMAN_INPUT_REQUIRED,Roles require explicit human confirmation
+Frontiers,APC acceptance or waiver,HUMAN_INPUT_REQUIRED,Financial decision requires human confirmation
+Brazil,Portuguese bilingual metadata language review,HUMAN_INPUT_REQUIRED,Final author confirmation before submission

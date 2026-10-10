@@ -1,0 +1,5 @@
+Item,Status,Evidence
+Ensaio word/reference limits,PASS,9 references; <=40 required
+Bilingual titles and abstracts,PASS,Target-specific DOCX
+Author and declaration metadata,HUMAN_INPUT_REQUIRED,Authorship queue
+RBSO Ensaio limits and numerical citations,PASS,Official SciELO RBSO instructions verified 2026-10-10
