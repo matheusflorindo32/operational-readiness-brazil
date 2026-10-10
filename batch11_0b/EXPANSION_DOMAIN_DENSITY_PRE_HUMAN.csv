@@ -1,0 +1,11 @@
+Domain,Material_Decisions,Supporting_Candidates,Contextual_Candidates,Exclude_Candidates,Independent_Study_Families,Null_Results,Status
+aerobic capacity,1,1,0,0,1,0,PRE_HUMAN_DENSITY_ONLY
+body composition,3,1,2,0,3,0,PRE_HUMAN_DENSITY_ONLY
+cardiometabolic/medical readiness,3,1,2,0,3,2,PRE_HUMAN_DENSITY_ONLY
+hydration/heat,1,0,1,0,1,0,PRE_HUMAN_DENSITY_ONLY
+implementation science,2,0,2,0,2,1,PRE_HUMAN_DENSITY_ONLY
+mental health/stress,2,0,2,0,2,1,PRE_HUMAN_DENSITY_ONLY
+musculoskeletal injury,6,4,2,0,6,0,PRE_HUMAN_DENSITY_ONLY
+physical fitness/readiness,5,2,1,2,5,0,PRE_HUMAN_DENSITY_ONLY
+sleep/fatigue/recovery,2,2,0,0,2,0,PRE_HUMAN_DENSITY_ONLY
+tactical medicine/TCCC/TECC/APH,1,1,0,0,1,0,PRE_HUMAN_DENSITY_ONLY

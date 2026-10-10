@@ -1,0 +1,3 @@
+Condition,Next_Action,Gate
+Named human decisions completed for all 26 and external integrity recheck cleared for selected records,BATCH 11.0C — APPLY HUMAN EXPANSION DECISIONS,Evaluate full-manuscript density after deduplication and claim-boundary confirmation.
+Human decisions incomplete or selected sources retain integrity concerns,Do not reconstruct the manuscript,Remain at human-adjudication stage.

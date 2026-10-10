@@ -1,0 +1,27 @@
+Decision_Cluster_ID,Decision_ID,Evidence_ID,Result_ID,Domain,Study_Family_ID,Narrative_Overlap_Check,Automatic_Exclusion
+CL-INT-MED-01,H-11A-R-001,EV-0386,EV-0386-11A-R01,cardiometabolic/medical readiness,SF-EV-0386,Human reviewer must compare records within the same cluster before choosing multiple central anchors.,NO
+CL-INT-FIT-MEAS-01,H-11A-R-002,EV-0667,EV-0667-11A-R01,aerobic capacity,SF-EV-0667,Human reviewer must compare records within the same cluster before choosing multiple central anchors.,NO
+CL-INT-FIT-01,H-11A-R-003,EV-1458,EV-1458-11A-R01,physical fitness/readiness,SF-EV-1458,Human reviewer must compare records within the same cluster before choosing multiple central anchors.,NO
+CL-INT-IMPL-01,H-11A-R-004,EV-0167,EV-0167-11A-R01,implementation science,SF-EV-0167,Human reviewer must compare records within the same cluster before choosing multiple central anchors.,NO
+CL-INT-IMPL-01,H-11A-R-005,EV-0252,EV-0252-11A-R01,implementation science,SF-EV-0252,Human reviewer must compare records within the same cluster before choosing multiple central anchors.,NO
+CL-INT-FIT-01,H-11A-R-006,EV-0014,EV-0014-11A-R01,physical fitness/readiness,SF-EV-0014,Human reviewer must compare records within the same cluster before choosing multiple central anchors.,NO
+CL-INT-MSK-01,H-11A-R-007,EV-0068,EV-0068-11A-R01,musculoskeletal injury,SF-EV-0068,Human reviewer must compare records within the same cluster before choosing multiple central anchors.,NO
+CL-INT-HEAT-01,H-11A-R-008,EV-0076,EV-0076-11A-R01,hydration/heat,SF-EV-0076,Human reviewer must compare records within the same cluster before choosing multiple central anchors.,NO
+CL-INT-APH-01,H-11A-R-009,EV-0103,EV-0103-11A-R01,tactical medicine/TCCC/TECC/APH,SF-EV-0103,Human reviewer must compare records within the same cluster before choosing multiple central anchors.,NO
+CL-INT-MSK-01,H-11A-R-010,EV-0115,EV-0115-11A-R01,musculoskeletal injury,SF-EV-0115,Human reviewer must compare records within the same cluster before choosing multiple central anchors.,NO
+CL-INT-SLEEP-01,H-11A-R-011,EV-0183,EV-0183-11A-R01,sleep/fatigue/recovery,SF-EV-0183,Human reviewer must compare records within the same cluster before choosing multiple central anchors.,NO
+CL-INT-MSK-01,H-11A-R-012,EV-0204,EV-0204-11A-R01,musculoskeletal injury,SF-EV-0204,Human reviewer must compare records within the same cluster before choosing multiple central anchors.,NO
+CL-INT-MH-01,H-11A-R-013,EV-0230,EV-0230-11A-R01,mental health/stress,SF-EV-0230,Human reviewer must compare records within the same cluster before choosing multiple central anchors.,NO
+CL-INT-MED-01,H-11A-R-014,EV-0373,EV-0373-11A-R01,cardiometabolic/medical readiness,SF-EV-0373,Human reviewer must compare records within the same cluster before choosing multiple central anchors.,NO
+CL-INT-MH-01,H-11A-R-015,EV-0403,EV-0403-11A-R01,mental health/stress,SF-EV-0403,Human reviewer must compare records within the same cluster before choosing multiple central anchors.,NO
+CL-INT-BODYCOMP-01,H-11A-R-016,EV-0583,EV-0583-11A-R01,body composition,SF-EV-0583,Human reviewer must compare records within the same cluster before choosing multiple central anchors.,NO
+CL-INT-BODYCOMP-01,H-11A-R-017,EV-0586,EV-0586-11A-R01,body composition,SF-EV-0586,Human reviewer must compare records within the same cluster before choosing multiple central anchors.,NO
+CL-INT-FIT-01,H-11A-R-018,EV-0670,EV-0670-11A-R01,physical fitness/readiness,SF-EV-0670,Human reviewer must compare records within the same cluster before choosing multiple central anchors.,NO
+CL-INT-BODYCOMP-01,H-11A-R-019,EV-0682,EV-0682-11A-R01,body composition,SF-EV-0682,Human reviewer must compare records within the same cluster before choosing multiple central anchors.,NO
+CL-INT-MSK-01,H-11A-R-020,EV-0721,EV-0721-11A-R01,musculoskeletal injury,SF-EV-0721,Human reviewer must compare records within the same cluster before choosing multiple central anchors.,NO
+CL-INT-MED-01,H-11A-R-021,EV-0734,EV-0734-11A-R01,cardiometabolic/medical readiness,SF-EV-0734,Human reviewer must compare records within the same cluster before choosing multiple central anchors.,NO
+CL-INT-FIT-01,H-11A-R-022,EV-0799,EV-0799-11A-R01,physical fitness/readiness,SF-EV-0799,Human reviewer must compare records within the same cluster before choosing multiple central anchors.,NO
+CL-INT-FIT-01,H-11A-R-023,EV-0960,EV-0960-11A-R01,physical fitness/readiness,SF-EV-0960,Human reviewer must compare records within the same cluster before choosing multiple central anchors.,NO
+CL-INT-MSK-01,H-11A-R-024,EV-1026,EV-1026-11A-R01,musculoskeletal injury,SF-EV-1026,Human reviewer must compare records within the same cluster before choosing multiple central anchors.,NO
+CL-INT-MSK-01,H-11A-R-025,EV-1128,EV-1128-11A-R01,musculoskeletal injury,SF-EV-1128,Human reviewer must compare records within the same cluster before choosing multiple central anchors.,NO
+CL-INT-SLEEP-01,H-11A-R-026,EV-1461,EV-1461-11A-R01,sleep/fatigue/recovery,SF-EV-1461,Human reviewer must compare records within the same cluster before choosing multiple central anchors.,NO

@@ -1,0 +1,30 @@
+{
+  "batch": "BATCH 11.0B",
+  "base_commit": "16e54b170a92f1f267fcbc7af48b2425a0578530",
+  "gate": "FULL_MANUSCRIPT_EVIDENCE_ADJUDICATION_PACKAGE_PASS",
+  "expected_material_decisions": 26,
+  "represented_decisions": 26,
+  "human_decisions_filled_by_ai": 0,
+  "automatic_claim_ready_promotions": 0,
+  "null_result_suppression": 0,
+  "protocol_outcome_use": 0,
+  "cohort_double_counting": 0,
+  "cef_v1_unauthorized_changes": 0,
+  "zotero_changes": 0,
+  "short_form_baseline_changes": 0,
+  "brazil_direct_inflation": 0,
+  "artifact_sha256": {
+    "FULL_MANUSCRIPT_HUMAN_ADJUDICATION_PACK.md": "84d15612eb598f68a02b94766238d616d1cd610d0925ef7b6cde7610463e0c7e",
+    "FULL_MANUSCRIPT_HUMAN_DECISION_LEDGER.csv": "2834d85793930a5120bba25cf7142dd4d9d4bc3b83777f5f890eca959eb984fa",
+    "DECISION_CLUSTER_MAP.csv": "0fee85b18fe40022ec7940333b0c1b63d2f569d153b588cf40e04d45a9cfc093",
+    "AI_RECOMMENDED_EVIDENCE_ROLES.csv": "5d9d3e51c376adfc7f15e4d765a036c2c2d6728025842a48809873a4895ee2ac",
+    "PROVISIONAL_EXPANSION_CLAIM_LIBRARY.csv": "c07ec5840849ae520f84b2e55b01c8921ac0b944818b837e7a42f2d0438a51aa",
+    "EXPANSION_CLAIM_BOUNDARY_MATRIX.csv": "1cadac28eab7000d7016bf3431a47002e11bf02969f77e9f6f33332cdde50fac",
+    "EXPANSION_DOMAIN_DENSITY_PRE_HUMAN.csv": "15976317bef662e68d0596c07fe32d04895aee21969cc7e127311755504b29e8",
+    "INTERNATIONAL_EXPANSION_REFERENCE_PROJECTION.csv": "3f4b9bb09db4923491d91bb081486618fcbae17d9a971a94dcae6c59d4d042ec",
+    "BRAZIL_EXPANSION_STATUS.csv": "54e20eb183f86e8c2fb73774c77caed5e67d3fa285d6e565c2abfc32dc6bcf77",
+    "FREEZE_CHANGE_REQUEST_REQUIRED.csv": "674125e5847549abc272b1ba5028124438ee42fc49ad49ef1c0a0f40d30b6d38",
+    "POST_ADJUDICATION_PLANNING_MATRIX.csv": "35fa8b089e6849f9c9410b3821884bd90509643672a800fa73db52f49bab1da8",
+    "BATCH11_0B_REPORT.md": "3ceeb4fb55bdda540d9f2cf923d982117b6fe4e531f0d9f77ff4a0d0450f0f69"
+  }
+}
