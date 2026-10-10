@@ -1,0 +1,11 @@
+Claim_ID,Classification,Evidence_Role,Occurrences,Evidence_IDs,Result_IDs,All_Chains_Pass,Finding,Human_Decision_Required
+RC-BRA-APH-01,SCIENTIFICALLY_CONFIRMED,KEEP_SUPPORTING,1,EV-1475,EV-1475-R01,YES,"Retained only within documented source, design and transferability boundary.",NO
+RC-BRA-CVD-01,SCIENTIFICALLY_CONFIRMED,KEEP,2,EV-1463,EV-1463-FT4-R01,YES,"Retained only within documented source, design and transferability boundary.",NO
+RC-BRA-IMPL-01,CONTEXT_ONLY_CONFIRMED,KEEP_CONTEXTUAL,1,EV-1482,EV-1482-R01,YES,"Retained only within documented source, design and transferability boundary.",NO
+RC-BRA-MED-01,SCIENTIFICALLY_CONFIRMED,KEEP,1,EV-1484,EV-1484-R01,YES,"Retained only within documented source, design and transferability boundary.",NO
+RC-BRA-MSK-01,CONTEXT_ONLY_CONFIRMED,KEEP_CONTEXTUAL,1,EV-1466,EV-1466-FT4-R01,YES,"Retained only within documented source, design and transferability boundary.",NO
+RC-BRA-ORG-01,SCIENTIFICALLY_CONFIRMED,KEEP_SUPPORTING,1,EV-1479,EV-1479-R01,YES,"Retained only within documented source, design and transferability boundary.",NO
+RC-BRA-SHOOT-01,SCIENTIFICALLY_CONFIRMED,KEEP_SUPPORTING,2,EV-1473,EV-1473-R02,YES,"Retained only within documented source, design and transferability boundary.",NO
+RC-BRA-SHOOT-02,SCIENTIFICALLY_CONFIRMED,KEEP_SUPPORTING,2,EV-1474,EV-1474-R02,YES,"Retained only within documented source, design and transferability boundary.",NO
+RC-GAP2-BRA-MSK-01,CONTEXT_ONLY_CONFIRMED,KEEP_CONTEXTUAL,1,EV-1467,EV-1467-GAP2-R01,YES,"Retained only within documented source, design and transferability boundary.",NO
+RC-INT-SLEEP-01,SCIENTIFICALLY_CONFIRMED,KEEP_SUPPORTING,1,EV-1462,EV-1462-FT4-R01,YES,"Retained only within documented source, design and transferability boundary.",NO

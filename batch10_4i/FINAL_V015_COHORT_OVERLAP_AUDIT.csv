@@ -1,0 +1,2 @@
+Cohort_Family,Evidence_IDs,Independent_Count,Representation,Double_Counting_Detected,Audit_Status
+CF-BR-PMES-CFO-2023-01,EV-1473; EV-1474,1,Overlapping analyses; not independent replications,NO,PASS

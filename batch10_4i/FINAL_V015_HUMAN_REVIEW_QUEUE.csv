@@ -1,0 +1,3 @@
+Review_ID,Item_Type,Manuscript,Material_Decision,AI_Recommendation,HUMAN_DECISION,HUMAN_RATIONALE,HUMAN_REVIEWER,HUMAN_REVIEW_DATE
+V015-INT-ARTICLE-STRATEGY,MANUSCRIPT_VIABILITY,International,Confirm short-form/brief evidence-informed integrative synthesis strategy.,SHORT_FORM_SCIENTIFICALLY_VIABLE,,,,
+V015-BRA-ARTICLE-STRATEGY,MANUSCRIPT_VIABILITY,Brazil,Confirm reducing the B2 working draft to a short-form strategy or justify full-manuscript scope.,SHORT_FORM_MORE_APPROPRIATE,,,,

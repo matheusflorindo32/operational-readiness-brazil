@@ -1,0 +1,6 @@
+Control,Observed,Status
+Claim/result/locator chains,13/13 PASS,PASS
+Reference reconciliation,0 cited-but-missing; 0 listed-but-uncited; 0 duplicate DOI,PASS
+Unadjudicated contradictory evidence support,0,PASS
+Material human decisions,2 manuscript-strategy decisions pending,PENDING
+Freeze readiness,No freeze executed; final article-form decisions remain human-controlled.,BLOCKED_BEFORE_FREEZE

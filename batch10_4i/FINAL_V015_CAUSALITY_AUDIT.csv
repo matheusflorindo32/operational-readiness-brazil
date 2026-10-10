@@ -1,0 +1,7 @@
+Manuscript,Claim_ID,Required_Boundary,Overclaim_Detected,Audit_Status
+International,RC-INT-SLEEP-01,partial mitigation; no restoration or universal benefit,NO,PASS
+International,RC-BRA-CVD-01,cross-sectional; no role or shift causation,NO,PASS
+Brazil,RC-BRA-CVD-01,cross-sectional; no role or shift causation,NO,PASS
+Brazil,RC-BRA-MED-01,association only; no causality,NO,PASS
+Brazil,RC-BRA-APH-01,descriptive record review; no effectiveness claim,NO,PASS
+Brazil,RC-GAP2-BRA-MSK-01,contextual cross-sectional finding; no occupational or preventive effect,NO,PASS
