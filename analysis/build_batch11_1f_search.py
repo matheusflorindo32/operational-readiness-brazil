@@ -1,0 +1,47 @@
+import csv,json,hashlib,urllib.parse,urllib.request,xml.etree.ElementTree as ET,re,datetime
+from pathlib import Path
+R=Path(__file__).resolve().parents[1];O=R/'batch11_1f_search';O.mkdir(exist_ok=True);DATE='2026-10-10'
+def rd(p):
+ with open(p,encoding='utf-8-sig',newline='') as f:return list(csv.DictReader(f))
+def wr(n,fs,x):
+ with open(O/n,'w',encoding='utf-8',newline='') as f:w=csv.DictWriter(f,fieldnames=fs);w.writeheader();w.writerows(x)
+def norm(s):return re.sub(r'[^a-z0-9]','',s.lower())
+def get(u):return urllib.request.urlopen(u,timeout=40).read()
+def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+def main():
+ canonical=rd(R/'batch10_4b/canonical/MASTER_EVIDENCE_CANONICAL_EV0001_EV1484.csv');ct={norm(x.get('Title','')) for x in canonical};dois={x.get('DOI','').lower().strip() for x in canonical if x.get('DOI','')}
+ qs={'fitness':'((police OR military OR firefighter OR tactical) AND (physical fitness OR occupational performance OR load carriage) AND (prospective OR cohort OR intervention)) AND ("2010"[DP] : "3000"[DP]) AND free full text[sb]','sleep':'((police OR military OR firefighter OR tactical) AND (sleep OR fatigue OR recovery) AND (operational performance OR vigilance OR cognition)) AND ("2010"[DP] : "3000"[DP]) AND free full text[sb]','tactical_medicine':'((tactical medicine OR tactical emergency medical OR TCCC OR TECC OR TEMS OR tourniquet) AND (training OR implementation OR outcome)) AND ("2010"[DP] : "3000"[DP]) AND free full text[sb]','workload':'((body armor OR load carriage OR PPE OR heat stress) AND (military OR police OR firefighter OR tactical) AND (performance OR injury OR mobility)) AND ("2010"[DP] : "3000"[DP]) AND free full text[sb]'}
+ raw=[];logs=[]
+ for d,q in qs.items():
+  u='https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?'+urllib.parse.urlencode({'db':'pubmed','term':q,'retmax':15,'retmode':'json','sort':'relevance'});j=json.loads(get(u));ids=j['esearchresult']['idlist'];logs.append({'Database':'PubMed/MEDLINE','Domain':d,'Query':q,'Date':DATE,'Raw_Count':j['esearchresult']['count'],'Retrieved':len(ids),'Status':'QUERIED'})
+  if ids:
+   x=get('https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?'+urllib.parse.urlencode({'db':'pubmed','id':','.join(ids),'retmode':'xml'}));root=ET.fromstring(x)
+   for a in root.findall('.//PubmedArticle'):
+    pmid=a.findtext('.//PMID','');title=''.join(a.find('.//ArticleTitle').itertext()) if a.find('.//ArticleTitle') is not None else '';ab=' '.join(''.join(z.itertext()) for z in a.findall('.//Abstract/AbstractText'));doi='';pmc=''
+    for e in a.findall('.//ArticleId'):
+     if e.attrib.get('IdType')=='doi':doi=e.text or ''
+     if e.attrib.get('IdType')=='pmc':pmc=e.text or ''
+    raw.append({'Search_Domain':d,'PMID':pmid,'DOI':doi,'PMCID':pmc,'Title':title,'Abstract':ab,'PubMed_URL':'https://pubmed.ncbi.nlm.nih.gov/'+pmid+'/'})
+ logs += [{'Database':x,'Domain':'all','Query':'Not queried: no authenticated subscription/API connector available in this environment.','Date':DATE,'Raw_Count':'','Retrieved':0,'Status':'UNAVAILABLE_DOCUMENTED'} for x in ['Embase','Scopus','Web of Science','CINAHL','Cochrane Library','SPORTDiscus']]
+ wr('DATABASE_SEARCH_LOG.csv',list(logs[0]),logs);wr('SEARCH_STRING_REGISTRY.csv',['Domain','Query','Rationale'],[{'Domain':k,'Query':v,'Rationale':'Targeted internal gap: tactical population + operational/health outcome + free full text.'} for k,v in qs.items()]);wr('EXTERNAL_SEARCH_RAW_RESULTS.csv',list(raw[0]),raw)
+ ded=[];new=[];seen=set()
+ for x in raw:
+  key=x['PMID'] or x['DOI'] or norm(x['Title']);status='ALREADY_IN_CANONICAL_UNIVERSE' if norm(x['Title']) in ct or x['DOI'].lower() in dois else 'NEW_EXTERNAL_RECORD'
+  if key in seen:status='POSSIBLE_DUPLICATE'
+  seen.add(key);ded.append({**x,'Deduplication_Status':status})
+  if status=='NEW_EXTERNAL_RECORD':new.append({**x,'Evidence_ID':'','Admission':'ABSTRACT_ONLY_HOLD','Reason':'Search discovery only: full text, result-level extraction, appraisal and integrity are required before supporting use.'})
+ wr('CANONICAL_DEDUPLICATION.csv',list(ded[0]),ded);wr('NEW_EXTERNAL_RECORDS.csv',list(new[0]) if new else ['Search_Domain','PMID','DOI','PMCID','Title','Abstract','PubMed_URL','Evidence_ID','Admission','Reason'],new)
+ assign=[{'Evidence_ID':'','PMID':x['PMID'],'Title':x['Title'],'Assignment_Status':'NOT_ASSIGNED — no record admitted after full-text appraisal','Reason':'Avoid premature Evidence_ID creation.'} for x in new];wr('EXTERNAL_EVIDENCE_ID_ASSIGNMENT.csv',list(assign[0]) if assign else ['Evidence_ID','PMID','Title','Assignment_Status','Reason'],assign)
+ screen=[]
+ for x in ded:
+  cat='EXCLUDE' if x['Deduplication_Status']!='NEW_EXTERNAL_RECORD' else 'HIGH_PRIORITY' if x['PMCID'] else 'MODERATE_PRIORITY';screen.append({'PMID':x['PMID'],'Title':x['Title'],'Domain':x['Search_Domain'],'Deduplication':x['Deduplication_Status'],'Stage1':cat,'Stage2':'ABSTRACT_ONLY_HOLD','Contribution':'NO_INCREMENTAL_VALUE_UNTIL_FULL_TEXT','Reason':'No automatic full-text appraisal in discovery batch.'})
+ wr('TITLE_ABSTRACT_SCREENING.csv',list(screen[0]),screen);wr('FULL_TEXT_SCREENING.csv',['PMID','Title','Decision','Reason'],[{'PMID':x['PMID'],'Title':x['Title'],'Decision':'NOT_ASSESSED','Reason':'External discovery records require lawful full-text verification before appraisal.'} for x in new]);wr('FULL_TEXT_AVAILABILITY.csv',['PMID','PMCID','Availability','Status'],[{'PMID':x['PMID'],'PMCID':x['PMCID'],'Availability':'PMC_LINK_IDENTIFIED' if x['PMCID'] else 'NO_PMCID_IN_PUBMED_RECORD','Status':'NOT_RETRIEVED_IN_DISCOVERY_BATCH'} for x in new])
+ empty=['RESULT_LOCATED_EXTERNAL_MASTER.csv','DESIGN_CLASSIFICATION_EXTERNAL.csv','APPRAISAL_EXTERNAL.csv','INTEGRITY_EXTERNAL.csv','STUDY_FAMILY_EXTERNAL.csv','TRANSFERABILITY_EXTERNAL.csv','NULL_RESULT_EXTERNAL_AUDIT.csv','CONTRADICTORY_EXTERNAL_EVIDENCE.csv','EXTERNAL_CLAIM_ELIGIBILITY.csv','PROVISIONAL_EXTERNAL_EXPANSION_CLAIMS.csv','MANUSCRIPT_INCREMENTAL_VALUE.csv','BATCH11_1F_SEARCH_HUMAN_REVIEW_QUEUE.csv']
+ for n in empty:wr(n,['Status','Reason'],[{'Status':'NO_ADMITTED_EXTERNAL_EVIDENCE','Reason':'No full-text-verified, appraised, integrity-checked external record was admitted in this discovery-only batch.'}])
+ dens=[{'Domain':k,'New_Supporting':0,'New_Contextual':0,'Status':'NOT_REINFORCED_IN_THIS_BATCH'} for k in qs];wr('DOMAIN_DENSITY_POST_SEARCH.csv',list(dens[0]),dens)
+ wr('REFERENCE_COUNT_POST_SEARCH_PROJECTION.csv',['Metric','Value'],[{'Metric':'Before active references','Value':20},{'Metric':'New admitted active references','Value':0},{'Metric':'Projected active references','Value':20},{'Metric':'Reference padding','Value':0}]);wr('WORD_DENSITY_POST_SEARCH_PROJECTION.csv',['Metric','Value'],[{'Metric':'Before body words','Value':3052},{'Metric':'New defensible words from admitted evidence','Value':0},{'Metric':'Projected body words','Value':3052},{'Metric':'6500 target supported','Value':'NO'}]);wr('EXTERNAL_SEARCH_STOP_RULE_AUDIT.csv',['Rule','Status'],[{'Rule':'No broad exploratory search','Status':'PASS'},{'Rule':'No external record promoted from abstract','Status':'PASS'},{'Rule':'Stop after targeted discovery; full-text appraisal is a separate gate','Status':'PASS'},{'Rule':'Reference padding','Status':'0'}])
+ (O/'SEARCH_STRATEGY_MASTER.md').write_text('# Batch 11.1F Search Strategy\n\nFour PubMed/MEDLINE targeted, free-full-text discovery queries were executed for fitness, sleep, tactical medicine, and workload gaps. Subscription databases were documented as unavailable; no access was implied. Records were deduplicated against the canonical 1,484 universe. This batch performed discovery and title/abstract screening only; no external record was admitted without lawful full text, result-level extraction, appraisal, integrity review, overlap control, and human materiality review.\n',encoding='utf-8')
+ files=[p for p in O.iterdir() if p.is_file() and p.name not in ['BATCH11_1F_SEARCH_MANIFEST.json','BATCH11_1F_SEARCH_REPORT.md']];m={'batch':'BATCH 11.1F-SEARCH','gate':'EXTERNAL_EVIDENCE_STILL_INSUFFICIENT_FOR_6500_WORD_TARGET','date':DATE,'base_commit':'de03ea14fb165798916bf267eeff8db0c4fcac7e','outputs':[{'file':p.name,'sha256':sha(p)} for p in files],'qa':{'databases_queried':1,'raw_records':len(raw),'already_canonical':sum(x['Deduplication_Status']=='ALREADY_IN_CANONICAL_UNIVERSE' for x in ded),'new_external_records':len(new),'full_text_assessed':0,'supporting_candidates':0,'contextual_high_value':0,'claim_ready_promotions':0,'cohort_double_counting':0,'reference_padding':0}}
+ (O/'BATCH11_1F_SEARCH_MANIFEST.json').write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');(O/'BATCH11_1F_SEARCH_REPORT.md').write_text(f'# Batch 11.1F Search Report\n\n`EXTERNAL_EVIDENCE_STILL_INSUFFICIENT_FOR_6500_WORD_TARGET`\n\nPubMed targeted discovery yielded {len(raw)} retrieved records, of which {len(new)} were not in the canonical universe by DOI/title comparison. None was admitted: this batch did not treat title/abstract discovery or a PMCID indicator as adequate full-text appraisal, extraction, integrity, overlap, and human materiality evidence. Active references remain 20 and the defensible body-word projection remains 3,052.\n\nNext: `GO_EXTERNAL_FULL_TEXT_VERIFICATION_AND_APPRAISAL` before any human inclusion decision or manuscript reconstruction.\n',encoding='utf-8')
+ print(json.dumps(m['qa']))
+if __name__=='__main__':main()

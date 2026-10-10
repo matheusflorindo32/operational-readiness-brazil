@@ -1,0 +1,124 @@
+{
+  "batch": "BATCH 11.1F-SEARCH",
+  "gate": "EXTERNAL_EVIDENCE_STILL_INSUFFICIENT_FOR_6500_WORD_TARGET",
+  "date": "2026-10-10",
+  "base_commit": "de03ea14fb165798916bf267eeff8db0c4fcac7e",
+  "outputs": [
+    {
+      "file": "APPRAISAL_EXTERNAL.csv",
+      "sha256": "be2e01aa0e6720481424eb867ff1a5b44d27c8d1e58b075036229929525c4ad2"
+    },
+    {
+      "file": "BATCH11_1F_SEARCH_HUMAN_REVIEW_QUEUE.csv",
+      "sha256": "be2e01aa0e6720481424eb867ff1a5b44d27c8d1e58b075036229929525c4ad2"
+    },
+    {
+      "file": "CANONICAL_DEDUPLICATION.csv",
+      "sha256": "1925970f16e0280eab0634d15d4f93ad4c8285921d3522acb800e7998436c9dc"
+    },
+    {
+      "file": "CONTRADICTORY_EXTERNAL_EVIDENCE.csv",
+      "sha256": "be2e01aa0e6720481424eb867ff1a5b44d27c8d1e58b075036229929525c4ad2"
+    },
+    {
+      "file": "DATABASE_SEARCH_LOG.csv",
+      "sha256": "4911da3104787534f1a8ee5421bb18b8fbe309752aad255c115ec10293143657"
+    },
+    {
+      "file": "DESIGN_CLASSIFICATION_EXTERNAL.csv",
+      "sha256": "be2e01aa0e6720481424eb867ff1a5b44d27c8d1e58b075036229929525c4ad2"
+    },
+    {
+      "file": "DOMAIN_DENSITY_POST_SEARCH.csv",
+      "sha256": "72b164f11b09543746ac40c9e4846b98da21dc989e7e495cc92bf9855a97f39c"
+    },
+    {
+      "file": "EXTERNAL_CLAIM_ELIGIBILITY.csv",
+      "sha256": "be2e01aa0e6720481424eb867ff1a5b44d27c8d1e58b075036229929525c4ad2"
+    },
+    {
+      "file": "EXTERNAL_EVIDENCE_ID_ASSIGNMENT.csv",
+      "sha256": "4f631ee6595531accb010b5b2b73d202b25ec2ce77dc8f57ebaa29d9390738e3"
+    },
+    {
+      "file": "EXTERNAL_SEARCH_RAW_RESULTS.csv",
+      "sha256": "b9d7de6e36a3fc6e7145c0fb1e73f89cb45e514233b9e46183ec460fe4768d59"
+    },
+    {
+      "file": "EXTERNAL_SEARCH_STOP_RULE_AUDIT.csv",
+      "sha256": "9e0e60c8bf2754053aba11d3e4b5e83b147ab6cfa67951d6d998aa2a0abd56ae"
+    },
+    {
+      "file": "FULL_TEXT_AVAILABILITY.csv",
+      "sha256": "482701a850cd4012bfe4ff308c56bf35622b6a27fd654e77f3e922c6824d018d"
+    },
+    {
+      "file": "FULL_TEXT_SCREENING.csv",
+      "sha256": "9b9752024b5ba537a5dcaf50bba264e14c19a75f0d48a204bf3cbc9337546d49"
+    },
+    {
+      "file": "INTEGRITY_EXTERNAL.csv",
+      "sha256": "be2e01aa0e6720481424eb867ff1a5b44d27c8d1e58b075036229929525c4ad2"
+    },
+    {
+      "file": "MANUSCRIPT_INCREMENTAL_VALUE.csv",
+      "sha256": "be2e01aa0e6720481424eb867ff1a5b44d27c8d1e58b075036229929525c4ad2"
+    },
+    {
+      "file": "NEW_EXTERNAL_RECORDS.csv",
+      "sha256": "fbbf910ae2c4857580e5666bb51ec9641fcba7f92aede3da3ab08ed8bb670ccd"
+    },
+    {
+      "file": "NULL_RESULT_EXTERNAL_AUDIT.csv",
+      "sha256": "be2e01aa0e6720481424eb867ff1a5b44d27c8d1e58b075036229929525c4ad2"
+    },
+    {
+      "file": "PROVISIONAL_EXTERNAL_EXPANSION_CLAIMS.csv",
+      "sha256": "be2e01aa0e6720481424eb867ff1a5b44d27c8d1e58b075036229929525c4ad2"
+    },
+    {
+      "file": "REFERENCE_COUNT_POST_SEARCH_PROJECTION.csv",
+      "sha256": "b12826e801348241e25df35378212382905fa4a7371efbfae6a737ee6c5e42aa"
+    },
+    {
+      "file": "RESULT_LOCATED_EXTERNAL_MASTER.csv",
+      "sha256": "be2e01aa0e6720481424eb867ff1a5b44d27c8d1e58b075036229929525c4ad2"
+    },
+    {
+      "file": "SEARCH_STRATEGY_MASTER.md",
+      "sha256": "1d2b83475ddb3df26d6f871495ec4e4e835431c70d3575171d9e8f6765978b13"
+    },
+    {
+      "file": "SEARCH_STRING_REGISTRY.csv",
+      "sha256": "4a1e09aba490776aaec0140337615ffa2003ab221eb396f509b157d72382b641"
+    },
+    {
+      "file": "STUDY_FAMILY_EXTERNAL.csv",
+      "sha256": "be2e01aa0e6720481424eb867ff1a5b44d27c8d1e58b075036229929525c4ad2"
+    },
+    {
+      "file": "TITLE_ABSTRACT_SCREENING.csv",
+      "sha256": "7eb0f97fd3df039f664b802a8f54d0bef3d626a829bfc57b32f07643304dbdcf"
+    },
+    {
+      "file": "TRANSFERABILITY_EXTERNAL.csv",
+      "sha256": "be2e01aa0e6720481424eb867ff1a5b44d27c8d1e58b075036229929525c4ad2"
+    },
+    {
+      "file": "WORD_DENSITY_POST_SEARCH_PROJECTION.csv",
+      "sha256": "4079a5d34ac6d023258c3fc4cd8bc5a829e4ed3919661b265ea08ae5251d3f2a"
+    }
+  ],
+  "qa": {
+    "databases_queried": 1,
+    "raw_records": 60,
+    "already_canonical": 1,
+    "new_external_records": 55,
+    "full_text_assessed": 0,
+    "supporting_candidates": 0,
+    "contextual_high_value": 0,
+    "claim_ready_promotions": 0,
+    "cohort_double_counting": 0,
+    "reference_padding": 0
+  }
+}

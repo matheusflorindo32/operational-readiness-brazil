@@ -1,0 +1,5 @@
+Rule,Status
+No broad exploratory search,PASS
+No external record promoted from abstract,PASS
+Stop after targeted discovery; full-text appraisal is a separate gate,PASS
+Reference padding,0

@@ -1,0 +1,11 @@
+Database,Domain,Query,Date,Raw_Count,Retrieved,Status
+PubMed/MEDLINE,fitness,"((police OR military OR firefighter OR tactical) AND (physical fitness OR occupational performance OR load carriage) AND (prospective OR cohort OR intervention)) AND (""2010""[DP] : ""3000""[DP]) AND free full text[sb]",2026-10-10,1797,15,QUERIED
+PubMed/MEDLINE,sleep,"((police OR military OR firefighter OR tactical) AND (sleep OR fatigue OR recovery) AND (operational performance OR vigilance OR cognition)) AND (""2010""[DP] : ""3000""[DP]) AND free full text[sb]",2026-10-10,1919,15,QUERIED
+PubMed/MEDLINE,tactical_medicine,"((tactical medicine OR tactical emergency medical OR TCCC OR TECC OR TEMS OR tourniquet) AND (training OR implementation OR outcome)) AND (""2010""[DP] : ""3000""[DP]) AND free full text[sb]",2026-10-10,2939,15,QUERIED
+PubMed/MEDLINE,workload,"((body armor OR load carriage OR PPE OR heat stress) AND (military OR police OR firefighter OR tactical) AND (performance OR injury OR mobility)) AND (""2010""[DP] : ""3000""[DP]) AND free full text[sb]",2026-10-10,650,15,QUERIED
+Embase,all,Not queried: no authenticated subscription/API connector available in this environment.,2026-10-10,,0,UNAVAILABLE_DOCUMENTED
+Scopus,all,Not queried: no authenticated subscription/API connector available in this environment.,2026-10-10,,0,UNAVAILABLE_DOCUMENTED
+Web of Science,all,Not queried: no authenticated subscription/API connector available in this environment.,2026-10-10,,0,UNAVAILABLE_DOCUMENTED
+CINAHL,all,Not queried: no authenticated subscription/API connector available in this environment.,2026-10-10,,0,UNAVAILABLE_DOCUMENTED
+Cochrane Library,all,Not queried: no authenticated subscription/API connector available in this environment.,2026-10-10,,0,UNAVAILABLE_DOCUMENTED
+SPORTDiscus,all,Not queried: no authenticated subscription/API connector available in this environment.,2026-10-10,,0,UNAVAILABLE_DOCUMENTED
