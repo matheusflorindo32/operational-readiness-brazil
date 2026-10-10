@@ -1,0 +1,125 @@
+{
+  "batch": "BATCH 11.1F-FT",
+  "base_commit": "c2a3cdc273183407236677f64fa5cda1ad34dab7",
+  "date": "2026-10-10",
+  "gate": "EXTERNAL_FULLTEXT_APPRAISAL_PARTIAL",
+  "sufficiency_gate": "EXTERNAL_EVIDENCE_STILL_INSUFFICIENT_FOR_6500_WORD_TARGET",
+  "qa": {
+    "external_records": 55,
+    "tiers": {
+      "A": 7,
+      "B": 8,
+      "C": 14,
+      "D": 26
+    },
+    "full_text_recovered": 12,
+    "full_text_verified": 12,
+    "full_text_unavailable_or_not_triaged": 43,
+    "result_located_packets": 12,
+    "new_evidence_ids_assigned": 4,
+    "new_result_ids": 4,
+    "automatic_claims": 0,
+    "claim_ready_promotions": 0,
+    "automatic_active_references": 0,
+    "null_results_preserved": 1,
+    "blocked_evidence_used": 0,
+    "cohort_double_counting": 0,
+    "zotero_changes": 0,
+    "cef_v1_changes": 0,
+    "manuscript_changes": 0
+  },
+  "outputs": [
+    {
+      "file": "APPRAISAL_EXTERNAL_FULLTEXT.csv",
+      "sha256": "85604db943f5caed3a7b89e8e5bf1f4df3e23e24b5fd0c3035a3772e3fc354b3"
+    },
+    {
+      "file": "BATCH11_1F_FT_HUMAN_REVIEW_QUEUE.csv",
+      "sha256": "018958e3271a6c6765bc80eab32b4c1252662fb397eece8965654ca94f6ea268"
+    },
+    {
+      "file": "CLAIM_ELIGIBILITY_EXTERNAL_FULLTEXT.csv",
+      "sha256": "9b96781c77ec8f16ac613d6e3e97086db07bc35469455eb1e38c366508374537"
+    },
+    {
+      "file": "CONTRADICTORY_EXTERNAL_FULLTEXT.csv",
+      "sha256": "e9a53df5ef92ef6a2def6b9cc82ab1042514568ed9a0232e9536bdedd6c1ac4c"
+    },
+    {
+      "file": "DESIGN_CLASSIFICATION_EXTERNAL_FULLTEXT.csv",
+      "sha256": "4f3e3ac51ddb993f9ed6164a0e2a8826def6cc2405ff7372f775a4cab9aa38b6"
+    },
+    {
+      "file": "EXTERNAL_55_PRIORITY_TRIAGE.csv",
+      "sha256": "4bf62f56354b6876d8a6e377e80e30b1511f0fe90c0a0e0fdc062cffa3507893"
+    },
+    {
+      "file": "EXTERNAL_EVIDENCE_ID_ASSIGNMENT_FINAL.csv",
+      "sha256": "f0e81fee4d491acee786611563ce0f6508cb5e3646f364bd412e14e9ca389e22"
+    },
+    {
+      "file": "EXTERNAL_FULLTEXT_6500_WORD_FEASIBILITY.csv",
+      "sha256": "193e1da092ff4baf2c6885deb3f92973acf6f24f8de8769b2eda8a591e849a6a"
+    },
+    {
+      "file": "FULL_TEXT_RETRIEVAL_LOG.csv",
+      "sha256": "5b7fad850aedc0bf61b4b2e50edf06f744869abb09ad9846fe6ce40803218838"
+    },
+    {
+      "file": "FULL_TEXT_VERIFICATION.csv",
+      "sha256": "d30a6f030029467688b31fa368f577e86193f417d8fccdee70156404cb879b78"
+    },
+    {
+      "file": "HUMAN_MATERIALITY_EXTERNAL_FULLTEXT.csv",
+      "sha256": "79c06f78bcf36751480d8fb6c4c1bd876b35436abd6dcbf5e69b25c46cabc974"
+    },
+    {
+      "file": "INCREMENTAL_VALUE_EXTERNAL.csv",
+      "sha256": "d62b0af764f12e717e85e30d023dc8a66de77f64b9d9453219e102581d5eb912"
+    },
+    {
+      "file": "INTEGRITY_EXTERNAL_FULLTEXT.csv",
+      "sha256": "3e08c1931d6f62d15ecf360f7d2e4c495bf63207ae3e5f8d2f8e214463883305"
+    },
+    {
+      "file": "NULL_RESULT_EXTERNAL_FULLTEXT_AUDIT.csv",
+      "sha256": "b74e203cecdbfd30bf0789b06e04a17926b4a24e3d58cba962fa5bee39df4676"
+    },
+    {
+      "file": "PROVISIONAL_EXTERNAL_EXPANSION_CLAIM_LIBRARY.csv",
+      "sha256": "bec66e4bfa6e1002d50267c89b7fd83deea46f7a427203f650176a6e8b0fef2c"
+    },
+    {
+      "file": "RED_TEAM_EXTERNAL_FULLTEXT.csv",
+      "sha256": "f1ba9c94fada2378b8d999b526e036c83842f8f4c695bfb27c47b88dbceee0ef"
+    },
+    {
+      "file": "REFERENCE_PROJECTION_EXTERNAL_FULLTEXT.csv",
+      "sha256": "68164b2645c53e882ad5a55ce63775da90f2418d83f689abd3d6fa0638ad39d8"
+    },
+    {
+      "file": "RESULT_LOCATED_EXTERNAL_FULLTEXT_MASTER.csv",
+      "sha256": "e781a65cfa051feb90c11ae66c97485a3829a6855d1d300570f64d116f0b7c07"
+    },
+    {
+      "file": "RESULT_LOCATOR_AUDIT.csv",
+      "sha256": "3e36c0f826f6a532d88bafb9c128c85bf5478e96df801d45bcc3d78b2dde120d"
+    },
+    {
+      "file": "STUDY_FAMILY_EXTERNAL_FULLTEXT.csv",
+      "sha256": "11e04966dc2e0ffdd00f7f3c8629924f51752c4e982c72c478746ce8be75f77d"
+    },
+    {
+      "file": "TRANSFERABILITY_EXTERNAL_FULLTEXT.csv",
+      "sha256": "982638d39cbda7fe3273d08140d4d4ee994981b0ef69e7a71a7a27df6d8f3fe3"
+    },
+    {
+      "file": "WORD_DENSITY_EXTERNAL_FULLTEXT.csv",
+      "sha256": "fb8df626a0714fbf153b17685b2793515327c0e6b48fb162748af42e89efaa48"
+    },
+    {
+      "file": "ZOTERO_IMPORT_CANDIDATES.csv",
+      "sha256": "4ee9192aa93bd10b93d06f8385445f137698ab423a38706d2450ab6cad15c859"
+    }
+  ]
+}
