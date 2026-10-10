@@ -1,0 +1,27 @@
+Evidence_ID,Result_ID,Study_Family_ID,Human_Decision,Decision_Cluster_ID,Cohort_Double_Counting,Guard
+EV-0386,EV-0386-11A-R01,SF-EV-0386,CONTEXTUAL_DISCUSSION_ONLY,CL-INT-MED-01,NO,One evidence record is not treated as an independent corroborating cohort beyond its documented study family.
+EV-0667,EV-0667-11A-R01,SF-EV-0667,RETAIN_BOUNDED_SUPPORTING_CANDIDATE,CL-INT-FIT-MEAS-01,NO,One evidence record is not treated as an independent corroborating cohort beyond its documented study family.
+EV-1458,EV-1458-11A-R01,SF-EV-1458,CONTEXTUAL_DISCUSSION_ONLY,CL-INT-FIT-01,NO,One evidence record is not treated as an independent corroborating cohort beyond its documented study family.
+EV-0167,EV-0167-11A-R01,SF-EV-0167,CONTEXTUAL_DISCUSSION_ONLY,CL-INT-IMPL-01,NO,One evidence record is not treated as an independent corroborating cohort beyond its documented study family.
+EV-0252,EV-0252-11A-R01,SF-EV-0252,CONTEXTUAL_DISCUSSION_ONLY,CL-INT-IMPL-01,NO,One evidence record is not treated as an independent corroborating cohort beyond its documented study family.
+EV-0014,EV-0014-11A-R01,SF-EV-0014,EXCLUDE_FROM_FULL_MANUSCRIPT,CL-INT-FIT-01,NO,One evidence record is not treated as an independent corroborating cohort beyond its documented study family.
+EV-0068,EV-0068-11A-R01,SF-EV-0068,RETAIN_BOUNDED_SUPPORTING_CANDIDATE,CL-INT-MSK-01,NO,One evidence record is not treated as an independent corroborating cohort beyond its documented study family.
+EV-0076,EV-0076-11A-R01,SF-EV-0076,CONTEXTUAL_DISCUSSION_ONLY,CL-INT-HEAT-01,NO,One evidence record is not treated as an independent corroborating cohort beyond its documented study family.
+EV-0103,EV-0103-11A-R01,SF-EV-0103,RETAIN_BOUNDED_SUPPORTING_CANDIDATE,CL-INT-APH-01,NO,One evidence record is not treated as an independent corroborating cohort beyond its documented study family.
+EV-0115,EV-0115-11A-R01,SF-EV-0115,CONTEXTUAL_DISCUSSION_ONLY,CL-INT-MSK-01,NO,One evidence record is not treated as an independent corroborating cohort beyond its documented study family.
+EV-0183,EV-0183-11A-R01,SF-EV-0183,RETAIN_BOUNDED_SUPPORTING_CANDIDATE,CL-INT-SLEEP-01,NO,One evidence record is not treated as an independent corroborating cohort beyond its documented study family.
+EV-0204,EV-0204-11A-R01,SF-EV-0204,RETAIN_BOUNDED_SUPPORTING_CANDIDATE,CL-INT-MSK-01,NO,One evidence record is not treated as an independent corroborating cohort beyond its documented study family.
+EV-0230,EV-0230-11A-R01,SF-EV-0230,CONTEXTUAL_DISCUSSION_ONLY,CL-INT-MH-01,NO,One evidence record is not treated as an independent corroborating cohort beyond its documented study family.
+EV-0373,EV-0373-11A-R01,SF-EV-0373,CONTEXTUAL_DISCUSSION_ONLY,CL-INT-MED-01,NO,One evidence record is not treated as an independent corroborating cohort beyond its documented study family.
+EV-0403,EV-0403-11A-R01,SF-EV-0403,CONTEXTUAL_DISCUSSION_ONLY,CL-INT-MH-01,NO,One evidence record is not treated as an independent corroborating cohort beyond its documented study family.
+EV-0583,EV-0583-11A-R01,SF-EV-0583,CONTEXTUAL_DISCUSSION_ONLY,CL-INT-BODYCOMP-01,NO,One evidence record is not treated as an independent corroborating cohort beyond its documented study family.
+EV-0586,EV-0586-11A-R01,SF-EV-0586,RETAIN_BOUNDED_SUPPORTING_CANDIDATE,CL-INT-BODYCOMP-01,NO,One evidence record is not treated as an independent corroborating cohort beyond its documented study family.
+EV-0670,EV-0670-11A-R01,SF-EV-0670,RETAIN_BOUNDED_SUPPORTING_CANDIDATE,CL-INT-FIT-01,NO,One evidence record is not treated as an independent corroborating cohort beyond its documented study family.
+EV-0682,EV-0682-11A-R01,SF-EV-0682,CONTEXTUAL_DISCUSSION_ONLY,CL-INT-BODYCOMP-01,NO,One evidence record is not treated as an independent corroborating cohort beyond its documented study family.
+EV-0721,EV-0721-11A-R01,SF-EV-0721,RETAIN_BOUNDED_SUPPORTING_CANDIDATE,CL-INT-MSK-01,NO,One evidence record is not treated as an independent corroborating cohort beyond its documented study family.
+EV-0734,EV-0734-11A-R01,SF-EV-0734,RETAIN_BOUNDED_SUPPORTING_CANDIDATE,CL-INT-MED-01,NO,One evidence record is not treated as an independent corroborating cohort beyond its documented study family.
+EV-0799,EV-0799-11A-R01,SF-EV-0799,EXCLUDE_FROM_FULL_MANUSCRIPT,CL-INT-FIT-01,NO,One evidence record is not treated as an independent corroborating cohort beyond its documented study family.
+EV-0960,EV-0960-11A-R01,SF-EV-0960,RETAIN_BOUNDED_SUPPORTING_CANDIDATE,CL-INT-FIT-01,NO,One evidence record is not treated as an independent corroborating cohort beyond its documented study family.
+EV-1026,EV-1026-11A-R01,SF-EV-1026,RETAIN_BOUNDED_SUPPORTING_CANDIDATE,CL-INT-MSK-01,NO,One evidence record is not treated as an independent corroborating cohort beyond its documented study family.
+EV-1128,EV-1128-11A-R01,SF-EV-1128,CONTEXTUAL_DISCUSSION_ONLY,CL-INT-MSK-01,NO,One evidence record is not treated as an independent corroborating cohort beyond its documented study family.
+EV-1461,EV-1461-11A-R01,SF-EV-1461,RETAIN_BOUNDED_SUPPORTING_CANDIDATE,CL-INT-SLEEP-01,NO,One evidence record is not treated as an independent corroborating cohort beyond its documented study family.

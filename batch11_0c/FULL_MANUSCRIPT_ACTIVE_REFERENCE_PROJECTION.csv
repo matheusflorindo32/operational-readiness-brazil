@@ -1,0 +1,8 @@
+Reference_Group,Count,Status,Use,Integrity
+Frozen short-form working references,4,PRESERVED_NOT_REEVALUATED_HERE,Existing frozen International working set,Outside this batch
+Human-approved supporting expansion candidates,12,HUMAN_APPROVED_EXPANSION_CLAIM / NOT_FINAL,Eligible only after external integrity recheck and final scientific audit,INTEGRITY_EXTERNAL_RECHECK_PENDING
+Human-approved contextual candidates,12,CONTEXTUAL_DISCUSSION_ONLY / NOT_FINAL,Discussion/context only after external integrity recheck,INTEGRITY_EXTERNAL_RECHECK_PENDING
+Excluded from active full manuscript,2,EXCLUDE_FROM_FULL_MANUSCRIPT,Do not use in active manuscript; record preserved,INTEGRITY_EXTERNAL_RECHECK_PENDING
+Protocol-only records,5,PROTOCOL_ONLY,No outcome/effect claim,Not active full-manuscript evidence
+Unadjudicated contradictory records,3,UNADJUDICATED_CONTRADICTORY_EVIDENCE,No support; preserve limitation,Fail-closed
+Integrity holds,26,INTEGRITY_EXTERNAL_RECHECK_PENDING,No final citation promotion,Pending
