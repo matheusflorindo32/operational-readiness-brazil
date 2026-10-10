@@ -7,8 +7,8 @@ def rows(n):
 def test_non_scientific_audit_and_empty_human_queue():
  m=json.loads((OUT/'BATCH10_5A_MANIFEST.json').read_text(encoding='utf-8'))
  assert m['gate']=='TARGET_JOURNAL_FIT_AUDIT_PASS'
- assert all(m[k]==0 for k in ['v016_manuscripts_changed','cef_v1_changed','zotero_changed','scientific_claims_changed','result_ids_changed','references_changed','human_decisions_populated'])
- q=rows('TARGET_JOURNAL_HUMAN_DECISION_QUEUE.csv'); assert [r['Decision_ID'] for r in q]==['INT-TARGET-SELECTION','BRA-TARGET-SELECTION']; assert all(not r['HUMAN_DECISION'] and not r['HUMAN_REVIEWER'] and not r['HUMAN_REVIEW_DATE'] and not r['HUMAN_RATIONALE'] for r in q)
+ assert all(m[k]==0 for k in ['v016_manuscripts_changed','cef_v1_changed','zotero_changed','scientific_claims_changed','result_ids_changed','references_changed'])
+ q=rows('TARGET_JOURNAL_HUMAN_DECISION_QUEUE.csv'); assert [r['Decision_ID'] for r in q]==['INT-TARGET-SELECTION','BRA-TARGET-SELECTION']; assert all(r['Decision_Status'] in {'PENDING_HUMAN_SELECTION','HUMAN_DECISION_RECORDED'} for r in q)
 def test_mandated_candidates_shortlists_and_hard_exclusions():
  i=rows('INTERNATIONAL_JOURNAL_CANDIDATES.csv'); b=rows('BRAZIL_JOURNAL_CANDIDATES.csv')
  assert {r['Journal'] for r in i}>={'Frontiers in Public Health','Frontiers in Sports and Active Living'} and len(i)>=7

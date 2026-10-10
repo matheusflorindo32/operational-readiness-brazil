@@ -1,0 +1,23 @@
+{
+  "batch": "BATCH 10.5A-H",
+  "base_commit": "c4df9a07d7f26fdc2069ca7d25e5b598c544e8e0",
+  "gate": "TARGET_JOURNAL_HUMAN_SELECTION_PASS",
+  "next_gate": "GO_TARGET_SPECIFIC_EDITORIAL_FORMATTING",
+  "human_reviewer": "Matheus Florindo de Deus",
+  "human_review_date": "2026-10-09",
+  "journal_decisions_completed": "2/2",
+  "scientific_changes": 0,
+  "claim_changes": 0,
+  "reference_changes": 0,
+  "result_id_changes": 0,
+  "cef_v1_changes": 0,
+  "zotero_changes": 0,
+  "frozen_docx_changes": 0,
+  "artifact_sha256": {
+    "BATCH10_5A_H_REPORT.md": "182fce02ca7e7a633343c2a3fceac1a543b9be938fc3efb96c046754c2d3fbb3",
+    "FINAL_TARGET_JOURNAL_HUMAN_SELECTION.csv": "97270a035253437b2afa282b2345adfbbcb03e2969543c6ceefae0fab641722e",
+    "TARGET_AND_BACKUP_JOURNALS.csv": "1153687e8b45fb96f95e453011f237663cab93e35ed36e83c28a811792765339",
+    "TARGET_SELECTION_IMPACT_AUDIT.csv": "45ed58cdf03dced6d81fcc6199784ef583b36f8dc5f0a219ca89e457cdfb4d6c",
+    "TARGET_SELECTION_RATIONALE.md": "69f1651c7031e184c75ad5dd0ee7e694f613b1ddcb04667aa8fdeb435adee123"
+  }
+}

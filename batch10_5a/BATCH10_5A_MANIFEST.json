@@ -11,7 +11,7 @@
   "international_compatible_candidates": 5,
   "brazil_compatible_candidates": 4,
   "human_decision_items": 2,
-  "human_decisions_populated": 0,
+  "human_decisions_populated": 2,
   "v016_manuscripts_changed": 0,
   "cef_v1_changed": 0,
   "zotero_changed": 0,
@@ -33,6 +33,7 @@
     "JOURNAL_SUBMISSION_STATUS.csv": "b46f5bfa21ccd606e8348d83934673d743ae88913149e0abe701f2e81ab69f19",
     "JOURNAL_WORD_LIMIT_COMPATIBILITY.csv": "61f71dde12651586f9430ae799e2acd0635a89c25ffd50a02eeae81376a9fbb8",
     "PRIMARY_AND_BACKUP_TARGETS.csv": "7bbc7a024749106f9449893662be102178e171e1876313caa4cee3154342836e",
-    "TARGET_JOURNAL_HUMAN_DECISION_QUEUE.csv": "7a9b98f6b178b3aa3a23e3210226b5fa415cd6e5e7e80bd93400d8321c66529d"
-  }
+    "TARGET_JOURNAL_HUMAN_DECISION_QUEUE.csv": "b8e9b1b18b9fbeab42f4436d69272d66cc13a680740c91dcfd7e409b7de03d18"
+  },
+  "human_selection_state": "RECORDED_IN_BATCH10_5A_H"
 }

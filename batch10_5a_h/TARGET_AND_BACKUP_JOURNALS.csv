@@ -1,0 +1,7 @@
+Manuscript,Target_Role,Journal,Journal_Article_Type,Selection_Status
+International,PRIMARY_TARGET,Frontiers in Sports and Active Living,Mini Review,SELECTED_PRIMARY
+International,BACKUP_TARGET_1,Journal of Occupational Health,Review Article,PRESERVED_BACKUP
+International,BACKUP_TARGET_2,Frontiers in Public Health,Mini Review,PRESERVED_BACKUP
+Brazil,PRIMARY_TARGET,Revista Brasileira de Saúde Ocupacional,Ensaio,SELECTED_PRIMARY
+Brazil,BACKUP_TARGET_1,Cadernos de Saúde Pública,Ensaio,PRESERVED_BACKUP
+Brazil,BACKUP_TARGET_2,Revista Brasileira de Medicina do Trabalho,Artigo de Revisão,PRESERVED_BACKUP
