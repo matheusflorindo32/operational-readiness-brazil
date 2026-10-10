@@ -1,0 +1,1036 @@
+{
+  "check_date": "2026-10-10",
+  "pubmed_batch_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=39568140%2C36167789%2C28515947%2C41537090%2C40979841%2C42583191%2C42365570%2C42312763%2C42093038%2C41998685%2C41424497%2C41306450%2C41136962%2C39746845%2C39434185%2C37415704%2C37351259%2C36054639%2C35813844%2C35165197%2C35015894%2C33786041%2C31049072%2C29621324%2C27474034%2C42165076&retmode=xml",
+  "pubmed": {
+    "39568140": {
+      "pmid": "39568140",
+      "title": "Impact of astaxanthin supplementation on markers of cardiometabolic health and tactical performance among firefighters.",
+      "journal": "Journal of the International Society of Sports Nutrition",
+      "year": "2024",
+      "authors": [
+        "Gonzalez Drew E",
+        "Dickerson Broderick L",
+        "Johnson Sarah E",
+        "Woodruff Kathryn E",
+        "Leonard Megan",
+        "Yoo Choongsung",
+        "Ko Joungbo",
+        "Xing Dante",
+        "Martinez Victoria",
+        "Kendra Jacob",
+        "Estes Landry",
+        "Sowinski Ryan J",
+        "Rasmussen Chris J",
+        "Martin Steven E",
+        "Kreider Richard B"
+      ],
+      "doi": "10.1080/15502783.2024.2427751",
+      "pmcid": "PMC11583326",
+      "publication_types": [
+        "Journal Article",
+        "Randomized Controlled Trial"
+      ],
+      "comments_corrections": [],
+      "publication_status": "ppublish",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39568140/"
+    },
+    "36167789": {
+      "pmid": "36167789",
+      "title": "The reliability, validity and usefulness of the 30-15 intermittent fitness test for cardiorespiratory fitness assessment in military personnel.",
+      "journal": "Scientific reports",
+      "year": "2022",
+      "authors": [
+        "Paravlic Armin H",
+        "Simunic Bostjan",
+        "Pisot Rado",
+        "Rauter Samo",
+        "Stuhec Stanko",
+        "Vodicar Janez"
+      ],
+      "doi": "10.1038/s41598-022-20315-3",
+      "pmcid": "PMC9515111",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Randomized Controlled Trial"
+      ],
+      "comments_corrections": [],
+      "publication_status": "epublish",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/36167789/"
+    },
+    "28515947": {
+      "pmid": "28515947",
+      "title": "The impact of body armor on physical performance of law enforcement personnel: a systematic review.",
+      "journal": "Annals of occupational and environmental medicine",
+      "year": "2017",
+      "authors": [
+        "Tomes Colin",
+        "Orr Robin Marc",
+        "Pope Rodney"
+      ],
+      "doi": "10.1186/s40557-017-0169-9",
+      "pmcid": "PMC5434519",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "comments_corrections": [],
+      "publication_status": "epublish",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/28515947/"
+    },
+    "41537090": {
+      "pmid": "41537090",
+      "title": "Does automated feedback impact the acceptability of AI-generated police body worn camera review? An implementation science natural experiment.",
+      "journal": "Journal of experimental criminology",
+      "year": "2025",
+      "authors": [
+        "Watts Seth",
+        "Del Pozo Brandon",
+        "White Michael D",
+        "Malm Aili"
+      ],
+      "doi": "10.1007/s11292-025-09711-7",
+      "pmcid": "PMC12798756",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "comments_corrections": [],
+      "publication_status": "aheadofprint",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41537090/"
+    },
+    "40979841": {
+      "pmid": "40979841",
+      "title": "Why innovations in policing don't work or don't translate: An implementation science survey of US police leaders.",
+      "journal": "Police practice & research : an international journal",
+      "year": "2025",
+      "authors": [
+        "Del Pozo Brandon",
+        "Nevill Rose E",
+        "Cepeda Javier",
+        "Adams Ian T",
+        "Whiteside Alina",
+        "Thompson Erin"
+      ],
+      "doi": "10.1080/15614263.2025.2512806",
+      "pmcid": "PMC12448121",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "comments_corrections": [],
+      "publication_status": "aheadofprint",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/40979841/"
+    },
+    "42583191": {
+      "pmid": "42583191",
+      "title": "Phase angle identifies a muscle quality phenotype associated with physical performance in U.S. marines.",
+      "journal": "Frontiers in physiology",
+      "year": "2026",
+      "authors": [
+        "Potter Adam W",
+        "Christopoulos Christy L",
+        "Friedl Karl E"
+      ],
+      "doi": "10.3389/fphys.2026.1904857",
+      "pmcid": "PMC13459097",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "comments_corrections": [],
+      "publication_status": "epublish",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42583191/"
+    },
+    "42365570": {
+      "pmid": "42365570",
+      "title": "Co-Creating an Intervention to Prevent Injuries in Police Force Recruits: A Concept Mapping Study of Police Force Recruits, Police Force Staff, Health Professionals, and Research Experts.",
+      "journal": "Sports medicine - open",
+      "year": "2026",
+      "authors": [
+        "Murphy Myles",
+        "Mosler Andrea B",
+        "Allen Garth",
+        "Donaldson Alex",
+        "Ardern Clare L",
+        "Emery Carolyn A",
+        "Hägglund Martin",
+        "Hodgson Jonathan M",
+        "Kemp Joanne L",
+        "Langridge Debra",
+        "McAlinden Tiffany",
+        "Mirco Thomas",
+        "Nimphius Sophia",
+        "Radavelli-Bagatini Simone",
+        "Staley Kiera",
+        "Sutton Vanessa",
+        "Verhagen Evert",
+        "Bruder Andrea M"
+      ],
+      "doi": "10.1186/s40798-026-01042-9",
+      "pmcid": "PMC13310864",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "comments_corrections": [],
+      "publication_status": "epublish",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42365570/"
+    },
+    "42312763": {
+      "pmid": "42312763",
+      "title": "Sex-Specific Cardiovascular Strain During Heat Acclimation in Tactical Athletes.",
+      "journal": "JACC. Advances",
+      "year": "2026",
+      "authors": [
+        "Murphy Caroline E",
+        "Giersch Gabrielle E W",
+        "Charkoudian Nisha"
+      ],
+      "doi": "10.1016/j.jacadv.2026.102785",
+      "pmcid": "PMC13309316",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "comments_corrections": [],
+      "publication_status": "ppublish",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42312763/"
+    },
+    "42093038": {
+      "pmid": "42093038",
+      "title": "The role of tactical police medics in the prehospital environment: results from an interview study.",
+      "journal": "Scandinavian journal of trauma, resuscitation and emergency medicine",
+      "year": "2026",
+      "authors": [
+        "Widman Lova",
+        "Hagiwara Magnus Andersson",
+        "Lindell Felix",
+        "Wildar Claes",
+        "Bäckström Denise"
+      ],
+      "doi": "10.1186/s13049-026-01621-5",
+      "pmcid": "PMC13147615",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "comments_corrections": [],
+      "publication_status": "epublish",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42093038/"
+    },
+    "41998685": {
+      "pmid": "41998685",
+      "title": "Prevalence of musculoskeletal disorders among police officers from an organizational unit of a German federal state police force.",
+      "journal": "Journal of occupational medicine and toxicology (London, England)",
+      "year": "2026",
+      "authors": [
+        "Schlenke Janna",
+        "Nazzal Yunes",
+        "Dogru Faiz",
+        "Holzgreve Fabian",
+        "Golbach Rejane",
+        "Karrasavidis Ioannis",
+        "Brand Ulli",
+        "Wanke Eileen M",
+        "Groneberg David A",
+        "Ohlendorf Daniela"
+      ],
+      "doi": "10.1186/s12995-026-00511-x",
+      "pmcid": "PMC13097821",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "comments_corrections": [],
+      "publication_status": "epublish",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41998685/"
+    },
+    "41424497": {
+      "pmid": "41424497",
+      "title": "Virtual first: implementation of a novel sleep telehealth platform in the United States military.",
+      "journal": "Frontiers in sleep",
+      "year": "2024",
+      "authors": [
+        "Wickwire Emerson M",
+        "Collen Jacob",
+        "Capaldi Vincent F",
+        "Assefa Samson Z",
+        "Jones Rachell",
+        "Williams Scott G",
+        "Thomas Connie L",
+        "Williams Daniel C",
+        "Albrecht Jennifer S"
+      ],
+      "doi": "10.3389/frsle.2024.1304743",
+      "pmcid": "PMC12713946",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "comments_corrections": [],
+      "publication_status": "epublish",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41424497/"
+    },
+    "41306450": {
+      "pmid": "41306450",
+      "title": "Graduation-stage physical fitness as a predictor of operational performance and injury risk among police recruits: a prospective cohort study.",
+      "journal": "BMJ open sport & exercise medicine",
+      "year": "2025",
+      "authors": [
+        "Jia Dongming"
+      ],
+      "doi": "10.1136/bmjsem-2025-002871",
+      "pmcid": "PMC12645639",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "comments_corrections": [],
+      "publication_status": "epublish",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41306450/"
+    },
+    "41136962": {
+      "pmid": "41136962",
+      "title": "Psychological stress and physiological outcomes: investigating the impact of attention biases and emotional regulation in Chinese military service members.",
+      "journal": "BMC public health",
+      "year": "2025",
+      "authors": [
+        "Wang Lian",
+        "Cai Yun",
+        "Zhao Jinghui",
+        "Ma Yan",
+        "Peng Jing",
+        "Gong Hong",
+        "Liu Yaotian",
+        "Chen Rui",
+        "Song Rong",
+        "Luo Yan",
+        "Fan Xiaotang",
+        "Xiao Qingtao"
+      ],
+      "doi": "10.1186/s12889-025-23924-5",
+      "pmcid": "PMC12551312",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "comments_corrections": [],
+      "publication_status": "epublish",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/41136962/"
+    },
+    "39746845": {
+      "pmid": "39746845",
+      "title": "Hazardous alcohol use and cardiometabolic risk among firefighters.",
+      "journal": "Alcohol, clinical & experimental research",
+      "year": "2025",
+      "authors": [
+        "Levitt Danielle E",
+        "Wohlgemuth Kealey J",
+        "Burnham Emilie F",
+        "Conner Michael J",
+        "Collier J Jason",
+        "Mota Jacob A"
+      ],
+      "doi": "10.1111/acer.15517",
+      "pmcid": "PMC11831616",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "comments_corrections": [],
+      "publication_status": "ppublish",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39746845/"
+    },
+    "39434185": {
+      "pmid": "39434185",
+      "title": "Combat readiness, alcohol abuse, and posttraumatic stress disorder among Uganda peoples' defence forces soldiers.",
+      "journal": "BMC psychology",
+      "year": "2024",
+      "authors": [
+        "Baguma Elias A",
+        "Vivalya Bives Mutume Nzanzu",
+        "Ocen Patric O",
+        "Kasujja Rosco"
+      ],
+      "doi": "10.1186/s40359-024-02068-y",
+      "pmcid": "PMC11495013",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "comments_corrections": [],
+      "publication_status": "epublish",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/39434185/"
+    },
+    "37415704": {
+      "pmid": "37415704",
+      "title": "Contributions from incumbent police officer's physical activity and body composition to occupational assessment performance.",
+      "journal": "Frontiers in public health",
+      "year": "2023",
+      "authors": [
+        "Dicks Nathan D",
+        "Shoemaker Marni E",
+        "DeShaw Kathryn J",
+        "Carper Michael J",
+        "Hackney Kyle J",
+        "Barry Allison M"
+      ],
+      "doi": "10.3389/fpubh.2023.1217187",
+      "pmcid": "PMC10321756",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "comments_corrections": [],
+      "publication_status": "epublish",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/37415704/"
+    },
+    "37351259": {
+      "pmid": "37351259",
+      "title": "Body composition changes during 8 weeks of military training are not accurately captured by circumference-based assessments.",
+      "journal": "Frontiers in physiology",
+      "year": "2023",
+      "authors": [
+        "Foulis Stephen A",
+        "Friedl Karl E",
+        "Spiering Barry A",
+        "Walker Leila A",
+        "Guerriere Katelyn I",
+        "Pecorelli Vincent P",
+        "Zeppetelli David J",
+        "Reynoso Marinaliz C",
+        "Taylor Kathryn M",
+        "Hughes Julie M"
+      ],
+      "doi": "10.3389/fphys.2023.1183836",
+      "pmcid": "PMC10282178",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "comments_corrections": [],
+      "publication_status": "epublish",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/37351259/"
+    },
+    "36054639": {
+      "pmid": "36054639",
+      "title": "A pragmatic strength and conditioning intervention for firefighters: Feasibility of the Tactical Athlete Resilience Program (TARP).",
+      "journal": "Health promotion journal of Australia : official journal of Australian Association of Health Promotion Professionals",
+      "year": "2023",
+      "authors": [
+        "Sharp Paul",
+        "Caperchione Cristina M",
+        "Brown Georgia A",
+        "Stadnyk Antony",
+        "Marin Elizabeth",
+        "Hulin Billy",
+        "Wade Jarrod",
+        "Mott Brendan",
+        "Gabriel Mark",
+        "Impellizzeri Franco",
+        "Fullagar Hugh H K"
+      ],
+      "doi": "10.1002/hpja.656",
+      "pmcid": "PMC10091986",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "comments_corrections": [],
+      "publication_status": "ppublish",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/36054639/"
+    },
+    "35813844": {
+      "pmid": "35813844",
+      "title": "Body Composition, Eicosapentaenoic Acid, and Vitamin D are Associated with Army Combat Fitness Test Performance.",
+      "journal": "Journal of the International Society of Sports Nutrition",
+      "year": "2022",
+      "authors": [
+        "Heileson Jeffery L",
+        "McGowen Jared M",
+        "Moris Jose M",
+        "Chapman-Lopez Tomas J",
+        "Torres Ricardo",
+        "Funderburk LesLee K",
+        "Forsse Jeffrey S"
+      ],
+      "doi": "10.1080/15502783.2022.2094717",
+      "pmcid": "PMC9261738",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "comments_corrections": [],
+      "publication_status": "epublish",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/35813844/"
+    },
+    "35165197": {
+      "pmid": "35165197",
+      "title": "Sex, military occupation and rank are associated with risk of anterior cruciate ligament injury in tactical-athletes.",
+      "journal": "BMJ military health",
+      "year": "2023",
+      "authors": [
+        "Aguero Aubrey D",
+        "Irrgang J J",
+        "MacGregor A J",
+        "Rothenberger S D",
+        "Hart J M",
+        "Fraser J J"
+      ],
+      "doi": "10.1136/bmjmilitary-2021-002059",
+      "pmcid": "PMC10715491",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "comments_corrections": [],
+      "publication_status": "epublish",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/35165197/"
+    },
+    "35015894": {
+      "pmid": "35015894",
+      "title": "Influence of Soldiers' Cardiorespiratory Fitness on Physiological Responses and Dropouts During a Loaded Long-distance March.",
+      "journal": "Military medicine",
+      "year": "2023",
+      "authors": [
+        "Oeschger Regina",
+        "Roos Lilian",
+        "Wyss Thomas",
+        "Buller Mark J",
+        "Veenstra Bertil J",
+        "Gilgen-Ammann Rahel"
+      ],
+      "doi": "10.1093/milmed/usab540",
+      "pmcid": "PMC10363014",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "comments_corrections": [],
+      "publication_status": "ppublish",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/35015894/"
+    },
+    "33786041": {
+      "pmid": "33786041",
+      "title": "Effects of foam rolling for delayed onset muscle soreness on loaded military task performance and perceived recovery.",
+      "journal": "Journal of exercise science and fitness",
+      "year": "2021",
+      "authors": [
+        "Scudamore Eric M",
+        "Sayer Brianna L",
+        "Church J Brian",
+        "Bryant Lance G",
+        "Přibyslavská Veronika"
+      ],
+      "doi": "10.1016/j.jesf.2021.02.002",
+      "pmcid": "PMC7970355",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "comments_corrections": [],
+      "publication_status": "ppublish",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/33786041/"
+    },
+    "31049072": {
+      "pmid": "31049072",
+      "title": "Examining a novel firefighter exercise training program on simulated fire ground test performance, cardiorespiratory endurance, and strength: a pilot investigation.",
+      "journal": "Journal of occupational medicine and toxicology (London, England)",
+      "year": "2019",
+      "authors": [
+        "Hollerbach Brittany S",
+        "Jahnke Sara A",
+        "Poston Walker S C",
+        "Harms Craig A",
+        "Heinrich Katie M"
+      ],
+      "doi": "10.1186/s12995-019-0232-2",
+      "pmcid": "PMC6480838",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "comments_corrections": [],
+      "publication_status": "epublish",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/31049072/"
+    },
+    "29621324": {
+      "pmid": "29621324",
+      "title": "Self-reported musculoskeletal complaints and injuries and exposure of physical workload in Swedish soldiers serving in Afghanistan.",
+      "journal": "PloS one",
+      "year": "2018",
+      "authors": [
+        "Halvarsson Alexandra",
+        "Hagman Ingela",
+        "Tegern Matthias",
+        "Broman Lisbet",
+        "Larsson Helena"
+      ],
+      "doi": "10.1371/journal.pone.0195548",
+      "pmcid": "PMC5886608",
+      "publication_types": [
+        "Journal Article"
+      ],
+      "comments_corrections": [],
+      "publication_status": "epublish",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/29621324/"
+    },
+    "27474034": {
+      "pmid": "27474034",
+      "title": "Risk factors for back pain in marines; a prospective cohort study.",
+      "journal": "BMC musculoskeletal disorders",
+      "year": "2016",
+      "authors": [
+        "Monnier Andreas",
+        "Djupsjöbacka Mats",
+        "Larsson Helena",
+        "Norman Kjell",
+        "Äng Björn O"
+      ],
+      "doi": "10.1186/s12891-016-1172-y",
+      "pmcid": "PMC4966738",
+      "publication_types": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ],
+      "comments_corrections": [],
+      "publication_status": "epublish",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/27474034/"
+    },
+    "42165076": {
+      "pmid": "42165076",
+      "title": "Association Between Work Stress and Sleep Disorders in Law Enforcement: A Systematic Review and Meta-Analysis.",
+      "journal": "Nature and science of sleep",
+      "year": "2026",
+      "authors": [
+        "Yang Huaihan",
+        "Tang Shuchen"
+      ],
+      "doi": "10.2147/NSS.S601666",
+      "pmcid": "PMC13185956",
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "comments_corrections": [],
+      "publication_status": "epublish",
+      "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/42165076/"
+    }
+  },
+  "crossref": {
+    "EV-0386": {
+      "ok": true,
+      "doi": "10.1080/15502783.2024.2427751",
+      "title": "Impact of astaxanthin supplementation on markers of cardiometabolic health and tactical performance among firefighters",
+      "publisher": "Informa UK Limited",
+      "type": "journal-article",
+      "relation": {},
+      "update_to": [],
+      "url": "https://doi.org/10.1080/15502783.2024.2427751"
+    },
+    "EV-0076": {
+      "ok": true,
+      "doi": "10.1016/j.jacadv.2026.102785",
+      "title": "Sex-Specific Cardiovascular Strain During Heat Acclimation in Tactical Athletes",
+      "publisher": "Elsevier BV",
+      "type": "journal-article",
+      "relation": {},
+      "update_to": [],
+      "url": "https://doi.org/10.1016/j.jacadv.2026.102785"
+    },
+    "EV-0252": {
+      "ok": true,
+      "doi": "10.1080/15614263.2025.2512806",
+      "title": "Why innovations in policing don’t work or don’t translate: An implementation science survey of US police leaders",
+      "publisher": "Informa UK Limited",
+      "type": "journal-article",
+      "relation": {},
+      "update_to": [],
+      "url": "https://doi.org/10.1080/15614263.2025.2512806"
+    },
+    "EV-1458": {
+      "ok": true,
+      "doi": "10.1186/s40557-017-0169-9",
+      "title": "The impact of body armor on physical performance of law enforcement personnel: a systematic review",
+      "publisher": "Korean Society of Occupational & Environmental Medicine",
+      "type": "journal-article",
+      "relation": {},
+      "update_to": [],
+      "url": "https://doi.org/10.1186/s40557-017-0169-9"
+    },
+    "EV-0667": {
+      "ok": true,
+      "doi": "10.1038/s41598-022-20315-3",
+      "title": "The reliability, validity and usefulness of the 30–15 intermittent fitness test for cardiorespiratory fitness assessment in military personnel",
+      "publisher": "Springer Science and Business Media LLC",
+      "type": "journal-article",
+      "relation": {},
+      "update_to": [],
+      "url": "https://doi.org/10.1038/s41598-022-20315-3"
+    },
+    "EV-0167": {
+      "ok": true,
+      "doi": "10.1007/s11292-025-09711-7",
+      "title": "Does automated feedback impact the acceptability of AI-generated police body worn camera review? An implementation science natural experiment",
+      "publisher": "Springer Science and Business Media LLC",
+      "type": "journal-article",
+      "relation": {
+        "has-version": [
+          {
+            "id-type": "doi",
+            "id": "10.21428/cb6ab371.844981c9",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "update_to": [],
+      "url": "https://doi.org/10.1007/s11292-025-09711-7"
+    },
+    "EV-0068": {
+      "ok": true,
+      "doi": "10.1186/s40798-026-01042-9",
+      "title": "Co-Creating an Intervention to Prevent Injuries in Police Force Recruits: A Concept Mapping Study of Police Force Recruits, Police Force Staff, Health Professionals, and Research Experts",
+      "publisher": "Springer Science and Business Media LLC",
+      "type": "journal-article",
+      "relation": {},
+      "update_to": [],
+      "url": "https://doi.org/10.1186/s40798-026-01042-9"
+    },
+    "EV-0014": {
+      "ok": true,
+      "doi": "10.3389/fphys.2026.1904857",
+      "title": "Phase angle identifies a muscle quality phenotype associated with physical performance in U.S. marines",
+      "publisher": "Frontiers Media SA",
+      "type": "journal-article",
+      "relation": {},
+      "update_to": [],
+      "url": "https://doi.org/10.3389/fphys.2026.1904857"
+    },
+    "EV-0103": {
+      "ok": true,
+      "doi": "10.1186/s13049-026-01621-5",
+      "title": "The role of tactical police medics in the prehospital environment: results from an interview study",
+      "publisher": "Springer Science and Business Media LLC",
+      "type": "journal-article",
+      "relation": {},
+      "update_to": [],
+      "url": "https://doi.org/10.1186/s13049-026-01621-5"
+    },
+    "EV-0115": {
+      "ok": true,
+      "doi": "10.1186/s12995-026-00511-x",
+      "title": "Prevalence of musculoskeletal disorders among police officers from an organizational unit of a German federal state police force",
+      "publisher": "Springer Science and Business Media LLC",
+      "type": "journal-article",
+      "relation": {},
+      "update_to": [],
+      "url": "https://doi.org/10.1186/s12995-026-00511-x"
+    },
+    "EV-0183": {
+      "ok": true,
+      "doi": "10.3389/frsle.2024.1304743",
+      "title": "Virtual first: implementation of a novel sleep telehealth platform in the United States military",
+      "publisher": "Frontiers Media SA",
+      "type": "journal-article",
+      "relation": {},
+      "update_to": [],
+      "url": "https://doi.org/10.3389/frsle.2024.1304743"
+    },
+    "EV-0204": {
+      "ok": true,
+      "doi": "10.1136/bmjsem-2025-002871",
+      "title": "Graduation-stage physical fitness as a predictor of operational performance and injury risk among police recruits: a prospective cohort study",
+      "publisher": "BMJ",
+      "type": "journal-article",
+      "relation": {},
+      "update_to": [],
+      "url": "https://doi.org/10.1136/bmjsem-2025-002871"
+    },
+    "EV-0230": {
+      "ok": true,
+      "doi": "10.1186/s12889-025-23924-5",
+      "title": "Psychological stress and physiological outcomes: investigating the impact of attention biases and emotional regulation in Chinese military service members",
+      "publisher": "Springer Science and Business Media LLC",
+      "type": "journal-article",
+      "relation": {},
+      "update_to": [],
+      "url": "https://doi.org/10.1186/s12889-025-23924-5"
+    },
+    "EV-0373": {
+      "ok": true,
+      "doi": "10.1111/acer.15517",
+      "title": "Hazardous alcohol use and cardiometabolic risk among firefighters",
+      "publisher": "Wiley",
+      "type": "journal-article",
+      "relation": {},
+      "update_to": [],
+      "url": "https://doi.org/10.1111/acer.15517"
+    },
+    "EV-0403": {
+      "ok": true,
+      "doi": "10.1186/s40359-024-02068-y",
+      "title": "Combat readiness, alcohol abuse, and posttraumatic stress disorder among Uganda peoples’ defence forces soldiers",
+      "publisher": "Springer Science and Business Media LLC",
+      "type": "journal-article",
+      "relation": {},
+      "update_to": [],
+      "url": "https://doi.org/10.1186/s40359-024-02068-y"
+    },
+    "EV-0583": {
+      "ok": true,
+      "doi": "10.3389/fpubh.2023.1217187",
+      "title": "Contributions from incumbent police officer’s physical activity and body composition to occupational assessment performance",
+      "publisher": "Frontiers Media SA",
+      "type": "journal-article",
+      "relation": {},
+      "update_to": [],
+      "url": "https://doi.org/10.3389/fpubh.2023.1217187"
+    },
+    "EV-0586": {
+      "ok": true,
+      "doi": "10.3389/fphys.2023.1183836",
+      "title": "Body composition changes during 8 weeks of military training are not accurately captured by circumference-based assessments",
+      "publisher": "Frontiers Media SA",
+      "type": "journal-article",
+      "relation": {},
+      "update_to": [],
+      "url": "https://doi.org/10.3389/fphys.2023.1183836"
+    },
+    "EV-0670": {
+      "ok": true,
+      "doi": "10.1002/hpja.656",
+      "title": "A pragmatic strength and conditioning intervention for firefighters: Feasibility of the Tactical Athlete Resilience Program (TARP)",
+      "publisher": "Wiley",
+      "type": "journal-article",
+      "relation": {},
+      "update_to": [],
+      "url": "https://doi.org/10.1002/hpja.656"
+    },
+    "EV-0682": {
+      "ok": true,
+      "doi": "10.1080/15502783.2022.2094717",
+      "title": "Body Composition, Eicosapentaenoic Acid, and Vitamin D are Associated with Army Combat Fitness Test Performance",
+      "publisher": "Informa UK Limited",
+      "type": "journal-article",
+      "relation": {},
+      "update_to": [],
+      "url": "https://doi.org/10.1080/15502783.2022.2094717"
+    },
+    "EV-0721": {
+      "ok": true,
+      "doi": "10.1136/bmjmilitary-2021-002059",
+      "title": "Sex, military occupation and rank are associated with risk of anterior cruciate ligament injury in tactical-athletes",
+      "publisher": "BMJ",
+      "type": "journal-article",
+      "relation": {
+        "has-preprint": [
+          {
+            "id-type": "doi",
+            "id": "10.1101/2021.09.30.21264383",
+            "asserted-by": "object"
+          }
+        ]
+      },
+      "update_to": [],
+      "url": "https://doi.org/10.1136/bmjmilitary-2021-002059"
+    },
+    "EV-0734": {
+      "ok": true,
+      "doi": "10.1093/milmed/usab540",
+      "title": "Influence of Soldiers’ Cardiorespiratory Fitness on Physiological Responses and Dropouts During a Loaded Long-distance March",
+      "publisher": "Oxford University Press (OUP)",
+      "type": "journal-article",
+      "relation": {},
+      "update_to": [],
+      "url": "https://doi.org/10.1093/milmed/usab540"
+    },
+    "EV-0799": {
+      "ok": true,
+      "doi": "10.1016/j.jesf.2021.02.002",
+      "title": "Effects of foam rolling for delayed onset muscle soreness on loaded military task performance and perceived recovery",
+      "publisher": "Elsevier BV",
+      "type": "journal-article",
+      "relation": {},
+      "update_to": [],
+      "url": "https://doi.org/10.1016/j.jesf.2021.02.002"
+    },
+    "EV-0960": {
+      "ok": true,
+      "doi": "10.1186/s12995-019-0232-2",
+      "title": "Examining a novel firefighter exercise training program on simulated fire ground test performance, cardiorespiratory endurance, and strength: a pilot investigation",
+      "publisher": "Springer Science and Business Media LLC",
+      "type": "journal-article",
+      "relation": {},
+      "update_to": [],
+      "url": "https://doi.org/10.1186/s12995-019-0232-2"
+    },
+    "EV-1026": {
+      "ok": true,
+      "doi": "10.1371/journal.pone.0195548",
+      "title": "Self-reported musculoskeletal complaints and injuries and exposure of physical workload in Swedish soldiers serving in Afghanistan",
+      "publisher": "Public Library of Science (PLoS)",
+      "type": "journal-article",
+      "relation": {},
+      "update_to": [],
+      "url": "https://doi.org/10.1371/journal.pone.0195548"
+    },
+    "EV-1461": {
+      "ok": false,
+      "error": "NO_DOI"
+    },
+    "EV-1128": {
+      "ok": true,
+      "doi": "10.1186/s12891-016-1172-y",
+      "title": "Risk factors for back pain in marines; a prospective cohort study",
+      "publisher": "Springer Science and Business Media LLC",
+      "type": "journal-article",
+      "relation": {},
+      "update_to": [],
+      "url": "https://doi.org/10.1186/s12891-016-1172-y"
+    }
+  },
+  "doi_resolver": {
+    "EV-0386": {
+      "ok": false,
+      "status": "",
+      "final_url": "https://doi.org/10.1080%2F15502783.2024.2427751",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "EV-0252": {
+      "ok": false,
+      "status": "",
+      "final_url": "https://doi.org/10.1080%2F15614263.2025.2512806",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "EV-0014": {
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2026.1904857/full",
+      "error": ""
+    },
+    "EV-0076": {
+      "ok": true,
+      "status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S2772963X26002061",
+      "error": ""
+    },
+    "EV-0667": {
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.nature.com/articles/s41598-022-20315-3?error=cookies_not_supported&code=4da1bd3e-7e90-4d30-acd3-f1d114839803",
+      "error": ""
+    },
+    "EV-0068": {
+      "ok": true,
+      "status": 200,
+      "final_url": "https://link.springer.com/article/10.1186/s40798-026-01042-9?error=cookies_not_supported&code=b2c131f5-3465-489d-b1c6-f6258f033cfb",
+      "error": ""
+    },
+    "EV-0204": {
+      "ok": false,
+      "status": "",
+      "final_url": "https://doi.org/10.1136%2Fbmjsem-2025-002871",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "EV-0167": {
+      "ok": true,
+      "status": 200,
+      "final_url": "https://link.springer.com/article/10.1007/s11292-025-09711-7?error=cookies_not_supported&code=f3d4a28d-a29e-441f-896a-1492c44be1dc",
+      "error": ""
+    },
+    "EV-0115": {
+      "ok": true,
+      "status": 200,
+      "final_url": "https://link.springer.com/article/10.1186/s12995-026-00511-x?error=cookies_not_supported&code=5f654858-ead4-4cfa-9125-7a4995a2e2e1",
+      "error": ""
+    },
+    "EV-0373": {
+      "ok": false,
+      "status": "",
+      "final_url": "https://doi.org/10.1111%2Facer.15517",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "EV-0103": {
+      "ok": true,
+      "status": 200,
+      "final_url": "https://link.springer.com/article/10.1186/s13049-026-01621-5?error=cookies_not_supported&code=69881f70-b5d5-4e52-bc6a-b23b23d0cba3",
+      "error": ""
+    },
+    "EV-0670": {
+      "ok": false,
+      "status": "",
+      "final_url": "https://doi.org/10.1002%2Fhpja.656",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "EV-0583": {
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2023.1217187/full",
+      "error": ""
+    },
+    "EV-0682": {
+      "ok": false,
+      "status": "",
+      "final_url": "https://doi.org/10.1080%2F15502783.2022.2094717",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "EV-0403": {
+      "ok": true,
+      "status": 200,
+      "final_url": "https://link.springer.com/article/10.1186/s40359-024-02068-y?error=cookies_not_supported&code=2282b05e-321b-4e50-8301-590bd3a8abb9",
+      "error": ""
+    },
+    "EV-0734": {
+      "ok": false,
+      "status": "",
+      "final_url": "https://doi.org/10.1093%2Fmilmed%2Fusab540",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "EV-0230": {
+      "ok": true,
+      "status": 200,
+      "final_url": "https://link.springer.com/article/10.1186/s12889-025-23924-5?error=cookies_not_supported&code=f45983a2-9c39-49fd-8cea-541e94d42984",
+      "error": ""
+    },
+    "EV-0799": {
+      "ok": true,
+      "status": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S1728869X21000125",
+      "error": ""
+    },
+    "EV-1461": {
+      "ok": false,
+      "error": "NO_DOI",
+      "status": "",
+      "final_url": ""
+    },
+    "EV-0586": {
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2023.1183836/full",
+      "error": ""
+    },
+    "EV-0721": {
+      "ok": false,
+      "status": "",
+      "final_url": "https://doi.org/10.1136%2Fbmjmilitary-2021-002059",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "EV-1026": {
+      "ok": true,
+      "status": 200,
+      "final_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0195548",
+      "error": ""
+    },
+    "EV-0183": {
+      "ok": true,
+      "status": 200,
+      "final_url": "https://www.frontiersin.org/journals/sleep/articles/10.3389/frsle.2024.1304743/full",
+      "error": ""
+    },
+    "EV-0960": {
+      "ok": true,
+      "status": 200,
+      "final_url": "https://link.springer.com/article/10.1186/s12995-019-0232-2?error=cookies_not_supported&code=3a90e615-fa82-4524-a1a8-a5516aabbdb3",
+      "error": ""
+    },
+    "EV-1128": {
+      "ok": true,
+      "status": 200,
+      "final_url": "https://link.springer.com/article/10.1186/s12891-016-1172-y?error=cookies_not_supported&code=b0ae6a06-79da-4b3f-9249-2f5911d59e7c",
+      "error": ""
+    },
+    "EV-1458": {
+      "ok": true,
+      "status": 200,
+      "final_url": "https://aoemj.org/journal/view.php?doi=10.1186/s40557-017-0169-9",
+      "error": ""
+    }
+  },
+  "pmc_1461": {
+    "ok": true,
+    "status": 200,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13185956/",
+    "title_present": true
+  }
+}

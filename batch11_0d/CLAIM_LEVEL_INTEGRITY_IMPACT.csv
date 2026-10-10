@@ -1,0 +1,13 @@
+Claim_ID,Evidence_ID,Result_ID,Integrity_Claim_Impact,Claim_Ready_Candidate,Claim_Ready,Action
+RC-EXP-INT-AER-01,EV-0667,EV-0667-11A-R01,INTEGRITY_CLEAR_FOR_CLAIM,YES,NO,Eligible for final scientific audit; do not freeze automatically.
+RC-EXP-INT-MSK-01,EV-0068,EV-0068-11A-R01,INTEGRITY_CLEAR_FOR_CLAIM,YES,NO,Eligible for final scientific audit; do not freeze automatically.
+RC-EXP-INT-APH-01,EV-0103,EV-0103-11A-R01,INTEGRITY_CLEAR_FOR_CLAIM,YES,NO,Eligible for final scientific audit; do not freeze automatically.
+RC-EXP-INT-SLEEP-01,EV-0183,EV-0183-11A-R01,INTEGRITY_CLEAR_FOR_CLAIM,YES,NO,Eligible for final scientific audit; do not freeze automatically.
+RC-EXP-INT-MSK-02,EV-0204,EV-0204-11A-R01,INTEGRITY_CLEAR_FOR_CLAIM,YES,NO,Eligible for final scientific audit; do not freeze automatically.
+RC-EXP-INT-BODY-01,EV-0586,EV-0586-11A-R01,INTEGRITY_CLEAR_FOR_CLAIM,YES,NO,Eligible for final scientific audit; do not freeze automatically.
+RC-EXP-INT-PHYS-01,EV-0670,EV-0670-11A-R01,INTEGRITY_CLEAR_FOR_CLAIM,YES,NO,Eligible for final scientific audit; do not freeze automatically.
+RC-EXP-INT-MSK-03,EV-0721,EV-0721-11A-R01,INTEGRITY_CLEAR_FOR_CLAIM,YES,NO,Eligible for final scientific audit; do not freeze automatically.
+RC-EXP-INT-MED-01,EV-0734,EV-0734-11A-R01,INTEGRITY_CLEAR_FOR_CLAIM,YES,NO,Eligible for final scientific audit; do not freeze automatically.
+RC-EXP-INT-PHYS-02,EV-0960,EV-0960-11A-R01,INTEGRITY_CLEAR_FOR_CLAIM,YES,NO,Eligible for final scientific audit; do not freeze automatically.
+RC-EXP-INT-MSK-04,EV-1026,EV-1026-11A-R01,INTEGRITY_CLEAR_FOR_CLAIM,YES,NO,Eligible for final scientific audit; do not freeze automatically.
+RC-EXP-INT-SLEEP-02,EV-1461,EV-1461-11A-R01,INTEGRITY_CLEAR_FOR_CLAIM,YES,NO,Eligible for final scientific audit; do not freeze automatically.
