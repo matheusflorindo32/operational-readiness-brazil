@@ -1,0 +1,12 @@
+Candidate_ID,Journal,APC_Class,APC_Value,APC_Currency,Waiver_Discount,Open_Access_Model,Cost_Fit,Official_URL,Access_Date
+INT-01,Frontiers in Sports and Active Living,APC_REQUIRED,2195,CHF,Institutional partnership and eligible fee support.,Gold OA,1,https://www.frontiersin.org/journals/sports-and-active-living/for-authors/article-types,2026-10-09
+INT-02,Journal of Occupational Health,APC_REQUIRED,DYNAMIC_QUOTE_REQUIRED,USD (official calculator),LMIC waiver/discount and Read-and-Publish routes.,Fully OA,2,https://academic.oup.com/joh/pages/author-guidelines,2026-10-09
+INT-03,Frontiers in Public Health,APC_REQUIRED,2500,CHF,Institutional partnership and eligible fee support.,Gold OA,1,https://www.frontiersin.org/journals/public-health/for-authors/article-types,2026-10-09
+INT-04,Occupational Medicine,APC_OPTIONAL,NOT_STATED,NOT_STATED,NOT_STATED_IN_OFFICIAL_SOURCES_CAPTURED,Hybrid,3,https://academic.oup.com/occmed/pages/Submission_Online,2026-10-09
+INT-05,TSAC Report,APC_UNKNOWN,NOT_STATED_IN_OFFICIAL_SOURCES_CAPTURED,NOT_STATED_IN_OFFICIAL_SOURCES_CAPTURED,NOT_STATED_IN_OFFICIAL_SOURCES_CAPTURED,NOT_STATED_IN_OFFICIAL_SOURCES_CAPTURED,0,https://www.nsca.com/education/articles/tsac-report/,2026-10-09
+BRA-01,Revista Brasileira de Saúde Ocupacional,APC_UNKNOWN,NOT_STATED_IN_OFFICIAL_SOURCES_CAPTURED,NOT_STATED_IN_OFFICIAL_SOURCES_CAPTURED,NOT_STATED_IN_OFFICIAL_SOURCES_CAPTURED,SciELO open access,4,https://scielo.br/journal/rbso/about/?ilang=pt_BR,2026-10-09
+BRA-02,Cadernos de Saúde Pública,NO_APC,0,BRL,Not applicable,Open access,5,https://scielo.br/journal/csp/about/?ilang=pt_BR,2026-10-09
+BRA-03,Revista Brasileira de Medicina do Trabalho,NO_APC,0,BRL,Not applicable,Open access,5,https://new.scielo.br/journal/rbmt/about/?ilang=pt_BR,2026-10-09
+BRA-04,Revista Brasileira de Epidemiologia,NO_APC,0,BRL,NOT_STATED_IN_OFFICIAL_SOURCES_CAPTURED,Continuous open access,5,https://scielo.br/journal/rbepid/about/?ilang=en,2026-10-09
+BRA-05,Revista Brasileira de Segurança Pública,NO_APC,0,BRL,NOT_STATED_IN_OFFICIAL_SOURCES_CAPTURED,Journal website access,5,https://revista.forumseguranca.org.br/rbsp/about/submissions,2026-10-09
+BRA-06,Revista de Saúde Pública,APC_UNKNOWN,NOT_STATED_IN_OFFICIAL_SOURCES_CAPTURED,NOT_STATED_IN_OFFICIAL_SOURCES_CAPTURED,NOT_STATED_IN_OFFICIAL_SOURCES_CAPTURED,NOT_STATED_IN_OFFICIAL_SOURCES_CAPTURED,0,https://www.scielo.br/journal/rsp/about/?ilang=pt_BR,2026-10-09

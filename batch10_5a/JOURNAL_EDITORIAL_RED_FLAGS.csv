@@ -1,0 +1,24 @@
+Candidate_ID,Journal,Red_Flag,Severity,Action_Required,Hard_Exclusion
+INT-01,Frontiers in Sports and Active Living,APC,MEDIUM,CONFIRM_AT_TARGET_FORMATTING,NO
+INT-01,Frontiers in Sports and Active Living,specialty-section confirmation needed.,MEDIUM,CONFIRM_AT_TARGET_FORMATTING,NO
+INT-02,Journal of Occupational Health,Dynamic APC quote and external indexing need confirmation before selection.,MEDIUM,CONFIRM_AT_TARGET_FORMATTING,NO
+INT-03,Frontiers in Public Health,Scope/specialty confirmation,MEDIUM,CONFIRM_AT_TARGET_FORMATTING,NO
+INT-03,Frontiers in Public Health,APC.,MEDIUM,CONFIRM_AT_TARGET_FORMATTING,NO
+INT-04,Occupational Medicine,Potentially confusing article label,MEDIUM,CONFIRM_AT_TARGET_FORMATTING,NO
+INT-04,Occupational Medicine,editor precheck,MEDIUM,CONFIRM_AT_TARGET_FORMATTING,NO
+INT-04,Occupational Medicine,British English/double anonymous.,MEDIUM,CONFIRM_AT_TARGET_FORMATTING,NO
+INT-05,TSAC Report,Current article type and requirements not verified,HIGH,DO_NOT_SELECT,YES
+INT-05,TSAC Report,do not select.,HIGH,DO_NOT_SELECT,YES
+BRA-01,Revista Brasileira de Saúde Ocupacional,Use Essay only,MEDIUM,CONFIRM_AT_TARGET_FORMATTING,NO
+BRA-01,Revista Brasileira de Saúde Ocupacional,APC not explicitly stated on captured page.,MEDIUM,CONFIRM_AT_TARGET_FORMATTING,NO
+BRA-02,Cadernos de Saúde Pública,Public-health framing,MEDIUM,CONFIRM_AT_TARGET_FORMATTING,NO
+BRA-02,Cadernos de Saúde Pública,article is short but no minimum stated.,MEDIUM,CONFIRM_AT_TARGET_FORMATTING,NO
+BRA-03,Revista Brasileira de Medicina do Trabalho,Current granular review/format requirements need reconfirmation,MEDIUM,CONFIRM_AT_TARGET_FORMATTING,NO
+BRA-03,Revista Brasileira de Medicina do Trabalho,review label must not imply systematic review.,MEDIUM,CONFIRM_AT_TARGET_FORMATTING,NO
+BRA-04,Revista Brasileira de Epidemiologia,Secondary scope,MEDIUM,CONFIRM_AT_TARGET_FORMATTING,NO
+BRA-04,Revista Brasileira de Epidemiologia,editor precheck needed.,MEDIUM,CONFIRM_AT_TARGET_FORMATTING,NO
+BRA-05,Revista Brasileira de Segurança Pública,CURRENTLY_NOT_SUBMITTABLE,HIGH,DO_NOT_SELECT,YES
+BRA-05,Revista Brasileira de Segurança Pública,"5,000-word minimum",HIGH,DO_NOT_SELECT,YES
+BRA-05,Revista Brasileira de Segurança Pública,long stated timing.,HIGH,DO_NOT_SELECT,YES
+BRA-06,Revista de Saúde Pública,Current compatible category/limits not verified,HIGH,DO_NOT_SELECT,YES
+BRA-06,Revista de Saúde Pública,do not select.,HIGH,DO_NOT_SELECT,YES

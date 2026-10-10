@@ -1,0 +1,7 @@
+Manuscript,Target_Role,Candidate_ID,Journal,Journal_Submission_Type,Score_50,Status,Human_Selection_Required,Reason
+International,PRIMARY_TARGET_RECOMMENDED,INT-01,Frontiers in Sports and Active Living,Mini Review,46,EDITORIALLY_COMPATIBLE,YES,"Mini Review fits the 1,627-word evidence-boundary International without expansion."
+International,BACKUP_TARGET_1,INT-02,Journal of Occupational Health,Review Article,45,EDITORIALLY_COMPATIBLE,YES,"The review definition accommodates bounded evaluation/commentary; 1,627 words/four refs fit."
+International,BACKUP_TARGET_2,INT-03,Frontiers in Public Health,Mini Review,41,CONDITIONAL_EDITORIAL_COMPATIBILITY,YES,Compatible only with specialty-level confirmation of public-health framing.
+Brazil,PRIMARY_TARGET_RECOMMENDED,BRA-01,Revista Brasileira de Saúde Ocupacional,Ensaio,47,EDITORIALLY_COMPATIBLE,YES,Essay is compatible. Review Article is excluded because it requires systematic/meta/scoping/bibliometric review and prior protocol.
+Brazil,BACKUP_TARGET_1,BRA-02,Cadernos de Saúde Pública,Ensaio,46,EDITORIALLY_COMPATIBLE,YES,"Compatible non-systematic essay, no APC, but broader collective-health audience."
+Brazil,BACKUP_TARGET_2,BRA-03,Revista Brasileira de Medicina do Trabalho,Artigo de Revisão,46,CONDITIONAL_EDITORIAL_COMPATIBILITY,YES,Strong work-medicine scope and non-APC route; granular current template must be reconfirmed only after selection.
