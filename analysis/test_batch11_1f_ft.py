@@ -12,6 +12,10 @@ EXPECTED={
 def read(name):
     with (OUT/name).open(encoding='utf-8-sig',newline='') as f:return list(csv.DictReader(f))
 
+def canonical_sha(path):
+    """Hash text artifacts after normalizing CRLF, as Git does in this repository."""
+    return hashlib.sha256(path.read_bytes().replace(b'\r\n',b'\n')).hexdigest()
+
 class ExternalFullTextTests(unittest.TestCase):
     def test_required_artifacts_and_manifest_hashes(self):
         self.assertEqual({p.name for p in OUT.iterdir() if p.is_file()},EXPECTED)
@@ -22,7 +26,7 @@ class ExternalFullTextTests(unittest.TestCase):
         self.assertEqual(manifest['qa']['claim_ready_promotions'],0)
         self.assertEqual(manifest['qa']['zotero_changes'],0)
         for item in manifest['outputs']:
-            self.assertEqual(hashlib.sha256((OUT/item['file']).read_bytes()).hexdigest(),item['sha256'])
+            self.assertEqual(canonical_sha(OUT/item['file']),item['sha256'])
     def test_identity_and_promotion_guards(self):
         manifest=json.loads((OUT/'BATCH11_1F_FT_MANIFEST.json').read_text(encoding='utf-8'))
         tri=read('EXTERNAL_55_PRIORITY_TRIAGE.csv')
