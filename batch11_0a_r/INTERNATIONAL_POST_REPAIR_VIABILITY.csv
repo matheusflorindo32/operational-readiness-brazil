@@ -1,0 +1,2 @@
+Gate,Expected_Packets,Repaired_Packets,Human_Material,Technically_Resolvable,Claim_Ready,Reason
+INTERNATIONAL_FULL_EXPANSION_READY_FOR_HUMAN_ADJUDICATION,57,57,26,31,0,Deterministic packet chains are repaired; material evidence role and wording still require named human adjudication.

@@ -1,0 +1,58 @@
+Evidence_ID,Result_ID,Materiality,Existing_Provisional_Decision,Reason,Escalate_To_Human
+EV-0386,EV-0386-11A-R01,HUMAN_MATERIAL,PROVISIONAL_REPLACE_CANDIDATE,Existing AI-provisional include/replacement requires a named human decision about role and bounded wording.,YES
+EV-0667,EV-0667-11A-R01,HUMAN_MATERIAL,PROVISIONAL_REPLACE_CANDIDATE,Existing AI-provisional include/replacement requires a named human decision about role and bounded wording.,YES
+EV-1458,EV-1458-11A-R01,HUMAN_MATERIAL,PROVISIONAL_REPLACE_CANDIDATE,Existing AI-provisional include/replacement requires a named human decision about role and bounded wording.,YES
+EV-0167,EV-0167-11A-R01,HUMAN_MATERIAL,PROVISIONAL_INCLUDE,Existing AI-provisional include/replacement requires a named human decision about role and bounded wording.,YES
+EV-0252,EV-0252-11A-R01,HUMAN_MATERIAL,PROVISIONAL_INCLUDE,Existing AI-provisional include/replacement requires a named human decision about role and bounded wording.,YES
+EV-0837,EV-0837-11A-R01,TECHNICALLY_RESOLVABLE,CONTEXT_ONLY,Existing bounded disposition is CONTEXT_ONLY; retain without escalation unless a later scoped manuscript decision requires it.,NO
+EV-1301,EV-1301-11A-R01,TECHNICALLY_RESOLVABLE,DISCUSSION_ONLY,Existing bounded disposition is DISCUSSION_ONLY; retain without escalation unless a later scoped manuscript decision requires it.,NO
+EV-0014,EV-0014-11A-R01,HUMAN_MATERIAL,PROVISIONAL_INCLUDE,Existing AI-provisional include/replacement requires a named human decision about role and bounded wording.,YES
+EV-0068,EV-0068-11A-R01,HUMAN_MATERIAL,PROVISIONAL_INCLUDE,Existing AI-provisional include/replacement requires a named human decision about role and bounded wording.,YES
+EV-0076,EV-0076-11A-R01,HUMAN_MATERIAL,PROVISIONAL_INCLUDE,Existing AI-provisional include/replacement requires a named human decision about role and bounded wording.,YES
+EV-0103,EV-0103-11A-R01,HUMAN_MATERIAL,PROVISIONAL_INCLUDE,Existing AI-provisional include/replacement requires a named human decision about role and bounded wording.,YES
+EV-0114,EV-0114-11A-R01,TECHNICALLY_RESOLVABLE,CONTEXT_ONLY,Existing bounded disposition is CONTEXT_ONLY; retain without escalation unless a later scoped manuscript decision requires it.,NO
+EV-0115,EV-0115-11A-R01,HUMAN_MATERIAL,PROVISIONAL_INCLUDE,Existing AI-provisional include/replacement requires a named human decision about role and bounded wording.,YES
+EV-0146,EV-0146-11A-R01,TECHNICALLY_RESOLVABLE,CONTEXT_ONLY,Existing bounded disposition is CONTEXT_ONLY; retain without escalation unless a later scoped manuscript decision requires it.,NO
+EV-0151,EV-0151-11A-R01,TECHNICALLY_RESOLVABLE,CONTEXT_ONLY,Existing bounded disposition is CONTEXT_ONLY; retain without escalation unless a later scoped manuscript decision requires it.,NO
+EV-0153,EV-0153-11A-R01,TECHNICALLY_RESOLVABLE,MISALIGNED_EXCLUDE,Existing technical disposition is MISALIGNED_EXCLUDE; no human role decision is required in this repair.,NO
+EV-0161,EV-0161-11A-R01,TECHNICALLY_RESOLVABLE,DISCUSSION_ONLY,Confirmed protocol: no outcome claim enters human adjudication.,NO
+EV-0183,EV-0183-11A-R01,HUMAN_MATERIAL,PROVISIONAL_INCLUDE,Existing AI-provisional include/replacement requires a named human decision about role and bounded wording.,YES
+EV-0195,EV-0195-11A-R01,TECHNICALLY_RESOLVABLE,DISCUSSION_ONLY,Confirmed protocol: no outcome claim enters human adjudication.,NO
+EV-0196,EV-0196-11A-R01,TECHNICALLY_RESOLVABLE,CONTEXT_ONLY,Existing bounded disposition is CONTEXT_ONLY; retain without escalation unless a later scoped manuscript decision requires it.,NO
+EV-0198,EV-0198-11A-R01,TECHNICALLY_RESOLVABLE,DISCUSSION_ONLY,Existing bounded disposition is DISCUSSION_ONLY; retain without escalation unless a later scoped manuscript decision requires it.,NO
+EV-0200,EV-0200-11A-R01,TECHNICALLY_RESOLVABLE,CONTEXT_ONLY,Existing bounded disposition is CONTEXT_ONLY; retain without escalation unless a later scoped manuscript decision requires it.,NO
+EV-0204,EV-0204-11A-R01,HUMAN_MATERIAL,PROVISIONAL_INCLUDE,Existing AI-provisional include/replacement requires a named human decision about role and bounded wording.,YES
+EV-0230,EV-0230-11A-R01,HUMAN_MATERIAL,PROVISIONAL_INCLUDE,Existing AI-provisional include/replacement requires a named human decision about role and bounded wording.,YES
+EV-0236,EV-0236-11A-R01,TECHNICALLY_RESOLVABLE,CONTEXT_ONLY,Existing bounded disposition is CONTEXT_ONLY; retain without escalation unless a later scoped manuscript decision requires it.,NO
+EV-0311,EV-0311-11A-R01,TECHNICALLY_RESOLVABLE,DISCUSSION_ONLY,Confirmed protocol: no outcome claim enters human adjudication.,NO
+EV-0322,EV-0322-11A-R01,TECHNICALLY_RESOLVABLE,CONTEXT_ONLY,Existing bounded disposition is CONTEXT_ONLY; retain without escalation unless a later scoped manuscript decision requires it.,NO
+EV-0373,EV-0373-11A-R01,HUMAN_MATERIAL,PROVISIONAL_INCLUDE,Existing AI-provisional include/replacement requires a named human decision about role and bounded wording.,YES
+EV-0377,EV-0377-11A-R01,TECHNICALLY_RESOLVABLE,CONTEXT_ONLY,Existing bounded disposition is CONTEXT_ONLY; retain without escalation unless a later scoped manuscript decision requires it.,NO
+EV-0383,EV-0383-11A-R01,TECHNICALLY_RESOLVABLE,DISCUSSION_ONLY,Existing bounded disposition is DISCUSSION_ONLY; retain without escalation unless a later scoped manuscript decision requires it.,NO
+EV-0388,EV-0388-11A-R01,TECHNICALLY_RESOLVABLE,CONTEXT_ONLY,Existing bounded disposition is CONTEXT_ONLY; retain without escalation unless a later scoped manuscript decision requires it.,NO
+EV-0390,EV-0390-11A-R01,TECHNICALLY_RESOLVABLE,CONTEXT_ONLY,Existing bounded disposition is CONTEXT_ONLY; retain without escalation unless a later scoped manuscript decision requires it.,NO
+EV-0403,EV-0403-11A-R01,HUMAN_MATERIAL,PROVISIONAL_INCLUDE,Existing AI-provisional include/replacement requires a named human decision about role and bounded wording.,YES
+EV-0459,EV-0459-11A-R01,TECHNICALLY_RESOLVABLE,DISCUSSION_ONLY,Existing bounded disposition is DISCUSSION_ONLY; retain without escalation unless a later scoped manuscript decision requires it.,NO
+EV-0503,EV-0503-11A-R01,TECHNICALLY_RESOLVABLE,DISCUSSION_ONLY,Existing bounded disposition is DISCUSSION_ONLY; retain without escalation unless a later scoped manuscript decision requires it.,NO
+EV-0504,EV-0504-11A-R01,TECHNICALLY_RESOLVABLE,DISCUSSION_ONLY,Existing bounded disposition is DISCUSSION_ONLY; retain without escalation unless a later scoped manuscript decision requires it.,NO
+EV-0529,EV-0529-11A-R01,TECHNICALLY_RESOLVABLE,DISCUSSION_ONLY,Confirmed protocol: no outcome claim enters human adjudication.,NO
+EV-0583,EV-0583-11A-R01,HUMAN_MATERIAL,PROVISIONAL_INCLUDE,Existing AI-provisional include/replacement requires a named human decision about role and bounded wording.,YES
+EV-0586,EV-0586-11A-R01,HUMAN_MATERIAL,PROVISIONAL_INCLUDE,Existing AI-provisional include/replacement requires a named human decision about role and bounded wording.,YES
+EV-0641,EV-0641-11A-R01,TECHNICALLY_RESOLVABLE,DISCUSSION_ONLY,Confirmed protocol: no outcome claim enters human adjudication.,NO
+EV-0655,EV-0655-11A-R01,TECHNICALLY_RESOLVABLE,CONTEXT_ONLY,Existing bounded disposition is CONTEXT_ONLY; retain without escalation unless a later scoped manuscript decision requires it.,NO
+EV-0663,EV-0663-11A-R01,TECHNICALLY_RESOLVABLE,DISCUSSION_ONLY,Existing bounded disposition is DISCUSSION_ONLY; retain without escalation unless a later scoped manuscript decision requires it.,NO
+EV-0670,EV-0670-11A-R01,HUMAN_MATERIAL,PROVISIONAL_INCLUDE,Existing AI-provisional include/replacement requires a named human decision about role and bounded wording.,YES
+EV-0681,EV-0681-11A-R01,TECHNICALLY_RESOLVABLE,CONTEXT_ONLY,Existing bounded disposition is CONTEXT_ONLY; retain without escalation unless a later scoped manuscript decision requires it.,NO
+EV-0682,EV-0682-11A-R01,HUMAN_MATERIAL,PROVISIONAL_INCLUDE,Existing AI-provisional include/replacement requires a named human decision about role and bounded wording.,YES
+EV-0705,EV-0705-11A-R01,TECHNICALLY_RESOLVABLE,CONTEXT_ONLY,Existing bounded disposition is CONTEXT_ONLY; retain without escalation unless a later scoped manuscript decision requires it.,NO
+EV-0721,EV-0721-11A-R01,HUMAN_MATERIAL,PROVISIONAL_INCLUDE,Existing AI-provisional include/replacement requires a named human decision about role and bounded wording.,YES
+EV-0734,EV-0734-11A-R01,HUMAN_MATERIAL,PROVISIONAL_INCLUDE,Existing AI-provisional include/replacement requires a named human decision about role and bounded wording.,YES
+EV-0749,EV-0749-11A-R01,TECHNICALLY_RESOLVABLE,MISALIGNED_EXCLUDE,Existing technical disposition is MISALIGNED_EXCLUDE; no human role decision is required in this repair.,NO
+EV-0756,EV-0756-11A-R01,TECHNICALLY_RESOLVABLE,CONTEXT_ONLY,Existing bounded disposition is CONTEXT_ONLY; retain without escalation unless a later scoped manuscript decision requires it.,NO
+EV-0799,EV-0799-11A-R01,HUMAN_MATERIAL,PROVISIONAL_INCLUDE,Existing AI-provisional include/replacement requires a named human decision about role and bounded wording.,YES
+EV-0936,EV-0936-11A-R01,TECHNICALLY_RESOLVABLE,CONTEXT_ONLY,Existing bounded disposition is CONTEXT_ONLY; retain without escalation unless a later scoped manuscript decision requires it.,NO
+EV-0939,EV-0939-11A-R01,TECHNICALLY_RESOLVABLE,DISCUSSION_ONLY,Existing bounded disposition is DISCUSSION_ONLY; retain without escalation unless a later scoped manuscript decision requires it.,NO
+EV-0960,EV-0960-11A-R01,HUMAN_MATERIAL,PROVISIONAL_INCLUDE,Existing AI-provisional include/replacement requires a named human decision about role and bounded wording.,YES
+EV-1026,EV-1026-11A-R01,HUMAN_MATERIAL,PROVISIONAL_INCLUDE,Existing AI-provisional include/replacement requires a named human decision about role and bounded wording.,YES
+EV-1128,EV-1128-11A-R01,HUMAN_MATERIAL,PROVISIONAL_INCLUDE,Existing AI-provisional include/replacement requires a named human decision about role and bounded wording.,YES
+EV-1461,EV-1461-11A-R01,HUMAN_MATERIAL,PROVISIONAL_INCLUDE,Existing AI-provisional include/replacement requires a named human decision about role and bounded wording.,YES
