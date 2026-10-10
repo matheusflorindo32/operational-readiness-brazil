@@ -1,0 +1,24 @@
+{
+  "batch": "BATCH 10.4H-RF",
+  "gate": "V015_B2_PACKAGE_INTEGRITY_PASS",
+  "next_gate": "GO_V015_FINAL_SCIENTIFIC_AUDIT_RETRY",
+  "expected_package_artifacts": 18,
+  "present_package_artifacts": 18,
+  "missing_artifacts": 0,
+  "corrupted_docx": 0,
+  "manifest_hash_mismatches": 0,
+  "international_sha256": "b6d5560315e66fecc93bb67f61f03da207f99cc29a66eb7169155d95ac22a754",
+  "international_ooxml": "VALID_OOXML",
+  "international_zip_integrity": "PASS",
+  "international_text_extraction": "PASS",
+  "brazil_ooxml": "VALID_OOXML",
+  "scientific_content_changes": 0,
+  "Zotero_changes": 0,
+  "CEF_v1_changes": 0,
+  "claims_changed": 0,
+  "references_changed": 0,
+  "artifact_sha256": {
+    "BATCH10_4H_RF_RESTORATION_VALIDATION.csv": "e6e506d9a4fb324e3271e013cbb4239f5f23f225669b8ce1b877f248d6aff9e6",
+    "BATCH10_4H_RF_REPORT.md": "8a1e374aac983c23c1ade95a3c56e1a3d2d31f54ed37588931dbb82220ec39b7"
+  }
+}
