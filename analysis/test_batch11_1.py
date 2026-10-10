@@ -10,7 +10,7 @@ OUT=ROOT/'batch11_1'
 class Batch111Tests(unittest.TestCase):
     def test_manifest_and_required_outputs(self):
         manifest=json.loads((OUT/'BATCH11_1_MANIFEST.json').read_text(encoding='utf-8'))
-        self.assertEqual(manifest['gate'],'FULL_MANUSCRIPT_EVIDENCE_FIRST_RECONSTRUCTION_PASS')
+        self.assertEqual(manifest['gate'],'FULL_MANUSCRIPT_RECONSTRUCTION_PASS')
         self.assertEqual(manifest['counts']['frozen_international_claims'],4)
         self.assertEqual(manifest['counts']['human_approved_expansion_claims'],12)
         self.assertEqual(manifest['controls']['claim_ready_promotions'],0)

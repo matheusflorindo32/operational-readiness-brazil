@@ -1,6 +1,6 @@
 {
   "batch": "BATCH 11.1",
-  "gate": "FULL_MANUSCRIPT_EVIDENCE_FIRST_RECONSTRUCTION_PASS",
+  "gate": "FULL_MANUSCRIPT_RECONSTRUCTION_PASS",
   "base_commit": "de7aaee9582e166ca23f596263a510f37b1b4294",
   "branch": "codex/full-manuscript-expansion",
   "date": "2026-10-10",
@@ -14,6 +14,11 @@
       "file": "FULL_MANUSCRIPT_CLAIM_TO_TEXT_MATRIX.csv",
       "sha256": "fb430af492807f30a75b90c816fc979b60631ca9cc9a61c6c23e379853d61f54",
       "bytes": 7968
+    },
+    {
+      "file": "FULL_MANUSCRIPT_COHORT_AUDIT.csv",
+      "sha256": "ffb387cf6d12e9e2421d23750770bb3a549a97bb1776ad8490f7eb3c5f889a72",
+      "bytes": 262
     },
     {
       "file": "FULL_MANUSCRIPT_COHORT_OVERLAP_AUDIT.csv",
@@ -37,6 +42,11 @@
     },
     {
       "file": "FULL_MANUSCRIPT_LIMITATIONS.csv",
+      "sha256": "8c8ccbb441f7d6eeda99098a967d7d735fda25dc1df06024323d1702cb84b99e",
+      "bytes": 605
+    },
+    {
+      "file": "FULL_MANUSCRIPT_LIMITATIONS_MATRIX.csv",
       "sha256": "8c8ccbb441f7d6eeda99098a967d7d735fda25dc1df06024323d1702cb84b99e",
       "bytes": 605
     },
@@ -72,7 +82,7 @@
     },
     {
       "file": "International_v1.0-FULL-MANUSCRIPT-WORKING.docx",
-      "sha256": "9bbbe744a02876d6de9269b7b1ccea0f2cd7f927af5426db87c25b47c7718145",
+      "sha256": "1dacf0734238a543847e2b01ec06356b74bce0ffa40a5b4fff339d04ea99bb35",
       "bytes": 49416
     },
     {
@@ -81,9 +91,24 @@
       "bytes": 31236
     },
     {
+      "file": "POST_RECONSTRUCTION_EVIDENCE_GAPS.csv",
+      "sha256": "c83463609264c18364bbf37e272f35ded8023dccb4060af8cbf78eb0a9084f60",
+      "bytes": 465
+    },
+    {
+      "file": "PROPOSED_FRAMEWORK_CONTENT_SPEC.md",
+      "sha256": "c923f83f98a3e892563223af34ae2f398f8d1bb206490bf9bce6a1996d8986d3",
+      "bytes": 399
+    },
+    {
       "file": "SENTENCE_LEVEL_PROVENANCE.csv",
       "sha256": "5f9619eb398e2dff3a005ad75afb045ff487f58a700cef4949ca6013f4da9d91",
       "bytes": 43499
+    },
+    {
+      "file": "WORD_COUNT_AND_PAGE_PROJECTION.csv",
+      "sha256": "f25eb5de0401f25c83a543219a9edf0fba3f5613169dfb49ea195e965b28dcee",
+      "bytes": 238
     }
   ],
   "controls": {

@@ -2,7 +2,7 @@
 
 ## Gate
 
-`FULL_MANUSCRIPT_EVIDENCE_FIRST_RECONSTRUCTION_PASS`
+`FULL_MANUSCRIPT_RECONSTRUCTION_PASS`
 
 A journal-agnostic International working manuscript was reconstructed from the frozen International baseline, 12 human-approved bounded expansion claims, and four contextual discussion sources. Brazil was not reconstructed because its evidence-density criterion remains insufficient.
 
@@ -24,4 +24,4 @@ The document is a working evidence-informed integrative synthesis. It is not a s
 
 ## Next gate
 
-`GO_FINAL_SCIENTIFIC_AND_REFERENCE_AUDIT`
+`GO_FULL_MANUSCRIPT_FINAL_SCIENTIFIC_AUDIT`
