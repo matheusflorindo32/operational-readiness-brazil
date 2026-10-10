@@ -33,6 +33,6 @@
 
 ## Controls and limits
 
-No manuscript, claim, Result_ID, reference, Zotero record or CEF-v1 record changed. The human queue has exactly `INT-TARGET` and `BRA-TARGET`, with all human fields blank. Fields not supplied by current official sources are deliberately marked `NOT_STATED_IN_OFFICIAL_SOURCES_CAPTURED`.
+No manuscript, claim, Result_ID, reference, Zotero record or CEF-v1 record changed. The audit includes 7 International and 8 Brazil candidates plus a separate editorial-integrity ledger. The human queue has exactly `INT-TARGET-SELECTION` and `BRA-TARGET-SELECTION`, with all human fields blank. Fields not supplied by current official sources are deliberately marked `NOT_STATED_IN_OFFICIAL_SOURCES_CAPTURED`.
 
 Next exact action: the author chooses one International and one Brazil target in `TARGET_JOURNAL_HUMAN_DECISION_QUEUE.csv`; only then may Batch 10.5B begin.

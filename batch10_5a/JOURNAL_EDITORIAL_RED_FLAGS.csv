@@ -9,6 +9,11 @@ INT-04,Occupational Medicine,editor precheck,MEDIUM,CONFIRM_AT_TARGET_FORMATTING
 INT-04,Occupational Medicine,British English/double anonymous.,MEDIUM,CONFIRM_AT_TARGET_FORMATTING,NO
 INT-05,TSAC Report,Current article type and requirements not verified,HIGH,DO_NOT_SELECT,YES
 INT-05,TSAC Report,do not select.,HIGH,DO_NOT_SELECT,YES
+INT-06,Military Medicine,Military rather than public-safety population,MEDIUM,CONFIRM_AT_TARGET_FORMATTING,NO
+INT-06,Military Medicine,non-member USD 125 submission fee,MEDIUM,CONFIRM_AT_TARGET_FORMATTING,NO
+INT-06,Military Medicine,structured summary required.,MEDIUM,CONFIRM_AT_TARGET_FORMATTING,NO
+INT-07,BMJ Military Health,Invited/systematic review categories do not fit frozen design,HIGH,DO_NOT_SELECT,YES
+INT-07,BMJ Military Health,no verified short-form route.,HIGH,DO_NOT_SELECT,YES
 BRA-01,Revista Brasileira de Saúde Ocupacional,Use Essay only,MEDIUM,CONFIRM_AT_TARGET_FORMATTING,NO
 BRA-01,Revista Brasileira de Saúde Ocupacional,APC not explicitly stated on captured page.,MEDIUM,CONFIRM_AT_TARGET_FORMATTING,NO
 BRA-02,Cadernos de Saúde Pública,Public-health framing,MEDIUM,CONFIRM_AT_TARGET_FORMATTING,NO
@@ -22,3 +27,9 @@ BRA-05,Revista Brasileira de Segurança Pública,"5,000-word minimum",HIGH,DO_NO
 BRA-05,Revista Brasileira de Segurança Pública,long stated timing.,HIGH,DO_NOT_SELECT,YES
 BRA-06,Revista de Saúde Pública,Current compatible category/limits not verified,HIGH,DO_NOT_SELECT,YES
 BRA-06,Revista de Saúde Pública,do not select.,HIGH,DO_NOT_SELECT,YES
+BRA-07,Brazilian Journal of Pain,Narrative reviews not accepted since June 2024,HIGH,DO_NOT_SELECT,YES
+BRA-07,Brazilian Journal of Pain,scope too narrow,HIGH,DO_NOT_SELECT,YES
+BRA-07,Brazilian Journal of Pain,systematic review would distort science.,HIGH,DO_NOT_SELECT,YES
+BRA-08,Revista Brasileira de Atividade Física & Saúde,Scope/evidence-density mismatch,HIGH,DO_NOT_SELECT,YES
+BRA-08,Revista Brasileira de Atividade Física & Saúde,review-method fit not established,HIGH,DO_NOT_SELECT,YES
+BRA-08,Revista Brasileira de Atividade Física & Saúde,do not reshape science.,HIGH,DO_NOT_SELECT,YES
