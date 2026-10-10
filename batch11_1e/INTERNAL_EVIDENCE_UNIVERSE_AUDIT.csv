@@ -1,0 +1,6 @@
+Metric,Observed,Status,Source
+Canonical Evidence_IDs,1484,PASS,MASTER_EVIDENCE_CANONICAL_EV0001_EV1484.csv
+Historical full-text priority queue,285,PASS,FULL_TEXT_SATURATION_MASTER.csv
+Result-located deep packets,57,PASS,RESULT_LOCATED_57_MASTER_REPAIRED.csv
+Current active references,20,PASS,batch11_1 active reference audit
+New literature search,0,PASS,Batch 11.1E scope guard

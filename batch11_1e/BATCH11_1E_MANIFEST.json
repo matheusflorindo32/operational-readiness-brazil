@@ -1,0 +1,132 @@
+{
+  "batch": "BATCH 11.1E",
+  "gate": "DEEP_INTERNAL_EVIDENCE_EXPANSION_PASS",
+  "word_target_gate": "INTERNAL_EVIDENCE_INSUFFICIENT_FOR_6500_WORD_TARGET",
+  "base_commit": "5d5dd6b201bc9366ee5446f48a5250e1bf6e4ce6",
+  "scope": "internal versioned evidence only; no external search; no manuscript rewrite",
+  "outputs": [
+    {
+      "file": "APPRAISAL_EXPANSION.csv",
+      "sha256": "cda98c341c07bf740b2fc1e41ba9a3f19da7fafd49d7125dc4cd0dedb9053be7",
+      "bytes": 3890
+    },
+    {
+      "file": "BATCH11_1E_HUMAN_REVIEW_QUEUE.csv",
+      "sha256": "b0456be6c3b2be6278b91f732a31ff0221c4ec82546064d447d23661bd26d2cb",
+      "bytes": 1439
+    },
+    {
+      "file": "CLAIM_ELIGIBILITY_EXPANSION.csv",
+      "sha256": "a67dc8fd3c35b321625127327cc5d07bbee3af898603ca8a418bcf8debc0e0fe",
+      "bytes": 5691
+    },
+    {
+      "file": "CONTRADICTORY_EVIDENCE_EXPANSION.csv",
+      "sha256": "e2309c5e43f57153daf682efe03c7eb7be4df2b1a75609cacebbd6c3f9f13ae8",
+      "bytes": 391
+    },
+    {
+      "file": "DESIGN_CLASSIFICATION_EXPANSION.csv",
+      "sha256": "05adec3f4e6bd04fea083465ef926331d97741246c10553a7019e8caba07c845",
+      "bytes": 4139
+    },
+    {
+      "file": "DOMAIN_GAP_MAP.csv",
+      "sha256": "dbf6924771de99617e2d7b9a60376fce7ebf0d3e71ed1546b3ddedc9b465831f",
+      "bytes": 1685
+    },
+    {
+      "file": "FULL_TEXT_AVAILABILITY_INTERNAL.csv",
+      "sha256": "e85123c312c29f1366171ceed98bb7ed5ac2f83a74eae106558f93417fdf11ea",
+      "bytes": 10777
+    },
+    {
+      "file": "HUMAN_MATERIALITY_FILTER.csv",
+      "sha256": "4a480fbe3f35af0417e2ab531b10b0226a741b3ab5904af3427bd5caa67f3404",
+      "bytes": 5779
+    },
+    {
+      "file": "INTEGRITY_EXPANSION.csv",
+      "sha256": "cdbc8dca92538e4117fe05519db63714adaab32842f5a7e6a6417f45706fa03f",
+      "bytes": 5797
+    },
+    {
+      "file": "INTERNAL_EVIDENCE_6500_WORD_FEASIBILITY.csv",
+      "sha256": "6ee42b77a1beaa5be8ac2cd853f5300575f7b21a21107aa9f37648f4de1340d8",
+      "bytes": 377
+    },
+    {
+      "file": "INTERNAL_EVIDENCE_UNIVERSE_AUDIT.csv",
+      "sha256": "66b593b83d6920fc78a6d473b636b74ada5f7d7c8d9cc330b0916646f627b739",
+      "bytes": 384
+    },
+    {
+      "file": "INTERNAL_EXPANSION_CANDIDATES.csv",
+      "sha256": "c27a85c0f168b6815ed53b646c801be38a48dba755c4b3b34bf958bdf5fa27b7",
+      "bytes": 19538
+    },
+    {
+      "file": "MANUSCRIPT_CONTRIBUTION_SCORE.csv",
+      "sha256": "76ca27ff2584016a79f1d640d33ded45133cd6b197584c4ab9bb6cf331e05ba3",
+      "bytes": 7084
+    },
+    {
+      "file": "NULL_RESULT_EXPANSION_AUDIT.csv",
+      "sha256": "2879d8d5f55c3eb0b306c1823ed9b6b86b01450ed890bea2b31d7939238da83f",
+      "bytes": 323
+    },
+    {
+      "file": "PRIORITY_QUEUE_RESCREEN.csv",
+      "sha256": "fe0d3cf5d8fe017cdf990d45e04ccfee378a675d4c3f6cb3614cf2018f6d53e7",
+      "bytes": 91118
+    },
+    {
+      "file": "PROVISIONAL_EXPANSION2_CLAIM_LIBRARY.csv",
+      "sha256": "bf8a0020b3b0e6a97b303110b87af337a834464d6aebddf634e45a69220d2bdc",
+      "bytes": 1792
+    },
+    {
+      "file": "REFERENCE_COUNT_PROJECTION.csv",
+      "sha256": "89fb1bcfb2f7d9187f0c77089a48eb7346ebff26e2e2345f94d07fd49b5fbf39",
+      "bytes": 146
+    },
+    {
+      "file": "RESULT_LOCATED_EXPANSION_MASTER.csv",
+      "sha256": "0320ca808533042534e848f0e717e749e02d0d40c038439144898f97e23939c7",
+      "bytes": 21684
+    },
+    {
+      "file": "STUDY_FAMILY_EXPANSION.csv",
+      "sha256": "a892c9558fe4c8852672a963cfd19c08f738c1f2fd10a3e4c0739372640bb879",
+      "bytes": 3666
+    },
+    {
+      "file": "TARGETED_EXTERNAL_SEARCH_JUSTIFICATION.md",
+      "sha256": "bde3e3be8d0c08a09c4399aaab6185015d840e2e79a7dfbd478985854bc23510",
+      "bytes": 682
+    },
+    {
+      "file": "TRANSFERABILITY_EXPANSION.csv",
+      "sha256": "19624c957a065609952e1ae52fa201b2d3524f09e656f8d6070023c5f06959ee",
+      "bytes": 3897
+    },
+    {
+      "file": "WORD_DENSITY_PROJECTION.csv",
+      "sha256": "87b9fe219cc8bd779be204b79cad71afb165d2972456607d595899d5133d58b9",
+      "bytes": 338
+    }
+  ],
+  "qa": {
+    "canonical_universe": 1484,
+    "records_rescreened": 285,
+    "full_text_packets": 57,
+    "new_supporting_admitted": 0,
+    "claim_ready_promotions": 0,
+    "orphan_result_id": 0,
+    "cohort_double_count": 0,
+    "causal_inflation": 0,
+    "cef_mutation": 0,
+    "zotero_mutation": 0,
+    "brazil_direct_inflation": 0
+  }
+}

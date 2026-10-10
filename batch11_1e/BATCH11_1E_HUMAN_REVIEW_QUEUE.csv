@@ -1,0 +1,11 @@
+Evidence_ID,Result_ID,Classification,Requires_Human_Decision,Reason
+EV-0014,EV-0014-11A-R01,HUMAN_MATERIAL_DECISION,YES,Active inclusion/evidence role can be material; technical holds do not enter queue.
+EV-0076,EV-0076-11A-R01,HUMAN_MATERIAL_DECISION,YES,Active inclusion/evidence role can be material; technical holds do not enter queue.
+EV-0115,EV-0115-11A-R01,HUMAN_MATERIAL_DECISION,YES,Active inclusion/evidence role can be material; technical holds do not enter queue.
+EV-0230,EV-0230-11A-R01,HUMAN_MATERIAL_DECISION,YES,Active inclusion/evidence role can be material; technical holds do not enter queue.
+EV-0373,EV-0373-11A-R01,HUMAN_MATERIAL_DECISION,YES,Active inclusion/evidence role can be material; technical holds do not enter queue.
+EV-0403,EV-0403-11A-R01,HUMAN_MATERIAL_DECISION,YES,Active inclusion/evidence role can be material; technical holds do not enter queue.
+EV-0583,EV-0583-11A-R01,HUMAN_MATERIAL_DECISION,YES,Active inclusion/evidence role can be material; technical holds do not enter queue.
+EV-0682,EV-0682-11A-R01,HUMAN_MATERIAL_DECISION,YES,Active inclusion/evidence role can be material; technical holds do not enter queue.
+EV-0799,EV-0799-11A-R01,HUMAN_MATERIAL_DECISION,YES,Active inclusion/evidence role can be material; technical holds do not enter queue.
+EV-1128,EV-1128-11A-R01,HUMAN_MATERIAL_DECISION,YES,Active inclusion/evidence role can be material; technical holds do not enter queue.

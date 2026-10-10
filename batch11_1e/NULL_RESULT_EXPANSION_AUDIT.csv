@@ -1,0 +1,5 @@
+Evidence_ID,Result_ID,Null_Result,Suppression,Use
+EV-0230,EV-0230-11A-R01,YES,NO,Preserve if later human-adjudicated
+EV-0373,EV-0373-11A-R01,YES,NO,Preserve if later human-adjudicated
+EV-0388,EV-0388-11A-R01,YES,NO,Preserve if later human-adjudicated
+EV-0390,EV-0390-11A-R01,YES,NO,Preserve if later human-adjudicated
