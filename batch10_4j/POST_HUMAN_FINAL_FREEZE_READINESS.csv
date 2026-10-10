@@ -1,0 +1,13 @@
+Control,Observed,Status
+Human decisions expected,2,PASS
+Human decisions completed,2/2,PASS
+Simulated human decisions,0,PASS
+Unresolved material human decisions,0,PASS
+Scientific claims changed,0,PASS
+Result IDs changed,0,PASS
+Evidence roles changed,0,PASS
+Null findings changed,0,PASS
+CEF-v1 changed,0,PASS
+Zotero changed,0,PASS
+References frozen,NO,PASS
+Freeze readiness,READY_FOR_FINAL_REFERENCE_FREEZE,PASS

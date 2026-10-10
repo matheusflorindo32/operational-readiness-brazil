@@ -38,11 +38,12 @@ def test_all_empirical_claim_chains_and_reference_sets_reconcile():
         assert row["Audit_Status"] == "PASS"
 
 
-def test_only_material_human_decisions_remain_and_docx_are_valid():
+def test_only_material_human_decisions_are_present_and_docx_are_valid():
     queue = read_csv("FINAL_V015_HUMAN_REVIEW_QUEUE.csv")
     assert len(queue) == 2
     assert {row["Item_Type"] for row in queue} == {"MANUSCRIPT_VIABILITY"}
-    assert all(not row["HUMAN_DECISION"] and not row["HUMAN_REVIEWER"] for row in queue)
+    assert {row["HUMAN_DECISION"] for row in queue} == {"APPROVE_SHORT_FORM"}
+    assert {row["HUMAN_REVIEWER"] for row in queue} == {"Matheus Florindo de Deus"}
     for name in ["International_v0.15-B2-EVIDENCE-FIRST.docx", "Brazil_v0.15-B2-EVIDENCE-FIRST.docx"]:
         with zipfile.ZipFile(PKG / name) as archive:
             assert archive.testzip() is None

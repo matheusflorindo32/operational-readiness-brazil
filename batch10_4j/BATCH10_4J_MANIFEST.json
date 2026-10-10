@@ -1,0 +1,25 @@
+{
+  "batch": "BATCH 10.4J",
+  "base_commit": "25c473377048a7ebb40f3f085715e7f0d8d8cc84",
+  "entry_gate": "V015_FINAL_SCIENTIFIC_AUDIT_PASS",
+  "gate": "FINAL_HUMAN_ADJUDICATION_PASS",
+  "next_gate": "GO_FINAL_REFERENCE_FREEZE",
+  "human_decisions_expected": 2,
+  "human_decisions_completed": 2,
+  "simulated_human_decisions": 0,
+  "unresolved_material_human_decisions": 0,
+  "scientific_claims_changed": 0,
+  "result_ids_changed": 0,
+  "evidence_roles_changed": 0,
+  "null_findings_changed": 0,
+  "CEF_v1_changed": 0,
+  "Zotero_changed": 0,
+  "references_frozen": false,
+  "freeze_readiness": "READY_FOR_FINAL_REFERENCE_FREEZE",
+  "artifact_sha256": {
+    "FINAL_HUMAN_ADJUDICATION_LEDGER.csv": "7a269dfa4b0998d83464fdd78b60320ca70115313c52021bad7284e155fe8c75",
+    "FINAL_HUMAN_DECISION_IMPACT_AUDIT.csv": "cba3990a9b12d1b1ff9ad2a991d75e8ae487c831c510528491ce68ef7ee065b7",
+    "POST_HUMAN_FINAL_FREEZE_READINESS.csv": "bb6dfa412a90a1bb053244bbd90afbfc00fe2adc74c44575241385a02f3e8864",
+    "BATCH10_4J_REPORT.md": "47eacfe884d133baecdc504c4290d45afe21bd2987bf95ad779784b39fd616a8"
+  }
+}
