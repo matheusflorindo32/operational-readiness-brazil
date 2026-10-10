@@ -67,3 +67,6 @@ build/
 .tmp_batch10_4c_source/
 batch10_4c/qa/
 batch10_4c/qa_contact/
+
+# Local document render QA outputs
+batch11_1/_render*/

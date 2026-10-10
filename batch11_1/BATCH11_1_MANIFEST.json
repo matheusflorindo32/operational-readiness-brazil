@@ -1,0 +1,107 @@
+{
+  "batch": "BATCH 11.1",
+  "gate": "FULL_MANUSCRIPT_EVIDENCE_FIRST_RECONSTRUCTION_PASS",
+  "base_commit": "de7aaee9582e166ca23f596263a510f37b1b4294",
+  "branch": "codex/full-manuscript-expansion",
+  "date": "2026-10-10",
+  "outputs": [
+    {
+      "file": "FULL_MANUSCRIPT_ACTIVE_REFERENCES.csv",
+      "sha256": "6671c3faaa3708049fc15f7a2da3bb6fefa2f6acbebd54b75887a691e9ced775",
+      "bytes": 9932
+    },
+    {
+      "file": "FULL_MANUSCRIPT_CLAIM_TO_TEXT_MATRIX.csv",
+      "sha256": "fb430af492807f30a75b90c816fc979b60631ca9cc9a61c6c23e379853d61f54",
+      "bytes": 7968
+    },
+    {
+      "file": "FULL_MANUSCRIPT_COHORT_OVERLAP_AUDIT.csv",
+      "sha256": "ffb387cf6d12e9e2421d23750770bb3a549a97bb1776ad8490f7eb3c5f889a72",
+      "bytes": 262
+    },
+    {
+      "file": "FULL_MANUSCRIPT_DOMAIN_SYNTHESIS.csv",
+      "sha256": "aca64435611d670aa8d1f5614d41f642d84e28f847fd0a912783b7f020565b93",
+      "bytes": 1248
+    },
+    {
+      "file": "FULL_MANUSCRIPT_EVIDENCE_GAPS.csv",
+      "sha256": "c83463609264c18364bbf37e272f35ded8023dccb4060af8cbf78eb0a9084f60",
+      "bytes": 465
+    },
+    {
+      "file": "FULL_MANUSCRIPT_FRAMEWORK_CONTENT_SPEC.md",
+      "sha256": "c923f83f98a3e892563223af34ae2f398f8d1bb206490bf9bce6a1996d8986d3",
+      "bytes": 399
+    },
+    {
+      "file": "FULL_MANUSCRIPT_LIMITATIONS.csv",
+      "sha256": "8c8ccbb441f7d6eeda99098a967d7d735fda25dc1df06024323d1702cb84b99e",
+      "bytes": 605
+    },
+    {
+      "file": "FULL_MANUSCRIPT_NULL_RESULT_AUDIT.csv",
+      "sha256": "beb666c30b18e8ebb955e38705fdfc46349f2f8dcaddf2bdad30d12711e97b88",
+      "bytes": 1038
+    },
+    {
+      "file": "FULL_MANUSCRIPT_ORPHAN_REFERENCE_AUDIT.csv",
+      "sha256": "2e701794952c51a259a991060880205c49e5bc14fb4f2e18041021b2c78bcd11",
+      "bytes": 184
+    },
+    {
+      "file": "FULL_MANUSCRIPT_SCIENTIFIC_DRIFT_AUDIT.csv",
+      "sha256": "f4fe0cce87daf108822efbe090de344809c683740c55120fb0b43e21d2f4cd4e",
+      "bytes": 263
+    },
+    {
+      "file": "FULL_MANUSCRIPT_STUDY_CHARACTERISTICS.csv",
+      "sha256": "49338789a31f3ae375d74eb8719bbf0e4f6fdf9fe0e9d66350c9673ea2a0026a",
+      "bytes": 9925
+    },
+    {
+      "file": "FULL_MANUSCRIPT_TRANSFERABILITY_MATRIX.csv",
+      "sha256": "8bbc29e82e5393763f42e44bfb47802ad9dc3f4e5ab0e33cdc64ec5229b60f74",
+      "bytes": 3299
+    },
+    {
+      "file": "FULL_MANUSCRIPT_WORD_PAGE_PROJECTION.csv",
+      "sha256": "f25eb5de0401f25c83a543219a9edf0fba3f5613169dfb49ea195e965b28dcee",
+      "bytes": 238
+    },
+    {
+      "file": "International_v1.0-FULL-MANUSCRIPT-WORKING.docx",
+      "sha256": "9bbbe744a02876d6de9269b7b1ccea0f2cd7f927af5426db87c25b47c7718145",
+      "bytes": 49416
+    },
+    {
+      "file": "International_v1.0-FULL-MANUSCRIPT-WORKING.md",
+      "sha256": "27d238ab02607a7aed3381874d2eb26cdb15c513bf5e5f6e887c78eb87440980",
+      "bytes": 31236
+    },
+    {
+      "file": "SENTENCE_LEVEL_PROVENANCE.csv",
+      "sha256": "5f9619eb398e2dff3a005ad75afb045ff487f58a700cef4949ca6013f4da9d91",
+      "bytes": 43499
+    }
+  ],
+  "controls": {
+    "cef_v1_changed": false,
+    "zotero_changed": false,
+    "prior_manuscripts_changed": false,
+    "new_literature_search": false,
+    "claim_ready_promotions": 0,
+    "ev1379_used": false,
+    "contradictory_support_use": 0,
+    "excluded_evidence_use": 0
+  },
+  "counts": {
+    "frozen_international_claims": 4,
+    "human_approved_expansion_claims": 12,
+    "contextual_sources_used": 4,
+    "active_references": 20,
+    "sentence_provenance_rows": 178,
+    "orphan_references": 0
+  }
+}

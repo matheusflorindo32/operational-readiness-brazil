@@ -1,0 +1,4 @@
+Gap_ID,Domain,Status,Reason,Action
+GAP-01,Brazil full-manuscript expansion,INSUFFICIENT,Batch 11.0 subset does not add sufficient Brazilian direct result-located evidence.,Do not reconstruct Brazil in Batch 11.1.
+GAP-02,Contradictory evidence,UNADJUDICATED,EV-0052; EV-0140; EV-1066 lack completed adjudication.,No support use; retain limitation.
+GAP-03,Framework validation,NOT_VALIDATED,No prospective validation study.,No model/protocol validation language.

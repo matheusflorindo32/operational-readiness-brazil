@@ -1,0 +1,6 @@
+Domain,Active_Evidence_IDs,Core_Claim_Count,Contextual_Count,Synthesis,Certainty_Ceiling,Status
+Sleep and recovery,EV-1462;EV-0183;EV-1461,3,0,Bounded and design-specific; no universal threshold or causal program conclusion.,SOME_CONCERNS / design-specific,WORKING_SYNTHESIS_PENDING_FINAL_SCIENTIFIC_AUDIT
+Medical and cardiometabolic,EV-1463;EV-0734;EV-0386,2,1,Bounded and design-specific; no universal threshold or causal program conclusion.,SOME_CONCERNS / design-specific,WORKING_SYNTHESIS_PENDING_FINAL_SCIENTIFIC_AUDIT
+Measurement physical and musculoskeletal,EV-0667;EV-0204;EV-0586;EV-0670;EV-0960;EV-0721;EV-1026,7,0,Bounded and design-specific; no universal threshold or causal program conclusion.,SOME_CONCERNS / design-specific,WORKING_SYNTHESIS_PENDING_FINAL_SCIENTIFIC_AUDIT
+Task specific firearm performance,EV-1473;EV-1474,2,0,Bounded and design-specific; no universal threshold or causal program conclusion.,SOME_CONCERNS / design-specific,WORKING_SYNTHESIS_PENDING_FINAL_SCIENTIFIC_AUDIT
+Tactical medicine and implementation,EV-0103;EV-0068;EV-0167;EV-0252,2,2,Bounded and design-specific; no universal threshold or causal program conclusion.,SOME_CONCERNS / design-specific,WORKING_SYNTHESIS_PENDING_FINAL_SCIENTIFIC_AUDIT

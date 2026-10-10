@@ -1,0 +1,17 @@
+Claim_ID,Evidence_ID,International_Use,Brazil_Use,Prohibited_Inference,Status
+RC-INT-SLEEP-01,EV-1462,Population-and-setting-bound,Not inferred from this international working manuscript,Exact prior boundary preserved.,EXPLICIT_LIMIT_PRESERVED
+RC-BRA-CVD-01,EV-1463,Population-and-setting-bound,Not inferred from this international working manuscript,Exact prior boundary preserved.,EXPLICIT_LIMIT_PRESERVED
+RC-BRA-SHOOT-01,EV-1473,Population-and-setting-bound,Not inferred from this international working manuscript,Exact prior boundary preserved.,EXPLICIT_LIMIT_PRESERVED
+RC-BRA-SHOOT-02,EV-1474,Population-and-setting-bound,Not inferred from this international working manuscript,Exact prior boundary preserved.,EXPLICIT_LIMIT_PRESERVED
+RC-EXP-INT-AER-01,EV-0667,Population-and-setting-bound,Not inferred from this international working manuscript,"Does not validate the test for Brazilian policing, establish combat readiness, or prove outcome prediction beyond this small infantry cohort.",EXPLICIT_LIMIT_PRESERVED
+RC-EXP-INT-MSK-01,EV-0068,Population-and-setting-bound,Not inferred from this international working manuscript,Does not show that any mapped strategy prevents injury or transfers unchanged to Brazilian academies.,EXPLICIT_LIMIT_PRESERVED
+RC-EXP-INT-APH-01,EV-0103,Population-and-setting-bound,Not inferred from this international working manuscript,"Does not measure patient outcomes, validate training duration or justify a Brazilian scope-of-practice policy.",EXPLICIT_LIMIT_PRESERVED
+RC-EXP-INT-SLEEP-01,EV-0183,Population-and-setting-bound,Not inferred from this international working manuscript,"Does not establish operational readiness, comparative clinical effectiveness or Brazilian system feasibility.",EXPLICIT_LIMIT_PRESERVED
+RC-EXP-INT-MSK-02,EV-0204,Population-and-setting-bound,Not inferred from this international working manuscript,"Does not prove that fitness testing, assignment, or conditioning causes lower injury or better performance.",EXPLICIT_LIMIT_PRESERVED
+RC-EXP-INT-BODY-01,EV-0586,Population-and-setting-bound,Not inferred from this international working manuscript,Does not establish that DXA-based monitoring improves readiness or applies to non-US settings.,EXPLICIT_LIMIT_PRESERVED
+RC-EXP-INT-PHYS-01,EV-0670,Population-and-setting-bound,Not inferred from this international working manuscript,No definitive operational-performance claim.,EXPLICIT_LIMIT_PRESERVED
+RC-EXP-INT-MSK-03,EV-0721,Population-and-setting-bound,Not inferred from this international working manuscript,No causal or prevention-effect claim.,EXPLICIT_LIMIT_PRESERVED
+RC-EXP-INT-MED-01,EV-0734,Population-and-setting-bound,Not inferred from this international working manuscript,No universal fitness threshold.,EXPLICIT_LIMIT_PRESERVED
+RC-EXP-INT-PHYS-02,EV-0960,Population-and-setting-bound,Not inferred from this international working manuscript,No definitive program-effect claim.,EXPLICIT_LIMIT_PRESERVED
+RC-EXP-INT-MSK-04,EV-1026,Population-and-setting-bound,Not inferred from this international working manuscript,No causal workload or prevention claim.,EXPLICIT_LIMIT_PRESERVED
+RC-EXP-INT-SLEEP-02,EV-1461,Population-and-setting-bound,Not inferred from this international working manuscript,No causal or Brazil-specific claim.,EXPLICIT_LIMIT_PRESERVED
