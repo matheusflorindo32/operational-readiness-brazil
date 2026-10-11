@@ -1,0 +1,7 @@
+Audit,Count,Status
+Citations parsed from manuscript,28,PASS
+Active references listed,28,PASS
+Cited but missing from active list,0,PASS
+Listed but uncited,0,PASS
+Blocked or contradictory evidence used as support,0,PASS
+Duplicate DOI among active references,0,PASS

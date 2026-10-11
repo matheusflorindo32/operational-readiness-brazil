@@ -1,0 +1,88 @@
+{
+  "batch": "BATCH 11.1G",
+  "base_commit": "9cc3dcfc5196472ee60d4fe915c82ea68296c39a",
+  "gate": "FULL_MANUSCRIPT_EXPANSION_RECONSTRUCTION_PASS",
+  "next_gate": "GO_FULL_MANUSCRIPT_FINAL_SCIENTIFIC_AUDIT",
+  "outputs": [
+    {
+      "file": "FULL_MANUSCRIPT_V1_1_ACTIVE_REFERENCES.csv",
+      "sha256": "561393ff73a239e5bc65a67bfcbed2f2b2282d9e1731fd75515cc787dc5d4aab"
+    },
+    {
+      "file": "FULL_MANUSCRIPT_V1_1_CLAIM_TO_TEXT_MATRIX.csv",
+      "sha256": "437bb810af52a537621e062538163e9730fc67d5a7ffcecdc4eb5a607bd92287"
+    },
+    {
+      "file": "FULL_MANUSCRIPT_V1_1_COHORT_AUDIT.csv",
+      "sha256": "8e2786b757302e69fafcfbeb06ca5605183f49af41b308880ec821f1dba6be23"
+    },
+    {
+      "file": "FULL_MANUSCRIPT_V1_1_DOMAIN_SYNTHESIS.csv",
+      "sha256": "40e2ccdb0e82235933810f0ec1da44e1fc03cb88e2a958f846e8af7444e3cd91"
+    },
+    {
+      "file": "FULL_MANUSCRIPT_V1_1_LIMITATIONS_MATRIX.csv",
+      "sha256": "02cc71f2d1a4e444f75279de31c1a990ba31c76adcd0c5a8d8bc3f2fbe08e60a"
+    },
+    {
+      "file": "FULL_MANUSCRIPT_V1_1_NULL_RESULT_AUDIT.csv",
+      "sha256": "05f0694fc58e64ea74ab911bea870eb95a96c56565e969033a54ce6b5fa4dcc1"
+    },
+    {
+      "file": "FULL_MANUSCRIPT_V1_1_ORPHAN_REFERENCE_AUDIT.csv",
+      "sha256": "09faedd559ac847ae527778f6d8dd8d19388538965f5d0ac5ce782a17a586dbb"
+    },
+    {
+      "file": "FULL_MANUSCRIPT_V1_1_SCIENTIFIC_DRIFT_AUDIT.csv",
+      "sha256": "45cc6d75c036bcfb22d82c5ec2fc596904a0d9834503d049edd6972f01d1281d"
+    },
+    {
+      "file": "FULL_MANUSCRIPT_V1_1_SENTENCE_LEVEL_PROVENANCE.csv",
+      "sha256": "42e0c45d980b67f608433c74b766ce11c841e17a4a5cf1ff2b68c9188d169ff1"
+    },
+    {
+      "file": "FULL_MANUSCRIPT_V1_1_STUDY_CHARACTERISTICS.csv",
+      "sha256": "f3e6ad79fa32839fa41601e65685e10aeb5158f6c1972f43b0e45ef09f7a7545"
+    },
+    {
+      "file": "FULL_MANUSCRIPT_V1_1_TRANSFERABILITY_MATRIX.csv",
+      "sha256": "52ffe4a77f7175dfe9b29451a9ab2ba04461ed098714bd5f8cacc3435a5fd7c0"
+    },
+    {
+      "file": "International_v1.1-FULL-MANUSCRIPT-EXPANDED.docx",
+      "sha256": "6c537f60718d470da6bf60779ca8c3080fcebb886258756e37e6463fa728f303"
+    },
+    {
+      "file": "International_v1.1-FULL-MANUSCRIPT-EXPANDED.md",
+      "sha256": "864fcbbc372d7d2b6f1957f659b9bccc298a0a7e0c9ad403906e26ddf3c39b8a"
+    },
+    {
+      "file": "V1_0_TO_V1_1_CHANGELOG.md",
+      "sha256": "27c086c6541192359d885012c0b49b956d87a6c9fff13097a3b32b81a7906030"
+    },
+    {
+      "file": "WORD_COUNT_AND_PAGE_PROJECTION_V1_1.csv",
+      "sha256": "042bafad1244b5479307c3abb9127b06baeecdab89a3831801bf4cf627440094"
+    }
+  ],
+  "qa": {
+    "supporting_expected": 4,
+    "supporting_represented": 4,
+    "contextual_expected": 4,
+    "contextual_represented": 4,
+    "orphan_references": 0,
+    "unsupported_central_sentences": 0,
+    "result_id_mismatch": 0,
+    "locator_mismatch": 0,
+    "null_suppression": 0,
+    "cohort_double_counting": 0,
+    "scientific_drift": 0,
+    "automatic_claim_ready": 0,
+    "cef_changes": 0,
+    "zotero_changes": 0,
+    "brazil_inflation": 0,
+    "new_search": 0,
+    "body_words": 4012,
+    "active_references": 28
+  }
+}
