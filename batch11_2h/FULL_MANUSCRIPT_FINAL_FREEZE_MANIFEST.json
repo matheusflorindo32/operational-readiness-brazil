@@ -1,0 +1,79 @@
+{
+  "batch": "BATCH 11.2H",
+  "base_commit": "ddcbf36eedbdcfb0061b8d9d032f67e1fe82bbcd",
+  "gate": "FULL_MANUSCRIPT_FINAL_SCIENTIFIC_AUDIT_PASS",
+  "freeze": "FULL_MANUSCRIPT_SCIENTIFIC_FREEZE_COMPLETE",
+  "next_gate": "GO_FULL_LENGTH_TARGET_JOURNAL_SELECTION",
+  "qa": {
+    "human_holds_expected": 2,
+    "human_holds_resolved": "2/2",
+    "ev1486_exact_result_verified": "YES",
+    "ev1492_participant_flow_verified": "YES",
+    "ev1492_result_boundaries_verified": "YES",
+    "ev1492_overlap_unresolved": 0,
+    "central_claims_audited": "20/20",
+    "unresolved_central_claims": 0,
+    "unsupported_central_claims": 0,
+    "statistic_mismatch_material": 0,
+    "contextual_role_violations": 0,
+    "orphan_references": 0,
+    "duplicate_doi": 0,
+    "cohort_double_counting": 0,
+    "ev1379_support_use": 0,
+    "contradictory_support_use": 0,
+    "brazil_direct_inflation": 0,
+    "material_scientific_drift": 0,
+    "unauthorized_cef_mutation": 0,
+    "unauthorized_zotero_mutation": 0
+  },
+  "outputs": [
+    {
+      "file": "EV1486_FINAL_RESULT_AUDIT.csv",
+      "sha256": "3c91ac026c458734e6606d65b0676e17ef6bfdf4e89b72eb83d86d645a955284"
+    },
+    {
+      "file": "EV1492_FINAL_RESULT_AUDIT.csv",
+      "sha256": "ec5e58b158cf5b54d0536bfd3bc9cb2107e672749fc8f155ad3ea1226a0b7386"
+    },
+    {
+      "file": "EV1492_INTERNAL_SOURCE_CONSISTENCY_AUDIT.csv",
+      "sha256": "7b9a9e1d033d1a61fc88654aa38e853c3af5be9c8252bb3d358af045815706ad"
+    },
+    {
+      "file": "FINAL_CLAIM_READY_LEDGER_POST_HUMAN.csv",
+      "sha256": "44c5358947614a7449501d911a47a1fdfcc049689d2e41c5ae0687d36c5eff38"
+    },
+    {
+      "file": "FINAL_COHORT_AUDIT_POST_HUMAN.csv",
+      "sha256": "ff6c449790a73cf654aba6510a823e89aff920436d5206ec9069ab3fe4f6482b"
+    },
+    {
+      "file": "FINAL_HOLD_RESOLUTION.csv",
+      "sha256": "761c7b030bfd0ecce72eccc626f9568ebffbf02d116cc265370fd8de8ec9e0a3"
+    },
+    {
+      "file": "FINAL_HUMAN_DECISIONS_11_2.csv",
+      "sha256": "ffdcfb651c3ac3e6ace06cfba0c9da4d058dfc91b3117145ae22d72fd09d8848"
+    },
+    {
+      "file": "FINAL_RED_TEAM_POST_HUMAN.md",
+      "sha256": "69ea26746e68619c61cc32d2c0f58982e846f6dfcd1b0b0371e8cbe180a25c92"
+    },
+    {
+      "file": "FINAL_SENTENCE_PROVENANCE_POST_HUMAN.csv",
+      "sha256": "405ec27df55aa7383c606cc52bd1752bdf99f793e6dca380e610a2f9f2911ff2"
+    },
+    {
+      "file": "FINAL_STATISTICAL_AUDIT_POST_HUMAN.csv",
+      "sha256": "73ecc26db34b92f116aeafbfc0aa42d580e5cffde17bca8dcefb9a3573d6f6bd"
+    },
+    {
+      "file": "International_v1.3-FINAL-SCIENTIFIC-FREEZE.docx",
+      "sha256": "f5886dd8e715ee5d4666213b5b59027e382185a3ae19ce7959417ce6fe672030"
+    },
+    {
+      "file": "International_v1.3-FINAL-SCIENTIFIC-FREEZE.md",
+      "sha256": "e94de20c2e0882f8bd023ac701d81fd8672bc07ada0b97cda0b6f11cbbbd688b"
+    }
+  ]
+}

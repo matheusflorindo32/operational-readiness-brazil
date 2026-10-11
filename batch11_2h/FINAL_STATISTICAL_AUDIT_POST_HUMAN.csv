@@ -1,0 +1,7 @@
+Sentence_Anchor,Evidence_ID,Result_ID,Statistic,Source_Locator,Audit
+30-15 intermittent fitness test,EV-0667,EV-0667-11A-R01,"ICC .971, .960, .975",Result packet EV-0667-11A-R01,STATISTIC_MATCH
+police-recruit cohort,EV-0204,EV-0204-11A-R01,HR 0.89 (95% CI 0.83-0.95); beta 0.21 (95% CI 0.12-0.30); n=216,Result packet EV-0204-11A-R01,STATISTIC_MATCH
+military training cohort,EV-0586,EV-0586-11A-R01,"n=1,407; eight weeks",Result packet EV-0586-11A-R01,STATISTIC_MATCH
+sleep telehealth platform,EV-0183,EV-0183-11A-R01,270 participants,Result packet EV-0183-11A-R01,STATISTIC_MATCH
+EV-1486 academy cohort,EV-1486,EV-1486-11F-FT-R01,"n=724; 661 graduates; 63 not graduated; OR 9.6 (3.5–26.3), 6.7 (2.5–17.5), 18.4 (6.8–50.2)",PMC7781240 | BioC passage 26 | RESULTS paragraph,STATISTIC_MATCH
+EV-1492 selection course,EV-1492,EV-1492-11F-FT2-R01,18 started; 11 completed; 2 self-withdrew; 5 medically withdrawn; body mass −2.05 kg p=0.006; grip/flexibility p<0.001; jump outcomes non-significant,PMC7559033 | BioC passage 29 | RESULTS paragraph,STATISTIC_MATCH

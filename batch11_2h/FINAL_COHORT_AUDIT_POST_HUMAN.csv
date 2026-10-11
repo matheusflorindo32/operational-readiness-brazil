@@ -1,0 +1,3 @@
+Study_Family_ID,Evidence_IDs,Finding,Counting_Treatment,Double_Counting,Audit
+CF-BR-PMES-CFO-2023-01,EV-1473;EV-1474,Overlapping police-cadet cohort,One cohort family; not independent replications,NO,PASS
+SF-EV-1492,EV-1492,No shared dataset identified with other active sources from metadata and available controls,Single source; no independent replication claim,NO,PASS
