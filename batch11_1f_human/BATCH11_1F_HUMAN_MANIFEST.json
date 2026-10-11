@@ -1,0 +1,58 @@
+{
+  "batch": "BATCH 11.1F-HUMAN",
+  "base_commit": "b41b1a971767f33c57c1a768ebdf07e7423d1914",
+  "gate": "EXTERNAL_EXPANSION_HUMAN_ADJUDICATION_PASS",
+  "next_gate": "GO_FULL_MANUSCRIPT_EXPANSION_RECONSTRUCTION",
+  "date": "2026-10-10",
+  "qa": {
+    "human_decisions_expected": 8,
+    "human_decisions_completed": 8,
+    "admit_narrowly": 4,
+    "retain_contextual": 4,
+    "excluded": 0,
+    "reviewer_populated": 8,
+    "date_populated": 8,
+    "automatic_claim_ready": 0,
+    "result_id_mismatch": 0,
+    "locator_mismatch": 0,
+    "cohort_double_counting": 0,
+    "cef_changes": 0,
+    "zotero_changes": 0,
+    "manuscript_changes": 0,
+    "brazil_inflation": 0
+  },
+  "outputs": [
+    {
+      "file": "EXTERNAL_HUMAN_DECISIONS_FINAL.csv",
+      "sha256": "c6e89ef1a4bc64902063b7596c2d710dbb35e358d8758513e84b152646142289"
+    },
+    {
+      "file": "HUMAN_APPROVED_EXTERNAL_CONTEXTUAL_EVIDENCE.csv",
+      "sha256": "d56a25b07b87f91ddbf03e11909921ace0364fb9d627f68bb06aafbee0e3cb50"
+    },
+    {
+      "file": "HUMAN_APPROVED_EXTERNAL_EXPANSION_CLAIMS.csv",
+      "sha256": "d5fdf925fca09e0d015e43ef69f1ff287a47fc20c62ac80ebc14d2d301854c54"
+    },
+    {
+      "file": "POST_HUMAN_CLAIM_MAP.csv",
+      "sha256": "978440b521e13829bc138795f042a1b4093677d03366e87e2bd1dbccfa8f9df2"
+    },
+    {
+      "file": "POST_HUMAN_DOMAIN_DENSITY.csv",
+      "sha256": "accad6fc41507570fd19292c3e6bbf60268e2a35ac90143d201ecb592c2521f5"
+    },
+    {
+      "file": "POST_HUMAN_REFERENCE_PROJECTION.csv",
+      "sha256": "f9750fd04484da585ee242234128807d9ea7a21791ff056b1650818e23b83273"
+    },
+    {
+      "file": "POST_HUMAN_SUFFICIENCY_DIAGNOSIS.csv",
+      "sha256": "7889c329e5ec1ffa744861d5f72592c91e58e7e60876f6622dbe2904070f8f43"
+    },
+    {
+      "file": "POST_HUMAN_WORD_DENSITY_PROJECTION.csv",
+      "sha256": "b26d83b7532fde9c2076e509836e015069632acfb54731e5d6862b4d474cfbdc"
+    }
+  ]
+}
