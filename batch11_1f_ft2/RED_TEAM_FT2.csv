@@ -1,0 +1,16 @@
+Evidence_ID,PMID,Question,Status,Finding
+EV-1485,34375489,All ten red-team questions,PASS_WITH_HUMAN_REVIEW_REQUIRED,No automatic active-reference or Claim-Ready action; causal and transferability limits retained.
+,24115029,All ten red-team questions,NOT_ADMITTED,No automatic active-reference or Claim-Ready action; causal and transferability limits retained.
+,34116367,All ten red-team questions,NOT_ADMITTED,No automatic active-reference or Claim-Ready action; causal and transferability limits retained.
+,21386691,All ten red-team questions,NOT_ADMITTED,No automatic active-reference or Claim-Ready action; causal and transferability limits retained.
+EV-1491,30566536,All ten red-team questions,PASS_WITH_HUMAN_REVIEW_REQUIRED,No automatic active-reference or Claim-Ready action; causal and transferability limits retained.
+EV-1489,32605225,All ten red-team questions,PASS_WITH_HUMAN_REVIEW_REQUIRED,No automatic active-reference or Claim-Ready action; causal and transferability limits retained.
+,36011697,All ten red-team questions,NOT_ADMITTED,No automatic active-reference or Claim-Ready action; causal and transferability limits retained.
+,30768197,All ten red-team questions,NOT_ADMITTED,No automatic active-reference or Claim-Ready action; causal and transferability limits retained.
+EV-1486,31424077,All ten red-team questions,PASS_WITH_HUMAN_REVIEW_REQUIRED,No automatic active-reference or Claim-Ready action; causal and transferability limits retained.
+,40048004,All ten red-team questions,NOT_ADMITTED,No automatic active-reference or Claim-Ready action; causal and transferability limits retained.
+EV-1490,29016876,All ten red-team questions,PASS_WITH_HUMAN_REVIEW_REQUIRED,No automatic active-reference or Claim-Ready action; causal and transferability limits retained.
+EV-1487,40693646,All ten red-team questions,PASS_WITH_HUMAN_REVIEW_REQUIRED,No automatic active-reference or Claim-Ready action; causal and transferability limits retained.
+EV-1492,32957661,All ten red-team questions,PASS_WITH_HUMAN_REVIEW_REQUIRED,No automatic active-reference or Claim-Ready action; causal and transferability limits retained.
+EV-1488,32886396,All ten red-team questions,PASS_WITH_HUMAN_REVIEW_REQUIRED,No automatic active-reference or Claim-Ready action; causal and transferability limits retained.
+,34770556,All ten red-team questions,NOT_ADMITTED,No automatic active-reference or Claim-Ready action; causal and transferability limits retained.

@@ -1,0 +1,46 @@
+PMID,Source,Route,Outcome,Lawful,Identity_Accepted
+34375489,PMC BioC official OA endpoint,https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC8354579/unicode,FULL_BODY_ACCEPTED,YES,YES
+34375489,Publisher DOI landing,https://doi.org/10.1002/1348-9585.12263,NOT_NEEDED_AFTER_OFFICIAL_PMC_ACCEPTANCE,YES,NO
+34375489,Europe PMC,https://europepmc.org/article/MED/34375489,NOT_NEEDED_AFTER_OFFICIAL_PMC_ACCEPTANCE,YES,NO
+24115029,PMC BioC official OA endpoint,https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC7786395/unicode,FULL_BODY_ACCEPTED,YES,YES
+24115029,Publisher DOI landing,https://doi.org/10.1002/ajim.22260,NOT_NEEDED_AFTER_OFFICIAL_PMC_ACCEPTANCE,YES,NO
+24115029,Europe PMC,https://europepmc.org/article/MED/24115029,NOT_NEEDED_AFTER_OFFICIAL_PMC_ACCEPTANCE,YES,NO
+34116367,PMC BioC official OA endpoint,,NO_PMC_ROUTE,NOT_AVAILABLE,NO
+34116367,Publisher DOI landing,https://doi.org/10.1016/j.comppsych.2021.152250,METADATA_OR_LANDING_ONLY,YES,NO
+34116367,Europe PMC,https://europepmc.org/article/MED/34116367,METADATA_ONLY_NO_ACCEPTED_BODY,YES,NO
+21386691,PMC BioC official OA endpoint,https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC5826653/unicode,FULL_BODY_ACCEPTED,YES,YES
+21386691,Publisher DOI landing,https://doi.org/10.1097/JOM.0b013e31820af362,NOT_NEEDED_AFTER_OFFICIAL_PMC_ACCEPTANCE,YES,NO
+21386691,Europe PMC,https://europepmc.org/article/MED/21386691,NOT_NEEDED_AFTER_OFFICIAL_PMC_ACCEPTANCE,YES,NO
+30566536,PMC BioC official OA endpoint,https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC6300333/unicode,FULL_BODY_ACCEPTED,YES,YES
+30566536,Publisher DOI landing,https://doi.org/10.1371/journal.pone.0209419,NOT_NEEDED_AFTER_OFFICIAL_PMC_ACCEPTANCE,YES,NO
+30566536,Europe PMC,https://europepmc.org/article/MED/30566536,NOT_NEEDED_AFTER_OFFICIAL_PMC_ACCEPTANCE,YES,NO
+32605225,PMC BioC official OA endpoint,https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC7369884/unicode,FULL_BODY_ACCEPTED,YES,YES
+32605225,Publisher DOI landing,https://doi.org/10.3390/ijerph17134647,NOT_NEEDED_AFTER_OFFICIAL_PMC_ACCEPTANCE,YES,NO
+32605225,Europe PMC,https://europepmc.org/article/MED/32605225,NOT_NEEDED_AFTER_OFFICIAL_PMC_ACCEPTANCE,YES,NO
+36011697,PMC BioC official OA endpoint,https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC9407878/unicode,FULL_BODY_ACCEPTED,YES,YES
+36011697,Publisher DOI landing,https://doi.org/10.3390/ijerph191610054,NOT_NEEDED_AFTER_OFFICIAL_PMC_ACCEPTANCE,YES,NO
+36011697,Europe PMC,https://europepmc.org/article/MED/36011697,NOT_NEEDED_AFTER_OFFICIAL_PMC_ACCEPTANCE,YES,NO
+30768197,PMC BioC official OA endpoint,https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC6484614/unicode,FULL_BODY_ACCEPTED,YES,YES
+30768197,Publisher DOI landing,https://doi.org/10.1001/jamanetworkopen.2018.8341,NOT_NEEDED_AFTER_OFFICIAL_PMC_ACCEPTANCE,YES,NO
+30768197,Europe PMC,https://europepmc.org/article/MED/30768197,NOT_NEEDED_AFTER_OFFICIAL_PMC_ACCEPTANCE,YES,NO
+31424077,PMC BioC official OA endpoint,https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC7781240/unicode,FULL_BODY_ACCEPTED,YES,YES
+31424077,Publisher DOI landing,https://doi.org/10.1093/occmed/kqz110,NOT_NEEDED_AFTER_OFFICIAL_PMC_ACCEPTANCE,YES,NO
+31424077,Europe PMC,https://europepmc.org/article/MED/31424077,NOT_NEEDED_AFTER_OFFICIAL_PMC_ACCEPTANCE,YES,NO
+40048004,PMC BioC official OA endpoint,https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC11885328/unicode,FULL_BODY_ACCEPTED,YES,YES
+40048004,Publisher DOI landing,https://doi.org/10.1007/s11306-024-02198-9,NOT_NEEDED_AFTER_OFFICIAL_PMC_ACCEPTANCE,YES,NO
+40048004,Europe PMC,https://europepmc.org/article/MED/40048004,NOT_NEEDED_AFTER_OFFICIAL_PMC_ACCEPTANCE,YES,NO
+29016876,PMC BioC official OA endpoint,https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC6317156/unicode,FULL_BODY_ACCEPTED,YES,YES
+29016876,Publisher DOI landing,https://doi.org/10.1093/occmed/kqx127,NOT_NEEDED_AFTER_OFFICIAL_PMC_ACCEPTANCE,YES,NO
+29016876,Europe PMC,https://europepmc.org/article/MED/29016876,NOT_NEEDED_AFTER_OFFICIAL_PMC_ACCEPTANCE,YES,NO
+40693646,PMC BioC official OA endpoint,https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC12284986/unicode,FULL_BODY_ACCEPTED,YES,YES
+40693646,Publisher DOI landing,https://doi.org/10.1080/15502783.2025.2536146,NOT_NEEDED_AFTER_OFFICIAL_PMC_ACCEPTANCE,YES,NO
+40693646,Europe PMC,https://europepmc.org/article/MED/40693646,NOT_NEEDED_AFTER_OFFICIAL_PMC_ACCEPTANCE,YES,NO
+32957661,PMC BioC official OA endpoint,https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC7559033/unicode,FULL_BODY_ACCEPTED,YES,YES
+32957661,Publisher DOI landing,https://doi.org/10.3390/ijerph17186782,NOT_NEEDED_AFTER_OFFICIAL_PMC_ACCEPTANCE,YES,NO
+32957661,Europe PMC,https://europepmc.org/article/MED/32957661,NOT_NEEDED_AFTER_OFFICIAL_PMC_ACCEPTANCE,YES,NO
+32886396,PMC BioC official OA endpoint,https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC7745167/unicode,FULL_BODY_ACCEPTED,YES,YES
+32886396,Publisher DOI landing,https://doi.org/10.1002/ajim.23175,NOT_NEEDED_AFTER_OFFICIAL_PMC_ACCEPTANCE,YES,NO
+32886396,Europe PMC,https://europepmc.org/article/MED/32886396,NOT_NEEDED_AFTER_OFFICIAL_PMC_ACCEPTANCE,YES,NO
+34770556,PMC BioC official OA endpoint,https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/PMC8587311/unicode,FULL_BODY_ACCEPTED,YES,YES
+34770556,Publisher DOI landing,https://doi.org/10.3390/s21217249,NOT_NEEDED_AFTER_OFFICIAL_PMC_ACCEPTANCE,YES,NO
+34770556,Europe PMC,https://europepmc.org/article/MED/34770556,NOT_NEEDED_AFTER_OFFICIAL_PMC_ACCEPTANCE,YES,NO

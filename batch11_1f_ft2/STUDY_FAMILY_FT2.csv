@@ -1,0 +1,16 @@
+Evidence_ID,PMID,STUDY_FAMILY_ID,Overlap_Status,COHORT_DOUBLE_COUNTING,Rule
+EV-1485,34375489,FT2-34375489,NO_SHARED_DATASET_IDENTIFIED_FROM_SOURCE_METADATA,0,Do not co-cite as independent replication until human study-family review.
+,24115029,FT2-24115029,NO_SHARED_DATASET_IDENTIFIED_FROM_SOURCE_METADATA,0,Do not co-cite as independent replication until human study-family review.
+,34116367,FT2-34116367,UNRESOLVED_NO_FULL_TEXT,0,Do not co-cite as independent replication until human study-family review.
+,21386691,FT2-21386691,NO_SHARED_DATASET_IDENTIFIED_FROM_SOURCE_METADATA,0,Do not co-cite as independent replication until human study-family review.
+EV-1491,30566536,FT2-30566536,NO_SHARED_DATASET_IDENTIFIED_FROM_SOURCE_METADATA,0,Do not co-cite as independent replication until human study-family review.
+EV-1489,32605225,FT2-32605225,NO_SHARED_DATASET_IDENTIFIED_FROM_SOURCE_METADATA,0,Do not co-cite as independent replication until human study-family review.
+,36011697,FT2-36011697,NO_SHARED_DATASET_IDENTIFIED_FROM_SOURCE_METADATA,0,Do not co-cite as independent replication until human study-family review.
+,30768197,FT2-30768197,NO_SHARED_DATASET_IDENTIFIED_FROM_SOURCE_METADATA,0,Do not co-cite as independent replication until human study-family review.
+EV-1486,31424077,FT2-31424077,NO_SHARED_DATASET_IDENTIFIED_FROM_SOURCE_METADATA,0,Do not co-cite as independent replication until human study-family review.
+,40048004,FT2-40048004,NO_SHARED_DATASET_IDENTIFIED_FROM_SOURCE_METADATA,0,Do not co-cite as independent replication until human study-family review.
+EV-1490,29016876,FT2-29016876,NO_SHARED_DATASET_IDENTIFIED_FROM_SOURCE_METADATA,0,Do not co-cite as independent replication until human study-family review.
+EV-1487,40693646,FT2-40693646,NO_SHARED_DATASET_IDENTIFIED_FROM_SOURCE_METADATA,0,Do not co-cite as independent replication until human study-family review.
+EV-1492,32957661,FT2-32957661,NO_SHARED_DATASET_IDENTIFIED_FROM_SOURCE_METADATA,0,Do not co-cite as independent replication until human study-family review.
+EV-1488,32886396,FT2-32886396,NO_SHARED_DATASET_IDENTIFIED_FROM_SOURCE_METADATA,0,Do not co-cite as independent replication until human study-family review.
+,34770556,FT2-34770556,NO_SHARED_DATASET_IDENTIFIED_FROM_SOURCE_METADATA,0,Do not co-cite as independent replication until human study-family review.

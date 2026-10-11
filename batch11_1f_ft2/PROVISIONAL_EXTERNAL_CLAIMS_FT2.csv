@@ -1,0 +1,9 @@
+Claim_ID,Evidence_ID,Result_ID,PMID,Status,Claim_Ready,Bounded_Use
+RC-EXP3-INT-HEAT-85,EV-1485,EV-1485-11F-FT-R01,34375489,PROVISIONAL_EXTERNAL_EXPANSION_CLAIM,NO,Human-adjudication candidate only; claim wording must remain within the located result and design.
+RC-EXP3-INT-MEAS-91,EV-1491,EV-1491-11F-FT2-R01,30566536,PROVISIONAL_EXTERNAL_EXPANSION_CLAIM,NO,Human-adjudication candidate only; claim wording must remain within the located result and design.
+RC-EXP3-INT-SLEEP-89,EV-1489,EV-1489-11F-FT2-R01,32605225,PROVISIONAL_EXTERNAL_EXPANSION_CLAIM,NO,Human-adjudication candidate only; claim wording must remain within the located result and design.
+RC-EXP3-INT-FITNESS-86,EV-1486,EV-1486-11F-FT-R01,31424077,PROVISIONAL_EXTERNAL_EXPANSION_CLAIM,NO,Human-adjudication candidate only; claim wording must remain within the located result and design.
+RC-EXP3-INT-FITNESS-90,EV-1490,EV-1490-11F-FT2-R01,29016876,PROVISIONAL_EXTERNAL_EXPANSION_CLAIM,NO,Human-adjudication candidate only; claim wording must remain within the located result and design.
+RC-EXP3-INT-CAFFEINE-87,EV-1487,EV-1487-11F-FT-R01,40693646,PROVISIONAL_EXTERNAL_EXPANSION_CLAIM,NO,Human-adjudication candidate only; claim wording must remain within the located result and design.
+RC-EXP3-INT-FITNESS-92,EV-1492,EV-1492-11F-FT2-R01,32957661,PROVISIONAL_EXTERNAL_EXPANSION_CLAIM,NO,Human-adjudication candidate only; claim wording must remain within the located result and design.
+RC-EXP3-INT-HEAT-88,EV-1488,EV-1488-11F-FT-R01,32886396,PROVISIONAL_EXTERNAL_EXPANSION_CLAIM,NO,Human-adjudication candidate only; claim wording must remain within the located result and design.

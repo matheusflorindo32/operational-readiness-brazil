@@ -1,0 +1,16 @@
+PMID,DOI,PMCID,Title_Match,Authors_Match,Journal_Year_Match,Identity_Status,Conflict_Accepted
+34375489,10.1002/1348-9585.12263,PMC8354579,YES,YES — PubMed primary metadata and accepted PMC article identity,YES — PubMed primary metadata and accepted PMC article identity,FULL_TEXT_IDENTITY_CONFIRMED,NO
+24115029,10.1002/ajim.22260,PMC7786395,YES,YES — PubMed primary metadata and accepted PMC article identity,YES — PubMed primary metadata and accepted PMC article identity,FULL_TEXT_IDENTITY_CONFIRMED,NO
+34116367,10.1016/j.comppsych.2021.152250,,UNRESOLVED,UNRESOLVED_NO_BODY,UNRESOLVED_NO_BODY,FULL_TEXT_IDENTITY_UNRESOLVED,NO
+21386691,10.1097/JOM.0b013e31820af362,PMC5826653,YES,YES — PubMed primary metadata and accepted PMC article identity,YES — PubMed primary metadata and accepted PMC article identity,FULL_TEXT_IDENTITY_CONFIRMED,NO
+30566536,10.1371/journal.pone.0209419,PMC6300333,YES,YES — PubMed primary metadata and accepted PMC article identity,YES — PubMed primary metadata and accepted PMC article identity,FULL_TEXT_IDENTITY_CONFIRMED,NO
+32605225,10.3390/ijerph17134647,PMC7369884,YES,YES — PubMed primary metadata and accepted PMC article identity,YES — PubMed primary metadata and accepted PMC article identity,FULL_TEXT_IDENTITY_CONFIRMED,NO
+36011697,10.3390/ijerph191610054,PMC9407878,YES,YES — PubMed primary metadata and accepted PMC article identity,YES — PubMed primary metadata and accepted PMC article identity,FULL_TEXT_IDENTITY_CONFIRMED,NO
+30768197,10.1001/jamanetworkopen.2018.8341,PMC6484614,YES,YES — PubMed primary metadata and accepted PMC article identity,YES — PubMed primary metadata and accepted PMC article identity,FULL_TEXT_IDENTITY_CONFIRMED,NO
+31424077,10.1093/occmed/kqz110,PMC7781240,YES,YES — PubMed primary metadata and accepted PMC article identity,YES — PubMed primary metadata and accepted PMC article identity,FULL_TEXT_IDENTITY_CONFIRMED,NO
+40048004,10.1007/s11306-024-02198-9,PMC11885328,YES,YES — PubMed primary metadata and accepted PMC article identity,YES — PubMed primary metadata and accepted PMC article identity,FULL_TEXT_IDENTITY_CONFIRMED,NO
+29016876,10.1093/occmed/kqx127,PMC6317156,YES,YES — PubMed primary metadata and accepted PMC article identity,YES — PubMed primary metadata and accepted PMC article identity,FULL_TEXT_IDENTITY_CONFIRMED,NO
+40693646,10.1080/15502783.2025.2536146,PMC12284986,YES,YES — PubMed primary metadata and accepted PMC article identity,YES — PubMed primary metadata and accepted PMC article identity,FULL_TEXT_IDENTITY_CONFIRMED,NO
+32957661,10.3390/ijerph17186782,PMC7559033,YES,YES — PubMed primary metadata and accepted PMC article identity,YES — PubMed primary metadata and accepted PMC article identity,FULL_TEXT_IDENTITY_CONFIRMED,NO
+32886396,10.1002/ajim.23175,PMC7745167,YES,YES — PubMed primary metadata and accepted PMC article identity,YES — PubMed primary metadata and accepted PMC article identity,FULL_TEXT_IDENTITY_CONFIRMED,NO
+34770556,10.3390/s21217249,PMC8587311,YES,YES — PubMed primary metadata and accepted PMC article identity,YES — PubMed primary metadata and accepted PMC article identity,FULL_TEXT_IDENTITY_CONFIRMED,NO

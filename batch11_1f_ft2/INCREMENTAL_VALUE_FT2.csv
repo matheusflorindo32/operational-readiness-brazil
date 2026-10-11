@@ -1,0 +1,16 @@
+Evidence_ID,PMID,Incremental_Value,Rationale
+EV-1485,34375489,NO_INCREMENTAL_VALUE,Direct operational/first-responder result with localized source; human appraisal required.
+,24115029,NO_INCREMENTAL_VALUE,"Verified full text but either indirect, measurement-context-only, descriptive, or insufficiently material for a new Evidence_ID."
+,34116367,NO_INCREMENTAL_VALUE,Publisher and Europe PMC routes did not produce an identity-confirmed lawful full body.
+,21386691,NO_INCREMENTAL_VALUE,"Verified full text but either indirect, measurement-context-only, descriptive, or insufficiently material for a new Evidence_ID."
+EV-1491,30566536,MODERATE_INCREMENTAL_VALUE,Direct operational/first-responder result with localized source; human appraisal required.
+EV-1489,32605225,HIGH_INCREMENTAL_VALUE,Direct operational/first-responder result with localized source; human appraisal required.
+,36011697,NO_INCREMENTAL_VALUE,"Verified full text but either indirect, measurement-context-only, descriptive, or insufficiently material for a new Evidence_ID."
+,30768197,NO_INCREMENTAL_VALUE,"Verified full text but either indirect, measurement-context-only, descriptive, or insufficiently material for a new Evidence_ID."
+EV-1486,31424077,MODERATE_INCREMENTAL_VALUE,Direct operational/first-responder result with localized source; human appraisal required.
+,40048004,NO_INCREMENTAL_VALUE,"Verified full text but either indirect, measurement-context-only, descriptive, or insufficiently material for a new Evidence_ID."
+EV-1490,29016876,HIGH_INCREMENTAL_VALUE,Direct operational/first-responder result with localized source; human appraisal required.
+EV-1487,40693646,MODERATE_INCREMENTAL_VALUE,Direct operational/first-responder result with localized source; human appraisal required.
+EV-1492,32957661,MODERATE_INCREMENTAL_VALUE,Direct operational/first-responder result with localized source; human appraisal required.
+EV-1488,32886396,CONTEXTUAL_HIGH_VALUE,Direct operational/first-responder result with localized source; human appraisal required.
+,34770556,CONTEXTUAL_HIGH_VALUE,"Verified full text but either indirect, measurement-context-only, descriptive, or insufficiently material for a new Evidence_ID."

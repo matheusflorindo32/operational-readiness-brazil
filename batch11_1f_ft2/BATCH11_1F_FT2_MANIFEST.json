@@ -1,0 +1,123 @@
+{
+  "batch": "BATCH 11.1F-FT2",
+  "base_commit": "aba99f666f9bd26079aacbbbf77bc5266ddc26c8",
+  "gate": "EXTERNAL_FULLTEXT_RESCUE_PASS",
+  "sufficiency_gate": "EXTERNAL_EVIDENCE_STILL_INSUFFICIENT_FOR_6500_WORD_TARGET",
+  "date": "2026-10-10",
+  "qa": {
+    "tier_a_expected": 7,
+    "tier_b_expected": 8,
+    "tier_ab_total": 15,
+    "pmc_previously_verified": 12,
+    "additional_lawful_full_texts_recovered": 2,
+    "total_ab_full_texts_verified": 14,
+    "evidence_ids_previously_assigned": 4,
+    "new_evidence_ids_assigned": 4,
+    "result_located_candidates_total": 8,
+    "appraisal_completed_preliminary": 14,
+    "integrity_screened_not_final_clearance": 14,
+    "supporting_candidates": 4,
+    "claim_strengthening": 2,
+    "contextual_high_value": 2,
+    "null_preserved": 3,
+    "contradictory": 0,
+    "human_material_decisions": 8,
+    "automatic_claim_ready": 0,
+    "identity_mismatch_accepted": 0,
+    "cohort_double_counting": 0,
+    "reference_padding": 0,
+    "manuscript_changes": 0,
+    "zotero_changes": 0,
+    "cef_changes": 0
+  },
+  "outputs": [
+    {
+      "file": "6500_WORD_SUFFICIENCY_DIAGNOSIS.csv",
+      "sha256": "6a00084ee8262b4f0af3e81861686730407e9097d6fd362fdd4c4ed4b6835210"
+    },
+    {
+      "file": "APPRAISAL_FT2.csv",
+      "sha256": "e43586607ac929d3aec68b1809925c64a3161c15b2015272bee00ba9fcd2b1b6"
+    },
+    {
+      "file": "CLAIM_ELIGIBILITY_FT2.csv",
+      "sha256": "759e2d7409fe3cc6d77dbee9bd5dce550add68e4f12c084269a05936a61be51f"
+    },
+    {
+      "file": "CONSOLIDATED_EXTERNAL_HUMAN_REVIEW_QUEUE.csv",
+      "sha256": "bf142f823e10d0ddaa66c026f99c2ebb05a5ed886b4e1ac59bdf4778d05c350e"
+    },
+    {
+      "file": "CONTRADICTORY_EVIDENCE_FT2.csv",
+      "sha256": "233eea49778758507d4efb96ecc8071e1487b5ada1aeda6c32adedca29b895d1"
+    },
+    {
+      "file": "DESIGN_CLASSIFICATION_FT2.csv",
+      "sha256": "2a1fd9638622517c3232dab273ee127dcee12cc9f32498ca5e5f2fee589b0d69"
+    },
+    {
+      "file": "EXTERNAL_EVIDENCE_ID_ASSIGNMENT_FT2.csv",
+      "sha256": "48e0586d82eb597ccf86bfcc0ae3919803e4231de590c1baf3e0e6824b1a7cc3"
+    },
+    {
+      "file": "FULLTEXT_IDENTITY_VALIDATION.csv",
+      "sha256": "73c730c7bdd1dc9f9b3f419f79ad3827e79cfef58dc18b07119ddf5538014c72"
+    },
+    {
+      "file": "FULLTEXT_RESCUE_OUTCOME.csv",
+      "sha256": "1569f5272df3940d895821492b964d2de8d0df555c348b2a965318ec36b249bc"
+    },
+    {
+      "file": "INCREMENTAL_VALUE_FT2.csv",
+      "sha256": "07f416f889ca9dcdf9346674b2faa287b68b9f3508d6a42cce70616a9ca13247"
+    },
+    {
+      "file": "INTEGRITY_FT2.csv",
+      "sha256": "bad5bfdc1aa6989602fadb0d8ce19b946d03886d7690359a5bb16fcb4ed7b0d3"
+    },
+    {
+      "file": "LAWFUL_FULLTEXT_SOURCE_LOG.csv",
+      "sha256": "04e1ad6505034d420bce942327914fd407c96f6075cc82988f063f891e698464"
+    },
+    {
+      "file": "NULL_RESULT_AUDIT_FT2.csv",
+      "sha256": "b6b0624b2601b7285a711bbe0f12a2cb91cc5d945a323b7d10219fda20b076b5"
+    },
+    {
+      "file": "PROVISIONAL_EXTERNAL_CLAIMS_FT2.csv",
+      "sha256": "d5952aa4db5a72c68fe67f2f69d82a007b3a51ef0ca89ef938b641180d8e1813"
+    },
+    {
+      "file": "RED_TEAM_FT2.csv",
+      "sha256": "b580e65ca7abecb09b8f13b3df166fb7248e61852a9fcaf4793b3d768129072c"
+    },
+    {
+      "file": "REFERENCE_PROJECTION_FT2.csv",
+      "sha256": "b5f569760e0e21860902ec8c02462624233b98142b5f28ce910e21e393faf982"
+    },
+    {
+      "file": "RESULT_LOCATED_EXTERNAL_FT2.csv",
+      "sha256": "5b09216bcefe42c9841c250336cd4485a025d43609983bb0855ea512465c36ef"
+    },
+    {
+      "file": "RESULT_LOCATOR_AUDIT_FT2.csv",
+      "sha256": "b3a53c7f3cc8bb4b2496e2ae2e6e68a5179bd3b97069f30131bcffe17f280257"
+    },
+    {
+      "file": "STUDY_FAMILY_FT2.csv",
+      "sha256": "df11014e53a7bbed25e1560afd2a364cdef65d9b858fa5c719d960fefda9b54d"
+    },
+    {
+      "file": "TIER_AB_FULLTEXT_RESCUE_MASTER.csv",
+      "sha256": "71b092ed75a65046224f9a721a6d84507882499048428ae2703d92d7175eba7b"
+    },
+    {
+      "file": "TRANSFERABILITY_FT2.csv",
+      "sha256": "796c6cf28b3ad98fa0481ba63298c7f408b1e8cf0e7443ef8099f804b0906183"
+    },
+    {
+      "file": "WORD_DENSITY_PROJECTION_FT2.csv",
+      "sha256": "1be2337d5781e6af571a679d8f8aeb1fbd972b2d2669740abc4c5d7174af5216"
+    }
+  ]
+}
