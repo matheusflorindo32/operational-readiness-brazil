@@ -6,7 +6,7 @@
   "next_gate": "GO_TARGET_JOURNAL_HUMAN_SELECTION",
   "manuscript_snapshot": {
     "docx_sha256": "f5886dd8e715ee5d4666213b5b59027e382185a3ae19ce7959417ce6fe672030",
-    "markdown_sha256": "260e4a9d4eb8b82d71f412981101a7236ab82b3dba5566a76dea25b89b159d3b"
+    "markdown_sha256": "e94de20c2e0882f8bd023ac701d81fd8672bc07ada0b97cda0b6f11cbbbd688b"
   },
   "manuscript_facts": {
     "Abstract_Words": 145,
@@ -39,59 +39,59 @@
   "outputs": [
     {
       "file": "ARTICLE_TYPE_COMPATIBILITY.csv",
-      "sha256": "85306ff03e6a862533d7f309f5b414d9709b2154f17517df71f313b1ba67806d"
+      "sha256": "aa44d24df67ef81bf5c6abff621d64a276bc61848a8f40a81c95802d66cea03c"
     },
     {
       "file": "CURRENT_AUTHOR_GUIDELINES_AUDIT.csv",
-      "sha256": "bc984aa3306763c37972d154609a319e379d7ded47b4c71fdfbf46e4194a0099"
+      "sha256": "c2dd3f39eb6b3cfff6b53c9ae6ee846f67ff936e8a9d698235dd07c147a67982"
     },
     {
       "file": "DESK_REJECTION_RISK_MATRIX.csv",
-      "sha256": "7eb084f1a482cbd9b7d39282fab71421c168ec3715091a3dabe374a9f5f9b1cf"
+      "sha256": "e9e3a170004b4e387168704681181d831a087455842fddab5015a0c8467667c6"
     },
     {
       "file": "FULL_LENGTH_JOURNAL_ELIGIBILITY_AUDIT.csv",
-      "sha256": "ec3fabd3bf0d53e90e9a3fbb42010ff784f0017aa4e0c6af1f9ca86ecf7117b1"
+      "sha256": "cc8346aff226efdd1d6411d43d10eadca955ce2a3ab7215a8a82daff113d28a5"
     },
     {
       "file": "FULL_LENGTH_JOURNAL_LONG_LIST.csv",
-      "sha256": "c8c5aee9dbac80f7bce1971d27067d47d8b172535fa37b30291081bac2f9d4c3"
+      "sha256": "d2ea067df0097cce801d7ee289ffd9c8adeab59484f2e5899a3d2003fa3012e0"
     },
     {
       "file": "JOURNAL_APC_AUDIT.csv",
-      "sha256": "ab1bce4b6a32b65f11025a51d50c01d5c241c7729bf1ea352c6c85a8826ad2dd"
+      "sha256": "908d74f88cce313d788d04153c4729a3209352f27622a6f9cba93fea2c64e6eb"
     },
     {
       "file": "JOURNAL_INDEXING_VERIFICATION.csv",
-      "sha256": "952dc163cfd9e95fe2a72df57c072d335030ee2fbb6371e8540b8855bc7d2caa"
+      "sha256": "4aa529e0fc56c93dfb6f3fab81be5decc1ee6903c02933117f7c9e477daa6de7"
     },
     {
       "file": "JOURNAL_INTEGRITY_SCREEN.csv",
-      "sha256": "1792ffc187b7aa0de80d7c25eb655e943ffb4d6689e91aa80da9e6e75e1f66e8"
+      "sha256": "bd312d07f1e33bbdabc93e0acf58d531d7429398b8e837b32b0667e54313cfb4"
     },
     {
       "file": "JOURNAL_METRICS_VERIFICATION.csv",
-      "sha256": "3f78f169107d165727207c185468cbbd995797e6540ec9cdf54180b3b73d00aa"
+      "sha256": "4ac31acbfcbccec6dad52daabe22a321e188c2d55bc706f9a51f920ec45f7cec"
     },
     {
       "file": "JOURNAL_SELECTION_RED_TEAM.md",
-      "sha256": "abaee8cec29ef6c7a23a7dd76bf4b07eca329f587ace58f99e0a15d52f417c63"
+      "sha256": "1ed848a4045c9e6328c904b1a3fd0fba4921fef6a351db0cfe8c12df9e0ddf4a"
     },
     {
       "file": "MANUSCRIPT_TO_JOURNAL_REQUIREMENT_GAP.csv",
-      "sha256": "ca60434877b3059d38b2c7f6932ec3cfbac6724de5cd2ff6d6703eb86c029085"
+      "sha256": "f539177aa8355244a06fac7105824668124a989fdae3f805c4e2a02f8f9b1111"
     },
     {
       "file": "TARGET_JOURNAL_HUMAN_DECISION_QUEUE.csv",
-      "sha256": "ae8a567757fbe2ae07c17a73c32bab9abbbffd9dc134b3961d314904918ad09d"
+      "sha256": "e933faa60b9381c9d541d44dfbe3839b189ca80e029cd92f09e51d8f5411372e"
     },
     {
       "file": "TOP3_JOURNAL_DEEP_FIT_AUDIT.csv",
-      "sha256": "a4fb7550f094a74988d0e7112ac24b2b0e032be319b2f9f2c6cbeaa69aca241b"
+      "sha256": "7b963e2cb6e91cca108cc4e73645b580a00496d651ebb75f888c95e137f838d1"
     },
     {
       "file": "TOP5_JOURNAL_COMPARISON.csv",
-      "sha256": "7568232227ad57ab44f8c69dfcdbeac8af404d2506c001de1e1277574ebce5a3"
+      "sha256": "647c471e55d42de299aed6382fa978ee7e83de1f8bab961d2a376985b5553dd3"
     }
   ]
 }

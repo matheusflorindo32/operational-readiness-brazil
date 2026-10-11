@@ -23,11 +23,11 @@ class Batch113Tests(unittest.TestCase):
   joh=next(r for r in gaps if r['Journal']=='Journal of Occupational Health' and r['Requirement']=='Word count');self.assertEqual('NONE',joh['Gap'])
   manifest=json.loads((OUT/'BATCH11_3_MANIFEST.json').read_text(encoding='utf-8'))
   self.assertEqual(4205,manifest['manuscript_facts']['Body_Words']);self.assertEqual(28,manifest['manuscript_facts']['References']);self.assertEqual(11,manifest['manuscript_facts']['Rendered_Pages'])
-  for n,key in [('International_v1.3-FINAL-SCIENTIFIC-FREEZE.docx','docx_sha256'),('International_v1.3-FINAL-SCIENTIFIC-FREEZE.md','markdown_sha256')]:self.assertEqual(manifest['manuscript_snapshot'][key],hashlib.sha256((FREEZE/n).read_bytes()).hexdigest())
+  for n,key in [('International_v1.3-FINAL-SCIENTIFIC-FREEZE.docx','docx_sha256'),('International_v1.3-FINAL-SCIENTIFIC-FREEZE.md','markdown_sha256')]:self.assertEqual(manifest['manuscript_snapshot'][key],hashlib.sha256((FREEZE/n).read_bytes().replace(b'\r\n',b'\n')).hexdigest())
  def test_manifest_hashes_and_guards(self):
   manifest=json.loads((OUT/'BATCH11_3_MANIFEST.json').read_text(encoding='utf-8'))
   self.assertEqual('FULL_LENGTH_TARGET_JOURNAL_FIT_AUDIT_PASS',manifest['gate']);self.assertEqual('GO_TARGET_JOURNAL_HUMAN_SELECTION',manifest['next_gate'])
-  for item in manifest['outputs']:self.assertEqual(item['sha256'],hashlib.sha256((OUT/item['file']).read_bytes()).hexdigest(),item['file'])
+  for item in manifest['outputs']:self.assertEqual(item['sha256'],hashlib.sha256((OUT/item['file']).read_bytes().replace(b'\r\n',b'\n')).hexdigest(),item['file'])
   qa=manifest['qa']
   for field in ('manuscript_scientific_mutations','claim_mutations','cef_mutations','zotero_mutations','brazil_mutations','human_selection_populated'):self.assertEqual(0,qa[field],field)
   self.assertEqual('3/3',qa['official_author_guideline_verification_top3']);self.assertEqual('3/3',qa['article_type_compatibility_top3'])

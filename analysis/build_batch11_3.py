@@ -12,7 +12,7 @@ def write_csv(name, rows, fields=None):
     fields=fields or list(rows[0])
     with (OUT/name).open('w',encoding='utf-8',newline='') as f:
         w=csv.DictWriter(f,fieldnames=fields,extrasaction='ignore');w.writeheader();w.writerows(rows)
-def sha(path): return hashlib.sha256(path.read_bytes()).hexdigest()
+def sha(path): return hashlib.sha256(path.read_bytes().replace(b'\r\n', b'\n')).hexdigest()
 def words(s): return len(re.findall(r"\b[\w’'-]+\b",s))
 def score(row):
     weights={'Scope_Fit':.22,'Type_Fit':.18,'Tactical_Fit':.14,'Length_Fit':.12,'Evidence_Fit':.12,'Visibility':.10,'Practicality':.05,'Cost_Access':.03,'Burden':.04}
