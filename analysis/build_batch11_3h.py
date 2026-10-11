@@ -52,7 +52,7 @@ def main() -> None:
     manuscript = MD.read_text(encoding="utf-8")
     abstract = re.search(r"## Abstract\n\n(.*?)(?=\n\n\*\*Keywords)", manuscript, re.S).group(1)
     keywords_match = re.search(r"\*\*Keywords:\*\*\s*(.*)", manuscript)
-    keywords = [part.strip() for part in keywords_match.group(1).split(",")] if keywords_match else []
+    keywords = [part.strip() for part in re.split(r"[;,]", keywords_match.group(1))] if keywords_match else []
     facts = {
         "abstract_words": word_count(abstract),
         "body_words": 4205,

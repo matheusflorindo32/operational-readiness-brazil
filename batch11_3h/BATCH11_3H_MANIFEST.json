@@ -46,7 +46,7 @@
     "tables": 0,
     "figures": 0,
     "rendered_pages": 11,
-    "keywords_current_count": 1,
+    "keywords_current_count": 6,
     "frozen_framework_label": "PROPOSED SYNTHESIS FRAMEWORK \u2014 NOT YET VALIDATED"
   },
   "qa": {
@@ -77,11 +77,11 @@
     },
     {
       "file": "JOH_CURRENT_AUTHOR_GUIDELINES_REVALIDATION.csv",
-      "sha256_canonical_lf": "32fee2e2f339a984a9d5b668edf0f00feeb18a9f952655789165a76840462cb0"
+      "sha256_canonical_lf": "943c826d4dfe19351d2f77c9c09c95ce85a98e43dbab9b0b0a4d53008a87d22c"
     },
     {
       "file": "JOH_EDITORIAL_REQUIREMENT_MAP.csv",
-      "sha256_canonical_lf": "76c14142bad02a27a675e2dd028e9b3dc54fcf484f7187bfbaab5beaa99a956d"
+      "sha256_canonical_lf": "3e7ab49005565c8bc9ebb82402905c05d389b92ca2d663c83d5388bb3eb1cda8"
     },
     {
       "file": "JOH_MANUSCRIPT_GAP_ANALYSIS.csv",
