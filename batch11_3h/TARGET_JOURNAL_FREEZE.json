@@ -1,0 +1,30 @@
+{
+  "batch": "BATCH 11.3H",
+  "base_commit": "a0ecad3327e1b9c4a3a7c61930d059c4156790c3",
+  "date": "2026-10-11",
+  "target_journal": "Journal of Occupational Health",
+  "target_publisher": "Oxford University Press",
+  "target_article_type": "Review Article",
+  "target_status": "HUMAN_SELECTED",
+  "human_reviewer": "Matheus Florindo de Deus",
+  "backup_journals": [
+    "Occupational Medicine",
+    "Military Medicine"
+  ],
+  "guidelines_url": "https://academic.oup.com/joh/pages/author-guidelines",
+  "guidelines_live_revalidated": "YES",
+  "frozen_manuscript": {
+    "docx_sha256": "f5886dd8e715ee5d4666213b5b59027e382185a3ae19ce7959417ce6fe672030",
+    "markdown_sha256_canonical_lf": "e94de20c2e0882f8bd023ac701d81fd8672bc07ada0b97cda0b6f11cbbbd688b"
+  },
+  "scientific_freeze": "FULL_MANUSCRIPT_SCIENTIFIC_FREEZE_COMPLETE",
+  "guardrails": {
+    "scientific_mutation": 0,
+    "claim_ready_mutation": 0,
+    "cef_mutation": 0,
+    "zotero_mutation": 0,
+    "brazil_mutation": 0,
+    "authorship_mutation": 0
+  },
+  "next_gate": "GO_JOH_EDITORIAL_ADAPTATION"
+}

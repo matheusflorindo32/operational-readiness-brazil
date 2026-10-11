@@ -1,0 +1,103 @@
+{
+  "batch": "BATCH 11.3H",
+  "base_commit": "a0ecad3327e1b9c4a3a7c61930d059c4156790c3",
+  "date": "2026-10-11",
+  "gate": "TARGET_JOURNAL_HUMAN_SELECTION_PASS",
+  "freeze_gate": "TARGET_JOURNAL_FREEZE_COMPLETE",
+  "next_gate": "GO_JOH_EDITORIAL_ADAPTATION",
+  "target": {
+    "batch": "BATCH 11.3H",
+    "base_commit": "a0ecad3327e1b9c4a3a7c61930d059c4156790c3",
+    "date": "2026-10-11",
+    "target_journal": "Journal of Occupational Health",
+    "target_publisher": "Oxford University Press",
+    "target_article_type": "Review Article",
+    "target_status": "HUMAN_SELECTED",
+    "human_reviewer": "Matheus Florindo de Deus",
+    "backup_journals": [
+      "Occupational Medicine",
+      "Military Medicine"
+    ],
+    "guidelines_url": "https://academic.oup.com/joh/pages/author-guidelines",
+    "guidelines_live_revalidated": "YES",
+    "frozen_manuscript": {
+      "docx_sha256": "f5886dd8e715ee5d4666213b5b59027e382185a3ae19ce7959417ce6fe672030",
+      "markdown_sha256_canonical_lf": "e94de20c2e0882f8bd023ac701d81fd8672bc07ada0b97cda0b6f11cbbbd688b"
+    },
+    "scientific_freeze": "FULL_MANUSCRIPT_SCIENTIFIC_FREEZE_COMPLETE",
+    "guardrails": {
+      "scientific_mutation": 0,
+      "claim_ready_mutation": 0,
+      "cef_mutation": 0,
+      "zotero_mutation": 0,
+      "brazil_mutation": 0,
+      "authorship_mutation": 0
+    },
+    "next_gate": "GO_JOH_EDITORIAL_ADAPTATION"
+  },
+  "input_manuscript": {
+    "docx_sha256": "f5886dd8e715ee5d4666213b5b59027e382185a3ae19ce7959417ce6fe672030",
+    "markdown_sha256_canonical_lf": "e94de20c2e0882f8bd023ac701d81fd8672bc07ada0b97cda0b6f11cbbbd688b"
+  },
+  "measured_input": {
+    "abstract_words": 145,
+    "body_words": 4205,
+    "references": 28,
+    "tables": 0,
+    "figures": 0,
+    "rendered_pages": 11,
+    "keywords_current_count": 1,
+    "frozen_framework_label": "PROPOSED SYNTHESIS FRAMEWORK \u2014 NOT YET VALIDATED"
+  },
+  "qa": {
+    "human_journal_selection": "1/1",
+    "official_guidelines_live_revalidated": "YES",
+    "target_journal": "Journal of Occupational Health",
+    "article_type": "Review Article",
+    "backup_journals_preserved": "YES",
+    "scientific_mutation": 0,
+    "claim_ready_mutation": 0,
+    "cef_mutation": 0,
+    "zotero_mutation": 0,
+    "brazil_mutation": 0,
+    "authorship_mutation": 0
+  },
+  "outputs": [
+    {
+      "file": "JOH_AI_DISCLOSURE_POLICY_AUDIT.md",
+      "sha256_canonical_lf": "9fe6ed3f1974043906586efa99389da0ff48f919fce337c2c067660a33937230"
+    },
+    {
+      "file": "JOH_APC_FINAL_VERIFICATION.md",
+      "sha256_canonical_lf": "d9b054df821955de3e14ddaae64e5e5b8132a79cd058eddd44c2bba9a11d1ee2"
+    },
+    {
+      "file": "JOH_ARTICLE_TYPE_COMPATIBILITY_FINAL.md",
+      "sha256_canonical_lf": "28918fa398844b6ea9fcc5d659d49d8964e8cd1afef75cc9304f24b2a750d96d"
+    },
+    {
+      "file": "JOH_CURRENT_AUTHOR_GUIDELINES_REVALIDATION.csv",
+      "sha256_canonical_lf": "32fee2e2f339a984a9d5b668edf0f00feeb18a9f952655789165a76840462cb0"
+    },
+    {
+      "file": "JOH_EDITORIAL_REQUIREMENT_MAP.csv",
+      "sha256_canonical_lf": "76c14142bad02a27a675e2dd028e9b3dc54fcf484f7187bfbaab5beaa99a956d"
+    },
+    {
+      "file": "JOH_MANUSCRIPT_GAP_ANALYSIS.csv",
+      "sha256_canonical_lf": "dcba64a62856ef51921940b80e88be7f01d7f2a839a8dd9123412130010262df"
+    },
+    {
+      "file": "JOH_REPORTING_GUIDELINE_AUDIT.md",
+      "sha256_canonical_lf": "13f25bb79a7a923eee7533502d39682edadd35c29306f75542bb79b796f87eb1"
+    },
+    {
+      "file": "TARGET_JOURNAL_FREEZE.json",
+      "sha256_canonical_lf": "bbfdeaee348dd6878810fa85a25d9d8cdc277dc482ba4347c221acc5f5197812"
+    },
+    {
+      "file": "TARGET_JOURNAL_HUMAN_DECISION_FINAL.csv",
+      "sha256_canonical_lf": "73978416e508efc5b0afba57dc32f31f6db60e49b8064f72e6b16bf752987fd2"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+Field,Current_Manuscript,JOH_Requirement,Status,Batch_11_4_Action
+title,Frozen title,Journal-appropriate title assessed later,EDITORIAL_ADAPTATION_REQUIRED,Title fit review only; no scientific reframing.
+article type,Evidence-informed integrative synthesis,Review Article,READY,Article type is editorially compatible; never call the work a systematic review.
+abstract,145 words,Structured; maximum 250 words,EDITORIAL_ADAPTATION_REQUIRED,Reorganize only within frozen evidence.
+abstract headings,Not JOH-structured,Objectives; Methods; Results; Conclusions,EDITORIAL_ADAPTATION_REQUIRED,Required journal structure.
+keywords,1 currently,3 to 6,READY,Validate final terms at adaptation.
+key points,Absent,3 to 5 sentences; maximum 250 words,EDITORIAL_ADAPTATION_REQUIRED,Draft from frozen claims only.
+main-text word count,4205 words,Maximum 6000 words,READY,Scientific_content_reduction_required=NO.
+headings,Scientific freeze structure,JOH file order,EDITORIAL_ADAPTATION_REQUIRED,Reorder without changing scientific claims.
+references,28,No limit,READY,Citation style formatting remains editorial.
+citation style,Frozen working style,JOH/OUP style,EDITORIAL_ADAPTATION_REQUIRED,Format only; do not change reference set.
+tables,0,Maximum 6 combined figures/tables,READY,None required.
+figures,0,Maximum 6 combined figures/tables,READY,None required.
+acknowledgments,Not JOH-packaged,Required section in file order,HUMAN_INPUT_REQUIRED,No acknowledgment fact invented.
+CRediT,No role allocation in this batch,"Author Contributions (e.g., CRediT)",HUMAN_INPUT_REQUIRED,"Use only an existing, verified human authorship record."
+conflicts of interest,NO CONFLICTS DECLARED,Conflict of Interest section,EDITORIAL_ADAPTATION_REQUIRED,Render compatible wording only.
+funding,NO FUNDING,Study Funding section,EDITORIAL_ADAPTATION_REQUIRED,Render compatible wording only.
+data availability,Evidence artifacts under governance,Data Availability Statement,HUMAN_INPUT_REQUIRED,Do not publish private material without authorization.
+AI disclosure,No submission disclosure approved,OUP journal AI policy applies,HUMAN_INPUT_REQUIRED,Determine accurate disclosure from confirmed uses at submission.
+supplementary files,None currently,Supplementary Data section if applicable,NOT_APPLICABLE,No supplementary file is created in this batch.
+title page,Not JOH-packaged,Title; authors/affiliations; one corresponding author address/email,HUMAN_INPUT_REQUIRED,"No identity, affiliation, email, or author-role fact invented."
+corresponding author,No current human record located in versioned Batch 11 artifacts,One corresponding author required,HUMAN_INPUT_REQUIRED,Do not assume Danilo is corresponding/submitting author.
+cover letter,Not created,Submission-supporting document,EDITORIAL_ADAPTATION_REQUIRED,Prepare after authorship and AI-use facts are confirmed.
+spelling convention,Not checked in this batch,US spelling consistently,EDITORIAL_ADAPTATION_REQUIRED,Editorial language pass only.
+reporting-guideline requirements,Non-systematic evidence-informed integrative synthesis,PRISMA encouraged for systematic reviews/meta-analyses; no blanket PRISMA claim,READY,Do not declare PRISMA conformity.

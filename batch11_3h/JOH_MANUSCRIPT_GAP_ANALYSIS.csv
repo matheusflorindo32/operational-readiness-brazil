@@ -1,0 +1,8 @@
+Gap_Area,Current_State,Gap_Status,Bounded_Next_Action
+Word count,4205/6000,NO_GAP,No scientific content reduction.
+Abstract,145/250; not structured,EDITORIAL_GAP,"Use Objectives, Methods, Results, Conclusions without expanding unsupported content."
+Key Points,Absent,EDITORIAL_GAP,Create 3–5 bounded sentences after scientific freeze.
+Author declarations,Not journal-packaged,HUMAN_INPUT_GAP,"Obtain verified authorship, CRediT, corresponding-author and availability facts."
+AI disclosure,Not determined from a final author-approved declaration,HUMAN_INPUT_GAP,Apply current OUP policy at submission.
+APC,Exact payable amount not reproducible without eligibility inputs,HUMAN_ELIGIBILITY_GAP,"Check institution, agreement, country, license, tax and corresponding-author conditions."
+Scientific claims,Frozen v1.3,NO_GAP,No scientific alteration authorized.
