@@ -1,0 +1,10 @@
+Journal,Requirement,Current_Manuscript,Target,Gap,Allowed_Now
+Journal of Occupational Health,Word count,4205 body words,6000,NONE,NO_MANUSCRIPT_EDIT
+Journal of Occupational Health,Abstract,145 unstructured,250 structured,RESTRUCTURE_LATER,NO_MANUSCRIPT_EDIT
+Journal of Occupational Health,Declarations/title page,Not journal-packaged,Journal-specific submission package,CREATE_LATER,NO_MANUSCRIPT_EDIT
+Occupational Medicine,Word count,4205 body words,5000,NONE,NO_MANUSCRIPT_EDIT
+Occupational Medicine,Abstract,145 unstructured,250 structured,RESTRUCTURE_LATER,NO_MANUSCRIPT_EDIT
+Occupational Medicine,Declarations/title page,Not journal-packaged,Journal-specific submission package,CREATE_LATER,NO_MANUSCRIPT_EDIT
+Military Medicine,Word count,4205 body words,4000,REDUCE_UP_TO_205_WORDS_LATER,NO_MANUSCRIPT_EDIT
+Military Medicine,Abstract,145 unstructured,250–500 structured summary,RESTRUCTURE_LATER,NO_MANUSCRIPT_EDIT
+Military Medicine,Declarations/title page,Not journal-packaged,Journal-specific submission package,CREATE_LATER,NO_MANUSCRIPT_EDIT

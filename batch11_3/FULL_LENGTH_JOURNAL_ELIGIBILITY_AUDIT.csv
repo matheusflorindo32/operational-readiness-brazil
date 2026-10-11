@@ -1,0 +1,6 @@
+Journal,Eligibility,Mini_Review_Reversion,Systematic_Review_Mislabeling,Article_Type_Status,Scientific_Freeze_Mutation,Rationale
+Journal of Occupational Health,ELIGIBLE,PROHIBITED,PROHIBITED,YES,0,"Must present the frozen synthesis as a review/evaluation, not as a systematic review; add required Key Points at adaptation."
+Occupational Medicine,ELIGIBLE,PROHIBITED,PROHIBITED,YES_WITH_EDITORIAL_CHECK,0,Title/category wording and search-method paragraph require editorial-fit confirmation; scope must foreground occupational-health implications.
+Military Medicine,ELIGIBLE,PROHIBITED,PROHIBITED,YES,0,Current 4205-word body exceeds 4000-word cap by 205 words; police/firefighter breadth may dilute federal-medicine framing.
+Frontiers in Public Health,ELIGIBLE,PROHIBITED,PROHIBITED,YES_WITH_SECTION_CONFIRMATION,0,Public-health section fit may be broader than the manuscript; mandatory APC and section-level article-type confirmation needed.
+Journal of Special Operations Medicine,CONDITIONAL,PROHIBITED,PROHIBITED,YES_WITH_LIMITS_PENDING,0,"Clinical/tactical-medicine scope may be too narrow for readiness governance across police, firefighters and military."

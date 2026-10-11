@@ -1,0 +1,7 @@
+Journal,Frozen_Design,Candidate_Type,Compatible,Systematic_Review_Claim_Required,Mislabeling_Risk,Decision
+Journal of Occupational Health,Evidence-informed integrative synthesis with explicit evidence-governance framework,Review Article,YES,NO,NO,RETAIN_FOR_COMPARISON
+Occupational Medicine,Evidence-informed integrative synthesis with explicit evidence-governance framework,Qualitative review route described under review guidance,YES_WITH_EDITORIAL_CHECK,NO,NO,RETAIN_FOR_COMPARISON
+Military Medicine,Evidence-informed integrative synthesis with explicit evidence-governance framework,Review Article (narrative reviews acknowledged),YES,NO,NO,RETAIN_FOR_COMPARISON
+Frontiers in Public Health,Evidence-informed integrative synthesis with explicit evidence-governance framework,Review,YES_WITH_SECTION_CONFIRMATION,NO,NO,RETAIN_FOR_COMPARISON
+Journal of Special Operations Medicine,Evidence-informed integrative synthesis with explicit evidence-governance framework,Review,YES_WITH_LIMITS_PENDING,NO,NO,CONDITIONAL_ONLY
+Journal of Science and Medicine in Sport,Evidence-informed integrative synthesis with explicit evidence-governance framework,Review Articles,NO,YES_OR_INVITATION,YES,EXCLUDE_ARTICLE_TYPE_MISMATCH
