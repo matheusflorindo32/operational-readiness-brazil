@@ -1,0 +1,5 @@
+Evidence_ID,Status,Support_Use,Manuscript_Treatment,Audit
+EV-0052,UNADJUDICATED_CONTRADICTORY_EVIDENCE,0,Named in limitations; not used as support,PASS
+EV-0140,UNADJUDICATED_CONTRADICTORY_EVIDENCE,0,Named in limitations; not used as support,PASS
+EV-1066,UNADJUDICATED_CONTRADICTORY_EVIDENCE,0,Named in limitations; not used as support,PASS
+EV-1379,FAIL_CLOSED / HOLD_INTEGRITY,0,Named as blocked in limitations; not used as support,PASS

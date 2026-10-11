@@ -1,0 +1,126 @@
+{
+  "batch": "BATCH 11.2",
+  "base_commit": "b5dc1ad7ed1b5f6ff55fa8d1435358c90dcf67bb",
+  "gate": "FULL_MANUSCRIPT_FINAL_SCIENTIFIC_AUDIT_AWAITING_HUMAN_DECISION",
+  "qa": {
+    "central_claims_expected": 20,
+    "central_claims_audited": 20,
+    "material_sentences_audited": 33,
+    "active_references": 28,
+    "reference_identity_mismatch": 0,
+    "doi_duplicates": 0,
+    "orphan_references": 0,
+    "result_id_mismatch": 0,
+    "locator_mismatch": 0,
+    "unsupported_central_sentences": 0,
+    "statistic_mismatch_material": 0,
+    "contextual_role_violations": 0,
+    "cohort_double_counting": 0,
+    "null_suppression": 0,
+    "ev1379_support_use": 0,
+    "contradictory_support_use": 0,
+    "brazil_direct_inflation": 0,
+    "scientific_drift_material": 0,
+    "unauthorized_cef_changes": 0,
+    "unauthorized_zotero_changes": 0,
+    "human_decisions_required": 2
+  },
+  "outputs": [
+    {
+      "file": "FINAL_ABSTRACT_AUDIT.csv",
+      "sha256": "71000f71252dad37b9c8a82b01341ce63bf49d955c9646c112325e8bf41b4a71"
+    },
+    {
+      "file": "FINAL_CAUSAL_LANGUAGE_AUDIT.csv",
+      "sha256": "b4c245e027df0aed74a228e2899676e32dce318e7438c6a2d856d49849966295"
+    },
+    {
+      "file": "FINAL_CLAIM_AUDIT.csv",
+      "sha256": "2ebefb40e029a1cc7ddc1728bad1a5a7a50fd79eb76437a5b623b0a69515dcec"
+    },
+    {
+      "file": "FINAL_CLAIM_READY_LEDGER.csv",
+      "sha256": "a92616bdf82f52ba3e1862ad6a7c30e0f7a13171ee8e4e4ec259b9f04d5b7825"
+    },
+    {
+      "file": "FINAL_COHORT_OVERLAP_AUDIT.csv",
+      "sha256": "3a56406c32bac2fb8d6083b399c11153af6d2a65c3eae3cbe3bf205abb5e40ab"
+    },
+    {
+      "file": "FINAL_CONCLUSION_AUDIT.csv",
+      "sha256": "bb599152493158045a671e0ef42b58c385661dd244ed6c0c99218c3711619578"
+    },
+    {
+      "file": "FINAL_CONTEXTUAL_ROLE_AUDIT.csv",
+      "sha256": "2ec3003a78c9b81542f962d5ffb4e1e3154a507d4827dd470191cf3ba6d8e2c8"
+    },
+    {
+      "file": "FINAL_CONTRADICTORY_EVIDENCE_AUDIT.csv",
+      "sha256": "1e9a92adb445e92238dc1f30ad4f16c7d84679b4564da28836723b6355a905bd"
+    },
+    {
+      "file": "FINAL_DISCUSSION_AUDIT.csv",
+      "sha256": "cb8ec7b2af917259da3b3db44368bfde0b257b86d563b4074104c2f4b6cda33a"
+    },
+    {
+      "file": "FINAL_INTEGRITY_RECHECK_28.csv",
+      "sha256": "f12cc9759fd9c5e7fc64e7f237889e50da2d07ed845fde913b2e8bbfbaef5be7"
+    },
+    {
+      "file": "FINAL_LIMITATIONS_AUDIT.csv",
+      "sha256": "247f3287c171627c31d01e4a385b44fb0d72d623048b8d15b6a0bb08f599fd00"
+    },
+    {
+      "file": "FINAL_METHODS_AUDIT.csv",
+      "sha256": "223e03cb25b681479c74a8ac30a91991a40d451bf0013b84e00c61716e9f022d"
+    },
+    {
+      "file": "FINAL_NULL_RESULT_AUDIT.csv",
+      "sha256": "31193eebb79dc4df81b32e4884f786fad7e31a6d28436c62d98cb1a0ce4b597c"
+    },
+    {
+      "file": "FINAL_PROVENANCE_CHAIN_AUDIT.csv",
+      "sha256": "fd078cf4f215f4f1bd700ce61a91e7d4c331f65599a6df3016adaf1b3a691374"
+    },
+    {
+      "file": "FINAL_REFERENCE_AUDIT_28.csv",
+      "sha256": "2568fda11f7048709f400010287c13b48797257890d1feb57ad1373a823def06"
+    },
+    {
+      "file": "FINAL_RESULTS_SYNTHESIS_AUDIT.csv",
+      "sha256": "5be5ba6ee2fac14c952014f6812405872fcbcc945348e4c1313a16ab05f51bbb"
+    },
+    {
+      "file": "FINAL_SCIENTIFIC_DRIFT_AUDIT.csv",
+      "sha256": "6becc6664c637687c49c1890a43307053b6d086581119824a5ce3decc3b50d1d"
+    },
+    {
+      "file": "FINAL_SENTENCE_LEVEL_AUDIT.csv",
+      "sha256": "6f70109a9adb2db111f138329699416f4e17bad620fb35db69aeb0012bfdafa2"
+    },
+    {
+      "file": "FINAL_STATISTICAL_AUDIT.csv",
+      "sha256": "875d65d4d0d0b0de57f4eacb908d0abc82c4e44b47a0eae16b9e7503eb4880ff"
+    },
+    {
+      "file": "FINAL_TRANSFERABILITY_AUDIT.csv",
+      "sha256": "73a3998e8ba7de33efc1bb16e4704322f59f169fe48c9ebeebd75434d4c7ba22"
+    },
+    {
+      "file": "International_v1.2-FINAL-SCIENTIFIC-AUDIT.docx",
+      "sha256": "2c9c57cf413572cec9ef17e1c96910607ea1b34f192c817cd4734481192df175"
+    },
+    {
+      "file": "International_v1.2-FINAL-SCIENTIFIC-AUDIT.md",
+      "sha256": "1e5f9bb161ac2d8da5e9c8bfd53c03559c712ea7315f3921ad7c05ad1d8eef4f"
+    },
+    {
+      "file": "NEW_HUMAN_DECISION_QUEUE.csv",
+      "sha256": "b833500ff3d5254768062531f69221d9fb6ef9bc50543c6f098aae32c4403c64"
+    },
+    {
+      "file": "SCIENTIFIC_AUDIT_CORRECTIONS_APPLIED.csv",
+      "sha256": "f935222b99fb530af1f63cdebaf449d8a8374d51da9a6ce3e019ef21bea79fb1"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+Correction_ID,Scope,Original,Corrected,Reason,Materiality,Applied
+C-001,Claim ledger identifier,RC-EXP-INT-SLEEP-01,RC-EXP-INT-SLEEP-IMPL-01,Disambiguates the implementation claim from frozen sleep/caffeine claim; no wording or role changed.,NON_MATERIAL,YES
+C-002,Limitations sentence,The manuscript uses 20 active working references,The manuscript uses 28 active working references,Reconciles text with the active reference ledger.,NON_MATERIAL,YES
+C-003,Reference 16 DOI,doi:not indexed in PubMed,doi:10.2147/NSS.S601666,Crossref DOI identity match for the listed article.,NON_MATERIAL,YES

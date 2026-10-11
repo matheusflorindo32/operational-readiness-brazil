@@ -1,0 +1,5 @@
+Evidence_ID,Result_ID,Null_Result,Manuscript_Treatment,Suppression,Audit
+EV-0386,EV-0386-11A-R01,No statistically or clinically significant cardiometabolic or fire-ground performance effect after four weeks of astaxanthin.,Explicitly retained as null result,NO,PASS
+EV-1485,EV-1485-11F-FT-R01,Several physiologic and subjective outcomes did not differ during exercise.,Explicitly retained as limitation of cooling inference,NO,PASS
+EV-1489,EV-1489-11F-FT2-R01,Reaction time and executive function were exceptions.,Explicitly retained as qualification,NO,PASS
+EV-1473;EV-1474,EV-1473-R02;EV-1474-R02,Reported shooting/stress and physical activity/fitness correlations did not differ significantly.,Explicitly retained as boundary,NO,PASS

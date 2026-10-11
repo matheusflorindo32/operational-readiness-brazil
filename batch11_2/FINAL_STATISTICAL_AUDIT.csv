@@ -1,0 +1,5 @@
+Sentence_Anchor,Evidence_ID,Result_ID,Statistic,Source_Locator,Audit
+30-15 intermittent fitness test,EV-0667,EV-0667-11A-R01,"ICC .971, .960, .975",Result packet EV-0667-11A-R01,STATISTIC_MATCH
+police-recruit cohort,EV-0204,EV-0204-11A-R01,HR 0.89 (95% CI 0.83-0.95); beta 0.21 (95% CI 0.12-0.30); n=216,Result packet EV-0204-11A-R01,STATISTIC_MATCH
+military training cohort,EV-0586,EV-0586-11A-R01,"n=1,407; eight weeks",Result packet EV-0586-11A-R01,STATISTIC_MATCH
+sleep telehealth platform,EV-0183,EV-0183-11A-R01,270 participants,Result packet EV-0183-11A-R01,STATISTIC_MATCH

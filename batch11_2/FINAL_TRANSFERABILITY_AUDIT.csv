@@ -1,0 +1,29 @@
+Evidence_ID,Citation_Number,International_Use,Brazil_Direct,Population_Ceiling,Audit
+EV-1462,1,Central bounded claim,NO,Source population only,PASS
+EV-1463,2,Central bounded claim,NO,Source population only,PASS
+EV-1473,3,Central bounded claim,NO,Source population only,PASS
+EV-1474,4,Central bounded claim,NO,Source population only,PASS
+EV-0667,5,Bounded supporting claim; Claim-Ready NO,NO,Source population only,PASS
+EV-0068,6,Bounded supporting claim; Claim-Ready NO,NO,Source population only,PASS
+EV-0103,7,Bounded supporting claim; Claim-Ready NO,NO,Source population only,PASS
+EV-0183,8,Bounded supporting claim; Claim-Ready NO,NO,Source population only,PASS
+EV-0204,9,Bounded supporting claim; Claim-Ready NO,NO,Source population only,PASS
+EV-0586,10,Bounded supporting claim; Claim-Ready NO,NO,Source population only,PASS
+EV-0670,11,Bounded supporting claim; Claim-Ready NO,NO,Source population only,PASS
+EV-0721,12,Bounded supporting claim; Claim-Ready NO,NO,Source population only,PASS
+EV-0734,13,Bounded supporting claim; Claim-Ready NO,NO,Source population only,PASS
+EV-0960,14,Bounded supporting claim; Claim-Ready NO,NO,Source population only,PASS
+EV-1026,15,Bounded supporting claim; Claim-Ready NO,NO,Source population only,PASS
+EV-1461,16,Bounded supporting claim; Claim-Ready NO,NO,Source population only,PASS
+EV-0386,17,Discussion only; never central claim,NO,Source population only,PASS
+EV-1458,18,Discussion only; never central claim,NO,Source population only,PASS
+EV-0167,19,Discussion only; never central claim,NO,Source population only,PASS
+EV-0252,20,Discussion only; never central claim,NO,Source population only,PASS
+EV-1486,21,Bounded supporting,NO,Source population only,PASS
+EV-1490,22,Bounded supporting,NO,Source population only,PASS
+EV-1489,23,Bounded supporting,NO,Source population only,PASS
+EV-1492,24,Bounded supporting,NO,Source population only,PASS
+EV-1485,25,Contextual discussion only,NO,Source population only,PASS
+EV-1487,26,Contextual discussion only,NO,Source population only,PASS
+EV-1488,27,Contextual discussion only,NO,Source population only,PASS
+EV-1491,28,Contextual discussion only,NO,Source population only,PASS

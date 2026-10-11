@@ -1,0 +1,21 @@
+Claim_ID,Claim_Audit_Status,Stored_Claim_Ready,Promotion_Outcome,Reason
+RC-INT-SLEEP-01,CLAIM_READY_PASS,NO,NO_AUTOMATIC_PROMOTION,"Result, locator, role and boundary reconcile; formal Claim-Ready promotion is not automatic in this audit."
+RC-BRA-CVD-01,CLAIM_READY_PASS,NO,NO_AUTOMATIC_PROMOTION,"Result, locator, role and boundary reconcile; formal Claim-Ready promotion is not automatic in this audit."
+RC-BRA-SHOOT-01,CLAIM_READY_PASS,NO,NO_AUTOMATIC_PROMOTION,"Result, locator, role and boundary reconcile; formal Claim-Ready promotion is not automatic in this audit."
+RC-BRA-SHOOT-02,CLAIM_READY_PASS,NO,NO_AUTOMATIC_PROMOTION,"Result, locator, role and boundary reconcile; formal Claim-Ready promotion is not automatic in this audit."
+RC-EXP-INT-AER-01,CLAIM_READY_PASS,NO,NO_AUTOMATIC_PROMOTION,"Result, locator, role and boundary reconcile; formal Claim-Ready promotion is not automatic in this audit."
+RC-EXP-INT-MSK-01,CLAIM_READY_PASS,NO,NO_AUTOMATIC_PROMOTION,"Result, locator, role and boundary reconcile; formal Claim-Ready promotion is not automatic in this audit."
+RC-EXP-INT-APH-01,CLAIM_READY_PASS,NO,NO_AUTOMATIC_PROMOTION,"Result, locator, role and boundary reconcile; formal Claim-Ready promotion is not automatic in this audit."
+RC-EXP-INT-SLEEP-IMPL-01,CLAIM_READY_PASS,NO,NO_AUTOMATIC_PROMOTION,"Result, locator, role and boundary reconcile; formal Claim-Ready promotion is not automatic in this audit."
+RC-EXP-INT-MSK-02,CLAIM_READY_PASS,NO,NO_AUTOMATIC_PROMOTION,"Result, locator, role and boundary reconcile; formal Claim-Ready promotion is not automatic in this audit."
+RC-EXP-INT-BODY-01,CLAIM_READY_PASS,NO,NO_AUTOMATIC_PROMOTION,"Result, locator, role and boundary reconcile; formal Claim-Ready promotion is not automatic in this audit."
+RC-EXP-INT-PHYS-01,CLAIM_READY_PASS,NO,NO_AUTOMATIC_PROMOTION,"Result, locator, role and boundary reconcile; formal Claim-Ready promotion is not automatic in this audit."
+RC-EXP-INT-MSK-03,CLAIM_READY_PASS,NO,NO_AUTOMATIC_PROMOTION,"Result, locator, role and boundary reconcile; formal Claim-Ready promotion is not automatic in this audit."
+RC-EXP-INT-MED-01,CLAIM_READY_PASS,NO,NO_AUTOMATIC_PROMOTION,"Result, locator, role and boundary reconcile; formal Claim-Ready promotion is not automatic in this audit."
+RC-EXP-INT-PHYS-02,CLAIM_READY_PASS,NO,NO_AUTOMATIC_PROMOTION,"Result, locator, role and boundary reconcile; formal Claim-Ready promotion is not automatic in this audit."
+RC-EXP-INT-MSK-04,CLAIM_READY_PASS,NO,NO_AUTOMATIC_PROMOTION,"Result, locator, role and boundary reconcile; formal Claim-Ready promotion is not automatic in this audit."
+RC-EXP-INT-SLEEP-02,CLAIM_READY_PASS,NO,NO_AUTOMATIC_PROMOTION,"Result, locator, role and boundary reconcile; formal Claim-Ready promotion is not automatic in this audit."
+RC-EXP3-INT-PHYS-01,CLAIM_HOLD,NO,NO_AUTOMATIC_PROMOTION,Prior packet explicitly requires human verification of the exact result before citation wording; retained without promotion.
+RC-EXP3-INT-PHYS-02,CLAIM_READY_PASS,NO,NO_AUTOMATIC_PROMOTION,"Result, locator, human role and boundary reconcile; formal Claim-Ready promotion remains outside this audit."
+RC-EXP3-INT-SLEEP-01,CLAIM_READY_PASS,NO,NO_AUTOMATIC_PROMOTION,"Result, locator, human role and boundary reconcile; formal Claim-Ready promotion remains outside this audit."
+RC-EXP3-INT-PHYS-03,CLAIM_HOLD,NO,NO_AUTOMATIC_PROMOTION,Prior packet explicitly requires human verification of the exact result before citation wording; retained without promotion.
