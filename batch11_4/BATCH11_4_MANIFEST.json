@@ -1,0 +1,140 @@
+{
+  "batch": "BATCH 11.4",
+  "date": "2026-10-12",
+  "base_commit": "7332f32ebc81304acdc1a7e4a8c86a121bfb2a34",
+  "input_freeze": {
+    "docx_sha256": "f5886dd8e715ee5d4666213b5b59027e382185a3ae19ce7959417ce6fe672030",
+    "markdown_sha256_canonical_lf": "e94de20c2e0882f8bd023ac701d81fd8672bc07ada0b97cda0b6f11cbbbd688b"
+  },
+  "target_journal": "Journal of Occupational Health",
+  "article_type": "Review Article",
+  "guidelines_url": "https://academic.oup.com/joh/pages/author-guidelines",
+  "guidelines_current": "YES",
+  "qa": {
+    "target_journal": "Journal of Occupational Health",
+    "article_type": "Review Article",
+    "guidelines_current": "YES",
+    "scientific_freeze_preserved": "YES",
+    "central_claims_preserved": "20/20",
+    "claim_ready_preserved": "20/20",
+    "evidence_role_mutations": 0,
+    "statistical_mutations": 0,
+    "causal_mutations": 0,
+    "transferability_mutations": 0,
+    "new_scientific_references": 0,
+    "removed_scientific_references": 0,
+    "active_references_reconciled": "28/28",
+    "duplicate_doi": 0,
+    "orphan_references": 0,
+    "abstract_within_limit": "YES",
+    "keywords_within_limit": "YES",
+    "key_points_within_limit": "YES",
+    "main_body_within_6000": "YES",
+    "tables_figures_within_limit": "YES",
+    "cef_mutation": 0,
+    "zotero_mutation": 0,
+    "brazil_mutation": 0,
+    "authorship_mutation": 0,
+    "unresolved_scientific_decisions": 0
+  },
+  "outputs": [
+    {
+      "file": "International_v1.4-JOH-EDITORIAL-ADAPTED.docx",
+      "sha256_canonical_lf": "a4758b6f8b944625c75c38adc04ec7abe8b8b1bc4d87efd0503404895cec9f56"
+    },
+    {
+      "file": "International_v1.4-JOH-EDITORIAL-ADAPTED.md",
+      "sha256_canonical_lf": "b04a27da5ae72c9b876e3464a2ad84032b329b28e64b8ac5c0a2ec11c33dddd8"
+    },
+    {
+      "file": "JOH_ABSTRACT_PROVENANCE_AUDIT.csv",
+      "sha256_canonical_lf": "696ab1aa49e6f72d7efd117f610113c50e8b34bac5c8b4fa664230a3e6335e66"
+    },
+    {
+      "file": "JOH_AI_DISCLOSURE_DRAFT.md",
+      "sha256_canonical_lf": "2834904ee18610af09cc2c7e9b1a241046e6d017994ff1cd5576193791ed2a95"
+    },
+    {
+      "file": "JOH_COVER_LETTER_DRAFT.md",
+      "sha256_canonical_lf": "1faef9b793dfc06e8116a461308aff066eee22dace759bbec696da2d99f83f72"
+    },
+    {
+      "file": "JOH_CREDIT_DRAFT.csv",
+      "sha256_canonical_lf": "6923d06484275a85d3d2436e7991f8c5243313299dfe1f62330f06e1b9723bb5"
+    },
+    {
+      "file": "JOH_DATA_AVAILABILITY_DRAFT.md",
+      "sha256_canonical_lf": "db17cecbc604c48c926b4cd9f423253ce5f242465e7ca794e8587b73ee64f741"
+    },
+    {
+      "file": "JOH_DECLARATIONS_DRAFT.md",
+      "sha256_canonical_lf": "5360f0e1a47a29a43d5bdf8713fc571129aefef32e8a24a1cf724cec31a8d958"
+    },
+    {
+      "file": "JOH_DOCX_VALIDATION_REPORT.md",
+      "sha256_canonical_lf": "ce4f7a2883a0d5433593cf2b92c6a5293c5379a4d97aaf1f21e8f750951212a1"
+    },
+    {
+      "file": "JOH_EDITORIAL_CHANGELOG.csv",
+      "sha256_canonical_lf": "fee30d753725fb2580e437e9ce18420881be907857a5c4e8c96bf1405531bbef"
+    },
+    {
+      "file": "JOH_FINAL_WORD_COUNT.csv",
+      "sha256_canonical_lf": "95cbc4f37dd5ec0553493e95d1ec75b10ba2d47130c3efb0858c5f09ad72ede9"
+    },
+    {
+      "file": "JOH_HUMAN_INPUT_QUEUE.csv",
+      "sha256_canonical_lf": "fdb3d9ac978502adfaddf7c32a110fd12a3296f803779811a2d3c23531af95ec"
+    },
+    {
+      "file": "JOH_KEY_POINTS.md",
+      "sha256_canonical_lf": "57770664c3be1e2124ff26787165b238c644b5920b1e5bd3ea7abf7f4ca58e10"
+    },
+    {
+      "file": "JOH_KEYWORDS_FINAL.csv",
+      "sha256_canonical_lf": "aff651ee369ce896e836038f465fcdf645ef455a1991b12a8b783c2f6da64be1"
+    },
+    {
+      "file": "JOH_REFERENCE_STYLE_CONVERSION.csv",
+      "sha256_canonical_lf": "12810f0ada134212587f5d4aa78438ada583beeccf0a4dd5cd539a04df1b8cab"
+    },
+    {
+      "file": "JOH_REPORTING_GUIDELINE_FINAL_AUDIT.md",
+      "sha256_canonical_lf": "bf75aeb5952f1982c7a6e59bac46100afc812650829e7920f90fd7abb335b3f2"
+    },
+    {
+      "file": "JOH_REPOSITORY_DISCLOSURE_AUDIT.md",
+      "sha256_canonical_lf": "8939cdd0a70831020d41ce0314cb849838c76665691548bd933f2c4b75d21f3f"
+    },
+    {
+      "file": "JOH_SCIENTIFIC_FREEZE_DIFF.csv",
+      "sha256_canonical_lf": "5a46bb7d7a7667ab7b3666f628ae6488ad4d5b9d203c70286b163da3a7f19a90"
+    },
+    {
+      "file": "JOH_SECTION_MAPPING.csv",
+      "sha256_canonical_lf": "ce8f65bd2ebb44d4192a6e38a719b9dca301d95feec6d682686c89528d11d851"
+    },
+    {
+      "file": "JOH_STRUCTURED_ABSTRACT_AUDIT.csv",
+      "sha256_canonical_lf": "fd45fe75c562f8c3b4d26f485ee6c12d960f1413593166bf52a6adde16a6009d"
+    },
+    {
+      "file": "JOH_SUBMISSION_REQUIREMENT_CHECKLIST.csv",
+      "sha256_canonical_lf": "4be3834bb7d2f67248df287177bede3ee609b4f324cbdef10652674d83edb3e5"
+    },
+    {
+      "file": "JOH_TABLE_FIGURE_ASSESSMENT.csv",
+      "sha256_canonical_lf": "4fbc117c6bce55f9ff7cf299ef96310f0124499f67fa69971da801313f325a16"
+    },
+    {
+      "file": "JOH_TITLE_AUDIT.csv",
+      "sha256_canonical_lf": "60cdf2b89b6139890e3fbeccc81b58aa1df39c35cbfabfa65ffbed0cff13667b"
+    },
+    {
+      "file": "JOH_TITLE_PAGE_DRAFT.docx",
+      "sha256_canonical_lf": "b8f712fc17ed8e1168491fad82205d3bcda887a20c69a59c98228f9ae6552770"
+    }
+  ],
+  "gate": "JOH_EDITORIAL_ADAPTATION_PASS",
+  "next_gate": "GO_JOH_FINAL_HUMAN_METADATA_AND_SUBMISSION_APPROVAL"
+}

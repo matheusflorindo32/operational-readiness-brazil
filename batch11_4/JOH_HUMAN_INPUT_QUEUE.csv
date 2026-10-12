@@ -1,0 +1,10 @@
+Queue_ID,Item,Status,Required_Decision,Human_Decision,Reviewer,Decision_Date
+JOH-H-01,CORRESPONDING_AUTHOR_SELECTION,HUMAN_INPUT_REQUIRED,Select one corresponding author and provide email and postal address.,,,
+JOH-H-02,SUBMITTING_AUTHOR_SELECTION,HUMAN_INPUT_REQUIRED,Confirm submitting author and whether distinct from corresponding author.,,,
+JOH-H-03,AUTHOR_NAMES_ORDER_AFFILIATIONS_ORCID,HUMAN_INPUT_REQUIRED,"Confirm approved author names, order, affiliations, and any ORCID iDs.",,,
+JOH-H-04,CREDIT_FINAL_APPROVAL,HUMAN_INPUT_REQUIRED,Approve author-specific CRediT roles from an existing human record.,,,
+JOH-H-05,AI_DISCLOSURE_FINAL_APPROVAL,HUMAN_INPUT_REQUIRED,Confirm factually accurate tool/version/use disclosure required by OUP policy.,,,
+JOH-H-06,FINAL_AUTHOR_APPROVAL,HUMAN_INPUT_REQUIRED,Confirm all authors approved the adapted manuscript.,,,
+JOH-H-07,SIMULTANEOUS_SUBMISSION_DECLARATION,HUMAN_INPUT_REQUIRED,Confirm manuscript is not under consideration elsewhere.,,,
+JOH-H-08,REPOSITORY_DISCLOSURE_APPROVAL,HUMAN_INPUT_REQUIRED,"Confirm public repository, permitted URL, release/tag, license, and artifact scope.",,,
+JOH-H-09,APC_ELIGIBILITY_CHECK,HUMAN_INPUT_REQUIRED,"Confirm corresponding-author eligibility, institution agreement, waiver/discount, licence, tax, and final charge.",,,

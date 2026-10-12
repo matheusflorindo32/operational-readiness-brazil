@@ -1,0 +1,8 @@
+Change_ID,Area,Classification,Description,Potential_Scientific_Change,Scientific_Drift
+EC-01,Structured abstract,JOURNAL_REQUIREMENT,Reordered frozen abstract sentences under JOH headings,NO,0
+EC-02,Key Points,JOURNAL_REQUIREMENT,Added three bounded editorial summary statements derived from frozen abstract/introduction,NO,0
+EC-03,Keywords,STYLE_ONLY,Preserved six keywords with semicolon delimiters,NO,0
+EC-04,Subtitle,STYLE_ONLY,Changed working subtitle to Review Article JOH editorial adaptation,NO,0
+EC-05,Title page,DECLARATION_ONLY,Created separate draft with human-input placeholders,NO,0
+EC-06,Declarations,DECLARATION_ONLY,Created drafts and queues; no human fact asserted,NO,0
+EC-07,References,REFERENCE_FORMAT_ONLY,Retained numbered identities and DOI strings; no reference added/removed,NO,0

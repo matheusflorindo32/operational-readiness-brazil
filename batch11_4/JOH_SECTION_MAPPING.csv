@@ -1,0 +1,17 @@
+Current_Section,JOH_Section,Action,Science_Impact
+Title,Title,KEEP,NONE
+Abstract,Abstract with Objectives Methods Results Conclusions,RENAME_EDITORIALLY,NONE
+Keywords,Keywords,KEEP,NONE
+Not present,Key Points,SPLIT_EDITORIALLY,NONE
+Introduction,Introduction,KEEP,NONE
+Methods,Methods,KEEP,NONE
+Results,Results,KEEP,NONE
+Discussion,Discussion,KEEP,NONE
+Limitations,Limitations,KEEP,NONE
+Conclusion,Conclusion,KEEP,NONE
+References,References,KEEP,NONE
+Not present,Acknowledgments,HUMAN_REVIEW_REQUIRED,NONE
+Not present,Author Contributions CRediT,HUMAN_REVIEW_REQUIRED,NONE
+Not present,Conflict of Interest,SPLIT_EDITORIALLY,NONE
+Not present,Data Availability Statement,HUMAN_REVIEW_REQUIRED,NONE
+Not present,Study Funding,SPLIT_EDITORIALLY,NONE
