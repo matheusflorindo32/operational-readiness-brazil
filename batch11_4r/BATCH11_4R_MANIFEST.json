@@ -1,0 +1,14 @@
+{
+  "batch": "BATCH 11.4R",
+  "base": "b322e69d21f2fae2820ed76da58981186b8cb010",
+  "gate": "BILINGUAL_MANUAL_REVIEW_PACKAGE_PASS",
+  "next": "GO_MANUAL_AUTHOR_REVIEW",
+  "EN_docx_sha256": "a4758b6f8b944625c75c38adc04ec7abe8b8b1bc4d87efd0503404895cec9f56",
+  "PT_docx_sha256": "0c27ad58cd4c35306a8b301cf2bdf791d0f7b74d22816506f3e4b5dfa5005360",
+  "xlsx_sha256": "a3ea58843894de639ab6bf899aa15a74ee98d6946a6a3d1def4cbef903a61a1f",
+  "references": "28/28",
+  "claims": "20/20",
+  "translation_drift": 0,
+  "scientific_drift": 0,
+  "required_artifacts": "7/7"
+}

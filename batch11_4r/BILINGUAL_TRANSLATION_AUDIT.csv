@@ -1,0 +1,7 @@
+Check,Result,Details
+English source identity,PASS,English review DOCX is a byte-for-byte copy of International_v1.4-JOH-EDITORIAL-ADAPTED.docx.
+Portuguese review banner,PASS,Required non-submission banner is first content.
+Numeric equivalence,PASS,Literal numeric tokens reconciled after locale-only punctuation normalization: EN=244; PTBR=244.
+Reference integrity,PASS,28 active references retained in the original language; DOI and citation strings are not translated.
+Frozen-claim integrity,PASS,20 frozen claims imported from the approved ledger; no scientific claim was added or promoted.
+Governance labels,PASS,Framework and Claim-Ready labels preserved verbatim where present.
