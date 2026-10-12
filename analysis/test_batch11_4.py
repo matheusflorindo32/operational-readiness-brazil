@@ -1,6 +1,6 @@
 import csv, hashlib, json, unittest, zipfile
 from pathlib import Path
-from docx import Document
+from xml.etree import ElementTree
 
 ROOT=Path(__file__).resolve().parents[1]; OUT=ROOT/'batch11_4'
 def csha(p): return hashlib.sha256(p.read_bytes().replace(b'\r\n',b'\n')).hexdigest()
@@ -23,10 +23,14 @@ class Batch114Tests(unittest.TestCase):
         with (OUT/'JOH_KEYWORDS_FINAL.csv').open(encoding='utf-8', newline='') as stream: kws=list(csv.DictReader(stream))
         self.assertEqual(len(kws),6)
     def test_docx_ooxml_and_framework_guard(self):
+        texts=[]
         for name in ['International_v1.4-JOH-EDITORIAL-ADAPTED.docx','JOH_TITLE_PAGE_DRAFT.docx']:
             with zipfile.ZipFile(OUT/name) as z:
                 self.assertIn('word/document.xml',z.namelist()); self.assertIsNone(z.testzip())
-        text='\n'.join(p.text for p in Document(OUT/'International_v1.4-JOH-EDITORIAL-ADAPTED.docx').paragraphs)
+                if name.startswith('International'):
+                    root=ElementTree.fromstring(z.read('word/document.xml'))
+                    texts.extend(node.text or '' for node in root.iter('{http://schemas.openxmlformats.org/wordprocessingml/2006/main}t'))
+        text='\n'.join(texts)
         self.assertIn('PROPOSED SYNTHESIS FRAMEWORK',text); self.assertIn('NOT YET VALIDATED',text)
         self.assertIn('Objectives:',text); self.assertIn('What this study adds.',text)
     def test_human_items_are_unresolved(self):
