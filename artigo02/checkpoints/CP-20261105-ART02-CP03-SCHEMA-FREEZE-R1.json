@@ -1,0 +1,284 @@
+{
+  "schemaVersion": "artigo02-checkpoint-v1",
+  "id": "CP-20261105-ART02-CP03-SCHEMA-FREEZE-R1",
+  "dateLocal": "2026-11-05",
+  "timezone": "America/Sao_Paulo",
+  "status": "DOCUMENTAL_PARTIAL",
+  "scientificGate": "SCIENTIFIC_RECONCILIATION_PENDING",
+  "editorialGate": "HUMAN_REVIEW_REQUIRED",
+  "priorCheckpoint": "CP-20261105-ART02-CP02-ENPT-CONTROLE-R1",
+  "priorCommit": "83c3287e14a2d786b0925e088c0740f9129ec1ab",
+  "branch": "audit/artigo02-cp03-20261105",
+  "artigo02Title": "Operational Readiness Evidence Boundaries in Tactical and Public Safety Workforces",
+  "team": {
+    "researcher": "Matheus Florindo de Deus",
+    "scientificSupervisor": "Danilo Sales Bocalini",
+    "authorshipCandidate": "Geanderson Sampaio de Oliveira",
+    "approvalStatus": "HUMAN_INPUT_REQUIRED"
+  },
+  "checks": {
+    "cp02Readback": true,
+    "gitHistoricalTreeFiles": 1638,
+    "masterTabCount": 38,
+    "mirrorTabCount": 53,
+    "masterHistoricalOrderPreserved": 38,
+    "postHistoricalTabs": 15,
+    "allPostHistoricalTabsProvisionalQuarantine": true,
+    "masterSHA256ReadOnly": "6f509236addb12e705e9011dc3ec085003edd0d9c14153293c5602a1b37a0fa7",
+    "mirrorXlsxExportSHA256ReadOnly": "4e64740b8366c5aca9b159c885d6f6feff66b16fc2012a1dbba852eb3c2cce82",
+    "tabValueDifferencesOOXML": 13,
+    "tabFormulaTextDifferencesOOXML": 6,
+    "rawStoredValueDifferenceCellsOOXML": 790,
+    "rawFormulaTextDifferenceCellsOOXML": 106,
+    "formulaSentinelsCheckedLive": [
+      "01_PAINEL!B28:B30",
+      "02_CADASTRO_28!BS10:BS12",
+      "03_CLAIMS_20_REV!AE10:AE12",
+      "04_EVIDENCIAS_REV!AA10:AA14",
+      "06_REF_CLAIM_FIT!AD10:AD12",
+      "01_DASHBOARD!B5:B6"
+    ],
+    "liveFormulaSentinelsPresent": true,
+    "exportFormulaMismatchIsProofOfLoss": false,
+    "masterMirrorEquivalent": false
+  },
+  "scienceProvenance": {
+    "historicalFrozenMd": {
+      "path": "batch11_2h/International_v1.3-FINAL-SCIENTIFIC-FREEZE.md",
+      "blobSHA": "06ba0cd1a88c0a97b9eca7d4f2c40f5c918ae153",
+      "sha256ReportedInHistoricalManifest": "e94de20c2e0882f8bd023ac701d81fd8672bc07ada0b97cda0b6f11cbbbd688b",
+      "historicalManifestPath": "batch11_2h/FULL_MANUSCRIPT_FINAL_FREEZE_MANIFEST.json",
+      "sourceLocated": "YES",
+      "independentSHA256Recheck": "NOT_PERFORMED"
+    },
+    "sentenceLedger": "batch11_2h/FINAL_SENTENCE_PROVENANCE_POST_HUMAN.csv",
+    "verbatimSentencesInFrozenMd": 34,
+    "totalHistoricalSentences": 34,
+    "currentRCClaimIds": 20,
+    "directIdMatches": 19,
+    "idMismatch": 1,
+    "aliasedEvidenceId": "EV-0183",
+    "currentClaimId": "RC-EXP-INT-SLEEP-IMPL-01",
+    "historicalClaimId": "RC-EXP-INT-SLEEP-01",
+    "historicalSentenceId": "INT13-S062",
+    "aliasResolution": "HUMAN_DECISION_REQUIRED",
+    "claimToSentenceIds": {
+      "RC-INT-SLEEP-01": [
+        "INT13-S060"
+      ],
+      "RC-BRA-CVD-01": [
+        "INT13-S067"
+      ],
+      "RC-BRA-SHOOT-01": [
+        "INT13-S086",
+        "INT13-S108"
+      ],
+      "RC-BRA-SHOOT-02": [
+        "INT13-S087",
+        "INT13-S108"
+      ],
+      "RC-EXP-INT-AER-01": [
+        "INT13-S074"
+      ],
+      "RC-EXP-INT-MSK-01": [
+        "INT13-S092",
+        "INT13-S114"
+      ],
+      "RC-EXP-INT-APH-01": [
+        "INT13-S090",
+        "INT13-S111"
+      ],
+      "RC-EXP-INT-SLEEP-IMPL-01": null,
+      "RC-EXP-INT-MSK-02": [
+        "INT13-S076",
+        "INT13-S102"
+      ],
+      "RC-EXP-INT-BODY-01": [
+        "INT13-S078",
+        "INT13-S099"
+      ],
+      "RC-EXP-INT-PHYS-01": [
+        "INT13-S080"
+      ],
+      "RC-EXP-INT-MSK-03": [
+        "INT13-S083",
+        "INT13-S102"
+      ],
+      "RC-EXP-INT-MED-01": [
+        "INT13-S069"
+      ],
+      "RC-EXP-INT-PHYS-02": [
+        "INT13-S081"
+      ],
+      "RC-EXP-INT-MSK-04": [
+        "INT13-S084",
+        "INT13-S102"
+      ],
+      "RC-EXP-INT-SLEEP-02": [
+        "INT13-S064"
+      ],
+      "RC-EXP3-INT-PHYS-01": [
+        "INT13-S117"
+      ],
+      "RC-EXP3-INT-PHYS-02": [
+        "INT13-S119"
+      ],
+      "RC-EXP3-INT-SLEEP-01": [
+        "INT13-S138"
+      ],
+      "RC-EXP3-INT-PHYS-03": [
+        "INT13-S127",
+        "INT13-S128"
+      ]
+    },
+    "frozenWordingsEnteredIntoLiveControl": 0,
+    "claimReferenceFitsFinalApproved": 0
+  },
+  "historicalControl": {
+    "referencesInArt02": 28,
+    "uniqueXTR": 222,
+    "sourceExtractionsREF07": 12,
+    "claimedButUnprovenREF07": 4,
+    "openIssues": 66,
+    "blockers": 13,
+    "major": 33,
+    "minor": 2,
+    "queries": 18,
+    "verifiedSeparateEntries": 24
+  },
+  "postHistoricalTabClassifications": [
+    {
+      "sheet": "20_FASE41_DOSSIER_22",
+      "subject": "22 fontes; matriz de dossiê",
+      "provisionalAttribution": "ART01_PROBABLE_SHARED",
+      "guard": "R001-R028 do Artigo 02 não equivalem a esta lista de 22",
+      "decision": "QUARANTINE_FROM_ART02_MASTER_PENDING_ROW_LEVEL_PROVENANCE"
+    },
+    {
+      "sheet": "21_FASE42_RASTREIO_EN_PT",
+      "subject": "EN-P001 e texto de framework conceitual",
+      "provisionalAttribution": "ART01_PROBABLE_SHARED",
+      "guard": "rastreio não é o ledger RC- do Artigo 02",
+      "decision": "QUARANTINE_FROM_ART02_MASTER_PENDING_ROW_LEVEL_PROVENANCE"
+    },
+    {
+      "sheet": "22_FASE43_EVIDENCIA_VERIFICADA",
+      "subject": "APH: Ali 2021 e Dragset 2023",
+      "provisionalAttribution": "ART01_PROBABLE_SHARED",
+      "guard": "não migrar inferência de eficácia para Artigo 02",
+      "decision": "QUARANTINE_FROM_ART02_MASTER_PENDING_ROW_LEVEL_PROVENANCE"
+    },
+    {
+      "sheet": "23_FASE44_METODOLOGIA_7",
+      "subject": "7 estudos metodológicos; Paravlic/Palmieri/Junger",
+      "provisionalAttribution": "SHARED_REFERENCE_LAYER",
+      "guard": "coincidência bibliográfica exige source-to-claim independente",
+      "decision": "QUARANTINE_FROM_ART02_MASTER_PENDING_ROW_LEVEL_PROVENANCE"
+    },
+    {
+      "sheet": "24_FASE45_CEF_RECONCILIACAO",
+      "subject": "BR-CLM-001..011, diferente de RC-",
+      "provisionalAttribution": "CROSS_PROJECT_BR_CEF",
+      "guard": "NÃO usar BR-CLM para preencher RC-20",
+      "decision": "QUARANTINE_FROM_ART02_MASTER_PENDING_ROW_LEVEL_PROVENANCE"
+    },
+    {
+      "sheet": "25_FASE46_AUDIT_LACUNAS",
+      "subject": "BR-CLM e 132 parágrafos; lacunas conceituais",
+      "provisionalAttribution": "CROSS_PROJECT_BR_CEF",
+      "guard": "não declarar 20 wordings recuperados",
+      "decision": "QUARANTINE_FROM_ART02_MASTER_PENDING_ROW_LEVEL_PROVENANCE"
+    },
+    {
+      "sheet": "26_FASE47_FONTES_CONCEITUAIS",
+      "subject": "CFIR/ERIC/Proctor/Powell/Mokkink",
+      "provisionalAttribution": "ART01_PROBABLE_SHARED",
+      "guard": "contexto conceitual apenas",
+      "decision": "QUARANTINE_FROM_ART02_MASTER_PENDING_ROW_LEVEL_PROVENANCE"
+    },
+    {
+      "sheet": "27_FASE48_EMPIRICOS_7",
+      "subject": "7 empíricos de marco conceitual; sobreposições",
+      "provisionalAttribution": "SHARED_REFERENCE_LAYER",
+      "guard": "fontes coincidentes não significam claim-equivalence",
+      "decision": "QUARANTINE_FROM_ART02_MASTER_PENDING_ROW_LEVEL_PROVENANCE"
+    },
+    {
+      "sheet": "28_FASE49_GATE_INTEGRIDADE_22",
+      "subject": "22 fontes e gate de integridade 24/10",
+      "provisionalAttribution": "ART01_PROBABLE_SHARED",
+      "guard": "não substituir REF01–REF07 28 fontes",
+      "decision": "QUARANTINE_FROM_ART02_MASTER_PENDING_ROW_LEVEL_PROVENANCE"
+    },
+    {
+      "sheet": "29_FINAIS_20261026_BIBLIOGRAFIA",
+      "subject": "22 fontes; linhas de argumentos conceituais",
+      "provisionalAttribution": "ART01_PROBABLE_SHARED",
+      "guard": "números AMA e autores distintos do pacote Artigo 02",
+      "decision": "QUARANTINE_FROM_ART02_MASTER_PENDING_ROW_LEVEL_PROVENANCE"
+    },
+    {
+      "sheet": "30_DECISOES_22_FONTES_20261027",
+      "subject": "parecer para professor; 22 fontes",
+      "provisionalAttribution": "ART01_PROBABLE_SHARED",
+      "guard": "decisão humana não preenchida",
+      "decision": "QUARANTINE_FROM_ART02_MASTER_PENDING_ROW_LEVEL_PROVENANCE"
+    },
+    {
+      "sheet": "31_AMA_REVISAO_28OUT",
+      "subject": "numeração AMA; 22 fontes",
+      "provisionalAttribution": "ART01_PROBABLE_SHARED",
+      "guard": "não aplicar numeração ao Artigo 02",
+      "decision": "QUARANTINE_FROM_ART02_MASTER_PENDING_ROW_LEVEL_PROVENANCE"
+    },
+    {
+      "sheet": "32_ETAPA3_RASTREIO_20261030",
+      "subject": "rastreio AMA EN/PT de 22 fontes",
+      "provisionalAttribution": "ART01_PROBABLE_SHARED",
+      "guard": "pode conter literatura compartilhada",
+      "decision": "QUARANTINE_FROM_ART02_MASTER_PENDING_ROW_LEVEL_PROVENANCE"
+    },
+    {
+      "sheet": "33_ETAPA3_IDENTIDADE_INTEGRIDADE_3110",
+      "subject": "DOI/retração das 22 fontes",
+      "provisionalAttribution": "ART01_PROBABLE_SHARED",
+      "guard": "status editoriais provisórios",
+      "decision": "QUARANTINE_FROM_ART02_MASTER_PENDING_ROW_LEVEL_PROVENANCE"
+    },
+    {
+      "sheet": "34_ETAPA3_DECISOES_CIENTIFICAS_3110",
+      "subject": "decisões técnicas 22 fontes; humanas pendentes",
+      "provisionalAttribution": "ART01_PROBABLE_SHARED",
+      "guard": "não promover decisões de outro artigo",
+      "decision": "QUARANTINE_FROM_ART02_MASTER_PENDING_ROW_LEVEL_PROVENANCE"
+    }
+  ],
+  "redFlags": [
+    "XLSX master trails REF07; mirror contains 12 REF07 extraction rows XTR-REF07-001..012",
+    "OOXML date serials vs ISO dates and cached formula outputs inflate raw differences",
+    "Google native formulas exist at tested sentinels; 106 exported formula differences are not proven formula losses",
+    "15 later tabs mix Artigo 01 framework/CEF and shared literature; no automatic migration",
+    "Source frozen v1.3 found at historical GitHub path, but no scientific fit certification or live claim wording changes",
+    "One old/new claim ID alias for EV-0183 requires named human adjudication"
+  ],
+  "preservation": {
+    "article01Modified": false,
+    "CEFv1Modified": false,
+    "originalENPTModified": false,
+    "masterXLSXModified": false,
+    "nativeMirrorModified": false,
+    "oldManifestModified": false,
+    "humanDecisionsAutoApplied": false,
+    "submission": false,
+    "emailSent": false
+  },
+  "sources": {
+    "cp02": "https://docs.google.com/document/d/1rSHBn6q7i7YY2_p5QCLpZzmn_vkP02XAF5LD4mvHjiw/edit",
+    "folderCp03": "https://drive.google.com/drive/folders/17bI7X8Kswp2_FLjD_VLNjuXBRRFSgxs0",
+    "master": "https://docs.google.com/spreadsheets/d/1xbBYlHYmaIzEDoO1yzFxTDDgTsoECN5D/edit",
+    "mirror": "https://docs.google.com/spreadsheets/d/17DV0GDLFH5-szuL8_WoYZNkjXtEaA41j0qMqLmXxXwg/edit",
+    "frozenMd": "https://github.com/matheusflorindo32/operational-readiness-brazil/blob/codex/full-manuscript-expansion/batch11_2h/International_v1.3-FINAL-SCIENTIFIC-FREEZE.md",
+    "sentenceProvenance": "https://github.com/matheusflorindo32/operational-readiness-brazil/blob/codex/full-manuscript-expansion/batch11_2h/FINAL_SENTENCE_PROVENANCE_POST_HUMAN.csv"
+  },
+  "nextAction": "CP04: independently hash-check frozen v1.3 original docx/markdown and reconcile exact wording/aliases in a separate non-production mapping; compare live 38-tab formula payloads and REF05/REF07 schema field-by-field in backups, then prepare Danilo review of the 20 claim/source links."
+}
