@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 2,
+  "id": "CP-20261106-ART02-CP04-TRACE-SCIENCE-EDITORIAL-R1",
+  "date": "2026-11-06",
+  "timezone": "America/Sao_Paulo",
+  "project": "matheusflorindo32/operational-readiness-brazil",
+  "title": "Operational Readiness Evidence Boundaries in Tactical and Public Safety Workforces",
+  "previousCheckpoint": "CP-20261105-ART02-CP03-SCHEMA-FREEZE-R1",
+  "previousBranch": "audit/artigo02-cp03-20261105",
+  "previousCommit": "39681b61d996df42a174832401162f9f67fb2d3e",
+  "branch": "audit/artigo02-cp04-20261106",
+  "scientificGate": "SCIENTIFIC_RECONCILIATION_PENDING",
+  "editorialGate": "JOH_REVIEW_PACKAGE_HUMAN_ASSESSMENT_ONLY",
+  "authorshipGate": "GEANDERSON_SAMPAIO_DE_OLIVEIRA_HUMAN_REVIEW_REQUIRED",
+  "sourceFreeze": {
+    "docx": {
+      "path": "batch11_2h/International_v1.3-FINAL-SCIENTIFIC-FREEZE.docx",
+      "githubBlobSha": "0dd95449d665727a29707c26c6ff1734a5415686",
+      "sha256": "f5886dd8e715ee5d4666213b5b59027e382185a3ae19ce7959417ce6fe672030",
+      "expectedSha256": "f5886dd8e715ee5d4666213b5b59027e382185a3ae19ce7959417ce6fe672030",
+      "status": "EXACT_BINARY_SHA256_MATCH",
+      "lengthBytes": 52544
+    },
+    "markdown": {
+      "path": "batch11_2h/International_v1.3-FINAL-SCIENTIFIC-FREEZE.md",
+      "sha256": "e94de20c2e0882f8bd023ac701d81fd8672bc07ada0b97cda0b6f11cbbbd688b",
+      "status": "EXACT_BINARY_SHA256_MATCH_IN_CP03"
+    },
+    "docxVsMarkdownParagraphContent": "NOT_INDEPENDENTLY_DIFFED; binary hashes prove identity to separate historical manifest entries, not line-by-line equivalence"
+  },
+  "claimSourceTrace": {
+    "centralClaims": 20,
+    "centralClaimIDsUnique": 20,
+    "sourcesCatalogued": 28,
+    "uniqueReferenceIDsUsedInClaims": 20,
+    "contextualUnlinkedReferenceIDs": 8,
+    "historicalProvenanceSentencesFoundVerbatim": 34,
+    "historicalProvenanceSentencesExpected": 34,
+    "directClaimToSentenceMatches": 19,
+    "aliasMatchedByEvidenceOnly": 1,
+    "alias": {
+      "current": "RC-EXP-INT-SLEEP-IMPL-01",
+      "historical": "RC-EXP-INT-SLEEP-01",
+      "evidence": "EV-0183",
+      "sentence": "INT13-S062",
+      "status": "HUMAN_REVIEW_HOLD"
+    },
+    "currentControlFrozenWordingVerified": 0,
+    "sourceToClaimFitHumanApproved": 0,
+    "historicalPMIDPMCIDDOIRegistered": 20,
+    "independentlyRecheckedBibliographicIdentitiesInThisPhase": [
+      "R001",
+      "R006",
+      "R007",
+      "R008",
+      "R025",
+      "R026"
+    ],
+    "independentEditorialIntegrityScreensAll28": false,
+    "pairwiseSampleOverlapIndependentAudit": false,
+    "limits": "Historical source data copied to separate audit JSON/CSV; presence of source URLs and previous source statuses is not scientific PASS."
+  },
+  "controlAudit": {
+    "masterHistoricalTabs": 38,
+    "nativeMirrorTabs": 53,
+    "postHistoricalTabs": 15,
+    "masterMirrorSynchronization": "BLOCKED",
+    "REF05": {
+      "sources": [
+        "R017",
+        "R018",
+        "R019",
+        "R020"
+      ],
+      "registryAlignedForCheckedColumns": "4/4",
+      "integrityRecordsPresent": "4/4",
+      "methodRowsPresent": "4/4",
+      "notes": "All reviews provisional; no independent reappraisal of full original papers in CP04"
+    },
+    "REF07": {
+      "sources": [
+        "R025",
+        "R026",
+        "R027",
+        "R028"
+      ],
+      "registryHeaderAlignment": "0/4",
+      "appraisalRowsInExpectedRange": "0/4",
+      "integrityCurrentStatus": "4/4 NOT_PERFORMED",
+      "extractionsRecorded": 12,
+      "extractionsDeclaredInHistoricalCheckpoint": 16,
+      "extractionsUnproven": 4,
+      "issue": "AUDIT-REF07-SCHEMA-01"
+    }
+  },
+  "enPtAudit": {
+    "originalEnglishModified": false,
+    "originalPortugueseModified": false,
+    "cp02PortugueseCopyModified": false,
+    "proposals": 6,
+    "proposalsApplied": 0,
+    "materialExamples": [
+      "R007 medics→médicos",
+      "R006 health professionals→médicos",
+      "R025 ice-slurry crossover mistranslated",
+      "R008 N270 denominator conflation",
+      "R015 descriptive association caution",
+      "R026 source participant-sex arithmetic 5+16!=20"
+    ],
+    "proposalRegister": "artigo02/checkpoints/CP04_REF05_REF07_ENPT_EDITORIAL_FINDINGS.json"
+  },
+  "journal": {
+    "officialUrl": "https://academic.oup.com/joh/pages/author-guidelines",
+    "readDate": "2026-11-06",
+    "articleType": "Review Article",
+    "limits": {
+      "maxBodyWords": 6000,
+      "maxAbstractWords": 250,
+      "keywords": "3–6",
+      "maxKeyPointsWords": 250,
+      "maxCombinedTablesFigures": 6,
+      "referenceCap": "none"
+    },
+    "peerReview": "single-anonymized",
+    "aiDisclosure": "Cover letter + Methods/Acknowledgments",
+    "typographyFullPackageClearance": "NOT_RECHECKED"
+  },
+  "inheritedOpenIssues": {
+    "total": 66,
+    "blocker": 13,
+    "major": 33,
+    "minor": 2,
+    "query": 18,
+    "cp04HumanCorrectionProposals": 6,
+    "note": "CP04 proposed editorial amendments may overlap existing 66; do not add them to issue count without deduplication; no old issue closed"
+  },
+  "preservation": {
+    "article01Touched": false,
+    "CEFv1Touched": false,
+    "ZoteroTouched": false,
+    "originalENPTTouched": false,
+    "xlsxMasterTouched": false,
+    "googleSheetMirrorTouched": false,
+    "humanDecisionsAltered": false,
+    "email": false,
+    "submission": false
+  },
+  "files": {
+    "cp04DriveFolder": "https://drive.google.com/drive/folders/1c5fiuPkhZ_BorqIAYpLkJQu0UOCbrc9N",
+    "daniloGoogleDoc": "https://docs.google.com/document/d/199bnwl4iKohq0UveUA-4ZTi7xgl5rYFijIeS58bPb5k/edit",
+    "daniloPDF": "https://drive.google.com/file/d/1fh3J2_XD9OATX-Mbwt69nChT_T6rzXSN/view",
+    "claimMatrixCSV": "artigo02/checkpoints/CP04_CLAIM_20_SENTENCE_SOURCE_TRACE_NONPRODUCTIVE.csv",
+    "claimMatrixJSON": "artigo02/checkpoints/CP04_CLAIM_20_EVIDENCE_MATRIZ_AUDITAVEL.json",
+    "driftEnPtJSON": "artigo02/checkpoints/CP04_REF05_REF07_ENPT_EDITORIAL_FINDINGS.json",
+    "checkpoint": "artigo02/checkpoints/CP-20261106-ART02-CP04-TRACE-SCIENCE-EDITORIAL-R1.json"
+  },
+  "checkpointEvidence": [
+    "GitHub SHA exact readback",
+    "Google Sheets range reads REF05/REF07",
+    "DOCX binary reconstructed via GitHub base64 with SHA256 validation",
+    "historical 34/34 sentences in v1.3 MD",
+    "PubMed/PMC and primary publisher current identity checks for six references",
+    "Google Docs Danilo report + PDF export",
+    "PDF rendered and page layout previewed"
+  ],
+  "completedTasks": [
+    "RECOVER_FREEZE_DOCX_HASH",
+    "MAP_20_CLAIMS_HISTORICAL_SENTENCES_NONPRODUCTIVE",
+    "DOCUMENT_ALIAS_EV0183",
+    "AUDIT_REF05_REF07_HEADINGS_AND_EXTRACTIONS",
+    "LOG_6_ENPT_FINDINGS_NO_EDITS",
+    "RECHECK_JOH_REVIEW_POLICY",
+    "CREATE_DANILO_REVIEW_PACKAGE_DOC_AND_PDF"
+  ],
+  "blockedTasks": [
+    {
+      "name": "SCIENTIFIC_HUMAN_CLAIM_FIT",
+      "reason": "0/20 source-to-claim decisions authorized"
+    },
+    {
+      "name": "EV0183_ALIAS",
+      "reason": "Two historically different IDs refer to same evidence; origin/rename human adjudication pending"
+    },
+    {
+      "name": "REF07_FIX",
+      "reason": "Unaligned columns and missing method rows; must repair copies and prove no science mutation"
+    },
+    {
+      "name": "REF07_EXTRACTS_4",
+      "reason": "16 historical declared, only 12 unique documented; no fabrication"
+    },
+    {
+      "name": "COHORT_OVERLAP",
+      "reason": "Pairwise cohort-independent audit not completed"
+    },
+    {
+      "name": "MANUSCRIPT_EN_PT_EDIT",
+      "reason": "Proposed material corrections require human approval"
+    },
+    {
+      "name": "AUTHORS",
+      "reason": "Geanderson status and order/CRediT/affiliations/consents not confirmed"
+    }
+  ],
+  "nextAction": "CP05 — VALIDATE CP04 COMMIT AND DRIVE PACK; THEN MAKE A NONPRODUCTION REF07 HEADER-CORRECTED COPY AND AN AUTHOR-DECISION CLAIM SHEET WITH 20 ORIGINAL CLAIM_IDs; REQUIRE HUMAN ADJUDICATION OF EV-0183 AND SIX EN/PT AMENDMENTS; NO MASTER SYNC OR SUBMISSION.",
+  "percent": {
+    "historicalSourceTextSentences": "34/34",
+    "historicalClaimDirectIDs": "19/20",
+    "ref07AppraisalRecords": "0/4",
+    "sourceClaimHumanApproved": "0/20"
+  },
+  "summaryCaution": "Checkpoint records audit output only, not approval for submission. Preserve all science."
+}
