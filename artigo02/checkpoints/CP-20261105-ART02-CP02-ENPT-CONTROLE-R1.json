@@ -1,0 +1,90 @@
+{
+  "schemaVersion": "artigo02-checkpoint-v1",
+  "id": "CP-20261105-ART02-CP02-ENPT-CONTROLE-R1",
+  "dateLocal": "2026-11-05",
+  "timezone": "America/Sao_Paulo",
+  "project": "matheusflorindo32/operational-readiness-brazil",
+  "article": "Operational Readiness Evidence Boundaries in Tactical and Public Safety Workforces",
+  "status": "DOCUMENTAL_PARTIAL",
+  "scientificGate": "SCIENTIFIC_RECONCILIATION_PENDING",
+  "historicalCheckpoint": "CP-20261022-AUDIT-FINAL-R1",
+  "historicalManifestDriveId": "1R_8l-_xc8xpXNKtI-U5YNJuva56YVpyZ",
+  "historicalManifestSha256Read": "225e8dd656854db2ddcff85cccdc41e7b7282d5672736c064c547180ac3de392",
+  "githubBaseBranch": "codex/full-manuscript-expansion",
+  "githubBaseCommit": "65f2f6cccfdd0f6deda0839e26849edbbfede52e",
+  "githubCheckpointBranch": "audit/artigo02-cp02-20261105",
+  "metrics": {
+    "openIssues": {
+      "value": 66,
+      "source": "11_PENDENCIAS!A6:F95",
+      "denominator": "90 status-coded rows"
+    },
+    "openBlockers": {
+      "value": 13,
+      "source": "11_PENDENCIAS!A6:F95"
+    },
+    "closedOrVerifiedEntries": {
+      "value": 24,
+      "source": "11_PENDENCIAS!A6:F95",
+      "interpretation": "status VERIFICADO, not necessarily closure of issue"
+    },
+    "extractions": {
+      "unique": 222,
+      "duplicates": 0,
+      "byBatch": {
+        "REF01": 75,
+        "REF02": 27,
+        "REF03": 40,
+        "REF04": 36,
+        "REF05": 16,
+        "REF06": 16,
+        "REF07": 12
+      },
+      "source": "05_RESULTADOS_REV!T40:U265"
+    },
+    "claims": {
+      "inventory": 20,
+      "authenticFrozenWordingsVerified": 0,
+      "certifiedClaimReferenceFits": 0
+    },
+    "references": {
+      "bibliographySlots": 28,
+      "scientificallyHomologated": null
+    },
+    "tabs": {
+      "historical": 38,
+      "observed": 53,
+      "laterUnattributed": 15
+    },
+    "translationCorrections": {
+      "scoped": 2,
+      "verified": 2,
+      "scope": "PT abstract Methods & Conclusions only",
+      "scientificApproval": false
+    }
+  },
+  "files": {
+    "driveCp01Folder": "https://drive.google.com/drive/folders/1DiVXr2aK_PQFcbPFqEiR6_wMmqTpFDbq",
+    "driveCp02Report": "https://docs.google.com/document/d/1rSHBn6q7i7YY2_p5QCLpZzmn_vkP02XAF5LD4mvHjiw/edit",
+    "ptbrWorkingCopy": "https://docs.google.com/document/d/1ygaQJ1H2NhVdd-zAvWdu4jRNXJTeAs_y_9v2Oy_zm9A/edit",
+    "sourceEN": "https://docs.google.com/document/d/1e7K8hKIDxRkWG2nlEdjA9K5v9p_5wpHq41vmnkBxncg/edit",
+    "sourcePT": "https://docs.google.com/document/d/1GawuMmqn5WsLI1tcbkxQT1VQJNnEVvTQUPb48YyaRnI/edit",
+    "officialGuidelines": "https://academic.oup.com/joh/pages/author-guidelines"
+  },
+  "authorship": {
+    "matheus": "researcher/author identified",
+    "danilo": "scientific supervisor; formal manuscript authorship not inferred",
+    "geanderson": "Geanderson Sampaio de Oliveira; candidate for authorship assessment; consent and contribution pending"
+  },
+  "preservation": {
+    "artigo01Modified": false,
+    "CEFv1Modified": false,
+    "sourceManuscriptsModified": false,
+    "masterXlsxModified": false,
+    "mirrorSheetModified": false,
+    "originalContinuityManifestModified": false,
+    "emailsSent": false,
+    "submitted": false
+  },
+  "nextAction": "CP03: attribute each of 15 later Sheets tabs to source article; compare 38 historical tab schemas with XLSX master on copies; recover actual v1.3 freeze and 20 exact claim wordings; do not alter scientific source or sync production until proven equivalent."
+}
