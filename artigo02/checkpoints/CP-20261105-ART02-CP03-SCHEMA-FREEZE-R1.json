@@ -49,7 +49,10 @@
       "sha256ReportedInHistoricalManifest": "e94de20c2e0882f8bd023ac701d81fd8672bc07ada0b97cda0b6f11cbbbd688b",
       "historicalManifestPath": "batch11_2h/FULL_MANUSCRIPT_FINAL_FREEZE_MANIFEST.json",
       "sourceLocated": "YES",
-      "independentSHA256Recheck": "NOT_PERFORMED"
+      "independentSHA256Recheck": "PASS_SOURCE_MD_EXACT_SHA256_MATCH_WITH_HISTORICAL_MANIFEST",
+      "readbackSHA256": "e94de20c2e0882f8bd023ac701d81fd8672bc07ada0b97cda0b6f11cbbbd688b",
+      "hashAlgorithmSelfTest": "sha256('abc') matched RFC 6234 standard test vector",
+      "docxSHA256Recheck": "NOT_PERFORMED"
     },
     "sentenceLedger": "batch11_2h/FINAL_SENTENCE_PROVENANCE_POST_HUMAN.csv",
     "verbatimSentencesInFrozenMd": 34,
@@ -258,7 +261,7 @@
     "OOXML date serials vs ISO dates and cached formula outputs inflate raw differences",
     "Google native formulas exist at tested sentinels; 106 exported formula differences are not proven formula losses",
     "15 later tabs mix Artigo 01 framework/CEF and shared literature; no automatic migration",
-    "Source frozen v1.3 found at historical GitHub path, but no scientific fit certification or live claim wording changes",
+    "Frozen v1.3 MD SHA-256 verified; scientific fit still 0/20, alias 1/20 pending",
     "One old/new claim ID alias for EV-0183 requires named human adjudication"
   ],
   "preservation": {
@@ -280,5 +283,5 @@
     "frozenMd": "https://github.com/matheusflorindo32/operational-readiness-brazil/blob/codex/full-manuscript-expansion/batch11_2h/International_v1.3-FINAL-SCIENTIFIC-FREEZE.md",
     "sentenceProvenance": "https://github.com/matheusflorindo32/operational-readiness-brazil/blob/codex/full-manuscript-expansion/batch11_2h/FINAL_SENTENCE_PROVENANCE_POST_HUMAN.csv"
   },
-  "nextAction": "CP04: independently hash-check frozen v1.3 original docx/markdown and reconcile exact wording/aliases in a separate non-production mapping; compare live 38-tab formula payloads and REF05/REF07 schema field-by-field in backups, then prepare Danilo review of the 20 claim/source links."
+  "nextAction": "CP04: independently verify v1.3 DOCX SHA256; use the hash-authenticated MD to create non-production literal sentence mappings C001–C020, hold EV-0183 alias, and resolve method/REF05–REF07 schema by header before proposing human approvals."
 }
