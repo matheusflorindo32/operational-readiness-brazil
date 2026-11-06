@@ -1,0 +1,170 @@
+{
+  "checkpoint": "CP04",
+  "date": "2026-11-06",
+  "status": "TECHNICAL_AUDIT_NO_SCIENTIFIC_PASS",
+  "scope": "Read-only study of cached canonical Google Sheets and EN/PT Docs, targeted primary-source rechecks. Human decisions not applied.",
+  "ref05": {
+    "scope": "R017–R020",
+    "evidenceIds": [
+      "EV-0386",
+      "EV-1458",
+      "EV-0167",
+      "EV-0252"
+    ],
+    "checks": {
+      "register": "02_CADASTRO_28!AJ22:AQ25 — correctly aligned at checked columns (journal name, authors, year, PMID, PMCID, links)",
+      "integrity": "08_INTEGRIDADE_REV!A22:Q25 — 4/4 records present, bounded notice screening; not global integrity certification",
+      "method": "07_METODO_APPRAISAL!A22:V25 — 4/4 source design and provisional tool entries present",
+      "recordStatus": "PROVISIONAL_ONLY; no confirmed external full-text reappraisal in CP04"
+    },
+    "remaining": "Treat REF05 provisional method and integrity records separately from R025–R028 schema drift; no automatic upgrade to SCIENTIFIC_PASS."
+  },
+  "ref07": {
+    "scope": "R025–R028",
+    "evidenceIds": [
+      "EV-1485",
+      "EV-1487",
+      "EV-1488",
+      "EV-1491"
+    ],
+    "checks": {
+      "registry": "02_CADASTRO_28!AJ30:BV33: misaligned — AJ 'R025' instead of expected 'Periódico verificado', AK '34375489' instead of author name, AL 'PMC8354579' instead of verified year, AR contains study design instead of publisher URL",
+      "integrity": "08_INTEGRIDADE_REV!A30:Q33: 4/4 rows exist but current-screening status NO/NOT_PERFORMED; only historical unverified metadata",
+      "method": "07_METODO_APPRAISAL!A30:V33: 0/4 expected rows; legacy design/appraisal descriptions stranded in registry misaligned columns",
+      "extractions": "05_RESULTADOS_REV!T250:AF261: 12/12 unique XTR-REF07-001 through 012; 4-source group, three extractions per source in verified table",
+      "history": "16_CHECKPOINTS!D13 says '16 extraction rows added'; 05_RESULTADOS_REV contains only 12; discrepancy remains unresolved, do not invent 4",
+      "humanHold": "11_PENDENCIAS!A95 AUDIT-REF07-SCHEMA-01; 11_PENDENCIAS!A90:A94 other REF07 scope and wording issues"
+    },
+    "risks": [
+      {
+        "reference": "R025",
+        "sourceDOI": "10.1002/1348-9585.12263",
+        "risk": "N=12 young male firefighters in simulated heat chamber; cannot infer field heat-injury prevention or Brazilian operations",
+        "original": "https://pubmed.ncbi.nlm.nih.gov/34375489/"
+      },
+      {
+        "reference": "R026",
+        "sourceDOI": "10.1080/15502783.2025.2536146",
+        "risk": "Publisher/PubMed explicitly say n=20, F=5, M=16; arithmetic 5+16=21, not reconciled in publication. Do not silently harmonize.",
+        "original": "https://pubmed.ncbi.nlm.nih.gov/40693646/"
+      },
+      {
+        "reference": "R027",
+        "sourceDOI": "10.1002/ajim.23175",
+        "risk": "Heterogeneous studies and no universal pooled cooling effect; current editorial integrity recheck pending.",
+        "original": "https://doi.org/10.1002/ajim.23175"
+      },
+      {
+        "reference": "R028",
+        "sourceDOI": "10.1371/journal.pone.0209419",
+        "risk": "Reliability/agreement only; no universal task validity/equity/readiness benefit.",
+        "original": "https://doi.org/10.1371/journal.pone.0209419"
+      }
+    ],
+    "status": "SCHEMA_DRIFT_CONFIRMED; no updates to source or mirror"
+  },
+  "enPt": [
+    {
+      "id": "ENPT-CP04-01",
+      "ref": "R007",
+      "EN": "English manuscript paragraph index 45 and 52",
+      "PT": "PT review paragraph index 45 and 52",
+      "original": "tactical police medics",
+      "actual": "médicos da polícia tática / médicos policiais táticos",
+      "proposed": "policiais táticos com atribuições de atendimento pré-hospitalar",
+      "method": "Source eligibility specifies police officers with medic responsibility; not necessarily physicians",
+      "evidence": "https://doi.org/10.1186/s13049-026-01621-5",
+      "status": "NOT_APPLIED_HUMAN_DECISION"
+    },
+    {
+      "id": "ENPT-CP04-02",
+      "ref": "R006",
+      "EN": "English manuscript paragraph 53",
+      "PT": "PT review paragraph 46",
+      "original": "health professionals",
+      "actual": "médicos",
+      "proposed": "profissionais de saúde",
+      "method": "Study includes physiotherapists, nutrition/dietetics, sports medicine, others; distinction scientific.",
+      "evidence": "https://pubmed.ncbi.nlm.nih.gov/42365570/",
+      "status": "NOT_APPLIED_HUMAN_DECISION"
+    },
+    {
+      "id": "ENPT-CP04-03",
+      "ref": "R025/R027",
+      "EN": "English manuscript paragraph 64",
+      "PT": "PT review paragraph 64",
+      "original": "firefighter ice-slurry crossover result",
+      "actual": "resultado do cruzamento entre gelo e pasta de bombeiro",
+      "proposed": "resultado do estudo cruzado com ingestão de suspensão de gelo (ice slurry) em bombeiros",
+      "method": "Crossover study of ice slurry beverage versus water and carbohydrate-electrolyte drinks; not 'firefighter paste'",
+      "evidence": "https://pubmed.ncbi.nlm.nih.gov/34375489/",
+      "status": "NOT_APPLIED_HUMAN_DECISION"
+    },
+    {
+      "id": "ENPT-CP04-04",
+      "ref": "R008",
+      "EN": "EN paragraph 34",
+      "PT": "PT paragraph 34",
+      "original": "270 participants used ... app and wearable monitoring",
+      "actual": "270 participantes usaram ... aplicativo e monitoramento vestível",
+      "proposed": "descrever N=270 como amostra analítica, discriminando 294 inscritos, 288 login, 278 wearable e 251 relatórios de pacientes quando relevante",
+      "method": "source uses multiple denominators; wording can imply common denominator to every activity",
+      "evidence": "https://www.frontiersin.org/journals/sleep/articles/10.3389/frsle.2024.1304743/full",
+      "status": "NOT_APPLIED_HUMAN_DECISION"
+    },
+    {
+      "id": "ENPT-CP04-05",
+      "ref": "R015",
+      "EN": "EN paragraph 43",
+      "PT": "PT paragraph 43",
+      "original": "musculoskeletal-complaint associations",
+      "actual": "associações de queixas musculoesqueléticas",
+      "proposed": "descrever exposições ocupacionais e queixas musculoesqueléticas, evitando relação inferencial se estudo for apenas descritivo",
+      "method": "Recorded prior source appraisal flagged no adjusted inferential association; re-check current primary study before applying",
+      "evidence": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5886608/",
+      "status": "PROPOSAL_WITH_SOURCE_RECHECK_REQUIRED"
+    },
+    {
+      "id": "ENPT-CP04-06",
+      "ref": "R026",
+      "EN": "Contextual reference",
+      "PT": "Contextual reference",
+      "original": "n=20, F=5, M=16",
+      "actual": "A própria fonte apresenta contagem incompatível",
+      "proposed": "manter 'n=20; sex counts inconsistent in published report' até esclarecimento editorial",
+      "method": "Arithmetic inconsistency in source, not translation",
+      "evidence": "https://pubmed.ncbi.nlm.nih.gov/40693646/",
+      "status": "SOURCE_CORRECTION_PENDING"
+    }
+  ],
+  "journal": {
+    "journal": "Journal of Occupational Health",
+    "publisher": "Oxford University Press",
+    "official": "https://academic.oup.com/joh/pages/author-guidelines",
+    "sourceDateChecked": "2026-11-06",
+    "type": "Review Article",
+    "limits": {
+      "bodyWords": 6000,
+      "structuredAbstractWords": 250,
+      "keywords": "3–6",
+      "keyPointsWords": 250,
+      "figuresAndTablesCombined": 6,
+      "references": "no limit"
+    },
+    "peerReview": "single-anonymized",
+    "ai": "disclose AI use in cover letter and Methods or Acknowledgments",
+    "authorOrder": "human approval pending",
+    "status": "ARTICLE_TYPE_AND_JOURNAL_RULES_RECHECKED; FULL_PACKAGE_NOT_REAPPRAISED"
+  },
+  "preservation": {
+    "originalENModified": false,
+    "originalPTModified": false,
+    "xlsxMasterModified": false,
+    "googleMirrorModified": false,
+    "article01Modified": false,
+    "cefV1Modified": false,
+    "submitted": false,
+    "sentEmail": false,
+    "autoApprovedClaims": 0
+  }
+}
