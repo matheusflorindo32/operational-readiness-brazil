@@ -1,0 +1,140 @@
+{
+  "schemaVersion": "artigo02-cp05-checkpoint-v1",
+  "id": "CP-20261123-ART02-CP05-DECISOES-REF07-CONTINUIDADE-R1",
+  "dateOfThisVerification": "2026-11-23",
+  "phaseStartedLocal": "2026-11-06",
+  "timezone": "America/Sao_Paulo",
+  "article": "Operational Readiness Evidence Boundaries in Tactical and Public Safety Workforces",
+  "repository": "matheusflorindo32/operational-readiness-brazil",
+  "branch": "audit/artigo02-cp05-20261106",
+  "baseCheckpoint": "CP-20261106-ART02-CP04-TRACE-SCIENCE-EDITORIAL-R1",
+  "baseCommit": "40f17619e2948b584f91985c01c152bce499c050",
+  "status": "CP05_DOCUMENTAL_AND_OPERATIONAL_CHECKPOINT_RECORDED",
+  "scientificGate": "SCIENTIFIC_RECONCILIATION_PENDING",
+  "editorialGate": "HUMAN_ASSESSMENT_PENDING_NO_SUBMISSION",
+  "authorshipGate": "GEANDERSON_SAMPAIO_DE_OLIVEIRA_CREDIT_AND_CONSENT_NOT_APPROVED",
+  "sources": {
+    "originalMirror": "https://docs.google.com/spreadsheets/d/17DV0GDLFH5-szuL8_WoYZNkjXtEaA41j0qMqLmXxXwg/edit",
+    "masterXLSX": "https://docs.google.com/spreadsheets/d/1xbBYlHYmaIzEDoO1yzFxTDDgTsoECN5D/edit",
+    "historicalCp04": "https://github.com/matheusflorindo32/operational-readiness-brazil/blob/audit/artigo02-cp04-20261106/artigo02/checkpoints/CP-20261106-ART02-CP04-TRACE-SCIENCE-EDITORIAL-R1.json",
+    "cp04ScientificMatrix": "https://github.com/matheusflorindo32/operational-readiness-brazil/blob/audit/artigo02-cp04-20261106/artigo02/checkpoints/CP04_CLAIM_20_EVIDENCE_MATRIZ_AUDITAVEL.json",
+    "cp04Findings": "https://github.com/matheusflorindo32/operational-readiness-brazil/blob/audit/artigo02-cp04-20261106/artigo02/checkpoints/CP04_REF05_REF07_ENPT_EDITORIAL_FINDINGS.json",
+    "ref07BackupXlsx": "https://drive.google.com/file/d/1VtAM8Ez7sBvDMm5fMMLGaoTdEUwdp8jI/view"
+  },
+  "artifacts": {
+    "cp05DriveFolder": "https://drive.google.com/drive/folders/1nxRYGkwVO6vzYgfaqPZtpnr2_xZ2cPV1",
+    "cp05NativeSheet": "https://docs.google.com/spreadsheets/d/1PTAaXlv6q8d6fJgCGf96hsFt4FdnuPmnn35buOmgjDw/edit",
+    "cp05SpreadsheetExport": "https://drive.google.com/file/d/1oV3xAlXoA_t3DD85cE437K3ZxnrXivnK/view",
+    "cp05GoogleDocReport": "https://docs.google.com/document/d/1uJsbDJ23jSlvdBl-Y0dJRFw-j6WXVz9PB9oh3C0YkEE/edit",
+    "docAndSheetReadBackVerified": true,
+    "sheets": [
+      "CADASTRO_ORIGINAL_COPIA",
+      "00_PAINEL_CP05",
+      "01_CLAIMS_DECISOES",
+      "02_REF07_REPARADA",
+      "03_REF07_12_EXTRACOES",
+      "04_FONTES_28",
+      "05_RISCO_SOBREPOSICAO",
+      "06_PROPOSTAS_ENPT",
+      "07_CHANGELOG_GATE",
+      "17_LISTAS_LEGENDA"
+    ]
+  },
+  "verifiedMetrics": {
+    "claims": "20/20",
+    "humanClaimAccept": 0,
+    "humanClaimPending": 20,
+    "references": "28/28",
+    "centralReferences": 20,
+    "contextualReferences": 8,
+    "ref07RemappedView": "4/4",
+    "ref07ObservedXtrCount": 12,
+    "ref07HistoricalClaimedXtrCount": 16,
+    "ref07UnprovedDifference": 4,
+    "ref07MethodAppraisalInOriginal": "0/4",
+    "enPtProposals": 6,
+    "enPtHumanDecisions": "0/6",
+    "overlapReviewPairs": 4,
+    "aliasEv0183": 1,
+    "historicalIssuesLastAudited": 66,
+    "historicalBlockersLastAudited": 13,
+    "scientificReferenceClaimFitHumanApproved": "0/20",
+    "summary": "Percentages apply to data inventory, not scientific completion."
+  },
+  "criticalFindings": [
+    {
+      "key": "AUDIT-REF07-SCHEMA-01",
+      "status": "OPEN",
+      "detail": "View of R025-R028 was header-remapped from already stored legacy values into a distinct workbook; original headers/data not modified."
+    },
+    {
+      "key": "REF07_EXTRACTIONS",
+      "status": "OPEN",
+      "detail": "12 unique XTR-REF07-001..012 visible in live source; 16 stated in older checkpoint, 4 unproved. No fabrication."
+    },
+    {
+      "key": "EV-0183",
+      "status": "HOLD_HUMAN",
+      "detail": "Current RC-EXP-INT-SLEEP-IMPL-01 differs from historical RC-EXP-INT-SLEEP-01; source sentence INT13-S062; no silent rename."
+    },
+    {
+      "key": "R003_R004",
+      "status": "COHORT_OVERLAP_UNDETERMINED",
+      "detail": "Shared ethics/site but n24 and n26 sex distributions differ; cannot infer individual overlap or sum as independent."
+    },
+    {
+      "key": "R021_R022",
+      "status": "TIMEFRAME_NONOVERLAP_SUGGESTED",
+      "detail": "Reported recruitment periods 2015–2016 versus 2006–2012, same academy research network; raw individual data not inspected."
+    },
+    {
+      "key": "R002",
+      "status": "MATERIAL_WORDING_QUERY",
+      "detail": "BP-category comparison p=0.013 vs broad no-role-differences statement; human scientific wording adjudication."
+    },
+    {
+      "key": "R015",
+      "status": "MATERIAL_WORDING_QUERY",
+      "detail": "Descriptive survey does not automatically support inferential/adjusted 'association' language."
+    },
+    {
+      "key": "ENPT",
+      "status": "SIX_PROPOSALS_UNAPPLIED",
+      "detail": "Six source/translation proposals tracked in independent copy, none changed in English/Portuguese originals."
+    }
+  ],
+  "handoff": {
+    "objective": "Complete independent source-level verification of 20 claim-result-reference relations and decide whether/which historical freeze wording may be promoted.",
+    "firstAction": "Open CP05 native sheet tab 01_CLAIMS_DECISOES (20 rows) and begin with C008 EV-0183 ID alias, then R002/R003/R004/R015 and REF07 XTR history reconciliation.",
+    "nextPhase": "CP06",
+    "humanDecisionWorkflow": "Danilo and authors to review exact sentences, source locators, study design ceilings, whether ACCEPT/REWORD/EXCLUDE/HOLD, evidence overlap and EN/PT proposals; no authorship assumption for Geanderson.",
+    "ref07SafeRepairWorkflow": "Use 02_REF07_REPARADA as proposal, cross-check CADASTRO_ORIGINAL_COPIA, keep originals unchanged and do not invent 4 missing XTRs.",
+    "nextCheckpointLabel": "CP06_SCIENTIFIC_REVIEW_PENDING",
+    "noAutoSync": true,
+    "noEmail": true,
+    "noSubmission": true
+  },
+  "protection": {
+    "article01NotTouchedByThisPhase": true,
+    "cefV1NotTouchedByThisPhase": true,
+    "manuscriptENPTOriginalsNotTouchedByThisPhase": true,
+    "sourceMasterAndMirrorNotTouchedByThisPhase": true,
+    "noHumanDecisionsFabricated": true,
+    "noMergeIntoMain": true
+  },
+  "changeLog": [
+    "CP05 branch created from CP04 exact SHA (on 2026-11-06); branch remained at base before final checkpoint.",
+    "Google Sheets isolated native copy created and moved to CP05 Drive folder; source registry copy and supporting legend retained.",
+    "Eight CP05 tracking tabs written; human decision validations applied; summary formulas repaired (pt_BR locale).",
+    "Four REF07 source rows remapped into header-corrected proposal view; 12 recorded XTR rows copied; original source untouched.",
+    "Twenty claims and 28 references preserved in separate matrix; four overlap-risk pairs and six EN/PT proposals recorded.",
+    "XLSX export of CP05 decision sheet saved to Drive; 109120 bytes in last verified metadata. Hash not recomputed.",
+    "2026-11-23 live readback confirmed 20 pending decisions, 0 accepted, 28 references, 4 REF07 and 12 XTR, six proposals.",
+    "2026-11-23 Google Docs CP05 continuity report created with 20 claim-by-claim technical notes and read back (65 paragraphs)."
+  ],
+  "caveats": [
+    "This checkpoint records actual technical preparation and artifacts, not a human scientific review.",
+    "Current editorial integrity screening of all 28 references, independent overlap pairwise confirmation, 4 unproved REF07 XTR and full methodological appraisal remain unfinished.",
+    "Prior metadata may not capture later source changes in connected systems; recheck branch/file revision at next handoff."
+  ]
+}
